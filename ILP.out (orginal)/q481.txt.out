@@ -1,0 +1,40 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 179 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 7 | 273 | x=(((74+35)-18)*3) | x 74 35 + 18 - 3 * = | x:cost 74:cent 35:cent +:cent 18:cent -:cent 3:cost *:cost =:cost
+EXPR: 0 | POS | INT | 12 | 7 | 273 | (x/(74+(35-18)))=3 | x 74 35 18 - + / 3 = | x:pencil 74:cent 35:cent 18:cent -:cent +:cent /:pencil 3:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 7 | 171 | 74=((35-18)+(x/3)) | 74 35 18 - x 3 / + = | 74:cent 35:cent 18:cent -:cent x:cent 3:pencil /:cent +:cent =:cent
+EXPR: 0 | POS | INT | 12 | 7 | 45 | 74=((35+x)-(18/3)) | 74 35 x + 18 3 / - = | 74:cent 35:cent x:cent +:cent 18:cent 3:pencil /:cent -:cent =:cent
+EXPR: 0 | POS | INT | 14 | 7 | 19 | 74=(35+((3*x)-18)) | 74 35 3 x * 18 - + = | 74:cent 35:cent 3:cent x:cost *:cent 18:cent -:cent +:cent =:cent
+EXPR: 0 | POS | INT | 14 | 7 | 171 | (x/(74+(18-35)))=3 | x 74 18 35 - + / 3 = | x:pencil 74:cent 18:cent 35:cent -:cent +:cent /:pencil 3:pencil =:pencil
+EXPR: 0 | POS | INT | 14 | 7 | 19 | 74=(35+((x*3)-18)) | 74 35 x 3 * 18 - + = | 74:cent 35:cent x:cent 3:pencil *:cent 18:cent -:cent +:cent =:cent
+EXPR: 0 | POS | INT | 20 | 7 | 2112 | x=((74+(35*18))*3) | x 74 35 18 * + 3 * = | x:pencil 74:cent 35:cent 18:cost *:cent +:cent 3:pencil *:pencil =:pencil
+EXPR: 0 | POS | INT | 20 | 7 | 94 | x=((74+35)-(18-3)) | x 74 35 + 18 3 - - = | x:cent 74:cent 35:cent +:cent 18:cent 3:cent -:cent -:cent =:cent
+EXPR: 0 | POS | INT | 20 | 7 | 88 | x=((74+35)-(18+3)) | x 74 35 + 18 3 + - = | x:cent 74:cent 35:cent +:cent 18:cent 3:cent +:cent -:cent =:cent
+EXPR: 0 | POS | INT | 20 | 7 | 2644 | x=((74*35)+(18*3)) | x 74 35 * 18 3 * + = | x:pencil 74:cent 35:pencil *:pencil 18:cent 3:pencil *:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 22 | 7 | 124 | x=((74+35)-(3-18)) | x 74 35 + 3 18 - - = | x:cent 74:cent 35:cent +:cent 3:cent 18:cent -:cent -:cent =:cent
+EXPR: 0 | POS | INT | 22 | 7 | 60 | 74=((35+(x-18))-3) | 74 35 x 18 - + 3 - = | 74:cent 35:cent x:cent 18:cent -:cent +:cent 3:cent -:cent =:cent
+EXPR: 0 | POS | INT | 24 | 7 | 1792 | 35=((x/(74-18))+3) | 35 x 74 18 - / 3 + = | 35:cost x:cost 74:cent 18:cent -:cent /:cost 3:cost +:cost =:cost
+EXPR: 0 | POS | INT | 24 | 7 | 2128 | 35=((x/(74-18))-3) | 35 x 74 18 - / 3 - = | 35:cost x:cost 74:cent 18:cent -:cent /:cost 3:cost -:cost =:cost
+EXPR: 0 | POS | INT | 25 | 7 | 46515 | x=(((74*18)-3)*35) | x 74 18 * 3 - 35 * = | x:pencil 74:cent 18:pencil *:pencil 3:pencil -:pencil 35:cent *:pencil =:pencil
+EXPR: 0 | POS | INT | 25 | 7 | 46725 | x=(((74*18)+3)*35) | x 74 18 * 3 + 35 * = | x:pencil 74:cent 18:pencil *:pencil 3:pencil +:pencil 35:cent *:pencil =:pencil
+EXPR: 0 | POS | INT | 32 | 7 | 55 | x=(35+(74-(18*3))) | x 35 74 18 3 * - + = | x:cent 35:cent 74:cent 18:pencil 3:cent *:cent -:cent +:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 163 | x=(35+(74+(18*3))) | x 35 74 18 3 * + + = | x:cent 35:cent 74:cent 18:pencil 3:cent *:cent +:cent +:cent =:cent
+EXPR: 0 | POS | INT | 32 | 7 | 2536 | (74*35)=(x+(18*3)) | 74 35 * x 18 3 * + = | 74:cent 35:pencil *:pencil x:pencil 18:cent 3:pencil *:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 34 | 7 | 756 | 74=((35-3)+(x/18)) | 74 35 3 - x 18 / + = | 74:cent 35:cent 3:cent -:cent x:cent 18:pencil /:cent +:cent =:cent
+EXPR: 0 | POS | INT | 35 | 7 | 1519 | ((74*(18+3))-35)=x | 74 18 3 + * 35 - x = | 74:cent 18:pencil 3:pencil +:pencil *:pencil 35:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 40 | 7 | 1437 | ((x-(35*3))/74)=18 | x 35 3 * - 74 / 18 = | x:cost 35:pencil 3:cost *:cost -:cost 74:cent /:cost 18:cost =:cost
+EXPR: 0 | POS | INT | 40 | 7 | 1227 | ((x+(35*3))/74)=18 | x 35 3 * + 74 / 18 = | x:cost 35:pencil 3:cost *:cost +:cost 74:cent /:cost 18:cost =:cost
+EXPR: 0 | POS | INT | 41 | 7 | 234 | ((x*3)/(74-35))=18 | x 3 * 74 35 - / 18 = | x:cost 3:cent *:cent 74:pencil 35:pencil -:pencil /:cent 18:cent =:cent
+EXPR: 0 | POS | INT | 43 | 7 | 3222 | (35*3)=((x/18)-74) | 35 3 * x 18 / 74 - = | 35:cent 3:cost *:cost x:cost 18:cent /:cost 74:cost -:cost =:cost
+EXPR: 0 | POS | INT | 43 | 7 | 1437 | 3=((x-(74*18))/35) | 3 x 74 18 * - 35 / = | 3:pencil x:pencil 74:cost 18:pencil *:pencil -:pencil 35:cent /:pencil =:pencil
+EXPR: 0 | POS | INT | 44 | 7 | 46616.9999999999 | (74*35)=((3+x)/18) | 74 35 * 3 x + 18 / = | 74:cent 35:pencil *:pencil 3:pencil x:pencil +:pencil 18:cost /:pencil =:pencil
+EXPR: 0 | POS | INT | 44 | 7 | 2644 | ((x-(18*3))/74)=35 | x 18 3 * - 74 / 35 = | x:cost 18:pencil 3:cost *:cost -:cost 74:cent /:cost 35:cost =:cost
+EXPR: 0 | POS | INT | 47 | 7 | 46617.0000000002 | (74*18)=((3+x)/35) | 74 18 * 3 x + 35 / = | 74:cent 18:pencil *:pencil 3:pencil x:pencil +:pencil 35:cost /:pencil =:pencil
+EXPR: 0 | POS | INT | 47 | 7 | 44730 | (35*18)=(x/(74-3)) | 35 18 * x 74 3 - / = | 35:cent 18:pencil *:pencil x:pencil 74:cent 3:cent -:cent /:pencil =:pencil
+EXPR: 0 | POS | INT | 47 | 7 | 48510 | (35*18)=(x/(74+3)) | 35 18 * x 74 3 + / = | 35:cent 18:pencil *:pencil x:pencil 74:cent 3:cent +:cent /:pencil =:pencil
+EXPR: 0 | POS | INT | 47 | 7 | 1816 | (35*18)=((x+74)/3) | 35 18 * x 74 + 3 / = | 35:pencil 18:cent *:cent x:cent 74:cent +:cent 3:cost /:cent =:cent
+EXPR: 0 | POS | INT | 50 | 7 | 2386 | (((x-18)/74)+3)=35 | x 18 - 74 / 3 + 35 = | x:cost 18:cost -:cost 74:pencil /:cost 3:cost +:cost 35:cost =:cost
+EXPR: 0 | POS | INT | 57 | 7 | 18 | (74-(3+x))=(35+18) | 74 3 x + - 35 18 + = | 74:pencil 3:pencil x:pencil +:pencil -:pencil 35:pencil 18:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 60 | 7 | 1816 | (35*3)=((x+74)/18) | 35 3 * x 74 + 18 / = | 35:pencil 3:cent *:cent x:cent 74:cent +:cent 18:cost /:cent =:cent
+NET 36 unique, non-negative, integer-valued solutions found out of 179 total solutions

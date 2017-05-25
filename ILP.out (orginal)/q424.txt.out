@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 11 | 704 | (88*8)=x | 88 8 * x = | 88:stone 8:flower *:flower x:flower =:flower
+EXPR: 1 | POS | INT | 10 | 11 | 11 | (88/8)=x | 88 8 / x = | 88:flower 8:bracelet /:flower x:flower =:flower
+EXPR: 0 | POS | INT | 10 | 11 | 704 | x=(88*8) | x 88 8 * = | x:stone 88:stone 8:bracelet *:stone =:stone
+EXPR: 1 | POS | INT | 10 | 11 | 11 | x=(88/8) | x 88 8 / = | x:flower 88:flower 8:bracelet /:flower =:flower
+EXPR: 1 | POS | INT | 12 | 11 | 11 | 88=(8*x) | 88 8 x * = | 88:flower 8:bracelet x:flower *:flower =:flower
+EXPR: 1 | POS | INT | 12 | 11 | 11 | (88/x)=8 | 88 x / 8 = | 88:bracelet x:flower /:bracelet 8:bracelet =:bracelet
+EXPR: 1 | POS | INT | 12 | 11 | 11 | 88=(x*8) | 88 x 8 * = | 88:flower x:flower 8:bracelet *:flower =:flower
+EXPR: 0 | POS | INT | 12 | 11 | 704 | 88=(x/8) | 88 x 8 / = | 88:flower x:flower 8:bracelet /:flower =:flower
+EXPR: 0 | POS | INT | 12 | 11 | 704 | (x/88)=8 | x 88 / 8 = | x:flower 88:stone /:flower 8:flower =:flower
+EXPR: 1 | POS | INT | 14 | 11 | 11 | (8*x)=88 | 8 x * 88 = | 8:stone x:flower *:stone 88:stone =:stone
+EXPR: 0 | POS | INT | 14 | 11 | 704 | (x/8)=88 | x 8 / 88 = | x:stone 8:bracelet /:stone 88:stone =:stone
+EXPR: 1 | POS | INT | 14 | 11 | 11 | (x*8)=88 | x 8 * 88 = | x:stone 8:bracelet *:stone 88:stone =:stone
+EXPR: 0 | POS | INT | 14 | 11 | 704 | 8=(x/88) | 8 x 88 / = | 8:flower x:flower 88:stone /:flower =:flower
+EXPR: 1 | POS | INT | 14 | 11 | 11 | 8=(88/x) | 8 88 x / = | 8:stone 88:stone x:flower /:stone =:stone
+EXPR: 0 | POS | INT | 20 | 11 | 96 | x=(88+8) | x 88 8 + = | x:stone 88:stone 8:stone +:stone =:stone
+EXPR: 0 | POS | INT | 20 | 11 | 80 | x=(88-8) | x 88 8 - = | x:flower 88:flower 8:flower -:flower =:flower
+EXPR: 0 | POS | INT | 20 | 11 | 96 | (88+8)=x | 88 8 + x = | 88:stone 8:stone +:stone x:stone =:stone
+EXPR: 0 | POS | INT | 20 | 11 | 80 | (88-8)=x | 88 8 - x = | 88:flower 8:flower -:flower x:flower =:flower
+EXPR: 0 | POS | INT | 22 | 11 | 96 | 88=(x-8) | 88 x 8 - = | 88:stone x:stone 8:stone -:stone =:stone
+EXPR: 0 | POS | INT | 22 | 11 | 80 | 88=(x+8) | 88 x 8 + = | 88:stone x:stone 8:stone +:stone =:stone
+EXPR: 0 | POS | INT | 22 | 11 | 96 | (x-88)=8 | x 88 - 8 = | x:bracelet 88:bracelet -:bracelet 8:bracelet =:bracelet
+EXPR: 0 | POS | INT | 22 | 11 | 80 | (88-x)=8 | 88 x - 8 = | 88:stone x:stone -:stone 8:stone =:stone
+EXPR: 0 | POS | INT | 22 | 11 | 80 | 88=(8+x) | 88 8 x + = | 88:flower 8:flower x:flower +:flower =:flower
+EXPR: 0 | POS | INT | 24 | 11 | 80 | (8+x)=88 | 8 x + 88 = | 8:flower x:flower +:flower 88:flower =:flower
+EXPR: 0 | POS | INT | 24 | 11 | 96 | (x-8)=88 | x 8 - 88 = | x:stone 8:stone -:stone 88:stone =:stone
+EXPR: 0 | POS | INT | 24 | 11 | 80 | (x+8)=88 | x 8 + 88 = | x:flower 8:flower +:flower 88:flower =:flower
+EXPR: 0 | POS | INT | 24 | 11 | 80 | 8=(88-x) | 8 88 x - = | 8:stone 88:stone x:stone -:stone =:stone
+EXPR: 0 | POS | INT | 24 | 11 | 96 | 8=(x-88) | 8 x 88 - = | 8:stone x:stone 88:stone -:stone =:stone
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions
