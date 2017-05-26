@@ -18,7 +18,7 @@ For those without access to CPLEX libraries, a statically linked executable is a
 
 *Run the following sequence of commands:
 
-
+[code]
 ./preSplit.sh questions.json
 
 python3 split_data.py questions.json
@@ -38,6 +38,7 @@ mv ILP.out ../../../
 cd !$
 
 for i in {0..4}; do ./runone.sh $i ; done
+[\code]
 
 
 ```Results are placed in results folder```
