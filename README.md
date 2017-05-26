@@ -1,8 +1,8 @@
-Code for "Parsing Algebraic Word Problems into Equations"
+##Code for "Parsing Algebraic Word Problems into Equations"
 
-Rik Koncel-Kedziorski, Hannaneh Hajishirzi, Ashish Sabharwal, Oren Etzioni, Siena Dumas Ang
+`Rik Koncel-Kedziorski, Hannaneh Hajishirzi, Ashish Sabharwal, Oren Etzioni, Siena Dumas Ang`
 
-TACL 2015 vol 3
+##TACL 2015 vol 3
 
 
 
@@ -10,13 +10,13 @@ SingleEQ Dataset is in questions.json
 Replace this with a similarly formatted dataset as desired
 
 
-Running Instructions:
+*Running Instructions:
 
 Download, install, and run corenlp-python https://pypi.python.org/pypi/corenlp-python
 Please read the instructions for the CPLEX code at https://gitlab.cs.washington.edu/ALGES/TACL2015/tree/master/arith-ilp/arith-cplex
 For those without access to CPLEX libraries, a statically linked executable is available
 
-Run the following sequence of commands:
+*Run the following sequence of commands:
 
 
 ./preSplit.sh questions.json
@@ -40,6 +40,6 @@ cd !$
 for i in {0..4}; do ./runone.sh $i ; done
 
 
-Results are placed in results folder
+```Results are placed in results folder```
 
 
