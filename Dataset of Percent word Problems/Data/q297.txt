@@ -1,0 +1,1 @@
+A test has 20 questions. If peter gets 80% correct, how many questions did peter missed?

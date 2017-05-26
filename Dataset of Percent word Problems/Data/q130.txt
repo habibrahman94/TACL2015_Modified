@@ -1,0 +1,1 @@
+Shane's Cafe offers two kinds of espresso: single-shot and double-shot. Yesterday afternoon, the cafe sold 20 espressos in all, 60% of which were single-shot. How many single-shot espressos did the cafe sell?

@@ -1,0 +1,1 @@
+A medical provider is doing a study to determine the average time spent waiting before an appointment. When the study started, the average wait time was 16 minutes. Currently, the average is 4 minutes. What is the percent of decrease in the average wait time?

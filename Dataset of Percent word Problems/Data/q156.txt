@@ -1,0 +1,1 @@
+An arborist examined trees in an orchard to see if they were infected with a virus. Out of 60 trees, 70% had the virus. How many trees were infected with the virus?

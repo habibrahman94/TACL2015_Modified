@@ -1,0 +1,1 @@
+The depth of a lake in Winchester changes over time due to rainfall and evaporation. A few months ago, the depth was 68 feet. Currently, the lake is 25% deeper. What is this year's depth?

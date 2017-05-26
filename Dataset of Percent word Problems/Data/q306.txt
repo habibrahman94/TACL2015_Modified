@@ -1,0 +1,1 @@
+One baseball team won 10 games throughout their entire season. Of all their games, this team won 50% of them. Given this, how many games in total did this baseball team play?

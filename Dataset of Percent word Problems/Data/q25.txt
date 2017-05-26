@@ -1,0 +1,1 @@
+A student answered 86 problems on a test correctly and received a grade 98%. How many problems were on the test, if all the problems were worth the same number of points?
