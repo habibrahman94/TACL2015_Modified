@@ -1,109 +1,81 @@
 [
   {
     "iIndex": 0,
-    "lAlignments": [
-      1,
-      2
+    "lSolutions": [
+        25.0
     ],
     "lEquations": [
-      "x=2"
+      "x=50.0-(50.0*(50.0/100.0))"
     ],
     "sQuestion": " Alice has 50 books. She gives her 50 percent book to Bob. How many books Alice have? "
   },
   {
     "iIndex": 1,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [8.45],
     "lEquations": [
-      "x=2"
+      "x=84.5*(10.0/100.0)"
     ],
     "sQuestion": " What is 10 percent of 84.3 ? "
   },
   {
     "iIndex": 2,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [29.7],
     "lEquations": [
-      "x=2"
+      "x=27.0+(27.00*(10.0/100.0))"
     ],
     "sQuestion": " Tiffany has breakfast at a restaurant and the cost of her meal is $27.00. Because of the service, she wants to leave a 10 percent tip. What is her total bill including tip? "
   },
   {
     "iIndex": 3,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [31.45],
     "lEquations": [
-      "x=2"
+      "x=37.0-(37.0*(15.0/100.0))"
     ],
     "sQuestion": " Jessica bought a new shirt at the store when they were having a 15 percent off sale. If the regular price of the shirt was $37, how much did Jessica pay with the discount? "
   },
   {
     "iIndex": 4,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [513.0],
     "lEquations": [
-      "x=2"
+      "x=51.3*(1000.0/100.0)"
     ],
     "sQuestion": " What is 1000 percent of 51.3 ? "
   },
   {
     "iIndex": 5,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [6.3],
     "lEquations": [
-      "x=2"
+      "x=7.0-(7.0*(10.0/100.0))"
     ],
     "sQuestion": " The cake store is having a 10 percent off sale on all of its cakes. If the cake you want regularly costs $7, how much would you save with the discount? "
   },
   {
     "iIndex": 6,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [32.55],
     "lEquations": [
-      "x=2"
+      "x=31.0+(31.0*(5.0/100.0))"
     ],
     "sQuestion": " Jessica eats at a cafe and the cost of her meal is $31.00. Because of the service, she wants to leave a 5 percent tip. What is her total bill including tip? "
   },
   {
     "iIndex": 7,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [0.0386],
     "lEquations": [
-      "x=2"
+      "x=38.6*(0.1/100.0)"
     ],
     "sQuestion": " What is 0.1 percent of 38.6 ? "
   },
   {
     "iIndex": 8,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [28.8],
     "lEquations": [
-      "x=2"
+      "x=24.0+(24.0*20.0/100.0)"
     ],
     "sQuestion": " William eats at a restaurant and the cost of his meal is $24.00. Because of the service, he wants to leave a 20 percent tip. What is his total bill including tip? "
   },
   {
     "iIndex": 9,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -111,10 +83,7 @@
   },
   {
     "iIndex": 10,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -122,10 +91,7 @@
   },
   {
     "iIndex": 11,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -133,10 +99,7 @@
   },
   {
     "iIndex": 12,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -144,10 +107,7 @@
   },
   {
     "iIndex": 13,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -155,10 +115,7 @@
   },
   {
     "iIndex": 14,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -166,10 +123,7 @@
   },
   {
     "iIndex": 15,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -177,10 +131,7 @@
   },
   {
     "iIndex": 16,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -188,10 +139,7 @@
   },
   {
     "iIndex": 17,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -199,10 +147,7 @@
   },
   {
     "iIndex": 18,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -210,10 +155,7 @@
   },
   {
     "iIndex": 19,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -221,10 +163,7 @@
   },
   {
     "iIndex": 20,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -232,10 +171,7 @@
   },
   {
     "iIndex": 21,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -243,10 +179,7 @@
   },
   {
     "iIndex": 22,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -254,10 +187,7 @@
   },
   {
     "iIndex": 23,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -265,10 +195,7 @@
   },
   {
     "iIndex": 24,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -276,10 +203,7 @@
   },
   {
     "iIndex": 25,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -287,10 +211,7 @@
   },
   {
     "iIndex": 26,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -298,10 +219,7 @@
   },
   {
     "iIndex": 27,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -309,10 +227,7 @@
   },
   {
     "iIndex": 28,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -320,10 +235,7 @@
   },
   {
     "iIndex": 29,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -331,10 +243,7 @@
   },
   {
     "iIndex": 30,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -342,10 +251,7 @@
   },
   {
     "iIndex": 31,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -353,10 +259,7 @@
   },
   {
     "iIndex": 32,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -364,10 +267,7 @@
   },
   {
     "iIndex": 33,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -375,10 +275,7 @@
   },
   {
     "iIndex": 34,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -386,10 +283,7 @@
   },
   {
     "iIndex": 35,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -397,10 +291,7 @@
   },
   {
     "iIndex": 36,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -408,10 +299,7 @@
   },
   {
     "iIndex": 37,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -419,10 +307,7 @@
   },
   {
     "iIndex": 38,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -430,10 +315,7 @@
   },
   {
     "iIndex": 39,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -441,10 +323,7 @@
   },
   {
     "iIndex": 40,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -452,10 +331,7 @@
   },
   {
     "iIndex": 41,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -463,10 +339,7 @@
   },
   {
     "iIndex": 42,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -474,10 +347,7 @@
   },
   {
     "iIndex": 43,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -485,10 +355,7 @@
   },
   {
     "iIndex": 44,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -496,10 +363,7 @@
   },
   {
     "iIndex": 45,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -507,10 +371,7 @@
   },
   {
     "iIndex": 46,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -518,10 +379,7 @@
   },
   {
     "iIndex": 47,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -529,10 +387,7 @@
   },
   {
     "iIndex": 48,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -540,10 +395,7 @@
   },
   {
     "iIndex": 49,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -551,10 +403,7 @@
   },
   {
     "iIndex": 50,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -562,10 +411,7 @@
   },
   {
     "iIndex": 51,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -573,10 +419,7 @@
   },
   {
     "iIndex": 52,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -584,10 +427,7 @@
   },
   {
     "iIndex": 53,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -595,10 +435,7 @@
   },
   {
     "iIndex": 54,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -606,10 +443,7 @@
   },
   {
     "iIndex": 55,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -617,10 +451,7 @@
   },
   {
     "iIndex": 56,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -628,10 +459,7 @@
   },
   {
     "iIndex": 57,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -639,10 +467,7 @@
   },
   {
     "iIndex": 58,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -650,10 +475,7 @@
   },
   {
     "iIndex": 59,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -661,10 +483,7 @@
   },
   {
     "iIndex": 60,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -672,10 +491,7 @@
   },
   {
     "iIndex": 61,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -683,10 +499,7 @@
   },
   {
     "iIndex": 62,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -694,10 +507,7 @@
   },
   {
     "iIndex": 63,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -705,10 +515,7 @@
   },
   {
     "iIndex": 64,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -716,10 +523,7 @@
   },
   {
     "iIndex": 65,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -727,10 +531,7 @@
   },
   {
     "iIndex": 66,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -738,10 +539,7 @@
   },
   {
     "iIndex": 67,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -749,10 +547,7 @@
   },
   {
     "iIndex": 68,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -760,10 +555,7 @@
   },
   {
     "iIndex": 69,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -771,10 +563,7 @@
   },
   {
     "iIndex": 70,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -782,10 +571,7 @@
   },
   {
     "iIndex": 71,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -793,10 +579,7 @@
   },
   {
     "iIndex": 72,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -804,10 +587,7 @@
   },
   {
     "iIndex": 73,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -815,10 +595,7 @@
   },
   {
     "iIndex": 74,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -826,10 +603,7 @@
   },
   {
     "iIndex": 75,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -837,10 +611,7 @@
   },
   {
     "iIndex": 76,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -848,10 +619,7 @@
   },
   {
     "iIndex": 77,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -859,10 +627,7 @@
   },
   {
     "iIndex": 78,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -870,10 +635,7 @@
   },
   {
     "iIndex": 79,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -881,10 +643,7 @@
   },
   {
     "iIndex": 80,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -892,10 +651,7 @@
   },
   {
     "iIndex": 81,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -903,10 +659,7 @@
   },
   {
     "iIndex": 82,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -914,10 +667,7 @@
   },
   {
     "iIndex": 83,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -925,10 +675,7 @@
   },
   {
     "iIndex": 84,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -936,10 +683,7 @@
   },
   {
     "iIndex": 85,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -947,10 +691,7 @@
   },
   {
     "iIndex": 86,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -958,10 +699,7 @@
   },
   {
     "iIndex": 87,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -969,10 +707,7 @@
   },
   {
     "iIndex": 88,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -980,10 +715,7 @@
   },
   {
     "iIndex": 89,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -991,10 +723,7 @@
   },
   {
     "iIndex": 90,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1002,10 +731,7 @@
   },
   {
     "iIndex": 91,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1013,10 +739,7 @@
   },
   {
     "iIndex": 92,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1024,10 +747,7 @@
   },
   {
     "iIndex": 93,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1035,10 +755,7 @@
   },
   {
     "iIndex": 94,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1046,10 +763,7 @@
   },
   {
     "iIndex": 95,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1057,10 +771,7 @@
   },
   {
     "iIndex": 96,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1068,10 +779,7 @@
   },
   {
     "iIndex": 97,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1079,10 +787,7 @@
   },
   {
     "iIndex": 98,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1090,10 +795,7 @@
   },
   {
     "iIndex": 99,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1101,10 +803,7 @@
   },
   {
     "iIndex": 100,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1112,10 +811,7 @@
   },
   {
     "iIndex": 101,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1123,10 +819,7 @@
   },
   {
     "iIndex": 102,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1134,10 +827,7 @@
   },
   {
     "iIndex": 103,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1145,10 +835,7 @@
   },
   {
     "iIndex": 104,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1156,10 +843,7 @@
   },
   {
     "iIndex": 105,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1167,10 +851,7 @@
   },
   {
     "iIndex": 106,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1178,10 +859,7 @@
   },
   {
     "iIndex": 107,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1189,10 +867,7 @@
   },
   {
     "iIndex": 108,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1200,10 +875,7 @@
   },
   {
     "iIndex": 109,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1211,10 +883,7 @@
   },
   {
     "iIndex": 110,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1222,10 +891,7 @@
   },
   {
     "iIndex": 111,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1233,10 +899,7 @@
   },
   {
     "iIndex": 112,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1244,10 +907,7 @@
   },
   {
     "iIndex": 113,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1255,10 +915,7 @@
   },
   {
     "iIndex": 114,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1266,10 +923,7 @@
   },
   {
     "iIndex": 115,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1277,10 +931,7 @@
   },
   {
     "iIndex": 116,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1288,10 +939,7 @@
   },
   {
     "iIndex": 117,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1299,10 +947,7 @@
   },
   {
     "iIndex": 118,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1310,10 +955,7 @@
   },
   {
     "iIndex": 119,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1321,10 +963,7 @@
   },
   {
     "iIndex": 120,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1332,10 +971,7 @@
   },
   {
     "iIndex": 121,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1343,10 +979,7 @@
   },
   {
     "iIndex": 122,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1354,10 +987,7 @@
   },
   {
     "iIndex": 123,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1365,10 +995,7 @@
   },
   {
     "iIndex": 124,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1376,10 +1003,7 @@
   },
   {
     "iIndex": 125,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1387,10 +1011,7 @@
   },
   {
     "iIndex": 126,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1398,10 +1019,7 @@
   },
   {
     "iIndex": 127,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1409,10 +1027,7 @@
   },
   {
     "iIndex": 128,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1420,10 +1035,7 @@
   },
   {
     "iIndex": 129,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1431,10 +1043,7 @@
   },
   {
     "iIndex": 130,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1442,10 +1051,7 @@
   },
   {
     "iIndex": 131,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1453,10 +1059,7 @@
   },
   {
     "iIndex": 132,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1464,10 +1067,7 @@
   },
   {
     "iIndex": 133,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1475,10 +1075,7 @@
   },
   {
     "iIndex": 134,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1486,10 +1083,7 @@
   },
   {
     "iIndex": 135,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1497,10 +1091,7 @@
   },
   {
     "iIndex": 136,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1508,10 +1099,7 @@
   },
   {
     "iIndex": 137,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1519,10 +1107,7 @@
   },
   {
     "iIndex": 138,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1530,10 +1115,7 @@
   },
   {
     "iIndex": 139,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1541,10 +1123,7 @@
   },
   {
     "iIndex": 140,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1552,10 +1131,7 @@
   },
   {
     "iIndex": 141,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1563,10 +1139,7 @@
   },
   {
     "iIndex": 142,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1574,10 +1147,7 @@
   },
   {
     "iIndex": 143,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1585,10 +1155,7 @@
   },
   {
     "iIndex": 144,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1596,10 +1163,7 @@
   },
   {
     "iIndex": 145,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1607,10 +1171,7 @@
   },
   {
     "iIndex": 146,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1618,10 +1179,7 @@
   },
   {
     "iIndex": 147,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1629,10 +1187,7 @@
   },
   {
     "iIndex": 148,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1640,10 +1195,7 @@
   },
   {
     "iIndex": 149,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1651,10 +1203,7 @@
   },
   {
     "iIndex": 150,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1662,10 +1211,7 @@
   },
   {
     "iIndex": 151,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1673,10 +1219,7 @@
   },
   {
     "iIndex": 152,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1684,10 +1227,7 @@
   },
   {
     "iIndex": 153,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1695,10 +1235,7 @@
   },
   {
     "iIndex": 154,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1706,10 +1243,7 @@
   },
   {
     "iIndex": 155,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1717,10 +1251,7 @@
   },
   {
     "iIndex": 156,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1728,10 +1259,7 @@
   },
   {
     "iIndex": 157,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1739,10 +1267,7 @@
   },
   {
     "iIndex": 158,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1750,10 +1275,7 @@
   },
   {
     "iIndex": 159,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1761,10 +1283,7 @@
   },
   {
     "iIndex": 160,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1772,10 +1291,7 @@
   },
   {
     "iIndex": 161,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1783,10 +1299,7 @@
   },
   {
     "iIndex": 162,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1794,10 +1307,7 @@
   },
   {
     "iIndex": 163,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1805,10 +1315,7 @@
   },
   {
     "iIndex": 164,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1816,10 +1323,7 @@
   },
   {
     "iIndex": 165,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1827,10 +1331,7 @@
   },
   {
     "iIndex": 166,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1838,10 +1339,7 @@
   },
   {
     "iIndex": 167,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1849,10 +1347,7 @@
   },
   {
     "iIndex": 168,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1860,10 +1355,7 @@
   },
   {
     "iIndex": 169,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1871,10 +1363,7 @@
   },
   {
     "iIndex": 170,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1882,10 +1371,7 @@
   },
   {
     "iIndex": 171,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1893,10 +1379,7 @@
   },
   {
     "iIndex": 172,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1904,10 +1387,7 @@
   },
   {
     "iIndex": 173,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1915,10 +1395,7 @@
   },
   {
     "iIndex": 174,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1926,10 +1403,7 @@
   },
   {
     "iIndex": 175,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1937,10 +1411,7 @@
   },
   {
     "iIndex": 176,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1948,10 +1419,7 @@
   },
   {
     "iIndex": 177,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1959,10 +1427,7 @@
   },
   {
     "iIndex": 178,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1970,10 +1435,7 @@
   },
   {
     "iIndex": 179,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1981,10 +1443,7 @@
   },
   {
     "iIndex": 180,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -1992,10 +1451,7 @@
   },
   {
     "iIndex": 181,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2003,10 +1459,7 @@
   },
   {
     "iIndex": 182,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2014,10 +1467,7 @@
   },
   {
     "iIndex": 183,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2025,10 +1475,7 @@
   },
   {
     "iIndex": 184,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2036,10 +1483,7 @@
   },
   {
     "iIndex": 185,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2047,10 +1491,7 @@
   },
   {
     "iIndex": 186,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2058,10 +1499,7 @@
   },
   {
     "iIndex": 187,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2069,10 +1507,7 @@
   },
   {
     "iIndex": 188,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2080,10 +1515,7 @@
   },
   {
     "iIndex": 189,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2091,10 +1523,7 @@
   },
   {
     "iIndex": 190,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2102,10 +1531,7 @@
   },
   {
     "iIndex": 191,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2113,10 +1539,7 @@
   },
   {
     "iIndex": 192,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2124,10 +1547,7 @@
   },
   {
     "iIndex": 193,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2135,10 +1555,7 @@
   },
   {
     "iIndex": 194,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2146,10 +1563,7 @@
   },
   {
     "iIndex": 195,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2157,10 +1571,7 @@
   },
   {
     "iIndex": 196,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2168,10 +1579,7 @@
   },
   {
     "iIndex": 197,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2179,10 +1587,7 @@
   },
   {
     "iIndex": 198,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2190,10 +1595,7 @@
   },
   {
     "iIndex": 199,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2201,10 +1603,7 @@
   },
   {
     "iIndex": 200,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2212,10 +1611,7 @@
   },
   {
     "iIndex": 201,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2223,10 +1619,7 @@
   },
   {
     "iIndex": 202,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2234,10 +1627,7 @@
   },
   {
     "iIndex": 203,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2245,10 +1635,7 @@
   },
   {
     "iIndex": 204,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2256,10 +1643,7 @@
   },
   {
     "iIndex": 205,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2267,10 +1651,7 @@
   },
   {
     "iIndex": 206,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2278,10 +1659,7 @@
   },
   {
     "iIndex": 207,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2289,10 +1667,7 @@
   },
   {
     "iIndex": 208,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2300,10 +1675,7 @@
   },
   {
     "iIndex": 209,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2311,10 +1683,7 @@
   },
   {
     "iIndex": 210,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2322,10 +1691,7 @@
   },
   {
     "iIndex": 211,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2333,10 +1699,7 @@
   },
   {
     "iIndex": 212,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2344,10 +1707,7 @@
   },
   {
     "iIndex": 213,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2355,10 +1715,7 @@
   },
   {
     "iIndex": 214,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2366,10 +1723,7 @@
   },
   {
     "iIndex": 215,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2377,10 +1731,7 @@
   },
   {
     "iIndex": 216,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2388,10 +1739,7 @@
   },
   {
     "iIndex": 217,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2399,10 +1747,7 @@
   },
   {
     "iIndex": 218,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2410,10 +1755,7 @@
   },
   {
     "iIndex": 219,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2421,10 +1763,7 @@
   },
   {
     "iIndex": 220,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2432,10 +1771,7 @@
   },
   {
     "iIndex": 221,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2443,10 +1779,7 @@
   },
   {
     "iIndex": 222,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2454,10 +1787,7 @@
   },
   {
     "iIndex": 223,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2465,10 +1795,7 @@
   },
   {
     "iIndex": 224,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2476,10 +1803,7 @@
   },
   {
     "iIndex": 225,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2487,10 +1811,7 @@
   },
   {
     "iIndex": 226,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2498,10 +1819,7 @@
   },
   {
     "iIndex": 227,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2509,10 +1827,7 @@
   },
   {
     "iIndex": 228,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2520,10 +1835,7 @@
   },
   {
     "iIndex": 229,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2531,10 +1843,7 @@
   },
   {
     "iIndex": 230,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2542,10 +1851,7 @@
   },
   {
     "iIndex": 231,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2553,10 +1859,7 @@
   },
   {
     "iIndex": 232,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2564,10 +1867,7 @@
   },
   {
     "iIndex": 233,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2575,10 +1875,7 @@
   },
   {
     "iIndex": 234,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2586,10 +1883,7 @@
   },
   {
     "iIndex": 235,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2597,10 +1891,7 @@
   },
   {
     "iIndex": 236,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2608,10 +1899,7 @@
   },
   {
     "iIndex": 237,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2619,10 +1907,7 @@
   },
   {
     "iIndex": 238,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2630,10 +1915,7 @@
   },
   {
     "iIndex": 239,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2641,10 +1923,7 @@
   },
   {
     "iIndex": 240,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2652,10 +1931,7 @@
   },
   {
     "iIndex": 241,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2663,10 +1939,7 @@
   },
   {
     "iIndex": 242,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2674,10 +1947,7 @@
   },
   {
     "iIndex": 243,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2685,10 +1955,7 @@
   },
   {
     "iIndex": 244,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2696,10 +1963,7 @@
   },
   {
     "iIndex": 245,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2707,10 +1971,7 @@
   },
   {
     "iIndex": 246,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2718,10 +1979,7 @@
   },
   {
     "iIndex": 247,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2729,10 +1987,7 @@
   },
   {
     "iIndex": 248,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2740,10 +1995,7 @@
   },
   {
     "iIndex": 249,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2751,10 +2003,7 @@
   },
   {
     "iIndex": 250,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2762,10 +2011,7 @@
   },
   {
     "iIndex": 251,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2773,10 +2019,7 @@
   },
   {
     "iIndex": 252,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2784,10 +2027,7 @@
   },
   {
     "iIndex": 253,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2795,10 +2035,7 @@
   },
   {
     "iIndex": 254,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2806,10 +2043,7 @@
   },
   {
     "iIndex": 255,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2817,10 +2051,7 @@
   },
   {
     "iIndex": 256,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2828,10 +2059,7 @@
   },
   {
     "iIndex": 257,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2839,10 +2067,7 @@
   },
   {
     "iIndex": 258,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2850,10 +2075,7 @@
   },
   {
     "iIndex": 259,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2861,10 +2083,7 @@
   },
   {
     "iIndex": 260,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2872,10 +2091,7 @@
   },
   {
     "iIndex": 261,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2883,10 +2099,7 @@
   },
   {
     "iIndex": 262,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2894,10 +2107,7 @@
   },
   {
     "iIndex": 263,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2905,10 +2115,7 @@
   },
   {
     "iIndex": 264,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2916,10 +2123,7 @@
   },
   {
     "iIndex": 265,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2927,10 +2131,7 @@
   },
   {
     "iIndex": 266,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2938,10 +2139,7 @@
   },
   {
     "iIndex": 267,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2949,10 +2147,7 @@
   },
   {
     "iIndex": 268,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2960,10 +2155,7 @@
   },
   {
     "iIndex": 269,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2971,10 +2163,7 @@
   },
   {
     "iIndex": 270,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2982,10 +2171,7 @@
   },
   {
     "iIndex": 271,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -2993,10 +2179,7 @@
   },
   {
     "iIndex": 272,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -3004,10 +2187,7 @@
   },
   {
     "iIndex": 273,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -3015,10 +2195,7 @@
   },
   {
     "iIndex": 274,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -3026,10 +2203,7 @@
   },
   {
     "iIndex": 275,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -3037,10 +2211,7 @@
   },
   {
     "iIndex": 276,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -3048,10 +2219,7 @@
   },
   {
     "iIndex": 277,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
@@ -3059,10 +2227,7 @@
   },
   {
     "iIndex": 278,
-    "lAlignments": [
-      1,
-      2
-    ],
+    "lSolutions": [],
     "lEquations": [
       "x=2"
     ],
