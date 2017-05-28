@@ -69,231 +69,231 @@
     "iIndex": 8,
     "lSolutions": [28.8],
     "lEquations": [
-      "x=24.0+(24.0*20.0/100.0)"
+      "x=24.0+(24.0*(20.0/100.0))"
     ],
     "sQuestion": " William eats at a restaurant and the cost of his meal is $24.00. Because of the service, he wants to leave a 20 percent tip. What is his total bill including tip? "
   },
   {
     "iIndex": 9,
-    "lSolutions": [],
+    "lSolutions": [38.4],
     "lEquations": [
-      "x=2"
+      "x=48.0-(48.0*(20/100.0))"
     ],
     "sQuestion": " Christopher bought a new watch at the store when they were having a 20 percent off sale. If the regular price of the watch was $48, how much did Christopher pay with the discount? "
   },
   {
     "iIndex": 10,
-    "lSolutions": [],
+    "lSolutions": [57.8],
     "lEquations": [
-      "x=2"
+      "x=57.8*(100.0/100.0)"
     ],
     "sQuestion": " What is 100 percent of 57.8 ? "
   },
   {
     "iIndex": 11,
-    "lSolutions": [],
+    "lSolutions": [43.95],
     "lEquations": [
-      "x=2"
+      "x=293.0*(15.0/100.0)"
     ],
     "sQuestion": " Daniel works at a nearby electronics store. He makes a commission of 15 percent on everything he sells. If he sells a laptop for $293.00, how much money does Daniel make in commission? "
   },
   {
     "iIndex": 12,
-    "lSolutions": [],
+    "lSolutions": [0.652],
     "lEquations": [
-      "x=2"
+      "x=65.2*(1.0/100.0)"
     ],
     "sQuestion": " What is 1 percent of 65.2 ? "
   },
   {
     "iIndex": 13,
-    "lSolutions": [],
+    "lSolutions": [135.8],
     "lEquations": [
-      "x=2"
+      "x=97.0+(97.0*(40.0/100.0))"
     ],
     "sQuestion": "The manager at Brandon's Furniture Store is trying to figure out how much to charge for a sofa that just arrived. If the sofa was bought at a wholesale price of $97.00 and Brandon's Furniture Store marks up all furniture by 40 percent, at what price should the manager sell the sofa? "
   },
   {
     "iIndex": 14,
-    "lSolutions": [],
+    "lSolutions": [45.84],
     "lEquations": [
-      "x=2"
+      "x=764.0*(6.0/100.0)"
     ],
     "sQuestion": " William works at a nearby electronics store. He makes a commission of 6 percent on everything he sells. If he sells a computer for $764.00, how much money does William make in commission? "
   },
   {
     "iIndex": 15,
-    "lSolutions": [],
+    "lSolutions": [190.8],
     "lEquations": [
-      "x=2"
+      "x=106.0+(106.0*(80.0/100.0))"
     ],
     "sQuestion": "The manager at William's Furniture Store is trying to figure out how much to charge for a sofa that just arrived. If the sofa was bought at a wholesale price of $106.00 and William's Furniture Store marks up all furniture by 80 percent, at what price should the manager sell the sofa? "
   },
   {
     "iIndex": 16,
-    "lSolutions": [],
+    "lSolutions": [28.0],
     "lEquations": [
-      "x=2"
+      "x=35.0*(80.0/100.0)"
     ],
     "sQuestion": " A baseball pitcher won 80% of the games he pitched. If he pitched 35 ballgames, how many games did he win? "
   },
   {
     "iIndex": 17,
-    "lSolutions": [],
+    "lSolutions": [58.33333333],
     "lEquations": [
-      "x=2"
+      "x=(7.0/12.0)*100.0"
     ],
     "sQuestion": " Jerry, an electrician, worked 7 months out of the year. What percent of the year did he work? "
   },
   {
     "iIndex": 18,
-    "lSolutions": [],
+    "lSolutions": [42.857142857],
     "lEquations": [
-      "x=2"
+      "x=((28.0-16.0)/28.0)*100.0"
     ],
     "sQuestion": " There are 28 students in a class. Sixteen of those students are men. What percent of the class are women? "
   },
   {
     "iIndex": 19,
-    "lSolutions": [],
+    "lSolutions": [77.777777778],
     "lEquations": [
-      "x=2"
+      "x=(35.0/(35.0+10.0))*100.0"
     ],
     "sQuestion": " Donovan took a math test and got 35 correct and 10 incorrect answers. What was the percentage of correct answers? "
   },
   {
     "iIndex": 20,
-    "lSolutions": [],
+    "lSolutions": [16.0],
     "lEquations": [
-      "x=2"
+      "x=20.0*(80.0/100.0)"
     ],
     "sQuestion": " A student earned a grade of 80% on a math test that had 20 problems. How many problems on this test did the student answer correctly? "
   },
   {
     "iIndex": 21,
-    "lSolutions": [],
+    "lSolutions": [19.444444444],
     "lEquations": [
-      "x=2"
+      "x=((36.0-29.0)/36.0)*100.0"
     ],
     "sQuestion": " There are 36 carpenters in a crew. On a certain day, 29 were present. What percent showed up for work? "
   },
   {
     "iIndex": 22,
-    "lSolutions": [],
+    "lSolutions": [7.5795],
     "lEquations": [
-      "x=2"
+      "x=8.15*(93.0/100.0)"
     ],
     "sQuestion": " A metal bar weighs 8.15 ounces. 93% of the bar is silver. How many ounces of silver are in the bar? "
   },
   {
     "iIndex": 23,
-    "lSolutions": [],
+    "lSolutions": [37.7],
     "lEquations": [
-      "x=2"
+      "x=580.0*(6.50/100.0)"
     ],
-    "sQuestion": " A woman put $580 into a savings account for one year. The rate of interest on the account was 6½%. How much was the interest for the year in dollars and cents? "
+    "sQuestion": " A woman put $580 into a savings account for one year. The rate of interest on the account was 6.50%. How much was the interest for the year? "
   },
   {
     "iIndex": 24,
-    "lSolutions": [],
+    "lSolutions": [87.755102041],
     "lEquations": [
-      "x=2"
+      "x*(98.0/100.0)=86.0"
     ],
     "sQuestion": " A student answered 86 problems on a test correctly and received a grade 98%. How many problems were on the test, if all the problems were worth the same number of points? "
   },
   {
     "iIndex": 25,
-    "lSolutions": [],
+    "lSolutions": [4680.0],
     "lEquations": [
-      "x=2"
+      "x=7200.0*(65.0/100.0)"
     ],
     "sQuestion": " Manuel found a wrecked Trans-Am that he could fix. He bought the car for 65% of the original price of $7200. What did he pay for the car? "
   },
   {
     "iIndex": 26,
-    "lSolutions": [],
+    "lSolutions": [38.694117647],
     "lEquations": [
-      "x=2"
+      "x*(85.0/100.0)=32.89"
     ],
     "sQuestion": " Pamela bought an electric drill at 85% of the regular price. She paid $32.89 for the drill. What was the regular price? "
   },
   {
     "iIndex": 27,
-    "lSolutions": [],
+    "lSolutions": [160.0],
     "lEquations": [
-      "x=2"
+      "x*(5.0/100.0)=8"
     ],
     "sQuestion": " A crew is made up of 8 men; the rest are women. 5% of the crew are men. How many people are in the crew? "
   },
   {
     "iIndex": 28,
-    "lSolutions": [],
+    "lSolutions": [1920.0],
     "lEquations": [
-      "x=2"
+      "x=12800*(15.0/100.0)"
     ],
-    "sQuestion": " Ben earns $12,800 a year. About 15% is taken out for taxes. How much is taken out for taxes? "
+    "sQuestion": " Ben earns $12800 a year. About 15% is taken out for taxes. How much is taken out for taxes? "
   },
   {
     "iIndex": 29,
-    "lSolutions": [],
+    "lSolutions": [18.75],
     "lEquations": [
-      "x=2"
+      "x*(80.0/100.0)=15.0"
     ],
     "sQuestion": " At a sale, shirts were sold for $15 each. This price was 80% of their original price. What was the original price? "
   },
   {
     "iIndex": 30,
-    "lSolutions": [],
+    "lSolutions": [71.875],
     "lEquations": [
-      "x=2"
+      "x=((32.0-9.0)/32.0)*100.0"
     ],
     "sQuestion": " There are 32 students in a class. Nine of those students are women. What percent are men? "
   },
   {
     "iIndex": 31,
-    "lSolutions": [],
+    "lSolutions": [26.666666667],
     "lEquations": [
-      "x=2"
+      "x=((75.0-55.0)/75.0)*100.0"
     ],
     "sQuestion": " The Royals softball team played 75 games and won 55 of them. What percent of the games did they lose? "
   },
   {
     "iIndex": 32,
-    "lSolutions": [],
+    "lSolutions": [25.0],
     "lEquations": [
-      "x=2"
+      "x=(13.0/(13.0+39.0))*100.0"
     ],
     "sQuestion": "Kira's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 13 regular coffees and 39 decaffeinated coffees. What percentage of the coffees served were regular? "
   },
   {
     "iIndex": 33,
-    "lSolutions": [],
+    "lSolutions": [25.0],
     "lEquations": [
-      "x=2"
+      "x=(13.0/(13.0+39.0))*100.0"
     ],
     "sQuestion": "Kira's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 13 regular coffees and 39 decaffeinated coffees. What percentage of the coffees served were regular? "
   },
   {
     "iIndex": 34,
-    "lSolutions": [],
+    "lSolutions": [10.0],
     "lEquations": [
-      "x=2"
+      "x=(6.0/(6.0+54.0))*100.0"
     ],
     "sQuestion": "Rosa has a new beaded necklace. The necklace has 6 blue beads and 54 white beads. What percentage of the beads on Rosa's necklace are blue? "
   },
   {
     "iIndex": 35,
-    "lSolutions": [],
+    "lSolutions": [30.0],
     "lEquations": [
-      "x=2"
+      "x=(3.0/10.0)*100.0"
     ],
     "sQuestion": "Lacey's Tea Shop has caffeinated tea and decaffeinated tea. The tea shop served 10 teas in all, 3 of which were caffeinated. What percentage of the teas were caffeinated? "
   },
   {
     "iIndex": 36,
-    "lSolutions": [],
+    "lSolutions": [75.0],
     "lEquations": [
-      "x=2"
+      "x=(21.0/(21.0+7.0))*100.0"
     ],
     "sQuestion": "The bookstore has 21 women's magazines and 7 other magazines. What percentage of the magazines at the bookstore are women's magazines? "
   },
