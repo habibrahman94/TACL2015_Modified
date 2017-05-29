@@ -1475,105 +1475,105 @@
   },
   {
     "iIndex": 184,
-    "lSolutions": [],
+    "lSolutions": [50.000000],
     "lEquations": [
-      "x=2"
+      "x=(47.0/94.0)*100.0"
     ],
     "sQuestion": " Yesterday, there were 94 problems assigned for math homework. Trisha got 47 out of 94 problems correct. What percentage did Trisha get correct? "
   },
   {
     "iIndex": 185,
-    "lSolutions": [],
+    "lSolutions": [30.000000],
     "lEquations": [
-      "x=2"
+      "x=(27.0/90.0)*100.0"
     ],
     "sQuestion": " 27 out of the 90 students at a school assembly were first-grade students. What percentage of the students at the assembly were first-graders? "
   },
   {
     "iIndex": 186,
-    "lSolutions": [],
+    "lSolutions": [25.000000],
     "lEquations": [
-      "x=2"
+      "x=(6.0/(6.0+18.0))*100.0"
     ],
     "sQuestion": " Lisa brought chocolate and vanilla cupcakes to school for her birthday. 6 students picked a vanilla cupcake and 18 students picked a chocolate cupcake. What percentage of the students picked a vanilla cupcake? "
   },
   {
     "iIndex": 187,
-    "lSolutions": [],
+    "lSolutions": [75.000000],
     "lEquations": [
-      "x=2"
+      "x=(63.0/(63.0+21.0))*100.0"
     ],
     "sQuestion": " Nancy took a math quiz last week. She got 63 problems correct and 21 problems incorrect. What percentage did Nancy get correct? "
   },
   {
     "iIndex": 188,
-    "lSolutions": [],
+    "lSolutions": [20.000000],
     "lEquations": [
-      "x=2"
+      "x=(5.0/(5.0+20.0))*100.0"
     ],
     "sQuestion": "Annie's class just held a class election. 5 students voted in the election and 20 did not. What percentage of the students voted? "
   },
   {
     "iIndex": 189,
-    "lSolutions": [],
+    "lSolutions": [50.000000],
     "lEquations": [
-      "x=2"
+      "x=(13.0/26.0)*100.0"
     ],
     "sQuestion": " At an amusement park, 13 out of 26 tickets sold were discount tickets. What percentage of the tickets were discount tickets? "
   },
   {
     "iIndex": 190,
-    "lSolutions": [],
+    "lSolutions": [70.000000],
     "lEquations": [
-      "x=2"
+      "x=(14.0/(14.0+6.0))*100.0"
     ],
     "sQuestion": " To celebrate the first day of school, Mike brought in a tray of caramel brownies and walnut brownies. He brought 14 caramel brownies and 6 walnut brownies. What percentage of the brownies were caramel? "
   },
   {
     "iIndex": 191,
-    "lSolutions": [],
+    "lSolutions": [80.000000],
     "lEquations": [
-      "x=2"
+      "x=(76.0/95.0)*100.0"
     ],
     "sQuestion": " A biology class examined some flowers in a local meadow. Out of the 95 flowers they saw, 76 were perennials. What percentage of the flowers were perennials? "
   },
   {
     "iIndex": 192,
-    "lSolutions": [],
+    "lSolutions": [50.0],
     "lEquations": [
-      "x=2"
+      "x=(31.0/62.0)*100.0"
     ],
     "sQuestion": "Pedro's town voted on a new speed limit. Out of 62 votes, 31 were in favor of the new speed limit. What percentage of the votes were in favor of the new speed limit? "
   },
   {
     "iIndex": 193,
-    "lSolutions": [],
+    "lSolutions": [27.000000],
     "lEquations": [
-      "x=2"
+      "x=30.0*(90.0/100.0)"
     ],
     "sQuestion": " After a month of successful fundraising, Ruben and his classmates voted on whether to donate the money they had raised to hunger relief or to environmental causes. 90% of the 30 votes were in favor of hunger relief. How many votes were for hunger relief? "
   },
   {
     "iIndex": 194,
-    "lSolutions": [],
+    "lSolutions": [4.000000],
     "lEquations": [
-      "x=2"
+      "x=5.0*(80.0/100.0)"
     ],
     "sQuestion": "Fredda has a new beaded necklace. 80% of the 5 beads on Fredda's necklace are blue. How many blue beads are there on Fredda's necklace? "
   },
   {
     "iIndex": 195,
-    "lSolutions": [],
+    "lSolutions": [10.000000],
     "lEquations": [
-      "x=2"
+      "x=100.0*(10.0/100.0)"
     ],
     "sQuestion": "Last Tuesday was silly hat day at Vicky's school. Of the 100 students at the school, 10% wore a silly hat. How many students wore a silly hat? "
   },
   {
     "iIndex": 196,
-    "lSolutions": [],
+    "lSolutions": [10.000000],
     "lEquations": [
-      "x=2"
+      "x=20.0*(50.0/100.0)"
     ],
     "sQuestion": " 50% of the tickets sold at a school carnival were early-admission tickets. If the school sold 20 tickets in all, how many early-admission tickets did it sell? "
   },
@@ -1581,23 +1581,23 @@
     "iIndex": 197,
     "lSolutions": [],
     "lEquations": [
-      "x=2"
+      "x="
     ],
     "sQuestion": "During elementary school, Cody received a weekly allowance of $10 for completing all of his chores. These days he receives 30% more. What is Cody's weekly allowance now? "
   },
   {
     "iIndex": 198,
-    "lSolutions": [],
+    "lSolutions": [30.000000],
     "lEquations": [
-      "x=2"
+      "x=((2041.0-1570.0)/1570.0)*100.0"
     ],
-    "sQuestion": " Last spring, the average amount of rent paid for apartments in Belleville was $1,570. This spring, it is $2,041. What is the percent of increase in the average apartment rent? "
+    "sQuestion": " Last spring, the average amount of rent paid for apartments in Belleville was $1570. This spring, it is $2041. What is the percent of increase in the average apartment rent? "
   },
   {
     "iIndex": 199,
-    "lSolutions": [],
+    "lSolutions": [16.666667],
     "lEquations": [
-      "x=2"
+      "x=((276.0-230.0)/276.0)*100.0"
     ],
     "sQuestion": "Erik has run many marathons and keeps track of all of his finishing times. At a marathon last month, he finished in 230 minutes. The other day, he ran another marathon and finished with a time of 276 minutes. What is the percent of increase in Erik's marathon time? "
   },
