@@ -803,401 +803,401 @@
   },
   {
     "iIndex": 100,
-    "lSolutions": [],
+    "lSolutions": [30.000000],
     "lEquations": [
-      "x=2"
+      "x=100.0*(30.0/100.0)"
     ],
     "sQuestion": " The state transportation commission counted cars traveling east and west across a toll bridge. 30% of the 100 cars counted were traveling east. How many eastbound cars did the commission count? "
   },
   {
     "iIndex": 101,
-    "lSolutions": [],
+    "lSolutions": [22.000000],
     "lEquations": [
-      "x=2"
+      "x=88.0*(25.0/100.0)"
     ],
     "sQuestion": "Vincent's Diner sold 88 milkshakes last week. 25% of the milkshakes had whipped cream on top. How many milkshakes with whipped cream were sold? "
   },
   {
     "iIndex": 102,
-    "lSolutions": [],
+    "lSolutions": [23.00],
     "lEquations": [
-      "x=2"
+      "x=46.0*(50.0/100.0)"
     ],
     "sQuestion": "Vince's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 46 coffees in all, 50% of which were regular. How many regular coffees did the cafe serve? "
   },
   {
     "iIndex": 103,
-    "lSolutions": [],
+    "lSolutions": [36.000000],
     "lEquations": [
-      "x=2"
+      "x=60.0*(60.0/100.0)"
     ],
     "sQuestion": " The city council voted on a new tax. The council has 60 members and 60% of the council members voted in favor of the new tax. How many members voted in favor of the tax? "
   },
   {
     "iIndex": 104,
-    "lSolutions": [],
+    "lSolutions": [51.000000],
     "lEquations": [
-      "x=2"
+      "x=68.0*(75.0/100.0)"
     ],
     "sQuestion": " 75% of the tickets sold at an amusement park were discount tickets. If the park sold 68 tickets in all, how many discount tickets did it sell? "
   },
   {
     "iIndex": 105,
-    "lSolutions": [],
+    "lSolutions": [17.000000],
     "lEquations": [
-      "x=2"
+      "x=85.0*(20.0/100.0)"
     ],
     "sQuestion": " To celebrate the first day of school, Karlene brought in a tray of caramel brownies and walnut brownies. The tray had a total of 85 brownies, of which 20% were caramel. How many caramel brownies did Karlene bring? "
   },
   {
     "iIndex": 106,
-    "lSolutions": [],
+    "lSolutions": [39.000000],
     "lEquations": [
-      "x=2"
+      "x=78.0*(50.0/100.0)"
     ],
     "sQuestion": " There are 78 seats on a train. 50% of the seats are empty. How many empty seats are there on the train? "
   },
   {
     "iIndex": 107,
-    "lSolutions": [],
+    "lSolutions": [9.000000],
     "lEquations": [
-      "x=2"
+      "x=12.0*(75.0/100.0)"
     ],
     "sQuestion": "The students in Todd's class got to choose between pizza and burgers for the celebration on the last day of school. 75% of the students picked the pizza. If there are 12 students in all at Todd's class, how many students preferred the pizza? "
   },
   {
     "iIndex": 108,
-    "lSolutions": [],
+    "lSolutions": [30.0],
     "lEquations": [
-      "x=2"
+      "x=100.0*(30.0/100.0)"
     ],
     "sQuestion": "Last Thursday was costume day at Matt's school. 30% of the 100 students wore a costume. How many students wore a costume? "
   },
   {
     "iIndex": 109,
-    "lSolutions": [],
+    "lSolutions": [16.000000],
     "lEquations": [
-      "x=2"
+      "x=64.0*(25.0/100.0)"
     ],
     "sQuestion": "In Jeffrey's grade, there are 64 students. Currently, 25% of them are enrolled in health. How many students are enrolled in health? "
   },
   {
     "iIndex": 110,
-    "lSolutions": [],
+    "lSolutions": [3.000000],
     "lEquations": [
-      "x=2"
+      "x=30.0*(10.0/100.0)"
     ],
     "sQuestion": " After a month of successful fundraising, Sarah and her classmates voted on whether to donate the money they had raised to hunger relief or to environmental causes. 10% of the 30 votes were in favor of hunger relief. How many votes were for hunger relief? "
   },
   {
     "iIndex": 111,
-    "lSolutions": [],
+    "lSolutions": [3.000000],
     "lEquations": [
-      "x=2"
+      "x=15.0*(20.0/100.0)"
     ],
     "sQuestion": " In order to select new board members, the French club held an election. 20% of the 15 members of the club voted. How many members voted? "
   },
   {
     "iIndex": 112,
-    "lSolutions": [],
+    "lSolutions": [10.000000],
     "lEquations": [
-      "x=2"
+      "x=25.0*(40.0/100.0)"
     ],
     "sQuestion": " At the sewing store, Paula bought a bag of mixed buttons. The bag included 25 buttons, of which 40% were large. How many large buttons did Paula get? "
   },
   {
     "iIndex": 113,
-    "lSolutions": [],
+    "lSolutions": [21.000000],
     "lEquations": [
-      "x=2"
+      "x=28.0*(75.0/100.0)"
     ],
     "sQuestion": " During second period, Bryan completed a grammar worksheet. Of the 28 questions, Bryan got 75% right. How many questions did Bryan get right? "
   },
   {
     "iIndex": 114,
-    "lSolutions": [],
+    "lSolutions": [12.000000],
     "lEquations": [
-      "x=2"
+      "x=20.0*(60.0/100.0)"
     ],
     "sQuestion": "Shane's Cafe offers two kinds of espresso: single-shot and double-shot. Yesterday afternoon, the cafe sold 20 espressos in all, 60% of which were single-shot. How many single-shot espressos did the cafe sell? "
   },
   {
     "iIndex": 115,
-    "lSolutions": [],
+    "lSolutions": [30.0],
     "lEquations": [
-      "x=2"
+      "x=100.0*(30.0/100.0)"
     ],
     "sQuestion": "The students at Tracy's school voted between a bear and a lion as the new school mascot. Of the 100 students at Tracy's school, 30% voted for the bear. How many students voted for the bear? "
   },
   {
     "iIndex": 116,
-    "lSolutions": [],
+    "lSolutions": [8.000000],
     "lEquations": [
-      "x=2"
+      "x=80.0*(10.0/100.0)"
     ],
     "sQuestion": "At Vera's Beading Boutique, 10% of the 80 beads on clearance are plastic. How many plastic beads are there on clearance? "
   },
   {
     "iIndex": 117,
-    "lSolutions": [],
+    "lSolutions": [8.000000],
     "lEquations": [
-      "x=2"
+      "x=32.0*(25.0/100.0)"
     ],
     "sQuestion": "Garrett's Diner sold 32 milkshakes last week. 25% of the milkshakes had whipped cream on top. How many milkshakes with whipped cream were sold? "
   },
   {
     "iIndex": 118,
-    "lSolutions": [],
+    "lSolutions": [36.000000],
     "lEquations": [
-      "x=2"
+      "x=45.0*(80.0/100.0)"
     ],
     "sQuestion": " Yesterday, there were 45 problems assigned for math homework. Kristen did 80% of them correctly. How many problems did Kristen get right? "
   },
   {
     "iIndex": 119,
-    "lSolutions": [],
+    "lSolutions": [54.000000],
     "lEquations": [
-      "x=2"
+      "x=60.0*(90.0/100.0)"
     ],
     "sQuestion": " There are 60 seats on a train. 90% of the seats are empty. How many empty seats are there on the train? "
   },
   {
     "iIndex": 120,
-    "lSolutions": [],
+    "lSolutions": [60.0],
     "lEquations": [
-      "x=2"
+      "x=100.0*(60.0/100.0)"
     ],
     "sQuestion": " A team of students lined up dominoes on the gym floor. Of the 100 dominoes they used, 60% fell over. How many dominoes fell over? "
   },
   {
     "iIndex": 121,
-    "lSolutions": [],
+    "lSolutions": [28.0],
     "lEquations": [
-      "x=2"
+      "x=56.0*(50.0/100.0)"
     ],
     "sQuestion": " Beth took a math quiz last week. There were 56 problems on the quiz and Beth answered 50% of them correctly. How many problems did Beth get correct? "
   },
   {
     "iIndex": 122,
-    "lSolutions": [],
+    "lSolutions": [28.000000],
     "lEquations": [
-      "x=2"
+      "x=40.0*(70.0/100.0)"
     ],
     "sQuestion": "Kayla's class voted on whether or not to do science fair projects in groups. 70% of the 40 votes were in favor of working in groups. How many votes were in favor? "
   },
   {
     "iIndex": 123,
-    "lSolutions": [],
+    "lSolutions": [37.0],
     "lEquations": [
-      "x=2"
+      "x=74.0*(50.0/100.0)"
     ],
     "sQuestion": "Anthony bought cupcakes for his sister's birthday party. 50% of the 74 cupcakes had sprinkles on top. How many cupcakes had sprinkles? "
   },
   {
     "iIndex": 124,
-    "lSolutions": [],
+    "lSolutions": [2.0],
     "lEquations": [
-      "x=2"
+      "x=8.0*(25.0/100.0)"
     ],
     "sQuestion": "At Carson's Swimwear, 25% of the 8 swimsuit styles are bikinis. How many bikini styles are there? "
   },
   {
     "iIndex": 125,
-    "lSolutions": [],
+    "lSolutions": [1.0],
     "lEquations": [
-      "x=2"
+      "x=10.0*(10.0/100.0)"
     ],
     "sQuestion": " The local water slides have 10 employees, of which 10% are temporary. How many temporary employees are there? "
   },
   {
     "iIndex": 126,
-    "lSolutions": [],
+    "lSolutions": [2.000000],
     "lEquations": [
-      "x=2"
+      "x=5.0*(40.0/100.0)"
     ],
     "sQuestion": " A school staff meeting had 5 teachers in attendance, 40% of whom were first-year teachers. How many first-year teachers were in the meeting? "
   },
   {
     "iIndex": 127,
-    "lSolutions": [],
+    "lSolutions": [11.0],
     "lEquations": [
-      "x=2"
+      "x=55.0*(20.0/100.0)"
     ],
     "sQuestion": " During second period, Brenda completed a grammar worksheet. Of the 55 questions, Brenda got 20% right. How many questions did Brenda get right? "
   },
   {
     "iIndex": 128,
-    "lSolutions": [],
+    "lSolutions": [6.000000],
     "lEquations": [
-      "x=2"
+      "x=20.0*(30.0/100.0)"
     ],
     "sQuestion": "Zoe's Cafe offers two kinds of espresso: single-shot and double-shot. Yesterday afternoon, the cafe sold 20 espressos in all, 30% of which were single-shot. How many single-shot espressos did the cafe sell? "
   },
   {
     "iIndex": 129,
-    "lSolutions": [],
+    "lSolutions": [19.000000],
     "lEquations": [
-      "x=2"
+      "x=76.0*(25.0/100.0)"
     ],
     "sQuestion": " Brennan ordered a set of beads. He received 76 beads, and 25% of them were purple. How many purple beads did Brennan receive? "
   },
   {
     "iIndex": 130,
-    "lSolutions": [],
+    "lSolutions": [47.000000],
     "lEquations": [
-      "x=2"
+      "x=94.0*(50.0/100.0)"
     ],
     "sQuestion": " At the craft store, Ming bought a bag of purple and red marbles. The bag contained 94 marbles, and 50% of them were purple. How many purple marbles did Ming receive? "
   },
   {
     "iIndex": 131,
-    "lSolutions": [],
+    "lSolutions": [63.000000],
     "lEquations": [
-      "x=2"
+      "x=84.0*(75.0/100.0)"
     ],
     "sQuestion": "Denelle's Diner offers its clients a choice of regular and diet soda. Last night, the diner served 84 sodas in all, 75% of which were regular. How many regular sodas did the diner serve? "
   },
   {
     "iIndex": 132,
-    "lSolutions": [],
+    "lSolutions": [20.0],
     "lEquations": [
-      "x=2"
+      "x=100.0*(20.0/100.0)"
     ],
     "sQuestion": " A scientist evaluated the local deer population. The scientist found that there were 100 deer in all, 20% of which were juveniles. How many juveniles were there in the local deer population? "
   },
   {
     "iIndex": 133,
-    "lSolutions": [],
+    "lSolutions": [7.0],
     "lEquations": [
-      "x=2"
+      "x=14.0*(50.0/100.0)"
     ],
     "sQuestion": "Eva's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 14 coffees in all, 50% of which were regular. How many regular coffees did the cafe serve? "
   },
   {
     "iIndex": 134,
-    "lSolutions": [],
+    "lSolutions": [42.000000],
     "lEquations": [
-      "x=2"
+      "x=60.0*(70.0/100.0)"
     ],
     "sQuestion": " An arborist examined trees in an orchard to see if they were infected with a virus. Out of 60 trees, 70% had the virus. How many trees were infected with the virus? "
   },
   {
     "iIndex": 135,
-    "lSolutions": [],
+    "lSolutions": [23.000000],
     "lEquations": [
-      "x=2"
+      "x=92.0*(25.0/100.0)"
     ],
     "sQuestion": "At Johnny's Hats, 25% of the 92 hats are baseball caps. How many baseball caps are there? "
   },
   {
     "iIndex": 136,
-    "lSolutions": [],
+    "lSolutions": [5.000000],
     "lEquations": [
-      "x=2"
+      "x=25.0*(20.0/100.0)"
     ],
     "sQuestion": "The students in Cooper's grade voted to select a guest speaker. 20% of the students voted for a famous athlete. If there are 25 students in Cooper's grade, how many students voted for the athlete? "
   },
   {
     "iIndex": 137,
-    "lSolutions": [],
+    "lSolutions": [39.000000],
     "lEquations": [
-      "x=2"
+      "x=52.0*(75.0/100.0)"
     ],
     "sQuestion": " Andy took a math quiz last week. There were 52 problems on the quiz and Andy answered 75% of them correctly. How many problems did Andy get correct? "
   },
   {
     "iIndex": 138,
-    "lSolutions": [],
+    "lSolutions": [52.000000],
     "lEquations": [
-      "x=2"
+      "x=65.0*(80.0/100.0)"
     ],
     "sQuestion": "Sidney's Tea Shop has caffeinated tea and decaffeinated tea. During the lunchtime rush, the tea shop served 65 teas in all, 80% of which were caffeinated. How many caffeinated teas did the tea shop serve? "
   },
   {
     "iIndex": 139,
-    "lSolutions": [],
+    "lSolutions": [3.0],
     "lEquations": [
-      "x=2"
+      "x=6.0*(50.0/100.0)"
     ],
     "sQuestion": " In order to select new board members, the French club held an election. 50% of the 6 members of the club voted. How many members voted? "
   },
   {
     "iIndex": 140,
-    "lSolutions": [],
+    "lSolutions": [4.000000],
     "lEquations": [
-      "x=2"
+      "x=40.0*(10.0/100.0)"
     ],
     "sQuestion": " During second period, Lia completed a grammar worksheet. Of the 40 questions, Lia got 10% right. How many questions did Lia get right? "
   },
   {
     "iIndex": 141,
-    "lSolutions": [],
+    "lSolutions": [29.000000],
     "lEquations": [
-      "x=2"
+      "x=58.0*(50.0/100.0)"
     ],
     "sQuestion": "Last night, the two dinner specials at Molly's favorite restaurant were salmon filet and steak. The restaurant served 58 specials in all, 50% of which were salmon filets. How many salmon filets did the restaurant serve? "
   },
   {
     "iIndex": 142,
-    "lSolutions": [],
+    "lSolutions": [48.000000],
     "lEquations": [
-      "x=2"
+      "x=80.0*(60.0/100.0)"
     ],
     "sQuestion": " 60% of the tickets sold at a water park were child tickets. If the park sold 80 tickets in all, how many child tickets did it sell? "
   },
   {
     "iIndex": 143,
-    "lSolutions": [],
+    "lSolutions": [40.0],
     "lEquations": [
-      "x=2"
+      "x=100.0*(40.0/100.0)"
     ],
     "sQuestion": "Everyone at Diane's school wore either purple or orange for school spirit day. Of the 100 students at the school, 40% wore purple. How many students wore purple? "
   },
   {
     "iIndex": 144,
-    "lSolutions": [],
+    "lSolutions": [9.0],
     "lEquations": [
-      "x=2"
+      "x=18.0*(50.0/100.0)"
     ],
     "sQuestion": "Vince's class just held a class election. 50% of the 18 students in the class voted. How many students voted? "
   },
   {
     "iIndex": 145,
-    "lSolutions": [],
+    "lSolutions": [14.000000],
     "lEquations": [
-      "x=2"
+      "x=20.0*(70.0/100.0)"
     ],
     "sQuestion": " Gavin brought chocolate and vanilla cupcakes to school for his birthday. 20 students decided to take a cupcake, and 70% of them picked vanilla. How many people picked a vanilla cupcake? "
   },
   {
     "iIndex": 146,
-    "lSolutions": [],
+    "lSolutions": [24.000000],
     "lEquations": [
-      "x=2"
+      "x=30.0*(80.0/100.0)"
     ],
     "sQuestion": "A bookstore carries 30 magazines. 80% of the magazines are women's magazines. How many women's magazines does the bookstore carry? "
   },
   {
     "iIndex": 147,
-    "lSolutions": [],
+    "lSolutions": [24.000000],
     "lEquations": [
-      "x=2"
+      "x=96.0*(25.0/100.0)"
     ],
     "sQuestion": " The art club had an election to select a president. 25% of the 96 members of the club voted in the election. How many members voted? "
   },
   {
     "iIndex": 148,
-    "lSolutions": [],
+    "lSolutions": [34.0],
     "lEquations": [
-      "x=2"
+      "x=68.0*(50.0/100.0)"
     ],
     "sQuestion": " At a company meeting, there were 68 people in attendance. 50% of them were managers. How many managers were in the meeting? "
   },
   {
     "iIndex": 149,
-    "lSolutions": [],
+    "lSolutions": [80.000000],
     "lEquations": [
-      "x=2"
+      "x=(24.0/(24.0+6.0))*100.0"
     ],
     "sQuestion": " 24 first-year teachers and 6 experienced teachers attended a school staff meeting meeting. What percentage of the teachers in the meeting were first-year teachers? "
   },
