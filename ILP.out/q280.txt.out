@@ -1,0 +1,123 @@
+parameters: n=7 l=3 k=1 p=5 q=4 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 20 | 21 | 15 | x=(3+(3*4)) | x 3 3 4 * + = | x:piece 3:piece 3:scarf 4:piece *:piece +:piece =:piece
+EXPR: 0 | POS | INT | 20 | 21 | 5 | ((3*3)-4)=x | 3 3 * 4 - x = | 3:box 3:scarf *:box 4:box -:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 21 | 24 | ((3+3)*4)=x | 3 3 + 4 * x = | 3:scarf 3:scarf +:scarf 4:piece *:piece x:piece =:piece
+EXPR: 1 | POS | INT | 20 | 21 | 21 | x=(3*(3+4)) | x 3 3 4 + * = | x:box 3:box 3:mitten 4:mitten +:mitten *:box =:box
+EXPR: 0 | POS | INT | 20 | 21 | 0 | ((3-3)*4)=x | 3 3 - 4 * x = | 3:box 3:box -:box 4:mitten *:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 21 | 5 | x=((3*3)-4) | x 3 3 * 4 - = | x:mitten 3:box 3:mitten *:mitten 4:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 20 | 21 | 15 | (3+(3*4))=x | 3 3 4 * + x = | 3:box 3:box 4:mitten *:box +:box x:box =:box
+EXPR: 1 | POS | INT | 20 | 21 | 21 | (3*(3+4))=x | 3 3 4 + * x = | 3:box 3:piece 4:piece +:piece *:piece x:piece =:piece
+EXPR: 0 | POS | INT | 20 | 21 |  | x=((3-3)/4) | x 3 3 - 4 / = | x:box 3:box 3:box -:box 4:mitten /:box =:box
+EXPR: 0 | POS | INT | 20 | 21 | 13 | ((3*3)+4)=x | 3 3 * 4 + x = | 3:box 3:scarf *:scarf 4:scarf +:scarf x:scarf =:scarf
+EXPR: 0 | POS | INT | 20 | 21 |  | x=((3-3)*4) | x 3 3 - 4 * = | x:piece 3:scarf 3:scarf -:scarf 4:piece *:piece =:piece
+EXPR: 0 | POS | INT | 20 | 21 | 24 | x=((3+3)*4) | x 3 3 + 4 * = | x:piece 3:scarf 3:scarf +:scarf 4:piece *:piece =:piece
+EXPR: 0 | POS | INT | 20 | 21 | 13 | x=((3*3)+4) | x 3 3 * 4 + = | x:piece 3:piece 3:scarf *:piece 4:piece +:piece =:piece
+EXPR: 0 | POS | INT | 20 | 21 | 5 | ((3/3)+4)=x | 3 3 / 4 + x = | 3:box 3:scarf /:box 4:box +:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 21 | 5 | x=((3/3)+4) | x 3 3 / 4 + = | x:box 3:box 3:scarf /:box 4:box +:box =:box
+EXPR: 0 | POS | INT | 20 | 21 | 0 | ((3-3)/4)=x | 3 3 - 4 / x = | 3:piece 3:piece -:piece 4:mitten /:piece x:piece =:piece
+EXPR: 1 | POS | INT | 22 | 21 | 21 | ((x/3)-3)=4 | x 3 / 3 - 4 = | x:piece 3:box /:piece 3:piece -:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 24 | (x/(3+3))=4 | x 3 3 + / 4 = | x:mitten 3:box 3:box +:box /:mitten 4:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 3 | x=(3*(4-3)) | x 3 4 3 - * = | x:box 3:box 4:mitten 3:mitten -:mitten *:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 9 | ((3*4)-3)=x | 3 4 * 3 - x = | 3:scarf 4:mitten *:scarf 3:scarf -:scarf x:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 9 | x=((3*4)-3) | x 3 4 * 3 - = | x:mitten 3:box 4:mitten *:mitten 3:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 3=(3+(4*x)) | 3 3 4 x * + = | 3:mitten 3:mitten 4:mitten x:piece *:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 15 | x=((3*4)+3) | x 3 4 * 3 + = | x:scarf 3:box 4:scarf *:scarf 3:scarf +:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | - | (x*(3-3))=4 | x 3 3 - * 4 = | x:piece 3:scarf 3:scarf -:scarf *:scarf 4:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 13 | (x-(3*3))=4 | x 3 3 * - 4 = | x:mitten 3:mitten 3:scarf *:mitten -:mitten 4:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 3 | 3=(3*(4-x)) | 3 3 4 x - * = | 3:box 3:box 4:mitten x:mitten -:mitten *:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 3 | (3/(4-3))=x | 3 4 3 - / x = | 3:piece 4:scarf 3:scarf -:scarf /:piece x:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | - | ((3-3)*x)=4 | 3 3 - x * 4 = | 3:scarf 3:scarf -:scarf x:piece *:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | - | ((3-3)/x)=4 | 3 3 - x / 4 = | 3:scarf 3:scarf -:scarf x:piece /:scarf 4:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | - | (x/(3-3))=4 | x 3 3 - / 4 = | x:piece 3:box 3:box -:box /:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 3=(3-(4*x)) | 3 3 4 x * - = | 3:scarf 3:scarf 4:scarf x:piece *:scarf -:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 3 | (3*(4-3))=x | 3 4 3 - * x = | 3:box 4:mitten 3:mitten -:mitten *:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 3 | 3=(3/(4-x)) | 3 3 4 x - / = | 3:scarf 3:scarf 4:mitten x:mitten -:mitten /:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 9 | 3=((3*4)-x) | 3 3 4 * x - = | 3:box 3:box 4:mitten *:box x:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 36 | (3*3)=(x/4) | 3 3 * x 4 / = | 3:box 3:piece *:piece x:piece 4:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | - | 3=(3+(4/x)) | 3 3 4 x / + = | 3:mitten 3:mitten 4:mitten x:piece /:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | - | 3=(3-(4/x)) | 3 3 4 x / - = | 3:mitten 3:mitten 4:mitten x:piece /:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 4 | (3*x)=(3*4) | 3 x * 3 4 * = | 3:mitten x:piece *:mitten 3:scarf 4:mitten *:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 3 | x=(3/(4-3)) | x 3 4 3 - / = | x:piece 3:piece 4:scarf 3:scarf -:scarf /:piece =:piece
+EXPR: 1 | POS | INT | 22 | 21 | 21 | ((3+4)*3)=x | 3 4 + 3 * x = | 3:box 4:box +:box 3:piece *:piece x:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 3=(3-(x/4)) | 3 3 x 4 / - = | 3:box 3:box x:box 4:mitten /:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 3=(3+(x/4)) | 3 3 x 4 / + = | 3:box 3:box x:box 4:mitten /:box +:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 5 | 3=(3*(x-4)) | 3 3 x 4 - * = | 3:scarf 3:scarf x:mitten 4:mitten -:mitten *:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 5 | 3=(3/(x-4)) | 3 3 x 4 - / = | 3:scarf 3:scarf x:mitten 4:mitten -:mitten /:scarf =:scarf
+EXPR: 1 | POS | INT | 22 | 21 | 21 | 3=(x/(3+4)) | 3 x 3 4 + / = | 3:piece x:piece 3:mitten 4:mitten +:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 9 | ((x+3)/3)=4 | x 3 + 3 / 4 = | x:piece 3:piece +:piece 3:scarf /:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 15 | ((x-3)/3)=4 | x 3 - 3 / 4 = | x:piece 3:piece -:piece 3:scarf /:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 4 | (x*3)=(3*4) | x 3 * 3 4 * = | x:piece 3:box *:box 3:scarf 4:box *:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 3=(3+(x*4)) | 3 3 x 4 * + = | 3:mitten 3:mitten x:piece 4:mitten *:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 0 | 3=(3-(x*4)) | 3 3 x 4 * - = | 3:mitten 3:mitten x:piece 4:mitten *:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 3 | (3+(3/x))=4 | 3 3 x / + 4 = | 3:box 3:box x:piece /:box +:box 4:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 4 | (3/x)=(3/4) | 3 x / 3 4 / = | 3:box x:piece /:box 3:box 4:mitten /:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 15 | 3=(x-(3*4)) | 3 x 3 4 * - = | 3:scarf x:scarf 3:scarf 4:mitten *:scarf -:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 3 | ((x/3)+3)=4 | x 3 / 3 + 4 = | x:scarf 3:box /:scarf 3:scarf +:scarf 4:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 3 | (x+(3/3))=4 | x 3 3 / + 4 = | x:box 3:box 3:scarf /:box +:box 4:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 5 | (x-(3/3))=4 | x 3 3 / - 4 = | x:box 3:box 3:scarf /:box -:box 4:box =:box
+EXPR: 0 | POS | INT | 22 | 21 | 15 | ((3*4)+3)=x | 3 4 * 3 + x = | 3:scarf 4:mitten *:scarf 3:scarf +:scarf x:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 9 | 3=((x+3)/4) | 3 x 3 + 4 / = | 3:piece x:piece 3:piece +:piece 4:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 5 | ((3*3)-x)=4 | 3 3 * x - 4 = | 3:box 3:scarf *:scarf x:scarf -:scarf 4:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 3 | ((3/3)+x)=4 | 3 3 / x + 4 = | 3:piece 3:scarf /:piece x:piece +:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 22 | 21 | 3 | ((3/x)+3)=4 | 3 x / 3 + 4 = | 3:scarf x:piece /:scarf 3:scarf +:scarf 4:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 21 | 15 | 3=((x-3)/4) | 3 x 3 - 4 / = | 3:piece x:piece 3:piece -:piece 4:mitten /:piece =:piece
+EXPR: 1 | POS | INT | 22 | 21 | 21 | x=((3+4)*3) | x 3 4 + 3 * = | x:scarf 3:mitten 4:mitten +:mitten 3:scarf *:scarf =:scarf
+EXPR: 1 | POS | INT | 22 | 21 | 21 | 3=((x/3)-4) | 3 x 3 / 4 - = | 3:mitten x:mitten 3:scarf /:mitten 4:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 21 | 9 | ((3+x)/3)=4 | 3 x + 3 / 4 = | 3:mitten x:mitten +:mitten 3:scarf /:mitten 4:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 21 |  | (3+(4*x))=3 | 3 4 x * + 3 = | 3:scarf 4:mitten x:scarf *:scarf +:scarf 3:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 21 |  | (3+(x*4))=3 | 3 x 4 * + 3 = | 3:box x:piece 4:box *:box +:box 3:box =:box
+EXPR: 0 | POS | INT | 24 | 21 | 5 | (3*(x-4))=3 | 3 x 4 - * 3 = | 3:box x:mitten 4:mitten -:mitten *:box 3:box =:box
+EXPR: 0 | POS | INT | 24 | 21 | 3 | (3*(4-x))=3 | 3 4 x - * 3 = | 3:box 4:piece x:piece -:piece *:box 3:box =:box
+EXPR: 0 | POS | INT | 24 | 21 |  | (3-(x*4))=3 | 3 x 4 * - 3 = | 3:mitten x:piece 4:mitten *:mitten -:mitten 3:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 21 | 5 | 3=((x-4)*3) | 3 x 4 - 3 * = | 3:scarf x:piece 4:piece -:piece 3:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 21 | 4 | (3*4)=(x*3) | 3 4 * x 3 * = | 3:scarf 4:mitten *:scarf x:piece 3:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 21 | 3 | (3/(4-x))=3 | 3 4 x - / 3 = | 3:box 4:mitten x:mitten -:mitten /:box 3:box =:box
+EXPR: 0 | POS | INT | 24 | 21 | 4 | (3*4)=(3*x) | 3 4 * 3 x * = | 3:box 4:mitten *:box 3:scarf x:box *:box =:box
+EXPR: 0 | POS | INT | 24 | 21 | 4 | (3/4)=(3/x) | 3 4 / 3 x / = | 3:box 4:mitten /:box 3:box x:piece /:box =:box
+EXPR: 0 | POS | INT | 24 | 21 | 9 | ((3+x)/4)=3 | 3 x + 4 / 3 = | 3:piece x:piece +:piece 4:mitten /:piece 3:piece =:piece
+EXPR: 0 | POS | INT | 24 | 21 | 5 | (3/(x-4))=3 | 3 x 4 - / 3 = | 3:box x:mitten 4:mitten -:mitten /:box 3:box =:box
+EXPR: 0 | POS | INT | 24 | 21 | 15 | (x-(3*4))=3 | x 3 4 * - 3 = | x:box 3:box 4:mitten *:box -:box 3:box =:box
+EXPR: 0 | POS | INT | 25 | 21 | 3 | ((4-3)*3)=x | 4 3 - 3 * x = | 4:mitten 3:mitten -:mitten 3:scarf *:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 25 | 21 | 0 | (4*(3-3))=x | 4 3 3 - * x = | 4:mitten 3:box 3:box -:box *:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 25 | 21 | 24 | (4*(3+3))=x | 4 3 3 + * x = | 4:piece 3:box 3:box +:box *:piece x:piece =:piece
+EXPR: 0 | POS | INT | 25 | 21 | 13 | x=(4+(3*3)) | x 4 3 3 * + = | x:piece 4:piece 3:box 3:piece *:piece +:piece =:piece
+EXPR: 0 | POS | INT | 25 | 21 | 13 | (4+(3*3))=x | 4 3 3 * + x = | 4:box 3:box 3:scarf *:box +:box x:box =:box
+EXPR: 0 | POS | INT | 25 | 21 | zoo | (4/(3-3))=x | 4 3 3 - / x = | 4:mitten 3:scarf 3:scarf -:scarf /:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 21 | 3 | (4-(3/x))=3 | 4 3 x / - 3 = | 4:mitten 3:mitten x:piece /:mitten -:mitten 3:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 21 | 0 | 3=((x*4)+3) | 3 x 4 * 3 + = | 3:scarf x:piece 4:scarf *:scarf 3:scarf +:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 21 | 3 | 3=((4-x)*3) | 3 4 x - 3 * = | 3:scarf 4:piece x:piece -:piece 3:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 21 | 3 | 3=(x*(4-3)) | 3 x 4 3 - * = | 3:scarf x:piece 4:scarf 3:scarf -:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 21 | 9 | ((3*4)-x)=3 | 3 4 * x - 3 = | 3:piece 4:mitten *:piece x:piece -:piece 3:piece =:piece
+EXPR: 0 | POS | INT | 27 | 21 | 3 | (x*(4-3))=3 | x 4 3 - * 3 = | x:piece 4:mitten 3:mitten -:mitten *:mitten 3:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 21 | 24 | ((x/4)-3)=3 | x 4 / 3 - 3 = | x:scarf 4:mitten /:scarf 3:scarf -:scarf 3:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 21 | - | 4=(x*(3-3)) | 4 x 3 3 - * = | 4:scarf x:piece 3:scarf 3:scarf -:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 21 | 3 | 3=(x/(4-3)) | 3 x 4 3 - / = | 3:piece x:piece 4:box 3:box -:box /:piece =:piece
+EXPR: 0 | POS | INT | 27 | 21 | 5 | 4=((3*3)-x) | 4 3 3 * x - = | 4:box 3:box 3:scarf *:box x:box -:box =:box
+EXPR: 0 | POS | INT | 29 | 21 | 5 | ((x+4)/3)=3 | x 4 + 3 / 3 = | x:piece 4:piece +:piece 3:scarf /:piece 3:piece =:piece
+EXPR: 0 | POS | INT | 29 | 21 | 3 | (x/(4-3))=3 | x 4 3 - / 3 = | x:piece 4:scarf 3:scarf -:scarf /:piece 3:piece =:piece
+EXPR: 0 | POS | INT | 29 | 21 | 3 | ((4-3)*x)=3 | 4 3 - x * 3 = | 4:scarf 3:scarf -:scarf x:piece *:piece 3:piece =:piece
+EXPR: 0 | POS | INT | 29 | 21 |  | ((4*x)+3)=3 | 4 x * 3 + 3 = | 4:mitten x:piece *:piece 3:piece +:piece 3:piece =:piece
+EXPR: 0 | POS | INT | 29 | 21 | - | 4=((3-3)*x) | 4 3 3 - x * = | 4:box 3:box 3:box -:box x:piece *:box =:box
+EXPR: 0 | POS | INT | 29 | 21 | 5 | 4=(x-(3/3)) | 4 x 3 3 / - = | 4:scarf x:scarf 3:scarf 3:box /:scarf -:scarf =:scarf
+EXPR: 0 | POS | INT | 29 | 21 | 3 | 4=(x+(3/3)) | 4 x 3 3 / + = | 4:scarf x:scarf 3:scarf 3:box /:scarf +:scarf =:scarf
+EXPR: 0 | POS | INT | 29 | 21 |  | ((x*4)+3)=3 | x 4 * 3 + 3 = | x:piece 4:mitten *:mitten 3:mitten +:mitten 3:mitten =:mitten
+EXPR: 0 | POS | INT | 30 | 21 | 4 | ((3-3)+4)=x | 3 3 - 4 + x = | 3:piece 3:piece -:piece 4:piece +:piece x:piece =:piece
+EXPR: 0 | POS | INT | 30 | 21 | 2 | ((3+3)-4)=x | 3 3 + 4 - x = | 3:box 3:box +:box 4:box -:box x:box =:box
+EXPR: 0 | POS | INT | 32 | 21 | 2 | x=(3-(4-3)) | x 3 4 3 - - = | x:mitten 3:mitten 4:mitten 3:mitten -:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 21 | 4 | x=(3+(4-3)) | x 3 4 3 - + = | x:mitten 3:mitten 4:mitten 3:mitten -:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 21 | 4 | ((3+x)-3)=4 | 3 x + 3 - 4 = | 3:piece x:piece +:piece 3:piece -:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 32 | 21 | 4 | x=(3-(3-4)) | x 3 3 4 - - = | x:box 3:box 3:box 4:box -:box -:box =:box
+EXPR: 0 | POS | INT | 32 | 21 | 10 | x=(3+(3+4)) | x 3 3 4 + + = | x:box 3:box 3:box 4:box +:box +:box =:box
+EXPR: 0 | POS | INT | 32 | 21 | 3 | (3/3)=(4-x) | 3 3 / 4 x - = | 3:box 3:scarf /:box 4:box x:box -:box =:box
+EXPR: 0 | POS | INT | 32 | 21 | 4 | (3+(4-3))=x | 3 4 3 - + x = | 3:mitten 4:mitten 3:mitten -:mitten +:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 21 | 4 | (3+(x-3))=4 | 3 x 3 - + 4 = | 3:piece x:piece 3:piece -:piece +:piece 4:piece =:piece
+EXPR: 0 | POS | INT | 32 | 21 | 4 | ((3+4)-3)=x | 3 4 + 3 - x = | 3:piece 4:piece +:piece 3:piece -:piece x:piece =:piece
+EXPR: 0 | POS | INT | 32 | 21 | 3 | (3+(x/3))=4 | 3 x 3 / + 4 = | 3:mitten x:mitten 3:piece /:mitten +:mitten 4:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 21 | 36 | (x/3)=(3*4) | x 3 / 3 4 * = | x:mitten 3:box /:mitten 3:piece 4:mitten *:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 21 | 4 | ((3+x)-4)=3 | 3 x + 4 - 3 = | 3:scarf x:scarf +:scarf 4:scarf -:scarf 3:scarf =:scarf
+EXPR: 0 | POS | INT | 34 | 21 | 10 | 3=((x-3)-4) | 3 x 3 - 4 - = | 3:mitten x:mitten 3:mitten -:mitten 4:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 21 | 2 | 3=((x-3)+4) | 3 x 3 - 4 + = | 3:mitten x:mitten 3:mitten -:mitten 4:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 21 | 36 | (3*4)=(x/3) | 3 4 * x 3 / = | 3:box 4:piece *:piece x:piece 3:mitten /:piece =:piece
+NET 119 unique, non-negative, integer-valued solutions found out of 1000 total solutions

@@ -1,0 +1,5 @@
+quantities : 3 15 7 x
+types : "problem" "worksheet" "worksheet" "problem"
+operators : + - * / =
+n : 7
+answer : 24.0

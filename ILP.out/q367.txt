@@ -1,0 +1,5 @@
+quantities : 6 23 25 x
+types : "cookie" "cookie" "cookie" "baggy"
+operators : + - * / =
+n : 7
+answer : 8.0

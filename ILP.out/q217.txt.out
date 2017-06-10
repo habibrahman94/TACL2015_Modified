@@ -1,0 +1,161 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 30 | 0 | ((5-5)*3)=x | 5 5 - 3 * x = | 5:pile 5:pile -:pile 3:coin *:coin x:coin =:coin
+EXPR: 1 | POS | INT | 2 | 30 | 30 | ((5+5)*3)=x | 5 5 + 3 * x = | 5:pile 5:pile +:pile 3:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 |  | x=((5-5)*3) | x 5 5 - 3 * = | x:coin 5:pile 5:pile -:pile 3:coin *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 | 4 | (5/(x-3))=5 | 5 x 3 - / 5 = | 5:pile x:coin 3:coin -:coin /:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 2 | 30 | 4 | (5*(x-3))=5 | 5 x 3 - * 5 = | 5:pile x:coin 3:coin -:coin *:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 2 | 30 | 2 | (5*(3-x))=5 | 5 3 x - * 5 = | 5:pile 3:coin x:coin -:coin *:pile 5:pile =:pile
+EXPR: 1 | POS | INT | 2 | 30 | 30 | x=((5+5)*3) | x 5 5 + 3 * = | x:coin 5:pile 5:pile +:pile 3:coin *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 | 2 | (5/(3-x))=5 | 5 3 x - / 5 = | 5:pile 3:coin x:coin -:coin /:pile 5:pile =:pile
+EXPR: 1 | POS | INT | 2 | 30 | 30 | x=(3*(5+5)) | x 3 5 5 + * = | x:coin 3:coin 5:pile 5:pile +:pile *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 |  | x=(3*(5-5)) | x 3 5 5 - * = | x:coin 3:coin 5:pile 5:pile -:pile *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 | 4 | 5=((x-3)*5) | 5 x 3 - 5 * = | 5:pile x:coin 3:coin -:coin 5:pile *:pile =:pile
+EXPR: 1 | POS | INT | 2 | 30 | 30 | (3*(5+5))=x | 3 5 5 + * x = | 3:coin 5:pile 5:pile +:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 | zoo | (3/(5-5))=x | 3 5 5 - / x = | 3:coin 5:pile 5:pile -:pile /:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 | 0 | (3*(5-5))=x | 3 5 5 - * x = | 3:coin 5:pile 5:pile -:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 30 | 2 | 5=((3-x)*5) | 5 3 x - 5 * = | 5:pile 3:coin x:coin -:coin 5:pile *:pile =:pile
+EXPR: 0 | POS | INT | 2 | 30 | zoo | x=(3/(5-5)) | x 3 5 5 - / = | x:coin 3:coin 5:pile 5:pile -:pile /:coin =:coin
+EXPR: 1 | POS | INT | 4 | 30 | 30 | (x/(5+5))=3 | x 5 5 + / 3 = | x:coin 5:pile 5:pile +:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 4 | 30 | 2 | ((3-x)*5)=5 | 3 x - 5 * 5 = | 3:coin x:coin -:coin 5:pile *:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 4 | 30 | - | 3=(x*(5-5)) | 3 x 5 5 - * = | 3:coin x:coin 5:pile 5:pile -:pile *:coin =:coin
+EXPR: 1 | POS | INT | 4 | 30 | 30 | 3=(x/(5+5)) | 3 x 5 5 + / = | 3:coin x:coin 5:pile 5:pile +:pile /:coin =:coin
+EXPR: 0 | POS | INT | 4 | 30 | - | (x*(5-5))=3 | x 5 5 - * 3 = | x:coin 5:pile 5:pile -:pile *:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 4 | 30 | - | (x/(5-5))=3 | x 5 5 - / 3 = | x:coin 5:pile 5:pile -:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 4 | 30 | 4 | 5=(5*(x-3)) | 5 5 x 3 - * = | 5:pile 5:pile x:coin 3:coin -:coin *:pile =:pile
+EXPR: 0 | POS | INT | 4 | 30 | - | 3=((5-5)*x) | 3 5 5 - x * = | 3:coin 5:pile 5:pile -:pile x:coin *:coin =:coin
+EXPR: 0 | POS | INT | 4 | 30 | 2 | 5=(5/(3-x)) | 5 5 3 x - / = | 5:pile 5:pile 3:coin x:coin -:coin /:pile =:pile
+EXPR: 0 | POS | INT | 4 | 30 | 4 | 5=(5/(x-3)) | 5 5 x 3 - / = | 5:pile 5:pile x:coin 3:coin -:coin /:pile =:pile
+EXPR: 0 | POS | INT | 4 | 30 | - | ((5-5)*x)=3 | 5 5 - x * 3 = | 5:pile 5:pile -:pile x:coin *:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 4 | 30 | 2 | 5=(5*(3-x)) | 5 5 3 x - * = | 5:pile 5:pile 3:coin x:coin -:coin *:pile =:pile
+EXPR: 0 | POS | INT | 4 | 30 | 4 | ((x-3)*5)=5 | x 3 - 5 * 5 = | x:coin 3:coin -:coin 5:pile *:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 10 | 30 | 10 | ((5-3)*5)=x | 5 3 - 5 * x = | 5:coin 3:coin -:coin 5:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 40 | x=(5*(3+5)) | x 5 3 5 + * = | x:coin 5:pile 3:coin 5:coin +:coin *:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 10 | x=((5-3)*5) | x 5 3 - 5 * = | x:coin 5:coin 3:coin -:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 10 | ((5*3)-5)=x | 5 3 * 5 - x = | 5:pile 3:coin *:coin 5:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 20 | ((5*3)+5)=x | 5 3 * 5 + x = | 5:pile 3:coin *:coin 5:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 10 | x=((5*3)-5) | x 5 3 * 5 - = | x:coin 5:pile 3:coin *:coin 5:coin -:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 20 | (5+(3*5))=x | 5 3 5 * + x = | 5:pile 3:coin 5:pile *:pile +:pile x:pile =:pile
+EXPR: 0 | POS | INT | 10 | 30 | 20 | x=((5*3)+5) | x 5 3 * 5 + = | x:coin 5:pile 3:coin *:coin 5:coin +:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 40 | x=((5+3)*5) | x 5 3 + 5 * = | x:coin 5:coin 3:coin +:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 40 | (5*(3+5))=x | 5 3 5 + * x = | 5:pile 3:coin 5:coin +:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 30 | 20 | x=(5+(3*5)) | x 5 3 5 * + = | x:pile 5:pile 3:coin 5:pile *:pile +:pile =:pile
+EXPR: 0 | POS | INT | 10 | 30 | 40 | ((5+3)*5)=x | 5 3 + 5 * x = | 5:coin 3:coin +:coin 5:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 10 | 5=((3*5)-x) | 5 3 5 * x - = | 5:coin 3:coin 5:pile *:coin x:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 |  | (5+(3*x))=5 | 5 3 x * + 5 = | 5:pile 3:coin x:pile *:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 40 | ((x/5)-3)=5 | x 5 / 3 - 5 = | x:coin 5:pile /:coin 3:coin -:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 10 | ((x/5)+3)=5 | x 5 / 3 + 5 = | x:coin 5:pile /:coin 3:coin +:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 28 | x=((5*5)+3) | x 5 5 * 3 + = | x:coin 5:pile 5:coin *:coin 3:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 |  | (5+(x*3))=5 | 5 x 3 * + 5 = | 5:pile x:coin 3:pile *:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 22 | 5=((x+3)/5) | 5 x 3 + 5 / = | 5:coin x:coin 3:coin +:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 2 | x=(3-(5/5)) | x 3 5 5 / - = | x:coin 3:coin 5:coin 5:pile /:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 |  | (5-(3*x))=5 | 5 3 x * - 5 = | 5:pile 3:coin x:pile *:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 |  | (5-(x*3))=5 | 5 x 3 * - 5 = | 5:pile x:coin 3:pile *:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 0 | 5=((x*3)+5) | 5 x 3 * 5 + = | 5:pile x:coin 3:pile *:pile 5:pile +:pile =:pile
+EXPR: 1 | POS | INT | 12 | 30 | 30 | 5=((x/3)-5) | 5 x 3 / 5 - = | 5:pile x:pile 3:coin /:pile 5:pile -:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 0 | 5=((x/3)+5) | 5 x 3 / 5 + = | 5:pile x:pile 3:coin /:pile 5:pile +:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 75 | (x/5)=(3*5) | x 5 / 3 5 * = | x:coin 5:pile /:coin 3:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 10 | x=(5*(5-3)) | x 5 5 3 - * = | x:coin 5:pile 5:coin 3:coin -:coin *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 28 | 5=((x-3)/5) | 5 x 3 - 5 / = | 5:coin x:coin 3:coin -:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 22 | ((5*5)-3)=x | 5 5 * 3 - x = | 5:pile 5:coin *:coin 3:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 28 | ((5*5)+3)=x | 5 5 * 3 + x = | 5:pile 5:coin *:coin 3:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 20 | (x-(5*3))=5 | x 5 3 * - 5 = | x:coin 5:pile 3:coin *:coin -:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 20 | ((x-5)/3)=5 | x 5 - 3 / 5 = | x:pile 5:pile -:pile 3:coin /:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 10 | ((x+5)/3)=5 | x 5 + 3 / 5 = | x:pile 5:pile +:pile 3:coin /:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 3 | (x*5)=(3*5) | x 5 * 3 5 * = | x:coin 5:pile *:coin 3:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 22 | x=((5*5)-3) | x 5 5 * 3 - = | x:coin 5:pile 5:coin *:coin 3:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 10 | (5*(5-3))=x | 5 5 3 - * x = | 5:pile 5:coin 3:coin -:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 4 | x=(3+(5/5)) | x 3 5 5 / + = | x:coin 3:coin 5:coin 5:pile /:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 28 | x=(3+(5*5)) | x 3 5 5 * + = | x:coin 3:coin 5:coin 5:pile *:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 4 | ((5/5)+3)=x | 5 5 / 3 + x = | 5:coin 5:pile /:coin 3:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 10 | ((5*3)-x)=5 | 5 3 * x - 5 = | 5:pile 3:coin *:pile x:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 0 | 5=((3*x)+5) | 5 3 x * 5 + = | 5:pile 3:pile x:coin *:pile 5:pile +:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | - | 5=((3/x)+5) | 5 3 x / 5 + = | 5:pile 3:pile x:coin /:pile 5:pile +:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 10 | 5=(3+(x/5)) | 5 3 x 5 / + = | 5:coin 3:coin x:coin 5:pile /:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 20 | 5=(x-(3*5)) | 5 x 3 5 * - = | 5:pile x:pile 3:coin 5:pile *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | - | (5+(3/x))=5 | 5 3 x / + 5 = | 5:pile 3:pile x:coin /:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 3 | (5/3)=(5/x) | 5 3 / 5 x / = | 5:pile 3:coin /:pile 5:pile x:coin /:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 |  | x=((5-5)/3) | x 5 5 - 3 / = | x:pile 5:pile 5:pile -:pile 3:coin /:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 28 | (3+(5*5))=x | 3 5 5 * + x = | 3:coin 5:pile 5:coin *:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 3 | (5*x)=(3*5) | 5 x * 3 5 * = | 5:pile x:coin *:coin 3:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 4 | (3+(5/5))=x | 3 5 5 / + x = | 3:coin 5:coin 5:pile /:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 4 | x=((5/5)+3) | x 5 5 / 3 + = | x:coin 5:coin 5:pile /:coin 3:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 2 | (3-(5/5))=x | 3 5 5 / - x = | 3:coin 5:coin 5:pile /:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 3 | (5*3)=(x*5) | 5 3 * x 5 * = | 5:pile 3:coin *:coin x:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 0 | ((5-5)/3)=x | 5 5 - 3 / x = | 5:pile 5:pile -:pile 3:coin /:pile x:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 3 | (5*3)=(5*x) | 5 3 * 5 x * = | 5:pile 3:coin *:coin 5:pile x:coin *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 |  | (5+(x/3))=5 | 5 x 3 / + 5 = | 5:pile x:pile 3:coin /:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 10 | ((5+x)/3)=5 | 5 x + 3 / 5 = | 5:pile x:pile +:pile 3:coin /:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 22 | 5=((3+x)/5) | 5 3 x + 5 / = | 5:coin 3:coin x:coin +:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | 3 | (x/5)=(3/5) | x 5 / 3 5 / = | x:coin 5:pile /:coin 3:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 30 | - | (5-(3/x))=5 | 5 3 x / - 5 = | 5:pile 3:pile x:coin /:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 |  | (5-(x/3))=5 | 5 x 3 / - 5 = | 5:pile x:pile 3:coin /:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 12 | 30 | 75 | (5*3)=(x/5) | 5 3 * x 5 / = | 5:pile 3:coin *:coin x:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 20 | ((x-5)/5)=3 | x 5 - 5 / 3 = | x:coin 5:coin -:coin 5:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 |  | ((x/3)+5)=5 | x 3 / 5 + 5 = | x:pile 3:coin /:pile 5:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | - | ((3/x)+5)=5 | 3 x / 5 + 5 = | 3:pile x:coin /:pile 5:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 40 | ((x/5)-5)=3 | x 5 / 5 - 3 = | x:coin 5:pile /:coin 5:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 |  | ((3*x)+5)=5 | 3 x * 5 + 5 = | 3:coin x:pile *:pile 5:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 2 | ((5/5)+x)=3 | 5 5 / x + 3 = | 5:coin 5:pile /:coin x:coin +:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 4 | 3=(x-(5/5)) | 3 x 5 5 / - = | 3:coin x:coin 5:coin 5:pile /:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 2 | 3=(x+(5/5)) | 3 x 5 5 / + = | 3:coin x:coin 5:coin 5:pile /:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 28 | ((x-3)/5)=5 | x 3 - 5 / 5 = | x:coin 3:coin -:coin 5:pile /:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 10 | 3=((5+x)/5) | 3 5 x + 5 / = | 3:coin 5:coin x:coin +:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | - | 3=((5-5)/x) | 3 5 5 - x / = | 3:pile 5:pile 5:pile -:pile x:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 10 | ((5+x)/5)=3 | 5 x + 5 / 3 = | 5:coin x:coin +:coin 5:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 28 | 3=(x-(5*5)) | 3 x 5 5 * - = | 3:coin x:coin 5:pile 5:coin *:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=(5+(3*x)) | 5 5 3 x * + = | 5:pile 5:pile 3:pile x:coin *:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 22 | ((3+x)/5)=5 | 3 x + 5 / 5 = | 3:coin x:coin +:coin 5:pile /:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | - | 5=(5+(3/x)) | 5 5 3 x / + = | 5:pile 5:pile 3:pile x:coin /:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 10 | 3=(5-(x/5)) | 3 5 x 5 / - = | 3:coin 5:coin x:coin 5:pile /:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 22 | ((5*5)-x)=3 | 5 5 * x - 3 = | 5:coin 5:pile *:coin x:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 2 | (x+(5/5))=3 | x 5 5 / + 3 = | x:coin 5:coin 5:pile /:coin +:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (x-(5/5))=3 | x 5 5 / - 3 = | x:coin 5:coin 5:pile /:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 10 | (5-(x/5))=3 | 5 x 5 / - 3 = | 5:coin x:coin 5:pile /:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=(5-(3*x)) | 5 5 3 x * - = | 5:pile 5:pile 3:pile x:coin *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | - | 5=(5-(3/x)) | 5 5 3 x / - = | 5:pile 5:pile 3:pile x:coin /:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 28 | (x-(5*5))=3 | x 5 5 * - 3 = | x:coin 5:coin 5:pile *:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 |  | ((x*3)+5)=5 | x 3 * 5 + 5 = | x:pile 3:coin *:pile 5:pile +:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 10 | 3=((x+5)/5) | 3 x 5 + 5 / = | 3:coin x:coin 5:coin +:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 2 | 3=((5/5)+x) | 3 5 5 / x + = | 3:coin 5:coin 5:pile /:coin x:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 3 | (5/x)=(5/3) | 5 x / 5 3 / = | 5:pile x:coin /:pile 5:pile 3:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=(5-(x*3)) | 5 5 x 3 * - = | 5:pile 5:pile x:coin 3:pile *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=(5+(x*3)) | 5 5 x 3 * + = | 5:pile 5:pile x:coin 3:pile *:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 22 | 3=((5*5)-x) | 3 5 5 * x - = | 3:coin 5:coin 5:pile *:coin x:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 20 | 5=((x-5)/3) | 5 x 5 - 3 / = | 5:pile x:pile 5:pile -:pile 3:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 10 | 5=((x/5)+3) | 5 x 5 / 3 + = | 5:coin x:coin 5:pile /:coin 3:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 10 | (3+(x/5))=5 | 3 x 5 / + 5 = | 3:coin x:coin 5:pile /:coin +:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 20 | 3=((x-5)/5) | 3 x 5 - 5 / = | 3:coin x:coin 5:coin -:coin 5:pile /:coin =:coin
+EXPR: 1 | POS | INT | 14 | 30 | 30 | ((x/3)-5)=5 | x 3 / 5 - 5 = | x:pile 3:coin /:pile 5:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=(5+(x/3)) | 5 5 x 3 / + = | 5:pile 5:pile x:pile 3:coin /:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=(5-(x/3)) | 5 5 x 3 / - = | 5:pile 5:pile x:pile 3:coin /:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 40 | 3=((x/5)-5) | 3 x 5 / 5 - = | 3:coin x:coin 5:pile /:coin 5:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 10 | 5=((x+5)/3) | 5 x 5 + 3 / = | 5:pile x:pile 5:pile +:pile 3:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 3 | (3/5)=(x/5) | 3 5 / x 5 / = | 3:coin 5:pile /:coin x:coin 5:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 10 | 5=((5+x)/3) | 5 5 x + 3 / = | 5:pile 5:pile x:pile +:pile 3:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | - | ((5-5)/x)=3 | 5 5 - x / 3 = | 5:pile 5:pile -:pile x:coin /:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 14 | 30 | 10 | ((x+5)/5)=3 | x 5 + 5 / 3 = | x:coin 5:coin +:coin 5:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 22 | ((x+3)/5)=5 | x 3 + 5 / 5 = | x:coin 3:coin +:coin 5:pile /:coin 5:coin =:coin
+EXPR: 0 | POS | INT | 14 | 30 | 40 | 5=((x/5)-3) | 5 x 5 / 3 - = | 5:coin x:coin 5:pile /:coin 3:coin -:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 20 | (5+(5*3))=x | 5 5 3 * + x = | 5:pile 5:pile 3:coin *:pile +:pile x:pile =:pile
+EXPR: 0 | POS | INT | 15 | 30 | 40 | x=(5*(5+3)) | x 5 5 3 + * = | x:coin 5:pile 5:coin 3:coin +:coin *:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 40 | (5*(5+3))=x | 5 5 3 + * x = | 5:pile 5:coin 3:coin +:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 10 | ((3*5)-5)=x | 3 5 * 5 - x = | 3:coin 5:pile *:coin 5:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 20 | ((3*5)+5)=x | 3 5 * 5 + x = | 3:coin 5:pile *:coin 5:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 20 | x=(5+(5*3)) | x 5 5 3 * + = | x:coin 5:coin 5:pile 3:coin *:coin +:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 10 | x=((3*5)-5) | x 3 5 * 5 - = | x:pile 3:coin 5:pile *:pile 5:pile -:pile =:pile
+EXPR: 0 | POS | INT | 15 | 30 | 20 | x=((3*5)+5) | x 3 5 * 5 + = | x:pile 3:coin 5:pile *:pile 5:pile +:pile =:pile
+EXPR: 0 | POS | INT | 15 | 30 | 40 | x=((3+5)*5) | x 3 5 + 5 * = | x:coin 3:coin 5:coin +:coin 5:pile *:coin =:coin
+EXPR: 0 | POS | INT | 15 | 30 | 40 | ((3+5)*5)=x | 3 5 + 5 * x = | 3:coin 5:coin +:coin 5:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 17 | 30 | 3 | (x*5)=(5*3) | x 5 * 5 3 * = | x:coin 5:pile *:coin 5:pile 3:coin *:coin =:coin
+EXPR: 0 | POS | INT | 17 | 30 | 20 | (x-(3*5))=5 | x 3 5 * - 5 = | x:pile 3:coin 5:pile *:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 17 | 30 | 10 | 5=((5*3)-x) | 5 5 3 * x - = | 5:coin 5:pile 3:coin *:coin x:coin -:coin =:coin
+EXPR: 0 | POS | INT | 17 | 30 | 75 | (x/5)=(5*3) | x 5 / 5 3 * = | x:coin 5:pile /:coin 5:pile 3:coin *:coin =:coin
+EXPR: 0 | POS | INT | 17 | 30 | 20 | 5=(x-(5*3)) | 5 x 5 3 * - = | 5:pile x:pile 5:pile 3:coin *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 17 | 30 | 3 | (5*x)=(5*3) | 5 x * 5 3 * = | 5:pile x:coin *:coin 5:pile 3:coin *:coin =:coin
+EXPR: 0 | POS | INT | 17 | 30 | 10 | ((3*5)-x)=5 | 3 5 * x - 5 = | 3:coin 5:pile *:pile x:pile -:pile 5:pile =:pile
+EXPR: 0 | POS | INT | 17 | 30 | 3 | (3*5)=(5*x) | 3 5 * 5 x * = | 3:coin 5:pile *:pile 5:pile x:coin *:pile =:pile
+EXPR: 0 | POS | INT | 17 | 30 | 3 | (3*5)=(x*5) | 3 5 * x 5 * = | 3:coin 5:pile *:pile x:coin 5:pile *:pile =:pile
+EXPR: 0 | POS | INT | 17 | 30 | 75 | (3*5)=(x/5) | 3 5 * x 5 / = | 3:coin 5:pile *:coin x:coin 5:pile /:coin =:coin
+NET 157 unique, non-negative, integer-valued solutions found out of 1000 total solutions

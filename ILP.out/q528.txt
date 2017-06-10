@@ -1,0 +1,5 @@
+quantities : 18 12 3 x
+types : "people" "people" "people" "table"
+operators : + - * / =
+n : 7
+answer : 2.0

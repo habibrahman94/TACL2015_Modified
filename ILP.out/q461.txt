@@ -1,0 +1,5 @@
+quantities : x 4.0 13 4
+types : "money" "money" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 36.0

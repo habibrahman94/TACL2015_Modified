@@ -1,0 +1,5 @@
+quantities : 39 12 49 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 2.0

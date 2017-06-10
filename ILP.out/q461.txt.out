@@ -1,0 +1,237 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 36 | 36 | x=(4.0*(13-4)) | x 4.0 13 4 - * = | x:money 4.0:money 13:rose 4:rose -:rose *:money =:money
+EXPR: 0 | POS | INT | 0 | 36 | 68 | x=(4.0*(13+4)) | x 4.0 13 4 + * = | x:money 4.0:money 13:rose 4:rose +:rose *:money =:money
+EXPR: 1 | POS | INT | 0 | 36 | 36 | (4.0*(13-4))=x | 4.0 13 4 - * x = | 4.0:money 13:rose 4:rose -:rose *:money x:money =:money
+EXPR: 0 | POS | INT | 0 | 36 | 68 | (4.0*(13+4))=x | 4.0 13 4 + * x = | 4.0:money 13:rose 4:rose +:rose *:money x:money =:money
+EXPR: 1 | POS | INT | 2 | 36 | 36 | 4.0=(x/(13-4)) | 4.0 x 13 4 - / = | 4.0:money x:money 13:rose 4:rose -:rose /:money =:money
+EXPR: 0 | POS | INT | 2 | 36 | 68 | 4.0=(x/(13+4)) | 4.0 x 13 4 + / = | 4.0:money x:money 13:rose 4:rose +:rose /:money =:money
+EXPR: 0 | POS | INT | 5 | 36 | 68 | ((13+4)*4.0)=x | 13 4 + 4.0 * x = | 13:rose 4:rose +:rose 4.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 5 | 36 | 36 | x=((13-4)*4.0) | x 13 4 - 4.0 * = | x:money 13:rose 4:rose -:rose 4.0:money *:money =:money
+EXPR: 0 | POS | INT | 5 | 36 | 68 | x=((13+4)*4.0) | x 13 4 + 4.0 * = | x:money 13:rose 4:rose +:rose 4.0:money *:money =:money
+EXPR: 1 | POS | INT | 5 | 36 | 36 | ((13-4)*4.0)=x | 13 4 - 4.0 * x = | 13:rose 4:rose -:rose 4.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 7 | 36 | 36 | (x/(13-4))=4.0 | x 13 4 - / 4.0 = | x:money 13:rose 4:rose -:rose /:money 4.0:money =:money
+EXPR: 0 | POS | INT | 7 | 36 | 68 | (x/(13+4))=4.0 | x 13 4 + / 4.0 = | x:money 13:rose 4:rose +:rose /:money 4.0:money =:money
+EXPR: 0 | POS | INT | 10 | 36 | 56 | x=((4.0*13)+4) | x 4.0 13 * 4 + = | x:money 4.0:money 13:rose *:money 4:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 36 | 56 | ((4.0*13)+4)=x | 4.0 13 * 4 + x = | 4.0:money 13:rose *:rose 4:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 10 | 36 | 48 | ((4.0*13)-4)=x | 4.0 13 * 4 - x = | 4.0:money 13:rose *:rose 4:rose -:rose x:rose =:rose
+EXPR: 0 | POS | INT | 10 | 36 | 56 | x=(4.0+(13*4)) | x 4.0 13 4 * + = | x:money 4.0:money 13:rose 4:money *:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 36 | 48 | x=((4.0*13)-4) | x 4.0 13 * 4 - = | x:rose 4.0:money 13:rose *:rose 4:rose -:rose =:rose
+EXPR: 0 | POS | INT | 10 | 36 | 68 | x=((4.0+13)*4) | x 4.0 13 + 4 * = | x:money 4.0:money 13:money +:money 4:rose *:money =:money
+EXPR: 0 | POS | INT | 10 | 36 | 68 | ((4.0+13)*4)=x | 4.0 13 + 4 * x = | 4.0:money 13:money +:money 4:rose *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 36 | 56 | (4.0+(13*4))=x | 4.0 13 4 * + x = | 4.0:money 13:money 4:rose *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 |  | (4.0+(x/13))=4 | 4.0 x 13 / + 4 = | 4.0:money x:money 13:rose /:money +:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 |  | (4.0-(x/13))=4 | 4.0 x 13 / - 4 = | 4.0:money x:money 13:rose /:money -:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 |  | (4.0+(x*13))=4 | 4.0 x 13 * + 4 = | 4.0:rose x:money 13:rose *:rose +:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 |  | (4.0-(x*13))=4 | 4.0 x 13 * - 4 = | 4.0:money x:money 13:rose *:money -:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 |  | x=(13*(4.0-4)) | x 13 4.0 4 - * = | x:money 13:rose 4.0:money 4:money -:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 29 | ((4.0*4)+13)=x | 4.0 4 * 13 + x = | 4.0:money 4:rose *:rose 13:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 56 | ((x-4.0)/13)=4 | x 4.0 - 13 / 4 = | x:money 4.0:money -:money 13:rose /:money 4:money =:money
+EXPR: 1 | POS | INT | 12 | 36 | 36 | x=((13-4.0)*4) | x 13 4.0 - 4 * = | x:money 13:money 4.0:money -:money 4:rose *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 |  | (4.0+(13*x))=4 | 4.0 13 x * + 4 = | 4.0:money 13:rose x:money *:money +:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 3 | ((4.0*4)-13)=x | 4.0 4 * 13 - x = | 4.0:money 4:rose *:rose 13:rose -:rose x:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 |  | (4.0-(13*x))=4 | 4.0 13 x * - 4 = | 4.0:money 13:rose x:money *:money -:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 48 | ((4.0*13)-x)=4 | 4.0 13 * x - 4 = | 4.0:money 13:rose *:rose x:rose -:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 29 | (13+(4.0*4))=x | 13 4.0 4 * + x = | 13:rose 4.0:money 4:rose *:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 48 | ((x+4.0)/13)=4 | x 4.0 + 13 / 4 = | x:money 4.0:money +:money 13:rose /:money 4:money =:money
+EXPR: 1 | POS | INT | 12 | 36 | 36 | ((13-4.0)*4)=x | 13 4.0 - 4 * x = | 13:money 4.0:money -:money 4:rose *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 104 | (13*(4.0+4))=x | 13 4.0 4 + * x = | 13:rose 4.0:money 4:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 14 | (4.0*(x-13))=4 | 4.0 x 13 - * 4 = | 4.0:money x:rose 13:rose -:rose *:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 48 | ((4.0+x)/13)=4 | 4.0 x + 13 / 4 = | 4.0:money x:money +:money 13:rose /:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 29 | x=(13+(4.0*4)) | x 13 4.0 4 * + = | x:rose 13:rose 4.0:money 4:rose *:rose +:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 14 | ((4.0/4)+13)=x | 4.0 4 / 13 + x = | 4.0:money 4:rose /:money 13:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 104 | x=(13*(4.0+4)) | x 13 4.0 4 + * = | x:money 13:rose 4.0:money 4:money +:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 12 | (4.0*(13-x))=4 | 4.0 13 x - * 4 = | 4.0:money 13:rose x:rose -:rose *:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 0 | (13*(4.0-4))=x | 13 4.0 4 - * x = | 13:rose 4.0:money 4:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 3 | x=((4.0*4)-13) | x 4.0 4 * 13 - = | x:money 4.0:money 4:rose *:money 13:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 14 | x=((4.0/4)+13) | x 4.0 4 / 13 + = | x:money 4.0:money 4:rose /:money 13:money +:money =:money
+EXPR: 1 | POS | INT | 12 | 36 | 36 | 4.0=(13-(x/4)) | 4.0 13 x 4 / - = | 4.0:money 13:money x:money 4:rose /:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 29 | x=((4.0*4)+13) | x 4.0 4 * 13 + = | x:rose 4.0:money 4:rose *:rose 13:rose +:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 56 | 4.0=(x-(13*4)) | 4.0 x 13 4 * - = | 4.0:money x:money 13:money 4:rose *:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 36 |  | x=((4.0-4)/13) | x 4.0 4 - 13 / = | x:money 4.0:money 4:money -:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 68 | ((x/4.0)-13)=4 | x 4.0 / 13 - 4 = | x:rose 4.0:money /:rose 13:rose -:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | - | 4.0=((13/x)+4) | 4.0 13 x / 4 + = | 4.0:rose 13:rose x:money /:rose 4:rose +:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 0 | 4.0=((13*x)+4) | 4.0 13 x * 4 + = | 4.0:rose 13:rose x:money *:rose 4:rose +:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 13 | (4.0*13)=(x*4) | 4.0 13 * x 4 * = | 4.0:money 13:rose *:rose x:money 4:rose *:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 |  | x=((4.0-4)*13) | x 4.0 4 - 13 * = | x:money 4.0:money 4:money -:money 13:rose *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 104 | x=((4.0+4)*13) | x 4.0 4 + 13 * = | x:money 4.0:money 4:money +:money 13:rose *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 12 | (13-(4.0/4))=x | 13 4.0 4 / - x = | 13:money 4.0:money 4:rose /:money -:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 14 | (13+(4.0/4))=x | 13 4.0 4 / + x = | 13:money 4.0:money 4:rose /:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 29 | 4.0=((x-13)/4) | 4.0 x 13 - 4 / = | 4.0:money x:money 13:money -:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 14 | 4.0=((x-13)*4) | 4.0 x 13 - 4 * = | 4.0:money x:money 13:money -:money 4:rose *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 3 | 4.0=((13+x)/4) | 4.0 13 x + 4 / = | 4.0:money 13:money x:money +:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 48 | 4.0=((13*4)-x) | 4.0 13 4 * x - = | 4.0:money 13:rose 4:money *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 12 | x=(13-(4.0/4)) | x 13 4.0 4 / - = | x:money 13:money 4.0:money 4:rose /:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 3 | 4.0=((x+13)/4) | 4.0 x 13 + 4 / = | 4.0:money x:money 13:money +:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 13 | (4.0*13)=(4*x) | 4.0 13 * 4 x * = | 4.0:money 13:rose *:rose 4:rose x:money *:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 14 | x=(13+(4.0/4)) | x 13 4.0 4 / + = | x:money 13:money 4.0:money 4:rose /:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | - | (4.0+(13/x))=4 | 4.0 13 x / + 4 = | 4.0:rose 13:rose x:money /:rose +:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | - | (4.0-(13/x))=4 | 4.0 13 x / - 4 = | 4.0:rose 13:rose x:money /:rose -:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 12 | 36 | 56 | (x-(4.0*13))=4 | x 4.0 13 * - 4 = | x:money 4.0:money 13:rose *:money -:money 4:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 0 | ((4.0-4)/13)=x | 4.0 4 - 13 / x = | 4.0:money 4:money -:money 13:rose /:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 208 | (4.0*13)=(x/4) | 4.0 13 * x 4 / = | 4.0:money 13:rose *:money x:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 104 | ((4.0+4)*13)=x | 4.0 4 + 13 * x = | 4.0:money 4:money +:money 13:rose *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 0 | ((4.0-4)*13)=x | 4.0 4 - 13 * x = | 4.0:money 4:money -:money 13:rose *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 12 | 4.0=((13-x)*4) | 4.0 13 x - 4 * = | 4.0:money 13:money x:money -:money 4:rose *:money =:money
+EXPR: 0 | POS | INT | 12 | 36 | 0 | 4.0=((x*13)+4) | 4.0 x 13 * 4 + = | 4.0:rose x:money 13:rose *:rose 4:rose +:rose =:rose
+EXPR: 1 | POS | INT | 14 | 36 | 36 | 13=(4.0+(x/4)) | 13 4.0 x 4 / + = | 13:money 4.0:money x:money 4:rose /:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 3 | ((4.0*4)-x)=13 | 4.0 4 * x - 13 = | 4.0:money 4:rose *:rose x:rose -:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 12 | ((4.0/4)+x)=13 | 4.0 4 / x + 13 = | 4.0:money 4:rose /:money x:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 68 | 13=((x/4.0)-4) | 13 x 4.0 / 4 - = | 13:rose x:rose 4.0:money /:rose 4:rose -:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 0 | 4.0=(4+(x/13)) | 4.0 4 x 13 / + = | 4.0:money 4:money x:money 13:rose /:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 56 | 13=((x-4.0)/4) | 13 x 4.0 - 4 / = | 13:money x:money 4.0:money -:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 0 | 4.0=(4+(x*13)) | 4.0 4 x 13 * + = | 4.0:money 4:money x:money 13:rose *:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 14 | 13=(x-(4.0/4)) | 13 x 4.0 4 / - = | 13:money x:money 4.0:money 4:rose /:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 36 | 36 | ((x/4.0)+4)=13 | x 4.0 / 4 + 13 = | x:rose 4.0:money /:rose 4:rose +:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 29 | 13=(x-(4.0*4)) | 13 x 4.0 4 * - = | 13:money x:money 4.0:money 4:rose *:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 48 | 13=((x+4.0)/4) | 13 x 4.0 + 4 / = | 13:money x:money 4.0:money +:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | 13=(x*(4.0-4)) | 13 x 4.0 4 - * = | 13:rose x:money 4.0:rose 4:rose -:rose *:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 0 | 4.0=(4-(x*13)) | 4.0 4 x 13 * - = | 4.0:money 4:money x:money 13:rose *:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 36 | 36 | 13=((x/4.0)+4) | 13 x 4.0 / 4 + = | 13:rose x:rose 4.0:money /:rose 4:rose +:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 0 | 4.0=(4-(x/13)) | 4.0 4 x 13 / - = | 4.0:money 4:money x:money 13:rose /:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 12 | 13=(x+(4.0/4)) | 13 x 4.0 4 / + = | 13:money x:money 4.0:money 4:rose /:money +:money =:money
+EXPR: 1 | POS | INT | 14 | 36 | 36 | (4.0+(x/4))=13 | 4.0 x 4 / + 13 = | 4.0:money x:money 4:rose /:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 36 |  | ((13*x)+4.0)=4 | 13 x * 4.0 + 4 = | 13:rose x:money *:money 4.0:money +:money 4:money =:money
+EXPR: 1 | POS | INT | 14 | 36 | 36 | (13-(x/4.0))=4 | 13 x 4.0 / - 4 = | 13:rose x:rose 4.0:money /:rose -:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 104 | ((x/13)-4.0)=4 | x 13 / 4.0 - 4 = | x:money 13:rose /:money 4.0:money -:money 4:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 0 | 4.0=(4+(13*x)) | 4.0 4 13 x * + = | 4.0:money 4:money 13:rose x:money *:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 36 |  | ((x*13)+4.0)=4 | x 13 * 4.0 + 4 = | x:money 13:rose *:rose 4.0:rose +:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 0 | 4.0=(4-(13*x)) | 4.0 4 13 x * - = | 4.0:money 4:money 13:rose x:money *:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 48 | ((4.0+x)/4)=13 | 4.0 x + 4 / 13 = | 4.0:money x:money +:money 4:rose /:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 14 | ((x-13)*4.0)=4 | x 13 - 4.0 * 4 = | x:rose 13:rose -:rose 4.0:money *:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 |  | ((x/13)+4.0)=4 | x 13 / 4.0 + 4 = | x:money 13:rose /:money 4.0:money +:money 4:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | ((13/x)+4.0)=4 | 13 x / 4.0 + 4 = | 13:rose x:money /:rose 4.0:rose +:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | - | (x*(4.0-4))=13 | x 4.0 4 - * 13 = | x:money 4.0:rose 4:rose -:rose *:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 68 | ((x/4.0)-4)=13 | x 4.0 / 4 - 13 = | x:rose 4.0:money /:rose 4:rose -:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 208 | (4.0*4)=(x/13) | 4.0 4 * x 13 / = | 4.0:money 4:rose *:money x:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 14 | 4.0=(4*(x-13)) | 4.0 4 x 13 - * = | 4.0:money 4:rose x:money 13:money -:money *:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | ((4.0-4)*x)=13 | 4.0 4 - x * 13 = | 4.0:rose 4:rose -:rose x:money *:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 29 | ((x-13)/4.0)=4 | x 13 - 4.0 / 4 = | x:rose 13:rose -:rose 4.0:money /:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 14 | (x-(4.0/4))=13 | x 4.0 4 / - 13 = | x:money 4.0:money 4:rose /:money -:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | 13=((4.0-4)/x) | 13 4.0 4 - x / = | 13:rose 4.0:rose 4:rose -:rose x:money /:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 13 | (4.0/4)=(x/13) | 4.0 4 / x 13 / = | 4.0:money 4:rose /:money x:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 3 | ((x+13)/4.0)=4 | x 13 + 4.0 / 4 = | x:rose 13:rose +:rose 4.0:money /:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 48 | 4.0=((x+4)/13) | 4.0 x 4 + 13 / = | 4.0:money x:money 4:money +:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 208 | (x/13)=(4.0*4) | x 13 / 4.0 4 * = | x:money 13:rose /:money 4.0:money 4:rose *:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | 13=((4.0-4)*x) | 13 4.0 4 - x * = | 13:rose 4.0:rose 4:rose -:rose x:money *:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 48 | 4.0=((4+x)/13) | 4.0 4 x + 13 / = | 4.0:money 4:money x:money +:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 56 | 4.0=((x-4)/13) | 4.0 x 4 - 13 / = | 4.0:money x:money 4:money -:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 12 | 13=((4.0/4)+x) | 13 4.0 4 / x + = | 13:money 4.0:money 4:rose /:money x:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 56 | ((x-4.0)/4)=13 | x 4.0 - 4 / 13 = | x:money 4.0:money -:money 4:rose /:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | 4.0=(4-(13/x)) | 4.0 4 13 x / - = | 4.0:rose 4:rose 13:rose x:money /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 3 | ((13+x)/4.0)=4 | 13 x + 4.0 / 4 = | 13:rose x:rose +:rose 4.0:money /:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 12 | 4.0=(4*(13-x)) | 4.0 4 13 x - * = | 4.0:money 4:rose 13:money x:money -:money *:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 3 | 13=((4.0*4)-x) | 13 4.0 4 * x - = | 13:money 4.0:money 4:rose *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | - | 4.0=(4+(13/x)) | 4.0 4 13 x / + = | 4.0:rose 4:rose 13:rose x:money /:rose +:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 29 | (x-(4.0*4))=13 | x 4.0 4 * - 13 = | x:money 4.0:money 4:rose *:money -:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 13 | (x/13)=(4.0/4) | x 13 / 4.0 4 / = | x:money 13:rose /:money 4.0:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 48 | 13=((4.0+x)/4) | 13 4.0 x + 4 / = | 13:money 4.0:money x:money +:money 4:rose /:money =:money
+EXPR: 0 | POS | INT | 14 | 36 | 12 | ((13-x)*4.0)=4 | 13 x - 4.0 * 4 = | 13:rose x:rose -:rose 4.0:money *:rose 4:rose =:rose
+EXPR: 0 | POS | INT | 14 | 36 | 48 | ((x+4.0)/4)=13 | x 4.0 + 4 / 13 = | x:money 4.0:money +:money 4:rose /:money 13:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 48 | x=((13*4)-4.0) | x 13 4 * 4.0 - = | x:money 13:rose 4:money *:money 4.0:money -:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 56 | x=((13*4)+4.0) | x 13 4 * 4.0 + = | x:money 13:rose 4:money *:money 4.0:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 56 | x=(4+(4.0*13)) | x 4 4.0 13 * + = | x:rose 4:rose 4.0:money 13:rose *:rose +:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 48 | ((13*4)-4.0)=x | 13 4 * 4.0 - x = | 13:rose 4:money *:money 4.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 14 | (13+(4/4.0))=x | 13 4 4.0 / + x = | 13:rose 4:rose 4.0:money /:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 56 | ((13*4)+4.0)=x | 13 4 * 4.0 + x = | 13:rose 4:money *:money 4.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 12 | x=(13-(4/4.0)) | x 13 4 4.0 / - = | x:rose 13:rose 4:rose 4.0:money /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 14 | x=(13+(4/4.0)) | x 13 4 4.0 / + = | x:rose 13:rose 4:rose 4.0:money /:rose +:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 68 | (4*(4.0+13))=x | 4 4.0 13 + * x = | 4:rose 4.0:money 13:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 56 | (4+(4.0*13))=x | 4 4.0 13 * + x = | 4:rose 4.0:money 13:rose *:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 68 | x=(4*(4.0+13)) | x 4 4.0 13 + * = | x:money 4:rose 4.0:money 13:money +:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 0 | (13*(4-4.0))=x | 13 4 4.0 - * x = | 13:rose 4:money 4.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 12 | (13-(4/4.0))=x | 13 4 4.0 / - x = | 13:rose 4:rose 4.0:money /:rose -:rose x:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 0 | ((4-4.0)/13)=x | 4 4.0 - 13 / x = | 4:money 4.0:money -:money 13:rose /:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 36 |  | x=(13*(4-4.0)) | x 13 4 4.0 - * = | x:money 13:rose 4:money 4.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 14 | x=((4/4.0)+13) | x 4 4.0 / 13 + = | x:rose 4:rose 4.0:money /:rose 13:rose +:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 |  | x=((4-4.0)/13) | x 4 4.0 - 13 / = | x:money 4:money 4.0:money -:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 15 | 36 | 14 | ((4/4.0)+13)=x | 4 4.0 / 13 + x = | 4:rose 4.0:money /:rose 13:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 15 | 36 | 0 | ((4-4.0)*13)=x | 4 4.0 - 13 * x = | 4:money 4.0:money -:money 13:rose *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 36 |  | x=((4-4.0)*13) | x 4 4.0 - 13 * = | x:money 4:money 4.0:money -:money 13:rose *:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 12 | 4=(4.0*(13-x)) | 4 4.0 13 x - * = | 4:rose 4.0:money 13:rose x:rose -:rose *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 14 | 4=(4.0*(x-13)) | 4 4.0 x 13 - * = | 4:rose 4.0:money x:rose 13:rose -:rose *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 104 | ((x/13)-4)=4.0 | x 13 / 4 - 4.0 = | x:money 13:rose /:money 4:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 48 | ((13*4)-x)=4.0 | 13 4 * x - 4.0 = | 13:money 4:rose *:money x:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 68 | 4=((x/4.0)-13) | 4 x 4.0 / 13 - = | 4:rose x:rose 4.0:money /:rose 13:rose -:rose =:rose
+EXPR: 1 | POS | INT | 17 | 36 | 36 | (4+(x/4.0))=13 | 4 x 4.0 / + 13 = | 4:rose x:rose 4.0:money /:rose +:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 13 | (4/4.0)=(13/x) | 4 4.0 / 13 x / = | 4:rose 4.0:money /:rose 13:rose x:money /:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 14 | (x-(4/4.0))=13 | x 4 4.0 / - 13 = | x:rose 4:rose 4.0:money /:rose -:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 48 | 4=((4.0*13)-x) | 4 4.0 13 * x - = | 4:rose 4.0:money 13:rose *:rose x:rose -:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 56 | 4=((x-4.0)/13) | 4 x 4.0 - 13 / = | 4:money x:money 4.0:money -:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 48 | 4=((x+4.0)/13) | 4 x 4.0 + 13 / = | 4:money x:money 4.0:money +:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 56 | 4=(x-(4.0*13)) | 4 x 4.0 13 * - = | 4:rose x:rose 4.0:money 13:rose *:rose -:rose =:rose
+EXPR: 1 | POS | INT | 17 | 36 | 36 | (13-(x/4))=4.0 | 13 x 4 / - 4.0 = | 13:money x:money 4:rose /:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 0 | 4=(4.0-(13*x)) | 4 4.0 13 x * - = | 4:money 4.0:money 13:rose x:money *:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 12 | (x+(4/4.0))=13 | x 4 4.0 / + 13 = | x:rose 4:rose 4.0:money /:rose +:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | - | 13=(x*(4-4.0)) | 13 x 4 4.0 - * = | 13:rose x:money 4:rose 4.0:rose -:rose *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 0 | 4=(4.0+(13*x)) | 4 4.0 13 x * + = | 4:money 4.0:money 13:rose x:money *:money +:money =:money
+EXPR: 1 | POS | INT | 17 | 36 | 36 | (4*(13-4.0))=x | 4 13 4.0 - * x = | 4:rose 13:money 4.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | - | ((13/x)+4)=4.0 | 13 x / 4 + 4.0 = | 13:rose x:money /:rose 4:rose +:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 68 | ((x/4)-4.0)=13 | x 4 / 4.0 - 13 = | x:money 4:rose /:money 4.0:money -:money 13:money =:money
+EXPR: 1 | POS | INT | 17 | 36 | 36 | x=(4*(13-4.0)) | x 4 13 4.0 - * = | x:money 4:rose 13:money 4.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 56 | ((x-4)/4.0)=13 | x 4 - 4.0 / 13 = | x:rose 4:rose -:rose 4.0:money /:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 12 | 13=((4/4.0)+x) | 13 4 4.0 / x + = | 13:rose 4:rose 4.0:money /:rose x:rose +:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | - | 13=((4-4.0)/x) | 13 4 4.0 - x / = | 13:rose 4:rose 4.0:rose -:rose x:money /:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 14 | 13=(x-(4/4.0)) | 13 x 4 4.0 / - = | 13:rose x:rose 4:rose 4.0:money /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 3 | ((13+x)/4)=4.0 | 13 x + 4 / 4.0 = | 13:money x:money +:money 4:rose /:money 4.0:money =:money
+EXPR: 1 | POS | INT | 17 | 36 | 36 | 13=(4+(x/4.0)) | 13 4 x 4.0 / + = | 13:rose 4:rose x:rose 4.0:money /:rose +:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | - | 13=((4-4.0)*x) | 13 4 4.0 - x * = | 13:rose 4:rose 4.0:rose -:rose x:money *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 13 | (x*4)=(4.0*13) | x 4 * 4.0 13 * = | x:money 4:rose *:rose 4.0:money 13:rose *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 12 | ((13-x)*4)=4.0 | 13 x - 4 * 4.0 = | 13:money x:money -:money 4:rose *:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 56 | (x-(13*4))=4.0 | x 13 4 * - 4.0 = | x:money 13:rose 4:money *:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 |  | ((13*x)+4)=4.0 | 13 x * 4 + 4.0 = | 13:rose x:money *:rose 4:rose +:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 13 | (4*x)=(4.0*13) | 4 x * 4.0 13 * = | 4:rose x:money *:rose 4.0:money 13:rose *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 |  | ((x/13)+4)=4.0 | x 13 / 4 + 4.0 = | x:money 13:rose /:money 4:money +:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 48 | 4=((4.0+x)/13) | 4 4.0 x + 13 / = | 4:money 4.0:money x:money +:money 13:rose /:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 0 | 4=(4.0-(x/13)) | 4 4.0 x 13 / - = | 4:money 4.0:money x:money 13:rose /:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 0 | 4=(4.0-(x*13)) | 4 4.0 x 13 * - = | 4:rose 4.0:rose x:money 13:rose *:rose -:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 48 | ((x+4)/4.0)=13 | x 4 + 4.0 / 13 = | x:rose 4:rose +:rose 4.0:money /:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 12 | ((4/4.0)+x)=13 | 4 4.0 / x + 13 = | 4:rose 4.0:money /:rose x:rose +:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 12 | 13=(x+(4/4.0)) | 13 x 4 4.0 / + = | 13:rose x:rose 4:rose 4.0:money /:rose +:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 48 | 13=((4+x)/4.0) | 13 4 x + 4.0 / = | 13:rose 4:rose x:rose +:rose 4.0:money /:rose =:rose
+EXPR: 1 | POS | INT | 17 | 36 | 36 | ((x/4)+4.0)=13 | x 4 / 4.0 + 13 = | x:money 4:rose /:money 4.0:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | - | 4=(4.0-(13/x)) | 4 4.0 13 x / - = | 4:rose 4.0:rose 13:rose x:money /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | - | 4=(4.0+(13/x)) | 4 4.0 13 x / + = | 4:rose 4.0:rose 13:rose x:money /:rose +:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 48 | ((4+x)/4.0)=13 | 4 x + 4.0 / 13 = | 4:rose x:rose +:rose 4.0:money /:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 0 | 4=(4.0+(x/13)) | 4 4.0 x 13 / + = | 4:money 4.0:money x:money 13:rose /:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 208 | (x/4)=(4.0*13) | x 4 / 4.0 13 * = | x:money 4:rose /:money 4.0:money 13:rose *:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 29 | ((x-13)/4)=4.0 | x 13 - 4 / 4.0 = | x:money 13:money -:money 4:rose /:money 4.0:money =:money
+EXPR: 0 | POS | INT | 17 | 36 | 56 | 13=((x-4)/4.0) | 13 x 4 - 4.0 / = | 13:rose x:rose 4:rose -:rose 4.0:money /:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 48 | 13=((x+4)/4.0) | 13 x 4 + 4.0 / = | 13:rose x:rose 4:rose +:rose 4.0:money /:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 |  | ((x*13)+4)=4.0 | x 13 * 4 + 4.0 = | x:money 13:rose *:rose 4:rose +:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | - | ((4-4.0)/x)=13 | 4 4.0 - x / 13 = | 4:rose 4.0:rose -:rose x:money /:rose 13:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 0 | 4=(4.0+(x*13)) | 4 4.0 x 13 * + = | 4:rose 4.0:rose x:money 13:rose *:rose +:rose =:rose
+EXPR: 0 | POS | INT | 17 | 36 | 14 | ((x-13)*4)=4.0 | x 13 - 4 * 4.0 = | x:money 13:money -:money 4:rose *:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | 68 | ((x/4)-13)=4.0 | x 4 / 13 - 4.0 = | x:money 4:rose /:money 13:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | 3 | 4=((x+13)/4.0) | 4 x 13 + 4.0 / = | 4:rose x:rose 13:rose +:rose 4.0:money /:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 29 | 4=((x-13)/4.0) | 4 x 13 - 4.0 / = | 4:rose x:rose 13:rose -:rose 4.0:money /:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 104 | 4=((x/13)-4.0) | 4 x 13 / 4.0 - = | 4:money x:money 13:rose /:money 4.0:money -:money =:money
+EXPR: 0 | POS | INT | 19 | 36 |  | (4+(x*13))=4.0 | 4 x 13 * + 4.0 = | 4:rose x:money 13:rose *:rose +:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 |  | (4+(x/13))=4.0 | 4 x 13 / + 4.0 = | 4:money x:money 13:rose /:money +:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 |  | (4-(x/13))=4.0 | 4 x 13 / - 4.0 = | 4:money x:money 13:rose /:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 |  | (4-(13*x))=4.0 | 4 13 x * - 4.0 = | 4:rose 13:rose x:money *:rose -:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 |  | (4+(13*x))=4.0 | 4 13 x * + 4.0 = | 4:rose 13:rose x:money *:rose +:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 12 | (4*(13-x))=4.0 | 4 13 x - * 4.0 = | 4:rose 13:money x:money -:money *:money 4.0:money =:money
+EXPR: 1 | POS | INT | 19 | 36 | 36 | 4=(13-(x/4.0)) | 4 13 x 4.0 / - = | 4:rose 13:rose x:rose 4.0:money /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 14 | (4*(x-13))=4.0 | 4 x 13 - * 4.0 = | 4:rose x:money 13:money -:money *:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | 14 | 4=((x-13)*4.0) | 4 x 13 - 4.0 * = | 4:rose x:rose 13:rose -:rose 4.0:money *:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 0 | 4=((x*13)+4.0) | 4 x 13 * 4.0 + = | 4:rose x:money 13:rose *:rose 4.0:rose +:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 |  | (4-(x*13))=4.0 | 4 x 13 * - 4.0 = | 4:money x:money 13:rose *:money -:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | - | 4=((13/x)+4.0) | 4 13 x / 4.0 + = | 4:rose 13:rose x:money /:rose 4.0:rose +:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 0 | 4=((13*x)+4.0) | 4 13 x * 4.0 + = | 4:rose 13:rose x:money *:rose 4.0:rose +:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | - | (4-(13/x))=4.0 | 4 13 x / - 4.0 = | 4:rose 13:rose x:money /:rose -:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | - | (4+(13/x))=4.0 | 4 13 x / + 4.0 = | 4:rose 13:rose x:money /:rose +:rose 4.0:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 48 | ((4+x)/13)=4.0 | 4 x + 13 / 4.0 = | 4:money x:money +:money 13:rose /:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | 3 | 4=((13+x)/4.0) | 4 13 x + 4.0 / = | 4:rose 13:rose x:rose +:rose 4.0:money /:rose =:rose
+EXPR: 0 | POS | INT | 19 | 36 | 56 | ((x-4)/13)=4.0 | x 4 - 13 / 4.0 = | x:money 4:money -:money 13:rose /:money 4.0:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | 0 | 4=((x/13)+4.0) | 4 x 13 / 4.0 + = | 4:money x:money 13:rose /:money 4.0:money +:money =:money
+EXPR: 0 | POS | INT | 19 | 36 | 12 | 4=((13-x)*4.0) | 4 13 x - 4.0 * = | 4:rose 13:rose x:rose -:rose 4.0:money *:rose =:rose
+EXPR: 0 | POS | INT | 20 | 36 | 21 | ((4.0+13)+4)=x | 4.0 13 + 4 + x = | 4.0:money 13:money +:money 4:money +:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 36 | 13 | ((4.0+13)-4)=x | 4.0 13 + 4 - x = | 4.0:money 13:money +:money 4:money -:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 36 | 13 | x=(4.0+(13-4)) | x 4.0 13 4 - + = | x:money 4.0:money 13:money 4:money -:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 36 | 13 | (4.0+(13-4))=x | 4.0 13 4 - + x = | 4.0:rose 13:rose 4:rose -:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 20 | 36 | 21 | x=((4.0+13)+4) | x 4.0 13 + 4 + = | x:money 4.0:money 13:money +:money 4:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 36 | 21 | (4.0+(13+4))=x | 4.0 13 4 + + x = | 4.0:rose 13:rose 4:rose +:rose +:rose x:rose =:rose
+EXPR: 0 | POS | INT | 20 | 36 | 13 | x=((4.0+13)-4) | x 4.0 13 + 4 - = | x:money 4.0:money 13:money +:money 4:money -:money =:money
+NET 233 unique, non-negative, integer-valued solutions found out of 1000 total solutions

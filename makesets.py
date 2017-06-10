@@ -856,7 +856,7 @@ def xAdjFix(sets):
             x.adjs = " ".join(adjs)
     return sets
 
-def makesets(story):
+def makesets(story): #gets Story['sentences'] from the caller
     sets = extract_quantify(story)
     print([(x[0],x[1].num) for x in sets])
     (sets, good) = question_entity(story, sets)

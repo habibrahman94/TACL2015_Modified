@@ -1,0 +1,5 @@
+quantities : 52 4 28 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 6.0

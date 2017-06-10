@@ -1,0 +1,141 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 30 | 60 | ((11*5)+5)=x | 11 5 * 5 + x = | 11:friend 5:life *:life 5:life +:life x:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 110 | x=(11*(5+5)) | x 11 5 5 + * = | x:life 11:friend 5:life 5:life +:life *:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 60 | x=((11*5)+5) | x 11 5 * 5 + = | x:life 11:life 5:player *:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 36 | x=(11+(5*5)) | x 11 5 5 * + = | x:life 11:life 5:player 5:life *:life +:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 80 | x=((11+5)*5) | x 11 5 + 5 * = | x:life 11:friend 5:friend +:friend 5:life *:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 50 | x=((11*5)-5) | x 11 5 * 5 - = | x:life 11:life 5:player *:life 5:life -:life =:life
+EXPR: 0 | POS | INT | 10 | 30 |  | x=(11*(5-5)) | x 11 5 5 - * = | x:life 11:friend 5:life 5:life -:life *:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 80 | ((11+5)*5)=x | 11 5 + 5 * x = | 11:player 5:player +:player 5:life *:life x:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 50 | ((11*5)-5)=x | 11 5 * 5 - x = | 11:life 5:player *:life 5:life -:life x:life =:life
+EXPR: 1 | POS | INT | 10 | 30 | 30 | x=((11-5)*5) | x 11 5 - 5 * = | x:life 11:player 5:player -:player 5:life *:life =:life
+EXPR: 1 | POS | INT | 10 | 30 | 30 | ((11-5)*5)=x | 11 5 - 5 * x = | 11:player 5:player -:player 5:life *:life x:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 110 | (11*(5+5))=x | 11 5 5 + * x = | 11:friend 5:life 5:life +:life *:life x:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 0 | (11*(5-5))=x | 11 5 5 - * x = | 11:friend 5:life 5:life -:life *:life x:life =:life
+EXPR: 0 | POS | INT | 10 | 30 | 36 | (11+(5*5))=x | 11 5 5 * + x = | 11:life 5:player 5:life *:life +:life x:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 12 | ((x-11)*5)=5 | x 11 - 5 * 5 = | x:life 11:life -:life 5:player *:life 5:life =:life
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (11-(x/5))=5 | 11 x 5 / - 5 = | 11:life x:life 5:player /:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 12 | (11+(5/5))=x | 11 5 5 / + x = | 11:life 5:life 5:player /:life +:life x:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 10 | (11-(5/5))=x | 11 5 5 / - x = | 11:life 5:life 5:player /:life -:life x:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 50 | ((11*5)-x)=5 | 11 5 * x - 5 = | 11:life 5:player *:life x:life -:life 5:life =:life
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (5*(11-5))=x | 5 11 5 - * x = | 5:player 11:life 5:life -:life *:life x:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 80 | (5*(11+5))=x | 5 11 5 + * x = | 5:player 11:life 5:life +:life *:life x:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 80 | (x/(11+5))=5 | x 11 5 + / 5 = | x:life 11:friend 5:friend +:friend /:life 5:life =:life
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (x/(11-5))=5 | x 11 5 - / 5 = | x:life 11:friend 5:friend -:friend /:life 5:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 275 | (x/11)=(5*5) | x 11 / 5 5 * = | x:life 11:friend /:life 5:player 5:life *:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 14 | ((11+x)/5)=5 | 11 x + 5 / 5 = | 11:life x:life +:life 5:player /:life 5:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 36 | 11=(x-(5*5)) | 11 x 5 5 * - = | 11:life x:life 5:player 5:life *:life -:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 60 | (x-(11*5))=5 | x 11 5 * - 5 = | x:life 11:life 5:player *:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 12 | 30 |  | ((x*11)+5)=5 | x 11 * 5 + 5 = | x:life 11:friend *:life 5:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 12 | 30 |  | ((x/11)+5)=5 | x 11 / 5 + 5 = | x:life 11:friend /:life 5:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 12 | 30 | 10 | ((11-x)*5)=5 | 11 x - 5 * 5 = | 11:life x:life -:life 5:player *:life 5:life =:life
+EXPR: 0 | POS | INT | 14 | 30 |  | (5+(x*11))=5 | 5 x 11 * + 5 = | 5:life x:life 11:friend *:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 14 | 30 |  | (5-(x*11))=5 | 5 x 11 * - 5 = | 5:life x:life 11:friend *:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 10 | (5*(11-x))=5 | 5 11 x - * 5 = | 5:player 11:life x:life -:life *:life 5:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 60 | 11=((x-5)/5) | 11 x 5 - 5 / = | 11:life x:life 5:life -:life 5:player /:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 50 | 11=((x+5)/5) | 11 x 5 + 5 / = | 11:life x:life 5:life +:life 5:player /:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 60 | 5=(x-(11*5)) | 5 x 11 5 * - = | 5:life x:life 11:friend 5:life *:life -:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=((x*11)+5) | 5 x 11 * 5 + = | 5:life x:life 11:friend *:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 5=((x/11)+5) | 5 x 11 / 5 + = | 5:life x:life 11:friend /:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 110 | 5=((x/11)-5) | 5 x 11 / 5 - = | 5:life x:life 11:friend /:life 5:life -:life =:life
+EXPR: 0 | POS | INT | 14 | 30 |  | (5-(x/11))=5 | 5 x 11 / - 5 = | 5:life x:life 11:friend /:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 50 | ((x+5)/11)=5 | x 5 + 11 / 5 = | x:life 5:life +:life 11:friend /:life 5:life =:life
+EXPR: 0 | POS | INT | 14 | 30 | 60 | ((x-5)/11)=5 | x 5 - 11 / 5 = | x:life 5:life -:life 11:friend /:life 5:life =:life
+EXPR: 0 | POS | INT | 15 | 30 | 60 | x=(5+(11*5)) | x 5 11 5 * + = | x:life 5:life 11:life 5:player *:life +:life =:life
+EXPR: 0 | POS | INT | 15 | 30 | 60 | (5+(11*5))=x | 5 11 5 * + x = | 5:life 11:friend 5:life *:life +:life x:life =:life
+EXPR: 1 | POS | INT | 15 | 30 | 30 | x=(5*(11-5)) | x 5 11 5 - * = | x:life 5:life 11:player 5:player -:player *:life =:life
+EXPR: 0 | POS | INT | 15 | 30 | 80 | x=(5*(11+5)) | x 5 11 5 + * = | x:life 5:life 11:player 5:player +:player *:life =:life
+EXPR: 0 | POS | INT | 17 | 30 |  | (5-(11*x))=5 | 5 11 x * - 5 = | 5:life 11:friend x:life *:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 12 | ((5/5)+11)=x | 5 5 / 11 + x = | 5:life 5:player /:life 11:life +:life x:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 50 | ((5+x)/11)=5 | 5 x + 11 / 5 = | 5:life x:life +:life 11:friend /:life 5:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 5=((11*x)+5) | 5 11 x * 5 + = | 5:life 11:friend x:life *:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 5=(5+(x*11)) | 5 5 x 11 * + = | 5:life 5:life x:life 11:friend *:life +:life =:life
+EXPR: 1 | POS | INT | 17 | 30 | 30 | 5=(x/(11-5)) | 5 x 11 5 - / = | 5:life x:life 11:player 5:player -:player /:life =:life
+EXPR: 0 | POS | INT | 17 | 30 |  | (5+(11*x))=5 | 5 11 x * + 5 = | 5:life 11:friend x:life *:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 60 | 5=((x-5)/11) | 5 x 5 - 11 / = | 5:life x:life 5:life -:life 11:friend /:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 50 | 5=((x+5)/11) | 5 x 5 + 11 / = | 5:life x:life 5:life +:life 11:friend /:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 0 | ((5-5)*11)=x | 5 5 - 11 * x = | 5:life 5:life -:life 11:friend *:life x:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 0 | ((5-5)/11)=x | 5 5 - 11 / x = | 5:life 5:life -:life 11:friend /:life x:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 5=(5-(11*x)) | 5 5 11 x * - = | 5:life 5:life 11:friend x:life *:life -:life =:life
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 5=(5+(11*x)) | 5 5 11 x * + = | 5:life 5:life 11:friend x:life *:life +:life =:life
+EXPR: 0 | POS | INT | 19 | 30 | 10 | ((5/5)+x)=11 | 5 5 / x + 11 = | 5:life 5:player /:life x:life +:life 11:life =:life
+EXPR: 0 | POS | INT | 19 | 30 | 60 | ((x-5)/5)=11 | x 5 - 5 / 11 = | x:life 5:life -:life 5:player /:life 11:life =:life
+EXPR: 0 | POS | INT | 19 | 30 | 50 | ((x+5)/5)=11 | x 5 + 5 / 11 = | x:life 5:life +:life 5:player /:life 11:life =:life
+EXPR: 0 | POS | INT | 19 | 30 | 50 | ((5+x)/5)=11 | 5 x + 5 / 11 = | 5:life x:life +:life 5:player /:life 11:life =:life
+EXPR: 0 | POS | INT | 19 | 30 | 0 | 5=(5+(x/11)) | 5 5 x 11 / + = | 5:life 5:life x:life 11:friend /:life +:life =:life
+EXPR: 0 | POS | INT | 19 | 30 | 0 | 5=(5-(x/11)) | 5 5 x 11 / - = | 5:life 5:life x:life 11:friend /:life -:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 11 | x=(11+(5-5)) | x 11 5 5 - + = | x:life 11:life 5:life 5:life -:life +:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 1 | x=(11-(5+5)) | x 11 5 5 + - = | x:life 11:life 5:life 5:life +:life -:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 21 | x=(11+(5+5)) | x 11 5 5 + + = | x:life 11:life 5:life 5:life +:life +:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 12 | x=(11+(5/5)) | x 11 5 5 / + = | x:friend 11:friend 5:friend 5:life /:friend +:friend =:friend
+EXPR: 0 | POS | INT | 20 | 30 | 1 | (11-(5+5))=x | 11 5 5 + - x = | 11:life 5:life 5:life +:life -:life x:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 21 | (11+(5+5))=x | 11 5 5 + + x = | 11:life 5:life 5:life +:life +:life x:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 10 | x=(11-(5/5)) | x 11 5 5 / - = | x:player 11:player 5:player 5:life /:player -:player =:player
+EXPR: 0 | POS | INT | 20 | 30 | 21 | ((11+5)+5)=x | 11 5 + 5 + x = | 11:life 5:life +:life 5:life +:life x:life =:life
+EXPR: 0 | POS | INT | 20 | 30 | 11 | x=(11-(5-5)) | x 11 5 5 - - = | x:life 11:life 5:life 5:life -:life -:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 11 | ((11+5)-5)=x | 11 5 + 5 - x = | 11:life 5:life +:life 5:life -:life x:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 1 | (11-(x+5))=5 | 11 x 5 + - 5 = | 11:life x:life 5:life +:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 275 | (11*5)=(x/5) | 11 5 * x 5 / = | 11:friend 5:player *:friend x:friend 5:life /:friend =:friend
+EXPR: 0 | POS | INT | 22 | 30 | 11 | (11+(5-5))=x | 11 5 5 - + x = | 11:life 5:life 5:life -:life +:life x:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | - | 11=(x*(5-5)) | 11 x 5 5 - * = | 11:friend x:life 5:friend 5:friend -:friend *:friend =:friend
+EXPR: 0 | POS | INT | 22 | 30 | zoo | x=(11/(5-5)) | x 11 5 5 - / = | x:life 11:life 5:player 5:player -:player /:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 11 | ((11-x)+5)=5 | 11 x - 5 + 5 = | 11:life x:life -:life 5:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 11 | ((11-5)+5)=x | 11 5 - 5 + x = | 11:life 5:life -:life 5:life +:life x:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 11 | 11=(x-(5-5)) | 11 x 5 5 - - = | 11:life x:life 5:life 5:life -:life -:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 21 | 11=(x-(5+5)) | 11 x 5 5 + - = | 11:life x:life 5:life 5:life +:life -:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 11 | 11=((x-5)+5) | 11 x 5 - 5 + = | 11:life x:life 5:life -:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 11 | 11=((x+5)-5) | 11 x 5 + 5 - = | 11:life x:life 5:life +:life 5:life -:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 1 | ((11-x)-5)=5 | 11 x - 5 - 5 = | 11:life x:life -:life 5:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 21 | 11=((x-5)-5) | 11 x 5 - 5 - = | 11:life x:life 5:life -:life 5:life -:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 10 | 11=((5/5)+x) | 11 5 5 / x + = | 11:player 5:player 5:life /:player x:player +:player =:player
+EXPR: 0 | POS | INT | 22 | 30 | - | 11=((5-5)*x) | 11 5 5 - x * = | 11:player 5:player 5:player -:player x:life *:player =:player
+EXPR: 0 | POS | INT | 22 | 30 | 11 | 11=(5+(x-5)) | 11 5 x 5 - + = | 11:life 5:life x:life 5:life -:life +:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 1 | (11-(5+x))=5 | 11 5 x + - 5 = | 11:life 5:life x:life +:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 14 | 11=((5*5)-x) | 11 5 5 * x - = | 11:player 5:player 5:life *:player x:player -:player =:player
+EXPR: 0 | POS | INT | 22 | 30 | 1 | 11=((x+5)+5) | 11 x 5 + 5 + = | 11:life x:life 5:life +:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 14 | ((x+11)/5)=5 | x 11 + 5 / 5 = | x:life 11:life +:life 5:friend /:life 5:life =:life
+EXPR: 0 | POS | INT | 22 | 30 | 10 | 11=(x+(5/5)) | 11 x 5 5 / + = | 11:friend x:friend 5:friend 5:life /:friend +:friend =:friend
+EXPR: 1 | POS | INT | 22 | 30 | 30 | 11=(5+(x/5)) | 11 5 x 5 / + = | 11:player 5:player x:player 5:life /:player +:player =:player
+EXPR: 0 | POS | INT | 22 | 30 | 110 | 11=(x/(5+5)) | 11 x 5 5 + / = | 11:life x:life 5:player 5:player +:player /:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 50 | 5=((11*5)-x) | 5 11 5 * x - = | 5:player 11:friend 5:player *:player x:player -:player =:player
+EXPR: 0 | POS | INT | 24 | 30 | 275 | (x/5)=(11*5) | x 5 / 11 5 * = | x:life 5:friend /:life 11:friend 5:life *:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 1 | 11=(5+(x+5)) | 11 5 x 5 + + = | 11:life 5:life x:life 5:life +:life +:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 80 | 5=(x/(11+5)) | 5 x 11 5 + / = | 5:life x:life 11:friend 5:friend +:friend /:life =:life
+EXPR: 0 | POS | INT | 24 | 30 |  | ((11*x)+5)=5 | 11 x * 5 + 5 = | 11:friend x:life *:friend 5:friend +:friend 5:friend =:friend
+EXPR: 0 | POS | INT | 24 | 30 | 11 | (5-(x-11))=5 | 5 x 11 - - 5 = | 5:life x:life 11:life -:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 11 | (5+(x-11))=5 | 5 x 11 - + 5 = | 5:life x:life 11:life -:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 10 | (5/(11-x))=5 | 5 11 x - / 5 = | 5:player 11:life x:life -:life /:player 5:player =:player
+EXPR: 0 | POS | INT | 24 | 30 | 11 | 5=((x-11)+5) | 5 x 11 - 5 + = | 5:life x:life 11:life -:life 5:life +:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 12 | (5*(x-11))=5 | 5 x 11 - * 5 = | 5:player x:life 11:life -:life *:player 5:player =:player
+EXPR: 0 | POS | INT | 24 | 30 | 1 | 5=(11-(x+5)) | 5 11 x 5 + - = | 5:life 11:life x:life 5:life +:life -:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 11 | ((5-x)+11)=5 | 5 x - 11 + 5 = | 5:life x:life -:life 11:life +:life 5:life =:life
+EXPR: 0 | POS | INT | 24 | 30 |  | (x/11)=(5-5) | x 11 / 5 5 - = | x:life 11:friend /:life 5:life 5:life -:life =:life
+EXPR: 0 | POS | INT | 24 | 30 |  | (x*11)=(5-5) | x 11 * 5 5 - = | x:life 11:friend *:life 5:life 5:life -:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 11 | (11*5)=(5*x) | 11 5 * 5 x * = | 11:friend 5:life *:life 5:friend x:life *:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | 12 | (5/(x-11))=5 | 5 x 11 - / 5 = | 5:player x:life 11:life -:life /:player 5:player =:player
+EXPR: 0 | POS | INT | 24 | 30 | - | ((11/x)+5)=5 | 11 x / 5 + 5 = | 11:friend x:life /:friend 5:friend +:friend 5:friend =:friend
+EXPR: 0 | POS | INT | 24 | 30 | 11 | 11=((5-5)+x) | 11 5 5 - x + = | 11:life 5:life 5:life -:life x:life +:life =:life
+EXPR: 0 | POS | INT | 24 | 30 | - | (5+(11/x))=5 | 5 11 x / + 5 = | 5:player 11:player x:life /:player +:player 5:player =:player
+EXPR: 0 | POS | INT | 24 | 30 | 11 | ((5+x)-11)=5 | 5 x + 11 - 5 = | 5:life x:life +:life 11:life -:life 5:life =:life
+EXPR: 0 | POS | INT | 25 | 30 | 36 | x=((5*5)+11) | x 5 5 * 11 + = | x:friend 5:friend 5:life *:friend 11:friend +:friend =:friend
+EXPR: 0 | POS | INT | 25 | 30 | 12 | x=((5/5)+11) | x 5 5 / 11 + = | x:friend 5:friend 5:life /:friend 11:friend +:friend =:friend
+EXPR: 0 | POS | INT | 25 | 30 | 14 | ((5*5)-11)=x | 5 5 * 11 - x = | 5:player 5:life *:player 11:player -:player x:player =:player
+EXPR: 0 | POS | INT | 25 | 30 | 110 | x=((5+5)*11) | x 5 5 + 11 * = | x:friend 5:player 5:player +:player 11:friend *:friend =:friend
+EXPR: 0 | POS | INT | 25 | 30 | 110 | ((5+5)*11)=x | 5 5 + 11 * x = | 5:player 5:player +:player 11:friend *:player x:player =:player
+EXPR: 0 | POS | INT | 25 | 30 |  | x=((5-5)*11) | x 5 5 - 11 * = | x:friend 5:player 5:player -:player 11:friend *:friend =:friend
+EXPR: 0 | POS | INT | 25 | 30 | 14 | x=((5*5)-11) | x 5 5 * 11 - = | x:friend 5:player 5:friend *:friend 11:friend -:friend =:friend
+EXPR: 0 | POS | INT | 25 | 30 | 11 | (5-(5-11))=x | 5 5 11 - - x = | 5:life 5:life 11:life -:life -:life x:life =:life
+EXPR: 0 | POS | INT | 25 | 30 |  | x=((5-5)/11) | x 5 5 - 11 / = | x:life 5:life 5:life -:life 11:player /:life =:life
+EXPR: 0 | POS | INT | 25 | 30 | 21 | ((5+5)+11)=x | 5 5 + 11 + x = | 5:life 5:life +:life 11:life +:life x:life =:life
+EXPR: 0 | POS | INT | 25 | 30 | 11 | ((5-5)+11)=x | 5 5 - 11 + x = | 5:life 5:life -:life 11:life +:life x:life =:life
+EXPR: 0 | POS | INT | 27 | 30 | 12 | 5=(5*(x-11)) | 5 5 x 11 - * = | 5:friend 5:life x:friend 11:friend -:friend *:friend =:friend
+EXPR: 0 | POS | INT | 27 | 30 | 12 | 5=(5/(x-11)) | 5 5 x 11 - / = | 5:player 5:player x:life 11:life -:life /:player =:player
+EXPR: 0 | POS | INT | 27 | 30 | 10 | 5=(5*(11-x)) | 5 5 11 x - * = | 5:player 5:life 11:player x:player -:player *:player =:player
+EXPR: 0 | POS | INT | 27 | 30 | 80 | 5=((x/5)-11) | 5 x 5 / 11 - = | 5:friend x:friend 5:life /:friend 11:friend -:friend =:friend
+EXPR: 0 | POS | INT | 27 | 30 | 10 | 5=(5/(11-x)) | 5 5 11 x - / = | 5:life 5:life 11:friend x:friend -:friend /:life =:life
+EXPR: 0 | POS | INT | 27 | 30 | - | (x/(5-5))=11 | x 5 5 - / 11 = | x:friend 5:player 5:player -:player /:friend 11:friend =:friend
+EXPR: 0 | POS | INT | 27 | 30 | 11 | 5=(5+(x-11)) | 5 5 x 11 - + = | 5:life 5:life x:life 11:life -:life +:life =:life
+EXPR: 0 | POS | INT | 27 | 30 | 11 | 5=(x+(5-11)) | 5 x 5 11 - + = | 5:life x:life 5:life 11:life -:life +:life =:life
+NET 137 unique, non-negative, integer-valued solutions found out of 1000 total solutions

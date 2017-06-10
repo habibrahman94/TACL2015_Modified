@@ -1,0 +1,4200 @@
+
+0
+quantities : 32 42 35 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 39.0
+
+1
+quantities : 13 5 10 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+2
+quantities : 2 2 2 x
+types : "game" "game" "game" "game"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+3
+quantities : 42 7 9 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+4
+quantities : 36 37 70 x
+types : "tulip" "rose" "flower" "flower"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+5
+quantities : 29 16 38 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+6
+quantities : 16.0 28.0 25.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 19.0
+
+7
+quantities : 15 18 31 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+8
+quantities : 23 32 44 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+9
+quantities : x 9 21 29
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 1.0
+
+10
+quantities : x 39 47 20
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 66.0
+
+11
+quantities : 4 29 24 x
+types : "cupcake" "cookie" "cookie" "pastry"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+12
+quantities : 24 12 14 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 22.0
+
+13
+quantities : 3 9 10 x
+types : "tulip" "rose" "flower" "flower"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+14
+quantities : 46 9 40 x
+types : "problem" "problem" "problem" "problem"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+15
+quantities : 4 21 23 x
+types : "file" "file" "file" "file"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+16
+quantities : 11 22 19 x
+types : "game" "game" "game" "game"
+operators : + - * / =
+n : 7
+answer : 14.0
+
+17
+quantities : 40 50 4 x
+types : "point" "point" "point" "point"
+operators : + - * / =
+n : 7
+answer : 86.0
+
+18
+quantities : 32 25 7 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 50.0
+
+19
+quantities : 26 15 16 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 25.0
+
+20
+quantities : 7 5 8 x
+types : "cupcake" "cookie" "cookie" "pastry"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+21
+quantities : 44 44 20 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 68.0
+
+22
+quantities : 21 8 23 x
+types : "game" "game" "game" "game"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+23
+quantities : 11.0 18.0 10.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 19.0
+
+24
+quantities : 41 29 15 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 55.0
+
+25
+quantities : x 40 23 29
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 34.0
+
+26
+quantities : 12 20 20 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+27
+quantities : 23 5 12 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+28
+quantities : 43 32 2 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 73.0
+
+29
+quantities : 39 4 26 x
+types : "girl" "boy" "boy" "student"
+operators : + - * / =
+n : 7
+answer : 17.0
+
+30
+quantities : 38 25 45 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+31
+quantities : 36 9 4 x
+types : "cupcake" "cookie" "cookie" "pastry"
+operators : + - * / =
+n : 7
+answer : 41.0
+
+32
+quantities : 17 6 16 x
+types : "point" "point" "point" "point"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+33
+quantities : 10 39 13 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+34
+quantities : 34 33 4 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+35
+quantities : 39 38 64 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 13.0
+
+36
+quantities : 30 36 10 x
+types : "girl" "boy" "boy" "student"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+37
+quantities : 29.0 20.0 34.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+38
+quantities : x 29 11 35
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+39
+quantities : 41 14 31 x
+types : "game" "game" "game" "game"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+40
+quantities : 13 17 15 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+41
+quantities : 26 36 48 x
+types : "file" "file" "file" "file"
+operators : + - * / =
+n : 7
+answer : 14.0
+
+42
+quantities : 35.0 50.0 84.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 1.0
+
+43
+quantities : 16 33 48 x
+types : "point" "point" "point" "point"
+operators : + - * / =
+n : 7
+answer : 1.0
+
+44
+quantities : 43 12 44 x
+types : "problem" "problem" "problem" "problem"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+45
+quantities : 33 23 21 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+46
+quantities : x 9 27 20
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+47
+quantities : 6 9 11 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+48
+quantities : 17 14 24 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+49
+quantities : 41 28 15 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+50
+quantities : 13 17 15 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+51
+quantities : 26 36 48 x
+types : "file" "file" "file" "file"
+operators : + - * / =
+n : 7
+answer : 14.0
+
+52
+quantities : 35.0 50.0 84.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 1.0
+
+53
+quantities : 16 33 48 x
+types : "point" "point" "point" "point"
+operators : + - * / =
+n : 7
+answer : 1.0
+
+54
+quantities : 43 12 44 x
+types : "problem" "problem" "problem" "problem"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+55
+quantities : 33 23 21 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+56
+quantities : x 9 27 20
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+57
+quantities : 6 9 11 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+58
+quantities : 17 14 24 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+59
+quantities : 41 28 15 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+60
+quantities : 4 11 11 x
+types : "tulip" "rose" "flower" "flower"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+61
+quantities : 13 30 10 x
+types : "file" "file" "file" "file"
+operators : + - * / =
+n : 7
+answer : 33.0
+
+62
+quantities : 16 40 33 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 23.0
+
+63
+quantities : 8 43 42 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+64
+quantities : 2 27 5 x
+types : "lawn" "dollar" "supplies" "dollar"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+65
+quantities : 36 18 26 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 28.0
+
+66
+quantities : 20 14 19 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+67
+quantities : 30.0 16.0 38.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+68
+quantities : 6 48 7 x
+types : "girl" "boy" "boy" "student"
+operators : + - * / =
+n : 7
+answer : 47.0
+
+69
+quantities : 15 48 12 x
+types : "cupcake" "cookie" "cookie" "pastry"
+operators : + - * / =
+n : 7
+answer : 51.0
+
+70
+quantities : 32 37 16 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 53.0
+
+71
+quantities : 50 8 38 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+72
+quantities : 37 45 51 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 31.0
+
+73
+quantities : 35 21 34 x
+types : "towel" "towel" "towel" "towel"
+operators : + - * / =
+n : 7
+answer : 22.0
+
+74
+quantities : 17 32 10 x
+types : "girl" "boy" "boy" "student"
+operators : + - * / =
+n : 7
+answer : 39.0
+
+75
+quantities : 38 47 71 x
+types : "carrot" "carrot" "carrot" "carrot"
+operators : + - * / =
+n : 7
+answer : 14.0
+
+76
+quantities : 29 20 34 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+77
+quantities : x 10 25 5
+types : "shirt" "shirt" "shirt" "shirt"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+78
+quantities : 16 48 30 x
+types : "file" "file" "file" "file"
+operators : + - * / =
+n : 7
+answer : 34.0
+
+79
+quantities : 4 50 4 x
+types : "lawn" "dollar" "supplies" "dollar"
+operators : + - * / =
+n : 7
+answer : 50.0
+
+80
+quantities : 6 15 5 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+81
+quantities : 39 49 81 x
+types : "tulip" "rose" "flower" "flower"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+82
+quantities : 49 8 38 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 19.0
+
+83
+quantities : 18 11 24 x
+types : "problem" "problem" "problem" "problem"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+84
+quantities : 10 6 9 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+85
+quantities : 15 49 19 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+86
+quantities : 9 14 2 x
+types : "girl" "boy" "boy" "student"
+operators : + - * / =
+n : 7
+answer : 21.0
+
+87
+quantities : 27 42 11 x
+types : "file" "file" "file" "file"
+operators : + - * / =
+n : 7
+answer : 58.0
+
+88
+quantities : 40 44 65 x
+types : "towel" "towel" "towel" "towel"
+operators : + - * / =
+n : 7
+answer : 19.0
+
+89
+quantities : 39 12 49 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+90
+quantities : 19 45 56 x
+types : "cat" "cat" "cat" "cat"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+91
+quantities : 26 27 27 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 26.0
+
+92
+quantities : 24 39 4 x
+types : "picture" "picture" "picture" "picture"
+operators : + - * / =
+n : 7
+answer : 59.0
+
+93
+quantities : 5 30 26 x
+types : "towel" "towel" "towel" "towel"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+94
+quantities : 8 23 8 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 23.0
+
+95
+quantities : 50 27 74 x
+types : "game" "game" "game" "game"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+96
+quantities : 41 31 32 x
+types : "cupcake" "cookie" "cookie" "pastry"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+97
+quantities : 25 17 10 x
+types : "apple" "apple" "student" "student"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+98
+quantities : 29 17 12 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 34.0
+
+99
+quantities : 45.0 9.0 19.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+100
+quantities : 30 9 28 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 49.0
+
+101
+quantities : 47 25 40 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 62.0
+
+102
+quantities : 34 17 7 x
+types : "book" "money" "book" "book"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+103
+quantities : 10 4 42 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+104
+quantities : 33.0 4.0 32.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 61.0
+
+105
+quantities : 37 16 19 x
+types : "rose" "rose" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+106
+quantities : 6 4 18 x
+types : "worksheet" "worksheet" "worksheet" "worksheet"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+107
+quantities : 41 33 2 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+108
+quantities : 19 14 36 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 41.0
+
+109
+quantities : 9 6 3 x
+types : "people" "people" "people" "people"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+110
+quantities : 7 2 46 x
+types : "worksheet" "worksheet" "worksheet" "worksheet"
+operators : + - * / =
+n : 7
+answer : 51.0
+
+111
+quantities : 8 5 30 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 33.0
+
+112
+quantities : 48 11 15 x
+types : "carrot" "day" "day" "carrot"
+operators : + - * / =
+n : 7
+answer : 52.0
+
+113
+quantities : 34 20 13 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+114
+quantities : 47 41 20 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 26.0
+
+115
+quantities : 33 18 14 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 29.0
+
+116
+quantities : 26 20 20 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 26.0
+
+117
+quantities : 5.0 2.0 5.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+118
+quantities : 43 14 27 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+119
+quantities : 12 10 15 x
+types : "people" "people" "people" "people"
+operators : + - * / =
+n : 7
+answer : 17.0
+
+120
+quantities : 14 3 39 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 50.0
+
+121
+quantities : 30 10 5 x
+types : "people" "people" "people" "people"
+operators : + - * / =
+n : 7
+answer : 25.0
+
+122
+quantities : 34 3 48 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 79.0
+
+123
+quantities : 11 9 8 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+124
+quantities : 38 4 15 x
+types : "worksheet" "worksheet" "worksheet" "worksheet"
+operators : + - * / =
+n : 7
+answer : 49.0
+
+125
+quantities : 40 14 26 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 52.0
+
+126
+quantities : 43 8 39 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 74.0
+
+127
+quantities : 4 3 10 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+128
+quantities : 49 25 6 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+129
+quantities : 14 6 17 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 25.0
+
+130
+quantities : 45 6 20 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 59.0
+
+131
+quantities : 15 8 50 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 57.0
+
+132
+quantities : 4 2 47 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 49.0
+
+133
+quantities : 31 9 38 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+134
+quantities : 33 11 23 x
+types : "book" "money" "book" "book"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+135
+quantities : 10 2 2 x
+types : "people" "people" "people" "people"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+136
+quantities : 38 20 28 x
+types : "apple" "apple" "apple" "apple"
+operators : + - * / =
+n : 7
+answer : 46.0
+
+137
+quantities : 28 4 36 x
+types : "sock" "one" "one" "sock"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+138
+quantities : 23 7 21 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 37.0
+
+139
+quantities : 10 4 26 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+140
+quantities : 6 5 12 x
+types : "rose" "rose" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 13.0
+
+141
+quantities : 33 17 19 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+142
+quantities : 14 13 49 x
+types : "apple" "apple" "apple" "apple"
+operators : + - * / =
+n : 7
+answer : 50.0
+
+143
+quantities : 43 19 14 x
+types : "book" "money" "book" "book"
+operators : + - * / =
+n : 7
+answer : 38.0
+
+144
+quantities : 29 25 29 x
+types : "worksheet" "worksheet" "worksheet" "worksheet"
+operators : + - * / =
+n : 7
+answer : 33.0
+
+145
+quantities : 35 10 10 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+146
+quantities : 19 6 27 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+147
+quantities : 40 37 7 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+148
+quantities : 46 27 39 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 58.0
+
+149
+quantities : 48 45 42 x
+types : "carrot" "day" "day" "carrot"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+150
+quantities : 10 3 36 x
+types : "sock" "one" "one" "sock"
+operators : + - * / =
+n : 7
+answer : 43.0
+
+151
+quantities : 14 8 45 x
+types : "bottle" "bottle" "bottle" "bottle"
+operators : + - * / =
+n : 7
+answer : 51.0
+
+152
+quantities : 34 7 36 x
+types : "worksheet" "worksheet" "worksheet" "worksheet"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+153
+quantities : 7 4 8 x
+types : "people" "people" "people" "people"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+154
+quantities : 7 2 14 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 19.0
+
+155
+quantities : 25 22 15 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+156
+quantities : 30 8 10 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+157
+quantities : 23 20 6 x
+types : "apple" "apple" "apple" "apple"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+158
+quantities : 38 16 32 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+159
+quantities : 19 4 46 x
+types : "carrot" "day" "day" "carrot"
+operators : + - * / =
+n : 7
+answer : 61.0
+
+160
+quantities : 45.0 20.0 46.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 71.0
+
+161
+quantities : 17 2 23 x
+types : "apple" "apple" "apple" "apple"
+operators : + - * / =
+n : 7
+answer : 38.0
+
+162
+quantities : 47 23 46 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 70.0
+
+163
+quantities : 12 2 21 x
+types : "carrot" "day" "day" "carrot"
+operators : + - * / =
+n : 7
+answer : 31.0
+
+164
+quantities : 34 14 44 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 64.0
+
+165
+quantities : 5 4 38 x
+types : "book" "money" "book" "book"
+operators : + - * / =
+n : 7
+answer : 39.0
+
+166
+quantities : 33 19 13 x
+types : "sock" "one" "one" "sock"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+167
+quantities : 19 5 10 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+168
+quantities : 50 40 24 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 34.0
+
+169
+quantities : 8 5 8 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+170
+quantities : 23 10 47 x
+types : "carrot" "day" "day" "carrot"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+171
+quantities : 42 25 30 x
+types : "bottle" "bottle" "bottle" "bottle"
+operators : + - * / =
+n : 7
+answer : 47.0
+
+172
+quantities : 11 7 24 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 28.0
+
+173
+quantities : 5 2 28 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 31.0
+
+174
+quantities : 48 19 38 x
+types : "book" "money" "book" "book"
+operators : + - * / =
+n : 7
+answer : 67.0
+
+175
+quantities : 31 5 11 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 37.0
+
+176
+quantities : 42 22 39 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 59.0
+
+177
+quantities : 11 2 32 x
+types : "rose" "rose" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 41.0
+
+178
+quantities : 11.0 3.0 14.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 22.0
+
+179
+quantities : 14 4 36 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 46.0
+
+180
+quantities : 48.0 11.0 21.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 58.0
+
+181
+quantities : 42 25 24 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 41.0
+
+182
+quantities : 30 7 35 x
+types : "book" "book" "book" "book"
+operators : + - * / =
+n : 7
+answer : 58.0
+
+183
+quantities : 12 8 19 x
+types : "apple" "apple" "apple" "apple"
+operators : + - * / =
+n : 7
+answer : 23.0
+
+184
+quantities : 31 25 25 x
+types : "people" "people" "people" "people"
+operators : + - * / =
+n : 7
+answer : 31.0
+
+185
+quantities : 50 15 21 x
+types : "rose" "rose" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+186
+quantities : 6 3 20 x
+types : "song" "song" "song" "song"
+operators : + - * / =
+n : 7
+answer : 23.0
+
+187
+quantities : 11 5 10 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+188
+quantities : 33 31 26 x
+types : "customer" "customer" "customer" "customer"
+operators : + - * / =
+n : 7
+answer : 28.0
+
+189
+quantities : 11 6 42 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 47.0
+
+190
+quantities : 11 4 26 x
+types : "sock" "one" "one" "sock"
+operators : + - * / =
+n : 7
+answer : 33.0
+
+191
+quantities : 40 25 21 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+192
+quantities : 9 4 4 x
+types : "ticket" "ticket" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+193
+quantities : 4 3 42 x
+types : "student" "student" "student" "student"
+operators : + - * / =
+n : 7
+answer : 43.0
+
+194
+quantities : 28 11 9 x
+types : "carrot" "day" "day" "carrot"
+operators : + - * / =
+n : 7
+answer : 26.0
+
+195
+quantities : 25 21 30 x
+types : "book" "money" "book" "book"
+operators : + - * / =
+n : 7
+answer : 34.0
+
+196
+quantities : 5 3 34 x
+types : "rose" "rose" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+197
+quantities : 10 6 37 x
+types : "life" "life" "life" "life"
+operators : + - * / =
+n : 7
+answer : 41.0
+
+198
+quantities : 5.0 2.0 26.0 x
+types : "money" "money" "money" "money"
+operators : + - * / =
+n : 7
+answer : 29.0
+
+199
+quantities : 28 25 8 x
+types : "cupcake" "cupcake" "cupcake" "cupcake"
+operators : + - * / =
+n : 7
+answer : 11.0
+
+200
+quantities : 7 3 5 x
+types : "Billy" "Billy" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 50.0
+
+201
+quantities : 4 2 6 x
+types : "box" "scarf" "mitten" "piece"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+202
+quantities : 9 3 7 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 90.0
+
+203
+quantities : 3 2 2 x
+types : "dollar" "rose" "daisy" "dollar"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+204
+quantities : 2 5 4 x
+types : "page" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+205
+quantities : 5 4 x 3
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+206
+quantities : 7 2 7 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+207
+quantities : 6 9 4 x
+types : "box" "piece" "box" "candy"
+operators : + - * / =
+n : 7
+answer : 90.0
+
+208
+quantities : 6 6 2 x
+types : "cage" "parrot" "parakeet" "bird"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+209
+quantities : 6 9 2 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+210
+quantities : 7 3 4 x
+types : "box" "scarf" "mitten" "piece"
+operators : + - * / =
+n : 7
+answer : 49.0
+
+211
+quantities : 9 2 2 x
+types : "cage" "parrot" "parakeet" "bird"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+212
+quantities : 7 8 3 x
+types : "box" "piece" "box" "candy"
+operators : + - * / =
+n : 7
+answer : 80.0
+
+213
+quantities : 2 5 3 x
+types : "adult" "child" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 21.0
+
+214
+quantities : 6 8 3 x
+types : "bag" "can" "bag" "can"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+215
+quantities : 5 5 5 x
+types : "question" "point" "question" "score"
+operators : + - * / =
+n : 7
+answer : 50.0
+
+216
+quantities : 4 3 5 x
+types : "dollar" "ticket" "ticket" "dollar"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+217
+quantities : 5 3 5 x
+types : "pile" "coin" "pile" "coin"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+218
+quantities : 8 6 2 x
+types : "dollar" "deck" "deck" "dollar"
+operators : + - * / =
+n : 7
+answer : 64.0
+
+219
+quantities : 7 9 3 x
+types : "page" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 90.0
+
+220
+quantities : 7 2 x 6
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+221
+quantities : 3 9 5 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+222
+quantities : 2 2 6 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+223
+quantities : 4 4 6 x
+types : "chair" "table" "minute" "minute"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+224
+quantities : 3 8 2 x
+types : "dollar" "rose" "daisy" "dollar"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+225
+quantities : 6 5 5 x
+types : "box" "scarf" "mitten" "piece"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+226
+quantities : 4 6 3 x
+types : "bag" "can" "bag" "can"
+operators : + - * / =
+n : 7
+answer : 42.0
+
+227
+quantities : 5.0 7 2 x
+types : "money" "hour" "hour" "money"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+228
+quantities : 3 3 2 x
+types : "question" "point" "question" "score"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+229
+quantities : 9 4 4 x
+types : "dollar" "deck" "deck" "dollar"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+230
+quantities : 8 3 5 x
+types : "dollar" "deck" "deck" "dollar"
+operators : + - * / =
+n : 7
+answer : 64.0
+
+231
+quantities : 2 8 7 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 70.0
+
+232
+quantities : 6.0 5 5 x
+types : "money" "hour" "hour" "money"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+233
+quantities : 6 2 7 x
+types : "cage" "parrot" "parakeet" "bird"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+234
+quantities : 2 2 8 x
+types : "chair" "table" "minute" "minute"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+235
+quantities : 8 2 x 2
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+236
+quantities : 6 5 3 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+237
+quantities : 3 7 7 x
+types : "necklace" "dollar" "necklace" "dollar"
+operators : + - * / =
+n : 7
+answer : 70.0
+
+238
+quantities : 5 4 7 x
+types : "Oliver" "Oliver" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+239
+quantities : 5 2 8 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+240
+quantities : 4 3 3 x
+types : "necklace" "dollar" "necklace" "dollar"
+operators : + - * / =
+n : 7
+answer : 21.0
+
+241
+quantities : 6.0 3 5 x
+types : "money" "hour" "hour" "money"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+242
+quantities : 3 3 5 x
+types : "question" "point" "question" "score"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+243
+quantities : 4 6 x 2
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+244
+quantities : 9 3 4 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+245
+quantities : 5 6 4 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+246
+quantities : 6 2 9 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+247
+quantities : 2 4 3 x
+types : "adult" "child" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+248
+quantities : 6 3 4 x
+types : "page" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+249
+quantities : 3 5 4 x
+types : "dollar" "rose" "daisy" "dollar"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+250
+quantities : 8 4 6 x
+types : "box" "scarf" "mitten" "piece"
+operators : + - * / =
+n : 7
+answer : 80.0
+
+251
+quantities : 2 2 3 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+252
+quantities : 2 4 5 x
+types : "box" "piece" "box" "candy"
+operators : + - * / =
+n : 7
+answer : 28.0
+
+253
+quantities : 8 2 7 x
+types : "cage" "parrot" "parakeet" "bird"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+254
+quantities : 6 8 2 x
+types : "dollar" "ticket" "ticket" "dollar"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+255
+quantities : 2 5 8 x
+types : "adult" "child" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+256
+quantities : 5 4 3 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+257
+quantities : 4 5 8 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+258
+quantities : 7 9 3 x
+types : "necklace" "dollar" "necklace" "dollar"
+operators : + - * / =
+n : 7
+answer : 90.0
+
+259
+quantities : 9 5 x 2
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+260
+quantities : 6 5 5 x
+types : "dollar" "rose" "daisy" "dollar"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+261
+quantities : 9 2 6 x
+types : "cage" "parrot" "parakeet" "bird"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+262
+quantities : 3 7 3 x
+types : "pile" "coin" "pile" "coin"
+operators : + - * / =
+n : 7
+answer : 42.0
+
+263
+quantities : 2 2 8 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+264
+quantities : 7 2 7 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+265
+quantities : 6 3 x 5
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+266
+quantities : 3 5 3 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+267
+quantities : 8 7 2 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 70.0
+
+268
+quantities : 3 6 3 x
+types : "necklace" "dollar" "necklace" "dollar"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+269
+quantities : 5 5 3 x
+types : "bag" "can" "bag" "can"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+270
+quantities : 8 3 3 x
+types : "dollar" "rose" "daisy" "dollar"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+271
+quantities : 8.0 8 2 x
+types : "money" "hour" "hour" "money"
+operators : + - * / =
+n : 7
+answer : 80.0
+
+272
+quantities : 7 3 4 x
+types : "chair" "table" "minute" "minute"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+273
+quantities : 8 8 2 x
+types : "question" "point" "question" "score"
+operators : + - * / =
+n : 7
+answer : 80.0
+
+274
+quantities : 4 8 2 x
+types : "cage" "parrot" "parakeet" "bird"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+275
+quantities : 5 4 5 x
+types : "bag" "can" "bag" "can"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+276
+quantities : 5 8 4 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+277
+quantities : 2 4 3 x
+types : "pile" "coin" "pile" "coin"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+278
+quantities : 9 6 x 3
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 81.0
+
+279
+quantities : 3 5 8 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 64.0
+
+280
+quantities : 3 3 4 x
+types : "box" "scarf" "mitten" "piece"
+operators : + - * / =
+n : 7
+answer : 21.0
+
+281
+quantities : 7 3 2 x
+types : "dollar" "deck" "deck" "dollar"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+282
+quantities : 5 3 5 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+283
+quantities : 8 2 6 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+284
+quantities : 3 9 4 x
+types : "bag" "can" "bag" "can"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+285
+quantities : 6 7 3 x
+types : "dollar" "rose" "daisy" "dollar"
+operators : + - * / =
+n : 7
+answer : 60.0
+
+286
+quantities : 6.0 6 2 x
+types : "money" "hour" "hour" "money"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+287
+quantities : 2 6 6 x
+types : "shelf" "book" "shelf" "book"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+288
+quantities : 2 3 6 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+289
+quantities : 2 5 4 x
+types : "pile" "coin" "pile" "coin"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+290
+quantities : 6 3 4 x
+types : "question" "point" "question" "score"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+291
+quantities : 4 2 6 x
+types : "box" "scarf" "mitten" "piece"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+292
+quantities : 7 3 3 x
+types : "Oliver" "Oliver" "ticket" "ticket"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+293
+quantities : 4 4 6 x
+types : "page" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+294
+quantities : 4 4 6 x
+types : "bag" "can" "bag" "can"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+295
+quantities : 6 3 6 x
+types : "dollar" "deck" "deck" "dollar"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+296
+quantities : 4 2 8 x
+types : "chair" "table" "minute" "minute"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+297
+quantities : 9 6 2 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+298
+quantities : 4 5 3 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+299
+quantities : 6 2 9 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+300
+quantities : 26 46 9 x
+types : "boy" "girl" "girl" "group"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+301
+quantities : 35 5 5 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+302
+quantities : 21 15 6 x
+types : "dollar" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+303
+quantities : 9 13 41 x
+types : "cookie" "cookie" "cookie" "baggy"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+304
+quantities : 9 18 3 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+305
+quantities : 48 6 6 x
+types : "player" "player" "player" "group"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+306
+quantities : 41 22 9 x
+types : "soda" "soda" "soda" "shelf"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+307
+quantities : 4 x 14 2
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+308
+quantities : 17 15 8 x
+types : "problem" "problem" "problem" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+309
+quantities : 3 x 8 10
+types : "binder" "page" "card" "card"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+310
+quantities : 11 45 7 x
+types : "boy" "girl" "girl" "group"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+311
+quantities : 4 9 7 x
+types : "friend" "wing" "wing" "wing"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+312
+quantities : 6 7 47 x
+types : "flower" "carnation" "rose" "vase"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+313
+quantities : 9 12 3 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+314
+quantities : 4 10 2 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+315
+quantities : 4 10 7 x
+types : "store" "bear" "store" "shelf"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+316
+quantities : 6 18 3 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+317
+quantities : 8 39 33 x
+types : "piece" "shirt" "sweater" "load"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+318
+quantities : x 4 2 6
+types : "van" "people" "student" "adult"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+319
+quantities : 2 4 3 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+320
+quantities : 33 9 6 x
+types : "ticket" "ticket" "cost" "piece"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+321
+quantities : 14 26 5 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+322
+quantities : 3 x 5 13
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+323
+quantities : 31 5 9 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+324
+quantities : 11 5 8 x
+types : "piece" "piece" "piece" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+325
+quantities : 5 33 2 x
+types : "cookie" "cookie" "cookie" "baggy"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+326
+quantities : 4 6 5 x
+types : "player" "player" "player" "group"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+327
+quantities : 5 35 8 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+328
+quantities : x 5 12 3
+types : "van" "people" "student" "adult"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+329
+quantities : 9 17 55 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+330
+quantities : 10 22 4 x
+types : "soda" "soda" "soda" "shelf"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+331
+quantities : 28 4 4 x
+types : "boy" "girl" "girl" "group"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+332
+quantities : 8 5 19 x
+types : "cookie" "cookie" "cookie" "baggy"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+333
+quantities : 66 15 9 x
+types : "piece" "piece" "piece" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+334
+quantities : 9 29 52 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+335
+quantities : 7 13 5 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+336
+quantities : 5 7 6 x
+types : "store" "bear" "store" "shelf"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+337
+quantities : 68 13 9 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+338
+quantities : 3 5 4 x
+types : "ticket" "ticket" "cost" "piece"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+339
+quantities : x 5 25 5
+types : "van" "people" "student" "adult"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+340
+quantities : 3 x 3 9
+types : "binder" "page" "card" "card"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+341
+quantities : 3 6 3 x
+types : "friend" "wing" "wing" "wing"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+342
+quantities : 5 35 8 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+343
+quantities : 6 18 6 x
+types : "store" "bear" "store" "shelf"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+344
+quantities : 8 9 7 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+345
+quantities : 5 6 19 x
+types : "flower" "carnation" "rose" "vase"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+346
+quantities : 3 x 11 16
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+347
+quantities : 17 55 8 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+348
+quantities : 12 44 8 x
+types : "player" "player" "player" "group"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+349
+quantities : 3 37 8 x
+types : "dollar" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+350
+quantities : 3 x 3 9
+types : "binder" "page" "card" "card"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+351
+quantities : 3 6 3 x
+types : "friend" "wing" "wing" "wing"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+352
+quantities : 5 35 8 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+353
+quantities : 6 18 6 x
+types : "store" "bear" "store" "shelf"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+354
+quantities : 8 9 7 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+355
+quantities : 5 6 19 x
+types : "flower" "carnation" "rose" "vase"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+356
+quantities : 3 x 11 16
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+357
+quantities : 17 55 8 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+358
+quantities : 12 44 8 x
+types : "player" "player" "player" "group"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+359
+quantities : 3 37 8 x
+types : "dollar" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+360
+quantities : 8 19 3 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+361
+quantities : 13 2 3 x
+types : "problem" "problem" "problem" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+362
+quantities : 8 7 3 x
+types : "dollar" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+363
+quantities : 3 x 24 3
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+364
+quantities : 31 4 7 x
+types : "player" "player" "player" "group"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+365
+quantities : 3 x 2 10
+types : "binder" "page" "card" "card"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+366
+quantities : 3 3 3 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+367
+quantities : 6 23 25 x
+types : "cookie" "cookie" "cookie" "baggy"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+368
+quantities : 5 40 9 x
+types : "boy" "girl" "girl" "group"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+369
+quantities : 23 7 6 x
+types : "manager" "employee" "team" "people"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+370
+quantities : 4 44 6 x
+types : "soda" "soda" "soda" "shelf"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+371
+quantities : x 8 22 2
+types : "van" "people" "student" "adult"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+372
+quantities : 5 5 5 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+373
+quantities : 2 6 4 x
+types : "player" "player" "player" "group"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+374
+quantities : 18 6 4 x
+types : "problem" "problem" "problem" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+375
+quantities : 3 2 16 x
+types : "cookie" "cookie" "cookie" "baggy"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+376
+quantities : 5 43 2 x
+types : "piece" "shirt" "sweater" "load"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+377
+quantities : 3 3 3 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+378
+quantities : 2 13 3 x
+types : "ticket" "ticket" "cost" "piece"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+379
+quantities : 3 8 10 x
+types : "friend" "wing" "wing" "wing"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+380
+quantities : 9 19 8 x
+types : "piece" "shirt" "sweater" "load"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+381
+quantities : 3 7 5 x
+types : "dollar" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+382
+quantities : 14 31 5 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+383
+quantities : 26 19 9 x
+types : "ticket" "ticket" "cost" "piece"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+384
+quantities : 4 20 16 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+385
+quantities : 9 x 20 16
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+386
+quantities : 2 34 4 x
+types : "puppy" "puppy" "puppy" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+387
+quantities : 9 15 8 x
+types : "manager" "employee" "team" "people"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+388
+quantities : 3 x 8 16
+types : "binder" "page" "card" "card"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+389
+quantities : 22 2 4 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+390
+quantities : 17 10 9 x
+types : "store" "bear" "store" "shelf"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+391
+quantities : 8 x 25 23
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+392
+quantities : 5 x 3 42
+types : "binder" "page" "card" "card"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+393
+quantities : 4 52 7 x
+types : "soda" "soda" "soda" "shelf"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+394
+quantities : 7 23 5 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+395
+quantities : 4 11 5 x
+types : "dollar" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+396
+quantities : 30 51 9 x
+types : "picture" "picture" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+397
+quantities : x 9 40 14
+types : "van" "people" "student" "adult"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+398
+quantities : 5 13 9 x
+types : "piece" "piece" "piece" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+399
+quantities : 5 58 7 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+400
+quantities : 14 x 5 4
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+401
+quantities : 16 5 7 x
+types : "potato" "minute" "potato" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+402
+quantities : 14 6 7 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 42.0
+
+403
+quantities : 11 5 5 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+404
+quantities : 5.0 12 7 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 25.0
+
+405
+quantities : 5 6 2 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+406
+quantities : 10 8 8 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+407
+quantities : 6 3 2 x
+types : "enemy" "point" "enemy" "point"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+408
+quantities : 5 11 2 x
+types : "point" "bag" "bag" "point"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+409
+quantities : 3.0 7 4 x
+types : "money" "bar" "bar" "money"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+410
+quantities : 14 6 5 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+411
+quantities : 3 12 7 x
+types : "dollar" "people" "people" "dollar"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+412
+quantities : 7 16 8.0 x
+types : "figure" "total" "money" "money"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+413
+quantities : 11 9 3 x
+types : "enemy" "point" "enemy" "point"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+414
+quantities : 16 7 8 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+415
+quantities : 10 x 6 5
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+416
+quantities : 9.0 12 8 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+417
+quantities : 12 8 4 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 64.0
+
+418
+quantities : 16 x 8 7.0
+types : "game" "money" "game" "money"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+419
+quantities : 12 7 5 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 49.0
+
+420
+quantities : 8 5 5 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+421
+quantities : 15 3 6 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+422
+quantities : 15 x 6 7.0
+types : "game" "money" "game" "money"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+423
+quantities : 6.0 13 6 x
+types : "money" "bar" "bar" "money"
+operators : + - * / =
+n : 7
+answer : 42.0
+
+424
+quantities : 7 4 3 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+425
+quantities : 13 7 4 x
+types : "friend" "friend" "friend" "friend"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+426
+quantities : 8 5 6 x
+types : "enemy" "point" "enemy" "point"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+427
+quantities : 9.0 14 8 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+428
+quantities : x 2.0 5 3
+types : "money" "money" "deck" "left"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+429
+quantities : 12 6 6 x
+types : "potato" "minute" "potato" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+430
+quantities : 9 x 6 6
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+431
+quantities : 13 9 4 x
+types : "ticket" "dollar" "ticket" "dollar"
+operators : + - * / =
+n : 7
+answer : 81.0
+
+432
+quantities : 12 3 5 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 21.0
+
+433
+quantities : 5 7 5.0 x
+types : "figure" "total" "money" "money"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+434
+quantities : 9 8 5 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+435
+quantities : 4.0 8 3 x
+types : "money" "bar" "bar" "money"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+436
+quantities : 10 5 3.0 x
+types : "customer" "customer" "money" "money"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+437
+quantities : 4 9 5 x
+types : "problem" "worksheet" "worksheet" "problem"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+438
+quantities : 9 4 8 x
+types : "friend" "friend" "friend" "friend"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+439
+quantities : x 9.0 12 7
+types : "money" "money" "deck" "deck"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+440
+quantities : 9 3 7 x
+types : "potato" "minute" "potato" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+441
+quantities : x 5.0 14 5
+types : "money" "money" "deck" "deck"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+442
+quantities : 3.0 9 3 x
+types : "money" "bar" "bar" "money"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+443
+quantities : 12 3 4 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+444
+quantities : 13 6 7 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+445
+quantities : 7 13 9 x
+types : "dollar" "people" "people" "dollar"
+operators : + - * / =
+n : 7
+answer : 28.0
+
+446
+quantities : 7 4 2 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+447
+quantities : 10 x 8 6.0
+types : "game" "money" "game" "money"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+448
+quantities : x 7.0 9 4
+types : "money" "money" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+449
+quantities : 9 5 8.0 x
+types : "customer" "customer" "money" "money"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+450
+quantities : 14 x 8 8
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+451
+quantities : 5 17 8 x
+types : "point" "bag" "bag" "point"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+452
+quantities : 15 8 6 x
+types : "potato" "minute" "potato" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+453
+quantities : 3 8 6.0 x
+types : "figure" "total" "money" "money"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+454
+quantities : 8.0 15 7 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 64.0
+
+455
+quantities : 10 7 8 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+456
+quantities : 7 8 2 x
+types : "enemy" "point" "enemy" "point"
+operators : + - * / =
+n : 7
+answer : 40.0
+
+457
+quantities : 11 7 2 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+458
+quantities : 10 x 2 4.0
+types : "game" "money" "game" "money"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+459
+quantities : 4 16 8 x
+types : "problem" "worksheet" "worksheet" "problem"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+460
+quantities : 2 14 7 x
+types : "problem" "worksheet" "worksheet" "problem"
+operators : + - * / =
+n : 7
+answer : 14.0
+
+461
+quantities : x 4.0 13 4
+types : "money" "money" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+462
+quantities : 5 15 8 x
+types : "dollar" "people" "people" "dollar"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+463
+quantities : 5 11 7 x
+types : "brownie" "total" "cup" "cup"
+operators : + - * / =
+n : 7
+answer : 42.0
+
+464
+quantities : 6 5 2 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 20.0
+
+465
+quantities : 4.0 11 7 x
+types : "money" "bar" "bar" "money"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+466
+quantities : 8 4 2 x
+types : "point" "bag" "bag" "point"
+operators : + - * / =
+n : 7
+answer : 16.0
+
+467
+quantities : 12 x 6 4
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+468
+quantities : 15 9 8 x
+types : "potato" "minute" "potato" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+469
+quantities : 14 5 7 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 35.0
+
+470
+quantities : 13 6 5 x
+types : "potato" "minute" "potato" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 48.0
+
+471
+quantities : 11 9 6 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 45.0
+
+472
+quantities : 2.0 13 4 x
+types : "money" "bar" "bar" "money"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+473
+quantities : 3 5 5 x
+types : "brownie" "total" "cup" "cup"
+operators : + - * / =
+n : 7
+answer : 10.0
+
+474
+quantities : 3 15 7 x
+types : "problem" "worksheet" "worksheet" "problem"
+operators : + - * / =
+n : 7
+answer : 24.0
+
+475
+quantities : 7 4 9.0 x
+types : "customer" "customer" "money" "money"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+476
+quantities : x 9.0 11 8
+types : "money" "money" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+477
+quantities : 14 3 8 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 18.0
+
+478
+quantities : 2 15 9 x
+types : "dollar" "people" "people" "dollar"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+479
+quantities : 4.0 17 9 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 32.0
+
+480
+quantities : 11 x 4 8
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+481
+quantities : 12 6 7 x
+types : "box" "piece" "box" "piece"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+482
+quantities : 6 11 6.0 x
+types : "figure" "total" "money" "money"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+483
+quantities : 8 11 2 x
+types : "dollar" "people" "people" "dollar"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+484
+quantities : 6 9 3 x
+types : "ticket" "dollar" "ticket" "dollar"
+operators : + - * / =
+n : 7
+answer : 27.0
+
+485
+quantities : 8 17 8 x
+types : "brownie" "total" "cup" "cup"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+486
+quantities : 11 7 8 x
+types : "enemy" "point" "enemy" "point"
+operators : + - * / =
+n : 7
+answer : 21.0
+
+487
+quantities : x 7.0 16 8
+types : "money" "money" "deck" "left"
+operators : + - * / =
+n : 7
+answer : 56.0
+
+488
+quantities : 13 8 6 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+489
+quantities : 7 5 3.0 x
+types : "customer" "customer" "money" "money"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+490
+quantities : 10 9 3 x
+types : "ticket" "dollar" "ticket" "dollar"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+491
+quantities : 7 17 8 x
+types : "problem" "worksheet" "worksheet" "problem"
+operators : + - * / =
+n : 7
+answer : 63.0
+
+492
+quantities : 9 2 3 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 12.0
+
+493
+quantities : 15 x 9 5.0
+types : "game" "money" "game" "money"
+operators : + - * / =
+n : 7
+answer : 30.0
+
+494
+quantities : 9.0 6 2 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 36.0
+
+495
+quantities : 2 9 2 x
+types : "dollar" "people" "people" "dollar"
+operators : + - * / =
+n : 7
+answer : 14.0
+
+496
+quantities : 7 16 6 x
+types : "brownie" "total" "cup" "cup"
+operators : + - * / =
+n : 7
+answer : 54.0
+
+497
+quantities : 8 3 3 x
+types : "friend" "player" "life" "life"
+operators : + - * / =
+n : 7
+answer : 15.0
+
+498
+quantities : 9 6 2 x
+types : "friend" "friend" "friend" "friend"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+499
+quantities : 8 14 5 x
+types : "point" "bag" "bag" "point"
+operators : + - * / =
+n : 7
+answer : 72.0
+
+500
+quantities : 57 27 6 x
+types : "dollar" "buck" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+501
+quantities : 18 3 5 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+502
+quantities : 47 17 5 x
+types : "piece" "piece" "load" "piece"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+503
+quantities : 79 7 23 x
+types : "ticket" "ticket" "ticket" "ride"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+504
+quantities : 18 8 x 2
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+505
+quantities : 93 21 8 x
+types : "file" "rest" "file" "folder"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+506
+quantities : 79 44 5 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+507
+quantities : 72 32 5 x
+types : "problem" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+508
+quantities : 62 8 x 9
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+509
+quantities : 101 47 6 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+510
+quantities : 41 x 11 6
+types : "point" "player" "point" "point"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+511
+quantities : 46 10 4 x
+types : "book" "rest" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+512
+quantities : 41 4 29 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+513
+quantities : 37 21 2 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+514
+quantities : 81 41 8 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+515
+quantities : 65 17 8 x
+types : "student" "student" "group" "student"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+516
+quantities : 57 49 4 x
+types : "dollar" "buck" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+517
+quantities : 66 8 10 x
+types : "flower" "flower" "flower" "bouquet"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+518
+quantities : 108 36 9 x
+types : "piece" "piece" "piece" "pile"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+519
+quantities : 80 31 7 x
+types : "file" "rest" "file" "folder"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+520
+quantities : 36 9 3 x
+types : "student" "student" "group" "student"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+521
+quantities : 96 42 x 6
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+522
+quantities : 64 28 4 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+523
+quantities : 35 19 8 x
+types : "game" "game" "game" "box"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+524
+quantities : 19 11 2 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+525
+quantities : 40 26 2 x
+types : "problem" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+526
+quantities : 103 8 47 x
+types : "flower" "flower" "flower" "bouquet"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+527
+quantities : 39 19 5 x
+types : "piece" "piece" "load" "piece"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+528
+quantities : 18 12 3 x
+types : "people" "people" "people" "table"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+529
+quantities : 82 10 9 x
+types : "book" "rest" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+530
+quantities : 78 30 8 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+531
+quantities : 33 27 3 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+532
+quantities : 39 x 23 2
+types : "point" "player" "point" "point"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+533
+quantities : 47 7 5 x
+types : "people" "people" "people" "table"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+534
+quantities : 44 12 8 x
+types : "customer" "rest" "people" "table"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+535
+quantities : 40 20 4 x
+types : "book" "book" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+536
+quantities : 64 36 4 x
+types : "student" "student" "group" "student"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+537
+quantities : 76 46 5 x
+types : "game" "game" "game" "box"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+538
+quantities : 34 7 3 x
+types : "book" "rest" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+539
+quantities : 52 4 28 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+540
+quantities : 83 47 4 x
+types : "dollar" "buck" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+541
+quantities : 52 2 40 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+542
+quantities : 21 12 3 x
+types : "customer" "rest" "people" "table"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+543
+quantities : 25 15 2 x
+types : "student" "student" "group" "student"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+544
+quantities : 47 27 x 4
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+545
+quantities : 68 32 x 6
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+546
+quantities : 120 39 9 x
+types : "book" "book" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+547
+quantities : 25 10 5 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+548
+quantities : 60 20 5 x
+types : "problem" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+549
+quantities : 42 10 8 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+550
+quantities : 59 32 9 x
+types : "piece" "piece" "load" "piece"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+551
+quantities : 35 7 4 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+552
+quantities : 42 2 36 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+553
+quantities : 17 5 3 x
+types : "student" "student" "group" "student"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+554
+quantities : 12 x 4 4
+types : "point" "player" "point" "point"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+555
+quantities : 71 43 x 7
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+556
+quantities : 45 27 9 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+557
+quantities : 86 37 7 x
+types : "book" "book" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+558
+quantities : 50 5 x 5
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+559
+quantities : 101 47 6 x
+types : "problem" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+560
+quantities : 27 9 6 x
+types : "file" "rest" "file" "folder"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+561
+quantities : 78 30 8 x
+types : "piece" "piece" "piece" "pile"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+562
+quantities : 45 35 2 x
+types : "people" "people" "people" "table"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+563
+quantities : 65 17 6 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+564
+quantities : 102 21 9 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+565
+quantities : 120 48 9 x
+types : "piece" "piece" "load" "piece"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+566
+quantities : 45 5 35 x
+types : "flower" "flower" "flower" "bouquet"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+567
+quantities : 39 21 x 3
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+568
+quantities : 55 6 7 x
+types : "problem" "problem" "page" "problem"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+569
+quantities : 58 10 8 x
+types : "student" "student" "group" "student"
+operators : + - * / =
+n : 7
+answer : 6.0
+
+570
+quantities : 53 7 18 x
+types : "flower" "flower" "flower" "bouquet"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+571
+quantities : 22 14 4 x
+types : "customer" "rest" "people" "table"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+572
+quantities : 39 19 4 x
+types : "game" "game" "game" "box"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+573
+quantities : 20 11 x 3
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+574
+quantities : 13 7 2 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+575
+quantities : 27 6 7 x
+types : "book" "book" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+576
+quantities : 82 37 5 x
+types : "file" "rest" "file" "folder"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+577
+quantities : 12 8 2 x
+types : "dollar" "buck" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+578
+quantities : 21 3 12 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+579
+quantities : 51 11 8 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+580
+quantities : 24 10 7 x
+types : "people" "people" "people" "table"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+581
+quantities : 75 x 45 6
+types : "point" "player" "point" "point"
+operators : + - * / =
+n : 7
+answer : 5.0
+
+582
+quantities : 54 33 7 x
+types : "piece" "piece" "piece" "pile"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+583
+quantities : 56 3 35 x
+types : "seed" "seed" "seed" "garden"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+584
+quantities : 48 38 5 x
+types : "book" "book" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 2.0
+
+585
+quantities : 14 2 3 x
+types : "book" "rest" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+586
+quantities : 56 24 4 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 8.0
+
+587
+quantities : 86 30 x 8
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+588
+quantities : 60 40 5 x
+types : "piece" "piece" "load" "piece"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+589
+quantities : 69 24 5 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+590
+quantities : 104 41 9 x
+types : "lawn" "dollar" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+591
+quantities : 32 12 5 x
+types : "piece" "piece" "piece" "pile"
+operators : + - * / =
+n : 7
+answer : 4.0
+
+592
+quantities : 57 39 2 x
+types : "game" "game" "game" "box"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+593
+quantities : 88 34 6 x
+types : "puppy" "rest" "rest" "cage"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+594
+quantities : 85 40 5 x
+types : "file" "rest" "file" "folder"
+operators : + - * / =
+n : 7
+answer : 9.0
+
+595
+quantities : 68 47 7 x
+types : "dollar" "buck" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+596
+quantities : 40 4 28 x
+types : "ticket" "ticket" "ticket" "ride"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+597
+quantities : 75 19 x 8
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 7.0
+
+598
+quantities : 38 14 x 8
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 3.0
+
+599
+quantities : 41 37 2 x
+types : "picture" "pic" "album" "picture"
+operators : + - * / =
+n : 7
+answer : 2.0

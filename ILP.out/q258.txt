@@ -1,0 +1,5 @@
+quantities : 7 9 3 x
+types : "necklace" "dollar" "necklace" "dollar"
+operators : + - * / =
+n : 7
+answer : 90.0

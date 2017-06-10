@@ -1,0 +1,5 @@
+quantities : 66 8 10 x
+types : "flower" "flower" "flower" "bouquet"
+operators : + - * / =
+n : 7
+answer : 7.0

@@ -1,0 +1,240 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 4 | 36 | x=(3*(3+9)) | x 3 3 9 + * = | x:page 3:page 3:card 9:card +:card *:page =:page
+EXPR: 0 | POS | INT | 10 | 4 | 36 | (3*(3+9))=x | 3 3 9 + * x = | 3:binder 3:card 9:card +:card *:card x:card =:card
+EXPR: 0 | POS | INT | 10 | 4 | 0 | ((3*3)-9)=x | 3 3 * 9 - x = | 3:binder 3:card *:card 9:card -:card x:card =:card
+EXPR: 0 | POS | INT | 10 | 4 | 18 | ((3*3)+9)=x | 3 3 * 9 + x = | 3:binder 3:card *:card 9:card +:card x:card =:card
+EXPR: 0 | POS | INT | 10 | 4 | 18 | x=((3*3)+9) | x 3 3 * 9 + = | x:card 3:binder 3:card *:card 9:card +:card =:card
+EXPR: 0 | POS | INT | 10 | 4 |  | x=((3*3)-9) | x 3 3 * 9 - = | x:card 3:binder 3:card *:card 9:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | - | ((3-3)/x)=9 | 3 3 - x / 9 = | 3:card 3:card -:card x:page /:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 2 | ((3*x)+3)=9 | 3 x * 3 + 9 = | 3:card x:page *:card 3:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | - | ((3-3)*x)=9 | 3 3 - x * 9 = | 3:card 3:card -:card x:page *:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 0 | 3=(3-(9*x)) | 3 3 9 x * - = | 3:card 3:card 9:card x:page *:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 0 | 3=(3+(x*9)) | 3 3 x 9 * + = | 3:card 3:card x:page 9:card *:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 2 | ((x*3)+3)=9 | x 3 * 3 + 9 = | x:card 3:binder *:card 3:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 6 | (3*(x-3))=9 | 3 x 3 - * 9 = | 3:binder x:card 3:card -:card *:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 |  | (3*(3+x))=9 | 3 3 x + * 9 = | 3:binder 3:card x:card +:card *:card 9:card =:card
+EXPR: 1 | POS | INT | 12 | 4 | 4 | ((x*3)-3)=9 | x 3 * 3 - 9 = | x:card 3:binder *:card 3:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 36 | ((x/3)-3)=9 | x 3 / 3 - 9 = | x:card 3:binder /:card 3:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 |  | ((3*3)-x)=9 | 3 3 * x - 9 = | 3:binder 3:card *:card x:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 2 | (3+(x*3))=9 | 3 x 3 * + 9 = | 3:card x:page 3:card *:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | - | 3=(3-(9/x)) | 3 3 9 x / - = | 3:card 3:card 9:card x:page /:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 18 | x=(3*(9-3)) | x 3 9 3 - * = | x:binder 3:binder 9:card 3:card -:card *:binder =:binder
+EXPR: 0 | POS | INT | 12 | 4 | 0 | 3=(3-(x*9)) | 3 3 x 9 * - = | 3:card 3:card x:page 9:card *:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 24 | ((3*9)-3)=x | 3 9 * 3 - x = | 3:binder 9:card *:card 3:card -:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 18 | ((x/3)+3)=9 | x 3 / 3 + 9 = | x:card 3:binder /:card 3:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 30 | x=((3*9)+3) | x 3 9 * 3 + = | x:card 3:binder 9:card *:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 24 | x=((3*9)-3) | x 3 9 * 3 - = | x:card 3:binder 9:card *:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 18 | (3*(9-3))=x | 3 9 3 - * x = | 3:binder 9:card 3:card -:card *:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 30 | ((3*9)+3)=x | 3 9 * 3 + x = | 3:binder 9:card *:card 3:card +:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 4 |  | (x+(3*3))=9 | x 3 3 * + 9 = | x:card 3:binder 3:card *:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 1 | (3*3)=(9/x) | 3 3 * 9 x / = | 3:binder 3:card *:card 9:card x:page /:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 2 | (3+(3*x))=9 | 3 3 x * + 9 = | 3:card 3:card x:page *:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 36 | 3=(x/(3+9)) | 3 x 3 9 + / = | 3:page x:page 3:card 9:card +:card /:page =:page
+EXPR: 0 | POS | INT | 12 | 4 | 1 | (3*3)=(9*x) | 3 3 * 9 x * = | 3:binder 3:card *:card 9:card x:page *:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 30 | (3+(3*9))=x | 3 3 9 * + x = | 3:card 3:binder 9:card *:card +:card x:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 10 | x=((3/3)+9) | x 3 3 / 9 + = | x:card 3:card 3:binder /:card 9:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | - | (x*(3-3))=9 | x 3 3 - * 9 = | x:page 3:card 3:card -:card *:card 9:card =:card
+EXPR: 0 | POS | INT | 12 | 4 | 10 | ((3/3)+9)=x | 3 3 / 9 + x = | 3:card 3:binder /:card 9:card +:card x:card =:card
+EXPR: 1 | POS | INT | 12 | 4 | 4 | 3=((3+9)/x) | 3 3 9 + x / = | 3:card 3:card 9:card +:card x:page /:card =:card
+EXPR: 1 | POS | INT | 14 | 4 | 4 | 3=((x*3)-9) | 3 x 3 * 9 - = | 3:card x:page 3:card *:card 9:card -:card =:card
+EXPR: 0 | POS | INT | 14 | 4 |  | (3+(x*9))=3 | 3 x 9 * + 3 = | 3:card x:page 9:card *:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 30 | ((x-3)/3)=9 | x 3 - 3 / 9 = | x:card 3:card -:card 3:binder /:card 9:card =:card
+EXPR: 0 | POS | INT | 14 | 4 |  | ((x+3)*3)=9 | x 3 + 3 * 9 = | x:card 3:card +:card 3:binder *:card 9:card =:card
+EXPR: 1 | POS | INT | 14 | 4 | 4 | ((3*x)-9)=3 | 3 x * 9 - 3 = | 3:binder x:card *:card 9:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 |  | (3-(x*9))=3 | 3 x 9 * - 3 = | 3:card x:page 9:card *:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 0 | 3=((9*x)+3) | 3 9 x * 3 + = | 3:card 9:card x:page *:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 14 | 4 |  | (3+(9*x))=3 | 3 9 x * + 3 = | 3:card 9:card x:page *:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 0 | 3=(3+(9*x)) | 3 3 9 x * + = | 3:card 3:card 9:card x:page *:card +:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 8 | ((3/3)+x)=9 | 3 3 / x + 9 = | 3:card 3:binder /:card x:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 10 | 3=(3*(x-9)) | 3 3 x 9 - * = | 3:card 3:binder x:card 9:card -:card *:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 2 | 3=(9-(x*3)) | 3 9 x 3 * - = | 3:card 9:card x:page 3:card *:card -:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 18 | 3=(x/(9-3)) | 3 x 9 3 - / = | 3:binder x:binder 9:card 3:card -:card /:binder =:binder
+EXPR: 1 | POS | INT | 14 | 4 | 4 | ((x*3)-9)=3 | x 3 * 9 - 3 = | x:card 3:binder *:card 9:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 |  | (3-(9*x))=3 | 3 9 x * - 3 = | 3:card 9:card x:page *:card -:card 3:card =:card
+EXPR: 1 | POS | INT | 14 | 4 | 4 | ((3*x)-3)=9 | 3 x * 3 - 9 = | 3:card x:page *:card 3:card -:card 9:card =:card
+EXPR: 1 | POS | INT | 14 | 4 | 4 | 3=((3*x)-9) | 3 3 x * 9 - = | 3:card 3:card x:page *:card 9:card -:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 10 | (x-(3/3))=9 | x 3 3 / - 9 = | x:card 3:card 3:binder /:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 9 | (3*9)=(3*x) | 3 9 * 3 x * = | 3:binder 9:card *:card 3:card x:page *:card =:card
+EXPR: 1 | POS | INT | 14 | 4 | 4 | ((3+9)/x)=3 | 3 9 + x / 3 = | 3:card 9:card +:card x:page /:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 36 | ((x/3)-9)=3 | x 3 / 9 - 3 = | x:card 3:binder /:card 9:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | - | 3=(3+(9/x)) | 3 3 9 x / + = | 3:card 3:card 9:card x:page /:card +:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 9 | (x*3)=(3*9) | x 3 * 3 9 * = | x:page 3:card *:card 3:binder 9:card *:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 8 | (x+(3/3))=9 | x 3 3 / + 9 = | x:card 3:card 3:binder /:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 36 | 3=((x/3)-9) | 3 x 3 / 9 - = | 3:card x:card 3:binder /:card 9:card -:card =:card
+EXPR: 0 | POS | INT | 14 | 4 |  | (3*(x+3))=9 | 3 x 3 + * 9 = | 3:card x:binder 3:binder +:binder *:card 9:card =:card
+EXPR: 0 | POS | INT | 14 | 4 | 2 | 3=(9-(3*x)) | 3 9 3 x * - = | 3:card 9:card 3:card x:page *:card -:card =:card
+EXPR: 1 | POS | INT | 15 | 4 | 4 | ((3+9)/3)=x | 3 9 + 3 / x = | 3:card 9:card +:card 3:binder /:card x:card =:card
+EXPR: 0 | POS | INT | 15 | 4 | 0 | (9-(3*3))=x | 9 3 3 * - x = | 9:card 3:binder 3:card *:card -:card x:card =:card
+EXPR: 0 | POS | INT | 15 | 4 | 0 | ((9/3)-3)=x | 9 3 / 3 - x = | 9:card 3:binder /:card 3:card -:card x:card =:card
+EXPR: 0 | POS | INT | 15 | 4 | 36 | ((3+9)*3)=x | 3 9 + 3 * x = | 3:card 9:card +:card 3:binder *:card x:card =:card
+EXPR: 0 | POS | INT | 15 | 4 |  | x=((9/3)-3) | x 9 3 / 3 - = | x:card 9:card 3:binder /:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 15 | 4 | 6 | ((9/3)+3)=x | 9 3 / 3 + x = | 9:card 3:binder /:card 3:card +:card x:card =:card
+EXPR: 1 | POS | INT | 15 | 4 | 4 | x=((3+9)/3) | x 3 9 + 3 / = | x:card 3:card 9:card +:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 9=((3*3)-x) | 9 3 3 * x - = | 9:card 3:binder 3:card *:card x:card -:card =:card
+EXPR: 0 | POS | INT | 17 | 4 |  | ((9*x)+3)=3 | 9 x * 3 + 3 = | 9:card x:page *:card 3:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 2 | 9=(3+(3*x)) | 9 3 3 x * + = | 9:card 3:card 3:card x:page *:card +:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | - | 9=(x*(3-3)) | 9 x 3 3 - * = | 9:card x:page 3:card 3:card -:card *:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 2 | 9=((x*3)+3) | 9 x 3 * 3 + = | 9:card x:page 3:card *:card 3:card +:card =:card
+EXPR: 1 | POS | INT | 17 | 4 | 4 | 9=((x*3)-3) | 9 x 3 * 3 - = | 9:card x:page 3:card *:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 2 | ((9-3)/x)=3 | 9 3 - x / 3 = | 9:card 3:card -:card x:page /:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 |  | ((x*9)+3)=3 | x 9 * 3 + 3 = | x:page 9:card *:card 3:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=(9/(3-x)) | 3 9 3 x - / = | 3:card 9:card 3:binder x:binder -:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=(9/(3+x)) | 3 9 3 x + / = | 3:card 9:card 3:binder x:binder +:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 |  | ((9/3)+x)=3 | 9 3 / x + 3 = | 9:card 3:binder /:card x:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 6 | 9=(3*(x-3)) | 9 3 x 3 - * = | 9:card 3:binder x:card 3:card -:card *:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 18 | x=((9-3)*3) | x 9 3 - 3 * = | x:binder 9:card 3:card -:card 3:binder *:binder =:binder
+EXPR: 0 | POS | INT | 17 | 4 | 2 | (9-(3*x))=3 | 9 3 x * - 3 = | 9:card 3:card x:page *:card -:card 3:card =:card
+EXPR: 1 | POS | INT | 17 | 4 | 4 | 9=((3*x)-3) | 9 3 x * 3 - = | 9:card 3:card x:page *:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 9=((3*3)+x) | 9 3 3 * x + = | 9:card 3:binder 3:card *:card x:card +:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=((x*9)+3) | 3 x 9 * 3 + = | 3:card x:page 9:card *:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 18 | (9-(x/3))=3 | 9 x 3 / - 3 = | 9:card x:card 3:binder /:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 6 | 3=(9/(x-3)) | 3 9 x 3 - / = | 3:card 9:card x:binder 3:binder -:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=(9/(x+3)) | 3 9 x 3 + / = | 3:card 9:card x:binder 3:binder +:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | (9/(3-x))=3 | 9 3 x - / 3 = | 9:card 3:binder x:binder -:binder /:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | (9/(3+x))=3 | 9 3 x + / 3 = | 9:card 3:binder x:binder +:binder /:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 8 | 3=((9-x)*3) | 3 9 x - 3 * = | 3:card 9:card x:card -:card 3:binder *:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=((9+x)/3) | 3 9 x + 3 / = | 3:card 9:card x:card +:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | - | (3+(9/x))=3 | 3 9 x / + 3 = | 3:card 9:card x:page /:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 2 | (9-(x*3))=3 | 9 x 3 * - 3 = | 9:card x:page 3:card *:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=((9-x)/3) | 3 9 x - 3 / = | 3:card 9:card x:card -:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 18 | ((9-3)*3)=x | 9 3 - 3 * x = | 9:card 3:card -:card 3:binder *:card x:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | - | (3-(9/x))=3 | 3 9 x / - 3 = | 3:card 9:card x:page /:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 2 | 9=((3*x)+3) | 9 3 x * 3 + = | 9:card 3:binder x:card *:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 3=((9/3)-x) | 3 9 3 / x - = | 3:card 9:card 3:binder /:card x:card -:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 2 | ((9-3)/3)=x | 9 3 - 3 / x = | 9:card 3:card -:card 3:binder /:card x:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 6 | (9/(x-3))=3 | 9 x 3 - / 3 = | 9:card x:binder 3:binder -:binder /:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | (9/(x+3))=3 | 9 x 3 + / 3 = | 9:card x:binder 3:binder +:binder /:card 3:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 1 | (x*9)=(3*3) | x 9 * 3 3 * = | x:page 9:card *:card 3:binder 3:card *:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 9=((3+x)*3) | 9 3 x + 3 * = | 9:card 3:binder x:binder +:binder 3:card *:card =:card
+EXPR: 0 | POS | INT | 17 | 4 | 10 | 3=((x-9)*3) | 3 x 9 - 3 * = | 3:card x:card 9:card -:card 3:binder *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | - | 9=((3-3)*x) | 9 3 3 - x * = | 9:card 3:card 3:card -:card x:page *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 9=(3*(3+x)) | 9 3 3 x + * = | 9:card 3:card 3:page x:page +:page *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 9=(3*(3-x)) | 9 3 3 x - * = | 9:card 3:card 3:page x:page -:page *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 24 | 9=((x+3)/3) | 9 x 3 + 3 / = | 9:card x:card 3:card +:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 8 | 9=((3/3)+x) | 9 3 3 / x + = | 9:card 3:card 3:binder /:card x:card +:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 9=((3-x)*3) | 9 3 x - 3 * = | 9:card 3:card x:card -:card 3:binder *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 24 | 9=((3+x)/3) | 9 3 x + 3 / = | 9:card 3:card x:card +:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 30 | 9=((x-3)/3) | 9 x 3 - 3 / = | 9:card x:card 3:card -:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 9=(3*(x+3)) | 9 3 x 3 + * = | 9:card 3:card x:binder 3:binder +:binder *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 9=((x+3)*3) | 9 x 3 + 3 * = | 9:card x:card 3:card +:card 3:binder *:card =:card
+EXPR: 0 | POS | INT | 19 | 4 | 6 | 9=((x-3)*3) | 9 x 3 - 3 * = | 9:card x:card 3:card -:card 3:binder *:card =:card
+EXPR: 0 | POS | INT | 20 | 4 |  | x=((3-3)*9) | x 3 3 - 9 * = | x:page 3:card 3:card -:card 9:page *:page =:page
+EXPR: 0 | POS | INT | 20 | 4 | 54 | x=((3+3)*9) | x 3 3 + 9 * = | x:page 3:card 3:card +:card 9:page *:page =:page
+EXPR: 0 | POS | INT | 20 | 4 | 15 | x=(3+(3+9)) | x 3 3 9 + + = | x:card 3:card 3:card 9:card +:card +:card =:card
+EXPR: 0 | POS | INT | 20 | 4 | 9 | (3-(3-9))=x | 3 3 9 - - x = | 3:card 3:card 9:card -:card -:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 4 | 0 | ((3-3)*9)=x | 3 3 - 9 * x = | 3:binder 3:binder -:binder 9:card *:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 4 | 54 | ((3+3)*9)=x | 3 3 + 9 * x = | 3:binder 3:binder +:binder 9:card *:card x:card =:card
+EXPR: 0 | POS | INT | 20 | 4 | 30 | x=(3+(3*9)) | x 3 3 9 * + = | x:page 3:page 3:card 9:page *:page +:page =:page
+EXPR: 0 | POS | INT | 22 | 4 | 3 | ((3+x)+3)=9 | 3 x + 3 + 9 = | 3:card x:card +:card 3:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 9 | (x-(3-3))=9 | x 3 3 - - 9 = | x:card 3:card 3:card -:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 9 | (3+(9-3))=x | 3 9 3 - + x = | 3:card 9:card 3:card -:card +:card x:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 8 | 3=(3/(9-x)) | 3 3 9 x - / = | 3:card 3:card 9:page x:page -:page /:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 9 | ((x+3)-3)=9 | x 3 + 3 - 9 = | x:card 3:card +:card 3:card -:card 9:card =:card
+EXPR: 1 | POS | INT | 22 | 4 | 4 | (3*x)=(3+9) | 3 x * 3 9 + = | 3:card x:page *:card 3:card 9:card +:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 9 | (3/3)=(x/9) | 3 3 / x 9 / = | 3:binder 3:card /:binder x:binder 9:card /:binder =:binder
+EXPR: 0 | POS | INT | 22 | 4 | 8 | 3=(3*(9-x)) | 3 3 9 x - * = | 3:binder 3:card 9:binder x:binder -:binder *:binder =:binder
+EXPR: 0 | POS | INT | 22 | 4 | 18 | (x-(3*3))=9 | x 3 3 * - 9 = | x:card 3:page 3:card *:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 30 | 3=(x-(3*9)) | 3 x 3 9 * - = | 3:binder x:binder 3:card 9:binder *:binder -:binder =:binder
+EXPR: 0 | POS | INT | 22 | 4 | 81 | (3*3)=(x/9) | 3 3 * x 9 / = | 3:binder 3:page *:page x:page 9:card /:page =:page
+EXPR: 0 | POS | INT | 22 | 4 |  | ((3*3)+x)=9 | 3 3 * x + 9 = | 3:binder 3:card *:binder x:binder +:binder 9:binder =:binder
+EXPR: 0 | POS | INT | 22 | 4 | 6 | (3+(9/3))=x | 3 9 3 / + x = | 3:page 9:page 3:card /:page +:page x:page =:page
+EXPR: 0 | POS | INT | 22 | 4 | 15 | (x-(3+3))=9 | x 3 3 + - 9 = | x:card 3:card 3:card +:card -:card 9:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 9 | 3=(x+(3-9)) | 3 x 3 9 - + = | 3:card x:card 3:card 9:card -:card +:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 54 | (x/(3+3))=9 | x 3 3 + / 9 = | x:page 3:binder 3:binder +:binder /:page 9:page =:page
+EXPR: 0 | POS | INT | 22 | 4 | 6 | x=(3+(9/3)) | x 3 9 3 / + = | x:page 3:page 9:page 3:card /:page +:page =:page
+EXPR: 0 | POS | INT | 22 | 4 |  | x=(3-(9/3)) | x 3 9 3 / - = | x:page 3:page 9:page 3:card /:page -:page =:page
+EXPR: 0 | POS | INT | 22 | 4 | - | (x/(3-3))=9 | x 3 3 - / 9 = | x:page 3:binder 3:binder -:binder /:page 9:page =:page
+EXPR: 0 | POS | INT | 22 | 4 | 9 | x=((3-3)+9) | x 3 3 - 9 + = | x:card 3:card 3:card -:card 9:card +:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 24 | 3=((3*9)-x) | 3 3 9 * x - = | 3:page 3:page 9:card *:page x:page -:page =:page
+EXPR: 0 | POS | INT | 22 | 4 | 9 | (3/3)=(9/x) | 3 3 / 9 x / = | 3:binder 3:card /:binder 9:binder x:page /:binder =:binder
+EXPR: 0 | POS | INT | 22 | 4 | 36 | (x/3)=(3+9) | x 3 / 3 9 + = | x:card 3:binder /:card 3:card 9:card +:card =:card
+EXPR: 0 | POS | INT | 22 | 4 | 3 | ((x+3)+3)=9 | x 3 + 3 + 9 = | x:card 3:card +:card 3:card +:card 9:card =:card
+EXPR: 1 | POS | INT | 22 | 4 | 4 | (x*3)=(3+9) | x 3 * 3 9 + = | x:card 3:binder *:card 3:card 9:card +:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 24 | ((3+x)/9)=3 | 3 x + 9 / 3 = | 3:page x:page +:page 9:card /:page 3:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 6 | ((x-3)*3)=9 | x 3 - 3 * 9 = | x:page 3:page -:page 3:binder *:page 9:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 30 | ((x-3)/9)=3 | x 3 - 9 / 3 = | x:page 3:page -:page 9:card /:page 3:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 1 | (x*3)=(9/3) | x 3 * 9 3 / = | x:page 3:binder *:page 9:page 3:card /:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 0 | 3=((9/3)+x) | 3 9 3 / x + = | 3:page 9:page 3:card /:page x:page +:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 1 | (3/9)=(x/3) | 3 9 / x 3 / = | 3:binder 9:card /:binder x:binder 3:card /:binder =:binder
+EXPR: 0 | POS | INT | 24 | 4 | 9 | ((3-3)+x)=9 | 3 3 - x + 9 = | 3:card 3:card -:card x:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 30 | (x-(3*9))=3 | x 3 9 * - 3 = | x:card 3:page 9:card *:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 30 | (x-3)=(3*9) | x 3 - 3 9 * = | x:card 3:card -:card 3:binder 9:card *:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 24 | (x+3)=(3*9) | x 3 + 3 9 * = | x:card 3:card +:card 3:binder 9:card *:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 15 | (x-(3+9))=3 | x 3 9 + - 3 = | x:card 3:card 9:card +:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 9 | (3-(9-x))=3 | 3 9 x - - 3 = | 3:card 9:card x:card -:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | - | 3=((9/x)+3) | 3 9 x / 3 + = | 3:binder 9:binder x:page /:binder 3:binder +:binder =:binder
+EXPR: 0 | POS | INT | 24 | 4 | 9 | (3*x)=(3*9) | 3 x * 3 9 * = | 3:card x:page *:page 3:binder 9:page *:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 3 | (3+(x+3))=9 | 3 x 3 + + 9 = | 3:card x:card 3:card +:card +:card 9:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 24 | ((x+3)/9)=3 | x 3 + 9 / 3 = | x:page 3:page +:page 9:card /:page 3:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 24 | ((x+3)/3)=9 | x 3 + 3 / 9 = | x:page 3:page +:page 3:binder /:page 9:page =:page
+EXPR: 0 | POS | INT | 24 | 4 | 9 | 3=((x+3)-9) | 3 x 3 + 9 - = | 3:card x:card 3:card +:card 9:card -:card =:card
+EXPR: 0 | POS | INT | 24 | 4 | 0 | 3=(x+(9/3)) | 3 x 9 3 / + = | 3:page x:page 9:page 3:card /:page +:page =:page
+EXPR: 0 | POS | INT | 24 | 4 |  | ((3-x)*3)=9 | 3 x - 3 * 9 = | 3:page x:page -:page 3:binder *:binder 9:binder =:binder
+EXPR: 0 | POS | INT | 24 | 4 |  | ((3+x)*3)=9 | 3 x + 3 * 9 = | 3:page x:page +:page 3:binder *:binder 9:binder =:binder
+EXPR: 0 | POS | INT | 24 | 4 | 10 | (3/(x-9))=3 | 3 x 9 - / 3 = | 3:binder x:card 9:card -:card /:binder 3:binder =:binder
+EXPR: 0 | POS | INT | 24 | 4 | 9 | (3/9)=(3/x) | 3 9 / 3 x / = | 3:binder 9:card /:binder 3:binder x:page /:binder =:binder
+EXPR: 0 | POS | INT | 24 | 4 | 18 | 3=(9-(x/3)) | 3 9 x 3 / - = | 3:page 9:page x:page 3:card /:page -:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 54 | (9*(3+3))=x | 9 3 3 + * x = | 9:page 3:card 3:card +:card *:page x:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 9 | x=((3+9)-3) | x 3 9 + 3 - = | x:card 3:card 9:card +:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | 9 | x=(3+(9-3)) | x 3 9 3 - + = | x:card 3:card 9:card 3:card -:card +:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | 54 | x=(9*(3+3)) | x 9 3 3 + * = | x:page 9:page 3:card 3:card +:card *:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 18 | (9+(3*3))=x | 9 3 3 * + x = | 9:binder 3:binder 3:card *:binder +:binder x:binder =:binder
+EXPR: 0 | POS | INT | 25 | 4 | 15 | x=(9+(3+3)) | x 9 3 3 + + = | x:card 9:card 3:card 3:card +:card +:card =:card
+EXPR: 0 | POS | INT | 25 | 4 |  | x=(9-(3*3)) | x 9 3 3 * - = | x:binder 9:binder 3:binder 3:card *:binder -:binder =:binder
+EXPR: 0 | POS | INT | 25 | 4 | 18 | x=(9+(3*3)) | x 9 3 3 * + = | x:binder 9:binder 3:binder 3:card *:binder +:binder =:binder
+EXPR: 0 | POS | INT | 25 | 4 | 9 | ((3+9)-3)=x | 3 9 + 3 - x = | 3:card 9:card +:card 3:card -:card x:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | 0 | (3-(9/3))=x | 3 9 3 / - x = | 3:page 9:page 3:binder /:page -:page x:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 10 | (9+(3/3))=x | 9 3 3 / + x = | 9:page 3:page 3:card /:page +:page x:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 3 | x=(9-(3+3)) | x 9 3 3 + - = | x:card 9:card 3:card 3:card +:card -:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | 8 | (9-(3/3))=x | 9 3 3 / - x = | 9:binder 3:binder 3:card /:binder -:binder x:binder =:binder
+EXPR: 0 | POS | INT | 25 | 4 | 2 | x=((9-3)/3) | x 9 3 - 3 / = | x:page 9:page 3:page -:page 3:card /:page =:page
+EXPR: 0 | POS | INT | 25 | 4 |  | x=(9*(3-3)) | x 9 3 3 - * = | x:page 9:page 3:binder 3:binder -:binder *:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 0 | (9*(3-3))=x | 9 3 3 - * x = | 9:card 3:binder 3:binder -:binder *:card x:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | zoo | x=(9/(3-3)) | x 9 3 3 - / = | x:page 9:page 3:binder 3:binder -:binder /:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 36 | x=((3+9)*3) | x 3 9 + 3 * = | x:page 3:page 9:page +:page 3:binder *:page =:page
+EXPR: 0 | POS | INT | 25 | 4 | 9 | x=(9+(3-3)) | x 9 3 3 - + = | x:card 9:card 3:card 3:card -:card +:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | 9 | (9-(3-3))=x | 9 3 3 - - x = | 9:card 3:card 3:card -:card -:card x:card =:card
+EXPR: 0 | POS | INT | 25 | 4 | zoo | (9/(3-3))=x | 9 3 3 - / x = | 9:card 3:binder 3:binder -:binder /:card x:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 9 | x=((9-3)+3) | x 9 3 - 3 + = | x:card 9:card 3:card -:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 15 | 9=((x-3)-3) | 9 x 3 - 3 - = | 9:card x:card 3:card -:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 9 | 9=((x-3)+3) | 9 x 3 - 3 + = | 9:card x:card 3:card -:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 3 | 9=((x+3)+3) | 9 x 3 + 3 + = | 9:card x:card 3:card +:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 18 | (x/(9-3))=3 | x 9 3 - / 3 = | x:page 9:card 3:card -:card /:page 3:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 2 | 9=(3+(x*3)) | 9 3 x 3 * + = | 9:binder 3:binder x:page 3:binder *:binder +:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 | - | ((9/x)+3)=3 | 9 x / 3 + 3 = | 9:card x:binder /:card 3:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 0 | 9=(x+(3*3)) | 9 x 3 3 * + = | 9:card x:card 3:page 3:card *:card +:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 9 | 9=((x+3)-3) | 9 x 3 + 3 - = | 9:card x:card 3:card +:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 54 | 9=(x/(3+3)) | 9 x 3 3 + / = | 9:page x:page 3:card 3:card +:card /:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 24 | ((3*9)-x)=3 | 3 9 * x - 3 = | 3:binder 9:card *:binder x:binder -:binder 3:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 | 9 | ((x-9)+3)=3 | x 9 - 3 + 3 = | x:card 9:card -:card 3:card +:card 3:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 18 | (x-9)=(3*3) | x 9 - 3 3 * = | x:card 9:card -:card 3:binder 3:card *:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 9 | (9+(3-3))=x | 9 3 3 - + x = | 9:card 3:card 3:card -:card +:card x:card =:card
+EXPR: 1 | POS | INT | 27 | 4 | 4 | (3+9)=(3*x) | 3 9 + 3 x * = | 3:card 9:card +:card 3:binder x:card *:card =:card
+EXPR: 0 | POS | INT | 27 | 4 |  | (3-(x/9))=3 | 3 x 9 / - 3 = | 3:page x:page 9:card /:page -:page 3:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 9 | ((9-3)+3)=x | 9 3 - 3 + x = | 9:card 3:card -:card 3:card +:card x:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 6 | x=((9/3)+3) | x 9 3 / 3 + = | x:page 9:page 3:card /:page 3:page +:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 9 | (3*9)=(x*3) | 3 9 * x 3 * = | 3:card 9:page *:page x:page 3:binder *:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 3 | x=((9-3)-3) | x 9 3 - 3 - = | x:card 9:card 3:card -:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 8 | ((9-x)*3)=3 | 9 x - 3 * 3 = | 9:page x:page -:page 3:binder *:binder 3:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 | 1 | (9*x)=(3*3) | 9 x * 3 3 * = | 9:card x:binder *:binder 3:binder 3:card *:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 | 10 | (3*(x-9))=3 | 3 x 9 - * 3 = | 3:binder x:card 9:card -:card *:binder 3:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 |  | (x+9)=(3*3) | x 9 + 3 3 * = | x:card 9:card +:card 3:binder 3:card *:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 9 | 3=(x-(9-3)) | 3 x 9 3 - - = | 3:card x:card 9:card 3:card -:card -:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 54 | 3=((x/9)-3) | 3 x 9 / 3 - = | 3:binder x:binder 9:card /:binder 3:binder -:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 | 0 | 3=((x/9)+3) | 3 x 9 / 3 + = | 3:binder x:binder 9:card /:binder 3:binder +:binder =:binder
+EXPR: 0 | POS | INT | 27 | 4 | 3 | 3=((9-3)-x) | 3 9 3 - x - = | 3:card 9:card 3:card -:card x:card -:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 18 | 3=((x-9)/3) | 3 x 9 - 3 / = | 3:page x:page 9:page -:page 3:binder /:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 0 | 3=((x+9)/3) | 3 x 9 + 3 / = | 3:page x:page 9:page +:page 3:binder /:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 18 | ((x-9)/3)=3 | x 9 - 3 / 3 = | x:page 9:page -:page 3:binder /:page 3:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 9 | x=(9-(3-3)) | x 9 3 3 - - = | x:card 9:card 3:card 3:card -:card -:card =:card
+EXPR: 0 | POS | INT | 27 | 4 | 9 | (x/3)=(9/3) | x 3 / 9 3 / = | x:page 3:card /:page 9:page 3:binder /:page =:page
+EXPR: 0 | POS | INT | 27 | 4 | 3 | (9-(3+x))=3 | 9 3 x + - 3 = | 9:card 3:card x:card +:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 27 | 4 |  | (3-x)=(9/3) | 3 x - 9 3 / = | 3:card x:card -:card 9:card 3:binder /:card =:card
+EXPR: 0 | POS | INT | 29 | 4 | 9 | 9=((3-3)+x) | 9 3 3 - x + = | 9:card 3:card 3:card -:card x:card +:card =:card
+EXPR: 0 | POS | INT | 29 | 4 | 1 | (9/3)=(3*x) | 9 3 / 3 x * = | 9:binder 3:card /:binder 3:binder x:page *:binder =:binder
+EXPR: 0 | POS | INT | 29 | 4 | 18 | 9=((x/3)+3) | 9 x 3 / 3 + = | 9:binder x:binder 3:card /:binder 3:binder +:binder =:binder
+EXPR: 0 | POS | INT | 29 | 4 | 3 | ((9-x)-3)=3 | 9 x - 3 - 3 = | 9:card x:card -:card 3:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 29 | 4 | 1 | (9/3)=(3/x) | 9 3 / 3 x / = | 9:binder 3:card /:binder 3:binder x:page /:binder =:binder
+NET 236 unique, non-negative, integer-valued solutions found out of 1000 total solutions

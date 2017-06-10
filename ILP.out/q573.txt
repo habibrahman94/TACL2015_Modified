@@ -1,0 +1,5 @@
+quantities : 20 11 x 3
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 3.0

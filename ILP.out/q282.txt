@@ -1,0 +1,5 @@
+quantities : 5 3 5 x
+types : "table" "man" "woman" "customer"
+operators : + - * / =
+n : 7
+answer : 40.0

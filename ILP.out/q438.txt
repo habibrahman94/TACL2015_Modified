@@ -1,0 +1,5 @@
+quantities : 9 4 8 x
+types : "friend" "friend" "friend" "friend"
+operators : + - * / =
+n : 7
+answer : 40.0

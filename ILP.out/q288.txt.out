@@ -1,0 +1,233 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 30 | 30 | ((2+3)*6)=x | 2 3 + 6 * x = | 2:album 3:album +:album 6:song *:song x:song =:song
+EXPR: 1 | POS | INT | 0 | 30 | 30 | x=((2+3)*6) | x 2 3 + 6 * = | x:song 2:album 3:album +:album 6:song *:song =:song
+EXPR: 0 | POS | INT | 2 | 30 | 6 | x=((3-2)*6) | x 3 2 - 6 * = | x:song 3:album 2:album -:album 6:song *:song =:song
+EXPR: 1 | POS | INT | 2 | 30 | 30 | (x/(2+3))=6 | x 2 3 + / 6 = | x:song 2:album 3:album +:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 2 | 30 | 6 | ((3-2)*6)=x | 3 2 - 6 * x = | 3:album 2:album -:album 6:song *:song x:song =:song
+EXPR: 0 | POS | INT | 4 | 30 | 6 | (x/(3-2))=6 | x 3 2 - / 6 = | x:song 3:album 2:album -:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 4 | 30 | 6 | (x*(3-2))=6 | x 3 2 - * 6 = | x:song 3:album 2:album -:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 4 | 30 | 6 | ((3-2)*x)=6 | 3 2 - x * 6 = | 3:album 2:album -:album x:song *:song 6:song =:song
+EXPR: 1 | POS | INT | 5 | 30 | 30 | x=(6*(2+3)) | x 6 2 3 + * = | x:song 6:song 2:album 3:album +:album *:song =:song
+EXPR: 1 | POS | INT | 5 | 30 | 30 | (6*(2+3))=x | 6 2 3 + * x = | 6:song 2:album 3:album +:album *:song x:song =:song
+EXPR: 0 | POS | INT | 7 | 30 | 6 | x=(6/(3-2)) | x 6 3 2 - / = | x:song 6:song 3:album 2:album -:album /:song =:song
+EXPR: 1 | POS | INT | 7 | 30 | 30 | 6=(x/(2+3)) | 6 x 2 3 + / = | 6:song x:song 2:album 3:album +:album /:song =:song
+EXPR: 0 | POS | INT | 7 | 30 | 6 | x=(6*(3-2)) | x 6 3 2 - * = | x:song 6:song 3:album 2:album -:album *:song =:song
+EXPR: 0 | POS | INT | 7 | 30 | 6 | (6/(3-2))=x | 6 3 2 - / x = | 6:song 3:album 2:album -:album /:song x:song =:song
+EXPR: 0 | POS | INT | 7 | 30 | 6 | (6*(3-2))=x | 6 3 2 - * x = | 6:song 3:album 2:album -:album *:song x:song =:song
+EXPR: 0 | POS | INT | 9 | 30 | 6 | 6=((3-2)*x) | 6 3 2 - x * = | 6:song 3:album 2:album -:album x:song *:song =:song
+EXPR: 0 | POS | INT | 9 | 30 | 6 | 6=(x/(3-2)) | 6 x 3 2 - / = | 6:song x:song 3:album 2:album -:album /:song =:song
+EXPR: 0 | POS | INT | 9 | 30 | 6 | 6=(x*(3-2)) | 6 x 3 2 - * = | 6:song x:song 3:album 2:album -:album *:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 12 | x=((2*3)+6) | x 2 3 * 6 + = | x:song 2:album 3:song *:song 6:song +:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 18 | (2*(3+6))=x | 2 3 6 + * x = | 2:album 3:song 6:song +:song *:song x:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 20 | (2+(3*6))=x | 2 3 6 * + x = | 2:song 3:album 6:song *:song +:song x:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 12 | ((2*3)+6)=x | 2 3 * 6 + x = | 2:song 3:album *:song 6:song +:song x:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 0 | ((2*3)-6)=x | 2 3 * 6 - x = | 2:song 3:album *:song 6:song -:song x:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 20 | x=(2+(3*6)) | x 2 3 6 * + = | x:song 2:song 3:album 6:song *:song +:song =:song
+EXPR: 0 | POS | INT | 10 | 30 |  | x=((2*3)-6) | x 2 3 * 6 - = | x:song 2:album 3:song *:song 6:song -:song =:song
+EXPR: 0 | POS | INT | 10 | 30 | 18 | x=(2*(3+6)) | x 2 3 6 + * = | x:song 2:album 3:song 6:song +:song *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | (2*(3-x))=6 | 2 3 x - * 6 = | 2:album 3:song x:song -:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | (2*(3+x))=6 | 2 3 x + * 6 = | 2:album 3:song x:song +:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 24 | x=(3*(2+6)) | x 3 2 6 + * = | x:song 3:album 2:song 6:song +:song *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | ((2*3)-x)=6 | 2 3 * x - 6 = | 2:album 3:song *:song x:song -:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | ((2*3)+x)=6 | 2 3 * x + 6 = | 2:album 3:song *:song x:song +:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 15 | x=((2*6)+3) | x 2 6 * 3 + = | x:song 2:album 6:song *:song 3:song +:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 9 | x=((2*6)-3) | x 2 6 * 3 - = | x:song 2:album 6:song *:song 3:song -:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 9 | ((2*6)-3)=x | 2 6 * 3 - x = | 2:album 6:song *:song 3:song -:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 12 | (x-(2*3))=6 | x 2 3 * - 6 = | x:song 2:song 3:album *:song -:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | (x+(2*3))=6 | x 2 3 * + 6 = | x:song 2:song 3:album *:song +:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 15 | 2=((x-3)/6) | 2 x 3 - 6 / = | 2:album x:album 3:album -:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 9 | 2=((x+3)/6) | 2 x 3 + 6 / = | 2:album x:album 3:album +:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 15 | ((2*6)+3)=x | 2 6 * 3 + x = | 2:album 6:song *:song 3:song +:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 24 | x=((2+6)*3) | x 2 6 + 3 * = | x:song 2:song 6:song +:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | ((2-x)*3)=6 | 2 x - 3 * 6 = | 2:song x:song -:song 3:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 16 | ((2+x)/3)=6 | 2 x + 3 / 6 = | 2:song x:song +:song 3:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 15 | (3+(2*6))=x | 3 2 6 * + x = | 3:song 2:album 6:song *:song +:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 12 | (2+(x/3))=6 | 2 x 3 / + 6 = | 2:song x:song 3:album /:song +:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 24 | (3*(2+6))=x | 3 2 6 + * x = | 3:album 2:song 6:song +:song *:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | (2*(x+3))=6 | 2 x 3 + * 6 = | 2:album x:song 3:song +:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | ((2+x)*3)=6 | 2 x + 3 * 6 = | 2:song x:song +:song 3:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 36 | (x/2)=(3*6) | x 2 / 3 6 * = | x:song 2:album /:song 3:album 6:song *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 16 | ((x+2)/3)=6 | x 2 + 3 / 6 = | x:song 2:song +:song 3:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 6 | (2*(x-3))=6 | 2 x 3 - * 6 = | 2:album x:song 3:song -:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 0 | (2-(6/3))=x | 2 6 3 / - x = | 2:song 6:song 3:album /:song -:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 4 | (2+(6/3))=x | 2 6 3 / + x = | 2:song 6:song 3:album /:song +:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 9 | (x*2)=(3*6) | x 2 * 3 6 * = | x:song 2:album *:song 3:album 6:song *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 20 | 2=(x-(3*6)) | 2 x 3 6 * - = | 2:album x:album 3:album 6:song *:album -:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 15 | x=(3+(2*6)) | x 3 2 6 * + = | x:album 3:album 2:album 6:song *:album +:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 6 | (2*(6-3))=x | 2 6 3 - * x = | 2:album 6:song 3:song -:song *:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 24 | ((2+6)*3)=x | 2 6 + 3 * x = | 2:song 6:song +:song 3:album *:song x:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 6 | 2=(3-(x/6)) | 2 3 x 6 / - = | 2:album 3:album x:album 6:song /:album -:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 6 | x=(2*(6-3)) | x 2 6 3 - * = | x:song 2:album 6:song 3:song -:song *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 9 | (2*x)=(3*6) | 2 x * 3 6 * = | 2:album x:song *:song 3:album 6:song *:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 24 | 2=((x/3)-6) | 2 x 3 / 6 - = | 2:song x:song 3:album /:song 6:song -:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 18 | ((x/2)-3)=6 | x 2 / 3 - 6 = | x:song 2:album /:song 3:song -:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 6 | ((x/2)+3)=6 | x 2 / 3 + 6 = | x:song 2:album /:song 3:song +:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | ((x+2)*3)=6 | x 2 + 3 * 6 = | x:song 2:song +:song 3:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 16 | 2=((3*6)-x) | 2 3 6 * x - = | 2:album 3:album 6:song *:album x:album -:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 9 | 2=((3+x)/6) | 2 3 x + 6 / = | 2:album 3:album x:album +:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 6 | 2=(3-(6/x)) | 2 3 6 x / - = | 2:album 3:album 6:album x:song /:album -:album =:album
+EXPR: 0 | POS | INT | 12 | 30 | 4 | x=(2+(6/3)) | x 2 6 3 / + = | x:song 2:song 6:song 3:album /:song +:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 4 | ((x-2)*3)=6 | x 2 - 3 * 6 = | x:song 2:song -:song 3:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 |  | x=(2-(6/3)) | x 2 6 3 / - = | x:song 2:song 6:song 3:album /:song -:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 20 | ((x-2)/3)=6 | x 2 - 3 / 6 = | x:song 2:song -:song 3:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 12 | 30 | 4 | (2/x)=(3/6) | 2 x / 3 6 / = | 2:album x:song /:album 3:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 2=((6/3)-x) | 2 6 3 / x - = | 2:song 6:song 3:album /:song x:song -:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 2=((6/3)+x) | 2 6 3 / x + = | 2:song 6:song 3:album /:song x:song +:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (x*3)=(2*6) | x 3 * 2 6 * = | x:song 3:album *:album 2:album 6:song *:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 9 | ((2*6)-x)=3 | 2 6 * x - 3 = | 2:album 6:song *:song x:song -:song 3:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 16 | ((2+x)/6)=3 | 2 x + 6 / 3 = | 2:album x:album +:album 6:song /:album 3:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 6 | 3=(2+(6/x)) | 3 2 6 x / + = | 3:album 2:album 6:album x:song /:album +:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 6 | (3+(x/2))=6 | 3 x 2 / + 6 = | 3:song x:song 2:album /:song +:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 9 | ((x+3)/2)=6 | x 3 + 2 / 6 = | x:song 3:song +:song 2:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 15 | ((x-3)/2)=6 | x 3 - 2 / 6 = | x:song 3:song -:song 2:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 36 | (x/3)=(2*6) | x 3 / 2 6 * = | x:song 3:album /:song 2:album 6:song *:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 16 | ((x+2)/6)=3 | x 2 + 6 / 3 = | x:album 2:album +:album 6:song /:album 3:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 18 | 3=((x/2)-6) | 3 x 2 / 6 - = | 3:song x:song 2:album /:song 6:song -:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 15 | (x-(2*6))=3 | x 2 6 * - 3 = | x:album 2:album 6:song *:album -:album 3:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 20 | ((x-2)/6)=3 | x 2 - 6 / 3 = | x:album 2:album -:album 6:song /:album 3:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (2*6)=(3*x) | 2 6 * 3 x * = | 2:album 6:song *:song 3:album x:song *:song =:song
+EXPR: 0 | POS | INT | 14 | 30 |  | ((3-x)*2)=6 | 3 x - 2 * 6 = | 3:song x:song -:song 2:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 9 | ((3+x)/2)=6 | 3 x + 2 / 6 = | 3:song x:song +:song 2:album /:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 12 | 2=(6-(x/3)) | 2 6 x 3 / - = | 2:song 6:song x:song 3:album /:song -:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (x/2)=(6/3) | x 2 / 6 3 / = | x:song 2:album /:song 6:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 |  | ((3+x)*2)=6 | 3 x + 2 * 6 = | 3:song x:song +:song 2:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 15 | 3=(x-(2*6)) | 3 x 2 6 * - = | 3:song x:song 2:album 6:song *:song -:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 6 | (2+(x/6))=3 | 2 x 6 / + 3 = | 2:album x:album 6:song /:album +:album 3:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 2=((6+x)/3) | 2 6 x + 3 / = | 2:song 6:song x:song +:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 2=(x+(6/3)) | 2 x 6 3 / + = | 2:song x:song 6:song 3:album /:song +:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 2=((x+6)/3) | 2 x 6 + 3 / = | 2:song x:song 6:song +:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 12 | 2=((x-6)/3) | 2 x 6 - 3 / = | 2:song x:song 6:song -:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 0 | 2=((6-x)/3) | 2 6 x - 3 / = | 2:song 6:song x:song -:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 9 | 3=((2*6)-x) | 3 2 6 * x - = | 3:album 2:album 6:song *:album x:album -:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 4 | 2=(x-(6/3)) | 2 x 6 3 / - = | 2:song x:song 6:song 3:album /:song -:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 1 | (2*x)=(6/3) | 2 x * 6 3 / = | 2:album x:song *:song 6:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 1 | (x*2)=(6/3) | x 2 * 6 3 / = | x:song 2:album *:song 6:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 18 | ((x/2)-6)=3 | x 2 / 6 - 3 = | x:song 2:album /:song 6:song -:song 3:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 36 | (2*6)=(x/3) | 2 6 * x 3 / = | 2:album 6:song *:song x:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (3*x)=(2*6) | 3 x * 2 6 * = | 3:album x:song *:song 2:album 6:song *:song =:song
+EXPR: 0 | POS | INT | 14 | 30 |  | (3*(2-x))=6 | 3 2 x - * 6 = | 3:album 2:song x:song -:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 |  | (3*(2+x))=6 | 3 2 x + * 6 = | 3:album 2:song x:song +:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (2*6)=(x*3) | 2 6 * x 3 * = | 2:album 6:song *:song x:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 16 | 3=((2+x)/6) | 3 2 x + 6 / = | 3:album 2:album x:album +:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 6 | 3=(2+(x/6)) | 3 2 x 6 / + = | 3:album 2:album x:album 6:song /:album +:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 16 | 3=((x+2)/6) | 3 x 2 + 6 / = | 3:album x:album 2:album +:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 14 | 30 |  | ((x+3)*2)=6 | x 3 + 2 * 6 = | x:song 3:song +:song 2:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 6 | ((x-3)*2)=6 | x 3 - 2 * 6 = | x:song 3:song -:song 2:album *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 24 | ((x/3)-2)=6 | x 3 / 2 - 6 = | x:song 3:album /:song 2:song -:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 12 | ((x/3)+2)=6 | x 3 / 2 + 6 = | x:song 3:album /:song 2:song +:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 | 20 | 3=((x-2)/6) | 3 x 2 - 6 / = | 3:album x:album 2:album -:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 9 | (2/6)=(3/x) | 2 6 / 3 x / = | 2:album 6:song /:album 3:album x:song /:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 6 | (2+(6/x))=3 | 2 6 x / + 3 = | 2:album 6:album x:song /:album +:album 3:album =:album
+EXPR: 1 | POS | INT | 14 | 30 | 30 | 2=((x/6)-3) | 2 x 6 / 3 - = | 2:album x:album 6:song /:album 3:album -:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 9 | (3/x)=(2/6) | 3 x / 2 6 / = | 3:album x:song /:album 2:album 6:song /:album =:album
+EXPR: 0 | POS | INT | 14 | 30 | 4 | (3*(x-2))=6 | 3 x 2 - * 6 = | 3:album x:song 2:song -:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 14 | 30 |  | (3*(x+2))=6 | 3 x 2 + * 6 = | 3:album x:song 2:song +:song *:song 6:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 12 | x=(6+(2*3)) | x 6 2 3 * + = | x:song 6:song 2:album 3:song *:song +:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 16 | ((3*6)-2)=x | 3 6 * 2 - x = | 3:album 6:song *:album 2:album -:album x:album =:album
+EXPR: 0 | POS | INT | 15 | 30 | 20 | x=((3*6)+2) | x 3 6 * 2 + = | x:song 3:album 6:song *:song 2:song +:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 16 | x=((3*6)-2) | x 3 6 * 2 - = | x:song 3:album 6:song *:song 2:song -:song =:song
+EXPR: 0 | POS | INT | 15 | 30 |  | x=(6-(2*3)) | x 6 2 3 * - = | x:song 6:song 2:album 3:song *:song -:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 12 | x=(3*(6-2)) | x 3 6 2 - * = | x:song 3:album 6:song 2:song -:song *:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 20 | ((3*6)+2)=x | 3 6 * 2 + x = | 3:album 6:song *:album 2:album +:album x:album =:album
+EXPR: 0 | POS | INT | 15 | 30 | 6 | x=(3+(6/2)) | x 3 6 2 / + = | x:song 3:song 6:song 2:album /:song +:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 0 | ((6/2)-3)=x | 6 2 / 3 - x = | 6:song 2:album /:song 3:song -:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 12 | ((6-2)*3)=x | 6 2 - 3 * x = | 6:song 2:song -:song 3:album *:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 6 | ((6/2)+3)=x | 6 2 / 3 + x = | 6:song 2:album /:song 3:song +:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 6 | x=((6/2)+3) | x 6 2 / 3 + = | x:song 6:song 2:album /:song 3:song +:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 0 | (3-(6/2))=x | 3 6 2 / - x = | 3:song 6:song 2:album /:song -:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 6 | (3+(6/2))=x | 3 6 2 / + x = | 3:song 6:song 2:album /:song +:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 0 | (6-(2*3))=x | 6 2 3 * - x = | 6:song 2:song 3:album *:song -:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 12 | (6+(2*3))=x | 6 2 3 * + x = | 6:song 2:song 3:album *:song +:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 18 | ((3+6)*2)=x | 3 6 + 2 * x = | 3:song 6:song +:song 2:album *:song x:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 12 | x=((6-2)*3) | x 6 2 - 3 * = | x:song 6:song 2:song -:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 15 | 30 |  | x=((6/2)-3) | x 6 2 / 3 - = | x:song 6:song 2:album /:song 3:song -:song =:song
+EXPR: 0 | POS | INT | 15 | 30 |  | x=(3-(6/2)) | x 3 6 2 / - = | x:song 3:song 6:song 2:album /:song -:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 18 | x=((3+6)*2) | x 3 6 + 2 * = | x:song 3:song 6:song +:song 2:album *:song =:song
+EXPR: 0 | POS | INT | 15 | 30 | 12 | (3*(6-2))=x | 3 6 2 - * x = | 3:album 6:song 2:song -:song *:song x:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | (3-(x/6))=2 | 3 x 6 / - 2 = | 3:album x:album 6:song /:album -:album 2:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=((2*3)+x) | 6 2 3 * x + = | 6:song 2:song 3:album *:song x:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 4 | ((6/3)+2)=x | 6 3 / 2 + x = | 6:song 3:album /:song 2:song +:song x:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | ((6-3)*2)=x | 6 3 - 2 * x = | 6:song 3:song -:song 2:album *:song x:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 3=((6/2)+x) | 3 6 2 / x + = | 3:song 6:song 2:album /:song x:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | (x-(6/2))=3 | x 6 2 / - 3 = | x:song 6:song 2:album /:song -:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 |  | (x+(6/2))=3 | x 6 2 / + 3 = | x:song 6:song 2:album /:song +:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 12 | 6=(2+(x/3)) | 6 2 x 3 / + = | 6:song 2:song x:song 3:album /:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | (6-(x/2))=3 | 6 x 2 / - 3 = | 6:song x:song 2:album /:song -:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 16 | ((3*6)-x)=2 | 3 6 * x - 2 = | 3:album 6:song *:song x:song -:song 2:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | 6=(2*(x-3)) | 6 2 x 3 - * = | 6:song 2:album x:song 3:song -:song *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=(2*(x+3)) | 6 2 x 3 + * = | 6:song 2:album x:song 3:song +:song *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 3=((6/2)-x) | 3 6 2 / x - = | 3:song 6:song 2:album /:song x:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 24 | ((x/3)-6)=2 | x 3 / 6 - 2 = | x:song 3:album /:song 6:song -:song 2:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 4 | x=((6/3)+2) | x 6 3 / 2 + = | x:song 6:song 3:album /:song 2:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 12 | 6=(x-(2*3)) | 6 x 2 3 * - = | 6:song x:song 2:album 3:song *:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | 6=((x/2)+3) | 6 x 2 / 3 + = | 6:song x:song 2:album /:song 3:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=((2*3)-x) | 6 2 3 * x - = | 6:song 2:song 3:album *:song x:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | ((6/3)-2)=x | 6 3 / 2 - x = | 6:song 3:album /:song 2:song -:song x:song =:song
+EXPR: 0 | POS | INT | 17 | 30 |  | ((6-x)/2)=3 | 6 x - 2 / 3 = | 6:song x:song -:song 2:album /:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 |  | ((6+x)/2)=3 | 6 x + 2 / 3 = | 6:song x:song +:song 2:album /:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | ((6/x)+2)=3 | 6 x / 2 + 3 = | 6:album x:song /:album 2:album +:album 3:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 20 | (x-(3*6))=2 | x 3 6 * - 2 = | x:album 3:album 6:song *:album -:album 2:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 6 | x=((6-3)*2) | x 6 3 - 2 * = | x:song 6:song 3:song -:song 2:album *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 9 | ((3+x)/6)=2 | 3 x + 6 / 2 = | 3:album x:album +:album 6:song /:album 2:album =:album
+EXPR: 0 | POS | INT | 17 | 30 |  | ((x+6)/2)=3 | x 6 + 2 / 3 = | x:song 6:song +:song 2:album /:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 9 | ((x+3)/6)=2 | x 3 + 6 / 2 = | x:album 3:album +:album 6:song /:album 2:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 9 | (6/2)=(x/3) | 6 2 / x 3 / = | 6:song 2:album /:song x:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 9 | (x/3)=(6/2) | x 3 / 6 2 / = | x:song 3:album /:song 6:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 12 | ((x-6)/2)=3 | x 6 - 2 / 3 = | x:song 6:song -:song 2:album /:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 |  | x=((6/3)-2) | x 6 3 / 2 - = | x:song 6:song 3:album /:song 2:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 36 | (3*6)=(x/2) | 3 6 * x 2 / = | 3:album 6:song *:song x:song 2:album /:song =:song
+EXPR: 1 | POS | INT | 17 | 30 | 30 | ((x/6)-2)=3 | x 6 / 2 - 3 = | x:album 6:song /:album 2:album -:album 3:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 6 | ((x/6)+2)=3 | x 6 / 2 + 3 = | x:album 6:song /:album 2:album +:album 3:album =:album
+EXPR: 0 | POS | INT | 17 | 30 |  | ((6/2)+x)=3 | 6 2 / x + 3 = | 6:song 2:album /:song x:song +:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 1 | (3*x)=(6/2) | 3 x * 6 2 / = | 3:album x:song *:song 6:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 3=((x+6)/2) | 3 x 6 + 2 / = | 3:song x:song 6:song +:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 3=(x+(6/2)) | 3 x 6 2 / + = | 3:song x:song 6:song 2:album /:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 1 | (x*3)=(6/2) | x 3 * 6 2 / = | x:song 3:album *:song 6:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | 3=(x-(6/2)) | 3 x 6 2 / - = | 3:song x:song 6:song 2:album /:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 9 | (3*6)=(x*2) | 3 6 * x 2 * = | 3:album 6:song *:album x:song 2:album *:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 12 | 3=((x-6)/2) | 3 x 6 - 2 / = | 3:song x:song 6:song -:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 9 | (3*6)=(2*x) | 3 6 * 2 x * = | 3:album 6:song *:song 2:album x:song *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 |  | ((6/2)-x)=3 | 6 2 / x - 3 = | 6:song 2:album /:song x:song -:song 3:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 1 | (6/2)=(x*3) | 6 2 / x 3 * = | 6:song 2:album /:song x:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 20 | 6=((x-2)/3) | 6 x 2 - 3 / = | 6:song x:song 2:song -:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 16 | 6=((x+2)/3) | 6 x 2 + 3 / = | 6:song x:song 2:song +:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 16 | 6=((2+x)/3) | 6 2 x + 3 / = | 6:song 2:song x:song +:song 3:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=(2*(3-x)) | 6 2 3 x - * = | 6:song 2:album 3:song x:song -:song *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | (3-(6/x))=2 | 3 6 x / - 2 = | 3:album 6:album x:song /:album -:album 2:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 18 | 6=((x/2)-3) | 6 x 2 / 3 - = | 6:song x:song 2:album /:song 3:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=((2+x)*3) | 6 2 x + 3 * = | 6:song 2:song x:song +:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=(x+(2*3)) | 6 x 2 3 * + = | 6:song x:song 2:song 3:album *:song +:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 15 | ((x-3)/6)=2 | x 3 - 6 / 2 = | x:album 3:album -:album 6:song /:album 2:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 6 | 3=((x/6)+2) | 3 x 6 / 2 + = | 3:album x:album 6:song /:album 2:album +:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 4 | 6=((x-2)*3) | 6 x 2 - 3 * = | 6:song x:song 2:song -:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=((x+2)*3) | 6 x 2 + 3 * = | 6:song x:song 2:song +:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | 3=(6-(x/2)) | 3 6 x 2 / - = | 3:song 6:song x:song 2:album /:song -:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=(2*(3+x)) | 6 2 3 x + * = | 6:song 2:album 3:song x:song +:song *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 3=((6+x)/2) | 3 6 x + 2 / = | 3:song 6:song x:song +:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 6 | 3=((6/x)+2) | 3 6 x / 2 + = | 3:album 6:album x:song /:album 2:album +:album =:album
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 6=((2-x)*3) | 6 2 x - 3 * = | 6:song 2:song x:song -:song 3:album *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 0 | 3=((6-x)/2) | 3 6 x - 2 / = | 3:song 6:song x:song -:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 1 | (6/2)=(3*x) | 6 2 / 3 x * = | 6:song 2:album /:song 3:album x:song *:song =:song
+EXPR: 0 | POS | INT | 17 | 30 | 4 | (3/6)=(2/x) | 3 6 / 2 x / = | 3:album 6:song /:album 2:album x:song /:album =:album
+EXPR: 1 | POS | INT | 17 | 30 | 30 | 3=((x/6)-2) | 3 x 6 / 2 - = | 3:album x:album 6:song /:album 2:album -:album =:album
+EXPR: 0 | POS | INT | 19 | 30 | 0 | 6=(3*(2-x)) | 6 3 2 x - * = | 6:song 3:album 2:song x:song -:song *:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 0 | 6=(3*(2+x)) | 6 3 2 x + * = | 6:song 3:album 2:song x:song +:song *:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 12 | 6=((x/3)+2) | 6 x 3 / 2 + = | 6:song x:song 3:album /:song 2:song +:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 12 | (6-(x/3))=2 | 6 x 3 / - 2 = | 6:song x:song 3:album /:song -:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 24 | 6=((x/3)-2) | 6 x 3 / 2 - = | 6:song x:song 3:album /:song 2:song -:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 4 | (x-(6/3))=2 | x 6 3 / - 2 = | x:song 6:song 3:album /:song -:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 |  | (x+(6/3))=2 | x 6 3 / + 2 = | x:song 6:song 3:album /:song +:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 |  | ((6-x)/3)=2 | 6 x - 3 / 2 = | 6:song x:song -:song 3:album /:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 |  | ((6+x)/3)=2 | 6 x + 3 / 2 = | 6:song x:song +:song 3:album /:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 |  | ((6/3)-x)=2 | 6 3 / x - 2 = | 6:song 3:album /:song x:song -:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 |  | ((6/3)+x)=2 | 6 3 / x + 2 = | 6:song 3:album /:song x:song +:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 |  | ((x+6)/3)=2 | x 6 + 3 / 2 = | x:song 6:song +:song 3:album /:song 2:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 4 | (6/3)=(x/2) | 6 3 / x 2 / = | 6:song 3:album /:song x:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 4 | 6=(3*(x-2)) | 6 3 x 2 - * = | 6:song 3:album x:song 2:song -:song *:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 0 | 6=(3*(x+2)) | 6 3 x 2 + * = | 6:song 3:album x:song 2:song +:song *:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 9 | 6=((3+x)/2) | 6 3 x + 2 / = | 6:song 3:song x:song +:song 2:album /:song =:song
+EXPR: 0 | POS | INT | 19 | 30 | 12 | ((x-6)/3)=2 | x 6 - 3 / 2 = | x:song 6:song -:song 3:album /:song 2:song =:song
+EXPR: 1 | POS | INT | 19 | 30 | 30 | ((x/6)-3)=2 | x 6 / 3 - 2 = | x:album 6:song /:album 3:album -:album 2:album =:album
+NET 229 unique, non-negative, integer-valued solutions found out of 1000 total solutions

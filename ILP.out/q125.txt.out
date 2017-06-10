@@ -1,0 +1,308 @@
+parameters: n=7 l=3 k=1 p=5 q=1 m=9
+TOTAL 480 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 52 | 80 | (40+(14+26))=x | 40 14 26 + + x = | 40:student 14:student 26:student +:student +:student x:student =:student
+EXPR: 1 | POS | INT | 0 | 52 | 52 | x=(40-(14-26)) | x 40 14 26 - - = | x:student 40:student 14:student 26:student -:student -:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 28 | x=(40+(14-26)) | x 40 14 26 - + = | x:student 40:student 14:student 26:student -:student +:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 80 | x=(40+(14+26)) | x 40 14 26 + + = | x:student 40:student 14:student 26:student +:student +:student =:student
+EXPR: 0 | POS | INT | 0 | 52 |  | x=(40-(14+26)) | x 40 14 26 + - = | x:student 40:student 14:student 26:student +:student -:student =:student
+EXPR: 1 | POS | INT | 0 | 52 | 52 | (40-(14-26))=x | 40 14 26 - - x = | 40:student 14:student 26:student -:student -:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 28 | (40+(14-26))=x | 40 14 26 - + x = | 40:student 14:student 26:student -:student +:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 52 |  | x=((40-14)-26) | x 40 14 - 26 - = | x:student 40:student 14:student -:student 26:student -:student =:student
+EXPR: 1 | POS | INT | 0 | 52 | 52 | x=((40-14)+26) | x 40 14 - 26 + = | x:student 40:student 14:student -:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 28 | ((40+14)-26)=x | 40 14 + 26 - x = | 40:student 14:student +:student 26:student -:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 0 | (40-(14+26))=x | 40 14 26 + - x = | 40:student 14:student 26:student +:student -:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 28 | x=((40+14)-26) | x 40 14 + 26 - = | x:student 40:student 14:student +:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 80 | x=((40+14)+26) | x 40 14 + 26 + = | x:student 40:student 14:student +:student 26:student +:student =:student
+EXPR: 1 | POS | INT | 0 | 52 | 52 | ((40-14)+26)=x | 40 14 - 26 + x = | 40:student 14:student -:student 26:student +:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 0 | ((40-14)-26)=x | 40 14 - 26 - x = | 40:student 14:student -:student 26:student -:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 52 | 80 | ((40+14)+26)=x | 40 14 + 26 + x = | 40:student 14:student +:student 26:student +:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | x=(14-(40-26)) | x 14 40 26 - - = | x:student 14:student 40:student 26:student -:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | x=(40-(26-14)) | x 40 26 14 - - = | x:student 40:student 26:student 14:student -:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=(14-(x-26)) | 40 14 x 26 - - = | 40:student 14:student x:student 26:student -:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | x=((40-26)-14) | x 40 26 - 14 - = | x:student 40:student 26:student -:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | (40-(x-14))=26 | 40 x 14 - - 26 = | 40:student x:student 14:student -:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | x=(14+(40-26)) | x 14 40 26 - + = | x:student 14:student 40:student 26:student -:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | x=(40+(26-14)) | x 40 26 14 - + = | x:student 40:student 26:student 14:student -:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | x=((40+26)-14) | x 40 26 + 14 - = | x:student 40:student 26:student +:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | ((40+26)+14)=x | 40 26 + 14 + x = | 40:student 26:student +:student 14:student +:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | (40-(26-14))=x | 40 26 14 - - x = | 40:student 26:student 14:student -:student -:student x:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | ((40+26)-14)=x | 40 26 + 14 - x = | 40:student 26:student +:student 14:student -:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | ((40-26)-14)=x | 40 26 - 14 - x = | 40:student 26:student -:student 14:student -:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | x=((40+26)+14) | x 40 26 + 14 + = | x:student 40:student 26:student +:student 14:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 40=(14-(26-x)) | 40 14 26 x - - = | 40:student 14:student 26:student x:student -:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | x=(14+(40+26)) | x 14 40 26 + + = | x:student 14:student 40:student 26:student +:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=(14+(x+26)) | 40 14 x 26 + + = | 40:student 14:student x:student 26:student +:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | (40-(x+14))=26 | 40 x 14 + - 26 = | 40:student x:student 14:student +:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | ((x+40)-14)=26 | x 40 + 14 - 26 = | x:student 40:student +:student 14:student -:student 26:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 40=(14+(x-26)) | 40 14 x 26 - + = | 40:student 14:student x:student 26:student -:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | x=((40-26)+14) | x 40 26 - 14 + = | x:student 40:student 26:student -:student 14:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | (x-(40-14))=26 | x 40 14 - - 26 = | x:student 40:student 14:student -:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | (x-(40+14))=26 | x 40 14 + - 26 = | x:student 40:student 14:student +:student -:student 26:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 40=((14-26)+x) | 40 14 26 - x + = | 40:student 14:student 26:student -:student x:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | (x+(40-14))=26 | x 40 14 - + 26 = | x:student 40:student 14:student -:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=(14+(26-x)) | 40 14 26 x - + = | 40:student 14:student 26:student x:student -:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | ((14-40)+26)=x | 14 40 - 26 + x = | 14:student 40:student -:student 26:student +:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | ((40-26)+14)=x | 40 26 - 14 + x = | 40:student 26:student -:student 14:student +:student x:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | (40+(26-14))=x | 40 26 14 - + x = | 40:student 26:student 14:student -:student +:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | x=((14-40)+26) | x 14 40 - 26 + = | x:student 14:student 40:student -:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=((14-x)+26) | 40 14 x - 26 + = | 40:student 14:student x:student -:student 26:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | ((x-40)+14)=26 | x 40 - 14 + 26 = | x:student 40:student -:student 14:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | ((40+14)-x)=26 | 40 14 + x - 26 = | 40:student 14:student +:student x:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | 40=((x-14)-26) | 40 x 14 - 26 - = | 40:student x:student 14:student -:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | 40=((x-14)+26) | 40 x 14 - 26 + = | 40:student x:student 14:student -:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | (40+(x-14))=26 | 40 x 14 - + 26 = | 40:student x:student 14:student -:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | (14+(40-26))=x | 14 40 26 - + x = | 14:student 40:student 26:student -:student +:student x:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 40=((14+x)-26) | 40 14 x + 26 - = | 40:student 14:student x:student +:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=((14+x)+26) | 40 14 x + 26 + = | 40:student 14:student x:student +:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | ((40-x)-14)=26 | 40 x - 14 - 26 = | 40:student x:student -:student 14:student -:student 26:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 40=((x+14)-26) | 40 x 14 + 26 - = | 40:student x:student 14:student +:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=((14+26)-x) | 40 14 26 + x - = | 40:student 14:student 26:student +:student x:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | ((x-40)-14)=26 | x 40 - 14 - 26 = | x:student 40:student -:student 14:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | ((40-14)+x)=26 | 40 14 - x + 26 = | 40:student 14:student -:student x:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | ((40-14)-x)=26 | 40 14 - x - 26 = | 40:student 14:student -:student x:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=(14+(26+x)) | 40 14 26 x + + = | 40:student 14:student 26:student x:student +:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | (14-(40-26))=x | 14 40 26 - - x = | 14:student 40:student 26:student -:student -:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | (14+(40+26))=x | 14 40 26 + + x = | 14:student 40:student 26:student +:student +:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | 40=(x-(14-26)) | 40 x 14 26 - - = | 40:student x:student 14:student 26:student -:student -:student =:student
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 40=(x+(14-26)) | 40 x 14 26 - + = | 40:student x:student 14:student 26:student -:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 80 | 40=(x-(14+26)) | 40 x 14 26 + - = | 40:student x:student 14:student 26:student +:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=(x+(14+26)) | 40 x 14 26 + + = | 40:student x:student 14:student 26:student +:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=((14+26)+x) | 40 14 26 + x + = | 40:student 14:student 26:student +:student x:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | (40+(14-x))=26 | 40 14 x - + 26 = | 40:student 14:student x:student -:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | ((40+x)-14)=26 | 40 x + 14 - 26 = | 40:student x:student +:student 14:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 28 | ((40-x)+14)=26 | 40 x - 14 + 26 = | 40:student x:student -:student 14:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | (40-(14-x))=26 | 40 14 x - - 26 = | 40:student 14:student x:student -:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 2 | 52 | 0 | 40=((x+14)+26) | 40 x 14 + 26 + = | 40:student x:student 14:student +:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 52 |  | (40-(14+x))=26 | 40 14 x + - 26 = | 40:student 14:student x:student +:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=((40-x)-26) | 14 40 x - 26 - = | 14:student 40:student x:student -:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=(40-(26-x)) | 14 40 26 x - - = | 14:student 40:student 26:student x:student -:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=((40-26)-x) | 14 40 26 - x - = | 14:student 40:student 26:student -:student x:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=(40-(26+x)) | 14 40 26 x + - = | 14:student 40:student 26:student x:student +:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 14=((40-x)+26) | 14 40 x - 26 + = | 14:student 40:student x:student -:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | ((x+40)-26)=14 | x 40 + 26 - 14 = | x:student 40:student +:student 26:student -:student 14:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 14=((40+26)-x) | 14 40 26 + x - = | 14:student 40:student 26:student +:student x:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | (14-(x-40))=26 | 14 x 40 - - 26 = | 14:student x:student 40:student -:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 80 | (x-(40+26))=14 | x 40 26 + - 14 = | x:student 40:student 26:student +:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | (x-(40-26))=14 | x 40 26 - - 14 = | x:student 40:student 26:student -:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | ((40-26)-x)=14 | 40 26 - x - 14 = | 40:student 26:student -:student x:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | (x+(40-26))=14 | x 40 26 - + 14 = | x:student 40:student 26:student -:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=((40-26)+x) | 14 40 26 - x + = | 14:student 40:student 26:student -:student x:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 80 | 40=((x-26)-14) | 40 x 26 - 14 - = | 40:student x:student 26:student -:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (40-(x-26))=14 | 40 x 26 - - 14 = | 40:student x:student 26:student -:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=(40+(x-26)) | 14 40 x 26 - + = | 14:student 40:student x:student 26:student -:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 40=((x+26)-14) | 40 x 26 + 14 - = | 40:student x:student 26:student +:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 14=(40-(x-26)) | 14 40 x 26 - - = | 14:student 40:student x:student 26:student -:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 40=((x-26)+14) | 40 x 26 - 14 + = | 40:student x:student 26:student -:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=(40-(x+26)) | 14 40 x 26 + - = | 14:student 40:student x:student 26:student +:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | (14+(40-x))=26 | 14 40 x - + 26 = | 14:student 40:student x:student -:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 80 | 14=((x-40)-26) | 14 x 40 - 26 - = | 14:student x:student 40:student -:student 26:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (x+(14-40))=26 | x 14 40 - + 26 = | x:student 14:student 40:student -:student +:student 26:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | ((x+14)-40)=26 | x 14 + 40 - 26 = | x:student 14:student +:student 40:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | (x-(14-40))=26 | x 14 40 - - 26 = | x:student 14:student 40:student -:student -:student 26:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | ((14-40)+x)=26 | 14 40 - x + 26 = | 14:student 40:student -:student x:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=((x+26)+14) | 40 x 26 + 14 + = | 40:student x:student 26:student +:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=((x+40)-26) | 14 x 40 + 26 - = | 14:student x:student 40:student +:student 26:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 14=(40+(26-x)) | 14 40 26 x - + = | 14:student 40:student 26:student x:student -:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=(26-(x-14)) | 40 26 x 14 - - = | 40:student 26:student x:student 14:student -:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=((40+x)-26) | 14 40 x + 26 - = | 14:student 40:student x:student +:student 26:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (14+(x-40))=26 | 14 x 40 - + 26 = | 14:student x:student 40:student -:student +:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | ((40-26)+x)=14 | 40 26 - x + 14 = | 40:student 26:student -:student x:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | ((x-14)+40)=26 | x 14 - 40 + 26 = | x:student 14:student -:student 40:student +:student 26:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (14-(40-x))=26 | 14 40 x - - 26 = | 14:student 40:student x:student -:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=(26+(x+14)) | 40 26 x 14 + + = | 40:student 26:student x:student 14:student +:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | ((40-x)-26)=14 | 40 x - 26 - 14 = | 40:student x:student -:student 26:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 40=(26+(x-14)) | 40 26 x 14 - + = | 40:student 26:student x:student 14:student -:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 40=(26-(14-x)) | 40 26 14 x - - = | 40:student 26:student 14:student x:student -:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=(26+(14-x)) | 40 26 14 x - + = | 40:student 26:student 14:student x:student -:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | (40-(x+26))=14 | 40 x 26 + - 14 = | 40:student x:student 26:student +:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=((26-x)+14) | 40 26 x - 14 + = | 40:student 26:student x:student -:student 14:student +:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (40+(26-x))=14 | 40 26 x - + 14 = | 40:student 26:student x:student -:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 80 | ((x-14)-40)=26 | x 14 - 40 - 26 = | x:student 14:student -:student 40:student -:student 26:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 80 | ((x-40)-26)=14 | x 40 - 26 - 14 = | x:student 40:student -:student 26:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | (40+(x-26))=14 | 40 x 26 - + 14 = | 40:student x:student 26:student -:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=(26+(14+x)) | 40 26 14 x + + = | 40:student 26:student 14:student x:student +:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 40=((26+x)-14) | 40 26 x + 14 - = | 40:student 26:student x:student +:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 40=(x-(26-14)) | 40 x 26 14 - - = | 40:student x:student 26:student 14:student -:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | (40-(26+x))=14 | 40 26 x + - 14 = | 40:student 26:student x:student +:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | (40-(26-x))=14 | 40 26 x - - 14 = | 40:student 26:student x:student -:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 40=((26-14)+x) | 40 26 14 - x + = | 40:student 26:student 14:student -:student x:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 14=(x-(40-26)) | 14 x 40 26 - - = | 14:student x:student 40:student 26:student -:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 14=((x-40)+26) | 14 x 40 - 26 + = | 14:student x:student 40:student -:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 40=((26+x)+14) | 40 26 x + 14 + = | 40:student 26:student x:student +:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | ((x-40)+26)=14 | x 40 - 26 + 14 = | x:student 40:student -:student 26:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | 40=(x+(26-14)) | 40 x 26 14 - + = | 40:student x:student 26:student 14:student -:student +:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | ((14+x)-40)=26 | 14 x + 40 - 26 = | 14:student x:student +:student 40:student -:student 26:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | ((40+26)-x)=14 | 40 26 + x - 14 = | 40:student 26:student +:student x:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 80 | 14=(x-(40+26)) | 14 x 40 26 + - = | 14:student x:student 40:student 26:student +:student -:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 0 | 14=(x+(40-26)) | 14 x 40 26 - + = | 14:student x:student 40:student 26:student -:student +:student =:student
+EXPR: 0 | POS | INT | 4 | 52 |  | ((40+x)-26)=14 | 40 x + 26 - 14 = | 40:student x:student +:student 26:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 4 | 52 | 28 | ((14-x)+40)=26 | 14 x - 40 + 26 = | 14:student x:student -:student 40:student +:student 26:student =:student
+EXPR: 1 | POS | INT | 4 | 52 | 52 | ((40-x)+26)=14 | 40 x - 26 + 14 = | 40:student x:student -:student 26:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 28 | (14-(26-40))=x | 14 26 40 - - x = | 14:student 26:student 40:student -:student -:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 |  | x=(26-(40-14)) | x 26 40 14 - - = | x:student 26:student 40:student 14:student -:student -:student =:student
+EXPR: 0 | POS | INT | 5 | 52 |  | x=(14+(26-40)) | x 14 26 40 - + = | x:student 14:student 26:student 40:student -:student +:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 80 | x=(26+(40+14)) | x 26 40 14 + + = | x:student 26:student 40:student 14:student +:student +:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 80 | ((14+26)+40)=x | 14 26 + 40 + x = | 14:student 26:student +:student 40:student +:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 0 | ((26-40)+14)=x | 26 40 - 14 + x = | 26:student 40:student -:student 14:student +:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 0 | ((14+26)-40)=x | 14 26 + 40 - x = | 14:student 26:student +:student 40:student -:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 0 | (14+(26-40))=x | 14 26 40 - + x = | 14:student 26:student 40:student -:student +:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 28 | x=((14-26)+40) | x 14 26 - 40 + = | x:student 14:student 26:student -:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 28 | ((14-26)+40)=x | 14 26 - 40 + x = | 14:student 26:student -:student 40:student +:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 28 | x=(14-(26-40)) | x 14 26 40 - - = | x:student 14:student 26:student 40:student -:student -:student =:student
+EXPR: 1 | POS | INT | 5 | 52 | 52 | (26+(40-14))=x | 26 40 14 - + x = | 26:student 40:student 14:student -:student +:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 0 | (26-(40-14))=x | 26 40 14 - - x = | 26:student 40:student 14:student -:student -:student x:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 80 | (26+(40+14))=x | 26 40 14 + + x = | 26:student 40:student 14:student +:student +:student x:student =:student
+EXPR: 1 | POS | INT | 5 | 52 | 52 | x=(26+(40-14)) | x 26 40 14 - + = | x:student 26:student 40:student 14:student -:student +:student =:student
+EXPR: 0 | POS | INT | 5 | 52 |  | x=((14+26)-40) | x 14 26 + 40 - = | x:student 14:student 26:student +:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 5 | 52 | 80 | x=((14+26)+40) | x 14 26 + 40 + = | x:student 14:student 26:student +:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 5 | 52 |  | x=((26-40)+14) | x 26 40 - 14 + = | x:student 26:student 40:student -:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 26=(40-(x-14)) | 26 40 x 14 - - = | 26:student 40:student x:student 14:student -:student -:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | ((x+14)-26)=40 | x 14 + 26 - 40 = | x:student 14:student +:student 26:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=(40+(x-14)) | 26 40 x 14 - + = | 26:student 40:student x:student 14:student -:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | (14-(x-26))=40 | 14 x 26 - - 40 = | 14:student x:student 26:student -:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 14=((26-40)+x) | 14 26 40 - x + = | 14:student 26:student 40:student -:student x:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=(40-(x+14)) | 26 40 x 14 + - = | 26:student 40:student x:student 14:student +:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | (26+(14-40))=x | 26 14 40 - + x = | 26:student 14:student 40:student -:student +:student x:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | ((26-14)+40)=x | 26 14 - 40 + x = | 26:student 14:student -:student 40:student +:student x:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | ((14-26)+x)=40 | 14 26 - x + 40 = | 14:student 26:student -:student x:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | ((14+26)+x)=40 | 14 26 + x + 40 = | 14:student 26:student +:student x:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=(40-(14-x)) | 26 40 14 x - - = | 26:student 40:student 14:student x:student -:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=(40-(14+x)) | 26 40 14 x + - = | 26:student 40:student 14:student x:student +:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=((40-x)-14) | 26 40 x - 14 - = | 26:student 40:student x:student -:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | (26+(x-40))=14 | 26 x 40 - + 14 = | 26:student x:student 40:student -:student +:student 14:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | (x+(14-26))=40 | x 14 26 - + 40 = | x:student 14:student 26:student -:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | ((x-26)+40)=14 | x 26 - 40 + 14 = | x:student 26:student -:student 40:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 80 | ((x-26)-40)=14 | x 26 - 40 - 14 = | x:student 26:student -:student 40:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=((40+x)-14) | 26 40 x + 14 - = | 26:student 40:student x:student +:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | (x-(14-26))=40 | x 14 26 - - 40 = | x:student 14:student 26:student -:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | (x+(14+26))=40 | x 14 26 + + 40 = | x:student 14:student 26:student +:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 26=((40-x)+14) | 26 40 x - 14 + = | 26:student 40:student x:student -:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 26=(40+(14-x)) | 26 40 14 x - + = | 26:student 40:student 14:student x:student -:student +:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | (26-(14-40))=x | 26 14 40 - - x = | 26:student 14:student 40:student -:student -:student x:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 80 | 26=((x-40)-14) | 26 x 40 - 14 - = | 26:student x:student 40:student -:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | 14=((26-x)+40) | 14 26 x - 40 + = | 14:student 26:student x:student -:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=((x+40)-14) | 26 x 40 + 14 - = | 26:student x:student 40:student +:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | x=(26-(14-40)) | x 26 14 40 - - = | x:student 26:student 14:student 40:student -:student -:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | (14+(x-26))=40 | 14 x 26 - + 40 = | 14:student x:student 26:student -:student +:student 40:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | (26+(40-x))=14 | 26 40 x - + 14 = | 26:student 40:student x:student -:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 80 | 14=((x-26)-40) | 14 x 26 - 40 - = | 14:student x:student 26:student -:student 40:student -:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | (26-(x-40))=14 | 26 x 40 - - 14 = | 26:student x:student 40:student -:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | (26-(40-x))=14 | 26 40 x - - 14 = | 26:student 40:student x:student -:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 14=((x+26)-40) | 14 x 26 + 40 - = | 14:student x:student 26:student +:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | (14+(26-x))=40 | 14 26 x - + 40 = | 14:student 26:student x:student -:student +:student 40:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | (14-(26-x))=40 | 14 26 x - - 40 = | 14:student 26:student x:student -:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=((40-14)-x) | 26 40 14 - x - = | 26:student 40:student 14:student -:student x:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | ((26-40)+x)=14 | 26 40 - x + 14 = | 26:student 40:student -:student x:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 14=(26-(40-x)) | 14 26 40 x - - = | 14:student 26:student 40:student x:student -:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | (14+(x+26))=40 | 14 x 26 + + 40 = | 14:student x:student 26:student +:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 14=((x-26)+40) | 14 x 26 - 40 + = | 14:student x:student 26:student -:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 26=((40+14)-x) | 26 40 14 + x - = | 26:student 40:student 14:student +:student x:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | ((x-14)+26)=40 | x 14 - 26 + 40 = | x:student 14:student -:student 26:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 14=(26+(x-40)) | 14 26 x 40 - + = | 14:student 26:student x:student 40:student -:student +:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | 14=(26-(x-40)) | 14 26 x 40 - - = | 14:student 26:student x:student 40:student -:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 80 | ((x-14)-26)=40 | x 14 - 26 - 40 = | x:student 14:student -:student 26:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | (14+(26+x))=40 | 14 26 x + + 40 = | 14:student 26:student x:student +:student +:student 40:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | 26=((x-40)+14) | 26 x 40 - 14 + = | 26:student x:student 40:student -:student 14:student +:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | 14=(26+(40-x)) | 14 26 40 x - + = | 14:student 26:student 40:student x:student -:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | x=(26+(14-40)) | x 26 14 40 - + = | x:student 26:student 14:student 40:student -:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 14=((26+x)-40) | 14 26 x + 40 - = | 14:student 26:student x:student +:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | ((x+14)+26)=40 | x 14 + 26 + 40 = | x:student 14:student +:student 26:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | ((14-x)+26)=40 | 14 x - 26 + 40 = | 14:student x:student -:student 26:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=((40-14)+x) | 26 40 14 - x + = | 26:student 40:student 14:student -:student x:student +:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | x=((26-14)+40) | x 26 14 - 40 + = | x:student 26:student 14:student -:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | ((x+26)-40)=14 | x 26 + 40 - 14 = | x:student 26:student +:student 40:student -:student 14:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | 26=(x-(40-14)) | 26 x 40 14 - - = | 26:student x:student 40:student 14:student -:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 14=(x-(26-40)) | 14 x 26 40 - - = | 14:student x:student 26:student 40:student -:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | 14=(x+(26-40)) | 14 x 26 40 - + = | 14:student x:student 26:student 40:student -:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | ((14+26)-x)=40 | 14 26 + x - 40 = | 14:student 26:student +:student x:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | (x-(26-40))=14 | x 26 40 - - 14 = | x:student 26:student 40:student -:student -:student 14:student =:student
+EXPR: 0 | POS | INT | 7 | 52 |  | ((14+x)+26)=40 | 14 x + 26 + 40 = | 14:student x:student +:student 26:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 80 | 26=(x-(40+14)) | 26 x 40 14 + - = | 26:student x:student 40:student 14:student +:student -:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 0 | 26=(x+(40-14)) | 26 x 40 14 - + = | 26:student x:student 40:student 14:student -:student +:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 80 | (x-(14+26))=40 | x 14 26 + - 40 = | x:student 14:student 26:student +:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | (x+(26-40))=14 | x 26 40 - + 14 = | x:student 26:student 40:student -:student +:student 14:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | ((14+x)-26)=40 | 14 x + 26 - 40 = | 14:student x:student +:student 26:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 7 | 52 | 28 | ((26+x)-40)=14 | 26 x + 40 - 14 = | 26:student x:student +:student 40:student -:student 14:student =:student
+EXPR: 1 | POS | INT | 7 | 52 | 52 | ((26-x)+40)=14 | 26 x - 40 + 14 = | 26:student x:student -:student 40:student +:student 14:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | 26=(14-(x-40)) | 26 14 x 40 - - = | 26:student 14:student x:student 40:student -:student -:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | 26=(14-(40-x)) | 26 14 40 x - - = | 26:student 14:student 40:student x:student -:student -:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | 26=(14+(x-40)) | 26 14 x 40 - + = | 26:student 14:student x:student 40:student -:student +:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 80 | 26=((x-14)-40) | 26 x 14 - 40 - = | 26:student x:student 14:student -:student 40:student -:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | (x-(26-14))=40 | x 26 14 - - 40 = | x:student 26:student 14:student -:student -:student 40:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | 26=((x+14)-40) | 26 x 14 + 40 - = | 26:student x:student 14:student +:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | 26=((14-x)+40) | 26 14 x - 40 + = | 26:student 14:student x:student -:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 80 | ((x-26)-14)=40 | x 26 - 14 - 40 = | x:student 26:student -:student 14:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | (x+(26-14))=40 | x 26 14 - + 40 = | x:student 26:student 14:student -:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | ((x+26)+14)=40 | x 26 + 14 + 40 = | x:student 26:student +:student 14:student +:student 40:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | 26=((14+x)-40) | 26 14 x + 40 - = | 26:student 14:student x:student +:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | (26+(x-14))=40 | 26 x 14 - + 40 = | 26:student x:student 14:student -:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | ((26-14)+x)=40 | 26 14 - x + 40 = | 26:student 14:student -:student x:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | 26=(14+(40-x)) | 26 14 40 x - + = | 26:student 14:student 40:student x:student -:student +:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 0 | 26=((x-14)+40) | 26 x 14 - 40 + = | 26:student x:student 14:student -:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | (26+(x+14))=40 | 26 x 14 + + 40 = | 26:student x:student 14:student +:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | (26-(x-14))=40 | 26 x 14 - - 40 = | 26:student x:student 14:student -:student -:student 40:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | ((x-26)+14)=40 | x 26 - 14 + 40 = | x:student 26:student -:student 14:student +:student 40:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | 26=((14-40)+x) | 26 14 40 - x + = | 26:student 14:student 40:student -:student x:student +:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | ((26+x)+14)=40 | 26 x + 14 + 40 = | 26:student x:student +:student 14:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | (26+(14-x))=40 | 26 14 x - + 40 = | 26:student 14:student x:student -:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | ((x+26)-14)=40 | x 26 + 14 - 40 = | x:student 26:student +:student 14:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | ((26+x)-14)=40 | 26 x + 14 - 40 = | 26:student x:student +:student 14:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 28 | (26-(14-x))=40 | 26 14 x - - 40 = | 26:student 14:student x:student -:student -:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | (26+(14+x))=40 | 26 14 x + + 40 = | 26:student 14:student x:student +:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 |  | ((26-x)+14)=40 | 26 x - 14 + 40 = | 26:student x:student -:student 14:student +:student 40:student =:student
+EXPR: 0 | POS | INT | 9 | 52 | 0 | 26=(x-(14-40)) | 26 x 14 40 - - = | 26:student x:student 14:student 40:student -:student -:student =:student
+EXPR: 1 | POS | INT | 9 | 52 | 52 | 26=(x+(14-40)) | 26 x 14 40 - + = | 26:student x:student 14:student 40:student -:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 |  | (40-x)=(14+26) | 40 x - 14 26 + = | 40:student x:student -:student 14:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 0 | (40-14)=(26+x) | 40 14 - 26 x + = | 40:student 14:student -:student 26:student x:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 0 | (40-14)=(x+26) | 40 14 - x 26 + = | 40:student 14:student -:student x:student 26:student +:student =:student
+EXPR: 1 | POS | INT | 12 | 52 | 52 | (40-x)=(14-26) | 40 x - 14 26 - = | 40:student x:student -:student 14:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 0 | (40-14)=(26-x) | 40 14 - 26 x - = | 40:student 14:student -:student 26:student x:student -:student =:student
+EXPR: 1 | POS | INT | 12 | 52 | 52 | (40-14)=(x-26) | 40 14 - x 26 - = | 40:student 14:student -:student x:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 80 | (x-40)=(14+26) | x 40 - 14 26 + = | x:student 40:student -:student 14:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 80 | (40+14)=(x-26) | 40 14 + x 26 - = | 40:student 14:student +:student x:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 28 | (40+14)=(x+26) | 40 14 + x 26 + = | 40:student 14:student +:student x:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 28 | (40+14)=(26+x) | 40 14 + 26 x + = | 40:student 14:student +:student 26:student x:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 |  | (40+x)=(14+26) | 40 x + 14 26 + = | 40:student x:student +:student 14:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 52 | 28 | (x-40)=(14-26) | x 40 - 14 26 - = | x:student 40:student -:student 14:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 52 |  | (x+40)=(14+26) | x 40 + 14 26 + = | x:student 40:student +:student 14:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 0 | (40-26)=(x+14) | 40 26 - x 14 + = | 40:student 26:student -:student x:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 80 | (40+26)=(x-14) | 40 26 + x 14 - = | 40:student 26:student +:student x:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 0 | (14-40)=(x-26) | 14 40 - x 26 - = | 14:student 40:student -:student x:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 28 | (40-x)=(26-14) | 40 x - 26 14 - = | 40:student x:student -:student 26:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 14 | 52 | 52 | (x-40)=(26-14) | x 40 - 26 14 - = | x:student 40:student -:student 26:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 28 | (40-26)=(x-14) | 40 26 - x 14 - = | 40:student 26:student -:student x:student 14:student -:student =:student
+EXPR: 1 | POS | INT | 14 | 52 | 52 | (40+26)=(14+x) | 40 26 + 14 x + = | 40:student 26:student +:student 14:student x:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 52 |  | (14-x)=(40-26) | 14 x - 40 26 - = | 14:student x:student -:student 40:student 26:student -:student =:student
+EXPR: 1 | POS | INT | 14 | 52 | 52 | (40+26)=(x+14) | 40 26 + x 14 + = | 40:student 26:student +:student x:student 14:student +:student =:student
+EXPR: 1 | POS | INT | 14 | 52 | 52 | (14-40)=(26-x) | 14 40 - 26 x - = | 14:student 40:student -:student 26:student x:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 52 |  | (14+x)=(40-26) | 14 x + 40 26 - = | 14:student x:student +:student 40:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 0 | (40-26)=(14+x) | 40 26 - 14 x + = | 40:student 26:student -:student 14:student x:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 0 | (40-26)=(14-x) | 40 26 - 14 x - = | 40:student 26:student -:student 14:student x:student -:student =:student
+EXPR: 1 | POS | INT | 14 | 52 | 52 | (14+x)=(40+26) | 14 x + 40 26 + = | 14:student x:student +:student 40:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 80 | (x-14)=(40+26) | x 14 - 40 26 + = | x:student 14:student -:student 40:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 52 |  | (x+14)=(40-26) | x 14 + 40 26 - = | x:student 14:student +:student 40:student 26:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 52 | 28 | (x-14)=(40-26) | x 14 - 40 26 - = | x:student 14:student -:student 40:student 26:student -:student =:student
+EXPR: 1 | POS | INT | 14 | 52 | 52 | (x+14)=(40+26) | x 14 + 40 26 + = | x:student 14:student +:student 40:student 26:student +:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 0 | (14+26)=(40-x) | 14 26 + 40 x - = | 14:student 26:student +:student 40:student x:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 28 | (14-x)=(26-40) | 14 x - 26 40 - = | 14:student x:student -:student 26:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 80 | (x-26)=(40+14) | x 26 - 40 14 + = | x:student 26:student -:student 40:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 0 | (14+26)=(40+x) | 14 26 + 40 x + = | 14:student 26:student +:student 40:student x:student +:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 0 | (26-40)=(x-14) | 26 40 - x 14 - = | 26:student 40:student -:student x:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 28 | (14-26)=(x-40) | 14 26 - x 40 - = | 14:student 26:student -:student x:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 |  | (26-x)=(40-14) | 26 x - 40 14 - = | 26:student x:student -:student 40:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 |  | (x-14)=(26-40) | x 14 - 26 40 - = | x:student 14:student -:student 26:student 40:student -:student =:student
+EXPR: 1 | POS | INT | 17 | 52 | 52 | (x-26)=(40-14) | x 26 - 40 14 - = | x:student 26:student -:student 40:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 |  | (x+26)=(40-14) | x 26 + 40 14 - = | x:student 26:student +:student 40:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 80 | (14+26)=(x-40) | 14 26 + x 40 - = | 14:student 26:student +:student x:student 40:student -:student =:student
+EXPR: 1 | POS | INT | 17 | 52 | 52 | (14-26)=(40-x) | 14 26 - 40 x - = | 14:student 26:student -:student 40:student x:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 |  | (26+x)=(40-14) | 26 x + 40 14 - = | 26:student x:student +:student 40:student 14:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 28 | (26-40)=(14-x) | 26 40 - 14 x - = | 26:student 40:student -:student 14:student x:student -:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 28 | (x+26)=(40+14) | x 26 + 40 14 + = | x:student 26:student +:student 40:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 0 | (14+26)=(x+40) | 14 26 + x 40 + = | 14:student 26:student +:student x:student 40:student +:student =:student
+EXPR: 0 | POS | INT | 17 | 52 | 28 | (26+x)=(40+14) | 26 x + 40 14 + = | 26:student x:student +:student 40:student 14:student +:student =:student
+EXPR: 0 | POS | INT | 19 | 52 |  | (x-26)=(14-40) | x 26 - 14 40 - = | x:student 26:student -:student 14:student 40:student -:student =:student
+EXPR: 1 | POS | INT | 19 | 52 | 52 | (26-x)=(14-40) | 26 x - 14 40 - = | 26:student x:student -:student 14:student 40:student -:student =:student
+EXPR: 1 | POS | INT | 19 | 52 | 52 | (26-14)=(x-40) | 26 14 - x 40 - = | 26:student 14:student -:student x:student 40:student -:student =:student
+EXPR: 0 | POS | INT | 19 | 52 | 28 | (26-14)=(40-x) | 26 14 - 40 x - = | 26:student 14:student -:student 40:student x:student -:student =:student
+NET 304 unique, non-negative, integer-valued solutions found out of 480 total solutions

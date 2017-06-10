@@ -1,0 +1,5 @@
+quantities : 39 49 81 x
+types : "tulip" "rose" "flower" "flower"
+operators : + - * / =
+n : 7
+answer : 7.0

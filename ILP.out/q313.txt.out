@@ -1,0 +1,445 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=((12-3)*x) | 9 12 3 - x * = | 9:puppy 12:puppy 3:puppy -:puppy x:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=((12-3)/x) | 9 12 3 - x / = | 9:puppy 12:puppy 3:puppy -:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=((x*12)-3) | 9 x 12 * 3 - = | 9:puppy x:LENGTH 12:puppy *:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=(x*(12-3)) | 9 x 12 3 - * = | 9:puppy x:LENGTH 12:puppy 3:puppy -:puppy *:puppy =:puppy
+EXPR: 1 | POS | INT | 2 | 7 | 7 | ((9+12)/x)=3 | 9 12 + x / 3 = | 9:puppy 12:puppy +:puppy x:LENGTH /:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=(12-(3/x)) | 9 12 3 x / - = | 9:puppy 12:puppy 3:puppy x:LENGTH /:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=(12-(x*3)) | 9 12 x 3 * - = | 9:puppy 12:puppy x:LENGTH 3:puppy *:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=((12*x)-3) | 9 12 x * 3 - = | 9:puppy 12:puppy x:LENGTH *:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=((12/x)-3) | 9 12 x / 3 - = | 9:puppy 12:puppy x:LENGTH /:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 2 | 9=((12/x)+3) | 9 12 x / 3 + = | 9:puppy 12:puppy x:LENGTH /:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 2 | (9-(12/x))=3 | 9 12 x / - 3 = | 9:puppy 12:puppy x:LENGTH /:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 7 | 1 | 9=(12-(3*x)) | 9 12 3 x * - = | 9:puppy 12:puppy 3:puppy x:LENGTH *:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((12-9)*x)=3 | 12 9 - x * 3 = | 12:puppy 9:puppy -:puppy x:LENGTH *:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((x*12)-9)=3 | x 12 * 9 - 3 = | x:LENGTH 12:puppy *:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=((x*9)+3) | 12 x 9 * 3 + = | 12:puppy x:LENGTH 9:puppy *:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 2 | (x*(9-3))=12 | x 9 3 - * 12 = | x:LENGTH 9:puppy 3:puppy -:puppy *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((9*x)+3)=12 | 9 x * 3 + 12 = | 9:puppy x:LENGTH *:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((9/x)+3)=12 | 9 x / 3 + 12 = | 9:puppy x:LENGTH /:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 1 | POS | INT | 4 | 7 | 7 | 9=((x*3)-12) | 9 x 3 * 12 - = | 9:puppy x:LENGTH 3:puppy *:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((12-9)/x)=3 | 12 9 - x / 3 = | 12:puppy 9:puppy -:puppy x:LENGTH /:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((9+3)*x)=12 | 9 3 + x * 12 = | 9:puppy 3:puppy +:puppy x:LENGTH *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 2 | ((9-3)*x)=12 | 9 3 - x * 12 = | 9:puppy 3:puppy -:puppy x:LENGTH *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((9+3)/x)=12 | 9 3 + x / 12 = | 9:puppy 3:puppy +:puppy x:LENGTH /:puppy 12:puppy =:puppy
+EXPR: 1 | POS | INT | 4 | 7 | 7 | 9=((3*x)-12) | 9 3 x * 12 - = | 9:puppy 3:puppy x:LENGTH *:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 2 | 9=(3+(12/x)) | 9 3 12 x / + = | 9:puppy 3:puppy 12:puppy x:LENGTH /:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((12/x)-9)=3 | 12 x / 9 - 3 = | 12:puppy x:LENGTH /:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (12-(x*9))=3 | 12 x 9 * - 3 = | 12:puppy x:LENGTH 9:puppy *:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (9+(3*x))=12 | 9 3 x * + 12 = | 9:puppy 3:puppy x:LENGTH *:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (9+(3/x))=12 | 9 3 x / + 12 = | 9:puppy 3:puppy x:LENGTH /:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((x*9)+3)=12 | x 9 * 3 + 12 = | x:LENGTH 9:puppy *:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=((9+3)*x) | 12 9 3 + x * = | 12:puppy 9:puppy 3:puppy +:puppy x:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 2 | 12=((9-3)*x) | 12 9 3 - x * = | 12:puppy 9:puppy 3:puppy -:puppy x:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=((9+3)/x) | 12 9 3 + x / = | 12:puppy 9:puppy 3:puppy +:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (x*(9+3))=12 | x 9 3 + * 12 = | x:LENGTH 9:puppy 3:puppy +:puppy *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (9+(x*3))=12 | 9 x 3 * + 12 = | 9:puppy x:LENGTH 3:puppy *:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | ((12*x)-9)=3 | 12 x * 9 - 3 = | 12:puppy x:LENGTH *:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=((9/x)+3) | 12 9 x / 3 + = | 12:puppy 9:puppy x:LENGTH /:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 2 | 12=(x*(9-3)) | 12 x 9 3 - * = | 12:puppy x:LENGTH 9:puppy 3:puppy -:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=(x*(9+3)) | 12 x 9 3 + * = | 12:puppy x:LENGTH 9:puppy 3:puppy +:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=(9+(3/x)) | 12 9 3 x / + = | 12:puppy 9:puppy 3:puppy x:LENGTH /:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=(9+(x*3)) | 12 9 x 3 * + = | 12:puppy 9:puppy x:LENGTH 3:puppy *:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (x*(12-9))=3 | x 12 9 - * 3 = | x:LENGTH 12:puppy 9:puppy -:puppy *:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (12-(9*x))=3 | 12 9 x * - 3 = | 12:puppy 9:puppy x:LENGTH *:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | (12-(9/x))=3 | 12 9 x / - 3 = | 12:puppy 9:puppy x:LENGTH /:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=(9+(3*x)) | 12 9 3 x * + = | 12:puppy 9:puppy 3:puppy x:LENGTH *:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 7 | 1 | 12=((9*x)+3) | 12 9 x * 3 + = | 12:puppy 9:puppy x:LENGTH *:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((12/x)-3)=9 | 12 x / 3 - 9 = | 12:puppy x:LENGTH /:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 2 | ((12/x)+3)=9 | 12 x / 3 + 9 = | 12:puppy x:LENGTH /:puppy 3:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (3+(x*9))=12 | 3 x 9 * + 12 = | 3:puppy x:LENGTH 9:puppy *:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | 12=((x*3)+9) | 12 x 3 * 9 + = | 12:puppy x:LENGTH 3:puppy *:puppy 9:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 7 | 7 | 7 | 12=((3*x)-9) | 12 3 x * 9 - = | 12:puppy 3:puppy x:LENGTH *:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | 12=((3/x)+9) | 12 3 x / 9 + = | 12:puppy 3:puppy x:LENGTH /:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | 12=(3+(9/x)) | 12 3 9 x / + = | 12:puppy 3:puppy 9:puppy x:LENGTH /:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 7 | 7 | 7 | ((x*3)-9)=12 | x 3 * 9 - 12 = | x:LENGTH 3:puppy *:puppy 9:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((x*3)+9)=12 | x 3 * 9 + 12 = | x:LENGTH 3:puppy *:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | 12=(3+(9*x)) | 12 3 9 x * + = | 12:puppy 3:puppy 9:puppy x:LENGTH *:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | 12=((3*x)+9) | 12 3 x * 9 + = | 12:puppy 3:puppy x:LENGTH *:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((x*12)-3)=9 | x 12 * 3 - 9 = | x:LENGTH 12:puppy *:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((12-3)*x)=9 | 12 3 - x * 9 = | 12:puppy 3:puppy -:puppy x:LENGTH *:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((12-3)/x)=9 | 12 3 - x / 9 = | 12:puppy 3:puppy -:puppy x:LENGTH /:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((12*x)-3)=9 | 12 x * 3 - 9 = | 12:puppy x:LENGTH *:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (12-(3*x))=9 | 12 3 x * - 9 = | 12:puppy 3:puppy x:LENGTH *:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (12-(3/x))=9 | 12 3 x / - 9 = | 12:puppy 3:puppy x:LENGTH /:puppy -:puppy 9:puppy =:puppy
+EXPR: 1 | POS | INT | 7 | 7 | 7 | 12=((x*3)-9) | 12 x 3 * 9 - = | 12:puppy x:LENGTH 3:puppy *:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (12-(x*3))=9 | 12 x 3 * - 9 = | 12:puppy x:LENGTH 3:puppy *:puppy -:puppy 9:puppy =:puppy
+EXPR: 1 | POS | INT | 7 | 7 | 7 | 3=((9+12)/x) | 3 9 12 + x / = | 3:puppy 9:puppy 12:puppy +:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | 12=(3+(x*9)) | 12 3 x 9 * + = | 12:puppy 3:puppy x:LENGTH 9:puppy *:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 7 | 7 | 7 | ((3*x)-9)=12 | 3 x * 9 - 12 = | 3:puppy x:LENGTH *:puppy 9:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((3/x)+9)=12 | 3 x / 9 + 12 = | 3:puppy x:LENGTH /:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | ((3*x)+9)=12 | 3 x * 9 + 12 = | 3:puppy x:LENGTH *:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 2 | 3=(9-(12/x)) | 3 9 12 x / - = | 3:puppy 9:puppy 12:puppy x:LENGTH /:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (3+(9*x))=12 | 3 9 x * + 12 = | 3:puppy 9:puppy x:LENGTH *:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (x*(12-3))=9 | x 12 3 - * 9 = | x:LENGTH 12:puppy 3:puppy -:puppy *:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 7 | 7 | 1 | (3+(9/x))=12 | 3 9 x / + 12 = | 3:puppy 9:puppy x:LENGTH /:puppy +:puppy 12:puppy =:puppy
+EXPR: 1 | POS | INT | 9 | 7 | 7 | ((3*x)-12)=9 | 3 x * 12 - 9 = | 3:puppy x:LENGTH *:puppy 12:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=((12-9)*x) | 3 12 9 - x * = | 3:puppy 12:puppy 9:puppy -:puppy x:LENGTH *:puppy =:puppy
+EXPR: 1 | POS | INT | 9 | 7 | 7 | ((x*3)-12)=9 | x 3 * 12 - 9 = | x:LENGTH 3:puppy *:puppy 12:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=((x*12)-9) | 3 x 12 * 9 - = | 3:puppy x:LENGTH 12:puppy *:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=((12-9)/x) | 3 12 9 - x / = | 3:puppy 12:puppy 9:puppy -:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=(12-(x*9)) | 3 12 x 9 * - = | 3:puppy 12:puppy x:LENGTH 9:puppy *:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=(12-(9/x)) | 3 12 9 x / - = | 3:puppy 12:puppy 9:puppy x:LENGTH /:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 2 | (3+(12/x))=9 | 3 12 x / + 9 = | 3:puppy 12:puppy x:LENGTH /:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=(12-(9*x)) | 3 12 9 x * - = | 3:puppy 12:puppy 9:puppy x:LENGTH *:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=(x*(12-9)) | 3 x 12 9 - * = | 3:puppy x:LENGTH 12:puppy 9:puppy -:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=((12*x)-9) | 3 12 x * 9 - = | 3:puppy 12:puppy x:LENGTH *:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 9 | 7 | 1 | 3=((12/x)-9) | 3 12 x / 9 - = | 3:puppy 12:puppy x:LENGTH /:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 63 | x=((9+12)*3) | x 9 12 + 3 * = | x:LENGTH 9:puppy 12:puppy +:puppy 3:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 135 | x=(9*(12+3)) | x 9 12 3 + * = | x:LENGTH 9:LENGTH 12:puppy 3:puppy +:puppy *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 81 | x=(9*(12-3)) | x 9 12 3 - * = | x:LENGTH 9:LENGTH 12:puppy 3:puppy -:puppy *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 18 | ((9+12)-3)=x | 9 12 + 3 - x = | 9:puppy 12:puppy +:puppy 3:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 0 | (9-(12-3))=x | 9 12 3 - - x = | 9:puppy 12:puppy 3:puppy -:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 81 | (9*(12-3))=x | 9 12 3 - * x = | 9:LENGTH 12:puppy 3:puppy -:puppy *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 1 | (9/(12-3))=x | 9 12 3 - / x = | 9:LENGTH 12:puppy 3:puppy -:puppy /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 0 | ((9-12)+3)=x | 9 12 - 3 + x = | 9:puppy 12:puppy -:puppy 3:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 18 | x=(9+(12-3)) | x 9 12 3 - + = | x:puppy 9:puppy 12:puppy 3:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 24 | ((9+12)+3)=x | 9 12 + 3 + x = | 9:puppy 12:puppy +:puppy 3:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 18 | (9+(12-3))=x | 9 12 3 - + x = | 9:puppy 12:puppy 3:puppy -:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 24 | x=(9+(12+3)) | x 9 12 3 + + = | x:puppy 9:puppy 12:puppy 3:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 63 | ((9+12)*3)=x | 9 12 + 3 * x = | 9:puppy 12:puppy +:puppy 3:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 24 | (9+(12+3))=x | 9 12 3 + + x = | 9:puppy 12:puppy 3:puppy +:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 |  | x=(9-(12-3)) | x 9 12 3 - - = | x:puppy 9:puppy 12:puppy 3:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 135 | (9*(12+3))=x | 9 12 3 + * x = | 9:LENGTH 12:puppy 3:puppy +:puppy *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 1 | x=(9/(12-3)) | x 9 12 3 - / = | x:LENGTH 9:LENGTH 12:puppy 3:puppy -:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 7 | 18 | x=((9+12)-3) | x 9 12 + 3 - = | x:puppy 9:puppy 12:puppy +:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 |  | x=((9-12)+3) | x 9 12 - 3 + = | x:puppy 9:puppy 12:puppy -:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 10 | 7 | 24 | x=((9+12)+3) | x 9 12 + 3 + = | x:puppy 9:puppy 12:puppy +:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 135 | 9=(x/(12+3)) | 9 x 12 3 + / = | 9:LENGTH x:LENGTH 12:puppy 3:puppy +:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 63 | (x/(9+12))=3 | x 9 12 + / 3 = | x:LENGTH 9:puppy 12:puppy +:puppy /:LENGTH 3:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 6 | ((9+x)-12)=3 | 9 x + 12 - 3 = | 9:puppy x:puppy +:puppy 12:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | (x-(9+12))=3 | x 9 12 + - 3 = | x:puppy 9:puppy 12:puppy +:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=((x+12)-3) | 9 x 12 + 3 - = | 9:puppy x:puppy 12:puppy +:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=((12-3)+x) | 9 12 3 - x + = | 9:puppy 12:puppy 3:puppy -:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | 9=(12-(x-3)) | 9 12 x 3 - - = | 9:puppy 12:puppy x:puppy 3:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=(12-(x+3)) | 9 12 x 3 + - = | 9:puppy 12:puppy x:puppy 3:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 144 | x=(12*(9+3)) | x 12 9 3 + * = | x:LENGTH 12:LENGTH 9:puppy 3:puppy +:puppy *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 1 | x=(12/(9+3)) | x 12 9 3 + / = | x:LENGTH 12:LENGTH 9:puppy 3:puppy +:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 6 | 9=((12-x)+3) | 9 12 x - 3 + = | 9:puppy 12:puppy x:puppy -:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | ((9-x)+12)=3 | 9 x - 12 + 3 = | 9:puppy x:puppy -:puppy 12:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 81 | 9=(x/(12-3)) | 9 x 12 3 - / = | 9:LENGTH x:LENGTH 12:puppy 3:puppy -:puppy /:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (9+12)=(3*x) | 9 12 + 3 x * = | 9:puppy 12:puppy +:puppy 3:puppy x:LENGTH *:puppy =:puppy
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (9+12)=(x*3) | 9 12 + x 3 * = | 9:puppy 12:puppy +:puppy x:LENGTH 3:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | ((9+3)-12)=x | 9 3 + 12 - x = | 9:puppy 3:puppy +:puppy 12:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 144 | x=((9+3)*12) | x 9 3 + 12 * = | x:LENGTH 9:puppy 3:puppy +:puppy 12:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=((12-3)-x) | 9 12 3 - x - = | 9:puppy 12:puppy 3:puppy -:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | (9-(3-12))=x | 9 3 12 - - x = | 9:puppy 3:puppy 12:puppy -:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | ((x+9)-12)=3 | x 9 + 12 - 3 = | x:puppy 9:puppy +:puppy 12:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | ((x-9)-12)=3 | x 9 - 12 - 3 = | x:puppy 9:puppy -:puppy 12:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=((12-x)-3) | 9 12 x - 3 - = | 9:puppy 12:puppy x:puppy -:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 72 | x=(12*(9-3)) | x 12 9 3 - * = | x:LENGTH 12:LENGTH 9:puppy 3:puppy -:puppy *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 2 | x=(12/(9-3)) | x 12 9 3 - / = | x:LENGTH 12:LENGTH 9:puppy 3:puppy -:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 |  | x=(9+(3-12)) | x 9 3 12 - + = | x:puppy 9:puppy 3:puppy 12:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | ((9-3)+12)=x | 9 3 - 12 + x = | 9:puppy 3:puppy -:puppy 12:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | (9+(3-12))=x | 9 3 12 - + x = | 9:puppy 3:puppy 12:puppy -:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 72 | ((9-3)*12)=x | 9 3 - 12 * x = | 9:puppy 3:puppy -:puppy 12:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 18 | (9-(x-12))=3 | 9 x 12 - - 3 = | 9:puppy x:puppy 12:puppy -:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 72 | x=((9-3)*12) | x 9 3 - 12 * = | x:LENGTH 9:puppy 3:puppy -:puppy 12:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 18 | ((9+12)-x)=3 | 9 12 + x - 3 = | 9:puppy 12:puppy +:puppy x:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 9 | ((12-9)*3)=x | 12 9 - 3 * x = | 12:puppy 9:puppy -:puppy 3:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 6 | ((9-12)+x)=3 | 9 12 - x + 3 = | 9:puppy 12:puppy -:puppy x:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | x=(12+(9-3)) | x 12 9 3 - + = | x:puppy 12:puppy 9:puppy 3:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 |  | ((x-9)+12)=3 | x 9 - 12 + 3 = | x:puppy 9:puppy -:puppy 12:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | 9=(x-(12+3)) | 9 x 12 3 + - = | 9:puppy x:puppy 12:puppy 3:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | x=(12+(9+3)) | x 12 9 3 + + = | x:puppy 12:puppy 9:puppy 3:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | ((9+3)+12)=x | 9 3 + 12 + x = | 9:puppy 3:puppy +:puppy 12:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | (12+(9+3))=x | 12 9 3 + + x = | 12:puppy 9:puppy 3:puppy +:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | (12-(9-3))=x | 12 9 3 - - x = | 12:puppy 9:puppy 3:puppy -:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 15 | (9/(x-12))=3 | 9 x 12 - / 3 = | 9:puppy x:LENGTH 12:LENGTH -:LENGTH /:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | (9+(x-12))=3 | 9 x 12 - + 3 = | 9:puppy x:puppy 12:puppy -:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | x=(12-(9-3)) | x 12 9 3 - - = | x:puppy 12:puppy 9:puppy 3:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 9 | x=((12-9)*3) | x 12 9 - 3 * = | x:LENGTH 12:puppy 9:puppy -:puppy 3:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 144 | (12*(9+3))=x | 12 9 3 + * x = | 12:LENGTH 9:puppy 3:puppy +:puppy *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 1 | (12/(9+3))=x | 12 9 3 + / x = | 12:LENGTH 9:puppy 3:puppy +:puppy /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 6 | ((12-9)+3)=x | 12 9 - 3 + x = | 12:puppy 9:puppy -:puppy 3:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 |  | (x-(9-12))=3 | x 9 12 - - 3 = | x:puppy 9:puppy 12:puppy -:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 |  | x=(12-(9+3)) | x 12 9 3 + - = | x:puppy 12:puppy 9:puppy 3:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 1 | (x*9)=(12-3) | x 9 * 12 3 - = | x:LENGTH 9:puppy *:puppy 12:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=(x+(12-3)) | 9 x 12 3 - + = | 9:puppy x:puppy 12:puppy 3:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | (12+(9-3))=x | 12 9 3 - + x = | 12:puppy 9:puppy 3:puppy -:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 9 | 9=((12-x)*3) | 9 12 x - 3 * = | 9:puppy 12:LENGTH x:LENGTH -:LENGTH 3:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 2 | (12/(9-3))=x | 12 9 3 - / x = | 12:LENGTH 9:puppy 3:puppy -:puppy /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=(12+(x-3)) | 9 12 x 3 - + = | 9:puppy 12:puppy x:puppy 3:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=(12-(3-x)) | 9 12 3 x - - = | 9:puppy 12:puppy 3:puppy x:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=(12-(3+x)) | 9 12 3 x + - = | 9:puppy 12:puppy 3:puppy x:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 1 | (9/x)=(12-3) | 9 x / 12 3 - = | 9:puppy x:LENGTH /:puppy 12:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | x=((12-9)+3) | x 12 9 - 3 + = | x:puppy 12:puppy 9:puppy -:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | x=((9-3)+12) | x 9 3 - 12 + = | x:puppy 9:puppy 3:puppy -:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 1 | (9*x)=(12-3) | 9 x * 12 3 - = | 9:puppy x:LENGTH *:puppy 12:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | 9=((12+3)-x) | 9 12 3 + x - = | 9:puppy 12:puppy 3:puppy +:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | x=(9-(3-12)) | x 9 3 12 - - = | x:puppy 9:puppy 3:puppy 12:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | 9=((12+x)-3) | 9 12 x + 3 - = | 9:puppy 12:puppy x:puppy +:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 |  | x=((9+3)-12) | x 9 3 + 12 - = | x:puppy 9:puppy 3:puppy +:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 |  | x=((12-9)-3) | x 12 9 - 3 - = | x:puppy 12:puppy 9:puppy -:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | (x+(9-12))=3 | x 9 12 - + 3 = | x:puppy 9:puppy 12:puppy -:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | (12-(9+3))=x | 12 9 3 + - x = | 12:puppy 9:puppy 3:puppy +:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 0 | ((12-9)-3)=x | 12 9 - 3 - x = | 12:puppy 9:puppy -:puppy 3:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | x=((9+3)+12) | x 9 3 + 12 + = | x:puppy 9:puppy 3:puppy +:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | 9=(12+(3-x)) | 9 12 3 x - + = | 9:puppy 12:puppy 3:puppy x:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | 9=((x-12)+3) | 9 x 12 - 3 + = | 9:puppy x:puppy 12:puppy -:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 24 | 9=((x-12)-3) | 9 x 12 - 3 - = | 9:puppy x:puppy 12:puppy -:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 72 | (12*(9-3))=x | 12 9 3 - * x = | 12:LENGTH 9:puppy 3:puppy -:puppy *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 7 | 15 | 9=((x-12)*3) | 9 x 12 - 3 * = | 9:puppy x:LENGTH 12:LENGTH -:LENGTH 3:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 9 | (9/(12-x))=3 | 9 12 x - / 3 = | 9:puppy 12:LENGTH x:LENGTH -:LENGTH /:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | 9=(x-(12-3)) | 9 x 12 3 - - = | 9:puppy x:puppy 12:puppy 3:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 6 | (9-(12-x))=3 | 9 12 x - - 3 = | 9:puppy 12:puppy x:puppy -:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 18 | (9+(12-x))=3 | 9 12 x - + 3 = | 9:puppy 12:puppy x:puppy -:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 12 | 7 | 144 | ((9+3)*12)=x | 9 3 + 12 * x = | 9:puppy 3:puppy +:puppy 12:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 9=((x+3)-12) | 9 x 3 + 12 - = | 9:puppy x:puppy 3:puppy +:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | ((9+x)-3)=12 | 9 x + 3 - 12 = | 9:puppy x:puppy +:puppy 3:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 12=(x-(9-3)) | 12 x 9 3 - - = | 12:puppy x:puppy 9:puppy 3:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 24 | 12=(x-(9+3)) | 12 x 9 3 + - = | 12:puppy x:puppy 9:puppy 3:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 12=(x+(9-3)) | 12 x 9 3 - + = | 12:puppy x:puppy 9:puppy 3:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=(x+(9+3)) | 12 x 9 3 + + = | 12:puppy x:puppy 9:puppy 3:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 15 | 9=(3*(x-12)) | 9 3 x 12 - * = | 9:puppy 3:puppy x:LENGTH 12:LENGTH -:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 13 | ((x-9)*3)=12 | x 9 - 3 * 12 = | x:LENGTH 9:LENGTH -:LENGTH 3:puppy *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 144 | 12=(x/(9+3)) | 12 x 9 3 + / = | 12:LENGTH x:LENGTH 9:puppy 3:puppy +:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (9+3)=(12*x) | 9 3 + 12 x * = | 9:puppy 3:puppy +:puppy 12:puppy x:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 9=(3-(x-12)) | 9 3 x 12 - - = | 9:puppy 3:puppy x:puppy 12:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 24 | (x-(9+3))=12 | x 9 3 + - 12 = | x:puppy 9:puppy 3:puppy +:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 9=((3-12)+x) | 9 3 12 - x + = | 9:puppy 3:puppy 12:puppy -:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 9=((3+x)-12) | 9 3 x + 12 - = | 9:puppy 3:puppy x:puppy +:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | ((12-x)+9)=3 | 12 x - 9 + 3 = | 12:puppy x:puppy -:puppy 9:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 9=(3+(x-12)) | 9 3 x 12 - + = | 9:puppy 3:puppy x:puppy 12:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 12=((x+9)-3) | 12 x 9 + 3 - = | 12:puppy x:puppy 9:puppy +:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (x+(9+3))=12 | x 9 3 + + 12 = | x:puppy 9:puppy 3:puppy +:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (12-(9+x))=3 | 12 9 x + - 3 = | 12:puppy 9:puppy x:puppy +:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | ((x+9)-3)=12 | x 9 + 3 - 12 = | x:puppy 9:puppy +:puppy 3:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((x+9)+3)=12 | x 9 + 3 + 12 = | x:puppy 9:puppy +:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 24 | ((x-9)-3)=12 | x 9 - 3 - 12 = | x:puppy 9:puppy -:puppy 3:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 5 | (12/(9-x))=3 | 12 9 x - / 3 = | 12:puppy 9:LENGTH x:LENGTH -:LENGTH /:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (9-(x-3))=12 | 9 x 3 - - 12 = | 9:puppy x:puppy 3:puppy -:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (x*12)=(9+3) | x 12 * 9 3 + = | x:LENGTH 12:puppy *:puppy 9:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((9-x)+3)=12 | 9 x - 3 + 12 = | 9:puppy x:puppy -:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (9+(x+3))=12 | 9 x 3 + + 12 = | 9:puppy x:puppy 3:puppy +:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((12-x)-9)=3 | 12 x - 9 - 3 = | 12:puppy x:puppy -:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 12=((x-9)+3) | 12 x 9 - 3 + = | 12:puppy x:puppy 9:puppy -:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (9+3)=(12/x) | 9 3 + 12 x / = | 9:puppy 3:puppy +:puppy 12:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | (9-(3-x))=12 | 9 3 x - - 12 = | 9:puppy 3:puppy x:puppy -:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (9+(3-x))=12 | 9 3 x - + 12 = | 9:puppy 3:puppy x:puppy -:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | (12-(x-9))=3 | 12 x 9 - - 3 = | 12:puppy x:puppy 9:puppy -:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 144 | (x/(9+3))=12 | x 9 3 + / 12 = | x:LENGTH 9:puppy 3:puppy +:puppy /:LENGTH 12:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 7 | 6 | ((9-3)+x)=12 | 9 3 - x + 12 = | 9:puppy 3:puppy -:puppy x:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((9+3)+x)=12 | 9 3 + x + 12 = | 9:puppy 3:puppy +:puppy x:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (12/x)=(9+3) | 12 x / 9 3 + = | 12:puppy x:LENGTH /:puppy 9:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 24 | ((x-12)-9)=3 | x 12 - 9 - 3 = | x:puppy 12:puppy -:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | ((x-12)+9)=3 | x 12 - 9 + 3 = | x:puppy 12:puppy -:puppy 9:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 2 | (12/x)=(9-3) | 12 x / 9 3 - = | 12:puppy x:LENGTH /:puppy 9:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (12-9)=(x*3) | 12 9 - x 3 * = | 12:puppy 9:puppy -:puppy x:LENGTH 3:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 72 | 12=(x/(9-3)) | 12 x 9 3 - / = | 12:LENGTH x:LENGTH 9:puppy 3:puppy -:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 7 | 72 | (x/(9-3))=12 | x 9 3 - / 12 = | x:LENGTH 9:puppy 3:puppy -:puppy /:LENGTH 12:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=((x+9)+3) | 12 x 9 + 3 + = | 12:puppy x:puppy 9:puppy +:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 9=(3+(12-x)) | 9 3 12 x - + = | 9:puppy 3:puppy 12:puppy x:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 9=(3-(12-x)) | 9 3 12 x - - = | 9:puppy 3:puppy 12:puppy x:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | (9+(x-3))=12 | 9 x 3 - + 12 = | 9:puppy x:puppy 3:puppy -:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 9 | 9=(3*(12-x)) | 9 3 12 x - * = | 9:puppy 3:puppy 12:LENGTH x:LENGTH -:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | ((x-9)+3)=12 | x 9 - 3 + 12 = | x:puppy 9:puppy -:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (12-9)=(3*x) | 12 9 - 3 x * = | 12:puppy 9:puppy -:puppy 3:puppy x:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (12-9)=(3/x) | 12 9 - 3 x / = | 12:puppy 9:puppy -:puppy 3:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (9+(3+x))=12 | 9 3 x + + 12 = | 9:puppy 3:puppy x:puppy +:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 24 | 12=((x-9)-3) | 12 x 9 - 3 - = | 12:puppy x:puppy 9:puppy -:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | (x-(12-9))=3 | x 12 9 - - 3 = | x:puppy 12:puppy 9:puppy -:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | (x-(9-3))=12 | x 9 3 - - 12 = | x:puppy 9:puppy 3:puppy -:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 12=(9+(x-3)) | 12 9 x 3 - + = | 12:puppy 9:puppy x:puppy 3:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=(9-(x-3)) | 12 9 x 3 - - = | 12:puppy 9:puppy x:puppy 3:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | (x+(9-3))=12 | x 9 3 - + 12 = | x:puppy 9:puppy 3:puppy -:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=(9+(x+3)) | 12 9 x 3 + + = | 12:puppy 9:puppy x:puppy 3:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (12+(x-9))=3 | 12 x 9 - + 3 = | 12:puppy x:puppy 9:puppy -:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | 9=(x+(3-12)) | 9 x 3 12 - + = | 9:puppy x:puppy 3:puppy 12:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 9=(x-(3-12)) | 9 x 3 12 - - = | 9:puppy x:puppy 3:puppy 12:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (12-(x+9))=3 | 12 x 9 + - 3 = | 12:puppy x:puppy 9:puppy +:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=(9+(3-x)) | 12 9 3 x - + = | 12:puppy 9:puppy 3:puppy x:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 5 | 12=((9-x)*3) | 12 9 x - 3 * = | 12:puppy 9:LENGTH x:LENGTH -:LENGTH 3:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((12+x)-9)=3 | 12 x + 9 - 3 = | 12:puppy x:puppy +:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (x+(12-9))=3 | x 12 9 - + 3 = | x:puppy 12:puppy 9:puppy -:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (9+3)=(x*12) | 9 3 + x 12 * = | 9:puppy 3:puppy +:puppy x:LENGTH 12:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 2 | (9-3)=(12/x) | 9 3 - 12 x / = | 9:puppy 3:puppy -:puppy 12:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=(9+(3+x)) | 12 9 3 x + + = | 12:puppy 9:puppy 3:puppy x:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 12=(9-(3-x)) | 12 9 3 x - - = | 12:puppy 9:puppy 3:puppy x:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 12=((9+x)-3) | 12 9 x + 3 - = | 12:puppy 9:puppy x:puppy +:puppy 3:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=((9+3)-x) | 12 9 3 + x - = | 12:puppy 9:puppy 3:puppy +:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 13 | (12/(x-9))=3 | 12 x 9 - / 3 = | 12:puppy x:LENGTH 9:LENGTH -:LENGTH /:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((12-9)+x)=3 | 12 9 - x + 3 = | 12:puppy 9:puppy -:puppy x:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((x+12)-9)=3 | x 12 + 9 - 3 = | x:puppy 12:puppy +:puppy 9:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 9=((x-3)+12) | 9 x 3 - 12 + = | 9:puppy x:puppy 3:puppy -:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | (12-(9-x))=3 | 12 9 x - - 3 = | 12:puppy 9:puppy x:puppy -:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 18 | (12+(9-x))=3 | 12 9 x - + 3 = | 12:puppy 9:puppy x:puppy -:puppy +:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=((9+x)+3) | 12 9 x + 3 + = | 12:puppy 9:puppy x:puppy +:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 5 | ((9-x)*3)=12 | 9 x - 3 * 12 = | 9:LENGTH x:LENGTH -:LENGTH 3:puppy *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((12-9)-x)=3 | 12 9 - x - 3 = | 12:puppy 9:puppy -:puppy x:puppy -:puppy 3:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 1 | (12*x)=(9+3) | 12 x * 9 3 + = | 12:puppy x:LENGTH *:puppy 9:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=((9+3)+x) | 12 9 3 + x + = | 12:puppy 9:puppy 3:puppy +:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 24 | 9=((x-3)-12) | 9 x 3 - 12 - = | 9:puppy x:puppy 3:puppy -:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 9=((3-x)+12) | 9 3 x - 12 + = | 9:puppy 3:puppy x:puppy -:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 0 | 12=((9-x)+3) | 12 9 x - 3 + = | 12:puppy 9:puppy x:puppy -:puppy 3:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 |  | ((9+x)+3)=12 | 9 x + 3 + 12 = | 9:puppy x:puppy +:puppy 3:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 13 | 12=((x-9)*3) | 12 x 9 - 3 * = | 12:puppy x:LENGTH 9:LENGTH -:LENGTH 3:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 9 | (x/(12-9))=3 | x 12 9 - / 3 = | x:LENGTH 12:puppy 9:puppy -:puppy /:LENGTH 3:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 7 |  | ((9+3)-x)=12 | 9 3 + x - 12 = | 9:puppy 3:puppy +:puppy x:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 14 | 7 | 6 | 12=((9-3)+x) | 12 9 3 - x + = | 12:puppy 9:puppy 3:puppy -:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 63 | x=(3*(9+12)) | x 3 9 12 + * = | x:LENGTH 3:LENGTH 9:puppy 12:puppy +:puppy *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 7 | 135 | x=((12+3)*9) | x 12 3 + 9 * = | x:LENGTH 12:puppy 3:puppy +:puppy 9:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 7 | 81 | x=((12-3)*9) | x 12 3 - 9 * = | x:LENGTH 12:puppy 3:puppy -:puppy 9:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 7 | 6 | x=((12+3)-9) | x 12 3 + 9 - = | x:puppy 12:puppy 3:puppy +:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 24 | x=((12+3)+9) | x 12 3 + 9 + = | x:puppy 12:puppy 3:puppy +:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | x=(12+(3-9)) | x 12 3 9 - + = | x:puppy 12:puppy 3:puppy 9:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 135 | ((12+3)*9)=x | 12 3 + 9 * x = | 12:puppy 3:puppy +:puppy 9:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 7 |  | x=(3+(9-12)) | x 3 9 12 - + = | x:puppy 3:puppy 9:puppy 12:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 24 | x=(3+(9+12)) | x 3 9 12 + + = | x:puppy 3:puppy 9:puppy 12:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | x=(3-(9-12)) | x 3 9 12 - - = | x:puppy 3:puppy 9:puppy 12:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 81 | ((12-3)*9)=x | 12 3 - 9 * x = | 12:puppy 3:puppy -:puppy 9:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 7 | 24 | (3+(9+12))=x | 3 9 12 + + x = | 3:puppy 9:puppy 12:puppy +:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | (3-(9-12))=x | 3 9 12 - - x = | 3:puppy 9:puppy 12:puppy -:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 0 | (3+(9-12))=x | 3 9 12 - + x = | 3:puppy 9:puppy 12:puppy -:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | ((3-9)+12)=x | 3 9 - 12 + x = | 3:puppy 9:puppy -:puppy 12:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 18 | ((12-3)+9)=x | 12 3 - 9 + x = | 12:puppy 3:puppy -:puppy 9:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 63 | (3*(9+12))=x | 3 9 12 + * x = | 3:LENGTH 9:puppy 12:puppy +:puppy *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 7 | 18 | (12-(3-9))=x | 12 3 9 - - x = | 12:puppy 3:puppy 9:puppy -:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | ((12+3)-9)=x | 12 3 + 9 - x = | 12:puppy 3:puppy +:puppy 9:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 24 | ((12+3)+9)=x | 12 3 + 9 + x = | 12:puppy 3:puppy +:puppy 9:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | (12+(3-9))=x | 12 3 9 - + x = | 12:puppy 3:puppy 9:puppy -:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 6 | x=((3-9)+12) | x 3 9 - 12 + = | x:puppy 3:puppy 9:puppy -:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 18 | x=(12-(3-9)) | x 12 3 9 - - = | x:puppy 12:puppy 3:puppy 9:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 18 | x=((12-3)+9) | x 12 3 - 9 + = | x:puppy 12:puppy 3:puppy -:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 |  | x=((12-3)-9) | x 12 3 - 9 - = | x:puppy 12:puppy 3:puppy -:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 15 | 7 | 0 | ((12-3)-9)=x | 12 3 - 9 - x = | 12:puppy 3:puppy -:puppy 9:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 12=((x+3)-9) | 12 x 3 + 9 - = | 12:puppy x:puppy 3:puppy +:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 13 | (3*(x-9))=12 | 3 x 9 - * 12 = | 3:puppy x:LENGTH 9:LENGTH -:LENGTH *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 3=(x-(9-12)) | 3 x 9 12 - - = | 3:puppy x:puppy 9:puppy 12:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 24 | 3=(x-(9+12)) | 3 x 9 12 + - = | 3:puppy x:puppy 9:puppy 12:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 12=(x-(3-9)) | 12 x 3 9 - - = | 12:puppy x:puppy 3:puppy 9:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 9 | (3*(12-9))=x | 3 12 9 - * x = | 3:LENGTH 12:puppy 9:puppy -:puppy *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 | 1 | (3/(12-9))=x | 3 12 9 - / x = | 3:LENGTH 12:puppy 9:puppy -:puppy /:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 |  | (3-(x-9))=12 | 3 x 9 - - 12 = | 3:puppy x:puppy 9:puppy -:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 3=((x+9)-12) | 3 x 9 + 12 - = | 3:puppy x:puppy 9:puppy +:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | (3+(x-9))=12 | 3 x 9 - + 12 = | 3:puppy x:puppy 9:puppy -:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 135 | (x/(12+3))=9 | x 12 3 + / 9 = | x:LENGTH 12:puppy 3:puppy +:puppy /:LENGTH 9:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 | 6 | ((12-x)+3)=9 | 12 x - 3 + 9 = | 12:puppy x:puppy -:puppy 3:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 12=((3+x)-9) | 12 3 x + 9 - = | 12:puppy 3:puppy x:puppy +:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 12=((x-3)+9) | 12 x 3 - 9 + = | 12:puppy x:puppy 3:puppy -:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=((3-x)+9) | 12 3 x - 9 + = | 12:puppy 3:puppy x:puppy -:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 5 | (3*(9-x))=12 | 3 9 x - * 12 = | 3:puppy 9:LENGTH x:LENGTH -:LENGTH *:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 12=(x+(3-9)) | 12 x 3 9 - + = | 12:puppy x:puppy 3:puppy 9:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | ((x+3)-9)=12 | x 3 + 9 - 12 = | x:puppy 3:puppy +:puppy 9:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((x+3)+9)=12 | x 3 + 9 + 12 = | x:puppy 3:puppy +:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 24 | ((x-3)-9)=12 | x 3 - 9 - 12 = | x:puppy 3:puppy -:puppy 9:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 63 | 3=(x/(9+12)) | 3 x 9 12 + / = | 3:LENGTH x:LENGTH 9:puppy 12:puppy +:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 |  | ((12-x)-3)=9 | 12 x - 3 - 9 = | 12:puppy x:puppy -:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((x+12)-3)=9 | x 12 + 3 - 9 = | x:puppy 12:puppy +:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((12+x)-3)=9 | 12 x + 3 - 9 = | 12:puppy x:puppy +:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | (x-(12-3))=9 | x 12 3 - - 9 = | x:puppy 12:puppy 3:puppy -:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (x+(12-3))=9 | x 12 3 - + 9 = | x:puppy 12:puppy 3:puppy -:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 15 | 3=(9/(x-12)) | 3 9 x 12 - / = | 3:puppy 9:puppy x:LENGTH 12:LENGTH -:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=((x+3)+9) | 12 x 3 + 9 + = | 12:puppy x:puppy 3:puppy +:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 12=((3-9)+x) | 12 3 9 - x + = | 12:puppy 3:puppy 9:puppy -:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 9 | x=(3*(12-9)) | x 3 12 9 - * = | x:LENGTH 3:LENGTH 12:puppy 9:puppy -:puppy *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 | 18 | ((3+x)-9)=12 | 3 x + 9 - 12 = | 3:puppy x:puppy +:puppy 9:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((3+x)+9)=12 | 3 x + 9 + 12 = | 3:puppy x:puppy +:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 1 | POS | INT | 17 | 7 | 7 | (x*3)=(9+12) | x 3 * 9 12 + = | x:LENGTH 3:puppy *:puppy 9:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 12=(3+(x-9)) | 12 3 x 9 - + = | 12:puppy 3:puppy x:puppy 9:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (12-(3-x))=9 | 12 3 x - - 9 = | 12:puppy 3:puppy x:puppy -:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | (12+(3-x))=9 | 12 3 x - + 9 = | 12:puppy 3:puppy x:puppy -:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | x=(3+(12-9)) | x 3 12 9 - + = | x:puppy 3:puppy 12:puppy 9:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 1 | x=(3/(12-9)) | x 3 12 9 - / = | x:LENGTH 3:LENGTH 12:puppy 9:puppy -:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 3=((x-9)+12) | 3 x 9 - 12 + = | 3:puppy x:puppy 9:puppy -:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | (12-(x-3))=9 | 12 x 3 - - 9 = | 12:puppy x:puppy 3:puppy -:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (12+(x-3))=9 | 12 x 3 - + 9 = | 12:puppy x:puppy 3:puppy -:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | ((x-3)+9)=12 | x 3 - 9 + 12 = | x:puppy 3:puppy -:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | x=(3-(12-9)) | x 3 12 9 - - = | x:puppy 3:puppy 12:puppy 9:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 13 | 12=(3*(x-9)) | 12 3 x 9 - * = | 12:puppy 3:puppy x:LENGTH 9:LENGTH -:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | (x-(3-9))=12 | x 3 9 - - 12 = | x:puppy 3:puppy 9:puppy -:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | (x+(3-9))=12 | x 3 9 - + 12 = | x:puppy 3:puppy 9:puppy -:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=(3-(x-9)) | 12 3 x 9 - - = | 12:puppy 3:puppy x:puppy 9:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | ((x-12)+3)=9 | x 12 - 3 + 9 = | x:puppy 12:puppy -:puppy 3:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((3-x)+9)=12 | 3 x - 9 + 12 = | 3:puppy x:puppy -:puppy 9:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 24 | (x-(12+3))=9 | x 12 3 + - 9 = | x:puppy 12:puppy 3:puppy +:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | ((3-12)+9)=x | 3 12 - 9 + x = | 3:puppy 12:puppy -:puppy 9:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((12-3)+x)=9 | 12 3 - x + 9 = | 12:puppy 3:puppy -:puppy x:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | ((12+3)-x)=9 | 12 3 + x - 9 = | 12:puppy 3:puppy +:puppy x:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | ((12-3)-x)=9 | 12 3 - x - 9 = | 12:puppy 3:puppy -:puppy x:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=(3+(x+9)) | 12 3 x 9 + + = | 12:puppy 3:puppy x:puppy 9:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (12-(3+x))=9 | 12 3 x + - 9 = | 12:puppy 3:puppy x:puppy +:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 3=(9-(x-12)) | 3 9 x 12 - - = | 3:puppy 9:puppy x:puppy 12:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 24 | 3=((x-9)-12) | 3 x 9 - 12 - = | 3:puppy x:puppy 9:puppy -:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 3=(9+(x-12)) | 3 9 x 12 - + = | 3:puppy 9:puppy x:puppy 12:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 1 | (12-3)=(x*9) | 12 3 - x 9 * = | 12:puppy 3:puppy -:puppy x:LENGTH 9:puppy *:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 3=((9+12)-x) | 3 9 12 + x - = | 3:puppy 9:puppy 12:puppy +:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 24 | ((x-12)-3)=9 | x 12 - 3 - 9 = | x:puppy 12:puppy -:puppy 3:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=((3+x)+9) | 12 3 x + 9 + = | 12:puppy 3:puppy x:puppy +:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 3=(x+(9-12)) | 3 x 9 12 - + = | 3:puppy x:puppy 9:puppy 12:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 3=((9-12)+x) | 3 9 12 - x + = | 3:puppy 9:puppy 12:puppy -:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | ((3-9)+x)=12 | 3 9 - x + 12 = | 3:puppy 9:puppy -:puppy x:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (3+(x+9))=12 | 3 x 9 + + 12 = | 3:puppy x:puppy 9:puppy +:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 3=(9+(12-x)) | 3 9 12 x - + = | 3:puppy 9:puppy 12:puppy x:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 9 | ((12-x)*3)=9 | 12 x - 3 * 9 = | 12:LENGTH x:LENGTH -:LENGTH 3:puppy *:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 5 | 12=(3*(9-x)) | 12 3 9 x - * = | 12:puppy 3:puppy 9:LENGTH x:LENGTH -:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 24 | 12=((x-3)-9) | 12 x 3 - 9 - = | 12:puppy x:puppy 3:puppy -:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (3+(9-x))=12 | 3 9 x - + 12 = | 3:puppy 9:puppy x:puppy -:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 3=((9+x)-12) | 3 9 x + 12 - = | 3:puppy 9:puppy x:puppy +:puppy 12:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | (3-(12-9))=x | 3 12 9 - - x = | 3:puppy 12:puppy 9:puppy -:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | (3+(12-9))=x | 3 12 9 - + x = | 3:puppy 12:puppy 9:puppy -:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 6 | 3=(9-(12-x)) | 3 9 12 x - - = | 3:puppy 9:puppy 12:puppy x:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=(3+(9+x)) | 12 3 9 x + + = | 12:puppy 3:puppy 9:puppy x:puppy +:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 9 | 3=(9/(12-x)) | 3 9 12 x - / = | 3:puppy 9:puppy 12:LENGTH x:LENGTH -:LENGTH /:puppy =:puppy
+EXPR: 1 | POS | INT | 17 | 7 | 7 | (3*x)=(9+12) | 3 x * 9 12 + = | 3:puppy x:LENGTH *:puppy 9:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 81 | (x/(12-3))=9 | x 12 3 - / 9 = | x:LENGTH 12:puppy 3:puppy -:puppy /:LENGTH 9:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 7 | 0 | 12=(3+(9-x)) | 12 3 9 x - + = | 12:puppy 3:puppy 9:puppy x:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (3+(9+x))=12 | 3 9 x + + 12 = | 3:puppy 9:puppy x:puppy +:puppy +:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | x=((3-12)+9) | x 3 12 - 9 + = | x:puppy 3:puppy 12:puppy -:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 3=((9-x)+12) | 3 9 x - 12 + = | 3:puppy 9:puppy x:puppy -:puppy 12:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 |  | (12-(x+3))=9 | 12 x 3 + - 9 = | 12:puppy x:puppy 3:puppy +:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | (3-(9-x))=12 | 3 9 x - - 12 = | 3:puppy 9:puppy x:puppy -:puppy -:puppy 12:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 15 | ((x-12)*3)=9 | x 12 - 3 * 9 = | x:LENGTH 12:LENGTH -:LENGTH 3:puppy *:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 18 | 12=(3-(9-x)) | 12 3 9 x - - = | 12:puppy 3:puppy 9:puppy x:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 1 | (12-3)=(9*x) | 12 3 - 9 x * = | 12:puppy 3:puppy -:puppy 9:puppy x:LENGTH *:puppy =:puppy
+EXPR: 0 | POS | INT | 17 | 7 | 1 | (12-3)=(9/x) | 12 3 - 9 x / = | 12:puppy 3:puppy -:puppy 9:puppy x:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 15 | (3*(x-12))=9 | 3 x 12 - * 9 = | 3:puppy x:LENGTH 12:LENGTH -:LENGTH *:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 6 | 3=(x-(12-9)) | 3 x 12 9 - - = | 3:puppy x:puppy 12:puppy 9:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 6 | ((3-x)+12)=9 | 3 x - 12 + 9 = | 3:puppy x:puppy -:puppy 12:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=((x+12)-9) | 3 x 12 + 9 - = | 3:puppy x:puppy 12:puppy +:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 9 | (3*(12-x))=9 | 3 12 x - * 9 = | 3:puppy 12:LENGTH x:LENGTH -:LENGTH *:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 5 | 3=(12/(9-x)) | 3 12 9 x - / = | 3:puppy 12:puppy 9:LENGTH x:LENGTH -:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | ((x+3)-12)=9 | x 3 + 12 - 9 = | x:puppy 3:puppy +:puppy 12:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 13 | 3=(12/(x-9)) | 3 12 x 9 - / = | 3:puppy 12:puppy x:LENGTH 9:LENGTH -:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 24 | ((x-3)-12)=9 | x 3 - 12 - 9 = | x:puppy 3:puppy -:puppy 12:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | ((3+x)-12)=9 | 3 x + 12 - 9 = | 3:puppy x:puppy +:puppy 12:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 |  | ((x-3)+12)=9 | x 3 - 12 + 9 = | x:puppy 3:puppy -:puppy 12:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | (3-(12-x))=9 | 3 12 x - - 9 = | 3:puppy 12:puppy x:puppy -:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=((12+x)-9) | 3 12 x + 9 - = | 3:puppy 12:puppy x:puppy +:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 6 | (3-(x-12))=9 | 3 x 12 - - 9 = | 3:puppy x:puppy 12:puppy -:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | (3+(x-12))=9 | 3 x 12 - + 9 = | 3:puppy x:puppy 12:puppy -:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 6 | 3=((x-12)+9) | 3 x 12 - 9 + = | 3:puppy x:puppy 12:puppy -:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 1 | (x*3)=(12-9) | x 3 * 12 9 - = | x:LENGTH 3:puppy *:puppy 12:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 |  | (x-(3-12))=9 | x 3 12 - - 9 = | x:puppy 3:puppy 12:puppy -:puppy -:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | (x+(3-12))=9 | x 3 12 - + 9 = | x:puppy 3:puppy 12:puppy -:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 6 | (3+(12-x))=9 | 3 12 x - + 9 = | 3:puppy 12:puppy x:puppy -:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=(12-(x+9)) | 3 12 x 9 + - = | 3:puppy 12:puppy x:puppy 9:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 24 | 3=((x-12)-9) | 3 x 12 - 9 - = | 3:puppy x:puppy 12:puppy -:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | 3=(12-(x-9)) | 3 12 x 9 - - = | 3:puppy 12:puppy x:puppy 9:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 9 | 3=(x/(12-9)) | 3 x 12 9 - / = | 3:LENGTH x:LENGTH 12:puppy 9:puppy -:puppy /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 19 | 7 | 18 | ((3-12)+x)=9 | 3 12 - x + 9 = | 3:puppy 12:puppy -:puppy x:puppy +:puppy 9:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 1 | (3/x)=(12-9) | 3 x / 12 9 - = | 3:puppy x:LENGTH /:puppy 12:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=(12+(x-9)) | 3 12 x 9 - + = | 3:puppy 12:puppy x:puppy 9:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | 3=((12-x)+9) | 3 12 x - 9 + = | 3:puppy 12:puppy x:puppy -:puppy 9:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=((12-x)-9) | 3 12 x - 9 - = | 3:puppy 12:puppy x:puppy -:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=((12-9)+x) | 3 12 9 - x + = | 3:puppy 12:puppy 9:puppy -:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=((12-9)-x) | 3 12 9 - x - = | 3:puppy 12:puppy 9:puppy -:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=(12-(9+x)) | 3 12 9 x + - = | 3:puppy 12:puppy 9:puppy x:puppy +:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=(x+(12-9)) | 3 x 12 9 - + = | 3:puppy x:puppy 12:puppy 9:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 18 | 3=(12+(9-x)) | 3 12 9 x - + = | 3:puppy 12:puppy 9:puppy x:puppy -:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 0 | 3=(12-(9-x)) | 3 12 9 x - - = | 3:puppy 12:puppy 9:puppy x:puppy -:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 19 | 7 | 1 | (3*x)=(12-9) | 3 x * 12 9 - = | 3:puppy x:LENGTH *:puppy 12:puppy 9:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 105 | x=((9*12)-3) | x 9 12 * 3 - = | x:LENGTH 9:puppy 12:LENGTH *:LENGTH 3:LENGTH -:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 20 | 7 | 111 | x=((9*12)+3) | x 9 12 * 3 + = | x:LENGTH 9:puppy 12:LENGTH *:LENGTH 3:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 20 | 7 | 111 | ((9*12)+3)=x | 9 12 * 3 + x = | 9:LENGTH 12:puppy *:puppy 3:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 105 | ((9*12)-3)=x | 9 12 * 3 - x = | 9:LENGTH 12:puppy *:puppy 3:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 5 | x=(9-(12/3)) | x 9 12 3 / - = | x:LENGTH 9:LENGTH 12:LENGTH 3:puppy /:LENGTH -:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 20 | 7 | 7 | x=((9+12)/3) | x 9 12 + 3 / = | x:puppy 9:puppy 12:puppy +:puppy 3:LENGTH /:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 45 | (9+(12*3))=x | 9 12 3 * + x = | 9:puppy 12:puppy 3:LENGTH *:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 13 | (9+(12/3))=x | 9 12 3 / + x = | 9:puppy 12:puppy 3:LENGTH /:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 5 | (9-(12/3))=x | 9 12 3 / - x = | 9:puppy 12:puppy 3:LENGTH /:puppy -:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 20 | 7 | 45 | x=(9+(12*3)) | x 9 12 3 * + = | x:LENGTH 9:LENGTH 12:puppy 3:LENGTH *:LENGTH +:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 20 | 7 | 7 | ((9+12)/3)=x | 9 12 + 3 / x = | 9:puppy 12:puppy +:puppy 3:LENGTH /:puppy x:puppy =:puppy
+NET 441 unique, non-negative, integer-valued solutions found out of 1000 total solutions

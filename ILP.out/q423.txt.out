@@ -1,0 +1,239 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 42 | 42 | x=(6.0*(13-6)) | x 6.0 13 6 - * = | x:money 6.0:money 13:bar 6:bar -:bar *:money =:money
+EXPR: 0 | POS | INT | 0 | 42 | 114 | x=(6.0*(13+6)) | x 6.0 13 6 + * = | x:money 6.0:money 13:bar 6:bar +:bar *:money =:money
+EXPR: 1 | POS | INT | 0 | 42 | 42 | (6.0*(13-6))=x | 6.0 13 6 - * x = | 6.0:money 13:bar 6:bar -:bar *:money x:money =:money
+EXPR: 0 | POS | INT | 0 | 42 | 114 | (6.0*(13+6))=x | 6.0 13 6 + * x = | 6.0:money 13:bar 6:bar +:bar *:money x:money =:money
+EXPR: 1 | POS | INT | 2 | 42 | 42 | 6.0=(x/(13-6)) | 6.0 x 13 6 - / = | 6.0:money x:money 13:bar 6:bar -:bar /:money =:money
+EXPR: 0 | POS | INT | 2 | 42 | 114 | 6.0=(x/(13+6)) | 6.0 x 13 6 + / = | 6.0:money x:money 13:bar 6:bar +:bar /:money =:money
+EXPR: 0 | POS | INT | 5 | 42 | 114 | ((13+6)*6.0)=x | 13 6 + 6.0 * x = | 13:bar 6:bar +:bar 6.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 5 | 42 | 42 | x=((13-6)*6.0) | x 13 6 - 6.0 * = | x:money 13:bar 6:bar -:bar 6.0:money *:money =:money
+EXPR: 0 | POS | INT | 5 | 42 | 114 | x=((13+6)*6.0) | x 13 6 + 6.0 * = | x:money 13:bar 6:bar +:bar 6.0:money *:money =:money
+EXPR: 1 | POS | INT | 5 | 42 | 42 | ((13-6)*6.0)=x | 13 6 - 6.0 * x = | 13:bar 6:bar -:bar 6.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 7 | 42 | 42 | (x/(13-6))=6.0 | x 13 6 - / 6.0 = | x:money 13:bar 6:bar -:bar /:money 6.0:money =:money
+EXPR: 0 | POS | INT | 7 | 42 | 114 | (x/(13+6))=6.0 | x 13 6 + / 6.0 = | x:money 13:bar 6:bar +:bar /:money 6.0:money =:money
+EXPR: 0 | POS | INT | 10 | 42 | 84 | x=((6.0*13)+6) | x 6.0 13 * 6 + = | x:money 6.0:money 13:bar *:money 6:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 42 | 84 | ((6.0*13)+6)=x | 6.0 13 * 6 + x = | 6.0:money 13:bar *:bar 6:bar +:bar x:bar =:bar
+EXPR: 0 | POS | INT | 10 | 42 | 72 | ((6.0*13)-6)=x | 6.0 13 * 6 - x = | 6.0:money 13:bar *:bar 6:bar -:bar x:bar =:bar
+EXPR: 0 | POS | INT | 10 | 42 | 84 | x=(6.0+(13*6)) | x 6.0 13 6 * + = | x:money 6.0:money 13:bar 6:money *:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 42 | 72 | x=((6.0*13)-6) | x 6.0 13 * 6 - = | x:bar 6.0:money 13:bar *:bar 6:bar -:bar =:bar
+EXPR: 0 | POS | INT | 10 | 42 | 114 | x=((6.0+13)*6) | x 6.0 13 + 6 * = | x:money 6.0:money 13:money +:money 6:bar *:money =:money
+EXPR: 0 | POS | INT | 10 | 42 | 114 | ((6.0+13)*6)=x | 6.0 13 + 6 * x = | 6.0:money 13:money +:money 6:bar *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 42 | 84 | (6.0+(13*6))=x | 6.0 13 6 * + x = | 6.0:money 13:money 6:bar *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 |  | (6.0+(x/13))=6 | 6.0 x 13 / + 6 = | 6.0:money x:money 13:bar /:money +:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 |  | (6.0-(x/13))=6 | 6.0 x 13 / - 6 = | 6.0:money x:money 13:bar /:money -:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 |  | (6.0+(x*13))=6 | 6.0 x 13 * + 6 = | 6.0:bar x:money 13:bar *:bar +:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 |  | (6.0-(x*13))=6 | 6.0 x 13 * - 6 = | 6.0:money x:money 13:bar *:money -:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 |  | x=(13*(6.0-6)) | x 13 6.0 6 - * = | x:money 13:bar 6.0:money 6:money -:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 49 | ((6.0*6)+13)=x | 6.0 6 * 13 + x = | 6.0:money 6:bar *:bar 13:bar +:bar x:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 84 | ((x-6.0)/13)=6 | x 6.0 - 13 / 6 = | x:money 6.0:money -:money 13:bar /:money 6:money =:money
+EXPR: 1 | POS | INT | 12 | 42 | 42 | x=((13-6.0)*6) | x 13 6.0 - 6 * = | x:money 13:money 6.0:money -:money 6:bar *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 |  | (6.0+(13*x))=6 | 6.0 13 x * + 6 = | 6.0:money 13:bar x:money *:money +:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 23 | ((6.0*6)-13)=x | 6.0 6 * 13 - x = | 6.0:money 6:bar *:bar 13:bar -:bar x:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 |  | (6.0-(13*x))=6 | 6.0 13 x * - 6 = | 6.0:money 13:bar x:money *:money -:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 72 | ((6.0*13)-x)=6 | 6.0 13 * x - 6 = | 6.0:money 13:bar *:bar x:bar -:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 49 | (13+(6.0*6))=x | 13 6.0 6 * + x = | 13:bar 6.0:money 6:bar *:bar +:bar x:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 72 | ((x+6.0)/13)=6 | x 6.0 + 13 / 6 = | x:money 6.0:money +:money 13:bar /:money 6:money =:money
+EXPR: 1 | POS | INT | 12 | 42 | 42 | ((13-6.0)*6)=x | 13 6.0 - 6 * x = | 13:money 6.0:money -:money 6:bar *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 156 | (13*(6.0+6))=x | 13 6.0 6 + * x = | 13:bar 6.0:money 6:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 14 | (6.0*(x-13))=6 | 6.0 x 13 - * 6 = | 6.0:money x:bar 13:bar -:bar *:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 72 | ((6.0+x)/13)=6 | 6.0 x + 13 / 6 = | 6.0:money x:money +:money 13:bar /:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 49 | x=(13+(6.0*6)) | x 13 6.0 6 * + = | x:bar 13:bar 6.0:money 6:bar *:bar +:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 14 | ((6.0/6)+13)=x | 6.0 6 / 13 + x = | 6.0:money 6:bar /:money 13:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 156 | x=(13*(6.0+6)) | x 13 6.0 6 + * = | x:money 13:bar 6.0:money 6:money +:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 12 | (6.0*(13-x))=6 | 6.0 13 x - * 6 = | 6.0:money 13:bar x:bar -:bar *:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 0 | (13*(6.0-6))=x | 13 6.0 6 - * x = | 13:bar 6.0:money 6:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 23 | x=((6.0*6)-13) | x 6.0 6 * 13 - = | x:money 6.0:money 6:bar *:money 13:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 14 | x=((6.0/6)+13) | x 6.0 6 / 13 + = | x:money 6.0:money 6:bar /:money 13:money +:money =:money
+EXPR: 1 | POS | INT | 12 | 42 | 42 | 6.0=(13-(x/6)) | 6.0 13 x 6 / - = | 6.0:money 13:money x:money 6:bar /:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 49 | x=((6.0*6)+13) | x 6.0 6 * 13 + = | x:bar 6.0:money 6:bar *:bar 13:bar +:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 84 | 6.0=(x-(13*6)) | 6.0 x 13 6 * - = | 6.0:money x:money 13:money 6:bar *:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 42 |  | x=((6.0-6)/13) | x 6.0 6 - 13 / = | x:money 6.0:money 6:money -:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 114 | ((x/6.0)-13)=6 | x 6.0 / 13 - 6 = | x:bar 6.0:money /:bar 13:bar -:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | - | 6.0=((13/x)+6) | 6.0 13 x / 6 + = | 6.0:bar 13:bar x:money /:bar 6:bar +:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 0 | 6.0=((13*x)+6) | 6.0 13 x * 6 + = | 6.0:bar 13:bar x:money *:bar 6:bar +:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 13 | (6.0*13)=(x*6) | 6.0 13 * x 6 * = | 6.0:money 13:bar *:bar x:money 6:bar *:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 |  | x=((6.0-6)*13) | x 6.0 6 - 13 * = | x:money 6.0:money 6:money -:money 13:bar *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 156 | x=((6.0+6)*13) | x 6.0 6 + 13 * = | x:money 6.0:money 6:money +:money 13:bar *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 12 | (13-(6.0/6))=x | 13 6.0 6 / - x = | 13:money 6.0:money 6:bar /:money -:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 14 | (13+(6.0/6))=x | 13 6.0 6 / + x = | 13:money 6.0:money 6:bar /:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 49 | 6.0=((x-13)/6) | 6.0 x 13 - 6 / = | 6.0:money x:money 13:money -:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 14 | 6.0=((x-13)*6) | 6.0 x 13 - 6 * = | 6.0:money x:money 13:money -:money 6:bar *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 23 | 6.0=((13+x)/6) | 6.0 13 x + 6 / = | 6.0:money 13:money x:money +:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 72 | 6.0=((13*6)-x) | 6.0 13 6 * x - = | 6.0:money 13:bar 6:money *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 12 | x=(13-(6.0/6)) | x 13 6.0 6 / - = | x:money 13:money 6.0:money 6:bar /:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 23 | 6.0=((x+13)/6) | 6.0 x 13 + 6 / = | 6.0:money x:money 13:money +:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 13 | (6.0*13)=(6*x) | 6.0 13 * 6 x * = | 6.0:money 13:bar *:bar 6:bar x:money *:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 14 | x=(13+(6.0/6)) | x 13 6.0 6 / + = | x:money 13:money 6.0:money 6:bar /:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | - | (6.0+(13/x))=6 | 6.0 13 x / + 6 = | 6.0:bar 13:bar x:money /:bar +:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | - | (6.0-(13/x))=6 | 6.0 13 x / - 6 = | 6.0:bar 13:bar x:money /:bar -:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 12 | 42 | 84 | (x-(6.0*13))=6 | x 6.0 13 * - 6 = | x:money 6.0:money 13:bar *:money -:money 6:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 0 | ((6.0-6)/13)=x | 6.0 6 - 13 / x = | 6.0:money 6:money -:money 13:bar /:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 468 | (6.0*13)=(x/6) | 6.0 13 * x 6 / = | 6.0:money 13:bar *:money x:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 156 | ((6.0+6)*13)=x | 6.0 6 + 13 * x = | 6.0:money 6:money +:money 13:bar *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 156 | 6.0=((x/13)-6) | 6.0 x 13 / 6 - = | 6.0:money x:money 13:bar /:money 6:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 0 | ((6.0-6)*13)=x | 6.0 6 - 13 * x = | 6.0:money 6:money -:money 13:bar *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 12 | 6.0=((13-x)*6) | 6.0 13 x - 6 * = | 6.0:money 13:money x:money -:money 6:bar *:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 0 | 6.0=((x/13)+6) | 6.0 x 13 / 6 + = | 6.0:money x:money 13:bar /:money 6:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 42 | 0 | 6.0=((x*13)+6) | 6.0 x 13 * 6 + = | 6.0:bar x:money 13:bar *:bar 6:bar +:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 23 | ((6.0*6)-x)=13 | 6.0 6 * x - 13 = | 6.0:money 6:bar *:bar x:bar -:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 12 | ((6.0/6)+x)=13 | 6.0 6 / x + 13 = | 6.0:money 6:bar /:money x:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 114 | 13=((x/6.0)-6) | 13 x 6.0 / 6 - = | 13:bar x:bar 6.0:money /:bar 6:bar -:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 6.0=(6+(x/13)) | 6.0 6 x 13 / + = | 6.0:money 6:money x:money 13:bar /:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 84 | 13=((x-6.0)/6) | 13 x 6.0 - 6 / = | 13:money x:money 6.0:money -:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 6.0=(6+(x*13)) | 6.0 6 x 13 * + = | 6.0:money 6:money x:money 13:bar *:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 14 | 13=(x-(6.0/6)) | 13 x 6.0 6 / - = | 13:money x:money 6.0:money 6:bar /:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 42 | 42 | ((x/6.0)+6)=13 | x 6.0 / 6 + 13 = | x:bar 6.0:money /:bar 6:bar +:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 49 | 13=(x-(6.0*6)) | 13 x 6.0 6 * - = | 13:money x:money 6.0:money 6:bar *:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 72 | 13=((x+6.0)/6) | 13 x 6.0 + 6 / = | 13:money x:money 6.0:money +:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | 13=(x*(6.0-6)) | 13 x 6.0 6 - * = | 13:bar x:money 6.0:bar 6:bar -:bar *:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 6.0=(6-(x*13)) | 6.0 6 x 13 * - = | 6.0:money 6:money x:money 13:bar *:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 42 | 42 | 13=((x/6.0)+6) | 13 x 6.0 / 6 + = | 13:bar x:bar 6.0:money /:bar 6:bar +:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 6.0=(6-(x/13)) | 6.0 6 x 13 / - = | 6.0:money 6:money x:money 13:bar /:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 12 | 13=(x+(6.0/6)) | 13 x 6.0 6 / + = | 13:money x:money 6.0:money 6:bar /:money +:money =:money
+EXPR: 1 | POS | INT | 14 | 42 | 42 | (6.0+(x/6))=13 | 6.0 x 6 / + 13 = | 6.0:money x:money 6:bar /:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 |  | ((13*x)+6.0)=6 | 13 x * 6.0 + 6 = | 13:bar x:money *:money 6.0:money +:money 6:money =:money
+EXPR: 1 | POS | INT | 14 | 42 | 42 | (13-(x/6.0))=6 | 13 x 6.0 / - 6 = | 13:bar x:bar 6.0:money /:bar -:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 156 | ((x/13)-6.0)=6 | x 13 / 6.0 - 6 = | x:money 13:bar /:money 6.0:money -:money 6:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 6.0=(6+(13*x)) | 6.0 6 13 x * + = | 6.0:money 6:money 13:bar x:money *:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 42 |  | ((x*13)+6.0)=6 | x 13 * 6.0 + 6 = | x:money 13:bar *:bar 6.0:bar +:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 6.0=(6-(13*x)) | 6.0 6 13 x * - = | 6.0:money 6:money 13:bar x:money *:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 72 | ((6.0+x)/6)=13 | 6.0 x + 6 / 13 = | 6.0:money x:money +:money 6:bar /:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 14 | ((x-13)*6.0)=6 | x 13 - 6.0 * 6 = | x:bar 13:bar -:bar 6.0:money *:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 |  | ((x/13)+6.0)=6 | x 13 / 6.0 + 6 = | x:money 13:bar /:money 6.0:money +:money 6:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | ((13/x)+6.0)=6 | 13 x / 6.0 + 6 = | 13:bar x:money /:bar 6.0:bar +:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | - | (x*(6.0-6))=13 | x 6.0 6 - * 13 = | x:money 6.0:bar 6:bar -:bar *:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 114 | ((x/6.0)-6)=13 | x 6.0 / 6 - 13 = | x:bar 6.0:money /:bar 6:bar -:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 468 | (6.0*6)=(x/13) | 6.0 6 * x 13 / = | 6.0:money 6:bar *:money x:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 14 | 6.0=(6*(x-13)) | 6.0 6 x 13 - * = | 6.0:money 6:bar x:money 13:money -:money *:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | ((6.0-6)*x)=13 | 6.0 6 - x * 13 = | 6.0:bar 6:bar -:bar x:money *:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 49 | ((x-13)/6.0)=6 | x 13 - 6.0 / 6 = | x:bar 13:bar -:bar 6.0:money /:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 14 | (x-(6.0/6))=13 | x 6.0 6 / - 13 = | x:money 6.0:money 6:bar /:money -:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | 13=((6.0-6)/x) | 13 6.0 6 - x / = | 13:bar 6.0:bar 6:bar -:bar x:money /:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 13 | (6.0/6)=(x/13) | 6.0 6 / x 13 / = | 6.0:money 6:bar /:money x:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 23 | ((x+13)/6.0)=6 | x 13 + 6.0 / 6 = | x:bar 13:bar +:bar 6.0:money /:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 72 | 6.0=((x+6)/13) | 6.0 x 6 + 13 / = | 6.0:money x:money 6:money +:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 468 | (x/13)=(6.0*6) | x 13 / 6.0 6 * = | x:money 13:bar /:money 6.0:money 6:bar *:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | 13=((6.0-6)*x) | 13 6.0 6 - x * = | 13:bar 6.0:bar 6:bar -:bar x:money *:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 72 | 6.0=((6+x)/13) | 6.0 6 x + 13 / = | 6.0:money 6:money x:money +:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 84 | 6.0=((x-6)/13) | 6.0 x 6 - 13 / = | 6.0:money x:money 6:money -:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 12 | 13=((6.0/6)+x) | 13 6.0 6 / x + = | 13:money 6.0:money 6:bar /:money x:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 84 | ((x-6.0)/6)=13 | x 6.0 - 6 / 13 = | x:money 6.0:money -:money 6:bar /:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | 6.0=(6-(13/x)) | 6.0 6 13 x / - = | 6.0:bar 6:bar 13:bar x:money /:bar -:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 23 | ((13+x)/6.0)=6 | 13 x + 6.0 / 6 = | 13:bar x:bar +:bar 6.0:money /:bar 6:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 12 | 6.0=(6*(13-x)) | 6.0 6 13 x - * = | 6.0:money 6:bar 13:money x:money -:money *:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 23 | 13=((6.0*6)-x) | 13 6.0 6 * x - = | 13:money 6.0:money 6:bar *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | 6.0=(6+(13/x)) | 6.0 6 13 x / + = | 6.0:bar 6:bar 13:bar x:money /:bar +:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 72 | ((x+6.0)/6)=13 | x 6.0 + 6 / 13 = | x:money 6.0:money +:money 6:bar /:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 12 | (x+(6.0/6))=13 | x 6.0 6 / + 13 = | x:money 6.0:money 6:bar /:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 13 | (x/13)=(6.0/6) | x 13 / 6.0 6 / = | x:money 13:bar /:money 6.0:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 114 | 6.0=((x/6)-13) | 6.0 x 6 / 13 - = | 6.0:money x:money 6:bar /:money 13:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 72 | 13=((6.0+x)/6) | 13 6.0 x + 6 / = | 13:money 6.0:money x:money +:money 6:bar /:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | 49 | (x-(6.0*6))=13 | x 6.0 6 * - 13 = | x:money 6.0:money 6:bar *:money -:money 13:money =:money
+EXPR: 0 | POS | INT | 14 | 42 | - | ((6.0-6)/x)=13 | 6.0 6 - x / 13 = | 6.0:bar 6:bar -:bar x:money /:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 14 | 42 | 12 | ((13-x)*6.0)=6 | 13 x - 6.0 * 6 = | 13:bar x:bar -:bar 6.0:money *:bar 6:bar =:bar
+EXPR: 1 | POS | INT | 14 | 42 | 42 | 13=(6.0+(x/6)) | 13 6.0 x 6 / + = | 13:money 6.0:money x:money 6:bar /:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 72 | x=((13*6)-6.0) | x 13 6 * 6.0 - = | x:money 13:bar 6:money *:money 6.0:money -:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 84 | x=((13*6)+6.0) | x 13 6 * 6.0 + = | x:money 13:bar 6:money *:money 6.0:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 84 | x=(6+(6.0*13)) | x 6 6.0 13 * + = | x:bar 6:bar 6.0:money 13:bar *:bar +:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 72 | ((13*6)-6.0)=x | 13 6 * 6.0 - x = | 13:bar 6:money *:money 6.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 14 | (13+(6/6.0))=x | 13 6 6.0 / + x = | 13:bar 6:bar 6.0:money /:bar +:bar x:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 84 | ((13*6)+6.0)=x | 13 6 * 6.0 + x = | 13:bar 6:money *:money 6.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 12 | x=(13-(6/6.0)) | x 13 6 6.0 / - = | x:bar 13:bar 6:bar 6.0:money /:bar -:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 14 | x=(13+(6/6.0)) | x 13 6 6.0 / + = | x:bar 13:bar 6:bar 6.0:money /:bar +:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 114 | (6*(6.0+13))=x | 6 6.0 13 + * x = | 6:bar 6.0:money 13:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 84 | (6+(6.0*13))=x | 6 6.0 13 * + x = | 6:bar 6.0:money 13:bar *:bar +:bar x:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 114 | x=(6*(6.0+13)) | x 6 6.0 13 + * = | x:money 6:bar 6.0:money 13:money +:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 0 | (13*(6-6.0))=x | 13 6 6.0 - * x = | 13:bar 6:money 6.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 12 | (13-(6/6.0))=x | 13 6 6.0 / - x = | 13:bar 6:bar 6.0:money /:bar -:bar x:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 0 | ((6-6.0)/13)=x | 6 6.0 - 13 / x = | 6:money 6.0:money -:money 13:bar /:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 42 |  | x=(13*(6-6.0)) | x 13 6 6.0 - * = | x:money 13:bar 6:money 6.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 14 | x=((6/6.0)+13) | x 6 6.0 / 13 + = | x:bar 6:bar 6.0:money /:bar 13:bar +:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 |  | x=((6-6.0)/13) | x 6 6.0 - 13 / = | x:money 6:money 6.0:money -:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 15 | 42 | 14 | ((6/6.0)+13)=x | 6 6.0 / 13 + x = | 6:bar 6.0:money /:bar 13:bar +:bar x:bar =:bar
+EXPR: 0 | POS | INT | 15 | 42 | 0 | ((6-6.0)*13)=x | 6 6.0 - 13 * x = | 6:money 6.0:money -:money 13:bar *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 42 |  | x=((6-6.0)*13) | x 6 6.0 - 13 * = | x:money 6:money 6.0:money -:money 13:bar *:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 12 | 6=(6.0*(13-x)) | 6 6.0 13 x - * = | 6:bar 6.0:money 13:bar x:bar -:bar *:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 14 | 6=(6.0*(x-13)) | 6 6.0 x 13 - * = | 6:bar 6.0:money x:bar 13:bar -:bar *:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 156 | ((x/13)-6)=6.0 | x 13 / 6 - 6.0 = | x:money 13:bar /:money 6:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 72 | ((13*6)-x)=6.0 | 13 6 * x - 6.0 = | 13:money 6:bar *:money x:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 114 | 6=((x/6.0)-13) | 6 x 6.0 / 13 - = | 6:bar x:bar 6.0:money /:bar 13:bar -:bar =:bar
+EXPR: 1 | POS | INT | 17 | 42 | 42 | (6+(x/6.0))=13 | 6 x 6.0 / + 13 = | 6:bar x:bar 6.0:money /:bar +:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 13 | (6/6.0)=(13/x) | 6 6.0 / 13 x / = | 6:bar 6.0:money /:bar 13:bar x:money /:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 14 | (x-(6/6.0))=13 | x 6 6.0 / - 13 = | x:bar 6:bar 6.0:money /:bar -:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 72 | 6=((6.0*13)-x) | 6 6.0 13 * x - = | 6:bar 6.0:money 13:bar *:bar x:bar -:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 84 | 6=((x-6.0)/13) | 6 x 6.0 - 13 / = | 6:money x:money 6.0:money -:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 72 | 6=((x+6.0)/13) | 6 x 6.0 + 13 / = | 6:money x:money 6.0:money +:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 84 | 6=(x-(6.0*13)) | 6 x 6.0 13 * - = | 6:bar x:bar 6.0:money 13:bar *:bar -:bar =:bar
+EXPR: 1 | POS | INT | 17 | 42 | 42 | (13-(x/6))=6.0 | 13 x 6 / - 6.0 = | 13:money x:money 6:bar /:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 0 | 6=(6.0-(13*x)) | 6 6.0 13 x * - = | 6:money 6.0:money 13:bar x:money *:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 12 | (x+(6/6.0))=13 | x 6 6.0 / + 13 = | x:bar 6:bar 6.0:money /:bar +:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | - | 13=(x*(6-6.0)) | 13 x 6 6.0 - * = | 13:bar x:money 6:bar 6.0:bar -:bar *:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 0 | 6=(6.0+(13*x)) | 6 6.0 13 x * + = | 6:money 6.0:money 13:bar x:money *:money +:money =:money
+EXPR: 1 | POS | INT | 17 | 42 | 42 | (6*(13-6.0))=x | 6 13 6.0 - * x = | 6:bar 13:money 6.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | - | ((13/x)+6)=6.0 | 13 x / 6 + 6.0 = | 13:bar x:money /:bar 6:bar +:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 114 | ((x/6)-6.0)=13 | x 6 / 6.0 - 13 = | x:money 6:bar /:money 6.0:money -:money 13:money =:money
+EXPR: 1 | POS | INT | 17 | 42 | 42 | x=(6*(13-6.0)) | x 6 13 6.0 - * = | x:money 6:bar 13:money 6.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 84 | ((x-6)/6.0)=13 | x 6 - 6.0 / 13 = | x:bar 6:bar -:bar 6.0:money /:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 12 | 13=((6/6.0)+x) | 13 6 6.0 / x + = | 13:bar 6:bar 6.0:money /:bar x:bar +:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | - | 13=((6-6.0)/x) | 13 6 6.0 - x / = | 13:bar 6:bar 6.0:bar -:bar x:money /:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 14 | 13=(x-(6/6.0)) | 13 x 6 6.0 / - = | 13:bar x:bar 6:bar 6.0:money /:bar -:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 23 | ((13+x)/6)=6.0 | 13 x + 6 / 6.0 = | 13:money x:money +:money 6:bar /:money 6.0:money =:money
+EXPR: 1 | POS | INT | 17 | 42 | 42 | 13=(6+(x/6.0)) | 13 6 x 6.0 / + = | 13:bar 6:bar x:bar 6.0:money /:bar +:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | - | 13=((6-6.0)*x) | 13 6 6.0 - x * = | 13:bar 6:bar 6.0:bar -:bar x:money *:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 13 | (x*6)=(6.0*13) | x 6 * 6.0 13 * = | x:money 6:bar *:bar 6.0:money 13:bar *:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 12 | ((13-x)*6)=6.0 | 13 x - 6 * 6.0 = | 13:money x:money -:money 6:bar *:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 84 | (x-(13*6))=6.0 | x 13 6 * - 6.0 = | x:money 13:bar 6:money *:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 |  | ((13*x)+6)=6.0 | 13 x * 6 + 6.0 = | 13:bar x:money *:bar 6:bar +:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 13 | (6*x)=(6.0*13) | 6 x * 6.0 13 * = | 6:bar x:money *:bar 6.0:money 13:bar *:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 |  | ((x/13)+6)=6.0 | x 13 / 6 + 6.0 = | x:money 13:bar /:money 6:money +:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 72 | 6=((6.0+x)/13) | 6 6.0 x + 13 / = | 6:money 6.0:money x:money +:money 13:bar /:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 0 | 6=(6.0-(x/13)) | 6 6.0 x 13 / - = | 6:money 6.0:money x:money 13:bar /:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 0 | 6=(6.0-(x*13)) | 6 6.0 x 13 * - = | 6:bar 6.0:bar x:money 13:bar *:bar -:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 72 | ((x+6)/6.0)=13 | x 6 + 6.0 / 13 = | x:bar 6:bar +:bar 6.0:money /:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 12 | ((6/6.0)+x)=13 | 6 6.0 / x + 13 = | 6:bar 6.0:money /:bar x:bar +:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 12 | 13=(x+(6/6.0)) | 13 x 6 6.0 / + = | 13:bar x:bar 6:bar 6.0:money /:bar +:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 72 | 13=((6+x)/6.0) | 13 6 x + 6.0 / = | 13:bar 6:bar x:bar +:bar 6.0:money /:bar =:bar
+EXPR: 1 | POS | INT | 17 | 42 | 42 | ((x/6)+6.0)=13 | x 6 / 6.0 + 13 = | x:money 6:bar /:money 6.0:money +:money 13:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | - | 6=(6.0-(13/x)) | 6 6.0 13 x / - = | 6:bar 6.0:bar 13:bar x:money /:bar -:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | - | 6=(6.0+(13/x)) | 6 6.0 13 x / + = | 6:bar 6.0:bar 13:bar x:money /:bar +:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 72 | ((6+x)/6.0)=13 | 6 x + 6.0 / 13 = | 6:bar x:bar +:bar 6.0:money /:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 0 | 6=(6.0+(x/13)) | 6 6.0 x 13 / + = | 6:money 6.0:money x:money 13:bar /:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 468 | (x/6)=(6.0*13) | x 6 / 6.0 13 * = | x:money 6:bar /:money 6.0:money 13:bar *:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 114 | 13=((x/6)-6.0) | 13 x 6 / 6.0 - = | 13:money x:money 6:bar /:money 6.0:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | - | ((6-6.0)*x)=13 | 6 6.0 - x * 13 = | 6:bar 6.0:bar -:bar x:money *:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 0 | 6=(6.0+(x*13)) | 6 6.0 x 13 * + = | 6:bar 6.0:bar x:money 13:bar *:bar +:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 49 | ((x-13)/6)=6.0 | x 13 - 6 / 6.0 = | x:money 13:money -:money 6:bar /:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 |  | ((x*13)+6)=6.0 | x 13 * 6 + 6.0 = | x:money 13:bar *:bar 6:bar +:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 23 | ((x+13)/6)=6.0 | x 13 + 6 / 6.0 = | x:money 13:money +:money 6:bar /:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 14 | ((x-13)*6)=6.0 | x 13 - 6 * 6.0 = | x:money 13:money -:money 6:bar *:money 6.0:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | - | (x*(6-6.0))=13 | x 6 6.0 - * 13 = | x:money 6:bar 6.0:bar -:bar *:bar 13:bar =:bar
+EXPR: 1 | POS | INT | 17 | 42 | 42 | 13=((x/6)+6.0) | 13 x 6 / 6.0 + = | 13:money x:money 6:bar /:money 6.0:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 42 | 84 | 13=((x-6)/6.0) | 13 x 6 - 6.0 / = | 13:bar x:bar 6:bar -:bar 6.0:money /:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | 72 | 13=((x+6)/6.0) | 13 x 6 + 6.0 / = | 13:bar x:bar 6:bar +:bar 6.0:money /:bar =:bar
+EXPR: 0 | POS | INT | 17 | 42 | - | ((6-6.0)/x)=13 | 6 6.0 - x / 13 = | 6:bar 6.0:bar -:bar x:money /:bar 13:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 114 | ((x/6)-13)=6.0 | x 6 / 13 - 6.0 = | x:money 6:bar /:money 13:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 | 23 | 6=((x+13)/6.0) | 6 x 13 + 6.0 / = | 6:bar x:bar 13:bar +:bar 6.0:money /:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 49 | 6=((x-13)/6.0) | 6 x 13 - 6.0 / = | 6:bar x:bar 13:bar -:bar 6.0:money /:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 156 | 6=((x/13)-6.0) | 6 x 13 / 6.0 - = | 6:money x:money 13:bar /:money 6.0:money -:money =:money
+EXPR: 0 | POS | INT | 19 | 42 |  | (6+(x*13))=6.0 | 6 x 13 * + 6.0 = | 6:bar x:money 13:bar *:bar +:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 |  | (6+(x/13))=6.0 | 6 x 13 / + 6.0 = | 6:money x:money 13:bar /:money +:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 |  | (6-(x/13))=6.0 | 6 x 13 / - 6.0 = | 6:money x:money 13:bar /:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 |  | (6-(13*x))=6.0 | 6 13 x * - 6.0 = | 6:bar 13:bar x:money *:bar -:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 |  | (6+(13*x))=6.0 | 6 13 x * + 6.0 = | 6:bar 13:bar x:money *:bar +:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 12 | (6*(13-x))=6.0 | 6 13 x - * 6.0 = | 6:bar 13:money x:money -:money *:money 6.0:money =:money
+EXPR: 1 | POS | INT | 19 | 42 | 42 | 6=(13-(x/6.0)) | 6 13 x 6.0 / - = | 6:bar 13:bar x:bar 6.0:money /:bar -:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 14 | (6*(x-13))=6.0 | 6 x 13 - * 6.0 = | 6:bar x:money 13:money -:money *:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 | 14 | 6=((x-13)*6.0) | 6 x 13 - 6.0 * = | 6:bar x:bar 13:bar -:bar 6.0:money *:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 0 | 6=((x*13)+6.0) | 6 x 13 * 6.0 + = | 6:bar x:money 13:bar *:bar 6.0:bar +:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 |  | (6-(x*13))=6.0 | 6 x 13 * - 6.0 = | 6:money x:money 13:bar *:money -:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 | - | 6=((13/x)+6.0) | 6 13 x / 6.0 + = | 6:bar 13:bar x:money /:bar 6.0:bar +:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 0 | 6=((13*x)+6.0) | 6 13 x * 6.0 + = | 6:bar 13:bar x:money *:bar 6.0:bar +:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | - | (6-(13/x))=6.0 | 6 13 x / - 6.0 = | 6:bar 13:bar x:money /:bar -:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | - | (6+(13/x))=6.0 | 6 13 x / + 6.0 = | 6:bar 13:bar x:money /:bar +:bar 6.0:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 72 | ((6+x)/13)=6.0 | 6 x + 13 / 6.0 = | 6:money x:money +:money 13:bar /:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 | 23 | 6=((13+x)/6.0) | 6 13 x + 6.0 / = | 6:bar 13:bar x:bar +:bar 6.0:money /:bar =:bar
+EXPR: 0 | POS | INT | 19 | 42 | 84 | ((x-6)/13)=6.0 | x 6 - 13 / 6.0 = | x:money 6:money -:money 13:bar /:money 6.0:money =:money
+EXPR: 0 | POS | INT | 19 | 42 | 0 | 6=((x/13)+6.0) | 6 x 13 / 6.0 + = | 6:money x:money 13:bar /:money 6.0:money +:money =:money
+NET 235 unique, non-negative, integer-valued solutions found out of 1000 total solutions

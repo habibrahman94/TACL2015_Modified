@@ -1,0 +1,241 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 12 | 12 | ((6-2)*3)=x | 6 2 - 3 * x = | 6:enemy 2:enemy -:enemy 3:point *:point x:point =:point
+EXPR: 0 | POS | INT | 2 | 12 | 24 | ((6+2)*3)=x | 6 2 + 3 * x = | 6:enemy 2:enemy +:enemy 3:point *:point x:point =:point
+EXPR: 1 | POS | INT | 2 | 12 | 12 | x=((6-2)*3) | x 6 2 - 3 * = | x:point 6:enemy 2:enemy -:enemy 3:point *:point =:point
+EXPR: 0 | POS | INT | 2 | 12 | 6 | (6/(x-3))=2 | 6 x 3 - / 2 = | 6:enemy x:point 3:point -:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 2 | 12 | 0 | (6/(x+3))=2 | 6 x 3 + / 2 = | 6:enemy x:point 3:point +:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 2 | 12 | 24 | x=((6+2)*3) | x 6 2 + 3 * = | x:point 6:enemy 2:enemy +:enemy 3:point *:point =:point
+EXPR: 0 | POS | INT | 2 | 12 | 0 | (6/(3-x))=2 | 6 3 x - / 2 = | 6:enemy 3:point x:point -:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 2 | 12 | 24 | x=(3*(6+2)) | x 3 6 2 + * = | x:point 3:point 6:enemy 2:enemy +:enemy *:point =:point
+EXPR: 1 | POS | INT | 2 | 12 | 12 | x=(3*(6-2)) | x 3 6 2 - * = | x:point 3:point 6:enemy 2:enemy -:enemy *:point =:point
+EXPR: 0 | POS | INT | 2 | 12 | 6 | 6=((x-3)*2) | 6 x 3 - 2 * = | 6:enemy x:point 3:point -:point 2:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 2 | 12 | 24 | (3*(6+2))=x | 3 6 2 + * x = | 3:point 6:enemy 2:enemy +:enemy *:point x:point =:point
+EXPR: 0 | POS | INT | 2 | 12 | 0 | (6/(3+x))=2 | 6 3 x + / 2 = | 6:enemy 3:point x:point +:point /:enemy 2:enemy =:enemy
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (3*(6-2))=x | 3 6 2 - * x = | 3:point 6:enemy 2:enemy -:enemy *:point x:point =:point
+EXPR: 0 | POS | INT | 2 | 12 | 0 | 6=((3-x)*2) | 6 3 x - 2 * = | 6:enemy 3:point x:point -:point 2:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 2 | 12 | 0 | 6=((x+3)*2) | 6 x 3 + 2 * = | 6:enemy x:point 3:point +:point 2:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 2 | 12 | 0 | 6=((3+x)*2) | 6 3 x + 2 * = | 6:enemy 3:point x:point +:point 2:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 4 | 12 | 24 | (x/(6+2))=3 | x 6 2 + / 3 = | x:point 6:enemy 2:enemy +:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 4 | 12 | 24 | 3=(x/(6+2)) | 3 x 6 2 + / = | 3:point x:point 6:enemy 2:enemy +:enemy /:point =:point
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (x/(6-2))=3 | x 6 2 - / 3 = | x:point 6:enemy 2:enemy -:enemy /:point 3:point =:point
+EXPR: 1 | POS | INT | 4 | 12 | 12 | 3=(x/(6-2)) | 3 x 6 2 - / = | 3:point x:point 6:enemy 2:enemy -:enemy /:point =:point
+EXPR: 0 | POS | INT | 4 | 12 | 0 | 6=(2*(x+3)) | 6 2 x 3 + * = | 6:enemy 2:enemy x:point 3:point +:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 4 | 12 | 6 | 6=(2*(x-3)) | 6 2 x 3 - * = | 6:enemy 2:enemy x:point 3:point -:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 4 | 12 | 0 | 6=(2*(3+x)) | 6 2 3 x + * = | 6:enemy 2:enemy 3:point x:point +:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 4 | 12 | 0 | 6=(2*(3-x)) | 6 2 3 x - * = | 6:enemy 2:enemy 3:point x:point -:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 | 0 | 2=(6/(x+3)) | 2 6 x 3 + / = | 2:enemy 6:enemy x:point 3:point +:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 |  | ((x+3)*2)=6 | x 3 + 2 * 6 = | x:point 3:point +:point 2:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 | 6 | ((x-3)*2)=6 | x 3 - 2 * 6 = | x:point 3:point -:point 2:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 | 0 | 2=(6/(3+x)) | 2 6 3 x + / = | 2:enemy 6:enemy 3:point x:point +:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 | 0 | 2=(6/(3-x)) | 2 6 3 x - / = | 2:enemy 6:enemy 3:point x:point -:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 |  | ((3+x)*2)=6 | 3 x + 2 * 6 = | 3:point x:point +:point 2:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 | 6 | 2=(6/(x-3)) | 2 6 x 3 - / = | 2:enemy 6:enemy x:point 3:point -:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 7 | 12 |  | ((3-x)*2)=6 | 3 x - 2 * 6 = | 3:point x:point -:point 2:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 9 | 12 | 6 | (2*(x-3))=6 | 2 x 3 - * 6 = | 2:enemy x:point 3:point -:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 9 | 12 |  | (2*(3+x))=6 | 2 3 x + * 6 = | 2:enemy 3:point x:point +:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 9 | 12 |  | (2*(x+3))=6 | 2 x 3 + * 6 = | 2:enemy x:point 3:point +:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 9 | 12 |  | (2*(3-x))=6 | 2 3 x - * 6 = | 2:enemy 3:point x:point -:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 6 | x=(6*(3-2)) | x 6 3 2 - * = | x:point 6:enemy 3:point 2:point -:point *:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 6 | ((6-3)*2)=x | 6 3 - 2 * x = | 6:point 3:point -:point 2:enemy *:point x:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 30 | x=(6*(3+2)) | x 6 3 2 + * = | x:point 6:enemy 3:point 2:point +:point *:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 0 | ((6/3)-2)=x | 6 3 / 2 - x = | 6:enemy 3:point /:enemy 2:enemy -:enemy x:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 4 | ((6/3)+2)=x | 6 3 / 2 + x = | 6:enemy 3:point /:enemy 2:enemy +:enemy x:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 6 | (6*(3-2))=x | 6 3 2 - * x = | 6:enemy 3:point 2:point -:point *:point x:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 6 | x=((6-3)*2) | x 6 3 - 2 * = | x:point 6:point 3:point -:point 2:enemy *:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 16 | ((6*3)-2)=x | 6 3 * 2 - x = | 6:enemy 3:point *:point 2:point -:point x:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 20 | ((6*3)+2)=x | 6 3 * 2 + x = | 6:enemy 3:point *:point 2:point +:point x:point =:point
+EXPR: 0 | POS | INT | 10 | 12 |  | x=(6-(3*2)) | x 6 3 2 * - = | x:enemy 6:enemy 3:point 2:enemy *:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 16 | x=((6*3)-2) | x 6 3 * 2 - = | x:point 6:enemy 3:point *:point 2:point -:point =:point
+EXPR: 1 | POS | INT | 10 | 12 | 12 | (6+(3*2))=x | 6 3 2 * + x = | 6:enemy 3:point 2:enemy *:enemy +:enemy x:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 0 | (6-(3*2))=x | 6 3 2 * - x = | 6:point 3:point 2:enemy *:point -:point x:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 20 | x=((6*3)+2) | x 6 3 * 2 + = | x:point 6:enemy 3:point *:point 2:point +:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 18 | x=((6+3)*2) | x 6 3 + 2 * = | x:point 6:point 3:point +:point 2:enemy *:point =:point
+EXPR: 0 | POS | INT | 10 | 12 | 30 | (6*(3+2))=x | 6 3 2 + * x = | 6:enemy 3:point 2:point +:point *:point x:point =:point
+EXPR: 0 | POS | INT | 10 | 12 |  | x=((6/3)-2) | x 6 3 / 2 - = | x:enemy 6:enemy 3:point /:enemy 2:enemy -:enemy =:enemy
+EXPR: 1 | POS | INT | 10 | 12 | 12 | x=(6+(3*2)) | x 6 3 2 * + = | x:enemy 6:enemy 3:point 2:enemy *:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 4 | x=((6/3)+2) | x 6 3 / 2 + = | x:enemy 6:enemy 3:point /:enemy 2:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 10 | 12 | 18 | ((6+3)*2)=x | 6 3 + 2 * x = | 6:point 3:point +:point 2:enemy *:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 0 | 6=((3*2)-x) | 6 3 2 * x - = | 6:point 3:point 2:enemy *:point x:point -:point =:point
+EXPR: 0 | POS | INT | 12 | 12 |  | ((6-x)/3)=2 | 6 x - 3 / 2 = | 6:enemy x:enemy -:enemy 3:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 30 | ((x/6)-3)=2 | x 6 / 3 - 2 = | x:point 6:enemy /:point 3:point -:point 2:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 15 | x=((6*2)+3) | x 6 2 * 3 + = | x:point 6:enemy 2:point *:point 3:point +:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 9 | 6=((x+3)/2) | 6 x 3 + 2 / = | 6:point x:point 3:point +:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 12 | 12 |  | x=(3-(6/2)) | x 3 6 2 / - = | x:point 3:point 6:point 2:enemy /:point -:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 0 | 6=((3*2)+x) | 6 3 2 * x + = | 6:enemy 3:point 2:enemy *:enemy x:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 24 | 6=((x/3)-2) | 6 x 3 / 2 - = | 6:enemy x:enemy 3:point /:enemy 2:enemy -:enemy =:enemy
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 6=((x/3)+2) | 6 x 3 / 2 + = | 6:enemy x:enemy 3:point /:enemy 2:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 36 | (x/6)=(3*2) | x 6 / 3 2 * = | x:point 6:enemy /:point 3:point 2:enemy *:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 15 | 6=((x-3)/2) | 6 x 3 - 2 / = | 6:point x:point 3:point -:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 9 | ((6*2)-3)=x | 6 2 * 3 - x = | 6:enemy 2:point *:point 3:point -:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 15 | ((6*2)+3)=x | 6 2 * 3 + x = | 6:enemy 2:point *:point 3:point +:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 20 | (x-(6*3))=2 | x 6 3 * - 2 = | x:point 6:enemy 3:point *:point -:point 2:point =:point
+EXPR: 1 | POS | INT | 12 | 12 | 12 | ((x-6)/3)=2 | x 6 - 3 / 2 = | x:enemy 6:enemy -:enemy 3:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 |  | ((x+6)/3)=2 | x 6 + 3 / 2 = | x:enemy 6:enemy +:enemy 3:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 1 | (x*6)=(3*2) | x 6 * 3 2 * = | x:point 6:enemy *:point 3:point 2:enemy *:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 9 | x=((6*2)-3) | x 6 2 * 3 - = | x:point 6:enemy 2:point *:point 3:point -:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 6 | x=(3+(6/2)) | x 3 6 2 / + = | x:point 3:point 6:point 2:enemy /:point +:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 15 | x=(3+(6*2)) | x 3 6 2 * + = | x:point 3:point 6:point 2:enemy *:point +:point =:point
+EXPR: 0 | POS | INT | 12 | 12 |  | (x+(6/3))=2 | x 6 3 / + 2 = | x:enemy 6:enemy 3:point /:enemy +:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 |  | ((6/3)-x)=2 | 6 3 / x - 2 = | 6:enemy 3:point /:enemy x:enemy -:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 |  | ((6/3)+x)=2 | 6 3 / x + 2 = | 6:enemy 3:point /:enemy x:enemy +:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 0 | ((6/2)-3)=x | 6 2 / 3 - x = | 6:point 2:enemy /:point 3:point -:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 6 | ((6/2)+3)=x | 6 2 / 3 + x = | 6:point 2:enemy /:point 3:point +:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 16 | ((6*3)-x)=2 | 6 3 * x - 2 = | 6:enemy 3:point *:enemy x:enemy -:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 6=(3+(x/2)) | 6 3 x 2 / + = | 6:point 3:point x:point 2:enemy /:point +:point =:point
+EXPR: 1 | POS | INT | 12 | 12 | 12 | 6=(x-(3*2)) | 6 x 3 2 * - = | 6:enemy x:enemy 3:point 2:enemy *:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 0 | 6=(x+(3*2)) | 6 x 3 2 * + = | 6:enemy x:enemy 3:point 2:enemy *:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 4 | (x-(6/3))=2 | x 6 3 / - 2 = | x:enemy 6:enemy 3:point /:enemy -:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 1 | (6/3)=(2/x) | 6 3 / 2 x / = | 6:enemy 3:point /:enemy 2:enemy x:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 15 | (3+(6*2))=x | 3 6 2 * + x = | 3:point 6:enemy 2:point *:point +:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 1 | (6*x)=(3*2) | 6 x * 3 2 * = | 6:enemy x:point *:point 3:point 2:enemy *:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 6 | (3+(6/2))=x | 3 6 2 / + x = | 3:point 6:point 2:enemy /:point +:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 |  | x=((6/2)-3) | x 6 2 / 3 - = | x:point 6:point 2:enemy /:point 3:point -:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 6 | x=((6/2)+3) | x 6 2 / 3 + = | x:point 6:point 2:enemy /:point 3:point +:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 0 | (3-(6/2))=x | 3 6 2 / - x = | 3:point 6:point 2:enemy /:point -:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 9 | (6*3)=(x*2) | 6 3 * x 2 * = | 6:enemy 3:point *:point x:point 2:enemy *:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 0 | 6=(3*(2+x)) | 6 3 2 x + * = | 6:enemy 3:point 2:enemy x:enemy +:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 1 | (6/x)=(3*2) | 6 x / 3 2 * = | 6:enemy x:point /:enemy 3:point 2:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 6=((3-2)*x) | 6 3 2 - x * = | 6:enemy 3:enemy 2:enemy -:enemy x:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 6=(x*(3-2)) | 6 x 3 2 - * = | 6:enemy x:point 3:enemy 2:enemy -:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 1 | (6/3)=(2*x) | 6 3 / 2 x * = | 6:enemy 3:point /:enemy 2:enemy x:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 9 | (6*3)=(2*x) | 6 3 * 2 x * = | 6:enemy 3:point *:point 2:enemy x:point *:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 0 | 6=(3*(x+2)) | 6 3 x 2 + * = | 6:enemy 3:point x:enemy 2:enemy +:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 0 | 6=(3*(2-x)) | 6 3 2 x - * = | 6:enemy 3:point 2:enemy x:enemy -:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 1 | (6/3)=(x*2) | 6 3 / x 2 * = | 6:enemy 3:point /:enemy x:point 2:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 |  | ((6+x)/3)=2 | 6 x + 3 / 2 = | 6:enemy x:enemy +:enemy 3:point /:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 9 | 6=((3+x)/2) | 6 3 x + 2 / = | 6:point 3:point x:point +:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 9 | (x/6)=(3/2) | x 6 / 3 2 / = | x:point 6:enemy /:point 3:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 12 | 12 | 36 | (6*3)=(x/2) | 6 3 * x 2 / = | 6:enemy 3:point *:point x:point 2:enemy /:point =:point
+EXPR: 1 | POS | INT | 12 | 12 | 12 | (6-(x/3))=2 | 6 x 3 / - 2 = | 6:enemy x:enemy 3:point /:enemy -:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 12 | 12 | 4 | 6=(3*(x-2)) | 6 3 x 2 - * = | 6:enemy 3:point x:enemy 2:enemy -:enemy *:enemy =:enemy
+EXPR: 1 | POS | INT | 14 | 12 | 12 | ((x-6)/2)=3 | x 6 - 2 / 3 = | x:point 6:point -:point 2:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 6=((2+x)*3) | 6 2 x + 3 * = | 6:enemy 2:enemy x:enemy +:enemy 3:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 30 | ((x/6)-2)=3 | x 6 / 2 - 3 = | x:point 6:enemy /:point 2:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | ((x/6)+2)=3 | x 6 / 2 + 3 = | x:point 6:enemy /:point 2:point +:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 |  | ((6/2)-x)=3 | 6 2 / x - 3 = | 6:point 2:enemy /:point x:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 |  | ((6/2)+x)=3 | 6 2 / x + 3 = | 6:point 2:enemy /:point x:point +:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | 3=(x-(6/2)) | 3 x 6 2 / - = | 3:point x:point 6:point 2:enemy /:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 3=(x+(6/2)) | 3 x 6 2 / + = | 3:point x:point 6:point 2:enemy /:point +:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 15 | ((x-3)/6)=2 | x 3 - 6 / 2 = | x:point 3:point -:point 6:enemy /:point 2:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 3=((6+x)/2) | 3 6 x + 2 / = | 3:point 6:point x:point +:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 14 | 12 |  | ((6-x)/2)=3 | 6 x - 2 / 3 = | 6:point x:point -:point 2:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 |  | ((6+x)/2)=3 | 6 x + 2 / 3 = | 6:point x:point +:point 2:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 15 | 3=(x-(6*2)) | 3 x 6 2 * - = | 3:point x:point 6:enemy 2:point *:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 9 | ((3+x)/6)=2 | 3 x + 6 / 2 = | 3:point x:point +:point 6:enemy /:point 2:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | 3=(6-(x/2)) | 3 6 x 2 / - = | 3:point 6:point x:point 2:enemy /:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 9 | ((6*2)-x)=3 | 6 2 * x - 3 = | 6:point 2:enemy *:point x:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 |  | (x+(6/2))=3 | x 6 2 / + 3 = | x:point 6:point 2:enemy /:point +:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | (x-(6/2))=3 | x 6 2 / - 3 = | x:point 6:point 2:enemy /:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | (6-(x/2))=3 | 6 x 2 / - 3 = | 6:point x:point 2:enemy /:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 15 | (x-(6*2))=3 | x 6 2 * - 3 = | x:point 6:point 2:enemy *:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 3=((x+6)/2) | 3 x 6 + 2 / = | 3:point x:point 6:point +:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 3=((6-x)/2) | 3 6 x - 2 / = | 3:point 6:point x:point -:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | ((6/x)+2)=3 | 6 x / 2 + 3 = | 6:enemy x:point /:enemy 2:enemy +:enemy 3:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 3=((6/2)+x) | 3 6 2 / x + = | 3:point 6:point 2:enemy /:point x:point +:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 3=((6/2)-x) | 3 6 2 / x - = | 3:point 6:point 2:enemy /:point x:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 9 | (6/x)=(2/3) | 6 x / 2 3 / = | 6:enemy x:point /:enemy 2:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 4 | 6=((x-2)*3) | 6 x 2 - 3 * = | 6:enemy x:enemy 2:enemy -:enemy 3:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 9 | 3=((6*2)-x) | 3 6 2 * x - = | 3:point 6:point 2:enemy *:point x:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 20 | 6=((x-2)/3) | 6 x 2 - 3 / = | 6:enemy x:enemy 2:enemy -:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 6 | 3=((6/x)+2) | 3 6 x / 2 + = | 3:enemy 6:enemy x:point /:enemy 2:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 6 | 6=((x/2)+3) | 6 x 2 / 3 + = | 6:point x:point 2:enemy /:point 3:point +:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 6=((2-x)*3) | 6 2 x - 3 * = | 6:enemy 2:enemy x:enemy -:enemy 3:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 6 | 3=((x/6)+2) | 3 x 6 / 2 + = | 3:point x:point 6:enemy /:point 2:point +:point =:point
+EXPR: 1 | POS | INT | 14 | 12 | 12 | 3=((x-6)/2) | 3 x 6 - 2 / = | 3:point x:point 6:point -:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 0 | 6=((x+2)*3) | 6 x 2 + 3 * = | 6:enemy x:enemy 2:enemy +:enemy 3:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 24 | ((x/3)-6)=2 | x 3 / 6 - 2 = | x:enemy 3:point /:enemy 6:enemy -:enemy 2:enemy =:enemy
+EXPR: 1 | POS | INT | 14 | 12 | 12 | 6=(2+(x/3)) | 6 2 x 3 / + = | 6:enemy 2:enemy x:enemy 3:point /:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 30 | 3=((x/6)-2) | 3 x 6 / 2 - = | 3:point x:point 6:enemy /:point 2:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 6 | (3-(6/x))=2 | 3 6 x / - 2 = | 3:enemy 6:enemy x:point /:enemy -:enemy 2:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 6 | (3-(x/6))=2 | 3 x 6 / - 2 = | 3:point x:point 6:enemy /:point -:point 2:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 16 | 6=((x+2)/3) | 6 x 2 + 3 / = | 6:enemy x:enemy 2:enemy +:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 14 | 12 | 9 | ((x+3)/6)=2 | x 3 + 6 / 2 = | x:point 3:point +:point 6:enemy /:point 2:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 1 | (3/6)=(x/2) | 3 6 / x 2 / = | 3:point 6:enemy /:point x:point 2:enemy /:point =:point
+EXPR: 0 | POS | INT | 14 | 12 |  | ((x+6)/2)=3 | x 6 + 2 / 3 = | x:point 6:point +:point 2:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 18 | 6=((x/2)-3) | 6 x 2 / 3 - = | 6:point x:point 2:enemy /:point 3:point -:point =:point
+EXPR: 0 | POS | INT | 14 | 12 | 16 | 6=((2+x)/3) | 6 2 x + 3 / = | 6:enemy 2:enemy x:enemy +:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 15 | 12 | 6 | x=(2*(6-3)) | x 2 6 3 - * = | x:point 2:enemy 6:point 3:point -:point *:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 20 | (2+(6*3))=x | 2 6 3 * + x = | 2:enemy 6:enemy 3:point *:enemy +:enemy x:enemy =:enemy
+EXPR: 0 | POS | INT | 15 | 12 | 4 | (2+(6/3))=x | 2 6 3 / + x = | 2:enemy 6:enemy 3:point /:enemy +:enemy x:enemy =:enemy
+EXPR: 0 | POS | INT | 15 | 12 | 6 | x=((3-2)*6) | x 3 2 - 6 * = | x:point 3:point 2:point -:point 6:enemy *:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 18 | x=(2*(6+3)) | x 2 6 3 + * = | x:point 2:enemy 6:point 3:point +:point *:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 18 | (2*(6+3))=x | 2 6 3 + * x = | 2:enemy 6:point 3:point +:point *:point x:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 0 | ((3*2)-6)=x | 3 2 * 6 - x = | 3:point 2:enemy *:point 6:point -:point x:point =:point
+EXPR: 1 | POS | INT | 15 | 12 | 12 | ((3*2)+6)=x | 3 2 * 6 + x = | 3:point 2:enemy *:point 6:point +:point x:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 20 | x=(2+(6*3)) | x 2 6 3 * + = | x:point 2:point 6:enemy 3:point *:point +:point =:point
+EXPR: 0 | POS | INT | 15 | 12 |  | x=((3*2)-6) | x 3 2 * 6 - = | x:enemy 3:point 2:enemy *:enemy 6:enemy -:enemy =:enemy
+EXPR: 1 | POS | INT | 15 | 12 | 12 | x=((3*2)+6) | x 3 2 * 6 + = | x:enemy 3:point 2:enemy *:enemy 6:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 15 | 12 | 30 | x=((3+2)*6) | x 3 2 + 6 * = | x:point 3:point 2:point +:point 6:enemy *:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 6 | ((3-2)*6)=x | 3 2 - 6 * x = | 3:point 2:point -:point 6:enemy *:point x:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 30 | ((3+2)*6)=x | 3 2 + 6 * x = | 3:point 2:point +:point 6:enemy *:point x:point =:point
+EXPR: 0 | POS | INT | 15 | 12 | 0 | (2-(6/3))=x | 2 6 3 / - x = | 2:enemy 6:enemy 3:point /:enemy -:enemy x:enemy =:enemy
+EXPR: 0 | POS | INT | 15 | 12 | 6 | (2*(6-3))=x | 2 6 3 - * x = | 2:enemy 6:point 3:point -:point *:point x:point =:point
+EXPR: 0 | POS | INT | 15 | 12 |  | x=(2-(6/3)) | x 2 6 3 / - = | x:enemy 2:enemy 6:enemy 3:point /:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 15 | 12 | 4 | x=(2+(6/3)) | x 2 6 3 / + = | x:enemy 2:enemy 6:enemy 3:point /:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 9 | (x*2)=(6*3) | x 2 * 6 3 * = | x:point 2:enemy *:point 6:enemy 3:point *:point =:point
+EXPR: 0 | POS | INT | 17 | 12 |  | ((3*2)+x)=6 | 3 2 * x + 6 = | 3:point 2:enemy *:enemy x:enemy +:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 24 | ((x/3)-2)=6 | x 3 / 2 - 6 = | x:enemy 3:point /:enemy 2:enemy -:enemy 6:enemy =:enemy
+EXPR: 1 | POS | INT | 17 | 12 | 12 | (x-(3*2))=6 | x 3 2 * - 6 = | x:enemy 3:point 2:enemy *:enemy -:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 |  | (x+(3*2))=6 | x 3 2 * + 6 = | x:enemy 3:point 2:enemy *:enemy +:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 16 | 2=((6*3)-x) | 2 6 3 * x - = | 2:point 6:enemy 3:point *:point x:point -:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 6 | (x*(3-2))=6 | x 3 2 - * 6 = | x:point 3:enemy 2:enemy -:enemy *:enemy 6:enemy =:enemy
+EXPR: 1 | POS | INT | 17 | 12 | 12 | ((x/3)+2)=6 | x 3 / 2 + 6 = | x:enemy 3:point /:enemy 2:enemy +:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 15 | ((x-3)/2)=6 | x 3 - 2 / 6 = | x:point 3:point -:point 2:enemy /:point 6:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 16 | 3=((x+2)/6) | 3 x 2 + 6 / = | 3:point x:point 2:point +:point 6:enemy /:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 20 | ((x-2)/6)=3 | x 2 - 6 / 3 = | x:point 2:point -:point 6:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 36 | (x/2)=(6*3) | x 2 / 6 3 * = | x:point 2:enemy /:point 6:enemy 3:point *:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 30 | 2=((x/6)-3) | 2 x 6 / 3 - = | 2:point x:point 6:enemy /:point 3:point -:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 0 | 2=((6-x)/3) | 2 6 x - 3 / = | 2:enemy 6:enemy x:enemy -:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 4 | (3*(x-2))=6 | 3 x 2 - * 6 = | 3:point x:enemy 2:enemy -:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 0 | 2=((6/3)+x) | 2 6 3 / x + = | 2:enemy 6:enemy 3:point /:enemy x:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 |  | (3*(2-x))=6 | 3 2 x - * 6 = | 3:point 2:enemy x:enemy -:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 20 | 2=(x-(6*3)) | 2 x 6 3 * - = | 2:enemy x:enemy 6:enemy 3:point *:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 4 | 2=(x-(6/3)) | 2 x 6 3 / - = | 2:enemy x:enemy 6:enemy 3:point /:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 9 | ((3+x)/2)=6 | 3 x + 2 / 6 = | 3:point x:point +:point 2:enemy /:point 6:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 0 | 2=(x+(6/3)) | 2 x 6 3 / + = | 2:enemy x:enemy 6:enemy 3:point /:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 9 | (2*x)=(6*3) | 2 x * 6 3 * = | 2:enemy x:point *:point 6:enemy 3:point *:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 0 | 2=((6/3)-x) | 2 6 3 / x - = | 2:enemy 6:enemy 3:point /:enemy x:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 1 | (2*x)=(6/3) | 2 x * 6 3 / = | 2:enemy x:point *:enemy 6:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 18 | ((x/2)-6)=3 | x 2 / 6 - 3 = | x:point 2:enemy /:point 6:point -:point 3:point =:point
+EXPR: 0 | POS | INT | 17 | 12 |  | ((3*2)-x)=6 | 3 2 * x - 6 = | 3:point 2:enemy *:enemy x:enemy -:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 6 | 3=(2+(x/6)) | 3 2 x 6 / + = | 3:point 2:point x:point 6:enemy /:point +:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 1 | (2/x)=(6/3) | 2 x / 6 3 / = | 2:enemy x:point /:enemy 6:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 1 | (3*2)=(6*x) | 3 2 * 6 x * = | 3:point 2:enemy *:enemy 6:enemy x:point *:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 6 | (3+(x/2))=6 | 3 x 2 / + 6 = | 3:point x:point 2:enemy /:point +:point 6:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 6 | (2+(x/6))=3 | 2 x 6 / + 3 = | 2:point x:point 6:enemy /:point +:point 3:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 0 | 2=((6+x)/3) | 2 6 x + 3 / = | 2:enemy 6:enemy x:enemy +:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 1 | (x*2)=(6/3) | x 2 * 6 3 / = | x:point 2:enemy *:enemy 6:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 1 | (3*2)=(6/x) | 3 2 * 6 x / = | 3:point 2:enemy *:enemy 6:enemy x:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 6 | 3=(2+(6/x)) | 3 2 6 x / + = | 3:enemy 2:enemy 6:enemy x:point /:enemy +:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 20 | 3=((x-2)/6) | 3 x 2 - 6 / = | 3:point x:point 2:point -:point 6:enemy /:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 1 | (3*2)=(x*6) | 3 2 * x 6 * = | 3:point 2:enemy *:enemy x:point 6:enemy *:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 6 | (2+(6/x))=3 | 2 6 x / + 3 = | 2:enemy 6:enemy x:point /:enemy +:enemy 3:enemy =:enemy
+EXPR: 1 | POS | INT | 17 | 12 | 12 | 2=((x-6)/3) | 2 x 6 - 3 / = | 2:enemy x:enemy 6:enemy -:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 16 | ((2+x)/6)=3 | 2 x + 6 / 3 = | 2:point x:point +:point 6:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 6 | ((3-2)*x)=6 | 3 2 - x * 6 = | 3:enemy 2:enemy -:enemy x:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 9 | ((x+3)/2)=6 | x 3 + 2 / 6 = | x:point 3:point +:point 2:enemy /:point 6:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 16 | ((x+2)/6)=3 | x 2 + 6 / 3 = | x:point 2:point +:point 6:enemy /:point 3:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 16 | 3=((2+x)/6) | 3 2 x + 6 / = | 3:point 2:point x:point +:point 6:enemy /:point =:point
+EXPR: 0 | POS | INT | 17 | 12 |  | (3*(2+x))=6 | 3 2 x + * 6 = | 3:point 2:enemy x:enemy +:enemy *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 |  | (3*(x+2))=6 | 3 x 2 + * 6 = | 3:point x:enemy 2:enemy +:enemy *:enemy 6:enemy =:enemy
+EXPR: 1 | POS | INT | 17 | 12 | 12 | 2=(6-(x/3)) | 2 6 x 3 / - = | 2:enemy 6:enemy x:enemy 3:point /:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 36 | (3*2)=(x/6) | 3 2 * x 6 / = | 3:point 2:enemy *:point x:point 6:enemy /:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 0 | 2=((x+6)/3) | 2 x 6 + 3 / = | 2:enemy x:enemy 6:enemy +:enemy 3:point /:enemy =:enemy
+EXPR: 0 | POS | INT | 17 | 12 | 9 | (3/2)=(x/6) | 3 2 / x 6 / = | 3:point 2:enemy /:point x:point 6:enemy /:point =:point
+EXPR: 0 | POS | INT | 17 | 12 | 18 | 3=((x/2)-6) | 3 x 2 / 6 - = | 3:point x:point 2:enemy /:point 6:point -:point =:point
+EXPR: 0 | POS | INT | 19 | 12 | 4 | ((x-2)*3)=6 | x 2 - 3 * 6 = | x:enemy 2:enemy -:enemy 3:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 | 20 | ((x-2)/3)=6 | x 2 - 3 / 6 = | x:enemy 2:enemy -:enemy 3:point /:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 | 16 | ((x+2)/3)=6 | x 2 + 3 / 6 = | x:enemy 2:enemy +:enemy 3:point /:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 | 18 | ((x/2)-3)=6 | x 2 / 3 - 6 = | x:point 2:enemy /:point 3:point -:point 6:point =:point
+EXPR: 0 | POS | INT | 19 | 12 | 6 | ((x/2)+3)=6 | x 2 / 3 + 6 = | x:point 2:enemy /:point 3:point +:point 6:point =:point
+EXPR: 0 | POS | INT | 19 | 12 | 15 | 2=((x-3)/6) | 2 x 3 - 6 / = | 2:point x:point 3:point -:point 6:enemy /:point =:point
+EXPR: 0 | POS | INT | 19 | 12 | 24 | 2=((x/3)-6) | 2 x 3 / 6 - = | 2:enemy x:enemy 3:point /:enemy 6:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 |  | ((x+2)*3)=6 | x 2 + 3 * 6 = | x:enemy 2:enemy +:enemy 3:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 |  | ((2-x)*3)=6 | 2 x - 3 * 6 = | 2:enemy x:enemy -:enemy 3:point *:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 | 9 | (2/3)=(6/x) | 2 3 / 6 x / = | 2:enemy 3:point /:enemy 6:enemy x:point /:enemy =:enemy
+EXPR: 1 | POS | INT | 19 | 12 | 12 | (2+(x/3))=6 | 2 x 3 / + 6 = | 2:enemy x:enemy 3:point /:enemy +:enemy 6:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 | 6 | 2=(3-(6/x)) | 2 3 6 x / - = | 2:enemy 3:enemy 6:enemy x:point /:enemy -:enemy =:enemy
+EXPR: 0 | POS | INT | 19 | 12 | 9 | 2=((x+3)/6) | 2 x 3 + 6 / = | 2:point x:point 3:point +:point 6:enemy /:point =:point
+NET 237 unique, non-negative, integer-valued solutions found out of 1000 total solutions

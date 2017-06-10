@@ -1,0 +1,155 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 18 | 18 | x=((9-6)*6) | x 9 6 - 6 * = | x:hour 9:window 6:window -:window 6:hour *:hour =:hour
+EXPR: 0 | POS | INT | 10 | 18 | 90 | ((9+6)*6)=x | 9 6 + 6 * x = | 9:window 6:window +:window 6:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 10 | 18 | 18 | ((9-6)*6)=x | 9 6 - 6 * x = | 9:window 6:window -:window 6:hour *:hour x:hour =:hour
+EXPR: 0 | POS | INT | 10 | 18 | 90 | x=((9+6)*6) | x 9 6 + 6 * = | x:LENGTH 9:window 6:window +:window 6:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 18 | 45 | (9+(6*6))=x | 9 6 6 * + x = | 9:window 6:window 6:hour *:window +:window x:window =:window
+EXPR: 0 | POS | INT | 10 | 18 | 10 | (9+(6/6))=x | 9 6 6 / + x = | 9:window 6:window 6:hour /:window +:window x:window =:window
+EXPR: 0 | POS | INT | 10 | 18 | 8 | (9-(6/6))=x | 9 6 6 / - x = | 9:window 6:window 6:hour /:window -:window x:window =:window
+EXPR: 0 | POS | INT | 10 | 18 | 8 | x=(9-(6/6)) | x 9 6 6 / - = | x:window 9:window 6:window 6:hour /:window -:window =:window
+EXPR: 0 | POS | INT | 10 | 18 | 10 | x=(9+(6/6)) | x 9 6 6 / + = | x:window 9:window 6:window 6:hour /:window +:window =:window
+EXPR: 0 | POS | INT | 10 | 18 | 45 | x=(9+(6*6)) | x 9 6 6 * + = | x:window 9:window 6:window 6:hour *:window +:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 60 | (6+(9*6))=x | 6 9 6 * + x = | 6:window 9:window 6:hour *:window +:window x:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 2 | 9=((6/x)+6) | 9 6 x / 6 + = | 9:window 6:window x:LENGTH /:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 48 | x=((9*6)-6) | x 9 6 * 6 - = | x:window 9:window 6:hour *:window 6:window -:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 48 | ((9*6)-6)=x | 9 6 * 6 - x = | 9:window 6:hour *:window 6:window -:window x:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 2 | (x*(9-6))=6 | x 9 6 - * 6 = | x:hour 9:window 6:window -:window *:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 12 | 18 | 2 | (9-(6/x))=6 | 9 6 x / - 6 = | 9:window 6:window x:LENGTH /:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 60 | x=(6+(9*6)) | x 6 9 6 * + = | x:window 6:window 9:window 6:hour *:window +:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 45 | 9=(x-(6*6)) | 9 x 6 6 * - = | 9:window x:window 6:window 6:hour *:window -:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 10 | 9=(x-(6/6)) | 9 x 6 6 / - = | 9:window x:window 6:window 6:hour /:window -:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 8 | 9=(x+(6/6)) | 9 x 6 6 / + = | 9:window x:window 6:window 6:hour /:window +:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 60 | ((9*6)+6)=x | 9 6 * 6 + x = | 9:window 6:hour *:window 6:window +:window x:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | - | ((9/x)+6)=6 | 9 x / 6 + 6 = | 9:window x:LENGTH /:window 6:window +:window 6:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | - | 9=((6-6)/x) | 9 6 6 - x / = | 9:window 6:window 6:window -:window x:LENGTH /:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 48 | 9=((6+x)/6) | 9 6 x + 6 / = | 9:window 6:window x:window +:window 6:hour /:window =:window
+EXPR: 0 | POS | INT | 12 | 18 | 8 | 9=((6/6)+x) | 9 6 6 / x + = | 9:window 6:window 6:hour /:window x:window +:window =:window
+EXPR: 0 | POS | INT | 14 | 18 |  | ((9*x)+6)=6 | 9 x * 6 + 6 = | 9:window x:LENGTH *:window 6:window +:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | - | 9=(x*(6-6)) | 9 x 6 6 - * = | 9:window x:LENGTH 6:window 6:window -:window *:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 48 | ((9*6)-x)=6 | 9 6 * x - 6 = | 9:window 6:hour *:window x:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 0 | 6=((x*9)+6) | 6 x 9 * 6 + = | 6:window x:LENGTH 9:window *:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 60 | 6=(x-(9*6)) | 6 x 9 6 * - = | 6:window x:window 9:window 6:hour *:window -:window =:window
+EXPR: 0 | POS | INT | 14 | 18 |  | (6+(9*x))=6 | 6 9 x * + 6 = | 6:window 9:window x:LENGTH *:window +:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 |  | (6+(x*9))=6 | 6 x 9 * + 6 = | 6:window x:LENGTH 9:window *:window +:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 60 | (x-(9*6))=6 | x 9 6 * - 6 = | x:window 9:window 6:hour *:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | - | 9=((6-6)*x) | 9 6 6 - x * = | 9:window 6:window 6:window -:window x:LENGTH *:window =:window
+EXPR: 0 | POS | INT | 14 | 18 |  | (6-(9*x))=6 | 6 9 x * - 6 = | 6:window 9:window x:LENGTH *:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | - | (6-(9/x))=6 | 6 9 x / - 6 = | 6:window 9:window x:LENGTH /:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 2 | 9=(6+(6/x)) | 9 6 6 x / + = | 9:window 6:window 6:window x:LENGTH /:window +:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 48 | 6=((9*6)-x) | 6 9 6 * x - = | 6:window 9:window 6:hour *:window x:window -:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | - | 6=((9/x)+6) | 6 9 x / 6 + = | 6:window 9:window x:LENGTH /:window 6:window +:window =:window
+EXPR: 1 | POS | INT | 14 | 18 | 18 | (9-(x/6))=6 | 9 x 6 / - 6 = | 9:window x:window 6:hour /:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 14 | 18 | 90 | 9=((x/6)-6) | 9 x 6 / 6 - = | 9:window x:window 6:hour /:window 6:window -:window =:window
+EXPR: 0 | POS | INT | 15 | 18 | 27 | x=((6*6)-9) | x 6 6 * 9 - = | x:window 6:window 6:hour *:window 9:window -:window =:window
+EXPR: 0 | POS | INT | 15 | 18 | 90 | (6*(9+6))=x | 6 9 6 + * x = | 6:LENGTH 9:window 6:window +:window *:LENGTH x:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 15 | 18 | 18 | (6*(9-6))=x | 6 9 6 - * x = | 6:LENGTH 9:window 6:window -:window *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 18 | 45 | ((6*6)+9)=x | 6 6 * 9 + x = | 6:window 6:hour *:window 9:window +:window x:window =:window
+EXPR: 1 | POS | INT | 15 | 18 | 18 | x=(6*(9-6)) | x 6 9 6 - * = | x:LENGTH 6:LENGTH 9:window 6:window -:window *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 18 | 2 | x=(6/(9-6)) | x 6 9 6 - / = | x:LENGTH 6:LENGTH 9:window 6:window -:window /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 15 | 18 | 90 | x=(6*(9+6)) | x 6 9 6 + * = | x:window 6:hour 9:window 6:window +:window *:window =:window
+EXPR: 0 | POS | INT | 15 | 18 | 10 | ((6/6)+9)=x | 6 6 / 9 + x = | 6:window 6:hour /:window 9:window +:window x:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 2 | ((6/x)+6)=9 | 6 x / 6 + 9 = | 6:window x:LENGTH /:window 6:window +:window 9:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 2 | 6=(x*(9-6)) | 6 x 9 6 - * = | 6:window x:LENGTH 9:window 6:window -:window *:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 0 | 6=(6-(x*9)) | 6 6 x 9 * - = | 6:window 6:window x:LENGTH 9:window *:window -:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 2 | 6=(9-(6/x)) | 6 9 6 x / - = | 6:window 9:window 6:window x:LENGTH /:window -:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | - | (6+(9/x))=6 | 6 9 x / + 6 = | 6:window 9:window x:LENGTH /:window +:window 6:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 0 | 6=((9*x)+6) | 6 9 x * 6 + = | 6:window 9:window x:LENGTH *:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 0 | 6=(6+(9*x)) | 6 6 9 x * + = | 6:window 6:window 9:window x:LENGTH *:window +:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 2 | 6=((9-6)*x) | 6 9 6 - x * = | 6:LENGTH 9:window 6:window -:window x:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 18 | 0 | 6=(6-(9*x)) | 6 6 9 x * - = | 6:window 6:window 9:window x:LENGTH *:window -:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 45 | (x-(6*6))=9 | x 6 6 * - 9 = | x:window 6:window 6:hour *:window -:window 9:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | 8 | ((6/6)+x)=9 | 6 6 / x + 9 = | 6:window 6:hour /:window x:window +:window 9:window =:window
+EXPR: 0 | POS | INT | 17 | 18 | - | 6=(6-(9/x)) | 6 6 9 x / - = | 6:window 6:window 9:window x:LENGTH /:window -:window =:window
+EXPR: 1 | POS | INT | 17 | 18 | 18 | 6=(x/(9-6)) | 6 x 9 6 - / = | 6:LENGTH x:LENGTH 9:window 6:window -:window /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 18 | 90 | 6=(x/(9+6)) | 6 x 9 6 + / = | 6:LENGTH x:LENGTH 9:window 6:window +:window /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 17 | 18 | 10 | (x-(6/6))=9 | x 6 6 / - 9 = | x:window 6:window 6:hour /:window -:window 9:window =:window
+EXPR: 0 | POS | INT | 17 | 18 |  | (6-(x*9))=6 | 6 x 9 * - 6 = | 6:window x:LENGTH 9:window *:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 19 | 18 | - | ((6-6)*x)=9 | 6 6 - x * 9 = | 6:window 6:window -:window x:LENGTH *:window 9:window =:window
+EXPR: 0 | POS | INT | 19 | 18 | - | (x*(6-6))=9 | x 6 6 - * 9 = | x:LENGTH 6:window 6:window -:window *:window 9:window =:window
+EXPR: 0 | POS | INT | 19 | 18 | 2 | (6+(6/x))=9 | 6 6 x / + 9 = | 6:window 6:window x:LENGTH /:window +:window 9:window =:window
+EXPR: 0 | POS | INT | 20 | 18 | 60 | x=((9*6)+6) | x 9 6 * 6 + = | x:LENGTH 9:window 6:LENGTH *:LENGTH 6:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 20 | 18 | 108 | (9*(6+6))=x | 9 6 6 + * x = | 9:LENGTH 6:hour 6:hour +:hour *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 20 | 18 | 9 | x=(9+(6-6)) | x 9 6 6 - + = | x:window 9:window 6:window 6:window -:window +:window =:window
+EXPR: 0 | POS | INT | 20 | 18 | 9 | x=((9-6)+6) | x 9 6 - 6 + = | x:window 9:window 6:window -:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 20 | 18 |  | x=(9*(6-6)) | x 9 6 6 - * = | x:LENGTH 9:LENGTH 6:window 6:window -:window *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 20 | 18 | 21 | x=((9+6)+6) | x 9 6 + 6 + = | x:window 9:window 6:window +:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 20 | 18 | zoo | x=(9/(6-6)) | x 9 6 6 - / = | x:window 9:window 6:hour 6:hour -:hour /:window =:window
+EXPR: 0 | POS | INT | 20 | 18 | 108 | x=(9*(6+6)) | x 9 6 6 + * = | x:hour 9:window 6:hour 6:hour +:hour *:hour =:hour
+EXPR: 0 | POS | INT | 20 | 18 | 0 | (9*(6-6))=x | 9 6 6 - * x = | 9:window 6:hour 6:hour -:hour *:hour x:hour =:hour
+EXPR: 0 | POS | INT | 20 | 18 | 9 | ((9+6)-6)=x | 9 6 + 6 - x = | 9:window 6:window +:window 6:window -:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 3 | ((6-9)+6)=x | 6 9 - 6 + x = | 6:window 9:window -:window 6:window +:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 |  | ((x*9)+6)=6 | x 9 * 6 + 6 = | x:LENGTH 9:hour *:hour 6:hour +:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 10 | ((x-9)*6)=6 | x 9 - 6 * 6 = | x:LENGTH 9:LENGTH -:LENGTH 6:hour *:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 |  | ((x/9)+6)=6 | x 9 / 6 + 6 = | x:LENGTH 9:window /:LENGTH 6:LENGTH +:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 9 | (9-(6-6))=x | 9 6 6 - - x = | 9:window 6:window 6:window -:window -:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 3 | ((9+x)-6)=6 | 9 x + 6 - 6 = | 9:window x:window +:window 6:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 8 | ((9-x)*6)=6 | 9 x - 6 * 6 = | 9:LENGTH x:LENGTH -:LENGTH 6:window *:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 3 | x=((6-9)+6) | x 6 9 - 6 + = | x:window 6:window 9:window -:window 6:window +:window =:window
+EXPR: 1 | POS | INT | 22 | 18 | 18 | 9=(6+(x/6)) | 9 6 x 6 / + = | 9:LENGTH 6:LENGTH x:LENGTH 6:hour /:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 9 | 9=((6-6)+x) | 9 6 6 - x + = | 9:window 6:window 6:window -:window x:window +:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 3 | ((x+9)-6)=6 | x 9 + 6 - 6 = | x:window 9:window +:window 6:window -:window 6:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 27 | 9=((6*6)-x) | 9 6 6 * x - = | 9:hour 6:window 6:hour *:hour x:hour -:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 9 | x=(6+(9-6)) | x 6 9 6 - + = | x:window 6:window 9:window 6:window -:window +:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | zoo | (9/(6-6))=x | 9 6 6 - / x = | 9:window 6:hour 6:hour -:hour /:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 8 | (9-x)=(6/6) | 9 x - 6 6 / = | 9:window x:window -:window 6:window 6:hour /:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 108 | 9=(x/(6+6)) | 9 x 6 6 + / = | 9:LENGTH x:LENGTH 6:window 6:window +:window /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 3 | 9=((6-x)+6) | 9 6 x - 6 + = | 9:window 6:window x:window -:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 9 | ((9-6)+6)=x | 9 6 - 6 + x = | 9:window 6:window -:window 6:window +:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 324 | (x/9)=(6*6) | x 9 / 6 6 * = | x:LENGTH 9:window /:LENGTH 6:LENGTH 6:hour *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 108 | ((x/9)-6)=6 | x 9 / 6 - 6 = | x:hour 9:window /:hour 6:hour -:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 9 | 9=((x+6)-6) | 9 x 6 + 6 - = | 9:window x:window 6:window +:window 6:window -:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 60 | 9=((x-6)/6) | 9 x 6 - 6 / = | 9:window x:window 6:window -:window 6:LENGTH /:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 3 | 9=((6+6)-x) | 9 6 6 + x - = | 9:window 6:window 6:window +:window x:window -:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 27 | ((x+9)/6)=6 | x 9 + 6 / 6 = | x:LENGTH 9:LENGTH +:LENGTH 6:window /:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 45 | ((x-9)/6)=6 | x 9 - 6 / 6 = | x:LENGTH 9:LENGTH -:LENGTH 6:window /:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 22 | 18 | 9 | 9=((6+x)-6) | 9 6 x + 6 - = | 9:window 6:window x:window +:window 6:window -:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 27 | (9+x)=(6*6) | 9 x + 6 6 * = | 9:window x:window +:window 6:window 6:hour *:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 21 | 9=((x-6)-6) | 9 x 6 - 6 - = | 9:window x:window 6:window -:window 6:window -:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 9 | (9+(6-6))=x | 9 6 6 - + x = | 9:window 6:window 6:window -:window +:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 9 | 9=(x+(6-6)) | 9 x 6 6 - + = | 9:window x:window 6:window 6:window -:window +:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 21 | (6+(9+6))=x | 6 9 6 + + x = | 6:window 9:window 6:window +:window +:window x:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 9 | ((x-9)+6)=6 | x 9 - 6 + 6 = | x:window 9:window -:window 6:window +:window 6:window =:window
+EXPR: 0 | POS | INT | 22 | 18 | 4 | (9*x)=(6*6) | 9 x * 6 6 * = | 9:window x:hour *:hour 6:window 6:hour *:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 9 | (9*6)=(x*6) | 9 6 * x 6 * = | 9:window 6:hour *:hour x:LENGTH 6:hour *:hour =:hour
+EXPR: 0 | POS | INT | 22 | 18 | 3 | (6-(9-6))=x | 6 9 6 - - x = | 6:window 9:window 6:window -:window -:window x:window =:window
+EXPR: 0 | POS | INT | 24 | 18 |  | (6-(x/9))=6 | 6 x 9 / - 6 = | 6:hour x:hour 9:window /:hour -:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 24 | 18 |  | (6+(x/9))=6 | 6 x 9 / + 6 = | 6:hour x:hour 9:window /:hour +:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 24 | 18 | 10 | 6=((x-9)*6) | 6 x 9 - 6 * = | 6:window x:window 9:window -:window 6:LENGTH *:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 8 | (6/(9-x))=6 | 6 9 x - / 6 = | 6:hour 9:LENGTH x:LENGTH -:LENGTH /:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 24 | 18 | 27 | 6=((x+9)/6) | 6 x 9 + 6 / = | 6:window x:window 9:window +:window 6:LENGTH /:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 8 | 6=((9-x)*6) | 6 9 x - 6 * = | 6:LENGTH 9:LENGTH x:LENGTH -:LENGTH 6:hour *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 18 | 27 | 6=((9+x)/6) | 6 9 x + 6 / = | 6:LENGTH 9:LENGTH x:LENGTH +:LENGTH 6:hour /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 18 | 9 | 6=((x-9)+6) | 6 x 9 - 6 + = | 6:window x:window 9:window -:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 8 | (6*(9-x))=6 | 6 9 x - * 6 = | 6:window 9:hour x:hour -:hour *:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 24 | 18 | 27 | ((9+x)/6)=6 | 9 x + 6 / 6 = | 9:window x:window +:window 6:LENGTH /:window 6:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 45 | 6=((x-9)/6) | 6 x 9 - 6 / = | 6:window x:window 9:window -:window 6:LENGTH /:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 9 | 6=((9+6)-x) | 6 9 6 + x - = | 6:window 9:window 6:window +:window x:window -:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 3 | 6=((9+x)-6) | 6 9 x + 6 - = | 6:window 9:window x:window +:window 6:window -:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 90 | ((x/6)-9)=6 | x 6 / 9 - 6 = | x:hour 6:window /:hour 9:hour -:hour 6:hour =:hour
+EXPR: 0 | POS | INT | 24 | 18 | 0 | 6=((x/9)+6) | 6 x 9 / 6 + = | 6:LENGTH x:LENGTH 9:window /:LENGTH 6:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 18 | 2 | ((9-6)*x)=6 | 9 6 - x * 6 = | 9:window 6:window -:window x:LENGTH *:LENGTH 6:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 24 | 18 | 18 | 9=((x/6)+6) | 9 x 6 / 6 + = | 9:window x:window 6:LENGTH /:window 6:window +:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 48 | ((x+6)/9)=6 | x 6 + 9 / 6 = | x:LENGTH 6:LENGTH +:LENGTH 9:window /:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 18 | 60 | ((x-6)/9)=6 | x 6 - 9 / 6 = | x:LENGTH 6:LENGTH -:LENGTH 9:window /:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 18 | 90 | (x/(9+6))=6 | x 9 6 + / 6 = | x:window 9:hour 6:hour +:hour /:window 6:window =:window
+EXPR: 0 | POS | INT | 24 | 18 | 48 | ((6+x)/9)=6 | 6 x + 9 / 6 = | 6:LENGTH x:LENGTH +:LENGTH 9:window /:LENGTH 6:LENGTH =:LENGTH
+EXPR: 1 | POS | INT | 24 | 18 | 18 | (x/(9-6))=6 | x 9 6 - / 6 = | x:LENGTH 9:hour 6:hour -:hour /:LENGTH 6:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 18 | 9 | (9*6)=(6*x) | 9 6 * 6 x * = | 9:window 6:hour *:hour 6:window x:hour *:hour =:hour
+EXPR: 0 | POS | INT | 25 | 18 | 108 | x=((6+6)*9) | x 6 6 + 9 * = | x:LENGTH 6:window 6:window +:window 9:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 25 | 18 |  | x=((6-6)*9) | x 6 6 - 9 * = | x:LENGTH 6:window 6:window -:window 9:LENGTH *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 25 | 18 | 9 | (6+(9-6))=x | 6 9 6 - + x = | 6:window 9:window 6:window -:window +:window x:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 45 | x=((6*6)+9) | x 6 6 * 9 + = | x:hour 6:window 6:hour *:hour 9:hour +:hour =:hour
+EXPR: 0 | POS | INT | 25 | 18 | 3 | x=((6+6)-9) | x 6 6 + 9 - = | x:window 6:window 6:window +:window 9:window -:window =:window
+EXPR: 0 | POS | INT | 25 | 18 |  | x=((6-6)/9) | x 6 6 - 9 / = | x:hour 6:hour 6:hour -:hour 9:window /:hour =:hour
+EXPR: 0 | POS | INT | 25 | 18 | 0 | ((6-6)*9)=x | 6 6 - 9 * x = | 6:hour 6:hour -:hour 9:window *:window x:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 3 | ((6+6)-9)=x | 6 6 + 9 - x = | 6:window 6:window +:window 9:window -:window x:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 3 | (6+(6-9))=x | 6 6 9 - + x = | 6:window 6:window 9:window -:window +:window x:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 10 | x=((6/6)+9) | x 6 6 / 9 + = | x:LENGTH 6:LENGTH 6:hour /:LENGTH 9:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 25 | 18 | 21 | x=((6+6)+9) | x 6 6 + 9 + = | x:window 6:window 6:window +:window 9:window +:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 21 | x=(6+(9+6)) | x 6 9 6 + + = | x:window 6:window 9:window 6:window +:window +:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 27 | ((6*6)-9)=x | 6 6 * 9 - x = | 6:window 6:hour *:hour 9:hour -:hour x:hour =:hour
+EXPR: 0 | POS | INT | 25 | 18 | 9 | (6-(6-9))=x | 6 6 9 - - x = | 6:window 6:window 9:window -:window -:window x:window =:window
+EXPR: 0 | POS | INT | 25 | 18 | 9 | x=(6-(6-9)) | x 6 6 9 - - = | x:window 6:window 6:window 9:window -:window -:window =:window
+NET 151 unique, non-negative, integer-valued solutions found out of 1000 total solutions

@@ -1,0 +1,150 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 21 | 3 | ((4-3)*3)=x | 4 3 - 3 * x = | 4:necklace 3:necklace -:necklace 3:dollar *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 21 | 21 | ((4+3)*3)=x | 4 3 + 3 * x = | 4:necklace 3:necklace +:necklace 3:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 21 | 3 | x=((4-3)*3) | x 4 3 - 3 * = | x:dollar 4:necklace 3:necklace -:necklace 3:dollar *:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 21 | 21 | x=((4+3)*3) | x 4 3 + 3 * = | x:dollar 4:necklace 3:necklace +:necklace 3:dollar *:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 21 | 21 | x=(3*(4+3)) | x 3 4 3 + * = | x:dollar 3:dollar 4:necklace 3:necklace +:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 21 | 3 | x=(3*(4-3)) | x 3 4 3 - * = | x:dollar 3:dollar 4:necklace 3:necklace -:necklace *:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 21 | 21 | (3*(4+3))=x | 3 4 3 + * x = | 3:dollar 4:necklace 3:necklace +:necklace *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 21 | 3 | (3/(4-3))=x | 3 4 3 - / x = | 3:dollar 4:necklace 3:necklace -:necklace /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 21 | 3 | (3*(4-3))=x | 3 4 3 - * x = | 3:dollar 4:necklace 3:necklace -:necklace *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 21 | 3 | x=(3/(4-3)) | x 3 4 3 - / = | x:dollar 3:dollar 4:necklace 3:necklace -:necklace /:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 21 | 21 | (x/(4+3))=3 | x 4 3 + / 3 = | x:dollar 4:necklace 3:necklace +:necklace /:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 21 | 3 | 3=(x*(4-3)) | 3 x 4 3 - * = | 3:dollar x:dollar 4:necklace 3:necklace -:necklace *:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 21 | 21 | 3=(x/(4+3)) | 3 x 4 3 + / = | 3:dollar x:dollar 4:necklace 3:necklace +:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 21 | 3 | (x*(4-3))=3 | x 4 3 - * 3 = | x:dollar 4:necklace 3:necklace -:necklace *:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 21 | 3 | (x/(4-3))=3 | x 4 3 - / 3 = | x:dollar 4:necklace 3:necklace -:necklace /:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 21 | 3 | 3=(x/(4-3)) | 3 x 4 3 - / = | 3:dollar x:dollar 4:necklace 3:necklace -:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 21 | 3 | 3=((4-3)*x) | 3 4 3 - x * = | 3:dollar 4:necklace 3:necklace -:necklace x:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 21 | 3 | ((4-3)*x)=3 | 4 3 - x * 3 = | 4:necklace 3:necklace -:necklace x:dollar *:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 |  | x=(4*(3-3)) | x 4 3 3 - * = | x:dollar 4:necklace 3:dollar 3:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 24 | x=(4*(3+3)) | x 4 3 3 + * = | x:dollar 4:necklace 3:dollar 3:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 0 | (4*(3-3))=x | 4 3 3 - * x = | 4:necklace 3:dollar 3:dollar -:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 9 | ((4*3)-3)=x | 4 3 * 3 - x = | 4:necklace 3:dollar *:dollar 3:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 15 | ((4*3)+3)=x | 4 3 * 3 + x = | 4:necklace 3:dollar *:dollar 3:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 9 | x=((4*3)-3) | x 4 3 * 3 - = | x:dollar 4:necklace 3:dollar *:dollar 3:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 13 | (4+(3*3))=x | 4 3 3 * + x = | 4:necklace 3:dollar 3:necklace *:necklace +:necklace x:necklace =:necklace
+EXPR: 0 | POS | INT | 10 | 21 | 15 | x=((4*3)+3) | x 4 3 * 3 + = | x:dollar 4:necklace 3:dollar *:dollar 3:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 24 | (4*(3+3))=x | 4 3 3 + * x = | 4:necklace 3:dollar 3:dollar +:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 13 | x=(4+(3*3)) | x 4 3 3 * + = | x:necklace 4:necklace 3:dollar 3:necklace *:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 10 | 21 | 3 | x=(4-(3/3)) | x 4 3 3 / - = | x:dollar 4:dollar 3:dollar 3:necklace /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 5 | x=(4+(3/3)) | x 4 3 3 / + = | x:dollar 4:dollar 3:dollar 3:necklace /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 3 | (4-(3/3))=x | 4 3 3 / - x = | 4:dollar 3:dollar 3:necklace /:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 21 | 5 | (4+(3/3))=x | 4 3 3 / + x = | 4:dollar 3:dollar 3:necklace /:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 3 | ((4-x)*3)=3 | 4 x - 3 * 3 = | 4:necklace x:necklace -:necklace 3:dollar *:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 5 | 4=((3*3)-x) | 4 3 3 * x - = | 4:dollar 3:dollar 3:necklace *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 24 | ((x/4)-3)=3 | x 4 / 3 - 3 = | x:dollar 4:necklace /:dollar 3:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 |  | ((x/4)+3)=3 | x 4 / 3 + 3 = | x:dollar 4:necklace /:dollar 3:dollar +:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 9 | 4=((x+3)/3) | 4 x 3 + 3 / = | 4:dollar x:dollar 3:dollar +:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 5 | 4=(x-(3/3)) | 4 x 3 3 / - = | 4:dollar x:dollar 3:dollar 3:necklace /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 3 | 4=(x+(3/3)) | 4 x 3 3 / + = | 4:dollar x:dollar 3:dollar 3:necklace /:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 21 | 21 | 4=((x/3)-3) | 4 x 3 / 3 - = | 4:necklace x:necklace 3:dollar /:necklace 3:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 3 | 4=((x/3)+3) | 4 x 3 / 3 + = | 4:necklace x:necklace 3:dollar /:necklace 3:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 36 | (x/4)=(3*3) | x 4 / 3 3 * = | x:dollar 4:necklace /:dollar 3:dollar 3:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 15 | 4=((x-3)/3) | 4 x 3 - 3 / = | 4:dollar x:dollar 3:dollar -:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 |  | ((4*x)+3)=3 | 4 x * 3 + 3 = | 4:necklace x:dollar *:dollar 3:dollar +:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 15 | (x-(4*3))=3 | x 4 3 * - 3 = | x:dollar 4:necklace 3:dollar *:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 5 | ((x-4)*3)=3 | x 4 - 3 * 3 = | x:necklace 4:necklace -:necklace 3:dollar *:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 13 | ((x-4)/3)=3 | x 4 - 3 / 3 = | x:necklace 4:necklace -:necklace 3:dollar /:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 5 | ((x+4)/3)=3 | x 4 + 3 / 3 = | x:necklace 4:necklace +:necklace 3:dollar /:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 15 | x=(3+(4*3)) | x 3 4 3 * + = | x:dollar 3:dollar 4:dollar 3:necklace *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 9 | ((4*3)-x)=3 | 4 3 * x - 3 = | 4:necklace 3:dollar *:necklace x:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 3 | 4=((3/x)+3) | 4 3 x / 3 + = | 4:necklace 3:necklace x:dollar /:necklace 3:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 3 | 4=(3+(x/3)) | 4 3 x 3 / + = | 4:dollar 3:dollar x:dollar 3:necklace /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 3 | 4=((3/3)+x) | 4 3 3 / x + = | 4:dollar 3:dollar 3:necklace /:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 |  | ((x*4)+3)=3 | x 4 * 3 + 3 = | x:dollar 4:necklace *:necklace 3:necklace +:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 13 | 4=(x-(3*3)) | 4 x 3 3 * - = | 4:necklace x:necklace 3:dollar 3:necklace *:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 15 | (3+(4*3))=x | 3 4 3 * + x = | 3:dollar 4:necklace 3:dollar *:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 4 | (4*3)=(x*3) | 4 3 * x 3 * = | 4:necklace 3:dollar *:dollar x:dollar 3:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | - | ((4/x)+3)=3 | 4 x / 3 + 3 = | 4:necklace x:dollar /:necklace 3:necklace +:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | - | 4=((3-3)*x) | 4 3 3 - x * = | 4:necklace 3:necklace 3:necklace -:necklace x:dollar *:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | - | 4=((3-3)/x) | 4 3 3 - x / = | 4:necklace 3:necklace 3:necklace -:necklace x:dollar /:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | - | 4=(x*(3-3)) | 4 x 3 3 - * = | 4:necklace x:dollar 3:necklace 3:necklace -:necklace *:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 4 | (4*3)=(3*x) | 4 3 * 3 x * = | 4:necklace 3:dollar *:dollar 3:necklace x:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 5 | ((4+x)/3)=3 | 4 x + 3 / 3 = | 4:necklace x:necklace +:necklace 3:dollar /:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 3 | 4=(3+(3/x)) | 4 3 3 x / + = | 4:necklace 3:necklace 3:necklace x:dollar /:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 9 | 4=((3+x)/3) | 4 3 x + 3 / = | 4:dollar 3:dollar x:dollar +:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 4 | (x/4)=(3/3) | x 4 / 3 3 / = | x:dollar 4:necklace /:dollar 3:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 36 | (4*3)=(x/3) | 4 3 * x 3 / = | 4:necklace 3:dollar *:dollar x:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 21 | 3 | (4-(x/3))=3 | 4 x 3 / - 3 = | 4:necklace x:necklace 3:dollar /:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 21 | 3 | (4-(3/x))=3 | 4 3 x / - 3 = | 4:necklace 3:necklace x:dollar /:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 |  | (3-(x*4))=3 | 3 x 4 * - 3 = | 3:necklace x:dollar 4:necklace *:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 5 | 3=((x-4)*3) | 3 x 4 - 3 * = | 3:dollar x:dollar 4:dollar -:dollar 3:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 |  | (3+(x*4))=3 | 3 x 4 * + 3 = | 3:necklace x:dollar 4:necklace *:necklace +:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 0 | 3=((4*x)+3) | 3 4 x * 3 + = | 3:dollar 4:necklace x:dollar *:dollar 3:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 0 | 3=((x*4)+3) | 3 x 4 * 3 + = | 3:necklace x:dollar 4:necklace *:necklace 3:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 3 | 3=(4-(3/x)) | 3 4 3 x / - = | 3:necklace 4:necklace 3:necklace x:dollar /:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 |  | (3+(4*x))=3 | 3 4 x * + 3 = | 3:necklace 4:necklace x:dollar *:necklace +:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 |  | (3-(4*x))=3 | 3 4 x * - 3 = | 3:necklace 4:necklace x:dollar *:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 3 | (3*(4-x))=3 | 3 4 x - * 3 = | 3:dollar 4:necklace x:necklace -:necklace *:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 15 | ((x-3)/4)=3 | x 3 - 4 / 3 = | x:dollar 3:dollar -:dollar 4:necklace /:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 5 | 3=((4+x)/3) | 3 4 x + 3 / = | 3:dollar 4:dollar x:dollar +:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 15 | 3=(x-(4*3)) | 3 x 4 3 * - = | 3:dollar x:dollar 4:necklace 3:dollar *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 9 | ((3+x)/4)=3 | 3 x + 4 / 3 = | 3:dollar x:dollar +:dollar 4:necklace /:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 3 | 3=(4-(x/3)) | 3 4 x 3 / - = | 3:dollar 4:dollar x:dollar 3:necklace /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 5 | 3=((x+4)/3) | 3 x 4 + 3 / = | 3:dollar x:dollar 4:dollar +:dollar 3:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 4 | (4/x)=(3/3) | 4 x / 3 3 / = | 4:necklace x:dollar /:necklace 3:necklace 3:dollar /:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 9 | 3=((4*3)-x) | 3 4 3 * x - = | 3:dollar 4:dollar 3:necklace *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | - | 3=((4/x)+3) | 3 4 x / 3 + = | 3:necklace 4:necklace x:dollar /:necklace 3:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 5 | (3*(x-4))=3 | 3 x 4 - * 3 = | 3:dollar x:necklace 4:necklace -:necklace *:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 3 | 3=((4-x)*3) | 3 4 x - 3 * = | 3:dollar 4:dollar x:dollar -:dollar 3:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 |  | (3+(x/4))=3 | 3 x 4 / + 3 = | 3:dollar x:dollar 4:necklace /:dollar +:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 0 | 3=((x/4)+3) | 3 x 4 / 3 + = | 3:dollar x:dollar 4:necklace /:dollar 3:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 13 | 3=((x-4)/3) | 3 x 4 - 3 / = | 3:dollar x:dollar 4:dollar -:dollar 3:necklace /:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 21 | 21 | ((x/3)-4)=3 | x 3 / 4 - 3 = | x:necklace 3:dollar /:necklace 4:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | - | (3+(4/x))=3 | 3 4 x / + 3 = | 3:necklace 4:necklace x:dollar /:necklace +:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 | 24 | 3=((x/4)-3) | 3 x 4 / 3 - = | 3:dollar x:dollar 4:necklace /:dollar 3:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | - | (3-(4/x))=3 | 3 4 x / - 3 = | 3:necklace 4:necklace x:dollar /:necklace -:necklace 3:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 21 |  | (3-(x/4))=3 | 3 x 4 / - 3 = | 3:dollar x:dollar 4:necklace /:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 21 | 9 | ((x+3)/4)=3 | x 3 + 4 / 3 = | x:dollar 3:dollar +:dollar 4:necklace /:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 |  | x=((3-3)*4) | x 3 3 - 4 * = | x:dollar 3:dollar 3:dollar -:dollar 4:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 5 | ((3/3)+4)=x | 3 3 / 4 + x = | 3:dollar 3:necklace /:dollar 4:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 5 | ((3*3)-4)=x | 3 3 * 4 - x = | 3:dollar 3:necklace *:dollar 4:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 13 | ((3*3)+4)=x | 3 3 * 4 + x = | 3:dollar 3:necklace *:dollar 4:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 |  | x=((3-3)/4) | x 3 3 - 4 / = | x:dollar 3:dollar 3:dollar -:dollar 4:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 5 | x=((3/3)+4) | x 3 3 / 4 + = | x:dollar 3:dollar 3:necklace /:dollar 4:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 5 | x=((3*3)-4) | x 3 3 * 4 - = | x:necklace 3:dollar 3:necklace *:necklace 4:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 15 | 21 | 13 | x=((3*3)+4) | x 3 3 * 4 + = | x:necklace 3:dollar 3:necklace *:necklace 4:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 15 | 21 | 24 | x=((3+3)*4) | x 3 3 + 4 * = | x:dollar 3:dollar 3:dollar +:dollar 4:necklace *:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 0 | ((3-3)/4)=x | 3 3 - 4 / x = | 3:dollar 3:dollar -:dollar 4:necklace /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 0 | ((3-3)*4)=x | 3 3 - 4 * x = | 3:dollar 3:dollar -:dollar 4:necklace *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 21 | 24 | ((3+3)*4)=x | 3 3 + 4 * x = | 3:dollar 3:dollar +:dollar 4:necklace *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 4 | (x*3)=(4*3) | x 3 * 4 3 * = | x:dollar 3:necklace *:dollar 4:necklace 3:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 0 | 3=(3+(4*x)) | 3 3 4 x * + = | 3:dollar 3:dollar 4:necklace x:dollar *:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 17 | 21 | 21 | ((x/3)-3)=4 | x 3 / 3 - 4 = | x:necklace 3:dollar /:necklace 3:necklace -:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 13 | (x-(3*3))=4 | x 3 3 * - 4 = | x:necklace 3:dollar 3:necklace *:necklace -:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | - | (x*(3-3))=4 | x 3 3 - * 4 = | x:dollar 3:necklace 3:necklace -:necklace *:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 0 | 3=(3-(4*x)) | 3 3 4 x * - = | 3:necklace 3:necklace 4:necklace x:dollar *:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 3 | ((x/3)+3)=4 | x 3 / 3 + 4 = | x:necklace 3:dollar /:necklace 3:necklace +:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 0 | 3=(3+(x*4)) | 3 3 x 4 * + = | 3:necklace 3:necklace x:dollar 4:necklace *:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 15 | ((x-3)/3)=4 | x 3 - 3 / 4 = | x:dollar 3:dollar -:dollar 3:necklace /:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 9 | 3=((x+3)/4) | 3 x 3 + 4 / = | 3:dollar x:dollar 3:dollar +:dollar 4:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 36 | (x/3)=(4*3) | x 3 / 4 3 * = | x:dollar 3:necklace /:dollar 4:necklace 3:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 3 | (x+(3/3))=4 | x 3 3 / + 4 = | x:dollar 3:dollar 3:necklace /:dollar +:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 5 | (x-(3/3))=4 | x 3 3 / - 4 = | x:dollar 3:dollar 3:necklace /:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 9 | ((3+x)/3)=4 | 3 x + 3 / 4 = | 3:dollar x:dollar +:dollar 3:necklace /:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 3 | ((3/x)+3)=4 | 3 x / 3 + 4 = | 3:necklace x:dollar /:necklace 3:necklace +:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 4 | (3*x)=(4*3) | 3 x * 4 3 * = | 3:necklace x:dollar *:dollar 4:necklace 3:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | - | 3=(3-(4/x)) | 3 3 4 x / - = | 3:necklace 3:necklace 4:necklace x:dollar /:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 3 | (3+(3/x))=4 | 3 3 x / + 4 = | 3:necklace 3:necklace x:dollar /:necklace +:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 5 | ((3*3)-x)=4 | 3 3 * x - 4 = | 3:dollar 3:necklace *:necklace x:necklace -:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 0 | 3=(3-(x*4)) | 3 3 x 4 * - = | 3:dollar 3:dollar x:dollar 4:necklace *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 0 | 3=(3+(x/4)) | 3 3 x 4 / + = | 3:dollar 3:dollar x:dollar 4:necklace /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 3 | (3+(x/3))=4 | 3 x 3 / + 4 = | 3:dollar x:dollar 3:necklace /:dollar +:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 0 | 3=(3-(x/4)) | 3 3 x 4 / - = | 3:dollar 3:dollar x:dollar 4:necklace /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 3 | 3=(3*(4-x)) | 3 3 4 x - * = | 3:dollar 3:necklace 4:dollar x:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | - | 3=(3+(4/x)) | 3 3 4 x / + = | 3:necklace 3:necklace 4:necklace x:dollar /:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 15 | 3=((x-3)/4) | 3 x 3 - 4 / = | 3:dollar x:dollar 3:dollar -:dollar 4:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 5 | 3=(3*(x-4)) | 3 3 x 4 - * = | 3:dollar 3:necklace x:dollar 4:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | - | ((3-3)*x)=4 | 3 3 - x * 4 = | 3:necklace 3:necklace -:necklace x:dollar *:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | - | ((3-3)/x)=4 | 3 3 - x / 4 = | 3:necklace 3:necklace -:necklace x:dollar /:necklace 4:necklace =:necklace
+EXPR: 0 | POS | INT | 17 | 21 | 9 | ((x+3)/3)=4 | x 3 + 3 / 4 = | x:dollar 3:dollar +:dollar 3:necklace /:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 9 | 3=((3+x)/4) | 3 3 x + 4 / = | 3:dollar 3:dollar x:dollar +:dollar 4:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 3 | ((3/3)+x)=4 | 3 3 / x + 4 = | 3:dollar 3:necklace /:dollar x:dollar +:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 36 | (3*3)=(x/4) | 3 3 * x 4 / = | 3:dollar 3:necklace *:dollar x:dollar 4:necklace /:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 21 | 4 | (3/3)=(x/4) | 3 3 / x 4 / = | 3:dollar 3:necklace /:dollar x:dollar 4:necklace /:dollar =:dollar
+EXPR: 1 | POS | INT | 17 | 21 | 21 | 3=((x/3)-4) | 3 x 3 / 4 - = | 3:dollar x:dollar 3:necklace /:dollar 4:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 19 | 21 | 4 | (3/3)=(4/x) | 3 3 / 4 x / = | 3:necklace 3:dollar /:necklace 4:necklace x:dollar /:necklace =:necklace
+NET 146 unique, non-negative, integer-valued solutions found out of 1000 total solutions

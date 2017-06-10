@@ -1,0 +1,5 @@
+quantities : 2 8 7 x
+types : "album" "album" "song" "song"
+operators : + - * / =
+n : 7
+answer : 70.0

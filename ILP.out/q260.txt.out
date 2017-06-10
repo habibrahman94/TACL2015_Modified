@@ -1,0 +1,145 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 60 | 7 | x=(6+(5/5)) | x 6 5 5 / + = | x:dollar 6:dollar 5:dollar 5:daisy /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 0 | (6*(5-5))=x | 6 5 5 - * x = | 6:dollar 5:daisy 5:daisy -:daisy *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 35 | x=((6*5)+5) | x 6 5 * 5 + = | x:dollar 6:dollar 5:rose *:dollar 5:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 25 | ((6*5)-5)=x | 6 5 * 5 - x = | 6:dollar 5:rose *:dollar 5:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | zoo | (6/(5-5))=x | 6 5 5 - / x = | 6:dollar 5:daisy 5:daisy -:daisy /:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 10 | 60 | 60 | x=(6*(5+5)) | x 6 5 5 + * = | x:dollar 6:dollar 5:daisy 5:daisy +:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | zoo | x=(6/(5-5)) | x 6 5 5 - / = | x:dollar 6:dollar 5:daisy 5:daisy -:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 31 | x=(6+(5*5)) | x 6 5 5 * + = | x:dollar 6:dollar 5:dollar 5:daisy *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 |  | x=(6*(5-5)) | x 6 5 5 - * = | x:dollar 6:dollar 5:rose 5:rose -:rose *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 5 | (6-(5/5))=x | 6 5 5 / - x = | 6:dollar 5:dollar 5:daisy /:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 7 | (6+(5/5))=x | 6 5 5 / + x = | 6:dollar 5:dollar 5:daisy /:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 55 | ((6+5)*5)=x | 6 5 + 5 * x = | 6:dollar 5:dollar +:dollar 5:daisy *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 35 | ((6*5)+5)=x | 6 5 * 5 + x = | 6:dollar 5:rose *:dollar 5:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 5 | ((6-5)*5)=x | 6 5 - 5 * x = | 6:dollar 5:dollar -:dollar 5:daisy *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 10 | 60 | 60 | (6*(5+5))=x | 6 5 5 + * x = | 6:dollar 5:daisy 5:daisy +:daisy *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 31 | (6+(5*5))=x | 6 5 5 * + x = | 6:dollar 5:dollar 5:daisy *:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 55 | x=((6+5)*5) | x 6 5 + 5 * = | x:dollar 6:dollar 5:dollar +:dollar 5:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 5 | x=((6-5)*5) | x 6 5 - 5 * = | x:dollar 6:dollar 5:dollar -:dollar 5:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 25 | x=((6*5)-5) | x 6 5 * 5 - = | x:dollar 6:dollar 5:rose *:dollar 5:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 60 | 5 | x=(6-(5/5)) | x 6 5 5 / - = | x:dollar 6:dollar 5:dollar 5:daisy /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 19 | ((x+6)/5)=5 | x 6 + 5 / 5 = | x:dollar 6:dollar +:dollar 5:rose /:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 7 | ((x-6)*5)=5 | x 6 - 5 * 5 = | x:dollar 6:dollar -:dollar 5:daisy *:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 12 | 60 | - | 6=(x*(5-5)) | 6 x 5 5 - * = | 6:dollar x:dollar 5:daisy 5:daisy -:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 35 | x=(5+(6*5)) | x 5 6 5 * + = | x:dollar 5:dollar 6:dollar 5:daisy *:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 60 | 60 | 6=(x/(5+5)) | 6 x 5 5 + / = | 6:dollar x:dollar 5:rose 5:rose +:rose /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 25 | 6=((x+5)/5) | 6 x 5 + 5 / = | 6:dollar x:dollar 5:dollar +:dollar 5:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 35 | 6=((x-5)/5) | 6 x 5 - 5 / = | 6:dollar x:dollar 5:dollar -:dollar 5:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 5 | ((6-x)*5)=5 | 6 x - 5 * 5 = | 6:dollar x:dollar -:dollar 5:daisy *:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 12 | 60 | 31 | 6=(x-(5*5)) | 6 x 5 5 * - = | 6:dollar x:dollar 5:dollar 5:daisy *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 25 | 6=((5+x)/5) | 6 5 x + 5 / = | 6:dollar 5:dollar x:dollar +:dollar 5:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | - | 6=((5-5)*x) | 6 5 5 - x * = | 6:dollar 5:rose 5:rose -:rose x:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 35 | (5+(6*5))=x | 5 6 5 * + x = | 5:dollar 6:dollar 5:daisy *:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 5 | x=(5*(6-5)) | x 5 6 5 - * = | x:dollar 5:rose 6:dollar 5:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 55 | x=(5*(6+5)) | x 5 6 5 + * = | x:dollar 5:rose 6:dollar 5:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 25 | ((6*5)-x)=5 | 6 5 * x - 5 = | 6:dollar 5:rose *:dollar x:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 6 | (6*5)=(5*x) | 6 5 * 5 x * = | 6:dollar 5:rose *:dollar 5:daisy x:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 5 | (5*(6-5))=x | 5 6 5 - * x = | 5:rose 6:dollar 5:dollar -:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 55 | (5*(6+5))=x | 5 6 5 + * x = | 5:rose 6:dollar 5:dollar +:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 5 | 6=((x/5)+5) | 6 x 5 / 5 + = | 6:dollar x:dollar 5:rose /:dollar 5:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 60 | 31 | ((x-6)/5)=5 | x 6 - 5 / 5 = | x:dollar 6:dollar -:dollar 5:rose /:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 60 | 5 | (5*(6-x))=5 | 5 6 x - * 5 = | 5:rose 6:dollar x:dollar -:dollar *:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 60 | 7 | (5*(x-6))=5 | 5 x 6 - * 5 = | 5:rose x:dollar 6:dollar -:dollar *:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 14 | 60 | 7 | 5=((x-6)*5) | 5 x 6 - 5 * = | 5:rose x:dollar 6:dollar -:dollar 5:rose *:rose =:rose
+EXPR: 0 | POS | INT | 14 | 60 | 19 | ((6+x)/5)=5 | 6 x + 5 / 5 = | 6:dollar x:dollar +:dollar 5:daisy /:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 60 | 19 | 5=((6+x)/5) | 5 6 x + 5 / = | 5:dollar 6:dollar x:dollar +:dollar 5:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 60 | 7 | (5/(x-6))=5 | 5 x 6 - / 5 = | 5:daisy x:dollar 6:dollar -:dollar /:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 14 | 60 | 5 | (5/(6-x))=5 | 5 6 x - / 5 = | 5:daisy 6:dollar x:dollar -:dollar /:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 14 | 60 | 5 | 5=((6-x)*5) | 5 6 x - 5 * = | 5:rose 6:dollar x:dollar -:dollar 5:rose *:rose =:rose
+EXPR: 0 | POS | INT | 14 | 60 | 35 | (x-(6*5))=5 | x 6 5 * - 5 = | x:dollar 6:dollar 5:daisy *:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 60 | 150 | (x/5)=(6*5) | x 5 / 6 5 * = | x:dollar 5:rose /:dollar 6:dollar 5:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 60 | 6 | (x*5)=(6*5) | x 5 * 6 5 * = | x:dollar 5:rose *:dollar 6:dollar 5:daisy *:dollar =:dollar
+EXPR: 1 | POS | INT | 15 | 60 | 60 | ((5+5)*6)=x | 5 5 + 6 * x = | 5:daisy 5:daisy +:daisy 6:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 60 |  | x=((5-5)*6) | x 5 5 - 6 * = | x:dollar 5:daisy 5:daisy -:daisy 6:dollar *:dollar =:dollar
+EXPR: 1 | POS | INT | 15 | 60 | 60 | x=((5+5)*6) | x 5 5 + 6 * = | x:dollar 5:daisy 5:daisy +:daisy 6:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 60 | 0 | ((5-5)*6)=x | 5 5 - 6 * x = | 5:rose 5:rose -:rose 6:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 7 | 5=(5*(x-6)) | 5 5 x 6 - * = | 5:dollar 5:daisy x:dollar 6:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | - | (x/(5-5))=6 | x 5 5 - / 6 = | x:dollar 5:rose 5:rose -:rose /:dollar 6:dollar =:dollar
+EXPR: 1 | POS | INT | 17 | 60 | 60 | (x/(5+5))=6 | x 5 5 + / 6 = | x:dollar 5:rose 5:rose +:rose /:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 35 | ((x-5)/5)=6 | x 5 - 5 / 6 = | x:dollar 5:dollar -:dollar 5:daisy /:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 5 | 5=(5*(6-x)) | 5 5 6 x - * = | 5:rose 5:rose 6:dollar x:dollar -:dollar *:rose =:rose
+EXPR: 0 | POS | INT | 17 | 60 | 25 | ((x+5)/5)=6 | x 5 + 5 / 6 = | x:dollar 5:dollar +:dollar 5:daisy /:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 19 | ((5*5)-x)=6 | 5 5 * x - 6 = | 5:rose 5:dollar *:dollar x:dollar -:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 31 | (x-(5*5))=6 | x 5 5 * - 6 = | x:dollar 5:dollar 5:daisy *:dollar -:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 7 | 5=(5/(x-6)) | 5 5 x 6 - / = | 5:rose 5:rose x:dollar 6:dollar -:dollar /:rose =:rose
+EXPR: 0 | POS | INT | 17 | 60 | 7 | (x-(5/5))=6 | x 5 5 / - 6 = | x:dollar 5:dollar 5:daisy /:dollar -:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 5 | (x+(5/5))=6 | x 5 5 / + 6 = | x:dollar 5:dollar 5:daisy /:dollar +:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 7 | ((5/5)+6)=x | 5 5 / 6 + x = | 5:dollar 5:rose /:dollar 6:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | - | (x*(5-5))=6 | x 5 5 - * 6 = | x:dollar 5:daisy 5:daisy -:daisy *:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 7 | x=((5/5)+6) | x 5 5 / 6 + = | x:dollar 5:dollar 5:rose /:dollar 6:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 55 | ((x/5)-5)=6 | x 5 / 5 - 6 = | x:dollar 5:rose /:dollar 5:dollar -:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 5 | ((x/5)+5)=6 | x 5 / 5 + 6 = | x:dollar 5:rose /:dollar 5:dollar +:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 55 | 5=((x/5)-6) | 5 x 5 / 6 - = | 5:dollar x:dollar 5:daisy /:dollar 6:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 60 | 5 | (5+(x/5))=6 | 5 x 5 / + 6 = | 5:dollar x:dollar 5:daisy /:dollar +:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 19 | 60 | 25 | ((5+x)/5)=6 | 5 x + 5 / 6 = | 5:dollar x:dollar +:dollar 5:rose /:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 19 | 60 | 5 | 5=(5/(6-x)) | 5 5 6 x - / = | 5:rose 5:rose 6:dollar x:dollar -:dollar /:rose =:rose
+EXPR: 0 | POS | INT | 19 | 60 | 5 | ((5/5)+x)=6 | 5 5 / x + 6 = | 5:dollar 5:rose /:dollar x:dollar +:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 19 | 60 | - | ((5-5)*x)=6 | 5 5 - x * 6 = | 5:rose 5:rose -:rose x:dollar *:dollar 6:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 60 | 6 | ((6+5)-5)=x | 6 5 + 5 - x = | 6:dollar 5:dollar +:dollar 5:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 60 | 16 | ((6+5)+5)=x | 6 5 + 5 + x = | 6:dollar 5:dollar +:dollar 5:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 60 | 6 | ((6-5)+5)=x | 6 5 - 5 + x = | 6:dollar 5:dollar -:dollar 5:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 60 | 6 | x=(6-(5-5)) | x 6 5 5 - - = | x:dollar 6:dollar 5:dollar 5:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 31 | (x-6)=(5*5) | x 6 - 5 5 * = | x:dollar 6:dollar -:dollar 5:rose 5:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 150 | (x/6)=(5*5) | x 6 / 5 5 * = | x:daisy 6:dollar /:daisy 5:rose 5:daisy *:daisy =:daisy
+EXPR: 0 | POS | INT | 22 | 60 | 16 | (x-(6+5))=5 | x 6 5 + - 5 = | x:dollar 6:dollar 5:dollar +:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 6 | (x-(6-5))=5 | x 6 5 - - 5 = | x:dollar 6:dollar 5:dollar -:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 4 | (x+(6-5))=5 | x 6 5 - + 5 = | x:dollar 6:dollar 5:dollar -:dollar +:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 19 | (6+x)=(5*5) | 6 x + 5 5 * = | 6:dollar x:dollar +:dollar 5:rose 5:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 |  | ((x*6)+5)=5 | x 6 * 5 + 5 = | x:dollar 6:daisy *:daisy 5:daisy +:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 22 | 60 | 150 | (6*5)=(x/5) | 6 5 * x 5 / = | 6:dollar 5:rose *:rose x:rose 5:daisy /:rose =:rose
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (x*(6-5))=5 | x 6 5 - * 5 = | x:dollar 6:rose 5:rose -:rose *:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (6-(5/x))=5 | 6 5 x / - 5 = | 6:daisy 5:daisy x:dollar /:daisy -:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 22 | 60 | 5 | x=(5/(6-5)) | x 5 6 5 - / = | x:rose 5:rose 6:dollar 5:dollar -:dollar /:rose =:rose
+EXPR: 0 | POS | INT | 22 | 60 | 6 | (6-(x-5))=5 | 6 x 5 - - 5 = | 6:dollar x:dollar 5:dollar -:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (x/(6-5))=5 | x 6 5 - / 5 = | x:daisy 6:dollar 5:dollar -:dollar /:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 22 | 60 | 55 | (x/(6+5))=5 | x 6 5 + / 5 = | x:daisy 6:dollar 5:dollar +:dollar /:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 22 | 60 | 4 | (6+(x-5))=5 | 6 x 5 - + 5 = | 6:dollar x:dollar 5:dollar -:dollar +:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (6-x)=(5/5) | 6 x - 5 5 / = | 6:dollar x:dollar -:dollar 5:dollar 5:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 6 | 6=((x-5)+5) | 6 x 5 - 5 + = | 6:dollar x:dollar 5:dollar -:dollar 5:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 4 | (5-(6-5))=x | 5 6 5 - - x = | 5:dollar 6:dollar 5:dollar -:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 16 | (5+(6+5))=x | 5 6 5 + + x = | 5:dollar 6:dollar 5:dollar +:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 6 | 6=((5-5)+x) | 6 5 5 - x + = | 6:dollar 5:dollar 5:dollar -:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 6 | 6=(5-(5-x)) | 6 5 5 x - - = | 6:dollar 5:dollar 5:dollar x:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 4 | 6=((5+5)-x) | 6 5 5 + x - = | 6:dollar 5:dollar 5:dollar +:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 4 | 6=((5-x)+5) | 6 5 x - 5 + = | 6:dollar 5:dollar x:dollar -:dollar 5:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=(5+(5/x)) | 6 5 5 x / + = | 6:rose 5:rose 5:rose x:dollar /:rose +:rose =:rose
+EXPR: 0 | POS | INT | 22 | 60 | 7 | (x-6)=(5/5) | x 6 - 5 5 / = | x:dollar 6:dollar -:dollar 5:dollar 5:daisy /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 4 | ((x+6)-5)=5 | x 6 + 5 - 5 = | x:dollar 6:dollar +:dollar 5:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 6 | 6=((5+x)-5) | 6 5 x + 5 - = | 6:dollar 5:dollar x:dollar +:dollar 5:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 16 | 6=((x-5)-5) | 6 x 5 - 5 - = | 6:dollar x:dollar 5:dollar -:dollar 5:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=((5/x)+5) | 6 5 x / 5 + = | 6:daisy 5:daisy x:dollar /:daisy 5:daisy +:daisy =:daisy
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (5/(6-5))=x | 5 6 5 - / x = | 5:dollar 6:daisy 5:daisy -:daisy /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | 19 | (x+6)=(5*5) | x 6 + 5 5 * = | x:dollar 6:dollar +:dollar 5:dollar 5:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 60 | - | ((6/x)+5)=5 | 6 x / 5 + 5 = | 6:rose x:dollar /:rose 5:rose +:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 22 | 60 | 19 | 6=((5*5)-x) | 6 5 5 * x - = | 6:dollar 5:daisy 5:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 60 |  | (5+(6*x))=5 | 5 6 x * + 5 = | 5:daisy 6:daisy x:dollar *:daisy +:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 |  | (5-(6*x))=5 | 5 6 x * - 5 = | 5:daisy 6:daisy x:dollar *:daisy -:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | - | (5+(6/x))=5 | 5 6 x / + 5 = | 5:daisy 6:daisy x:dollar /:daisy +:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | - | (5-(6/x))=5 | 5 6 x / - 5 = | 5:daisy 6:daisy x:dollar /:daisy -:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | 5 | 6=(5+(x/5)) | 6 5 x 5 / + = | 6:daisy 5:daisy x:daisy 5:rose /:daisy +:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | - | 6=((5-5)/x) | 6 5 5 - x / = | 6:rose 5:rose 5:rose -:rose x:dollar /:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 0 | 5=((x*6)+5) | 5 x 6 * 5 + = | 5:daisy x:dollar 6:daisy *:daisy 5:daisy +:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | 35 | ((x-5)/6)=5 | x 5 - 6 / 5 = | x:rose 5:rose -:rose 6:dollar /:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 6 | (5-(x-6))=5 | 5 x 6 - - 5 = | 5:dollar x:dollar 6:dollar -:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 60 |  | (5-(x*6))=5 | 5 x 6 * - 5 = | 5:rose x:rose 6:dollar *:rose -:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 |  | (5+(x*6))=5 | 5 x 6 * + 5 = | 5:rose x:rose 6:dollar *:rose +:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 25 | 5=((6*5)-x) | 5 6 5 * x - = | 5:rose 6:rose 5:daisy *:rose x:rose -:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 25 | ((x+5)/6)=5 | x 5 + 6 / 5 = | x:daisy 5:daisy +:daisy 6:dollar /:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | 5 | (x/5)=(6-5) | x 5 / 6 5 - = | x:dollar 5:rose /:dollar 6:dollar 5:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 60 | 5 | 5=(6-(x/5)) | 5 6 x 5 / - = | 5:rose 6:rose x:rose 5:daisy /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 5 | 5=(x/(6-5)) | 5 x 6 5 - / = | 5:rose x:rose 6:dollar 5:dollar -:dollar /:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 55 | 5=(x/(6+5)) | 5 x 6 5 + / = | 5:rose x:rose 6:dollar 5:dollar +:dollar /:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 |  | ((6*x)+5)=5 | 6 x * 5 + 5 = | 6:dollar x:rose *:rose 5:rose +:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 5 | 6=((5/5)+x) | 6 5 5 / x + = | 6:daisy 5:daisy 5:rose /:daisy x:daisy +:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | 35 | (x-5)=(6*5) | x 5 - 6 5 * = | x:dollar 5:dollar -:dollar 6:dollar 5:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 60 | 25 | (x+5)=(6*5) | x 5 + 6 5 * = | x:dollar 5:dollar +:dollar 6:dollar 5:daisy *:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 60 | 5 | ((6-5)*x)=5 | 6 5 - x * 5 = | 6:dollar 5:dollar -:dollar x:rose *:rose 5:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 4 | (6-(5-x))=5 | 6 5 x - - 5 = | 6:dollar 5:dollar x:dollar -:dollar -:dollar 5:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 60 | 5 | 5=(x*(6-5)) | 5 x 6 5 - * = | 5:rose x:rose 6:dollar 5:dollar -:dollar *:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 | 0 | 5=((6*x)+5) | 5 6 x * 5 + = | 5:rose 6:dollar x:rose *:rose 5:rose +:rose =:rose
+EXPR: 0 | POS | INT | 24 | 60 |  | ((x/6)+5)=5 | x 6 / 5 + 5 = | x:daisy 6:dollar /:daisy 5:daisy +:daisy 5:daisy =:daisy
+EXPR: 0 | POS | INT | 24 | 60 | 35 | 5=(x-(6*5)) | 5 x 6 5 * - = | 5:rose x:rose 6:rose 5:daisy *:rose -:rose =:rose
+NET 141 unique, non-negative, integer-valued solutions found out of 1000 total solutions

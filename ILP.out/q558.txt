@@ -1,0 +1,5 @@
+quantities : 50 5 x 5
+types : "apple" "rest" "pie" "apple"
+operators : + - * / =
+n : 7
+answer : 9.0

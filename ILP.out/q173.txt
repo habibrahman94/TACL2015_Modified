@@ -1,0 +1,5 @@
+quantities : 5 2 28 x
+types : "orange" "one" "one" "one"
+operators : + - * / =
+n : 7
+answer : 31.0

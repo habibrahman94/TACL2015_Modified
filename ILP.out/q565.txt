@@ -1,0 +1,5 @@
+quantities : 120 48 9 x
+types : "piece" "piece" "load" "piece"
+operators : + - * / =
+n : 7
+answer : 8.0

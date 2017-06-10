@@ -1,0 +1,5 @@
+quantities : 43 12 44 x
+types : "problem" "problem" "problem" "problem"
+operators : + - * / =
+n : 7
+answer : 11.0

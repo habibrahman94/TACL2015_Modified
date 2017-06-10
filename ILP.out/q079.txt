@@ -1,0 +1,5 @@
+quantities : 4 50 4 x
+types : "lawn" "dollar" "supplies" "dollar"
+operators : + - * / =
+n : 7
+answer : 50.0

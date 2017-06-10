@@ -1,0 +1,5 @@
+quantities : 9 29 52 x
+types : "tray" "tray" "tray" "trip"
+operators : + - * / =
+n : 7
+answer : 9.0

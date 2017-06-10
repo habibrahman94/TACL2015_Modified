@@ -1,0 +1,171 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 72 | 144 | ((8*17)+8)=x | 8 17 * 8 + x = | 8:brownie 17:cup *:cup 8:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 200 | x=(8*(17+8)) | x 8 17 8 + * = | x:cup 8:brownie 17:cup 8:cup +:cup *:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 144 | x=((8*17)+8) | x 8 17 * 8 + = | x:cup 8:cup 17:total *:cup 8:cup +:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 144 | x=(8+(17*8)) | x 8 17 8 * + = | x:cup 8:cup 17:total 8:cup *:cup +:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 200 | x=((8+17)*8) | x 8 17 + 8 * = | x:cup 8:brownie 17:brownie +:brownie 8:cup *:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 128 | x=((8*17)-8) | x 8 17 * 8 - = | x:cup 8:cup 17:total *:cup 8:cup -:cup =:cup
+EXPR: 1 | POS | INT | 10 | 72 | 72 | x=(8*(17-8)) | x 8 17 8 - * = | x:cup 8:brownie 17:cup 8:cup -:cup *:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 200 | ((8+17)*8)=x | 8 17 + 8 * x = | 8:total 17:total +:total 8:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 128 | ((8*17)-8)=x | 8 17 * 8 - x = | 8:cup 17:total *:cup 8:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 200 | (8*(17+8))=x | 8 17 8 + * x = | 8:brownie 17:cup 8:cup +:cup *:cup x:cup =:cup
+EXPR: 1 | POS | INT | 10 | 72 | 72 | (8*(17-8))=x | 8 17 8 - * x = | 8:brownie 17:cup 8:cup -:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 72 | 144 | (8+(17*8))=x | 8 17 8 * + x = | 8:cup 17:total 8:cup *:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 81 | ((8*8)+17)=x | 8 8 * 17 + x = | 8:brownie 8:cup *:cup 17:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 |  | (8-(x/17))=8 | 8 x 17 / - 8 = | 8:cup x:cup 17:total /:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 |  | (8+(x/17))=8 | 8 x 17 / + 8 = | 8:cup x:cup 17:total /:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 |  | (8+(x*17))=8 | 8 x 17 * + 8 = | 8:cup x:cup 17:total *:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 81 | x=((8*8)+17) | x 8 8 * 17 + = | x:cup 8:brownie 8:cup *:cup 17:cup +:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 128 | ((8*17)-x)=8 | 8 17 * x - 8 = | 8:cup 17:total *:cup x:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 |  | (8-(17*x))=8 | 8 17 x * - 8 = | 8:cup 17:total x:cup *:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 0 | (17*(8-8))=x | 17 8 8 - * x = | 17:total 8:cup 8:cup -:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 272 | (17*(8+8))=x | 17 8 8 + * x = | 17:total 8:cup 8:cup +:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 200 | (x/(8+17))=8 | x 8 17 + / 8 = | x:cup 8:brownie 17:brownie +:brownie /:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 0 | ((8-8)*17)=x | 8 8 - 17 * x = | 8:cup 8:cup -:cup 17:total *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 272 | ((8+8)*17)=x | 8 8 + 17 * x = | 8:cup 8:cup +:cup 17:total *:cup x:cup =:cup
+EXPR: 1 | POS | INT | 12 | 72 | 72 | x=((17-8)*8) | x 17 8 - 8 * = | x:cup 17:brownie 8:brownie -:brownie 8:cup *:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 |  | (8+(17*x))=8 | 8 17 x * + 8 = | 8:cup 17:total x:cup *:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 17 | (x*8)=(17*8) | x 8 * 17 8 * = | x:cup 8:brownie *:cup 17:total 8:cup *:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 1088 | (x/8)=(17*8) | x 8 / 17 8 * = | x:cup 8:brownie /:cup 17:total 8:cup *:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 0 | ((8-8)/17)=x | 8 8 - 17 / x = | 8:cup 8:cup -:cup 17:total /:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 128 | ((8+x)/17)=8 | 8 x + 17 / 8 = | 8:cup x:cup +:cup 17:total /:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 | 144 | 8=(x-(17*8)) | 8 x 17 8 * - = | 8:cup x:cup 17:total 8:cup *:cup -:cup =:cup
+EXPR: 1 | POS | INT | 12 | 72 | 72 | ((17-8)*8)=x | 17 8 - 8 * x = | 17:brownie 8:brownie -:brownie 8:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 72 |  | x=((8-8)/17) | x 8 8 - 17 / = | x:cup 8:cup 8:cup -:cup 17:total /:cup =:cup
+EXPR: 0 | POS | INT | 14 | 72 | 47 | ((8*8)-x)=17 | 8 8 * x - 17 = | 8:brownie 8:cup *:cup x:cup -:cup 17:cup =:cup
+EXPR: 1 | POS | INT | 14 | 72 | 72 | (x/(17-8))=8 | x 17 8 - / 8 = | x:cup 17:total 8:total -:total /:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 14 | 72 |  | ((x*17)+8)=8 | x 17 * 8 + 8 = | x:cup 17:total *:cup 8:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 14 | 72 |  | ((x/17)+8)=8 | x 17 / 8 + 8 = | x:cup 17:total /:cup 8:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 14 | 72 | 144 | 8=((x-8)/17) | 8 x 8 - 17 / = | 8:cup x:cup 8:cup -:cup 17:total /:cup =:cup
+EXPR: 0 | POS | INT | 14 | 72 | 128 | 8=((x+8)/17) | 8 x 8 + 17 / = | 8:cup x:cup 8:cup +:cup 17:total /:cup =:cup
+EXPR: 0 | POS | INT | 14 | 72 | 18 | ((x-17)*8)=8 | x 17 - 8 * 8 = | x:cup 17:cup -:cup 8:brownie *:cup 8:cup =:cup
+EXPR: 1 | POS | INT | 14 | 72 | 72 | (17-(x/8))=8 | 17 x 8 / - 8 = | 17:cup x:cup 8:brownie /:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 | 144 | x=(8+(8*17)) | x 8 8 17 * + = | x:cup 8:cup 8:cup 17:total *:cup +:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 | 144 | (8+(8*17))=x | 8 8 17 * + x = | 8:cup 8:brownie 17:cup *:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 | 200 | (8*(8+17))=x | 8 8 17 + * x = | 8:cup 8:brownie 17:brownie +:brownie *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 |  | x=(17*(8-8)) | x 17 8 8 - * = | x:cup 17:total 8:cup 8:cup -:cup *:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 | 18 | ((8/8)+17)=x | 8 8 / 17 + x = | 8:cup 8:brownie /:cup 17:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 | 200 | x=(8*(8+17)) | x 8 8 17 + * = | x:cup 8:cup 8:total 17:total +:total *:cup =:cup
+EXPR: 0 | POS | INT | 15 | 72 | 128 | x=((17*8)-8) | x 17 8 * 8 - = | x:cup 17:total 8:cup *:cup 8:cup -:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 128 | ((8+x)/8)=17 | 8 x + 8 / 17 = | 8:cup x:cup +:cup 8:brownie /:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 16 | (x+(8/8))=17 | x 8 8 / + 17 = | x:cup 8:cup 8:brownie /:cup +:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 128 | ((x+8)/8)=17 | x 8 + 8 / 17 = | x:cup 8:cup +:cup 8:brownie /:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 144 | ((x-8)/8)=17 | x 8 - 8 / 17 = | x:cup 8:cup -:cup 8:brownie /:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 16 | ((8/8)+x)=17 | 8 8 / x + 17 = | 8:cup 8:brownie /:cup x:cup +:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 144 | 8=(x-(8*17)) | 8 x 8 17 * - = | 8:cup x:cup 8:brownie 17:cup *:cup -:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 200 | 8=((x/8)-17) | 8 x 8 / 17 - = | 8:cup x:cup 8:brownie /:cup 17:cup -:cup =:cup
+EXPR: 0 | POS | INT | 17 | 72 | 18 | (x-(8/8))=17 | x 8 8 / - 17 = | x:cup 8:cup 8:brownie /:cup -:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 19 | 72 |  | (8-(x*17))=8 | 8 x 17 * - 8 = | 8:cup x:cup 17:total *:cup -:cup 8:cup =:cup
+EXPR: 1 | POS | INT | 19 | 72 | 72 | 8=(x/(17-8)) | 8 x 17 8 - / = | 8:cup x:cup 17:total 8:total -:total /:cup =:cup
+EXPR: 0 | POS | INT | 19 | 72 | 18 | 8=((x-17)*8) | 8 x 17 - 8 * = | 8:cup x:cup 17:cup -:cup 8:brownie *:cup =:cup
+EXPR: 0 | POS | INT | 19 | 72 | 81 | 8=((x-17)/8) | 8 x 17 - 8 / = | 8:cup x:cup 17:cup -:cup 8:brownie /:cup =:cup
+EXPR: 0 | POS | INT | 19 | 72 | 47 | 8=((x+17)/8) | 8 x 17 + 8 / = | 8:cup x:cup 17:cup +:cup 8:brownie /:cup =:cup
+EXPR: 0 | POS | INT | 19 | 72 | 0 | 8=((17*x)+8) | 8 17 x * 8 + = | 8:cup 17:total x:cup *:cup 8:cup +:cup =:cup
+EXPR: 1 | POS | INT | 19 | 72 | 72 | 8=(17-(x/8)) | 8 17 x 8 / - = | 8:cup 17:cup x:cup 8:brownie /:cup -:cup =:cup
+EXPR: 0 | POS | INT | 20 | 72 | 17 | x=(8+(17-8)) | x 8 17 8 - + = | x:cup 8:cup 17:cup 8:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 20 | 72 | 17 | (8+(17-8))=x | 8 17 8 - + x = | 8:cup 17:cup 8:cup -:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | ((8+x)-17)=8 | 8 x + 17 - 8 = | 8:cup x:cup +:cup 17:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 47 | x=((8*8)-17) | x 8 8 * 17 - = | x:total 8:brownie 8:total *:total 17:total -:total =:total
+EXPR: 0 | POS | INT | 22 | 72 | 1088 | (8*17)=(x/8) | 8 17 * x 8 / = | 8:brownie 17:total *:brownie x:brownie 8:cup /:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | - | (8-(17/x))=8 | 8 17 x / - 8 = | 8:brownie 17:brownie x:cup /:brownie -:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | - | (8+(17/x))=8 | 8 17 x / + 8 = | 8:brownie 17:brownie x:cup /:brownie +:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | 81 | (17+(8*8))=x | 17 8 8 * + x = | 17:cup 8:total 8:cup *:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 |  | x=((8-8)*17) | x 8 8 - 17 * = | x:brownie 8:brownie 8:brownie -:brownie 17:total *:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | 18 | (8*(x-17))=8 | 8 x 17 - * 8 = | 8:cup x:total 17:total -:total *:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | x=((17-8)+8) | x 17 8 - 8 + = | x:cup 17:cup 8:cup -:cup 8:cup +:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 16 | (8*(17-x))=8 | 8 17 x - * 8 = | 8:brownie 17:total x:total -:total *:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | 272 | x=((8+8)*17) | x 8 8 + 17 * = | x:cup 8:brownie 8:brownie +:brownie 17:cup *:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | ((8-x)+17)=8 | 8 x - 17 + 8 = | 8:cup x:cup -:cup 17:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | ((8-8)+17)=x | 8 8 - 17 + x = | 8:cup 8:cup -:cup 17:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | 8=(x-(17-8)) | 8 x 17 8 - - = | 8:cup x:cup 17:cup 8:cup -:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 33 | 8=(x-(17+8)) | 8 x 17 8 + - = | 8:cup x:cup 17:cup 8:cup +:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | 8=((x-17)+8) | 8 x 17 - 8 + = | 8:cup x:cup 17:cup -:cup 8:cup +:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | - | 8=((17/x)+8) | 8 17 x / 8 + = | 8:total 17:total x:cup /:total 8:total +:total =:total
+EXPR: 0 | POS | INT | 22 | 72 | 33 | 8=((x-17)-8) | 8 x 17 - 8 - = | 8:cup x:cup 17:cup -:cup 8:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 47 | ((8*8)-17)=x | 8 8 * 17 - x = | 8:total 8:cup *:total 17:total -:total x:total =:total
+EXPR: 0 | POS | INT | 22 | 72 | 33 | ((8+8)+17)=x | 8 8 + 17 + x = | 8:cup 8:cup +:cup 17:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 18 | (17+(8/8))=x | 17 8 8 / + x = | 17:brownie 8:brownie 8:cup /:brownie +:brownie x:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | 128 | 8=((17*8)-x) | 8 17 8 * x - = | 8:total 17:total 8:cup *:total x:total -:total =:total
+EXPR: 0 | POS | INT | 22 | 72 | 18 | (8/(x-17))=8 | 8 x 17 - / 8 = | 8:cup x:total 17:total -:total /:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 16 | x=(17-(8/8)) | x 17 8 8 / - = | x:total 17:total 8:total 8:cup /:total -:total =:total
+EXPR: 0 | POS | INT | 22 | 72 | 18 | x=(17+(8/8)) | x 17 8 8 / + = | x:total 17:total 8:total 8:cup /:total +:total =:total
+EXPR: 0 | POS | INT | 22 | 72 | 17 | (8+(17-x))=8 | 8 17 x - + 8 = | 8:cup 17:cup x:cup -:cup +:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 1 | (17-(8+8))=x | 17 8 8 + - x = | 17:cup 8:cup 8:cup +:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 33 | (17+(8+8))=x | 17 8 8 + + x = | 17:cup 8:cup 8:cup +:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | (17+(8-8))=x | 17 8 8 - + x = | 17:cup 8:cup 8:cup -:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | zoo | (17/(8-8))=x | 17 8 8 - / x = | 17:cup 8:brownie 8:brownie -:brownie /:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 17 | 8=((17+8)-x) | 8 17 8 + x - = | 8:cup 17:cup 8:cup +:cup x:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 72 | 200 | 8=(x/(17+8)) | 8 x 17 8 + / = | 8:brownie x:brownie 17:cup 8:cup +:cup /:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 72 | 17 | (8*x)=(17*8) | 8 x * 17 8 * = | 8:total x:cup *:cup 17:total 8:cup *:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | - | ((8-8)/x)=17 | 8 8 - x / 17 = | 8:brownie 8:brownie -:brownie x:cup /:brownie 17:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | - | 17=(x*(8-8)) | 17 x 8 8 - * = | 17:brownie x:cup 8:brownie 8:brownie -:brownie *:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 47 | 17=((8*8)-x) | 17 8 8 * x - = | 17:total 8:brownie 8:total *:total x:total -:total =:total
+EXPR: 0 | POS | INT | 24 | 72 | 1088 | (x/17)=(8*8) | x 17 / 8 8 * = | x:cup 17:brownie /:cup 8:brownie 8:cup *:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 81 | (x-(8*8))=17 | x 8 8 * - 17 = | x:total 8:brownie 8:total *:total -:total 17:total =:total
+EXPR: 0 | POS | INT | 24 | 72 | - | 17=((8-8)*x) | 17 8 8 - x * = | 17:brownie 8:brownie 8:brownie -:brownie x:cup *:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | - | 17=((8-8)/x) | 17 8 8 - x / = | 17:brownie 8:brownie 8:brownie -:brownie x:cup /:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 272 | 17=(x/(8+8)) | 17 x 8 8 + / = | 17:cup x:cup 8:brownie 8:brownie +:brownie /:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 17 | (17-(x-8))=8 | 17 x 8 - - 8 = | 17:cup x:cup 8:cup -:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 17 | 8=(8+(x-17)) | 8 8 x 17 - + = | 8:cup 8:cup x:cup 17:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 17 | ((8+x)-8)=17 | 8 x + 8 - 17 = | 8:cup x:cup +:cup 8:cup -:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 17 | 17=((x+8)-8) | 17 x 8 + 8 - = | 17:cup x:cup 8:cup +:cup 8:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 17 | 17=((x-8)+8) | 17 x 8 - 8 + = | 17:cup x:cup 8:cup -:cup 8:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 17 | 8=((x+8)-17) | 8 x 8 + 17 - = | 8:cup x:cup 8:cup +:cup 17:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 272 | (x/(8+8))=17 | x 8 8 + / 17 = | x:total 8:brownie 8:brownie +:brownie /:total 17:total =:total
+EXPR: 0 | POS | INT | 24 | 72 | 1 | 17=(8+(x+8)) | 17 8 x 8 + + = | 17:cup 8:cup x:cup 8:cup +:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 33 | 8=((x-8)-17) | 8 x 8 - 17 - = | 8:cup x:cup 8:cup -:cup 17:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 18 | 8=(8*(x-17)) | 8 8 x 17 - * = | 8:cup 8:cup x:total 17:total -:total *:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 0 | 8=(8-(x*17)) | 8 8 x 17 * - = | 8:total 8:total x:cup 17:total *:total -:total =:total
+EXPR: 0 | POS | INT | 24 | 72 | 17 | 8=(8-(x-17)) | 8 8 x 17 - - = | 8:cup 8:cup x:cup 17:cup -:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | - | (x*(8-8))=17 | x 8 8 - * 17 = | x:cup 8:brownie 8:brownie -:brownie *:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 272 | ((x/17)-8)=8 | x 17 / 8 - 8 = | x:brownie 17:total /:brownie 8:brownie -:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 0 | 8=(8-(17*x)) | 8 8 17 x * - = | 8:brownie 8:brownie 17:brownie x:cup *:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | - | 8=(8-(17/x)) | 8 8 17 x / - = | 8:brownie 8:brownie 17:brownie x:cup /:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 1 | ((17-8)-x)=8 | 17 8 - x - 8 = | 17:cup 8:cup -:cup x:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 0 | 8=(8+(17*x)) | 8 8 17 x * + = | 8:brownie 8:brownie 17:brownie x:cup *:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | - | 8=(8+(17/x)) | 8 8 17 x / + = | 8:brownie 8:brownie 17:brownie x:cup /:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 |  | ((17*x)+8)=8 | 17 x * 8 + 8 = | 17:brownie x:cup *:brownie 8:brownie +:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | - | ((17/x)+8)=8 | 17 x / 8 + 8 = | 17:brownie x:cup /:brownie 8:brownie +:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 17 | 8=(x+(8-17)) | 8 x 8 17 - + = | 8:cup x:cup 8:cup 17:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 128 | 17=((8+x)/8) | 17 8 x + 8 / = | 17:brownie 8:brownie x:brownie +:brownie 8:cup /:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 33 | 17=((x-8)-8) | 17 x 8 - 8 - = | 17:cup x:cup 8:cup -:cup 8:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 1 | 17=((x+8)+8) | 17 x 8 + 8 + = | 17:cup x:cup 8:cup +:cup 8:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 16 | ((17-x)*8)=8 | 17 x - 8 * 8 = | 17:total x:total -:total 8:brownie *:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 72 | 1 | 17=(8+(8+x)) | 17 8 8 x + + = | 17:cup 8:cup 8:cup x:cup +:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 72 | 47 | ((x+17)/8)=8 | x 17 + 8 / 8 = | x:cup 17:cup +:cup 8:total /:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 25 | 72 | 144 | x=((17*8)+8) | x 17 8 * 8 + = | x:brownie 17:brownie 8:cup *:brownie 8:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 25 | 72 | 128 | ((17*8)-8)=x | 17 8 * 8 - x = | 17:total 8:cup *:total 8:total -:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 72 | 17 | x=((8-8)+17) | x 8 8 - 17 + = | x:cup 8:cup 8:cup -:cup 17:cup +:cup =:cup
+EXPR: 0 | POS | INT | 25 | 72 | 200 | x=((17+8)*8) | x 17 8 + 8 * = | x:brownie 17:total 8:total +:total 8:brownie *:brownie =:brownie
+EXPR: 0 | POS | INT | 25 | 72 | 200 | ((17+8)*8)=x | 17 8 + 8 * x = | 17:total 8:total +:total 8:brownie *:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 72 | 16 | (17-(8/8))=x | 17 8 8 / - x = | 17:cup 8:cup 8:total /:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 25 | 72 | 18 | x=((8/8)+17) | x 8 8 / 17 + = | x:total 8:total 8:brownie /:total 17:total +:total =:total
+EXPR: 0 | POS | INT | 25 | 72 | 17 | (17-(8-8))=x | 17 8 8 - - x = | 17:cup 8:cup 8:cup -:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 25 | 72 | zoo | x=(17/(8-8)) | x 17 8 8 - / = | x:cup 17:cup 8:brownie 8:brownie -:brownie /:cup =:cup
+EXPR: 0 | POS | INT | 25 | 72 | 144 | ((17*8)+8)=x | 17 8 * 8 + x = | 17:brownie 8:cup *:brownie 8:brownie +:brownie x:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 72 | 1 | ((8+x)+8)=17 | 8 x + 8 + 17 = | 8:cup x:cup +:cup 8:cup +:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | - | ((8-8)*x)=17 | 8 8 - x * 17 = | 8:cup 8:cup -:cup x:total *:total 17:total =:total
+EXPR: 0 | POS | INT | 27 | 72 | 200 | 17=((x/8)-8) | 17 x 8 / 8 - = | 17:brownie x:brownie 8:cup /:brownie 8:brownie -:brownie =:brownie
+EXPR: 1 | POS | INT | 27 | 72 | 72 | 17=((x/8)+8) | 17 x 8 / 8 + = | 17:brownie x:brownie 8:cup /:brownie 8:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 72 | 17 | 17=(8+(x-8)) | 17 8 x 8 - + = | 17:cup 8:cup x:cup 8:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 17 | 17=(x+(8-8)) | 17 x 8 8 - + = | 17:cup x:cup 8:cup 8:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 17 | 17=(x-(8-8)) | 17 x 8 8 - - = | 17:cup x:cup 8:cup 8:cup -:cup -:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 128 | (x+8)=(8*17) | x 8 + 8 17 * = | x:cup 8:cup +:cup 8:cup 17:total *:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 33 | 8=(x-(8+17)) | 8 x 8 17 + - = | 8:cup x:cup 8:cup 17:cup +:cup -:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 144 | (x-8)=(8*17) | x 8 - 8 17 * = | x:cup 8:cup -:cup 8:cup 17:total *:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 16 | 8=(8*(17-x)) | 8 8 17 x - * = | 8:cup 8:cup 17:total x:total -:total *:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 16 | 8=(8/(17-x)) | 8 8 17 x - / = | 8:cup 8:cup 17:total x:total -:total /:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 128 | 8=((8*17)-x) | 8 8 17 * x - = | 8:total 8:brownie 17:total *:total x:total -:total =:total
+EXPR: 0 | POS | INT | 27 | 72 | 144 | (x-(17*8))=8 | x 17 8 * - 8 = | x:brownie 17:total 8:brownie *:brownie -:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 72 | 17 | 17=((8-8)+x) | 17 8 8 - x + = | 17:cup 8:cup 8:cup -:cup x:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 17 | (8*x)=(8*17) | 8 x * 8 17 * = | 8:cup x:brownie *:brownie 8:brownie 17:total *:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 72 | 17 | ((17+8)-x)=8 | 17 8 + x - 8 = | 17:cup 8:cup +:cup x:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 1 | (17-(x+8))=8 | 17 x 8 + - 8 = | 17:cup x:cup 8:cup +:cup -:cup 8:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | 18 | 17=(x-(8/8)) | 17 x 8 8 / - = | 17:total x:total 8:total 8:brownie /:total -:total =:total
+EXPR: 0 | POS | INT | 27 | 72 | 200 | (x/(17+8))=8 | x 17 8 + / 8 = | x:brownie 17:total 8:total +:total /:brownie 8:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 72 | 17 | ((8-8)+x)=17 | 8 8 - x + 17 = | 8:cup 8:cup -:cup x:cup +:cup 17:cup =:cup
+EXPR: 0 | POS | INT | 27 | 72 | - | (x/(8-8))=17 | x 8 8 - / 17 = | x:total 8:cup 8:cup -:cup /:total 17:total =:total
+EXPR: 0 | POS | INT | 29 | 72 | 0 | 8=((x*17)+8) | 8 x 17 * 8 + = | 8:total x:cup 17:total *:total 8:total +:total =:total
+NET 167 unique, non-negative, integer-valued solutions found out of 1000 total solutions

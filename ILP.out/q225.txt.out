@@ -1,0 +1,120 @@
+parameters: n=7 l=3 k=1 p=5 q=4 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 20 | 60 | 31 | x=(6+(5*5)) | x 6 5 5 * + = | x:piece 6:piece 5:scarf 5:piece *:piece +:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 | 25 | ((6*5)-5)=x | 6 5 * 5 - x = | 6:box 5:scarf *:box 5:box -:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 60 | 55 | ((6+5)*5)=x | 6 5 + 5 * x = | 6:scarf 5:scarf +:scarf 5:piece *:piece x:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 | 0 | (6*(5-5))=x | 6 5 5 - * x = | 6:box 5:mitten 5:mitten -:mitten *:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 20 | 60 | 5 | x=(6-(5/5)) | x 6 5 5 / - = | x:box 6:box 5:box 5:mitten /:box -:box =:box
+EXPR: 1 | POS | INT | 20 | 60 | 60 | x=(6*(5+5)) | x 6 5 5 + * = | x:box 6:box 5:mitten 5:mitten +:mitten *:box =:box
+EXPR: 0 | POS | INT | 20 | 60 | 5 | ((6-5)*5)=x | 6 5 - 5 * x = | 6:box 5:box -:box 5:mitten *:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 60 | 25 | x=((6*5)-5) | x 6 5 * 5 - = | x:mitten 6:box 5:mitten *:mitten 5:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 20 | 60 | 31 | (6+(5*5))=x | 6 5 5 * + x = | 6:box 5:box 5:mitten *:box +:box x:box =:box
+EXPR: 1 | POS | INT | 20 | 60 | 60 | (6*(5+5))=x | 6 5 5 + * x = | 6:box 5:piece 5:piece +:piece *:piece x:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 | 35 | ((6*5)+5)=x | 6 5 * 5 + x = | 6:box 5:scarf *:scarf 5:scarf +:scarf x:scarf =:scarf
+EXPR: 0 | POS | INT | 20 | 60 | 5 | x=((6-5)*5) | x 6 5 - 5 * = | x:piece 6:scarf 5:scarf -:scarf 5:piece *:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 | 55 | x=((6+5)*5) | x 6 5 + 5 * = | x:piece 6:scarf 5:scarf +:scarf 5:piece *:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 | 7 | x=(6+(5/5)) | x 6 5 5 / + = | x:scarf 6:scarf 5:scarf 5:mitten /:scarf +:scarf =:scarf
+EXPR: 0 | POS | INT | 20 | 60 | 35 | x=((6*5)+5) | x 6 5 * 5 + = | x:piece 6:piece 5:scarf *:piece 5:piece +:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 |  | x=(6*(5-5)) | x 6 5 5 - * = | x:piece 6:piece 5:scarf 5:scarf -:scarf *:piece =:piece
+EXPR: 0 | POS | INT | 20 | 60 | zoo | x=(6/(5-5)) | x 6 5 5 - / = | x:box 6:box 5:scarf 5:scarf -:scarf /:box =:box
+EXPR: 0 | POS | INT | 20 | 60 | zoo | (6/(5-5))=x | 6 5 5 - / x = | 6:box 5:mitten 5:mitten -:mitten /:box x:box =:box
+EXPR: 1 | POS | INT | 22 | 60 | 60 | ((x/6)-5)=5 | x 6 / 5 - 5 = | x:piece 6:box /:piece 5:piece -:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 55 | x=(5*(6+5)) | x 5 6 5 + * = | x:piece 5:piece 6:box 5:box +:box *:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 7 | ((x-6)*5)=5 | x 6 - 5 * 5 = | x:mitten 6:mitten -:mitten 5:scarf *:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 55 | (x/(6+5))=5 | x 6 5 + / 5 = | x:mitten 6:box 5:box +:box /:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 7 | (6+(5/5))=x | 6 5 5 / + x = | 6:box 5:box 5:scarf /:box +:box x:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 55 | (5*(6+5))=x | 5 6 5 + * x = | 5:scarf 6:piece 5:piece +:piece *:piece x:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (x*(6-5))=5 | x 6 5 - * 5 = | x:piece 6:scarf 5:scarf -:scarf *:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 35 | (x-(6*5))=5 | x 6 5 * - 5 = | x:mitten 6:mitten 5:scarf *:mitten -:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 35 | (5+(6*5))=x | 5 6 5 * + x = | 5:scarf 6:box 5:scarf *:scarf +:scarf x:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (5*(6-5))=x | 5 6 5 - * x = | 5:scarf 6:mitten 5:mitten -:mitten *:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 5 | ((6-5)*x)=5 | 6 5 - x * 5 = | 6:scarf 5:scarf -:scarf x:piece *:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 6 | (6*5)=(x*5) | 6 5 * x 5 * = | 6:box 5:scarf *:box x:piece 5:box *:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 5 | x=(5*(6-5)) | x 5 6 5 - * = | x:piece 5:piece 6:box 5:box -:box *:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 5 | x=(5/(6-5)) | x 5 6 5 - / = | x:piece 5:piece 6:box 5:box -:box /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (x/(6-5))=5 | x 6 5 - / 5 = | x:piece 6:box 5:box -:box /:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 |  | ((x*6)+5)=5 | x 6 * 5 + 5 = | x:piece 6:scarf *:scarf 5:scarf +:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 19 | 6=((5*5)-x) | 6 5 5 * x - = | 6:box 5:box 5:mitten *:box x:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=((5/5)+x) | 6 5 5 / x + = | 6:box 5:box 5:mitten /:box x:box +:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 150 | (6*5)=(x/5) | 6 5 * x 5 / = | 6:box 5:piece *:piece x:piece 5:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=(5+(5/x)) | 6 5 5 x / + = | 6:mitten 5:mitten 5:mitten x:piece /:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (6-(5/x))=5 | 6 5 x / - 5 = | 6:box 5:box x:piece /:box -:box 5:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=(5+(x/5)) | 6 5 x 5 / + = | 6:box 5:box x:box 5:mitten /:box +:box =:box
+EXPR: 1 | POS | INT | 22 | 60 | 60 | 6=(x/(5+5)) | 6 x 5 5 + / = | 6:piece x:piece 5:mitten 5:mitten +:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 19 | ((x+6)/5)=5 | x 6 + 5 / 5 = | x:piece 6:piece +:piece 5:scarf /:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 31 | ((x-6)/5)=5 | x 6 - 5 / 5 = | x:piece 6:piece -:piece 5:scarf /:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 6 | (6*5)=(5*x) | 6 5 * 5 x * = | 6:box 5:scarf *:box 5:mitten x:box *:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | - | 6=(x*(5-5)) | 6 x 5 5 - * = | 6:mitten x:piece 5:mitten 5:mitten -:mitten *:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 35 | x=(5+(6*5)) | x 5 6 5 * + = | x:piece 5:piece 6:piece 5:mitten *:piece +:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 5 | ((6-x)*5)=5 | 6 x - 5 * 5 = | 6:box x:box -:box 5:scarf *:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 6 | (6/x)=(5/5) | 6 x / 5 5 / = | 6:box x:piece /:box 5:box 5:mitten /:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 31 | 6=(x-(5*5)) | 6 x 5 5 * - = | 6:scarf x:scarf 5:scarf 5:mitten *:scarf -:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (6-(5/5))=x | 6 5 5 / - x = | 6:mitten 5:mitten 5:scarf /:mitten -:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 |  | ((x/6)+5)=5 | x 6 / 5 + 5 = | x:scarf 6:box /:scarf 5:scarf +:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 7 | 6=(x-(5/5)) | 6 x 5 5 / - = | 6:box x:box 5:box 5:mitten /:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=(x+(5/5)) | 6 x 5 5 / + = | 6:box x:box 5:box 5:mitten /:box +:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | 25 | 6=((x+5)/5) | 6 x 5 + 5 / = | 6:piece x:piece 5:piece +:piece 5:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 25 | ((6*5)-x)=5 | 6 5 * x - 5 = | 6:box 5:scarf *:scarf x:scarf -:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | - | 6=((5-5)*x) | 6 5 5 - x * = | 6:box 5:mitten 5:mitten -:mitten x:box *:box =:box
+EXPR: 0 | POS | INT | 22 | 60 | - | ((6/x)+5)=5 | 6 x / 5 + 5 = | 6:scarf x:piece /:scarf 5:scarf +:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 22 | 60 | 35 | 6=((x-5)/5) | 6 x 5 - 5 / = | 6:piece x:piece 5:piece -:piece 5:mitten /:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 5 | (5/(6-5))=x | 5 6 5 - / x = | 5:piece 6:box 5:box -:box /:piece x:piece =:piece
+EXPR: 0 | POS | INT | 22 | 60 | 55 | 6=((x/5)-5) | 6 x 5 / 5 - = | 6:mitten x:mitten 5:scarf /:mitten 5:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 5 | 6=((x/5)+5) | 6 x 5 / 5 + = | 6:mitten x:mitten 5:scarf /:mitten 5:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | - | 6=((5-5)/x) | 6 5 5 - x / = | 6:mitten 5:mitten 5:mitten -:mitten x:piece /:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 |  | ((6*x)+5)=5 | 6 x * 5 + 5 = | 6:mitten x:piece *:mitten 5:mitten +:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 22 | 60 | 19 | ((6+x)/5)=5 | 6 x + 5 / 5 = | 6:mitten x:mitten +:mitten 5:scarf /:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 60 |  | (5+(6*x))=5 | 5 6 x * + 5 = | 5:box 6:box x:piece *:box +:box 5:box =:box
+EXPR: 0 | POS | INT | 24 | 60 |  | (5+(x*6))=5 | 5 x 6 * + 5 = | 5:scarf x:piece 6:scarf *:scarf +:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 60 | 25 | ((x+5)/6)=5 | x 5 + 6 / 5 = | x:mitten 5:mitten +:mitten 6:box /:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 60 | 7 | (5/(x-6))=5 | 5 x 6 - / 5 = | 5:scarf x:box 6:box -:box /:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 60 | 7 | (5*(x-6))=5 | 5 x 6 - * 5 = | 5:scarf x:piece 6:piece -:piece *:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 24 | 60 | 5 | (5*(6-x))=5 | 5 6 x - * 5 = | 5:mitten 6:box x:box -:box *:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 60 | 25 | 5=((6*5)-x) | 5 6 5 * x - = | 5:scarf 6:box 5:scarf *:scarf x:scarf -:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 60 |  | (5-(6*x))=5 | 5 6 x * - 5 = | 5:mitten 6:mitten x:piece *:mitten -:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 60 | 7 | 5=((x-6)*5) | 5 x 6 - 5 * = | 5:mitten x:piece 6:piece -:piece 5:mitten *:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 60 | 35 | 5=(x-(6*5)) | 5 x 6 5 * - = | 5:box x:box 6:box 5:mitten *:box -:box =:box
+EXPR: 0 | POS | INT | 24 | 60 | 5 | 5=((6-5)*x) | 5 6 5 - x * = | 5:box 6:box 5:box -:box x:piece *:box =:box
+EXPR: 0 | POS | INT | 24 | 60 | - | (5+(6/x))=5 | 5 6 x / + 5 = | 5:scarf 6:scarf x:piece /:scarf +:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 60 | - | (5-(6/x))=5 | 5 6 x / - 5 = | 5:scarf 6:scarf x:piece /:scarf -:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 24 | 60 | 25 | ((5+x)/6)=5 | 5 x + 6 / 5 = | 5:mitten x:mitten +:mitten 6:box /:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 24 | 60 | 5 | (5/(6-x))=5 | 5 6 x - / 5 = | 5:mitten 6:piece x:piece -:piece /:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 25 | 60 | 19 | x=((5*5)-6) | x 5 5 * 6 - = | x:scarf 5:scarf 5:mitten *:scarf 6:scarf -:scarf =:scarf
+EXPR: 0 | POS | INT | 25 | 60 | 19 | ((5*5)-6)=x | 5 5 * 6 - x = | 5:scarf 5:mitten *:scarf 6:scarf -:scarf x:scarf =:scarf
+EXPR: 0 | POS | INT | 25 | 60 | 31 | ((5*5)+6)=x | 5 5 * 6 + x = | 5:piece 5:mitten *:piece 6:piece +:piece x:piece =:piece
+EXPR: 0 | POS | INT | 25 | 60 |  | x=((5-5)*6) | x 5 5 - 6 * = | x:piece 5:scarf 5:scarf -:scarf 6:piece *:piece =:piece
+EXPR: 0 | POS | INT | 25 | 60 | 31 | x=((5*5)+6) | x 5 5 * 6 + = | x:piece 5:scarf 5:piece *:piece 6:piece +:piece =:piece
+EXPR: 0 | POS | INT | 25 | 60 | 7 | x=((5/5)+6) | x 5 5 / 6 + = | x:piece 5:piece 5:mitten /:piece 6:piece +:piece =:piece
+EXPR: 0 | POS | INT | 27 | 60 | - | 5=(5+(6/x)) | 5 5 6 x / + = | 5:mitten 5:mitten 6:mitten x:piece /:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 60 |  | (5-(x*6))=5 | 5 x 6 * - 5 = | 5:mitten x:mitten 6:box *:mitten -:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 60 | 5 | 5=((6-x)*5) | 5 6 x - 5 * = | 5:mitten 6:mitten x:mitten -:mitten 5:scarf *:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 60 | - | (x*(5-5))=6 | x 5 5 - * 6 = | x:piece 5:mitten 5:mitten -:mitten *:piece 6:piece =:piece
+EXPR: 0 | POS | INT | 27 | 60 | 19 | ((5*5)-x)=6 | 5 5 * x - 6 = | 5:piece 5:mitten *:piece x:piece -:piece 6:piece =:piece
+EXPR: 0 | POS | INT | 27 | 60 | - | ((5-5)*x)=6 | 5 5 - x * 6 = | 5:mitten 5:mitten -:mitten x:piece *:piece 6:piece =:piece
+EXPR: 0 | POS | INT | 27 | 60 | 6 | (5*x)=(6*5) | 5 x * 6 5 * = | 5:scarf x:piece *:scarf 6:box 5:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 60 | 55 | ((x/5)-6)=5 | x 5 / 6 - 5 = | x:scarf 5:mitten /:scarf 6:scarf -:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 60 | 0 | ((5-5)/6)=x | 5 5 - 6 / x = | 5:mitten 5:mitten -:mitten 6:box /:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 60 | 0 | ((5-5)*6)=x | 5 5 - 6 * x = | 5:mitten 5:mitten -:mitten 6:box *:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 27 | 60 | 6 | (x*5)=(6*5) | x 5 * 6 5 * = | x:scarf 5:mitten *:scarf 6:box 5:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 60 | 5 | 5=(x*(6-5)) | 5 x 6 5 - * = | 5:scarf x:piece 6:scarf 5:scarf -:scarf *:scarf =:scarf
+EXPR: 0 | POS | INT | 27 | 60 | 0 | 5=(5+(6*x)) | 5 5 6 x * + = | 5:piece 5:piece 6:box x:piece *:piece +:piece =:piece
+EXPR: 0 | POS | INT | 29 | 60 | 25 | ((x+5)/5)=6 | x 5 + 5 / 6 = | x:piece 5:piece +:piece 5:scarf /:piece 6:piece =:piece
+EXPR: 0 | POS | INT | 29 | 60 | - | (x/(5-5))=6 | x 5 5 - / 6 = | x:piece 5:scarf 5:scarf -:scarf /:piece 6:piece =:piece
+EXPR: 0 | POS | INT | 30 | 60 | 6 | ((6-5)+5)=x | 6 5 - 5 + x = | 6:piece 5:piece -:piece 5:piece +:piece x:piece =:piece
+EXPR: 0 | POS | INT | 30 | 60 | 6 | ((6+5)-5)=x | 6 5 + 5 - x = | 6:box 5:box +:box 5:box -:box x:box =:box
+EXPR: 0 | POS | INT | 32 | 60 | 6 | x=(6-(5-5)) | x 6 5 5 - - = | x:mitten 6:mitten 5:mitten 5:mitten -:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 60 | 6 | x=(6+(5-5)) | x 6 5 5 - + = | x:mitten 6:mitten 5:mitten 5:mitten -:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 60 | 4 | ((6+x)-5)=5 | 6 x + 5 - 5 = | 6:piece x:piece +:piece 5:piece -:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 32 | 60 | 4 | x=(5-(6-5)) | x 5 6 5 - - = | x:box 5:box 6:box 5:box -:box -:box =:box
+EXPR: 0 | POS | INT | 32 | 60 | 16 | x=(5+(6+5)) | x 5 6 5 + + = | x:box 5:box 6:box 5:box +:box +:box =:box
+EXPR: 0 | POS | INT | 32 | 60 | 6 | (6+(5-5))=x | 6 5 5 - + x = | 6:mitten 5:mitten 5:mitten -:mitten +:mitten x:mitten =:mitten
+EXPR: 0 | POS | INT | 32 | 60 | 4 | (6+(x-5))=5 | 6 x 5 - + 5 = | 6:piece x:piece 5:piece -:piece +:piece 5:piece =:piece
+EXPR: 0 | POS | INT | 32 | 60 | 5 | (6-(x/5))=5 | 6 x 5 / - 5 = | 6:mitten x:mitten 5:piece /:mitten -:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 60 | 16 | 5=((x-6)-5) | 5 x 6 - 5 - = | 5:mitten x:mitten 6:mitten -:mitten 5:mitten -:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 60 | 6 | 5=((x-6)+5) | 5 x 6 - 5 + = | 5:mitten x:mitten 6:mitten -:mitten 5:mitten +:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 60 | 150 | (x/5)=(6*5) | x 5 / 6 5 * = | x:mitten 5:scarf /:mitten 6:piece 5:mitten *:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 60 | 4 | ((x+6)-5)=5 | x 6 + 5 - 5 = | x:scarf 6:scarf +:scarf 5:scarf -:scarf 5:scarf =:scarf
+EXPR: 0 | POS | INT | 34 | 60 |  | (5-(x/6))=5 | 5 x 6 / - 5 = | 5:mitten x:mitten 6:scarf /:mitten -:mitten 5:mitten =:mitten
+EXPR: 0 | POS | INT | 34 | 60 |  | (5+(x/6))=5 | 5 x 6 / + 5 = | 5:mitten x:mitten 6:scarf /:mitten +:mitten 5:mitten =:mitten
+NET 116 unique, non-negative, integer-valued solutions found out of 1000 total solutions

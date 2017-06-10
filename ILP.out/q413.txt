@@ -1,0 +1,5 @@
+quantities : 11 9 3 x
+types : "enemy" "point" "enemy" "point"
+operators : + - * / =
+n : 7
+answer : 72.0

@@ -1,0 +1,5 @@
+quantities : 4 9 7 x
+types : "friend" "wing" "wing" "wing"
+operators : + - * / =
+n : 7
+answer : 4.0

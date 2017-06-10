@@ -1,0 +1,5 @@
+quantities : 80 31 7 x
+types : "file" "rest" "file" "folder"
+operators : + - * / =
+n : 7
+answer : 7.0

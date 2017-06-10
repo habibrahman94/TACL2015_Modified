@@ -1,0 +1,5 @@
+quantities : 40 50 4 x
+types : "point" "point" "point" "point"
+operators : + - * / =
+n : 7
+answer : 86.0

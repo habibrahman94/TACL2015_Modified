@@ -1,0 +1,5 @@
+quantities : 37 16 19 x
+types : "rose" "rose" "rose" "rose"
+operators : + - * / =
+n : 7
+answer : 40.0

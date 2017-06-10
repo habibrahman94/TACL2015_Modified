@@ -1,0 +1,5 @@
+quantities : 9 x 20 16
+types : "pound" "point" "pound" "pound"
+operators : + - * / =
+n : 7
+answer : 4.0

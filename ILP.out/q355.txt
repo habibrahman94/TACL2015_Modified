@@ -1,0 +1,5 @@
+quantities : 5 6 19 x
+types : "flower" "carnation" "rose" "vase"
+operators : + - * / =
+n : 7
+answer : 5.0

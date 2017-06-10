@@ -1,0 +1,5 @@
+quantities : 83 47 4 x
+types : "dollar" "buck" "dollar" "dollar"
+operators : + - * / =
+n : 7
+answer : 9.0

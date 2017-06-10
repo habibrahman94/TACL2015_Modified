@@ -1,0 +1,152 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 14 | 14 | x=(2*(9-2)) | x 2 9 2 - * = | x:dollar 2:dollar 9:people 2:people -:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 14 | 22 | x=(2*(9+2)) | x 2 9 2 + * = | x:dollar 2:dollar 9:people 2:people +:people *:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 14 | 14 | (2*(9-2))=x | 2 9 2 - * x = | 2:dollar 9:people 2:people -:people *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 14 | 22 | (2*(9+2))=x | 2 9 2 + * x = | 2:dollar 9:people 2:people +:people *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 14 | 14 | 2=(x/(9-2)) | 2 x 9 2 - / = | 2:dollar x:dollar 9:people 2:people -:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 14 | 22 | 2=(x/(9+2)) | 2 x 9 2 + / = | 2:dollar x:dollar 9:people 2:people +:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 5 | 14 | 22 | ((9+2)*2)=x | 9 2 + 2 * x = | 9:people 2:people +:people 2:dollar *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 5 | 14 | 14 | x=((9-2)*2) | x 9 2 - 2 * = | x:dollar 9:people 2:people -:people 2:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 5 | 14 | 22 | x=((9+2)*2) | x 9 2 + 2 * = | x:dollar 9:people 2:people +:people 2:dollar *:dollar =:dollar
+EXPR: 1 | POS | INT | 5 | 14 | 14 | ((9-2)*2)=x | 9 2 - 2 * x = | 9:people 2:people -:people 2:dollar *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 7 | 14 | 14 | (x/(9-2))=2 | x 9 2 - / 2 = | x:dollar 9:people 2:people -:people /:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 7 | 14 | 22 | (x/(9+2))=2 | x 9 2 + / 2 = | x:dollar 9:people 2:people +:people /:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 14 | 20 | x=((2*9)+2) | x 2 9 * 2 + = | x:dollar 2:dollar 9:people *:dollar 2:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 14 | 20 | ((2*9)+2)=x | 2 9 * 2 + x = | 2:dollar 9:people *:people 2:people +:people x:people =:people
+EXPR: 0 | POS | INT | 10 | 14 | 16 | ((2*9)-2)=x | 2 9 * 2 - x = | 2:dollar 9:people *:people 2:people -:people x:people =:people
+EXPR: 0 | POS | INT | 10 | 14 | 20 | x=(2+(9*2)) | x 2 9 2 * + = | x:dollar 2:dollar 9:people 2:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 14 | 16 | x=((2*9)-2) | x 2 9 * 2 - = | x:people 2:dollar 9:people *:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 10 | 14 | 22 | x=((2+9)*2) | x 2 9 + 2 * = | x:dollar 2:dollar 9:dollar +:dollar 2:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 14 | 22 | ((2+9)*2)=x | 2 9 + 2 * x = | 2:dollar 9:dollar +:dollar 2:people *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 14 | 20 | (2+(9*2))=x | 2 9 2 * + x = | 2:dollar 9:dollar 2:people *:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | (2+(x/9))=2 | 2 x 9 / + 2 = | 2:dollar x:dollar 9:people /:dollar +:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | (2-(x/9))=2 | 2 x 9 / - 2 = | 2:dollar x:dollar 9:people /:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | (2+(x*9))=2 | 2 x 9 * + 2 = | 2:people x:dollar 9:people *:people +:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 |  | (2-(x*9))=2 | 2 x 9 * - 2 = | 2:dollar x:dollar 9:people *:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | x=(9*(2-2)) | x 9 2 2 - * = | x:dollar 9:people 2:dollar 2:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 13 | ((2*2)+9)=x | 2 2 * 9 + x = | 2:dollar 2:people *:people 9:people +:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 20 | ((x-2)/9)=2 | x 2 - 9 / 2 = | x:dollar 2:dollar -:dollar 9:people /:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | (2+(9*x))=2 | 2 9 x * + 2 = | 2:dollar 9:people x:dollar *:dollar +:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | (2-(9*x))=2 | 2 9 x * - 2 = | 2:dollar 9:people x:dollar *:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 16 | ((2*9)-x)=2 | 2 9 * x - 2 = | 2:dollar 9:people *:people x:people -:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 5 | (9-(2*2))=x | 9 2 2 * - x = | 9:people 2:dollar 2:people *:people -:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 13 | (9+(2*2))=x | 9 2 2 * + x = | 9:people 2:dollar 2:people *:people +:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 16 | ((x+2)/9)=2 | x 2 + 9 / 2 = | x:dollar 2:dollar +:dollar 9:people /:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 36 | (9*(2+2))=x | 9 2 2 + * x = | 9:people 2:dollar 2:dollar +:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 5 | x=(9-(2*2)) | x 9 2 2 * - = | x:people 9:people 2:dollar 2:people *:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 10 | (2*(x-9))=2 | 2 x 9 - * 2 = | 2:dollar x:people 9:people -:people *:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 16 | ((2+x)/9)=2 | 2 x + 9 / 2 = | 2:dollar x:dollar +:dollar 9:people /:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 13 | x=(9+(2*2)) | x 9 2 2 * + = | x:people 9:people 2:dollar 2:people *:people +:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 10 | ((2/2)+9)=x | 2 2 / 9 + x = | 2:dollar 2:people /:dollar 9:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 36 | x=(9*(2+2)) | x 9 2 2 + * = | x:dollar 9:people 2:dollar 2:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 8 | (2*(9-x))=2 | 2 9 x - * 2 = | 2:dollar 9:people x:people -:people *:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 0 | (9*(2-2))=x | 9 2 2 - * x = | 9:people 2:dollar 2:dollar -:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 10 | x=((2/2)+9) | x 2 2 / 9 + = | x:dollar 2:dollar 2:people /:dollar 9:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 14 | 14 | 2=(9-(x/2)) | 2 9 x 2 / - = | 2:dollar 9:dollar x:dollar 2:people /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 13 | x=((2*2)+9) | x 2 2 * 9 + = | x:people 2:dollar 2:people *:people 9:people +:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 20 | 2=(x-(9*2)) | 2 x 9 2 * - = | 2:dollar x:dollar 9:dollar 2:people *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 |  | x=((2-2)/9) | x 2 2 - 9 / = | x:dollar 2:dollar 2:dollar -:dollar 9:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 22 | ((x/2)-9)=2 | x 2 / 9 - 2 = | x:people 2:dollar /:people 9:people -:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | - | 2=((9/x)+2) | 2 9 x / 2 + = | 2:people 9:people x:dollar /:people 2:people +:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 0 | 2=((9*x)+2) | 2 9 x * 2 + = | 2:people 9:people x:dollar *:people 2:people +:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 9 | (2*9)=(x*2) | 2 9 * x 2 * = | 2:dollar 9:people *:people x:dollar 2:people *:people =:people
+EXPR: 0 | POS | INT | 12 | 14 |  | x=((2-2)*9) | x 2 2 - 9 * = | x:dollar 2:dollar 2:dollar -:dollar 9:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 36 | x=((2+2)*9) | x 2 2 + 9 * = | x:dollar 2:dollar 2:dollar +:dollar 9:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 8 | (9-(2/2))=x | 9 2 2 / - x = | 9:dollar 2:dollar 2:people /:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 10 | (9+(2/2))=x | 9 2 2 / + x = | 9:dollar 2:dollar 2:people /:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 13 | 2=((x-9)/2) | 2 x 9 - 2 / = | 2:dollar x:dollar 9:dollar -:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 10 | 2=((x-9)*2) | 2 x 9 - 2 * = | 2:dollar x:dollar 9:dollar -:dollar 2:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 16 | 2=((9*2)-x) | 2 9 2 * x - = | 2:dollar 9:people 2:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 8 | x=(9-(2/2)) | x 9 2 2 / - = | x:dollar 9:dollar 2:dollar 2:people /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 9 | (2*9)=(2*x) | 2 9 * 2 x * = | 2:dollar 9:people *:people 2:people x:dollar *:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 10 | x=(9+(2/2)) | x 9 2 2 / + = | x:dollar 9:dollar 2:dollar 2:people /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | - | (2+(9/x))=2 | 2 9 x / + 2 = | 2:people 9:people x:dollar /:people +:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | - | (2-(9/x))=2 | 2 9 x / - 2 = | 2:people 9:people x:dollar /:people -:people 2:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 20 | (x-(2*9))=2 | x 2 9 * - 2 = | x:dollar 2:dollar 9:people *:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 0 | ((2-2)/9)=x | 2 2 - 9 / x = | 2:dollar 2:dollar -:dollar 9:people /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 36 | (2*9)=(x/2) | 2 9 * x 2 / = | 2:dollar 9:people *:dollar x:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 0 | 2=((x*9)+2) | 2 x 9 * 2 + = | 2:people x:dollar 9:people *:people 2:people +:people =:people
+EXPR: 0 | POS | INT | 12 | 14 | 36 | 2=((x/9)-2) | 2 x 9 / 2 - = | 2:dollar x:dollar 9:people /:dollar 2:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 36 | ((2+2)*9)=x | 2 2 + 9 * x = | 2:dollar 2:dollar +:dollar 9:people *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 0 | ((2-2)*9)=x | 2 2 - 9 * x = | 2:dollar 2:dollar -:dollar 9:people *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 0 | 2=((x/9)+2) | 2 x 9 / 2 + = | 2:dollar x:dollar 9:people /:dollar 2:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 5 | 2=((9-x)/2) | 2 9 x - 2 / = | 2:dollar 9:dollar x:dollar -:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 14 | 8 | 2=((9-x)*2) | 2 9 x - 2 * = | 2:dollar 9:dollar x:dollar -:dollar 2:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 5 | ((2*2)+x)=9 | 2 2 * x + 9 = | 2:dollar 2:people *:people x:people +:people 9:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 8 | ((2/2)+x)=9 | 2 2 / x + 9 = | 2:dollar 2:people /:dollar x:dollar +:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 22 | 9=((x/2)-2) | 9 x 2 / 2 - = | 9:people x:people 2:dollar /:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 0 | 2=(2+(x/9)) | 2 2 x 9 / + = | 2:dollar 2:dollar x:dollar 9:people /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 20 | 9=((x-2)/2) | 9 x 2 - 2 / = | 9:dollar x:dollar 2:dollar -:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 0 | 2=(2+(x*9)) | 2 2 x 9 * + = | 2:dollar 2:dollar x:dollar 9:people *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 10 | 9=(x-(2/2)) | 9 x 2 2 / - = | 9:dollar x:dollar 2:dollar 2:people /:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 14 | 14 | ((x/2)+2)=9 | x 2 / 2 + 9 = | x:people 2:dollar /:people 2:people +:people 9:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 13 | 9=(x-(2*2)) | 9 x 2 2 * - = | 9:dollar x:dollar 2:dollar 2:people *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 5 | (x+(2*2))=9 | x 2 2 * + 9 = | x:people 2:dollar 2:people *:people +:people 9:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 16 | 9=((x+2)/2) | 9 x 2 + 2 / = | 9:dollar x:dollar 2:dollar +:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | 9=(x*(2-2)) | 9 x 2 2 - * = | 9:people x:dollar 2:people 2:people -:people *:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 0 | 2=(2-(x*9)) | 2 2 x 9 * - = | 2:dollar 2:dollar x:dollar 9:people *:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 14 | 14 | 9=((x/2)+2) | 9 x 2 / 2 + = | 9:people x:people 2:dollar /:people 2:people +:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 0 | 2=(2-(x/9)) | 2 2 x 9 / - = | 2:dollar 2:dollar x:dollar 9:people /:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 5 | 9=(x+(2*2)) | 9 x 2 2 * + = | 9:people x:people 2:dollar 2:people *:people +:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 8 | 9=(x+(2/2)) | 9 x 2 2 / + = | 9:dollar x:dollar 2:dollar 2:people /:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 14 | 14 | (2+(x/2))=9 | 2 x 2 / + 9 = | 2:dollar x:dollar 2:people /:dollar +:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 |  | ((9*x)+2)=2 | 9 x * 2 + 2 = | 9:people x:dollar *:dollar 2:dollar +:dollar 2:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 14 | 14 | (9-(x/2))=2 | 9 x 2 / - 2 = | 9:people x:people 2:dollar /:people -:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 36 | ((x/9)-2)=2 | x 9 / 2 - 2 = | x:dollar 9:people /:dollar 2:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 0 | 2=(2+(9*x)) | 2 2 9 x * + = | 2:dollar 2:dollar 9:people x:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 |  | ((x*9)+2)=2 | x 9 * 2 + 2 = | x:dollar 9:people *:people 2:people +:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 0 | 2=(2-(9*x)) | 2 2 9 x * - = | 2:dollar 2:dollar 9:people x:dollar *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 16 | ((2+x)/2)=9 | 2 x + 2 / 9 = | 2:dollar x:dollar +:dollar 2:people /:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 10 | ((x-9)*2)=2 | x 9 - 2 * 2 = | x:people 9:people -:people 2:dollar *:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 |  | ((x/9)+2)=2 | x 9 / 2 + 2 = | x:dollar 9:people /:dollar 2:dollar +:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | ((9/x)+2)=2 | 9 x / 2 + 2 = | 9:people x:dollar /:people 2:people +:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | - | (x*(2-2))=9 | x 2 2 - * 9 = | x:dollar 2:people 2:people -:people *:people 9:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 22 | ((x/2)-2)=9 | x 2 / 2 - 9 = | x:people 2:dollar /:people 2:people -:people 9:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 36 | (2*2)=(x/9) | 2 2 * x 9 / = | 2:dollar 2:people *:dollar x:dollar 9:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 10 | 2=(2*(x-9)) | 2 2 x 9 - * = | 2:dollar 2:people x:dollar 9:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | ((2-2)*x)=9 | 2 2 - x * 9 = | 2:people 2:people -:people x:dollar *:people 9:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 13 | ((x-9)/2)=2 | x 9 - 2 / 2 = | x:people 9:people -:people 2:dollar /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 10 | (x-(2/2))=9 | x 2 2 / - 9 = | x:dollar 2:dollar 2:people /:dollar -:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | 9=((2-2)/x) | 9 2 2 - x / = | 9:people 2:people 2:people -:people x:dollar /:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 9 | (2/2)=(x/9) | 2 2 / x 9 / = | 2:dollar 2:people /:dollar x:dollar 9:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 16 | 2=((x+2)/9) | 2 x 2 + 9 / = | 2:dollar x:dollar 2:dollar +:dollar 9:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 36 | (x/9)=(2*2) | x 9 / 2 2 * = | x:dollar 9:people /:dollar 2:dollar 2:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | 9=((2-2)*x) | 9 2 2 - x * = | 9:people 2:people 2:people -:people x:dollar *:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 16 | 2=((2+x)/9) | 2 2 x + 9 / = | 2:dollar 2:dollar x:dollar +:dollar 9:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 20 | 2=((x-2)/9) | 2 x 2 - 9 / = | 2:dollar x:dollar 2:dollar -:dollar 9:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 8 | 9=((2/2)+x) | 9 2 2 / x + = | 9:dollar 2:dollar 2:people /:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 5 | 9=((2*2)+x) | 9 2 2 * x + = | 9:dollar 2:dollar 2:people *:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 5 | ((9-x)/2)=2 | 9 x - 2 / 2 = | 9:people x:people -:people 2:dollar /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 20 | ((x-2)/2)=9 | x 2 - 2 / 9 = | x:dollar 2:dollar -:dollar 2:people /:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | 2=(2-(9/x)) | 2 2 9 x / - = | 2:people 2:people 9:people x:dollar /:people -:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 8 | 2=(2*(9-x)) | 2 2 9 x - * = | 2:dollar 2:people 9:dollar x:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | 2=(2+(9/x)) | 2 2 9 x / + = | 2:people 2:people 9:people x:dollar /:people +:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 13 | (x-(2*2))=9 | x 2 2 * - 9 = | x:dollar 2:dollar 2:people *:dollar -:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 8 | (x+(2/2))=9 | x 2 2 / + 9 = | x:dollar 2:dollar 2:people /:dollar +:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 16 | 9=((2+x)/2) | 9 2 x + 2 / = | 9:dollar 2:dollar x:dollar +:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 16 | ((x+2)/2)=9 | x 2 + 2 / 9 = | x:dollar 2:dollar +:dollar 2:people /:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 8 | ((9-x)*2)=2 | 9 x - 2 * 2 = | 9:people x:people -:people 2:dollar *:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 14 | 9 | (x/9)=(2/2) | x 9 / 2 2 / = | x:dollar 9:people /:dollar 2:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | 22 | 2=((x/2)-9) | 2 x 2 / 9 - = | 2:dollar x:dollar 2:people /:dollar 9:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 14 | - | ((2-2)/x)=9 | 2 2 - x / 9 = | 2:people 2:people -:people x:dollar /:people 9:people =:people
+EXPR: 1 | POS | INT | 14 | 14 | 14 | 9=(2+(x/2)) | 9 2 x 2 / + = | 9:dollar 2:dollar x:dollar 2:people /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 14 | 16 | x=((9*2)-2) | x 9 2 * 2 - = | x:dollar 9:people 2:dollar *:dollar 2:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 14 | 20 | x=((9*2)+2) | x 9 2 * 2 + = | x:dollar 9:people 2:dollar *:dollar 2:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 14 | 20 | x=(2+(2*9)) | x 2 2 9 * + = | x:people 2:people 2:dollar 9:people *:people +:people =:people
+EXPR: 0 | POS | INT | 15 | 14 | 16 | ((9*2)-2)=x | 9 2 * 2 - x = | 9:people 2:dollar *:dollar 2:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 14 | 20 | ((9*2)+2)=x | 9 2 * 2 + x = | 9:people 2:dollar *:dollar 2:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 14 | 22 | (2*(2+9))=x | 2 2 9 + * x = | 2:people 2:dollar 9:dollar +:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 15 | 14 | 20 | (2+(2*9))=x | 2 2 9 * + x = | 2:people 2:dollar 9:people *:people +:people x:people =:people
+EXPR: 0 | POS | INT | 15 | 14 | 22 | x=(2*(2+9)) | x 2 2 9 + * = | x:dollar 2:people 2:dollar 9:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 14 | 16 | ((9*2)-x)=2 | 9 2 * x - 2 = | 9:dollar 2:people *:dollar x:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 14 | 9 | (2/2)=(9/x) | 2 2 / 9 x / = | 2:people 2:dollar /:people 9:people x:dollar /:people =:people
+EXPR: 0 | POS | INT | 17 | 14 | 16 | 2=((2*9)-x) | 2 2 9 * x - = | 2:people 2:dollar 9:people *:people x:people -:people =:people
+EXPR: 0 | POS | INT | 17 | 14 | 20 | 2=(x-(2*9)) | 2 x 2 9 * - = | 2:people x:people 2:dollar 9:people *:people -:people =:people
+EXPR: 0 | POS | INT | 17 | 14 | 9 | (x*2)=(2*9) | x 2 * 2 9 * = | x:dollar 2:people *:people 2:dollar 9:people *:people =:people
+EXPR: 0 | POS | INT | 17 | 14 | 20 | (x-(9*2))=2 | x 9 2 * - 2 = | x:dollar 9:people 2:dollar *:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 14 | 9 | (2*x)=(2*9) | 2 x * 2 9 * = | 2:people x:dollar *:people 2:dollar 9:people *:people =:people
+EXPR: 0 | POS | INT | 17 | 14 | 36 | (x/2)=(2*9) | x 2 / 2 9 * = | x:dollar 2:people /:dollar 2:dollar 9:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 14 | 9 | (9/x)=(2/2) | 9 x / 2 2 / = | 9:people x:dollar /:people 2:people 2:dollar /:people =:people
+NET 148 unique, non-negative, integer-valued solutions found out of 1000 total solutions

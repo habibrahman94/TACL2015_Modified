@@ -1,0 +1,5 @@
+quantities : 79 7 23 x
+types : "ticket" "ticket" "ticket" "ride"
+operators : + - * / =
+n : 7
+answer : 8.0

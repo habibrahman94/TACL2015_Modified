@@ -1,0 +1,5 @@
+quantities : 9.0 12 8 x
+types : "money" "lawn" "lawn" "money"
+operators : + - * / =
+n : 7
+answer : 36.0

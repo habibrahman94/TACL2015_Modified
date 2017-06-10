@@ -1,0 +1,5 @@
+quantities : 7 2 x 6
+types : "point" "treasure" "UNKNOWN" "treasure"
+operators : + - * / =
+n : 7
+answer : 56.0

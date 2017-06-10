@@ -1,0 +1,5 @@
+quantities : 16 33 48 x
+types : "point" "point" "point" "point"
+operators : + - * / =
+n : 7
+answer : 1.0

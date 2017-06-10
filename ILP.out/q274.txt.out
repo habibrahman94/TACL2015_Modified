@@ -1,0 +1,183 @@
+parameters: n=7 l=3 k=1 p=5 q=4 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 20 | 40 | 20 | x=(4+(8*2)) | x 4 8 2 * + = | x:bird 4:bird 8:parrot 2:bird *:bird +:bird =:bird
+EXPR: 0 | POS | INT | 20 | 40 | 30 | ((4*8)-2)=x | 4 8 * 2 - x = | 4:cage 8:parrot *:cage 2:cage -:cage x:cage =:cage
+EXPR: 0 | POS | INT | 20 | 40 | 24 | ((4+8)*2)=x | 4 8 + 2 * x = | 4:parrot 8:parrot +:parrot 2:bird *:bird x:bird =:bird
+EXPR: 0 | POS | INT | 20 | 40 | 24 | (4*(8-2))=x | 4 8 2 - * x = | 4:cage 8:parakeet 2:parakeet -:parakeet *:parakeet x:parakeet =:parakeet
+EXPR: 0 | POS | INT | 20 | 40 |  | x=(4-(8/2)) | x 4 8 2 / - = | x:cage 4:cage 8:cage 2:parakeet /:cage -:cage =:cage
+EXPR: 1 | POS | INT | 20 | 40 | 40 | x=(4*(8+2)) | x 4 8 2 + * = | x:cage 4:cage 8:parakeet 2:parakeet +:parakeet *:cage =:cage
+EXPR: 0 | POS | INT | 20 | 40 | 30 | x=((4*8)-2) | x 4 8 * 2 - = | x:parakeet 4:cage 8:parakeet *:parakeet 2:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 20 | 40 | 20 | (4+(8*2))=x | 4 8 2 * + x = | 4:cage 8:cage 2:parakeet *:cage +:cage x:cage =:cage
+EXPR: 1 | POS | INT | 20 | 40 | 40 | (4*(8+2))=x | 4 8 2 + * x = | 4:cage 8:bird 2:bird +:bird *:bird x:bird =:bird
+EXPR: 0 | POS | INT | 20 | 40 | 34 | ((4*8)+2)=x | 4 8 * 2 + x = | 4:cage 8:parrot *:parrot 2:parrot +:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 20 | 40 | 24 | x=((4+8)*2) | x 4 8 + 2 * = | x:bird 4:parrot 8:parrot +:parrot 2:bird *:bird =:bird
+EXPR: 0 | POS | INT | 20 | 40 | 8 | x=(4+(8/2)) | x 4 8 2 / + = | x:parrot 4:parrot 8:parrot 2:parakeet /:parrot +:parrot =:parrot
+EXPR: 0 | POS | INT | 20 | 40 | 34 | x=((4*8)+2) | x 4 8 * 2 + = | x:bird 4:bird 8:parrot *:bird 2:bird +:bird =:bird
+EXPR: 0 | POS | INT | 20 | 40 | 24 | x=(4*(8-2)) | x 4 8 2 - * = | x:bird 4:bird 8:parrot 2:parrot -:parrot *:bird =:bird
+EXPR: 0 | POS | INT | 20 | 40 | 6 | ((4+8)/2)=x | 4 8 + 2 / x = | 4:bird 8:bird +:bird 2:parakeet /:bird x:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 6 | 4=((8-x)*2) | 4 8 x - 2 * = | 4:bird 8:bird x:bird -:bird 2:parakeet *:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 6 | (4/(8-x))=2 | 4 8 x - / 2 = | 4:parakeet 8:bird x:bird -:bird /:parakeet 2:parakeet =:parakeet
+EXPR: 1 | POS | INT | 22 | 40 | 40 | ((x/4)-8)=2 | x 4 / 8 - 2 = | x:bird 4:cage /:bird 8:bird -:bird 2:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 48 | x=(8*(4+2)) | x 8 4 2 + * = | x:bird 8:bird 4:cage 2:cage +:cage *:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 24 | (x/(4+8))=2 | x 4 8 + / 2 = | x:parakeet 4:cage 8:cage +:cage /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 0 | ((4*2)-8)=x | 4 2 * 8 - x = | 4:parrot 2:parakeet *:parrot 8:parrot -:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 6 | x=(8-(4/2)) | x 8 4 2 / - = | x:cage 8:cage 4:cage 2:parakeet /:cage -:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 |  | x=((4*2)-8) | x 4 2 * 8 - = | x:parakeet 4:cage 2:parakeet *:parakeet 8:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 2 | x=((8-4)/2) | x 8 4 - 2 / = | x:cage 8:cage 4:cage -:cage 2:parakeet /:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 16 | x=((4*2)+8) | x 4 2 * 8 + = | x:parrot 4:cage 2:parrot *:parrot 8:parrot +:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 48 | (8*(4+2))=x | 8 4 2 + * x = | 8:parrot 4:bird 2:bird +:bird *:bird x:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 34 | (x-(4*8))=2 | x 4 8 * - 2 = | x:parakeet 4:parakeet 8:parrot *:parakeet -:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 16 | ((4-2)*8)=x | 4 2 - 8 * x = | 4:cage 2:cage -:cage 8:parrot *:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 16 | (8+(4*2))=x | 8 4 2 * + x = | 8:parrot 4:cage 2:parrot *:parrot +:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 16 | (8*(4-2))=x | 8 4 2 - * x = | 8:parrot 4:parakeet 2:parakeet -:parakeet *:parakeet x:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 8 | x=((8-4)*2) | x 8 4 - 2 * = | x:cage 8:cage 4:cage -:cage 2:parakeet *:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 16 | x=((4-2)*8) | x 4 2 - 8 * = | x:parrot 4:parakeet 2:parakeet -:parakeet 8:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 10 | (8+(4/2))=x | 8 4 2 / + x = | 8:parrot 4:parrot 2:parakeet /:parrot +:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 8 | ((8-4)*2)=x | 8 4 - 2 * x = | 8:cage 4:cage -:cage 2:parakeet *:cage x:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 16 | (4*8)=(x*2) | 4 8 * x 2 * = | 4:cage 8:parrot *:cage x:bird 2:cage *:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 16 | x=(8*(4-2)) | x 8 4 2 - * = | x:bird 8:bird 4:cage 2:cage -:cage *:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 4 | x=(8/(4-2)) | x 8 4 2 - / = | x:bird 8:bird 4:cage 2:cage -:cage /:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 6 | ((4+8)/x)=2 | 4 8 + x / 2 = | 4:parrot 8:parrot +:parrot x:bird /:parrot 2:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 10 | x=(8+(4/2)) | x 8 4 2 / + = | x:cage 8:cage 4:cage 2:parakeet /:cage +:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 10 | 4=((x-8)*2) | 4 x 8 - 2 * = | 4:parrot x:parrot 8:parrot -:parrot 2:parakeet *:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 2 | 4=(8-(2*x)) | 4 8 2 x * - = | 4:parrot 8:parrot 2:parrot x:bird *:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=(8/(2-x)) | 4 8 2 x - / = | 4:parrot 8:parrot 2:parakeet x:parakeet -:parakeet /:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 12 | 4=((8*2)-x) | 4 8 2 * x - = | 4:cage 8:cage 2:parakeet *:cage x:cage -:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=((8/2)+x) | 4 8 2 / x + = | 4:cage 8:cage 2:parakeet /:cage x:cage +:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 64 | (4*8)=(x/2) | 4 8 * x 2 / = | 4:cage 8:bird *:bird x:bird 2:parakeet /:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 4 | (4*x)=(8*2) | 4 x * 8 2 * = | 4:parakeet x:bird *:parakeet 8:parrot 2:parakeet *:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 10 | (4/(x-8))=2 | 4 x 8 - / 2 = | 4:cage x:bird 8:bird -:bird /:cage 2:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 4 | (4-(8/x))=2 | 4 8 x / - 2 = | 4:cage 8:cage x:bird /:cage -:cage 2:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 48 | ((4+2)*8)=x | 4 2 + 8 * x = | 4:cage 2:cage +:cage 8:bird *:bird x:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 0 | (8-(4*2))=x | 8 4 2 * - x = | 8:cage 4:cage 2:parakeet *:cage -:cage x:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 8 | 4=(8-(x/2)) | 4 8 x 2 / - = | 4:cage 8:cage x:cage 2:parakeet /:cage -:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 4 | 4=(8/(x-2)) | 4 8 x 2 - / = | 4:parrot 8:parrot x:parakeet 2:parakeet -:parakeet /:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=(8/(x+2)) | 4 8 x 2 + / = | 4:parrot 8:parrot x:parakeet 2:parakeet +:parakeet /:parrot =:parrot
+EXPR: 1 | POS | INT | 22 | 40 | 40 | 4=(x/(8+2)) | 4 x 8 2 + / = | 4:bird x:bird 8:parakeet 2:parakeet +:parakeet /:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 12 | ((x+4)/8)=2 | x 4 + 8 / 2 = | x:bird 4:bird +:bird 8:parrot /:bird 2:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 20 | ((x-4)/8)=2 | x 4 - 8 / 2 = | x:bird 4:bird -:bird 8:parrot /:bird 2:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 16 | (4*8)=(2*x) | 4 8 * 2 x * = | 4:cage 8:parrot *:cage 2:parakeet x:cage *:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 4 | (x*4)=(8*2) | x 4 * 8 2 * = | x:bird 4:cage *:cage 8:parrot 2:cage *:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 16 | x=(8+(4*2)) | x 8 4 2 * + = | x:bird 8:bird 4:bird 2:parakeet *:bird +:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 |  | x=(8-(4*2)) | x 8 4 2 * - = | x:bird 8:bird 4:bird 2:parakeet *:bird -:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=(8/(2+x)) | 4 8 2 x + / = | 4:cage 8:cage 2:bird x:bird +:bird /:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 2 | 4=(8-(x*2)) | 4 8 x 2 * - = | 4:parakeet 8:parakeet x:bird 2:parakeet *:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 1 | (4/x)=(8/2) | 4 x / 8 2 / = | 4:cage x:bird /:cage 8:cage 2:parakeet /:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 2 | ((8-4)/2)=x | 8 4 - 2 / x = | 8:parrot 4:parrot -:parrot 2:parakeet /:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 20 | 4=(x-(8*2)) | 4 x 8 2 * - = | 4:parrot x:parrot 8:parrot 2:parakeet *:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 0 | ((8/4)-2)=x | 8 4 / 2 - x = | 8:bird 4:cage /:bird 2:bird -:bird x:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 4 | ((8/4)+2)=x | 8 4 / 2 + x = | 8:bird 4:cage /:bird 2:bird +:bird x:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 6 | (8-(4/2))=x | 8 4 2 / - x = | 8:parrot 4:parrot 2:parakeet /:parrot -:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 8 | 4=(x-(8/2)) | 4 x 8 2 / - = | 4:cage x:cage 8:cage 2:parakeet /:cage -:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=(x+(8/2)) | 4 x 8 2 / + = | 4:cage x:cage 8:cage 2:parakeet /:cage +:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 16 | ((4*2)+8)=x | 4 2 * 8 + x = | 4:parrot 2:parakeet *:parrot 8:parrot +:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=((x+8)/2) | 4 x 8 + 2 / = | 4:bird x:bird 8:bird +:bird 2:parakeet /:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 30 | ((4*8)-x)=2 | 4 8 * x - 2 = | 4:cage 8:parrot *:parrot x:parrot -:parrot 2:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 |  | x=((8/4)-2) | x 8 4 / 2 - = | x:bird 8:bird 4:cage /:bird 2:bird -:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 4 | x=((8/4)+2) | x 8 4 / 2 + = | x:bird 8:bird 4:cage /:bird 2:bird +:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 16 | 4=((x-8)/2) | 4 x 8 - 2 / = | 4:bird x:bird 8:bird -:bird 2:parakeet /:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 4 | (8/(4-2))=x | 8 4 2 - / x = | 8:bird 4:cage 2:cage -:cage /:bird x:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 48 | x=((4+2)*8) | x 4 2 + 8 * = | x:parrot 4:parakeet 2:parakeet +:parakeet 8:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 10 | ((4/2)+8)=x | 4 2 / 8 + x = | 4:cage 2:parakeet /:cage 8:cage +:cage x:cage =:cage
+EXPR: 0 | POS | INT | 22 | 40 | 48 | 4=((x/8)-2) | 4 x 8 / 2 - = | 4:parakeet x:parakeet 8:parrot /:parakeet 2:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 16 | 4=((x/8)+2) | 4 x 8 / 2 + = | 4:parakeet x:parakeet 8:parrot /:parakeet 2:parakeet +:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 10 | x=((4/2)+8) | x 4 2 / 8 + = | x:bird 4:bird 2:parakeet /:bird 8:bird +:bird =:bird
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=((8-x)/2) | 4 8 x - 2 / = | 4:parrot 8:parrot x:parrot -:parrot 2:parakeet /:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 1 | (4*x)=(8/2) | 4 x * 8 2 / = | 4:cage x:parrot *:parrot 8:parrot 2:parakeet /:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 1 | (x*4)=(8/2) | x 4 * 8 2 / = | x:bird 4:parrot *:parrot 8:parrot 2:parakeet /:parrot =:parrot
+EXPR: 0 | POS | INT | 22 | 40 | 12 | ((4+x)/8)=2 | 4 x + 8 / 2 = | 4:parakeet x:parakeet +:parakeet 8:parrot /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 22 | 40 | 0 | 4=((8/2)-x) | 4 8 2 / x - = | 4:cage 8:cage 2:parakeet /:cage x:cage -:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 2 | (4+(2*x))=8 | 4 2 x * + 8 = | 4:parrot 2:parakeet x:parrot *:parrot +:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 |  | (4*(2+x))=8 | 4 2 x + * 8 = | 4:cage 2:bird x:bird +:bird *:bird 8:bird =:bird
+EXPR: 0 | POS | INT | 24 | 40 | 4 | (x*(4-2))=8 | x 4 2 - * 8 = | x:bird 4:parrot 2:parrot -:parrot *:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 8 | (x/(8-4))=2 | x 8 4 - / 2 = | x:bird 8:parrot 4:parrot -:parrot /:bird 2:bird =:bird
+EXPR: 0 | POS | INT | 24 | 40 | 6 | 4=((2*x)-8) | 4 2 x * 8 - = | 4:parrot 2:parakeet x:parrot *:parrot 8:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 |  | ((x+8)/4)=2 | x 8 + 4 / 2 = | x:parakeet 8:parakeet +:parakeet 4:cage /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 8 | (8/(x-4))=2 | 8 x 4 - / 2 = | 8:parrot x:cage 4:cage -:cage /:parrot 2:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 2 | (4+(x*2))=8 | 4 x 2 * + 8 = | 4:cage x:bird 2:cage *:cage +:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 4 | (4*(x-2))=8 | 4 x 2 - * 8 = | 4:cage x:parakeet 2:parakeet -:parakeet *:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 |  | ((4+x)*2)=8 | 4 x + 2 * 8 = | 4:parrot x:parrot +:parrot 2:parakeet *:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 |  | (4*(2-x))=8 | 4 2 x - * 8 = | 4:cage 2:bird x:bird -:bird *:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 |  | (4*(x+2))=8 | 4 x 2 + * 8 = | 4:cage x:parrot 2:parrot +:parrot *:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 8 | ((x-4)*2)=8 | x 4 - 2 * 8 = | x:parrot 4:parrot -:parrot 2:parakeet *:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 0 | 8=((4*2)-x) | 8 4 2 * x - = | 8:parrot 4:cage 2:parrot *:parrot x:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 |  | (x+(4*2))=8 | x 4 2 * + 8 = | x:parrot 4:parrot 2:parakeet *:parrot +:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 6 | 4=((x*2)-8) | 4 x 2 * 8 - = | 4:parakeet x:bird 2:parakeet *:parakeet 8:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 4 | 8=(4*(x-2)) | 8 4 x 2 - * = | 8:parrot 4:cage x:parrot 2:parrot -:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 8 | 8=((x-4)*2) | 8 x 4 - 2 * = | 8:parakeet x:bird 4:bird -:bird 2:parakeet *:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 4 | ((4-2)*x)=8 | 4 2 - x * 8 = | 4:parakeet 2:parakeet -:parakeet x:bird *:bird 8:bird =:bird
+EXPR: 0 | POS | INT | 24 | 40 | 1 | (4*2)=(x*8) | 4 2 * x 8 * = | 4:parrot 2:parakeet *:parrot x:bird 8:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 24 | 40 | 16 | 8=(x-(4*2)) | 8 x 4 2 * - = | 8:cage x:cage 4:cage 2:parakeet *:cage -:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 2 | 8=(4+(x*2)) | 8 4 x 2 * + = | 8:parakeet 4:parakeet x:bird 2:parakeet *:parakeet +:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 16 | (x/(4-2))=8 | x 4 2 - / 8 = | x:bird 4:cage 2:cage -:cage /:bird 8:bird =:bird
+EXPR: 0 | POS | INT | 24 | 40 | 4 | 8=((4-2)*x) | 8 4 2 - x * = | 8:cage 4:cage 2:cage -:cage x:bird *:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 1 | (4*2)=(8*x) | 4 2 * 8 x * = | 4:cage 2:parakeet *:cage 8:parrot x:cage *:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 |  | ((8+x)/4)=2 | 8 x + 4 / 2 = | 8:parakeet x:parakeet +:parakeet 4:cage /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 0 | (8/(4-x))=2 | 8 4 x - / 2 = | 8:parakeet 4:bird x:bird -:bird /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 0 | (8/(4+x))=2 | 8 4 x + / 2 = | 8:parakeet 4:bird x:bird +:bird /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 |  | ((x+4)*2)=8 | x 4 + 2 * 8 = | x:bird 4:bird +:bird 2:parakeet *:bird 8:bird =:bird
+EXPR: 0 | POS | INT | 24 | 40 |  | ((8-x)/4)=2 | 8 x - 4 / 2 = | 8:parakeet x:parakeet -:parakeet 4:cage /:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 24 | 40 | 4 | (4/2)=(8/x) | 4 2 / 8 x / = | 4:cage 2:parakeet /:cage 8:cage x:bird /:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 12 | ((4+x)/2)=8 | 4 x + 2 / 8 = | 4:bird x:bird +:bird 2:parakeet /:bird 8:bird =:bird
+EXPR: 0 | POS | INT | 24 | 40 | 16 | (x-(4*2))=8 | x 4 2 * - 8 = | x:cage 4:cage 2:parakeet *:cage -:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 0 | 8=((4*2)+x) | 8 4 2 * x + = | 8:cage 4:cage 2:parakeet *:cage x:cage +:cage =:cage
+EXPR: 0 | POS | INT | 24 | 40 | 6 | 8=((4/2)+x) | 8 4 2 / x + = | 8:cage 4:cage 2:parakeet /:cage x:cage +:cage =:cage
+EXPR: 0 | POS | INT | 25 | 40 | 0 | ((8/2)-4)=x | 8 2 / 4 - x = | 8:parrot 2:parakeet /:parrot 4:parrot -:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 25 | 40 | 12 | x=((8*2)-4) | x 8 2 * 4 - = | x:parrot 8:parrot 2:parakeet *:parrot 4:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 25 | 40 | 12 | ((8*2)-4)=x | 8 2 * 4 - x = | 8:parrot 2:parakeet *:parrot 4:parrot -:parrot x:parrot =:parrot
+EXPR: 0 | POS | INT | 25 | 40 | 20 | ((8*2)+4)=x | 8 2 * 4 + x = | 8:bird 2:parakeet *:bird 4:bird +:bird x:bird =:bird
+EXPR: 0 | POS | INT | 25 | 40 | 24 | x=((8-2)*4) | x 8 2 - 4 * = | x:bird 8:parrot 2:parrot -:parrot 4:bird *:bird =:bird
+EXPR: 0 | POS | INT | 25 | 40 | 24 | (2*(4+8))=x | 2 4 8 + * x = | 2:bird 4:cage 8:cage +:cage *:bird x:bird =:bird
+EXPR: 0 | POS | INT | 25 | 40 | 34 | x=(2+(4*8)) | x 2 4 8 * + = | x:bird 2:bird 4:cage 8:bird *:bird +:bird =:bird
+EXPR: 0 | POS | INT | 25 | 40 | 34 | (2+(4*8))=x | 2 4 8 * + x = | 2:cage 4:cage 8:parrot *:cage +:cage x:cage =:cage
+EXPR: 0 | POS | INT | 25 | 40 | 20 | x=((8*2)+4) | x 8 2 * 4 + = | x:bird 8:parrot 2:bird *:bird 4:bird +:bird =:bird
+EXPR: 0 | POS | INT | 25 | 40 | 8 | x=((8/2)+4) | x 8 2 / 4 + = | x:bird 8:bird 2:parakeet /:bird 4:bird +:bird =:bird
+EXPR: 0 | POS | INT | 27 | 40 | 2 | (8-(x*2))=4 | 8 x 2 * - 4 = | 8:cage x:bird 2:cage *:cage -:cage 4:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 |  | (2*(x+4))=8 | 2 x 4 + * 8 = | 2:parrot x:bird 4:bird +:bird *:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 2 | 8=((x*2)+4) | 8 x 2 * 4 + = | 8:parrot x:bird 2:parrot *:parrot 4:parrot +:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 6 | 8=((x*2)-4) | 8 x 2 * 4 - = | 8:parrot x:bird 2:parrot *:parrot 4:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 |  | (2*(4+x))=8 | 2 4 x + * 8 = | 2:parakeet 4:cage x:cage +:cage *:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 | 6 | ((x*2)-4)=8 | x 2 * 4 - 8 = | x:bird 2:cage *:cage 4:cage -:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 | 0 | 8=((2-x)*4) | 8 2 x - 4 * = | 8:parrot 2:bird x:bird -:bird 4:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 |  | (2*(4-x))=8 | 2 4 x - * 8 = | 2:parakeet 4:bird x:bird -:bird *:bird 8:bird =:bird
+EXPR: 0 | POS | INT | 27 | 40 | 12 | ((8*2)-x)=4 | 8 2 * x - 4 = | 8:bird 2:parakeet *:bird x:bird -:bird 4:bird =:bird
+EXPR: 0 | POS | INT | 27 | 40 | 10 | ((x-8)*2)=4 | x 8 - 2 * 4 = | x:bird 8:bird -:bird 2:parakeet *:parakeet 4:parakeet =:parakeet
+EXPR: 0 | POS | INT | 27 | 40 | 6 | 8=((2*x)-4) | 8 2 x * 4 - = | 8:parrot 2:parakeet x:parrot *:parrot 4:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 6 | ((2*x)-4)=8 | 2 x * 4 - 8 = | 2:parrot x:bird *:parrot 4:parrot -:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 4 | (8/(x-2))=4 | 8 x 2 - / 4 = | 8:parrot x:parakeet 2:parakeet -:parakeet /:parrot 4:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 16 | (2*x)=(4*8) | 2 x * 4 8 * = | 2:parrot x:bird *:parrot 4:cage 8:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 |  | ((x+2)*4)=8 | x 2 + 4 * 8 = | x:parakeet 2:parakeet +:parakeet 4:cage *:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 | 24 | ((x/2)-4)=8 | x 2 / 4 - 8 = | x:parrot 2:parakeet /:parrot 4:parrot -:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 |  | ((2+x)*4)=8 | 2 x + 4 * 8 = | 2:bird x:bird +:bird 4:cage *:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 | 8 | (2*(x-4))=8 | 2 x 4 - * 8 = | 2:parakeet x:cage 4:cage -:cage *:cage 8:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 | 16 | (x*2)=(4*8) | x 2 * 4 8 * = | x:parrot 2:parakeet *:parrot 4:cage 8:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 4 | 8=((x-2)*4) | 8 x 2 - 4 * = | 8:parrot x:parakeet 2:parakeet -:parakeet 4:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 0 | 8=((x+2)*4) | 8 x 2 + 4 * = | 8:parrot x:parakeet 2:parakeet +:parakeet 4:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 27 | 40 | 30 | 2=((4*8)-x) | 2 4 8 * x - = | 2:cage 4:cage 8:parrot *:cage x:cage -:cage =:cage
+EXPR: 0 | POS | INT | 27 | 40 | 4 | (8*2)=(4*x) | 8 2 * 4 x * = | 8:bird 2:parakeet *:bird 4:cage x:bird *:bird =:bird
+EXPR: 0 | POS | INT | 27 | 40 | 4 | (8*2)=(x*4) | 8 2 * x 4 * = | 8:parrot 2:parakeet *:parakeet x:bird 4:parakeet *:parakeet =:parakeet
+EXPR: 0 | POS | INT | 29 | 40 | 6 | ((2*x)-8)=4 | 2 x * 8 - 4 = | 2:parakeet x:cage *:cage 8:cage -:cage 4:cage =:cage
+EXPR: 0 | POS | INT | 29 | 40 | 30 | ((x+2)/8)=4 | x 2 + 8 / 4 = | x:bird 2:bird +:bird 8:parrot /:bird 4:bird =:bird
+EXPR: 0 | POS | INT | 29 | 40 | 6 | ((x*2)-8)=4 | x 2 * 8 - 4 = | x:bird 2:parrot *:parrot 8:parrot -:parrot 4:parrot =:parrot
+EXPR: 0 | POS | INT | 29 | 40 | 10 | (2*(x-8))=4 | 2 x 8 - * 4 = | 2:parakeet x:parrot 8:parrot -:parrot *:parrot 4:parrot =:parrot
+EXPR: 0 | POS | INT | 29 | 40 | 4 | 2=(x-(8/4)) | 2 x 8 4 / - = | 2:parrot x:parrot 8:parrot 4:cage /:parrot -:parrot =:parrot
+EXPR: 0 | POS | INT | 29 | 40 | 0 | 2=(x+(8/4)) | 2 x 8 4 / + = | 2:parrot x:parrot 8:parrot 4:cage /:parrot +:parrot =:parrot
+EXPR: 0 | POS | INT | 30 | 40 | 6 | x=((4+8)/2) | x 4 8 + 2 / = | x:parrot 4:parrot 8:parrot +:parrot 2:cage /:parrot =:parrot
+EXPR: 0 | POS | INT | 30 | 40 | 10 | ((4+8)-2)=x | 4 8 + 2 - x = | 4:cage 8:cage +:cage 2:cage -:cage x:cage =:cage
+EXPR: 0 | POS | INT | 32 | 40 | 10 | x=(4-(2-8)) | x 4 2 8 - - = | x:parakeet 4:parakeet 2:parakeet 8:parakeet -:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 32 | 40 | 6 | ((4+x)-8)=2 | 4 x + 8 - 2 = | 4:bird x:bird +:bird 8:bird -:bird 2:bird =:bird
+EXPR: 0 | POS | INT | 32 | 40 | 6 | x=(8-(4-2)) | x 8 4 2 - - = | x:cage 8:cage 4:cage 2:cage -:cage -:cage =:cage
+EXPR: 0 | POS | INT | 32 | 40 | 14 | x=(8+(4+2)) | x 8 4 2 + + = | x:cage 8:cage 4:cage 2:cage +:cage +:cage =:cage
+EXPR: 0 | POS | INT | 32 | 40 | 6 | (4+(x-8))=2 | 4 x 8 - + 2 = | 4:bird x:bird 8:bird -:bird +:bird 2:bird =:bird
+EXPR: 0 | POS | INT | 32 | 40 | 16 | (4-(x/8))=2 | 4 x 8 / - 2 = | 4:parakeet x:parakeet 8:bird /:parakeet -:parakeet 2:parakeet =:parakeet
+EXPR: 0 | POS | INT | 32 | 40 | 64 | (x/4)=(8*2) | x 4 / 8 2 * = | x:parakeet 4:cage /:parakeet 8:bird 2:parakeet *:parakeet =:parakeet
+EXPR: 0 | POS | INT | 34 | 40 | 0 | 8=((4-x)*2) | 8 4 x - 2 * = | 8:parrot 4:parakeet x:parakeet -:parakeet 2:parrot *:parrot =:parrot
+EXPR: 0 | POS | INT | 34 | 40 | 6 | ((4+x)-2)=8 | 4 x + 2 - 8 = | 4:parrot x:parrot +:parrot 2:parrot -:parrot 8:parrot =:parrot
+EXPR: 0 | POS | INT | 34 | 40 | 14 | 8=((x-4)-2) | 8 x 4 - 2 - = | 8:parakeet x:parakeet 4:parakeet -:parakeet 2:parakeet -:parakeet =:parakeet
+EXPR: 0 | POS | INT | 34 | 40 | 10 | 8=((x-4)+2) | 8 x 4 - 2 + = | 8:parakeet x:parakeet 4:parakeet -:parakeet 2:parakeet +:parakeet =:parakeet
+EXPR: 0 | POS | INT | 34 | 40 | 64 | (4*2)=(x/8) | 4 2 * x 8 / = | 4:cage 2:bird *:bird x:bird 8:parakeet /:bird =:bird
+EXPR: 0 | POS | INT | 34 | 40 | 1 | (8/4)=(x*2) | 8 4 / x 2 * = | 8:parakeet 4:parrot /:parakeet x:bird 2:parakeet *:parakeet =:parakeet
+EXPR: 0 | POS | INT | 34 | 40 | 1 | (4*2)=(8/x) | 4 2 * 8 x / = | 4:cage 2:parrot *:parrot 8:parrot x:cage /:parrot =:parrot
+EXPR: 0 | POS | INT | 34 | 40 |  | ((4-x)*2)=8 | 4 x - 2 * 8 = | 4:cage x:cage -:cage 2:parrot *:cage 8:cage =:cage
+NET 179 unique, non-negative, integer-valued solutions found out of 1000 total solutions

@@ -1,0 +1,5 @@
+quantities : 14 26 5 x
+types : "dollar" "eating" "dollar" "LENGTH"
+operators : + - * / =
+n : 7
+answer : 8.0

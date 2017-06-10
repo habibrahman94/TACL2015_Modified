@@ -1,0 +1,238 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 48 | 16 | ((4*2)+8)=x | 4 2 * 8 + x = | 4:chair 2:minute *:minute 8:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 40 | x=(4*(2+8)) | x 4 2 8 + * = | x:minute 4:chair 2:minute 8:minute +:minute *:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 10 | x=((4/2)+8) | x 4 2 / 8 + = | x:minute 4:minute 2:table /:minute 8:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 16 | x=((4*2)+8) | x 4 2 * 8 + = | x:minute 4:minute 2:table *:minute 8:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 20 | x=(4+(2*8)) | x 4 2 8 * + = | x:minute 4:minute 2:table 8:minute *:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 10 | ((4/2)+8)=x | 4 2 / 8 + x = | 4:minute 2:table /:minute 8:minute +:minute x:minute =:minute
+EXPR: 1 | POS | INT | 10 | 48 | 48 | x=((4+2)*8) | x 4 2 + 8 * = | x:minute 4:chair 2:chair +:chair 8:minute *:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 |  | x=((4*2)-8) | x 4 2 * 8 - = | x:minute 4:minute 2:table *:minute 8:minute -:minute =:minute
+EXPR: 1 | POS | INT | 10 | 48 | 48 | ((4+2)*8)=x | 4 2 + 8 * x = | 4:table 2:table +:table 8:minute *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 0 | ((4*2)-8)=x | 4 2 * 8 - x = | 4:minute 2:table *:minute 8:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 16 | x=((4-2)*8) | x 4 2 - 8 * = | x:minute 4:table 2:table -:table 8:minute *:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 16 | ((4-2)*8)=x | 4 2 - 8 * x = | 4:table 2:table -:table 8:minute *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 40 | (4*(2+8))=x | 4 2 8 + * x = | 4:chair 2:minute 8:minute +:minute *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 48 | 20 | (4+(2*8))=x | 4 2 8 * + x = | 4:minute 2:table 8:minute *:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 8 | ((x-4)*2)=8 | x 4 - 2 * 8 = | x:minute 4:minute -:minute 2:table *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 34 | ((4*8)+2)=x | 4 8 * 2 + x = | 4:chair 8:minute *:minute 2:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 8 | (4+(x/2))=8 | 4 x 2 / + 8 = | 4:minute x:minute 2:table /:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 2 | (4+(x*2))=8 | 4 x 2 * + 8 = | 4:minute x:minute 2:table *:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 34 | x=((4*8)+2) | x 4 8 * 2 + = | x:minute 4:chair 8:minute *:minute 2:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 8 | (4+(8/2))=x | 4 8 2 / + x = | 4:minute 8:minute 2:table /:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 0 | (4-(8/2))=x | 4 8 2 / - x = | 4:minute 8:minute 2:table /:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 6 | ((4/2)+x)=8 | 4 2 / x + 8 = | 4:minute 2:table /:minute x:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 |  | ((4*2)+x)=8 | 4 2 * x + 8 = | 4:minute 2:table *:minute x:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 |  | ((4*2)-x)=8 | 4 2 * x - 8 = | 4:minute 2:table *:minute x:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 4 | ((4-2)*x)=8 | 4 2 - x * 8 = | 4:chair 2:chair -:chair x:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 24 | (2*(4+8))=x | 2 4 8 + * x = | 2:table 4:minute 8:minute +:minute *:minute x:minute =:minute
+EXPR: 1 | POS | INT | 12 | 48 | 48 | (x/(4+2))=8 | x 4 2 + / 8 = | x:minute 4:chair 2:chair +:chair /:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 16 | (x/(4-2))=8 | x 4 2 - / 8 = | x:minute 4:chair 2:chair -:chair /:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 24 | ((4+8)*2)=x | 4 8 + 2 * x = | 4:minute 8:minute +:minute 2:table *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 2 | (4+(2*x))=8 | 4 2 x * + 8 = | 4:minute 2:table x:minute *:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 4 | (x*4)=(2*8) | x 4 * 2 8 * = | x:minute 4:chair *:minute 2:table 8:minute *:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 64 | (x/4)=(2*8) | x 4 / 2 8 * = | x:minute 4:chair /:minute 2:table 8:minute *:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 6 | ((4+8)/2)=x | 4 8 + 2 / x = | 4:minute 8:minute +:minute 2:table /:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 12 | ((4+x)/2)=8 | 4 x + 2 / 8 = | 4:minute x:minute +:minute 2:table /:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 20 | 4=(x-(2*8)) | 4 x 2 8 * - = | 4:minute x:minute 2:table 8:minute *:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 4 | (x*(4-2))=8 | x 4 2 - * 8 = | x:minute 4:chair 2:chair -:chair *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 10 | 4=(2*(x-8)) | 4 2 x 8 - * = | 4:chair 2:chair x:minute 8:minute -:minute *:chair =:chair
+EXPR: 0 | POS | INT | 12 | 48 |  | (x+(4*2))=8 | x 4 2 * + 8 = | x:minute 4:chair 2:minute *:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 |  | ((x+4)*2)=8 | x 4 + 2 * 8 = | x:minute 4:minute +:minute 2:table *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 6 | (x+(4/2))=8 | x 4 2 / + 8 = | x:minute 4:minute 2:table /:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 10 | (x-(4/2))=8 | x 4 2 / - 8 = | x:minute 4:minute 2:table /:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 16 | (x-(4*2))=8 | x 4 2 * - 8 = | x:minute 4:minute 2:table *:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 24 | x=(4*(8-2)) | x 4 8 2 - * = | x:minute 4:chair 8:minute 2:minute -:minute *:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 |  | (4*(2+x))=8 | 4 2 x + * 8 = | 4:chair 2:minute x:minute +:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 |  | (4*(2-x))=8 | 4 2 x - * 8 = | 4:chair 2:minute x:minute -:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 24 | ((x/4)+2)=8 | x 4 / 2 + 8 = | x:minute 4:chair /:minute 2:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 34 | (2+(4*8))=x | 2 4 8 * + x = | 2:minute 4:chair 8:minute *:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 6 | x=((4+8)/2) | x 4 8 + 2 / = | x:minute 4:minute 8:minute +:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 12 | 48 | 20 | ((x-4)/2)=8 | x 4 - 2 / 8 = | x:minute 4:minute -:minute 2:table /:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 30 | ((4*8)-x)=2 | 4 8 * x - 2 = | 4:chair 8:minute *:minute x:minute -:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 1 | (x*4)=(8/2) | x 4 * 8 2 / = | x:minute 4:chair *:minute 8:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 6 | (4/(8-x))=2 | 4 8 x - / 2 = | 4:table 8:minute x:minute -:minute /:table 2:table =:table
+EXPR: 0 | POS | INT | 14 | 48 | 2 | ((x*2)+4)=8 | x 2 * 4 + 8 = | x:minute 2:table *:minute 4:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 8 | ((x/2)+4)=8 | x 2 / 4 + 8 = | x:minute 2:table /:minute 4:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 6 | 2=(4/(8-x)) | 2 4 8 x - / = | 2:chair 4:chair 8:minute x:minute -:minute /:chair =:chair
+EXPR: 0 | POS | INT | 14 | 48 | 10 | 2=(4/(x-8)) | 2 4 x 8 - / = | 2:chair 4:chair x:minute 8:minute -:minute /:chair =:chair
+EXPR: 0 | POS | INT | 14 | 48 |  | (2*(4-x))=8 | 2 4 x - * 8 = | 2:table 4:minute x:minute -:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 |  | (2*(4+x))=8 | 2 4 x + * 8 = | 2:table 4:minute x:minute +:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 10 | 4=((x-8)*2) | 4 x 8 - 2 * = | 4:minute x:minute 8:minute -:minute 2:table *:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 16 | 4=((x-8)/2) | 4 x 8 - 2 / = | 4:minute x:minute 8:minute -:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 0 | 4=((x+8)/2) | 4 x 8 + 2 / = | 4:minute x:minute 8:minute +:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 34 | 2=(x-(4*8)) | 2 x 4 8 * - = | 2:minute x:minute 4:chair 8:minute *:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 |  | (2*(x+4))=8 | 2 x 4 + * 8 = | 2:table x:minute 4:minute +:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 40 | 2=((x/4)-8) | 2 x 4 / 8 - = | 2:minute x:minute 4:chair /:minute 8:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 24 | ((x/2)-4)=8 | x 2 / 4 - 8 = | x:minute 2:table /:minute 4:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 0 | 4=((8/2)+x) | 4 8 2 / x + = | 4:minute 8:minute 2:table /:minute x:minute +:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 0 | 4=((8/2)-x) | 4 8 2 / x - = | 4:minute 8:minute 2:table /:minute x:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 16 | (x/4)=(8/2) | x 4 / 8 2 / = | x:minute 4:chair /:minute 8:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 2 | 4=(8-(2*x)) | 4 8 2 x * - = | 4:minute 8:minute 2:table x:minute *:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 2 | ((2*x)+4)=8 | 2 x * 4 + 8 = | 2:table x:minute *:minute 4:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 6 | ((2*x)-4)=8 | 2 x * 4 - 8 = | 2:table x:minute *:minute 4:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 6 | 4=((8-x)*2) | 4 8 x - 2 * = | 4:chair 8:minute x:minute -:minute 2:chair *:chair =:chair
+EXPR: 0 | POS | INT | 14 | 48 | 6 | ((x*2)-4)=8 | x 2 * 4 - 8 = | x:minute 2:table *:minute 4:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 34 | (x-(4*8))=2 | x 4 8 * - 2 = | x:minute 4:chair 8:minute *:minute -:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 14 | 48 | 10 | (4/(x-8))=2 | 4 x 8 - / 2 = | 4:chair x:minute 8:minute -:minute /:chair 2:chair =:chair
+EXPR: 0 | POS | INT | 15 | 48 | 10 | (8+(4/2))=x | 8 4 2 / + x = | 8:minute 4:minute 2:table /:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 0 | (8-(4*2))=x | 8 4 2 * - x = | 8:minute 4:minute 2:table *:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 4 | x=(8/(4-2)) | x 8 4 2 - / = | x:minute 8:minute 4:table 2:table -:table /:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 16 | x=(8+(4*2)) | x 8 4 2 * + = | x:minute 8:minute 4:minute 2:table *:minute +:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 10 | x=(8+(4/2)) | x 8 4 2 / + = | x:minute 8:minute 4:minute 2:table /:minute +:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 |  | x=(8-(4*2)) | x 8 4 2 * - = | x:minute 8:minute 4:minute 2:table *:minute -:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 2 | ((8-4)/2)=x | 8 4 - 2 / x = | 8:minute 4:minute -:minute 2:table /:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 16 | (8+(4*2))=x | 8 4 2 * + x = | 8:minute 4:chair 2:minute *:minute +:minute x:minute =:minute
+EXPR: 1 | POS | INT | 15 | 48 | 48 | (8*(4+2))=x | 8 4 2 + * x = | 8:minute 4:chair 2:chair +:chair *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 16 | (8*(4-2))=x | 8 4 2 - * x = | 8:minute 4:chair 2:chair -:chair *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 8 | x=(2*(8-4)) | x 2 8 4 - * = | x:minute 2:table 8:minute 4:minute -:minute *:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 4 | (8/(4-2))=x | 8 4 2 - / x = | 8:minute 4:table 2:table -:table /:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 4 | (2+(8/4))=x | 2 8 4 / + x = | 2:minute 8:minute 4:chair /:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 15 | 48 | 8 | ((8-4)*2)=x | 8 4 - 2 * x = | 8:minute 4:minute -:minute 2:table *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 8 | ((8/2)+4)=x | 8 2 / 4 + x = | 8:minute 2:table /:minute 4:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 8=(4*(x+2)) | 8 4 x 2 + * = | 8:minute 4:chair x:minute 2:minute +:minute *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 24 | (8-(x/4))=2 | 8 x 4 / - 2 = | 8:minute x:minute 4:chair /:minute -:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 |  | ((8+x)/4)=2 | 8 x + 4 / 2 = | 8:minute x:minute +:minute 4:chair /:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 |  | (x+(8/4))=2 | x 8 4 / + 2 = | x:minute 8:minute 4:chair /:minute +:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 |  | ((x+8)/4)=2 | x 8 + 4 / 2 = | x:minute 8:minute +:minute 4:chair /:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 16 | ((x-8)/4)=2 | x 8 - 4 / 2 = | x:minute 8:minute -:minute 4:chair /:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 6 | (2*(8-x))=4 | 2 8 x - * 4 = | 2:chair 8:minute x:minute -:minute *:chair 4:chair =:chair
+EXPR: 0 | POS | INT | 17 | 48 | 4 | 8=((4-2)*x) | 8 4 2 - x * = | 8:minute 4:chair 2:chair -:chair x:minute *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | ((8/2)-4)=x | 8 2 / 4 - x = | 8:minute 2:table /:minute 4:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 8=((4*2)+x) | 8 4 2 * x + = | 8:minute 4:minute 2:table *:minute x:minute +:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 4 | 8=(x*(4-2)) | 8 x 4 2 - * = | 8:minute x:minute 4:table 2:table -:table *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 16 | 8=(x/(4-2)) | 8 x 4 2 - / = | 8:minute x:minute 4:table 2:table -:table /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 |  | ((8/4)+x)=2 | 8 4 / x + 2 = | 8:minute 4:chair /:minute x:minute +:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 8=(x+(4*2)) | 8 x 4 2 * + = | 8:minute x:minute 4:chair 2:minute *:minute +:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 16 | 8=(x-(4*2)) | 8 x 4 2 * - = | 8:minute x:minute 4:chair 2:minute *:minute -:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 4 | (x-(8/4))=2 | x 8 4 / - 2 = | x:minute 8:minute 4:chair /:minute -:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 2=(x+(8/4)) | 2 x 8 4 / + = | 2:minute x:minute 8:minute 4:chair /:minute +:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 20 | (x-(2*8))=4 | x 2 8 * - 4 = | x:minute 2:table 8:minute *:minute -:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 16 | 2=((x-8)/4) | 2 x 8 - 4 / = | 2:minute x:minute 8:minute -:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 2=((x+8)/4) | 2 x 8 + 4 / = | 2:minute x:minute 8:minute +:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 8 | 8=((x-4)*2) | 8 x 4 - 2 * = | 8:minute x:minute 4:minute -:minute 2:table *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 20 | 8=((x-4)/2) | 8 x 4 - 2 / = | 8:minute x:minute 4:minute -:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 12 | 8=((x+4)/2) | 8 x 4 + 2 / = | 8:minute x:minute 4:minute +:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 24 | 2=(8-(x/4)) | 2 8 x 4 / - = | 2:minute 8:minute x:minute 4:chair /:minute -:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 4 | 8=(4*(x-2)) | 8 4 x 2 - * = | 8:minute 4:chair x:minute 2:minute -:minute *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 2=((8+x)/4) | 2 8 x + 4 / = | 2:minute 8:minute x:minute +:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 8=(4*(2-x)) | 8 4 2 x - * = | 8:minute 4:chair 2:minute x:minute -:minute *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 8=(4*(2+x)) | 8 4 2 x + * = | 8:minute 4:chair 2:minute x:minute +:minute *:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 24 | 8=((x/4)+2) | 8 x 4 / 2 + = | 8:minute x:minute 4:chair /:minute 2:minute +:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 1 | (x*2)=(8/4) | x 2 * 8 4 / = | x:minute 2:table *:minute 8:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 2=((8-x)/4) | 2 8 x - 4 / = | 2:minute 8:minute x:minute -:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 17 | 48 | 0 | 8=((x+4)*2) | 8 x 4 + 2 * = | 8:minute x:minute 4:minute +:minute 2:table *:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 |  | ((8/2)+x)=4 | 8 2 / x + 4 = | 8:minute 2:table /:minute x:minute +:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 2 | (8-(x*2))=4 | 8 x 2 * - 4 = | 8:minute x:minute 2:table *:minute -:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 6 | ((8-x)*2)=4 | 8 x - 2 * 4 = | 8:minute x:minute -:minute 2:table *:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 1 | (8/2)=(4*x) | 8 2 / 4 x * = | 8:minute 2:table /:minute 4:chair x:minute *:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 4 | 8=((x-2)*4) | 8 x 2 - 4 * = | 8:minute x:minute 2:minute -:minute 4:chair *:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 34 | 8=((x-2)/4) | 8 x 2 - 4 / = | 8:minute x:minute 2:minute -:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 30 | 8=((x+2)/4) | 8 x 2 + 4 / = | 8:minute x:minute 2:minute +:minute 4:chair /:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 16 | ((x-8)/2)=4 | x 8 - 2 / 4 = | x:minute 8:minute -:minute 2:table /:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 |  | ((x+8)/2)=4 | x 8 + 2 / 4 = | x:minute 8:minute +:minute 2:table /:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 |  | ((8-x)/2)=4 | 8 x - 2 / 4 = | 8:minute x:minute -:minute 2:table /:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 |  | ((8+x)/2)=4 | 8 x + 2 / 4 = | 8:minute x:minute +:minute 2:table /:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 10 | ((x-8)*2)=4 | x 8 - 2 * 4 = | x:minute 8:minute -:minute 2:chair *:chair 4:chair =:chair
+EXPR: 0 | POS | INT | 19 | 48 | 6 | 8=((2*x)-4) | 8 2 x * 4 - = | 8:minute 2:table x:minute *:minute 4:minute -:minute =:minute
+EXPR: 0 | POS | INT | 19 | 48 | 2 | 8=((2*x)+4) | 8 2 x * 4 + = | 8:minute 2:table x:minute *:minute 4:minute +:minute =:minute
+EXPR: 0 | POS | INT | 20 | 48 | 14 | x=(4+(2+8)) | x 4 2 8 + + = | x:minute 4:minute 2:minute 8:minute +:minute +:minute =:minute
+EXPR: 0 | POS | INT | 20 | 48 | 14 | (4+(2+8))=x | 4 2 8 + + x = | 4:minute 2:minute 8:minute +:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 20 | 48 | 10 | x=((4-2)+8) | x 4 2 - 8 + = | x:minute 4:minute 2:minute -:minute 8:minute +:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 6 | 4=((x*2)-8) | 4 x 2 * 8 - = | 4:chair x:minute 2:chair *:chair 8:chair -:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 | 24 | 4=((x/2)-8) | 4 x 2 / 8 - = | 4:chair x:chair 2:table /:chair 8:chair -:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 |  | (4*(x+2))=8 | 4 x 2 + * 8 = | 4:chair x:table 2:table +:table *:chair 8:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 | 6 | ((4+x)-2)=8 | 4 x + 2 - 8 = | 4:minute x:minute +:minute 2:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 24 | (4*(8-2))=x | 4 8 2 - * x = | 4:chair 8:table 2:table -:table *:chair x:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 | 2 | ((4+x)+2)=8 | 4 x + 2 + 8 = | 4:minute x:minute +:minute 2:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 30 | x=((4*8)-2) | x 4 8 * 2 - = | x:table 4:chair 8:table *:table 2:table -:table =:table
+EXPR: 0 | POS | INT | 22 | 48 | 10 | ((4+8)-2)=x | 4 8 + 2 - x = | 4:minute 8:minute +:minute 2:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 64 | (4*2)=(x/8) | 4 2 * x 8 / = | 4:chair 2:table *:chair x:chair 8:minute /:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 |  | ((4+x)*2)=8 | 4 x + 2 * 8 = | 4:chair x:chair +:chair 2:minute *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 4 | (4*(x-2))=8 | 4 x 2 - * 8 = | 4:minute x:table 2:table -:table *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 6 | x=((2-4)+8) | x 2 4 - 8 + = | x:minute 2:minute 4:minute -:minute 8:minute +:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 10 | (4+(8-2))=x | 4 8 2 - + x = | 4:minute 8:minute 2:minute -:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 24 | x=((4+8)*2) | x 4 8 + 2 * = | x:minute 4:chair 8:chair +:chair 2:minute *:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 14 | 4=(x-(2+8)) | 4 x 2 8 + - = | 4:minute x:minute 2:minute 8:minute +:minute -:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 |  | x=(4-(8/2)) | x 4 8 2 / - = | x:minute 4:minute 8:minute 2:chair /:minute -:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 8 | x=(4+(8/2)) | x 4 8 2 / + = | x:minute 4:minute 8:minute 2:chair /:minute +:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 4 | 4=(2+(8/x)) | 4 2 8 x / + = | 4:table 2:table 8:table x:minute /:table +:table =:table
+EXPR: 0 | POS | INT | 22 | 48 | 1 | (4*2)=(8/x) | 4 2 * 8 x / = | 4:chair 2:table *:chair 8:chair x:minute /:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 | 10 | 4=((x+2)-8) | 4 x 2 + 8 - = | 4:minute x:minute 2:minute +:minute 8:minute -:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 10 | x=(4+(8-2)) | x 4 8 2 - + = | x:minute 4:minute 8:minute 2:minute -:minute +:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 14 | 4=((x-2)-8) | 4 x 2 - 8 - = | 4:minute x:minute 2:minute -:minute 8:minute -:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 30 | ((4*8)-2)=x | 4 8 * 2 - x = | 4:table 8:minute *:table 2:table -:table x:table =:table
+EXPR: 0 | POS | INT | 22 | 48 | 14 | ((4+8)+2)=x | 4 8 + 2 + x = | 4:minute 8:minute +:minute 2:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 |  | ((4-x)*2)=8 | 4 x - 2 * 8 = | 4:minute x:minute -:minute 2:chair *:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 10 | 4=(2+(x-8)) | 4 2 x 8 - + = | 4:minute 2:minute x:minute 8:minute -:minute +:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 12 | ((x+4)/2)=8 | x 4 + 2 / 8 = | x:chair 4:chair +:chair 2:table /:chair 8:chair =:chair
+EXPR: 0 | POS | INT | 22 | 48 | 10 | (x-(4-2))=8 | x 4 2 - - 8 = | x:minute 4:minute 2:minute -:minute -:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 6 | (x+(4-2))=8 | x 4 2 - + 8 = | x:minute 4:minute 2:minute -:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 22 | 48 | 12 | 4=((2*8)-x) | 4 2 8 * x - = | 4:table 2:table 8:minute *:table x:table -:table =:table
+EXPR: 0 | POS | INT | 22 | 48 | 10 | 4=(x+(2-8)) | 4 x 2 8 - + = | 4:minute x:minute 2:minute 8:minute -:minute +:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 30 | 2=((4*8)-x) | 2 4 8 * x - = | 2:table 4:chair 8:table *:table x:table -:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 64 | (x/2)=(4*8) | x 2 / 4 8 * = | x:minute 2:chair /:minute 4:chair 8:minute *:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 4 | (4-(8/x))=2 | 4 8 x / - 2 = | 4:chair 8:chair x:minute /:chair -:chair 2:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 | 6 | 2=((4+8)/x) | 2 4 8 + x / = | 2:chair 4:chair 8:chair +:chair x:minute /:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 | 2 | 4=(8-(x+2)) | 4 8 x 2 + - = | 4:minute 8:minute x:minute 2:minute +:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 24 | 2=(x/(4+8)) | 2 x 4 8 + / = | 2:minute x:minute 4:chair 8:chair +:chair /:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 10 | (2+(x-4))=8 | 2 x 4 - + 8 = | 2:minute x:minute 4:minute -:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 6 | ((4+x)-8)=2 | 4 x + 8 - 2 = | 4:minute x:minute +:minute 8:minute -:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 2 | (2+(x+4))=8 | 2 x 4 + + 8 = | 2:minute x:minute 4:minute +:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 6 | 2=((x+4)-8) | 2 x 4 + 8 - = | 2:minute x:minute 4:minute +:minute 8:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 4 | ((x-2)*4)=8 | x 2 - 4 * 8 = | x:table 2:table -:table 4:chair *:table 8:table =:table
+EXPR: 0 | POS | INT | 24 | 48 |  | ((x+2)*4)=8 | x 2 + 4 * 8 = | x:table 2:table +:table 4:chair *:table 8:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 8 | (2*(x-4))=8 | 2 x 4 - * 8 = | 2:table x:minute 4:minute -:minute *:table 8:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 4 | 2=(4-(8/x)) | 2 4 8 x / - = | 2:chair 4:chair 8:chair x:minute /:chair -:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 | 24 | (x/(4+8))=2 | x 4 8 + / 2 = | x:table 4:chair 8:chair +:chair /:table 2:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 12 | ((4+x)/8)=2 | 4 x + 8 / 2 = | 4:table x:table +:table 8:minute /:table 2:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 14 | 4=((x-8)-2) | 4 x 8 - 2 - = | 4:minute x:minute 8:minute -:minute 2:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 6 | ((4+8)/x)=2 | 4 8 + x / 2 = | 4:chair 8:chair +:chair x:minute /:chair 2:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 | 24 | 4=(x/(8-2)) | 4 x 8 2 - / = | 4:minute x:minute 8:table 2:table -:table /:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 2 | 4=(8-(x*2)) | 4 8 x 2 * - = | 4:table 8:table x:minute 2:table *:table -:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 6 | 4=(8-(x-2)) | 4 8 x 2 - - = | 4:minute 8:minute x:minute 2:minute -:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 4 | 4=(8/(x-2)) | 4 8 x 2 - / = | 4:minute 8:minute x:table 2:table -:table /:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 0 | 4=(8/(x+2)) | 4 8 x 2 + / = | 4:minute 8:minute x:table 2:table +:table /:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 2 | ((2+x)+4)=8 | 2 x + 4 + 8 = | 2:minute x:minute +:minute 4:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 24 | (x/4)=(8-2) | x 4 / 8 2 - = | x:minute 4:chair /:minute 8:minute 2:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 16 | (4-(x/8))=2 | 4 x 8 / - 2 = | 4:table x:table 8:minute /:table -:table 2:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 30 | (2+x)=(4*8) | 2 x + 4 8 * = | 2:minute x:minute +:minute 4:chair 8:minute *:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 10 | 4=((x-8)+2) | 4 x 8 - 2 + = | 4:minute x:minute 8:minute -:minute 2:minute +:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 6 | 2=(x+(4-8)) | 2 x 4 8 - + = | 2:minute x:minute 4:minute 8:minute -:minute +:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 14 | 2=((x-4)-8) | 2 x 4 - 8 - = | 2:minute x:minute 4:minute -:minute 8:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 0 | 4=(8/(2+x)) | 4 8 2 x + / = | 4:chair 8:chair 2:minute x:minute +:minute /:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 | 0 | 4=(8/(2-x)) | 4 8 2 x - / = | 4:chair 8:chair 2:minute x:minute -:minute /:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 |  | (x+4)=(8/2) | x 4 + 8 2 / = | x:minute 4:minute +:minute 8:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 8 | (x-4)=(8/2) | x 4 - 8 2 / = | x:minute 4:minute -:minute 8:minute 2:table /:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 6 | (x+(4-8))=2 | x 4 8 - + 2 = | x:minute 4:minute 8:minute -:minute +:minute 2:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 12 | 2=((4+x)/8) | 2 4 x + 8 / = | 2:table 4:table x:table +:table 8:minute /:table =:table
+EXPR: 0 | POS | INT | 24 | 48 | 2 | (2+(4+x))=8 | 2 4 x + + 8 = | 2:minute 4:minute x:minute +:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 8 | 4=(x-(8/2)) | 4 x 8 2 / - = | 4:chair x:chair 8:chair 2:table /:chair -:chair =:chair
+EXPR: 0 | POS | INT | 24 | 48 | 6 | 2=((4+x)-8) | 2 4 x + 8 - = | 2:minute 4:minute x:minute +:minute 8:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 10 | 2=((4+8)-x) | 2 4 8 + x - = | 2:minute 4:minute 8:minute +:minute x:minute -:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 6 | ((x-2)+4)=8 | x 2 - 4 + 8 = | x:minute 2:minute -:minute 4:minute +:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 34 | ((x-2)/4)=8 | x 2 - 4 / 8 = | x:minute 2:minute -:minute 4:table /:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 24 | 48 | 30 | ((x+2)/4)=8 | x 2 + 4 / 8 = | x:minute 2:minute +:minute 4:table /:minute 8:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 20 | x=((2*8)+4) | x 2 8 * 4 + = | x:chair 2:chair 8:minute *:chair 4:chair +:chair =:chair
+EXPR: 0 | POS | INT | 25 | 48 | 12 | ((2*8)-4)=x | 2 8 * 4 - x = | 2:table 8:minute *:table 4:table -:table x:table =:table
+EXPR: 0 | POS | INT | 25 | 48 | 6 | x=(8-(4/2)) | x 8 4 2 / - = | x:chair 8:chair 4:chair 2:table /:chair -:chair =:chair
+EXPR: 0 | POS | INT | 25 | 48 | 8 | (2*(8-4))=x | 2 8 4 - * x = | 2:chair 8:minute 4:minute -:minute *:minute x:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 6 | x=((8-4)+2) | x 8 4 - 2 + = | x:minute 8:minute 4:minute -:minute 2:minute +:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 6 | (8-(4/2))=x | 8 4 2 / - x = | 8:minute 4:minute 2:chair /:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 40 | x=((2+8)*4) | x 2 8 + 4 * = | x:chair 2:table 8:table +:table 4:chair *:chair =:chair
+EXPR: 0 | POS | INT | 25 | 48 | 40 | ((2+8)*4)=x | 2 8 + 4 * x = | 2:table 8:table +:table 4:chair *:table x:table =:table
+EXPR: 0 | POS | INT | 25 | 48 | 0 | (2-(8/4))=x | 2 8 4 / - x = | 2:minute 8:minute 4:table /:minute -:minute x:minute =:minute
+EXPR: 1 | POS | INT | 25 | 48 | 48 | x=(8*(4+2)) | x 8 4 2 + * = | x:table 8:minute 4:table 2:table +:table *:table =:table
+EXPR: 0 | POS | INT | 25 | 48 | 4 | x=((8/4)+2) | x 8 4 / 2 + = | x:table 8:table 4:chair /:table 2:table +:table =:table
+EXPR: 0 | POS | INT | 25 | 48 |  | x=(2-(8/4)) | x 2 8 4 / - = | x:minute 2:minute 8:minute 4:table /:minute -:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 4 | x=(2+(8/4)) | x 2 8 4 / + = | x:minute 2:minute 8:minute 4:table /:minute +:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 12 | x=((2*8)-4) | x 2 8 * 4 - = | x:chair 2:table 8:chair *:chair 4:chair -:chair =:chair
+EXPR: 0 | POS | INT | 25 | 48 | 6 | (2+(8-4))=x | 2 8 4 - + x = | 2:minute 8:minute 4:minute -:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 8 | x=((8-4)*2) | x 8 4 - 2 * = | x:chair 8:chair 4:chair -:chair 2:table *:chair =:chair
+EXPR: 0 | POS | INT | 25 | 48 | 2 | x=((8-4)/2) | x 8 4 - 2 / = | x:chair 8:chair 4:chair -:chair 2:table /:chair =:chair
+EXPR: 0 | POS | INT | 25 | 48 |  | x=((8/4)-2) | x 8 4 / 2 - = | x:table 8:table 4:chair /:table 2:table -:table =:table
+EXPR: 0 | POS | INT | 25 | 48 | 14 | ((2+8)+4)=x | 2 8 + 4 + x = | 2:minute 8:minute +:minute 4:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 25 | 48 | 16 | x=(8*(4-2)) | x 8 4 2 - * = | x:chair 8:minute 4:chair 2:chair -:chair *:chair =:chair
+EXPR: 0 | POS | INT | 27 | 48 |  | ((8-x)/4)=2 | 8 x - 4 / 2 = | 8:minute x:minute -:minute 4:table /:minute 2:minute =:minute
+NET 234 unique, non-negative, integer-valued solutions found out of 1000 total solutions

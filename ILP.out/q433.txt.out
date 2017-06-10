@@ -1,0 +1,206 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 10 | 40 | ((5*7)+5.0)=x | 5 7 * 5.0 + x = | 5:figure 7:money *:money 5.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 60 | x=(5*(7+5.0)) | x 5 7 5.0 + * = | x:money 5:figure 7:money 5.0:money +:money *:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 40 | x=((5*7)+5.0) | x 5 7 * 5.0 + = | x:money 5:money 7:total *:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 40 | x=(5+(7*5.0)) | x 5 7 5.0 * + = | x:money 5:money 7:total 5.0:money *:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 60 | x=((5+7)*5.0) | x 5 7 + 5.0 * = | x:money 5:figure 7:figure +:figure 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 30 | x=((5*7)-5.0) | x 5 7 * 5.0 - = | x:money 5:money 7:total *:money 5.0:money -:money =:money
+EXPR: 1 | POS | INT | 10 | 10 | 10 | x=(5*(7-5.0)) | x 5 7 5.0 - * = | x:money 5:figure 7:money 5.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 60 | ((5+7)*5.0)=x | 5 7 + 5.0 * x = | 5:total 7:total +:total 5.0:money *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 30 | ((5*7)-5.0)=x | 5 7 * 5.0 - x = | 5:money 7:total *:money 5.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 60 | (5*(7+5.0))=x | 5 7 5.0 + * x = | 5:figure 7:money 5.0:money +:money *:money x:money =:money
+EXPR: 1 | POS | INT | 10 | 10 | 10 | (5*(7-5.0))=x | 5 7 5.0 - * x = | 5:figure 7:money 5.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 10 | 40 | (5+(7*5.0))=x | 5 7 5.0 * + x = | 5:money 7:total 5.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 32 | ((5*5.0)+7)=x | 5 5.0 * 7 + x = | 5:figure 5.0:money *:money 7:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | (5-(x/7))=5.0 | 5 x 7 / - 5.0 = | 5:money x:money 7:total /:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | (5+(x/7))=5.0 | 5 x 7 / + 5.0 = | 5:money x:money 7:total /:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | (5+(x*7))=5.0 | 5 x 7 * + 5.0 = | 5:money x:money 7:total *:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 32 | x=((5*5.0)+7) | x 5 5.0 * 7 + = | x:money 5:figure 5.0:money *:money 7:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 30 | ((5*7)-x)=5.0 | 5 7 * x - 5.0 = | 5:money 7:total *:money x:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | (5-(7*x))=5.0 | 5 7 x * - 5.0 = | 5:money 7:total x:money *:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 0 | (7*(5-5.0))=x | 7 5 5.0 - * x = | 7:total 5:money 5.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 70 | (7*(5+5.0))=x | 7 5 5.0 + * x = | 7:total 5:money 5.0:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 60 | (x/(5+7))=5.0 | x 5 7 + / 5.0 = | x:money 5:figure 7:figure +:figure /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 0 | ((5-5.0)*7)=x | 5 5.0 - 7 * x = | 5:money 5.0:money -:money 7:total *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 70 | ((5+5.0)*7)=x | 5 5.0 + 7 * x = | 5:money 5.0:money +:money 7:total *:money x:money =:money
+EXPR: 1 | POS | INT | 12 | 10 | 10 | x=((7-5)*5.0) | x 7 5 - 5.0 * = | x:money 7:figure 5:figure -:figure 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | (5+(7*x))=5.0 | 5 7 x * + 5.0 = | 5:money 7:total x:money *:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 7 | (x*5)=(7*5.0) | x 5 * 7 5.0 * = | x:money 5:figure *:money 7:total 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 175 | (x/5)=(7*5.0) | x 5 / 7 5.0 * = | x:money 5:figure /:money 7:total 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 0 | ((5-5.0)/7)=x | 5 5.0 - 7 / x = | 5:money 5.0:money -:money 7:total /:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 30 | ((5+x)/7)=5.0 | 5 x + 7 / 5.0 = | 5:money x:money +:money 7:total /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 40 | 5=(x-(7*5.0)) | 5 x 7 5.0 * - = | 5:money x:money 7:total 5.0:money *:money -:money =:money
+EXPR: 1 | POS | INT | 12 | 10 | 10 | ((7-5)*5.0)=x | 7 5 - 5.0 * x = | 7:figure 5:figure -:figure 5.0:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 40 | (x-(5*7))=5.0 | x 5 7 * - 5.0 = | x:money 5:money 7:total *:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | x=((5-5.0)/7) | x 5 5.0 - 7 / = | x:money 5:money 5.0:money -:money 7:total /:money =:money
+EXPR: 0 | POS | INT | 12 | 10 |  | x=((5-5.0)*7) | x 5 5.0 - 7 * = | x:money 5:money 5.0:money -:money 7:total *:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 6 | (5*(7-x))=5.0 | 5 7 x - * 5.0 = | 5:figure 7:money x:money -:money *:money 5.0:money =:money
+EXPR: 0 | POS | INT | 12 | 10 | 0 | 5=((7*x)+5.0) | 5 7 x * 5.0 + = | 5:money 7:total x:money *:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 18 | ((5*5.0)-x)=7 | 5 5.0 * x - 7 = | 5:figure 5.0:money *:money x:money -:money 7:money =:money
+EXPR: 1 | POS | INT | 14 | 10 | 10 | (x/(7-5))=5.0 | x 7 5 - / 5.0 = | x:money 7:total 5:total -:total /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 14 | 10 |  | ((x*7)+5)=5.0 | x 7 * 5 + 5.0 = | x:money 7:total *:money 5:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 14 | 10 |  | ((x/7)+5)=5.0 | x 7 / 5 + 5.0 = | x:money 7:total /:money 5:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 40 | 5=((x-5.0)/7) | 5 x 5.0 - 7 / = | 5:money x:money 5.0:money -:money 7:total /:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 30 | 5=((x+5.0)/7) | 5 x 5.0 + 7 / = | 5:money x:money 5.0:money +:money 7:total /:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 32 | 7=(x-(5*5.0)) | 7 x 5 5.0 * - = | 7:money x:money 5:figure 5.0:money *:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 10 | 10 | 7=((x/5)+5.0) | 7 x 5 / 5.0 + = | 7:money x:money 5:figure /:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 60 | 7=((x/5)-5.0) | 7 x 5 / 5.0 - = | 7:money x:money 5:figure /:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 32 | ((x-7)/5)=5.0 | x 7 - 5 / 5.0 = | x:money 7:money -:money 5:figure /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 70 | ((x/7)-5)=5.0 | x 7 / 5 - 5.0 = | x:money 7:total /:money 5:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 32 | (x-(5*5.0))=7 | x 5 5.0 * - 7 = | x:money 5:figure 5.0:money *:money -:money 7:money =:money
+EXPR: 0 | POS | INT | 14 | 10 | 0 | 5=(5.0+(7*x)) | 5 5.0 7 x * + = | 5:money 5.0:money 7:total x:money *:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 40 | x=(5.0+(5*7)) | x 5.0 5 7 * + = | x:money 5.0:money 5:money 7:total *:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 0 | ((5.0-5)/7)=x | 5.0 5 - 7 / x = | 5.0:money 5:money -:money 7:total /:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 40 | (5.0+(5*7))=x | 5.0 5 7 * + x = | 5.0:money 5:figure 7:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 60 | (5.0*(5+7))=x | 5.0 5 7 + * x = | 5.0:money 5:figure 7:figure +:figure *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 10 |  | x=(7*(5.0-5)) | x 7 5.0 5 - * = | x:money 7:total 5.0:money 5:money -:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 8 | (7+(5.0/5))=x | 7 5.0 5 / + x = | 7:money 5.0:money 5:figure /:money +:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 0 | ((5.0-5)*7)=x | 5.0 5 - 7 * x = | 5.0:money 5:money -:money 7:total *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 6 | (7-(5.0/5))=x | 7 5.0 5 / - x = | 7:money 5.0:money 5:figure /:money -:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 10 | 40 | x=((7*5.0)+5) | x 7 5.0 * 5 + = | x:money 7:total 5.0:money *:money 5:money +:money =:money
+EXPR: 1 | POS | INT | 17 | 10 | 10 | x=(5.0*(7-5)) | x 5.0 7 5 - * = | x:money 5.0:money 7:total 5:total -:total *:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 30 | ((5.0+x)/5)=7 | 5.0 x + 5 / 7 = | 5.0:money x:money +:money 5:figure /:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 6 | (x+(5.0/5))=7 | x 5.0 5 / + 7 = | x:money 5.0:money 5:figure /:money +:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 30 | ((x+5.0)/5)=7 | x 5.0 + 5 / 7 = | x:money 5.0:money +:money 5:figure /:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 40 | ((x-5.0)/5)=7 | x 5.0 - 5 / 7 = | x:money 5.0:money -:money 5:figure /:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 6 | ((5.0/5)+x)=7 | 5.0 5 / x + 7 = | 5.0:money 5:figure /:money x:money +:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 40 | 5.0=(x-(5*7)) | 5.0 x 5 7 * - = | 5.0:money x:money 5:figure 7:money *:money -:money =:money
+EXPR: 1 | POS | INT | 17 | 10 | 10 | (5.0*(7-5))=x | 5.0 7 5 - * x = | 5.0:money 7:total 5:total -:total *:money x:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 8 | (x-(5.0/5))=7 | x 5.0 5 / - 7 = | x:money 5.0:money 5:figure /:money -:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 0 | 5.0=(5-(x*7)) | 5.0 5 x 7 * - = | 5.0:money 5:money x:money 7:total *:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 0 | 5.0=(5+(x*7)) | 5.0 5 x 7 * + = | 5.0:money 5:money x:money 7:total *:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 0 | 5.0=(5+(x/7)) | 5.0 5 x 7 / + = | 5.0:money 5:money x:money 7:total /:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 40 | 5.0=((x-5)/7) | 5.0 x 5 - 7 / = | 5.0:money x:money 5:money -:money 7:total /:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 30 | 5.0=((x+5)/7) | 5.0 x 5 + 7 / = | 5.0:money x:money 5:money +:money 7:total /:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 40 | 7=((x-5.0)/5) | 7 x 5.0 - 5 / = | 7:money x:money 5.0:money -:money 5:figure /:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 30 | 7=((x+5.0)/5) | 7 x 5.0 + 5 / = | 7:money x:money 5.0:money +:money 5:figure /:money =:money
+EXPR: 1 | POS | INT | 17 | 10 | 10 | (5.0+(x/5))=7 | 5.0 x 5 / + 7 = | 5.0:money x:money 5:figure /:money +:money 7:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 6 | 7=(x+(5.0/5)) | 7 x 5.0 5 / + = | 7:money x:money 5.0:money 5:figure /:money +:money =:money
+EXPR: 1 | POS | INT | 17 | 10 | 10 | 7=(5.0+(x/5)) | 7 5.0 x 5 / + = | 7:money 5.0:money x:money 5:figure /:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 10 | 0 | 5.0=(5-(x/7)) | 5.0 5 x 7 / - = | 5.0:money 5:money x:money 7:total /:money -:money =:money
+EXPR: 0 | POS | INT | 19 | 10 |  | (5.0-(x*7))=5 | 5.0 x 7 * - 5 = | 5.0:money x:money 7:total *:money -:money 5:money =:money
+EXPR: 1 | POS | INT | 19 | 10 | 10 | 5.0=(x/(7-5)) | 5.0 x 7 5 - / = | 5.0:money x:money 7:total 5:total -:total /:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 8 | 5.0=((x-7)*5) | 5.0 x 7 - 5 * = | 5.0:money x:money 7:money -:money 5:figure *:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 32 | 5.0=((x-7)/5) | 5.0 x 7 - 5 / = | 5.0:money x:money 7:money -:money 5:figure /:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 18 | 5.0=((x+7)/5) | 5.0 x 7 + 5 / = | 5.0:money x:money 7:money +:money 5:figure /:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 40 | ((x-5.0)/7)=5 | x 5.0 - 7 / 5 = | x:money 5.0:money -:money 7:total /:money 5:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 30 | ((x+5.0)/7)=5 | x 5.0 + 7 / 5 = | x:money 5.0:money +:money 7:total /:money 5:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 30 | ((5.0+x)/7)=5 | 5.0 x + 7 / 5 = | 5.0:money x:money +:money 7:total /:money 5:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 0 | 5.0=((x*7)+5) | 5.0 x 7 * 5 + = | 5.0:money x:money 7:total *:money 5:money +:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 0 | 5.0=((x/7)+5) | 5.0 x 7 / 5 + = | 5.0:money x:money 7:total /:money 5:money +:money =:money
+EXPR: 0 | POS | INT | 19 | 10 | 70 | 5.0=((x/7)-5) | 5.0 x 7 / 5 - = | 5.0:money x:money 7:total /:money 5:money -:money =:money
+EXPR: 0 | POS | INT | 19 | 10 |  | (5.0+(x/7))=5 | 5.0 x 7 / + 5 = | 5.0:money x:money 7:total /:money +:money 5:money =:money
+EXPR: 0 | POS | INT | 19 | 10 |  | (5.0-(x/7))=5 | 5.0 x 7 / - 5 = | 5.0:money x:money 7:total /:money -:money 5:money =:money
+EXPR: 0 | POS | INT | 20 | 10 | 7 | x=(5+(7-5.0)) | x 5 7 5.0 - + = | x:money 5:money 7:money 5.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 10 | 17 | x=(5+(7+5.0)) | x 5 7 5.0 + + = | x:money 5:money 7:money 5.0:money +:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 10 | 17 | (5+(7+5.0))=x | 5 7 5.0 + + x = | 5:money 7:money 5.0:money +:money +:money x:money =:money
+EXPR: 0 | POS | INT | 20 | 10 | 7 | ((5+7)-5.0)=x | 5 7 + 5.0 - x = | 5:money 7:money +:money 5.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 0 | 5=((x*7)+5.0) | 5 x 7 * 5.0 + = | 5:figure x:money 7:figure *:figure 5.0:figure +:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 70 | 5=((x/7)-5.0) | 5 x 7 / 5.0 - = | 5:figure x:figure 7:total /:figure 5.0:figure -:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 7 | ((5+x)-7)=5.0 | 5 x + 7 - 5.0 = | 5:money x:money +:money 7:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 18 | x=((5*5.0)-7) | x 5 5.0 * 7 - = | x:total 5:figure 5.0:total *:total 7:total -:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 3 | ((5+5.0)-7)=x | 5 5.0 + 7 - x = | 5:money 5.0:money +:money 7:money -:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 8 | ((5/5.0)+7)=x | 5 5.0 / 7 + x = | 5:total 5.0:money /:total 7:total +:total x:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 8 | 5=((x-7)*5.0) | 5 x 7 - 5.0 * = | 5:money x:total 7:total -:total 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 175 | (5*7)=(x/5.0) | 5 7 * x 5.0 / = | 5:figure 7:total *:figure x:figure 5.0:money /:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | - | (5-(7/x))=5.0 | 5 7 x / - 5.0 = | 5:figure 7:figure x:money /:figure -:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | - | (5+(7/x))=5.0 | 5 7 x / + 5.0 = | 5:figure 7:figure x:money /:figure +:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 32 | (7+(5*5.0))=x | 7 5 5.0 * + x = | 7:money 5:total 5.0:money *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 8 | (5*(x-7))=5.0 | 5 x 7 - * 5.0 = | 5:money x:total 7:total -:total *:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | x=((7-5)+5.0) | x 7 5 - 5.0 + = | x:money 7:money 5:money -:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (5+(5.0-7))=x | 5 5.0 7 - + x = | 5:money 5.0:money 7:money -:money +:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 70 | x=((5+5.0)*7) | x 5 5.0 + 7 * = | x:money 5:figure 5.0:figure +:figure 7:money *:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | ((5-x)+7)=5.0 | 5 x - 7 + 5.0 = | 5:money x:money -:money 7:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | ((5-5.0)+7)=x | 5 5.0 - 7 + x = | 5:money 5.0:money -:money 7:money +:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 5=(x-(7-5.0)) | 5 x 7 5.0 - - = | 5:money x:money 7:money 5.0:money -:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 17 | 5=(x-(7+5.0)) | 5 x 7 5.0 + - = | 5:money x:money 7:money 5.0:money +:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 5=((x-7)+5.0) | 5 x 7 - 5.0 + = | 5:money x:money 7:money -:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 5=((x+7)-5.0) | 5 x 7 + 5.0 - = | 5:money x:money 7:money +:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 3 | x=(5+(5.0-7)) | x 5 5.0 7 - + = | x:money 5:money 5.0:money 7:money -:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | - | 5=((7/x)+5.0) | 5 7 x / 5.0 + = | 5:total 7:total x:money /:total 5.0:total +:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 17 | 5=((x-7)-5.0) | 5 x 7 - 5.0 - = | 5:money x:money 7:money -:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 18 | ((5*5.0)-7)=x | 5 5.0 * 7 - x = | 5:total 5.0:money *:total 7:total -:total x:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 17 | ((5+5.0)+7)=x | 5 5.0 + 7 + x = | 5:money 5.0:money +:money 7:money +:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | x=(5-(5.0-7)) | x 5 5.0 7 - - = | x:money 5:money 5.0:money 7:money -:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 5=(7+(x-5.0)) | 5 7 x 5.0 - + = | 5:money 7:money x:money 5.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 30 | ((x+5)/7)=5.0 | x 5 + 7 / 5.0 = | x:figure 5:figure +:figure 7:total /:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 40 | ((x-5)/7)=5.0 | x 5 - 7 / 5.0 = | x:figure 5:figure -:figure 7:total /:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 8 | (5/(x-7))=5.0 | 5 x 7 - / 5.0 = | 5:figure x:money 7:money -:money /:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 8 | (7+(5/5.0))=x | 7 5 5.0 / + x = | 7:figure 5:figure 5.0:money /:figure +:figure x:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 |  | (5-(x*7))=5.0 | 5 x 7 * - 5.0 = | 5:total x:money 7:total *:total -:total 5.0:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 0 | 5=((x/7)+5.0) | 5 x 7 / 5.0 + = | 5:figure x:figure 7:total /:figure 5.0:figure +:figure =:figure
+EXPR: 0 | POS | INT | 22 | 10 | 7 | ((x+5)-7)=5.0 | x 5 + 7 - 5.0 = | x:money 5:money +:money 7:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | (x+(5-7))=5.0 | x 5 7 - + 5.0 = | x:money 5:money 7:money -:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 3 | ((x-5)+7)=5.0 | x 5 - 7 + 5.0 = | x:money 5:money -:money 7:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 6 | 5=((7-x)*5.0) | 5 7 x - 5.0 * = | 5:total 7:total x:total -:total 5.0:money *:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 32 | 5=((x-7)/5.0) | 5 x 7 - 5.0 / = | 5:total x:total 7:total -:total 5.0:money /:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 18 | 5=((x+7)/5.0) | 5 x 7 + 5.0 / = | 5:total x:total 7:total +:total 5.0:money /:total =:total
+EXPR: 0 | POS | INT | 22 | 10 | 7 | ((7-5)+5.0)=x | 7 5 - 5.0 + x = | 7:money 5:money -:money 5.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 5=(7-(x-5.0)) | 5 7 x 5.0 - - = | 5:money 7:money x:money 5.0:money -:money -:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | - | ((5-5.0)/x)=7 | 5 5.0 - x / 7 = | 5:figure 5.0:figure -:figure x:money /:figure 7:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 8 | (x-(5/5.0))=7 | x 5 5.0 / - 7 = | x:total 5:total 5.0:money /:total -:total 7:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | - | 7=(x*(5-5.0)) | 7 x 5 5.0 - * = | 7:figure x:money 5:figure 5.0:figure -:figure *:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 18 | 7=((5*5.0)-x) | 7 5 5.0 * x - = | 7:total 5:figure 5.0:total *:total x:total -:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 175 | (x/7)=(5*5.0) | x 7 / 5 5.0 * = | x:money 7:figure /:money 5:figure 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | - | 7=((5-5.0)*x) | 7 5 5.0 - x * = | 7:figure 5:figure 5.0:figure -:figure x:money *:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | - | 7=((5-5.0)/x) | 7 5 5.0 - x / = | 7:figure 5:figure 5.0:figure -:figure x:money /:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 70 | 7=(x/(5+5.0)) | 7 x 5 5.0 + / = | 7:money x:money 5:figure 5.0:figure +:figure /:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 7 | (7-(x-5))=5.0 | 7 x 5 - - 5.0 = | 7:money x:money 5:money -:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 3 | (7+(x-5))=5.0 | 7 x 5 - + 5.0 = | 7:money x:money 5:money -:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 5=(5.0+(x-7)) | 5 5.0 x 7 - + = | 5:money 5.0:money x:money 7:money -:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 7 | ((5+x)-5.0)=7 | 5 x + 5.0 - 7 = | 5:money x:money +:money 5.0:money -:money 7:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 7=((x+5)-5.0) | 7 x 5 + 5.0 - = | 7:money x:money 5:money +:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 7=((x-5)+5.0) | 7 x 5 - 5.0 + = | 7:money x:money 5:money -:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 8 | ((x-7)*5)=5.0 | x 7 - 5 * 5.0 = | x:total 7:total -:total 5:figure *:total 5.0:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 5=((x+5.0)-7) | 5 x 5.0 + 7 - = | 5:money x:money 5.0:money +:money 7:money -:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 70 | (x/(5+5.0))=7 | x 5 5.0 + / 7 = | x:total 5:figure 5.0:figure +:figure /:total 7:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 30 | ((5+x)/5.0)=7 | 5 x + 5.0 / 7 = | 5:total x:total +:total 5.0:money /:total 7:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 17 | 5=((x-5.0)-7) | 5 x 5.0 - 7 - = | 5:money x:money 5.0:money -:money 7:money -:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 8 | 5=(5.0*(x-7)) | 5 5.0 x 7 - * = | 5:money 5.0:money x:total 7:total -:total *:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 0 | 5=(5.0-(x*7)) | 5 5.0 x 7 * - = | 5:total 5.0:total x:money 7:total *:total -:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 5=(5.0-(x-7)) | 5 5.0 x 7 - - = | 5:money 5.0:money x:money 7:money -:money -:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | - | (x*(5-5.0))=7 | x 5 5.0 - * 7 = | x:money 5:figure 5.0:figure -:figure *:money 7:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 8 | 5=(5.0/(x-7)) | 5 5.0 x 7 - / = | 5:money 5.0:money x:total 7:total -:total /:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | - | ((5-5.0)*x)=7 | 5 5.0 - x * 7 = | 5:figure 5.0:figure -:figure x:money *:money 7:money =:money
+EXPR: 1 | POS | INT | 24 | 10 | 10 | (7-(x/5))=5.0 | 7 x 5 / - 5.0 = | 7:total x:total 5:figure /:total -:total 5.0:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 7 | ((7-x)+5)=5.0 | 7 x - 5 + 5.0 = | 7:money x:money -:money 5:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 6 | 5=(5.0/(7-x)) | 5 5.0 7 x - / = | 5:figure 5.0:figure 7:money x:money -:money /:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 5=((x-5.0)+7) | 5 x 5.0 - 7 + = | 5:money x:money 5.0:money -:money 7:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 6 | ((5/5.0)+x)=7 | 5 5.0 / x + 7 = | 5:total 5.0:money /:total x:total +:total 7:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 70 | (x/7)=(5+5.0) | x 7 / 5 5.0 + = | x:money 7:total /:money 5:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 7=(5-(x-5.0)) | 7 5 x 5.0 - - = | 7:money 5:money x:money 5.0:money -:money -:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 7=(5+(x-5.0)) | 7 5 x 5.0 - + = | 7:money 5:money x:money 5.0:money -:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 7=(5+(5.0-x)) | 7 5 5.0 x - + = | 7:money 5:money 5.0:money x:money -:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 10 |  | ((7*x)+5)=5.0 | 7 x * 5 + 5.0 = | 7:figure x:money *:figure 5:figure +:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 0 | 5=(5.0+(x*7)) | 5 5.0 x 7 * + = | 5:figure 5.0:figure x:figure 7:total *:figure +:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 0 | 5=(5.0+(x/7)) | 5 5.0 x 7 / + = | 5:figure 5.0:figure x:figure 7:total /:figure +:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | - | ((7/x)+5)=5.0 | 7 x / 5 + 5.0 = | 7:figure x:money /:figure 5:figure +:figure 5.0:figure =:figure
+EXPR: 0 | POS | INT | 24 | 10 | 7 | (x+(5-5.0))=7 | x 5 5.0 - + 7 = | x:money 5:money 5.0:money -:money +:money 7:money =:money
+EXPR: 0 | POS | INT | 24 | 10 | 18 | ((x+7)/5)=5.0 | x 7 + 5 / 5.0 = | x:money 7:money +:money 5:total /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 30 | ((7*5.0)-5)=x | 7 5.0 * 5 - x = | 7:total 5.0:money *:total 5:total -:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 10 | 0 | (7*(5.0-5))=x | 7 5.0 5 - * x = | 7:figure 5.0:money 5:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 7 | x=((5.0-5)+7) | x 5.0 5 - 7 + = | x:money 5.0:money 5:money -:money 7:money +:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 60 | x=((7+5.0)*5) | x 7 5.0 + 5 * = | x:figure 7:total 5.0:total +:total 5:figure *:figure =:figure
+EXPR: 0 | POS | INT | 25 | 10 | 60 | ((7+5.0)*5)=x | 7 5.0 + 5 * x = | 7:total 5.0:total +:total 5:figure *:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 10 | 60 | x=(5.0*(5+7)) | x 5.0 5 7 + * = | x:total 5.0:money 5:total 7:total +:total *:total =:total
+EXPR: 0 | POS | INT | 25 | 10 | 8 | x=((5.0/5)+7) | x 5.0 5 / 7 + = | x:total 5.0:total 5:figure /:total 7:total +:total =:total
+EXPR: 1 | POS | INT | 25 | 10 | 10 | x=((7-5.0)*5) | x 7 5.0 - 5 * = | x:figure 7:total 5.0:total -:total 5:figure *:figure =:figure
+EXPR: 0 | POS | INT | 25 | 10 | 6 | x=(7-(5.0/5)) | x 7 5.0 5 / - = | x:money 7:money 5.0:money 5:total /:money -:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 8 | x=(7+(5.0/5)) | x 7 5.0 5 / + = | x:money 7:money 5.0:money 5:total /:money +:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 30 | x=((7*5.0)-5) | x 7 5.0 * 5 - = | x:figure 7:total 5.0:figure *:figure 5:figure -:figure =:figure
+EXPR: 0 | POS | INT | 25 | 10 | 7 | (7-(5.0-5))=x | 7 5.0 5 - - x = | 7:money 5.0:money 5:money -:money -:money x:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 7 | (7+(5.0-5))=x | 7 5.0 5 - + x = | 7:money 5.0:money 5:money -:money +:money x:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | zoo | x=(7/(5.0-5)) | x 7 5.0 5 - / = | x:money 7:money 5.0:figure 5:figure -:figure /:money =:money
+EXPR: 0 | POS | INT | 25 | 10 |  | x=((5.0-5)*7) | x 5.0 5 - 7 * = | x:figure 5.0:figure 5:figure -:figure 7:total *:figure =:figure
+EXPR: 0 | POS | INT | 25 | 10 |  | x=((5.0-5)/7) | x 5.0 5 - 7 / = | x:figure 5.0:figure 5:figure -:figure 7:total /:figure =:figure
+EXPR: 0 | POS | INT | 25 | 10 | 17 | ((7+5.0)+5)=x | 7 5.0 + 5 + x = | 7:money 5.0:money +:money 5:money +:money x:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 7 | ((5.0-5)+7)=x | 5.0 5 - 7 + x = | 5.0:money 5:money -:money 7:money +:money x:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 8 | ((5.0/5)+7)=x | 5.0 5 / 7 + x = | 5.0:total 5:figure /:total 7:total +:total x:total =:total
+EXPR: 1 | POS | INT | 25 | 10 | 10 | ((7-5.0)*5)=x | 7 5.0 - 5 * x = | 7:total 5.0:total -:total 5:money *:money x:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 7 | x=(7-(5.0-5)) | x 7 5.0 5 - - = | x:money 7:money 5.0:money 5:money -:money -:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 7 | x=(7+(5.0-5)) | x 7 5.0 5 - + = | x:money 7:money 5.0:money 5:money -:money +:money =:money
+EXPR: 0 | POS | INT | 25 | 10 | 7 | ((7-5.0)+5)=x | 7 5.0 - 5 + x = | 7:money 5.0:money -:money 5:money +:money x:money =:money
+EXPR: 0 | POS | INT | 27 | 10 | - | 7=(x*(5.0-5)) | 7 x 5.0 5 - * = | 7:figure x:money 5.0:figure 5:figure -:figure *:figure =:figure
+NET 202 unique, non-negative, integer-valued solutions found out of 1000 total solutions

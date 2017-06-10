@@ -1,0 +1,5 @@
+quantities : 6.0 5 5 x
+types : "money" "hour" "hour" "money"
+operators : + - * / =
+n : 7
+answer : 60.0

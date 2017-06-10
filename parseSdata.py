@@ -24,19 +24,20 @@ def cleannum(n):
 
 def make_eq(q,a,VERBOSE,TRAIN):
     bigtexamples = {x:([],[]) for x in ["+","*",'/','-','=']}
-    wps = q
-
-
     
-
-
+    wps = q #q is the questions
+    
+    
     for k in range(len(wps)):
         if VERBOSE:
             for i in range(len(wps)):
                 print(i,wps[i])
             k = int(input())
+        
         print(k)
         problem = wps[k]
+        #print problem
+        
         #First preprocessing, tokenize slightly
         problem = problem.strip().split(" ")
         for i,x in enumerate(problem):
@@ -48,6 +49,12 @@ def make_eq(q,a,VERBOSE,TRAIN):
         print(problem)
 
         story = nlp.parse(problem)
+        #print story['sentences']
+        '''
+        Gets the That returns a dictionary containing the keys sentences and coref. The key sentences contains a list of dictionaries for each sentence, which
+        contain parsetree, text, tuples containing the dependencies, and words, containing information about parts of speech, recognized named-entities, etc:
+        '''
+        #print story
         pickle.dump(story,open("s_data/"+str(k)+".pickle",'wb'))
         continue
 
@@ -71,10 +78,18 @@ def parse_inp(inp):
 
 
 if __name__=="__main__":
+    
     #q, a = sys.argv[1:3]
-    inp = sys.argv[1]
+    
+    inp = sys.argv[1] # Takes the problemSet name
+    
     #q,a,e = parse_inp(inp)
-    q,a = parse_json(inp)
+    
+    q,a = parse_json(inp) #A method imported from ILPformat.py and makes question -> q and solution -> a
+    
+    #print q
+    #print a
+    
     VERBOSE=False
     TRAIN=False
     '''

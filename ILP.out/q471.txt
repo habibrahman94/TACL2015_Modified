@@ -1,0 +1,5 @@
+quantities : 11 9 6 x
+types : "member" "point" "member" "point"
+operators : + - * / =
+n : 7
+answer : 45.0

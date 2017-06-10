@@ -1,0 +1,5 @@
+quantities : 9 x 6 6
+types : "window" "LENGTH" "window" "hour"
+operators : + - * / =
+n : 7
+answer : 18.0

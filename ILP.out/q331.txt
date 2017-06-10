@@ -1,0 +1,5 @@
+quantities : 28 4 4 x
+types : "boy" "girl" "girl" "group"
+operators : + - * / =
+n : 7
+answer : 8.0

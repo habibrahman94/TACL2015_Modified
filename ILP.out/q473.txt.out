@@ -1,0 +1,160 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 10 | 20 | ((3*5)+5)=x | 3 5 * 5 + x = | 3:brownie 5:cup *:cup 5:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 30 | x=(3*(5+5)) | x 3 5 5 + * = | x:cup 3:brownie 5:cup 5:cup +:cup *:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 20 | x=((3*5)+5) | x 3 5 * 5 + = | x:cup 3:cup 5:total *:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 28 | x=(3+(5*5)) | x 3 5 5 * + = | x:cup 3:cup 5:total 5:cup *:cup +:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 40 | x=((3+5)*5) | x 3 5 + 5 * = | x:cup 3:brownie 5:brownie +:brownie 5:cup *:cup =:cup
+EXPR: 1 | POS | INT | 10 | 10 | 10 | x=((3*5)-5) | x 3 5 * 5 - = | x:cup 3:cup 5:total *:cup 5:cup -:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 |  | x=(3*(5-5)) | x 3 5 5 - * = | x:cup 3:brownie 5:cup 5:cup -:cup *:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 40 | ((3+5)*5)=x | 3 5 + 5 * x = | 3:total 5:total +:total 5:cup *:cup x:cup =:cup
+EXPR: 1 | POS | INT | 10 | 10 | 10 | ((3*5)-5)=x | 3 5 * 5 - x = | 3:cup 5:total *:cup 5:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 30 | (3*(5+5))=x | 3 5 5 + * x = | 3:brownie 5:cup 5:cup +:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 0 | (3*(5-5))=x | 3 5 5 - * x = | 3:brownie 5:cup 5:cup -:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 10 | 10 | 28 | (3+(5*5))=x | 3 5 5 * + x = | 3:cup 5:total 5:cup *:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 4 | ((x-3)*5)=5 | x 3 - 5 * 5 = | x:cup 3:cup -:cup 5:total *:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (3+(x/5))=5 | 3 x 5 / + 5 = | 3:cup x:cup 5:total /:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 4 | (3+(5/5))=x | 3 5 5 / + x = | 3:cup 5:cup 5:total /:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 2 | (3-(5/5))=x | 3 5 5 / - x = | 3:cup 5:cup 5:total /:cup -:cup x:cup =:cup
+EXPR: 1 | POS | INT | 12 | 10 | 10 | ((3*5)-x)=5 | 3 5 * x - 5 = | 3:cup 5:total *:cup x:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 40 | (5*(3+5))=x | 5 3 5 + * x = | 5:total 3:cup 5:cup +:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 40 | (x/(3+5))=5 | x 3 5 + / 5 = | x:cup 3:brownie 5:brownie +:brownie /:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 12 | 10 | 10 | x=((5-3)*5) | x 5 3 - 5 * = | x:cup 5:brownie 3:brownie -:brownie 5:cup *:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 75 | (x/3)=(5*5) | x 3 / 5 5 * = | x:cup 3:brownie /:cup 5:total 5:cup *:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 22 | ((3+x)/5)=5 | 3 x + 5 / 5 = | 3:cup x:cup +:cup 5:total /:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 28 | 3=(x-(5*5)) | 3 x 5 5 * - = | 3:cup x:cup 5:total 5:cup *:cup -:cup =:cup
+EXPR: 1 | POS | INT | 12 | 10 | 10 | ((5-3)*5)=x | 5 3 - 5 * x = | 5:brownie 3:brownie -:brownie 5:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 | 20 | (x-(3*5))=5 | x 3 5 * - 5 = | x:cup 3:brownie 5:cup *:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 |  | ((x*3)+5)=5 | x 3 * 5 + 5 = | x:cup 3:brownie *:cup 5:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 12 | 10 |  | ((x/3)+5)=5 | x 3 / 5 + 5 = | x:cup 3:brownie /:cup 5:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 |  | (5+(x*3))=5 | 5 x 3 * + 5 = | 5:cup x:cup 3:brownie *:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 |  | (5-(x*3))=5 | 5 x 3 * - 5 = | 5:cup x:cup 3:brownie *:cup -:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 14 | 10 | 10 | (x/(5-3))=5 | x 5 3 - / 5 = | x:cup 5:total 3:total -:total /:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 14 | 10 | 10 | ((x/5)+3)=5 | x 5 / 3 + 5 = | x:cup 5:total /:cup 3:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 | 2 | (5*(3-x))=5 | 5 3 x - * 5 = | 5:total 3:cup x:cup -:cup *:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 | 20 | 3=((x-5)/5) | 3 x 5 - 5 / = | 3:cup x:cup 5:cup -:cup 5:total /:cup =:cup
+EXPR: 1 | POS | INT | 14 | 10 | 10 | 3=((x+5)/5) | 3 x 5 + 5 / = | 3:cup x:cup 5:cup +:cup 5:total /:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 | 0 | 5=((x*3)+5) | 5 x 3 * 5 + = | 5:cup x:cup 3:brownie *:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 | 0 | 5=((x/3)+5) | 5 x 3 / 5 + = | 5:cup x:cup 3:brownie /:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 | 30 | 5=((x/3)-5) | 5 x 3 / 5 - = | 5:cup x:cup 3:brownie /:cup 5:cup -:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 |  | (5+(x/3))=5 | 5 x 3 / + 5 = | 5:cup x:cup 3:brownie /:cup +:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 14 | 10 | 10 | ((5+x)/3)=5 | 5 x + 3 / 5 = | 5:cup x:cup +:cup 3:brownie /:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 |  | ((3*x)+5)=5 | 3 x * 5 + 5 = | 3:brownie x:cup *:cup 5:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 14 | 10 | 40 | ((x/5)-3)=5 | x 5 / 3 - 5 = | x:cup 5:total /:cup 3:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 15 | 10 | 20 | x=(5+(3*5)) | x 5 3 5 * + = | x:cup 5:cup 3:cup 5:total *:cup +:cup =:cup
+EXPR: 0 | POS | INT | 15 | 10 | 20 | (5+(3*5))=x | 5 3 5 * + x = | 5:cup 3:brownie 5:cup *:cup +:cup x:cup =:cup
+EXPR: 1 | POS | INT | 15 | 10 | 10 | x=(5*(5-3)) | x 5 5 3 - * = | x:cup 5:total 5:cup 3:cup -:cup *:cup =:cup
+EXPR: 0 | POS | INT | 15 | 10 | 22 | x=((5*5)-3) | x 5 5 * 3 - = | x:cup 5:total 5:cup *:cup 3:cup -:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 |  | (5-(3*x))=5 | 5 3 x * - 5 = | 5:cup 3:brownie x:cup *:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 | 4 | ((5/5)+3)=x | 5 5 / 3 + x = | 5:cup 5:total /:cup 3:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 |  | (5-(x/3))=5 | 5 x 3 / - 5 = | 5:cup x:cup 3:brownie /:cup -:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 17 | 10 | 10 | ((x+5)/3)=5 | x 5 + 3 / 5 = | x:cup 5:cup +:cup 3:brownie /:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 | 20 | ((x-5)/3)=5 | x 5 - 3 / 5 = | x:cup 5:cup -:cup 3:brownie /:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 | 0 | 5=((3*x)+5) | 5 3 x * 5 + = | 5:cup 3:brownie x:cup *:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 | 0 | 5=(5+(x*3)) | 5 5 x 3 * + = | 5:cup 5:cup x:cup 3:brownie *:cup +:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 | 20 | 5=(x-(3*5)) | 5 x 3 5 * - = | 5:cup x:cup 3:brownie 5:cup *:cup -:cup =:cup
+EXPR: 1 | POS | INT | 17 | 10 | 10 | (5*(5-3))=x | 5 5 3 - * x = | 5:cup 5:total 3:total -:total *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 17 | 10 |  | (5+(3*x))=5 | 5 3 x * + 5 = | 5:cup 3:brownie x:cup *:cup +:cup 5:cup =:cup
+EXPR: 1 | POS | INT | 17 | 10 | 10 | 5=((3*5)-x) | 5 3 5 * x - = | 5:cup 3:brownie 5:cup *:cup x:cup -:cup =:cup
+EXPR: 0 | POS | INT | 19 | 10 | 2 | ((5/5)+x)=3 | 5 5 / x + 3 = | 5:cup 5:total /:cup x:cup +:cup 3:cup =:cup
+EXPR: 1 | POS | INT | 19 | 10 | 10 | 5=(x/(5-3)) | 5 x 5 3 - / = | 5:cup x:cup 5:total 3:total -:total /:cup =:cup
+EXPR: 1 | POS | INT | 19 | 10 | 10 | ((5+x)/5)=3 | 5 x + 5 / 3 = | 5:cup x:cup +:cup 5:total /:cup 3:cup =:cup
+EXPR: 0 | POS | INT | 20 | 10 | 3 | x=(3+(5-5)) | x 3 5 5 - + = | x:cup 3:cup 5:cup 5:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 20 | 10 | 13 | x=(3+(5+5)) | x 3 5 5 + + = | x:cup 3:cup 5:cup 5:cup +:cup +:cup =:cup
+EXPR: 0 | POS | INT | 20 | 10 | 3 | ((3+5)-5)=x | 3 5 + 5 - x = | 3:cup 5:cup +:cup 5:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 7 | ((3+x)-5)=5 | 3 x + 5 - 5 = | 3:cup x:cup +:cup 5:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 75 | (3*5)=(x/5) | 3 5 * x 5 / = | 3:brownie 5:total *:brownie x:brownie 5:cup /:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 10 | 7 | x=((5-3)+5) | x 5 3 - 5 + = | x:cup 5:cup 3:cup -:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (3+(5-5))=x | 3 5 5 - + x = | 3:cup 5:cup 5:cup -:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | - | 3=(x*(5-5)) | 3 x 5 5 - * = | 3:brownie x:cup 5:brownie 5:brownie -:brownie *:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 10 | zoo | x=(3/(5-5)) | x 3 5 5 - / = | x:cup 3:cup 5:total 5:total -:total /:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | ((3-x)+5)=5 | 3 x - 5 + 5 = | 3:cup x:cup -:cup 5:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | ((3-5)+5)=x | 3 5 - 5 + x = | 3:cup 5:cup -:cup 5:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 3=(x-(5-5)) | 3 x 5 5 - - = | 3:cup x:cup 5:cup 5:cup -:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 13 | 3=(x-(5+5)) | 3 x 5 5 + - = | 3:cup x:cup 5:cup 5:cup +:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 2 | x=(3-(5/5)) | x 3 5 5 / - = | x:cup 3:cup 5:cup 5:brownie /:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 4 | x=(3+(5/5)) | x 3 5 5 / + = | x:cup 3:cup 5:cup 5:brownie /:cup +:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 3=((x-5)+5) | 3 x 5 - 5 + = | 3:cup x:cup 5:cup -:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 3=((x+5)-5) | 3 x 5 + 5 - = | 3:cup x:cup 5:cup +:cup 5:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 13 | 3=((x-5)-5) | 3 x 5 - 5 - = | 3:cup x:cup 5:cup -:cup 5:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 2 | ((3-x)*5)=5 | 3 x - 5 * 5 = | 3:brownie x:brownie -:brownie 5:cup *:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 3=(x+(5-5)) | 3 x 5 5 - + = | 3:cup x:cup 5:cup 5:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 22 | ((x+3)/5)=5 | x 3 + 5 / 5 = | x:cup 3:cup +:cup 5:brownie /:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | 28 | ((x-3)/5)=5 | x 3 - 5 / 5 = | x:brownie 3:brownie -:brownie 5:total /:brownie 5:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 3=(5+(x-5)) | 3 5 x 5 - + = | 3:cup 5:cup x:cup 5:cup -:cup +:cup =:cup
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 3=(5-(x/5)) | 3 5 x 5 / - = | 3:brownie 5:brownie x:brownie 5:cup /:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 3=(5-(x-5)) | 3 5 x 5 - - = | 3:cup 5:cup x:cup 5:cup -:cup -:cup =:cup
+EXPR: 0 | POS | INT | 22 | 10 | - | 3=((5-5)*x) | 3 5 5 - x * = | 3:cup 5:total 5:total -:total x:cup *:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 75 | (x/5)=(3*5) | x 5 / 3 5 * = | x:cup 5:brownie /:cup 3:brownie 5:cup *:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 40 | 5=(x/(3+5)) | 5 x 3 5 + / = | 5:cup x:cup 3:brownie 5:brownie +:brownie /:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 3 | (5-(x-3))=5 | 5 x 3 - - 5 = | 5:cup x:cup 3:cup -:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 3 | (5+(x-3))=5 | 5 x 3 - + 5 = | 5:cup x:cup 3:cup -:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 5=((x+3)-5) | 5 x 3 + 5 - = | 5:cup x:cup 3:cup +:cup 5:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 2 | (5/(3-x))=5 | 5 3 x - / 5 = | 5:total 3:cup x:cup -:cup /:total 5:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 5=((x-3)+5) | 5 x 3 - 5 + = | 5:cup x:cup 3:cup -:cup 5:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 4 | (5*(x-3))=5 | 5 x 3 - * 5 = | 5:total x:cup 3:cup -:cup *:total 5:total =:total
+EXPR: 0 | POS | INT | 24 | 10 | 3 | (x+(5-3))=5 | x 5 3 - + 5 = | x:cup 5:cup 3:cup -:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 3=((5-5)+x) | 3 5 5 - x + = | 3:cup 5:cup 5:cup -:cup x:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 5=((3+x)-5) | 5 3 x + 5 - = | 5:cup 3:cup x:cup +:cup 5:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 5=((3+5)-x) | 5 3 5 + x - = | 5:cup 3:cup 5:cup +:cup x:cup -:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 3 | 5=(3+(5-x)) | 5 3 5 x - + = | 5:cup 3:cup 5:cup x:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 3 | (x*5)=(3*5) | x 5 * 3 5 * = | x:cup 5:brownie *:cup 3:brownie 5:cup *:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 7 | (x-(5-3))=5 | x 5 3 - - 5 = | x:cup 5:cup 3:cup -:cup -:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 4 | 3=(x-(5/5)) | 3 x 5 5 / - = | 3:brownie x:brownie 5:brownie 5:total /:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 24 | 10 | 3 | ((5-3)+x)=5 | 5 3 - x + 5 = | 5:cup 3:cup -:cup x:cup +:cup 5:cup =:cup
+EXPR: 0 | POS | INT | 24 | 10 | 7 | 5=(3-(5-x)) | 5 3 5 x - - = | 5:cup 3:cup 5:cup x:cup -:cup -:cup =:cup
+EXPR: 0 | POS | INT | 25 | 10 | 28 | x=((5*5)+3) | x 5 5 * 3 + = | x:brownie 5:brownie 5:cup *:brownie 3:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 25 | 10 | 4 | x=((5/5)+3) | x 5 5 / 3 + = | x:brownie 5:brownie 5:cup /:brownie 3:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 25 | 10 | 22 | ((5*5)-3)=x | 5 5 * 3 - x = | 5:total 5:cup *:total 3:total -:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 10 | 30 | x=((5+5)*3) | x 5 5 + 3 * = | x:brownie 5:total 5:total +:total 3:brownie *:brownie =:brownie
+EXPR: 0 | POS | INT | 25 | 10 | 30 | ((5+5)*3)=x | 5 5 + 3 * x = | 5:total 5:total +:total 3:brownie *:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 10 | 40 | x=(5*(3+5)) | x 5 3 5 + * = | x:total 5:cup 3:total 5:total +:total *:total =:total
+EXPR: 0 | POS | INT | 25 | 10 |  | x=((5-5)*3) | x 5 5 - 3 * = | x:brownie 5:total 5:total -:total 3:brownie *:brownie =:brownie
+EXPR: 0 | POS | INT | 25 | 10 | 3 | (5-(5-3))=x | 5 5 3 - - x = | 5:cup 5:cup 3:cup -:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 25 | 10 | 28 | ((5*5)+3)=x | 5 5 * 3 + x = | 5:total 5:cup *:total 3:total +:total x:total =:total
+EXPR: 0 | POS | INT | 25 | 10 | 7 | ((5+5)-3)=x | 5 5 + 3 - x = | 5:cup 5:cup +:cup 3:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 25 | 10 | 0 | ((5-5)/3)=x | 5 5 - 3 / x = | 5:cup 5:cup -:cup 3:total /:cup x:cup =:cup
+EXPR: 0 | POS | INT | 25 | 10 | 0 | ((5-5)*3)=x | 5 5 - 3 * x = | 5:total 5:total -:total 3:cup *:cup x:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 4 | 5=(5*(x-3)) | 5 5 x 3 - * = | 5:brownie 5:cup x:brownie 3:brownie -:brownie *:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | - | (5+(3/x))=5 | 5 3 x / + 5 = | 5:brownie 3:brownie x:cup /:brownie +:brownie 5:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | 4 | 5=(5/(x-3)) | 5 5 x 3 - / = | 5:total 5:total x:cup 3:cup -:cup /:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | 2 | 5=(5*(3-x)) | 5 5 3 x - * = | 5:total 5:cup 3:total x:total -:total *:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | 40 | 5=((x/5)-3) | 5 x 5 / 3 - = | 5:brownie x:brownie 5:cup /:brownie 3:brownie -:brownie =:brownie
+EXPR: 1 | POS | INT | 27 | 10 | 10 | 5=((x/5)+3) | 5 x 5 / 3 + = | 5:brownie x:brownie 5:cup /:brownie 3:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | 2 | 5=(5/(3-x)) | 5 5 3 x - / = | 5:cup 5:cup 3:brownie x:brownie -:brownie /:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | - | (x/(5-5))=3 | x 5 5 - / 3 = | x:brownie 5:total 5:total -:total /:brownie 3:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | 3 | 5=(5+(x-3)) | 5 5 x 3 - + = | 5:cup 5:cup x:cup 3:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 3 | 5=(x+(5-3)) | 5 x 5 3 - + = | 5:cup x:cup 5:cup 3:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 7 | 5=(x-(5-3)) | 5 x 5 3 - - = | 5:cup x:cup 5:cup 3:cup -:cup -:cup =:cup
+EXPR: 1 | POS | INT | 27 | 10 | 10 | (x+5)=(3*5) | x 5 + 3 5 * = | x:cup 5:cup +:cup 3:cup 5:total *:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 13 | 5=(x-(3+5)) | 5 x 3 5 + - = | 5:cup x:cup 3:cup 5:cup +:cup -:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 7 | 5=((x-5)+3) | 5 x 5 - 3 + = | 5:cup x:cup 5:cup -:cup 3:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 20 | (x-5)=(3*5) | x 5 - 3 5 * = | x:cup 5:cup -:cup 3:cup 5:total *:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 3 | ((5-5)+3)=x | 5 5 - 3 + x = | 5:cup 5:cup -:cup 3:cup +:cup x:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 28 | (x-(5*5))=3 | x 5 5 * - 3 = | x:brownie 5:total 5:brownie *:brownie -:brownie 3:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | 0 | 5=(5-(x*3)) | 5 5 x 3 * - = | 5:cup 5:cup x:cup 3:total *:cup -:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 0 | 5=(5-(x/3)) | 5 5 x 3 / - = | 5:cup 5:cup x:cup 3:total /:cup -:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | - | (5-(3/x))=5 | 5 3 x / - 5 = | 5:total 3:total x:cup /:total -:total 5:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | 4 | 5=((x-3)*5) | 5 x 3 - 5 * = | 5:brownie x:brownie 3:brownie -:brownie 5:total *:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | - | ((5-5)/x)=3 | 5 5 - x / 3 = | 5:total 5:total -:total x:cup /:total 3:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | 0 | 5=(5-(3*x)) | 5 5 3 x * - = | 5:total 5:total 3:total x:cup *:total -:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | - | 5=(5-(3/x)) | 5 5 3 x / - = | 5:total 5:total 3:total x:cup /:total -:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | - | 5=(5+(3/x)) | 5 5 3 x / + = | 5:total 5:total 3:total x:cup /:total +:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | 3 | 5=((5-3)+x) | 5 5 3 - x + = | 5:cup 5:cup 3:cup -:cup x:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 3 | (5*x)=(3*5) | 5 x * 3 5 * = | 5:cup x:brownie *:brownie 3:brownie 5:total *:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | 7 | 5=(x+(3-5)) | 5 x 3 5 - + = | 5:cup x:cup 3:cup 5:cup -:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 22 | ((5*5)-x)=3 | 5 5 * x - 3 = | 5:total 5:brownie *:brownie x:brownie -:brownie 3:brownie =:brownie
+EXPR: 0 | POS | INT | 27 | 10 | 0 | 5=(5+(x/3)) | 5 5 x 3 / + = | 5:cup 5:cup x:cup 3:total /:cup +:cup =:cup
+EXPR: 0 | POS | INT | 27 | 10 | 4 | (x-(5/5))=3 | x 5 5 / - 3 = | x:total 5:total 5:cup /:total -:total 3:total =:total
+EXPR: 0 | POS | INT | 27 | 10 | 3 | ((5-5)+x)=3 | 5 5 - x + 3 = | 5:cup 5:cup -:cup x:cup +:cup 3:cup =:cup
+EXPR: 0 | POS | INT | 29 | 10 | - | (x*(5-5))=3 | x 5 5 - * 3 = | x:brownie 5:total 5:total -:total *:brownie 3:brownie =:brownie
+EXPR: 0 | POS | INT | 29 | 10 | 20 | 5=((x-5)/3) | 5 x 5 - 3 / = | 5:total x:total 5:total -:total 3:brownie /:total =:total
+EXPR: 0 | POS | INT | 29 | 10 | 13 | 5=((x-5)-3) | 5 x 5 - 3 - = | 5:cup x:cup 5:cup -:cup 3:cup -:cup =:cup
+EXPR: 0 | POS | INT | 29 | 10 | - | ((5-5)*x)=3 | 5 5 - x * 3 = | 5:cup 5:cup -:cup x:brownie *:brownie 3:brownie =:brownie
+EXPR: 0 | POS | INT | 30 | 10 | 3 | x=((3+5)-5) | x 3 5 + 5 - = | x:brownie 3:brownie 5:brownie +:brownie 5:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 30 | 10 | 13 | x=((3+5)+5) | x 3 5 + 5 + = | x:brownie 3:brownie 5:brownie +:brownie 5:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 30 | 10 | 3 | x=((3-5)+5) | x 3 5 - 5 + = | x:total 3:total 5:total -:total 5:total +:total =:total
+EXPR: 0 | POS | INT | 30 | 10 | 3 | (3-(5-5))=x | 3 5 5 - - x = | 3:brownie 5:brownie 5:brownie -:brownie -:brownie x:brownie =:brownie
+EXPR: 1 | POS | INT | 32 | 10 | 10 | 3=((5+x)/5) | 3 5 x + 5 / = | 3:total 5:total x:total +:total 5:brownie /:total =:total
+NET 156 unique, non-negative, integer-valued solutions found out of 1000 total solutions

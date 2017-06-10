@@ -1,0 +1,136 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 50 | 30 | x=((5*5)+5) | x 5 5 * 5 + = | x:question 5:question 5:point *:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 30 | (5+(5*5))=x | 5 5 5 * + x = | 5:question 5:point 5:question *:question +:question x:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 30 | x=(5+(5*5)) | x 5 5 5 * + = | x:question 5:question 5:point 5:question *:question +:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 20 | x=((5*5)-5) | x 5 5 * 5 - = | x:question 5:question 5:point *:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 6 | x=((5/5)+5) | x 5 5 / 5 + = | x:question 5:question 5:point /:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 30 | ((5*5)+5)=x | 5 5 * 5 + x = | 5:question 5:point *:question 5:question +:question x:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 6 | ((5/5)+5)=x | 5 5 / 5 + x = | 5:question 5:point /:question 5:question +:question x:question =:question
+EXPR: 0 | POS | INT | 10 | 50 | 20 | ((5*5)-5)=x | 5 5 * 5 - x = | 5:question 5:point *:question 5:question -:question x:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | - | (5+(5/x))=5 | 5 5 x / + 5 = | 5:question 5:question x:score /:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 |  | (5-(x*5))=5 | 5 x 5 * - 5 = | 5:question x:score 5:question *:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 4 | (5*(5-x))=5 | 5 5 x - * 5 = | 5:question 5:point x:point -:point *:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 6 | (5*(x-5))=5 | 5 x 5 - * 5 = | 5:question x:score 5:score -:score *:question 5:question =:question
+EXPR: 1 | POS | INT | 12 | 50 | 50 | x=(5*(5+5)) | x 5 5 5 + * = | x:score 5:score 5:question 5:question +:question *:score =:score
+EXPR: 0 | POS | INT | 12 | 50 |  | x=((5-5)*5) | x 5 5 - 5 * = | x:score 5:question 5:question -:question 5:score *:score =:score
+EXPR: 1 | POS | INT | 12 | 50 | 50 | x=((5+5)*5) | x 5 5 + 5 * = | x:point 5:question 5:question +:question 5:point *:point =:point
+EXPR: 0 | POS | INT | 12 | 50 |  | x=(5*(5-5)) | x 5 5 5 - * = | x:question 5:point 5:question 5:question -:question *:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 6 | x=(5+(5/5)) | x 5 5 5 / + = | x:question 5:question 5:question 5:point /:question +:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 0 | (5*(5-5))=x | 5 5 5 - * x = | 5:point 5:question 5:question -:question *:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 50 | zoo | (5/(5-5))=x | 5 5 5 - / x = | 5:point 5:question 5:question -:question /:point x:point =:point
+EXPR: 0 | POS | INT | 12 | 50 | 4 | (5-(5/5))=x | 5 5 5 / - x = | 5:question 5:question 5:point /:question -:question x:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 4 | x=(5-(5/5)) | x 5 5 5 / - = | x:question 5:question 5:question 5:point /:question -:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 6 | (5+(5/5))=x | 5 5 5 / + x = | 5:question 5:question 5:point /:question +:question x:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 2 | 5=((x*5)-5) | 5 x 5 * 5 - = | 5:question x:score 5:question *:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 5=((x*5)+5) | 5 x 5 * 5 + = | 5:question x:score 5:question *:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 6 | 5=((x-5)*5) | 5 x 5 - 5 * = | 5:question x:score 5:score -:score 5:question *:question =:question
+EXPR: 0 | POS | INT | 12 | 50 |  | (5-(5*x))=5 | 5 5 x * - 5 = | 5:question 5:question x:score *:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | - | (5-(5/x))=5 | 5 5 x / - 5 = | 5:question 5:question x:score /:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 6 | (5/(x-5))=5 | 5 x 5 - / 5 = | 5:question x:point 5:point -:point /:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 2 | ((x*5)-5)=5 | x 5 * 5 - 5 = | x:score 5:question *:question 5:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 |  | ((x*5)+5)=5 | x 5 * 5 + 5 = | x:score 5:question *:question 5:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 30 | (x-(5*5))=5 | x 5 5 * - 5 = | x:question 5:question 5:point *:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 |  | (5+(x*5))=5 | 5 x 5 * + 5 = | 5:question x:question 5:point *:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 4 | (5/(5-x))=5 | 5 5 x - / 5 = | 5:question 5:score x:score -:score /:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 5 | (x*5)=(5*5) | x 5 * 5 5 * = | x:score 5:question *:question 5:point 5:question *:question =:question
+EXPR: 0 | POS | INT | 12 | 50 |  | x=((5-5)/5) | x 5 5 - 5 / = | x:question 5:question 5:question -:question 5:point /:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | - | (x*(5-5))=5 | x 5 5 - * 5 = | x:score 5:question 5:question -:question *:question 5:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | - | 5=((5-5)/x) | 5 5 5 - x / = | 5:question 5:question 5:question -:question x:score /:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | - | 5=((5-5)*x) | 5 5 5 - x * = | 5:question 5:question 5:question -:question x:score *:question =:question
+EXPR: 1 | POS | INT | 12 | 50 | 50 | 5=((x/5)-5) | 5 x 5 / 5 - = | 5:question x:question 5:point /:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 5=(5-(x*5)) | 5 5 x 5 * - = | 5:question 5:question x:score 5:question *:question -:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 5=(5+(x*5)) | 5 5 x 5 * + = | 5:question 5:question x:score 5:question *:question +:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 5=((x/5)+5) | 5 x 5 / 5 + = | 5:question x:question 5:point /:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 5 | (5*5)=(5*x) | 5 5 * 5 x * = | 5:question 5:point *:question 5:question x:score *:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | 5 | (5/5)=(5/x) | 5 5 / 5 x / = | 5:question 5:point /:question 5:question x:score /:question =:question
+EXPR: 0 | POS | INT | 12 | 50 | zoo | x=(5/(5-5)) | x 5 5 5 - / = | x:score 5:score 5:question 5:question -:question /:score =:score
+EXPR: 0 | POS | INT | 12 | 50 |  | (5+(5*x))=5 | 5 5 x * + 5 = | 5:question 5:question x:score *:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 30 | 5=((x-5)/5) | 5 x 5 - 5 / = | 5:question x:question 5:question -:question 5:point /:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 0 | 5=(5+(5*x)) | 5 5 5 x * + = | 5:question 5:question 5:question x:score *:question +:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | - | ((5-5)*x)=5 | 5 5 - x * 5 = | 5:question 5:question -:question x:point *:point 5:point =:point
+EXPR: 0 | POS | INT | 14 | 50 | 0 | 5=((5*x)+5) | 5 5 x * 5 + = | 5:question 5:question x:score *:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | - | 5=(x*(5-5)) | 5 x 5 5 - * = | 5:question x:score 5:question 5:question -:question *:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | - | 5=((5/x)+5) | 5 5 x / 5 + = | 5:question 5:question x:score /:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 14 | 50 |  | ((5*x)+5)=5 | 5 x * 5 + 5 = | 5:question x:score *:question 5:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | - | ((5/x)+5)=5 | 5 x / 5 + 5 = | 5:question x:score /:question 5:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 4 | ((5-x)*5)=5 | 5 x - 5 * 5 = | 5:point x:point -:point 5:question *:question 5:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 5=((5+5)/x) | 5 5 5 + x / = | 5:question 5:question 5:question +:question x:score /:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 2 | ((5*x)-5)=5 | 5 x * 5 - 5 = | 5:question x:score *:question 5:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | - | (x/(5-5))=5 | x 5 5 - / 5 = | x:point 5:question 5:question -:question /:point 5:point =:point
+EXPR: 0 | POS | INT | 14 | 50 | 4 | 5=((5-x)*5) | 5 5 x - 5 * = | 5:question 5:question x:question -:question 5:point *:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 4 | 5=(5*(5-x)) | 5 5 5 x - * = | 5:question 5:question 5:score x:score -:score *:question =:question
+EXPR: 0 | POS | INT | 14 | 50 | 4 | 5=(5/(5-x)) | 5 5 5 x - / = | 5:question 5:question 5:score x:score -:score /:question =:question
+EXPR: 0 | POS | INT | 15 | 50 | 0 | ((5-5)*5)=x | 5 5 - 5 * x = | 5:question 5:question -:question 5:point *:question x:question =:question
+EXPR: 0 | POS | INT | 15 | 50 | 0 | ((5-5)/5)=x | 5 5 - 5 / x = | 5:question 5:question -:question 5:point /:question x:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | 0 | 5=(5-(5*x)) | 5 5 5 x * - = | 5:question 5:question 5:question x:score *:question -:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | - | 5=(5+(5/x)) | 5 5 5 x / + = | 5:question 5:question 5:question x:score /:question +:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | 20 | 5=((5+x)/5) | 5 5 x + 5 / = | 5:question 5:question x:question +:question 5:point /:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | - | ((5-5)/x)=5 | 5 5 - x / 5 = | 5:question 5:question -:question x:score /:question 5:question =:question
+EXPR: 0 | POS | INT | 17 | 50 |  | ((x/5)+5)=5 | x 5 / 5 + 5 = | x:question 5:point /:question 5:question +:question 5:question =:question
+EXPR: 1 | POS | INT | 17 | 50 | 50 | ((x/5)-5)=5 | x 5 / 5 - 5 = | x:question 5:point /:question 5:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | 6 | 5=(5*(x-5)) | 5 5 x 5 - * = | 5:question 5:question x:score 5:score -:score *:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | - | 5=(5-(5/x)) | 5 5 5 x / - = | 5:question 5:question 5:question x:score /:question -:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | 2 | 5=((5*x)-5) | 5 5 x * 5 - = | 5:question 5:question x:score *:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | 20 | 5=((x+5)/5) | 5 x 5 + 5 / = | 5:question x:question 5:question +:question 5:point /:question =:question
+EXPR: 0 | POS | INT | 17 | 50 | 2 | ((5+5)/x)=5 | 5 5 + x / 5 = | 5:question 5:question +:question x:score /:question 5:question =:question
+EXPR: 0 | POS | INT | 19 | 50 | 4 | (x+(5/5))=5 | x 5 5 / + 5 = | x:question 5:question 5:point /:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 19 | 50 | 4 | ((5/5)+x)=5 | 5 5 / x + 5 = | 5:question 5:point /:question x:question +:question 5:question =:question
+EXPR: 1 | POS | INT | 20 | 50 | 50 | (5*(5+5))=x | 5 5 5 + * x = | 5:question 5:point 5:point +:point *:question x:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 5 | x=((5-5)+5) | x 5 5 - 5 + = | x:question 5:question 5:question -:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 15 | x=((5+5)+5) | x 5 5 + 5 + = | x:question 5:question 5:question +:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 5 | x=((5+5)-5) | x 5 5 + 5 - = | x:question 5:question 5:question +:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 5 | (5+(5-5))=x | 5 5 5 - + x = | 5:question 5:question 5:question -:question +:question x:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 2 | ((5+5)/5)=x | 5 5 + 5 / x = | 5:point 5:point +:point 5:question /:point x:point =:point
+EXPR: 0 | POS | INT | 20 | 50 | 5 | (5-(5-5))=x | 5 5 5 - - x = | 5:question 5:question 5:question -:question -:question x:question =:question
+EXPR: 1 | POS | INT | 20 | 50 | 50 | ((5+5)*5)=x | 5 5 + 5 * x = | 5:point 5:point +:point 5:score *:score x:score =:score
+EXPR: 0 | POS | INT | 20 | 50 | 5 | ((5+5)-5)=x | 5 5 + 5 - x = | 5:question 5:question +:question 5:question -:question x:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 15 | ((5+5)+5)=x | 5 5 + 5 + x = | 5:question 5:question +:question 5:question +:question x:question =:question
+EXPR: 0 | POS | INT | 20 | 50 | 2 | x=((5+5)/5) | x 5 5 + 5 / = | x:score 5:score 5:score +:score 5:question /:score =:score
+EXPR: 0 | POS | INT | 22 | 50 | 5 | ((5+5)-x)=5 | 5 5 + x - 5 = | 5:question 5:question +:question x:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 5 | (5+(x-5))=5 | 5 x 5 - + 5 = | 5:question x:question 5:question -:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 30 | 5=(x-(5*5)) | 5 x 5 5 * - = | 5:score x:score 5:score 5:question *:score -:score =:score
+EXPR: 0 | POS | INT | 22 | 50 | 20 | ((5*5)-x)=5 | 5 5 * x - 5 = | 5:question 5:point *:point x:point -:point 5:point =:point
+EXPR: 0 | POS | INT | 22 | 50 | 5 | 5=((x-5)+5) | 5 x 5 - 5 + = | 5:question x:question 5:question -:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 5 | ((5-5)+5)=x | 5 5 - 5 + x = | 5:question 5:question -:question 5:question +:question x:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 20 | ((5+x)/5)=5 | 5 x + 5 / 5 = | 5:score x:score +:score 5:point /:score 5:score =:score
+EXPR: 0 | POS | INT | 22 | 50 | 15 | x=(5+(5+5)) | x 5 5 5 + + = | x:question 5:question 5:question 5:question +:question +:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 5 | (5-(x-5))=5 | 5 x 5 - - 5 = | 5:question x:question 5:question -:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 15 | 5=((x-5)-5) | 5 x 5 - 5 - = | 5:question x:question 5:question -:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 0 | 5=(5-(x/5)) | 5 5 x 5 / - = | 5:score 5:score x:score 5:question /:score -:score =:score
+EXPR: 0 | POS | INT | 22 | 50 | 6 | 5=(5/(x-5)) | 5 5 x 5 - / = | 5:point 5:point x:score 5:score -:score /:point =:point
+EXPR: 0 | POS | INT | 22 | 50 |  | (5-(x/5))=5 | 5 x 5 / - 5 = | 5:score x:score 5:point /:score -:score 5:score =:score
+EXPR: 0 | POS | INT | 22 | 50 | 20 | (5*5)=(x+5) | 5 5 * x 5 + = | 5:question 5:point *:question x:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 6 | (5/5)=(x-5) | 5 5 / x 5 - = | 5:question 5:point /:question x:question 5:question -:question =:question
+EXPR: 1 | POS | INT | 22 | 50 | 50 | 5=(x/(5+5)) | 5 x 5 5 + / = | 5:question x:question 5:point 5:point +:point /:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 30 | (5*5)=(x-5) | 5 5 * x 5 - = | 5:question 5:point *:question x:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 20 | (5+x)=(5*5) | 5 x + 5 5 * = | 5:question x:question +:question 5:point 5:question *:question =:question
+EXPR: 0 | POS | INT | 22 | 50 | 5 | (5*5)=(x*5) | 5 5 * x 5 * = | 5:score 5:point *:score x:score 5:question *:score =:score
+EXPR: 0 | POS | INT | 24 | 50 | 20 | 5=((5*5)-x) | 5 5 5 * x - = | 5:score 5:score 5:question *:score x:score -:score =:score
+EXPR: 0 | POS | INT | 24 | 50 | 4 | 5=((5/5)+x) | 5 5 5 / x + = | 5:score 5:score 5:question /:score x:score +:score =:score
+EXPR: 0 | POS | INT | 24 | 50 | 5 | ((x+5)-5)=5 | x 5 + 5 - 5 = | x:question 5:question +:question 5:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 0 | (5-5)=(x*5) | 5 5 - x 5 * = | 5:question 5:question -:question x:score 5:question *:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 2 | (5+5)=(x*5) | 5 5 + x 5 * = | 5:question 5:question +:question x:score 5:question *:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 2 | (5+5)=(5*x) | 5 5 + 5 x * = | 5:question 5:question +:question 5:question x:score *:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | - | (5-5)=(5/x) | 5 5 - 5 x / = | 5:question 5:question -:question 5:question x:score /:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 20 | ((x+5)/5)=5 | x 5 + 5 / 5 = | x:point 5:point +:point 5:question /:point 5:point =:point
+EXPR: 0 | POS | INT | 24 | 50 | 2 | (x*5)=(5+5) | x 5 * 5 5 + = | x:score 5:question *:question 5:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 24 | 50 |  | (x*5)=(5-5) | x 5 * 5 5 - = | x:score 5:question *:question 5:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | 5=((5-5)+x) | 5 5 5 - x + = | 5:question 5:question 5:question -:question x:question +:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | (x+(5-5))=5 | x 5 5 - + 5 = | x:question 5:question 5:question -:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | ((5-x)+5)=5 | 5 x - 5 + 5 = | 5:question x:question -:question 5:question +:question 5:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | (x-(5-5))=5 | x 5 5 - - 5 = | x:question 5:question 5:question -:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | 5=((5+x)-5) | 5 5 x + 5 - = | 5:question 5:question x:question +:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | 5=((5+5)-x) | 5 5 5 + x - = | 5:question 5:question 5:question +:question x:question -:question =:question
+EXPR: 0 | POS | INT | 24 | 50 |  | (5+(x/5))=5 | 5 x 5 / + 5 = | 5:point x:point 5:question /:point +:point 5:point =:point
+EXPR: 0 | POS | INT | 24 | 50 | 5 | (x/5)=(5/5) | x 5 / 5 5 / = | x:score 5:point /:score 5:score 5:question /:score =:score
+EXPR: 0 | POS | INT | 24 | 50 | 125 | (x/5)=(5*5) | x 5 / 5 5 * = | x:score 5:point /:score 5:score 5:question *:score =:score
+EXPR: 0 | POS | INT | 24 | 50 | 6 | (x-(5/5))=5 | x 5 5 / - 5 = | x:point 5:point 5:question /:point -:point 5:point =:point
+EXPR: 0 | POS | INT | 24 | 50 | 5 | (5/5)=(x/5) | 5 5 / x 5 / = | 5:score 5:question /:score x:score 5:question /:score =:score
+EXPR: 0 | POS | INT | 24 | 50 | 5 | ((5+x)-5)=5 | 5 x + 5 - 5 = | 5:question x:question +:question 5:question -:question 5:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | 5=((5-x)+5) | 5 5 x - 5 + = | 5:question 5:question x:question -:question 5:question +:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 5 | 5=((x+5)-5) | 5 x 5 + 5 - = | 5:question x:question 5:question +:question 5:question -:question =:question
+EXPR: 0 | POS | INT | 24 | 50 | 0 | 5=(5+(x/5)) | 5 5 x 5 / + = | 5:score 5:score x:score 5:point /:score +:score =:score
+EXPR: 0 | POS | INT | 25 | 50 | 15 | (5+(5+5))=x | 5 5 5 + + x = | 5:question 5:question 5:question +:question +:question x:question =:question
+NET 132 unique, non-negative, integer-valued solutions found out of 1000 total solutions

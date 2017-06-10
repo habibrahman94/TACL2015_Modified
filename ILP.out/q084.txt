@@ -1,0 +1,5 @@
+quantities : 10 6 9 x
+types : "piece" "piece" "piece" "piece"
+operators : + - * / =
+n : 7
+answer : 7.0

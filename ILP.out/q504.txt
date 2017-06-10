@@ -1,0 +1,5 @@
+quantities : 18 8 x 2
+types : "cupcake" "cupcake" "package" "cupcake"
+operators : + - * / =
+n : 7
+answer : 5.0

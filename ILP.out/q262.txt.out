@@ -1,0 +1,161 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 42 | 0 | ((3-3)*7)=x | 3 3 - 7 * x = | 3:pile 3:pile -:pile 7:coin *:coin x:coin =:coin
+EXPR: 1 | POS | INT | 2 | 42 | 42 | ((3+3)*7)=x | 3 3 + 7 * x = | 3:pile 3:pile +:pile 7:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 |  | x=((3-3)*7) | x 3 3 - 7 * = | x:coin 3:pile 3:pile -:pile 7:coin *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 | 8 | (3/(x-7))=3 | 3 x 7 - / 3 = | 3:pile x:coin 7:coin -:coin /:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 2 | 42 | 8 | (3*(x-7))=3 | 3 x 7 - * 3 = | 3:pile x:coin 7:coin -:coin *:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 2 | 42 | 6 | (3*(7-x))=3 | 3 7 x - * 3 = | 3:pile 7:coin x:coin -:coin *:pile 3:pile =:pile
+EXPR: 1 | POS | INT | 2 | 42 | 42 | x=((3+3)*7) | x 3 3 + 7 * = | x:coin 3:pile 3:pile +:pile 7:coin *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 | 6 | (3/(7-x))=3 | 3 7 x - / 3 = | 3:pile 7:coin x:coin -:coin /:pile 3:pile =:pile
+EXPR: 1 | POS | INT | 2 | 42 | 42 | x=(7*(3+3)) | x 7 3 3 + * = | x:coin 7:coin 3:pile 3:pile +:pile *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 |  | x=(7*(3-3)) | x 7 3 3 - * = | x:coin 7:coin 3:pile 3:pile -:pile *:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 | 8 | 3=((x-7)*3) | 3 x 7 - 3 * = | 3:pile x:coin 7:coin -:coin 3:pile *:pile =:pile
+EXPR: 1 | POS | INT | 2 | 42 | 42 | (7*(3+3))=x | 7 3 3 + * x = | 7:coin 3:pile 3:pile +:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 | zoo | (7/(3-3))=x | 7 3 3 - / x = | 7:coin 3:pile 3:pile -:pile /:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 | 0 | (7*(3-3))=x | 7 3 3 - * x = | 7:coin 3:pile 3:pile -:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 2 | 42 | 6 | 3=((7-x)*3) | 3 7 x - 3 * = | 3:pile 7:coin x:coin -:coin 3:pile *:pile =:pile
+EXPR: 0 | POS | INT | 2 | 42 | zoo | x=(7/(3-3)) | x 7 3 3 - / = | x:coin 7:coin 3:pile 3:pile -:pile /:coin =:coin
+EXPR: 1 | POS | INT | 4 | 42 | 42 | (x/(3+3))=7 | x 3 3 + / 7 = | x:coin 3:pile 3:pile +:pile /:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 4 | 42 | 6 | ((7-x)*3)=3 | 7 x - 3 * 3 = | 7:coin x:coin -:coin 3:pile *:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 4 | 42 | - | 7=(x*(3-3)) | 7 x 3 3 - * = | 7:coin x:coin 3:pile 3:pile -:pile *:coin =:coin
+EXPR: 1 | POS | INT | 4 | 42 | 42 | 7=(x/(3+3)) | 7 x 3 3 + / = | 7:coin x:coin 3:pile 3:pile +:pile /:coin =:coin
+EXPR: 0 | POS | INT | 4 | 42 | - | (x*(3-3))=7 | x 3 3 - * 7 = | x:coin 3:pile 3:pile -:pile *:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 4 | 42 | - | (x/(3-3))=7 | x 3 3 - / 7 = | x:coin 3:pile 3:pile -:pile /:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 4 | 42 | 8 | 3=(3*(x-7)) | 3 3 x 7 - * = | 3:pile 3:pile x:coin 7:coin -:coin *:pile =:pile
+EXPR: 0 | POS | INT | 4 | 42 | - | 7=((3-3)*x) | 7 3 3 - x * = | 7:coin 3:pile 3:pile -:pile x:coin *:coin =:coin
+EXPR: 0 | POS | INT | 4 | 42 | 6 | 3=(3/(7-x)) | 3 3 7 x - / = | 3:pile 3:pile 7:coin x:coin -:coin /:pile =:pile
+EXPR: 0 | POS | INT | 4 | 42 | - | ((3-3)*x)=7 | 3 3 - x * 7 = | 3:pile 3:pile -:pile x:coin *:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 4 | 42 | 8 | 3=(3/(x-7)) | 3 3 x 7 - / = | 3:pile 3:pile x:coin 7:coin -:coin /:pile =:pile
+EXPR: 0 | POS | INT | 4 | 42 | 6 | 3=(3*(7-x)) | 3 3 7 x - * = | 3:pile 3:pile 7:coin x:coin -:coin *:pile =:pile
+EXPR: 0 | POS | INT | 4 | 42 | 8 | ((x-7)*3)=3 | x 7 - 3 * 3 = | x:coin 7:coin -:coin 3:pile *:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 10 | 42 | 12 | x=(3*(7-3)) | x 3 7 3 - * = | x:coin 3:pile 7:coin 3:coin -:coin *:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 30 | x=(3*(7+3)) | x 3 7 3 + * = | x:coin 3:pile 7:coin 3:coin +:coin *:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 12 | (3*(7-3))=x | 3 7 3 - * x = | 3:pile 7:coin 3:coin -:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 18 | ((3*7)-3)=x | 3 7 * 3 - x = | 3:pile 7:coin *:coin 3:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 24 | ((3*7)+3)=x | 3 7 * 3 + x = | 3:pile 7:coin *:coin 3:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 18 | x=((3*7)-3) | x 3 7 * 3 - = | x:coin 3:pile 7:coin *:coin 3:coin -:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 24 | (3+(7*3))=x | 3 7 3 * + x = | 3:pile 7:coin 3:pile *:pile +:pile x:pile =:pile
+EXPR: 0 | POS | INT | 10 | 42 | 24 | x=((3*7)+3) | x 3 7 * 3 + = | x:coin 3:pile 7:coin *:coin 3:coin +:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 30 | x=((3+7)*3) | x 3 7 + 3 * = | x:coin 3:coin 7:coin +:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 30 | (3*(7+3))=x | 3 7 3 + * x = | 3:pile 7:coin 3:coin +:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 10 | 42 | 24 | x=(3+(7*3)) | x 3 7 3 * + = | x:pile 3:pile 7:coin 3:pile *:pile +:pile =:pile
+EXPR: 0 | POS | INT | 10 | 42 | 30 | ((3+7)*3)=x | 3 7 + 3 * x = | 3:coin 7:coin +:coin 3:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 18 | 3=((7*3)-x) | 3 7 3 * x - = | 3:coin 7:coin 3:pile *:coin x:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 |  | (3+(7*x))=3 | 3 7 x * + 3 = | 3:pile 7:coin x:pile *:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 30 | ((x/3)-7)=3 | x 3 / 7 - 3 = | x:coin 3:pile /:coin 7:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 16 | x=((3*3)+7) | x 3 3 * 7 + = | x:coin 3:pile 3:coin *:coin 7:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 |  | (3+(x*7))=3 | 3 x 7 * + 3 = | 3:pile x:coin 7:pile *:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 2 | 3=((x+7)/3) | 3 x 7 + 3 / = | 3:coin x:coin 7:coin +:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 6 | x=(7-(3/3)) | x 7 3 3 / - = | x:coin 7:coin 3:coin 3:pile /:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 |  | (3-(7*x))=3 | 3 7 x * - 3 = | 3:pile 7:coin x:pile *:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 |  | (3-(x*7))=3 | 3 x 7 * - 3 = | 3:pile x:coin 7:pile *:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 0 | 3=((x*7)+3) | 3 x 7 * 3 + = | 3:pile x:coin 7:pile *:pile 3:pile +:pile =:pile
+EXPR: 1 | POS | INT | 12 | 42 | 42 | 3=((x/7)-3) | 3 x 7 / 3 - = | 3:pile x:pile 7:coin /:pile 3:pile -:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 0 | 3=((x/7)+3) | 3 x 7 / 3 + = | 3:pile x:pile 7:coin /:pile 3:pile +:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 63 | (x/3)=(7*3) | x 3 / 7 3 * = | x:coin 3:pile /:coin 7:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 16 | 3=((x-7)/3) | 3 x 7 - 3 / = | 3:coin x:coin 7:coin -:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 2 | ((3*3)-7)=x | 3 3 * 7 - x = | 3:pile 3:coin *:coin 7:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 16 | ((3*3)+7)=x | 3 3 * 7 + x = | 3:pile 3:coin *:coin 7:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 24 | (x-(3*7))=3 | x 3 7 * - 3 = | x:coin 3:pile 7:coin *:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 24 | ((x-3)/7)=3 | x 3 - 7 / 3 = | x:pile 3:pile -:pile 7:coin /:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 18 | ((x+3)/7)=3 | x 3 + 7 / 3 = | x:pile 3:pile +:pile 7:coin /:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 7 | (x*3)=(7*3) | x 3 * 7 3 * = | x:coin 3:pile *:coin 7:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 2 | x=((3*3)-7) | x 3 3 * 7 - = | x:coin 3:pile 3:coin *:coin 7:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 8 | x=(7+(3/3)) | x 7 3 3 / + = | x:coin 7:coin 3:coin 3:pile /:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 16 | x=(7+(3*3)) | x 7 3 3 * + = | x:coin 7:coin 3:coin 3:pile *:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 12 | x=((7-3)*3) | x 7 3 - 3 * = | x:coin 7:coin 3:coin -:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 8 | ((3/3)+7)=x | 3 3 / 7 + x = | 3:coin 3:pile /:coin 7:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 18 | ((3*7)-x)=3 | 3 7 * x - 3 = | 3:pile 7:coin *:pile x:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 0 | 3=((7*x)+3) | 3 7 x * 3 + = | 3:pile 7:pile x:coin *:pile 3:pile +:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | - | 3=((7/x)+3) | 3 7 x / 3 + = | 3:pile 7:pile x:coin /:pile 3:pile +:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 24 | 3=(x-(7*3)) | 3 x 7 3 * - = | 3:pile x:pile 7:coin 3:pile *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | - | (3+(7/x))=3 | 3 7 x / + 3 = | 3:pile 7:pile x:coin /:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 12 | 3=(7-(x/3)) | 3 7 x 3 / - = | 3:coin 7:coin x:coin 3:pile /:coin -:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 7 | (3/7)=(3/x) | 3 7 / 3 x / = | 3:pile 7:coin /:pile 3:pile x:coin /:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 |  | x=((3-3)/7) | x 3 3 - 7 / = | x:pile 3:pile 3:pile -:pile 7:coin /:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 16 | (7+(3*3))=x | 7 3 3 * + x = | 7:coin 3:pile 3:coin *:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 7 | (3*x)=(7*3) | 3 x * 7 3 * = | 3:pile x:coin *:coin 7:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 8 | (7+(3/3))=x | 7 3 3 / + x = | 7:coin 3:coin 3:pile /:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 8 | x=((3/3)+7) | x 3 3 / 7 + = | x:coin 3:coin 3:pile /:coin 7:coin +:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 6 | (7-(3/3))=x | 7 3 3 / - x = | 7:coin 3:coin 3:pile /:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 7 | (3*7)=(x*3) | 3 7 * x 3 * = | 3:pile 7:coin *:coin x:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 12 | ((7-3)*3)=x | 7 3 - 3 * x = | 7:coin 3:coin -:coin 3:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 0 | ((3-3)/7)=x | 3 3 - 7 / x = | 3:pile 3:pile -:pile 7:coin /:pile x:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 7 | (3*7)=(3*x) | 3 7 * 3 x * = | 3:pile 7:coin *:coin 3:pile x:coin *:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 |  | (3+(x/7))=3 | 3 x 7 / + 3 = | 3:pile x:pile 7:coin /:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 18 | ((3+x)/7)=3 | 3 x + 7 / 3 = | 3:pile x:pile +:pile 7:coin /:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | - | (3-(7/x))=3 | 3 7 x / - 3 = | 3:pile 7:pile x:coin /:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 63 | (3*7)=(x/3) | 3 7 * x 3 / = | 3:pile 7:coin *:coin x:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 | 2 | 3=((7+x)/3) | 3 7 x + 3 / = | 3:coin 7:coin x:coin +:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 12 | 42 |  | (3-(x/7))=3 | 3 x 7 / - 3 = | 3:pile x:pile 7:coin /:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 12 | 42 | 7 | (x/3)=(7/3) | x 3 / 7 3 / = | x:coin 3:pile /:coin 7:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 24 | ((x-3)/3)=7 | x 3 - 3 / 7 = | x:coin 3:coin -:coin 3:pile /:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 |  | ((x/7)+3)=3 | x 7 / 3 + 3 = | x:pile 7:coin /:pile 3:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | - | ((7/x)+3)=3 | 7 x / 3 + 3 = | 7:pile x:coin /:pile 3:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 30 | ((x/3)-3)=7 | x 3 / 3 - 7 = | x:coin 3:pile /:coin 3:coin -:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 12 | ((x/3)+3)=7 | x 3 / 3 + 7 = | x:coin 3:pile /:coin 3:coin +:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 |  | ((7*x)+3)=3 | 7 x * 3 + 3 = | 7:coin x:pile *:pile 3:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 6 | ((3/3)+x)=7 | 3 3 / x + 7 = | 3:coin 3:pile /:coin x:coin +:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 8 | 7=(x-(3/3)) | 7 x 3 3 / - = | 7:coin x:coin 3:coin 3:pile /:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 6 | 7=(x+(3/3)) | 7 x 3 3 / + = | 7:coin x:coin 3:coin 3:pile /:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 16 | ((x-7)/3)=3 | x 7 - 3 / 3 = | x:coin 7:coin -:coin 3:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 18 | 7=((3+x)/3) | 7 3 x + 3 / = | 7:coin 3:coin x:coin +:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | - | 7=((3-3)/x) | 7 3 3 - x / = | 7:pile 3:pile 3:pile -:pile x:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 18 | ((3+x)/3)=7 | 3 x + 3 / 7 = | 3:coin x:coin +:coin 3:pile /:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 16 | 7=(x-(3*3)) | 7 x 3 3 * - = | 7:coin x:coin 3:pile 3:coin *:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 3=(3+(7*x)) | 3 3 7 x * + = | 3:pile 3:pile 7:pile x:coin *:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 2 | ((7+x)/3)=3 | 7 x + 3 / 3 = | 7:coin x:coin +:coin 3:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | - | 3=(3+(7/x)) | 3 3 7 x / + = | 3:pile 3:pile 7:pile x:coin /:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 2 | ((3*3)-x)=7 | 3 3 * x - 7 = | 3:coin 3:pile *:coin x:coin -:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 12 | 7=(3+(x/3)) | 7 3 x 3 / + = | 7:coin 3:coin x:coin 3:pile /:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 6 | (x+(3/3))=7 | x 3 3 / + 7 = | x:coin 3:coin 3:pile /:coin +:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 8 | (x-(3/3))=7 | x 3 3 / - 7 = | x:coin 3:coin 3:pile /:coin -:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 3=(3-(7*x)) | 3 3 7 x * - = | 3:pile 3:pile 7:pile x:coin *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | - | 3=(3-(7/x)) | 3 3 7 x / - = | 3:pile 3:pile 7:pile x:coin /:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 16 | (x-(3*3))=7 | x 3 3 * - 7 = | x:coin 3:coin 3:pile *:coin -:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 |  | ((x*7)+3)=3 | x 7 * 3 + 3 = | x:pile 7:coin *:pile 3:pile +:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 12 | (3+(x/3))=7 | 3 x 3 / + 7 = | 3:coin x:coin 3:pile /:coin +:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 18 | 7=((x+3)/3) | 7 x 3 + 3 / = | 7:coin x:coin 3:coin +:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 6 | 7=((3/3)+x) | 7 3 3 / x + = | 7:coin 3:coin 3:pile /:coin x:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 7 | (3/x)=(3/7) | 3 x / 3 7 / = | 3:pile x:coin /:pile 3:pile 7:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 3=(3-(x*7)) | 3 3 x 7 * - = | 3:pile 3:pile x:coin 7:pile *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 3=(3+(x*7)) | 3 3 x 7 * + = | 3:pile 3:pile x:coin 7:pile *:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 2 | 7=((3*3)-x) | 7 3 3 * x - = | 7:coin 3:coin 3:pile *:coin x:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 24 | 3=((x-3)/7) | 3 x 3 - 7 / = | 3:pile x:pile 3:pile -:pile 7:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 12 | 7=((x/3)+3) | 7 x 3 / 3 + = | 7:coin x:coin 3:pile /:coin 3:coin +:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 24 | 7=((x-3)/3) | 7 x 3 - 3 / = | 7:coin x:coin 3:coin -:coin 3:pile /:coin =:coin
+EXPR: 1 | POS | INT | 14 | 42 | 42 | ((x/7)-3)=3 | x 7 / 3 - 3 = | x:pile 7:coin /:pile 3:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 3=(3+(x/7)) | 3 3 x 7 / + = | 3:pile 3:pile x:pile 7:coin /:pile +:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 0 | 3=(3-(x/7)) | 3 3 x 7 / - = | 3:pile 3:pile x:pile 7:coin /:pile -:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 30 | 7=((x/3)-3) | 7 x 3 / 3 - = | 7:coin x:coin 3:pile /:coin 3:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | - | ((3-3)/x)=7 | 3 3 - x / 7 = | 3:pile 3:pile -:pile x:coin /:pile 7:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 12 | (7-(x/3))=3 | 7 x 3 / - 3 = | 7:coin x:coin 3:pile /:coin -:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 2 | ((x+7)/3)=3 | x 7 + 3 / 3 = | x:coin 7:coin +:coin 3:pile /:coin 3:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 7 | (7/3)=(x/3) | 7 3 / x 3 / = | 7:coin 3:pile /:coin x:coin 3:pile /:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 30 | 3=((x/3)-7) | 3 x 3 / 7 - = | 3:coin x:coin 3:pile /:coin 7:coin -:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 18 | 3=((x+3)/7) | 3 x 3 + 7 / = | 3:pile x:pile 3:pile +:pile 7:coin /:pile =:pile
+EXPR: 0 | POS | INT | 14 | 42 | 18 | ((x+3)/3)=7 | x 3 + 3 / 7 = | x:coin 3:coin +:coin 3:pile /:coin 7:coin =:coin
+EXPR: 0 | POS | INT | 14 | 42 | 18 | 3=((3+x)/7) | 3 3 x + 7 / = | 3:pile 3:pile x:pile +:pile 7:coin /:pile =:pile
+EXPR: 0 | POS | INT | 15 | 42 | 24 | (3+(3*7))=x | 3 3 7 * + x = | 3:pile 3:pile 7:coin *:pile +:pile x:pile =:pile
+EXPR: 0 | POS | INT | 15 | 42 | 30 | x=(3*(3+7)) | x 3 3 7 + * = | x:coin 3:pile 3:coin 7:coin +:coin *:coin =:coin
+EXPR: 0 | POS | INT | 15 | 42 | 30 | (3*(3+7))=x | 3 3 7 + * x = | 3:pile 3:coin 7:coin +:coin *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 15 | 42 | 18 | ((7*3)-3)=x | 7 3 * 3 - x = | 7:coin 3:pile *:coin 3:coin -:coin x:coin =:coin
+EXPR: 0 | POS | INT | 15 | 42 | 24 | ((7*3)+3)=x | 7 3 * 3 + x = | 7:coin 3:pile *:coin 3:coin +:coin x:coin =:coin
+EXPR: 0 | POS | INT | 15 | 42 | 24 | x=(3+(3*7)) | x 3 3 7 * + = | x:coin 3:coin 3:pile 7:coin *:coin +:coin =:coin
+EXPR: 0 | POS | INT | 15 | 42 | 18 | x=((7*3)-3) | x 7 3 * 3 - = | x:pile 7:coin 3:pile *:pile 3:pile -:pile =:pile
+EXPR: 0 | POS | INT | 15 | 42 | 24 | x=((7*3)+3) | x 7 3 * 3 + = | x:pile 7:coin 3:pile *:pile 3:pile +:pile =:pile
+EXPR: 0 | POS | INT | 15 | 42 | 30 | x=((7+3)*3) | x 7 3 + 3 * = | x:coin 7:coin 3:coin +:coin 3:pile *:coin =:coin
+EXPR: 0 | POS | INT | 15 | 42 | 30 | ((7+3)*3)=x | 7 3 + 3 * x = | 7:coin 3:coin +:coin 3:pile *:coin x:coin =:coin
+EXPR: 0 | POS | INT | 17 | 42 | 7 | (x*3)=(3*7) | x 3 * 3 7 * = | x:coin 3:pile *:coin 3:pile 7:coin *:coin =:coin
+EXPR: 0 | POS | INT | 17 | 42 | 24 | (x-(7*3))=3 | x 7 3 * - 3 = | x:pile 7:coin 3:pile *:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 17 | 42 | 18 | 3=((3*7)-x) | 3 3 7 * x - = | 3:coin 3:pile 7:coin *:coin x:coin -:coin =:coin
+EXPR: 0 | POS | INT | 17 | 42 | 63 | (x/3)=(3*7) | x 3 / 3 7 * = | x:coin 3:pile /:coin 3:pile 7:coin *:coin =:coin
+EXPR: 0 | POS | INT | 17 | 42 | 24 | 3=(x-(3*7)) | 3 x 3 7 * - = | 3:pile x:pile 3:pile 7:coin *:pile -:pile =:pile
+EXPR: 0 | POS | INT | 17 | 42 | 7 | (3*x)=(3*7) | 3 x * 3 7 * = | 3:pile x:coin *:coin 3:pile 7:coin *:coin =:coin
+EXPR: 0 | POS | INT | 17 | 42 | 18 | ((7*3)-x)=3 | 7 3 * x - 3 = | 7:coin 3:pile *:pile x:pile -:pile 3:pile =:pile
+EXPR: 0 | POS | INT | 17 | 42 | 7 | (7*3)=(3*x) | 7 3 * 3 x * = | 7:coin 3:pile *:pile 3:pile x:coin *:pile =:pile
+EXPR: 0 | POS | INT | 17 | 42 | 7 | (7*3)=(x*3) | 7 3 * x 3 * = | 7:coin 3:pile *:pile x:coin 3:pile *:pile =:pile
+EXPR: 0 | POS | INT | 17 | 42 | 63 | (7*3)=(x/3) | 7 3 * x 3 / = | 7:coin 3:pile *:coin x:coin 3:pile /:coin =:coin
+NET 157 unique, non-negative, integer-valued solutions found out of 1000 total solutions

@@ -1,0 +1,234 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 45 | 45 | x=(5.0*(14-5)) | x 5.0 14 5 - * = | x:money 5.0:money 14:deck 5:deck -:deck *:money =:money
+EXPR: 0 | POS | INT | 0 | 45 | 95 | x=(5.0*(14+5)) | x 5.0 14 5 + * = | x:money 5.0:money 14:deck 5:deck +:deck *:money =:money
+EXPR: 1 | POS | INT | 0 | 45 | 45 | (5.0*(14-5))=x | 5.0 14 5 - * x = | 5.0:money 14:deck 5:deck -:deck *:money x:money =:money
+EXPR: 0 | POS | INT | 0 | 45 | 95 | (5.0*(14+5))=x | 5.0 14 5 + * x = | 5.0:money 14:deck 5:deck +:deck *:money x:money =:money
+EXPR: 1 | POS | INT | 2 | 45 | 45 | 5.0=(x/(14-5)) | 5.0 x 14 5 - / = | 5.0:money x:money 14:deck 5:deck -:deck /:money =:money
+EXPR: 0 | POS | INT | 2 | 45 | 95 | 5.0=(x/(14+5)) | 5.0 x 14 5 + / = | 5.0:money x:money 14:deck 5:deck +:deck /:money =:money
+EXPR: 0 | POS | INT | 5 | 45 | 95 | ((14+5)*5.0)=x | 14 5 + 5.0 * x = | 14:deck 5:deck +:deck 5.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 5 | 45 | 45 | x=((14-5)*5.0) | x 14 5 - 5.0 * = | x:money 14:deck 5:deck -:deck 5.0:money *:money =:money
+EXPR: 0 | POS | INT | 5 | 45 | 95 | x=((14+5)*5.0) | x 14 5 + 5.0 * = | x:money 14:deck 5:deck +:deck 5.0:money *:money =:money
+EXPR: 1 | POS | INT | 5 | 45 | 45 | ((14-5)*5.0)=x | 14 5 - 5.0 * x = | 14:deck 5:deck -:deck 5.0:money *:money x:money =:money
+EXPR: 1 | POS | INT | 7 | 45 | 45 | (x/(14-5))=5.0 | x 14 5 - / 5.0 = | x:money 14:deck 5:deck -:deck /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 7 | 45 | 95 | (x/(14+5))=5.0 | x 14 5 + / 5.0 = | x:money 14:deck 5:deck +:deck /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 10 | 45 | 75 | x=((5.0*14)+5) | x 5.0 14 * 5 + = | x:money 5.0:money 14:deck *:money 5:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 45 | 75 | ((5.0*14)+5)=x | 5.0 14 * 5 + x = | 5.0:money 14:deck *:deck 5:deck +:deck x:deck =:deck
+EXPR: 0 | POS | INT | 10 | 45 | 65 | ((5.0*14)-5)=x | 5.0 14 * 5 - x = | 5.0:money 14:deck *:deck 5:deck -:deck x:deck =:deck
+EXPR: 0 | POS | INT | 10 | 45 | 75 | x=(5.0+(14*5)) | x 5.0 14 5 * + = | x:money 5.0:money 14:deck 5:money *:money +:money =:money
+EXPR: 0 | POS | INT | 10 | 45 | 65 | x=((5.0*14)-5) | x 5.0 14 * 5 - = | x:deck 5.0:money 14:deck *:deck 5:deck -:deck =:deck
+EXPR: 0 | POS | INT | 10 | 45 | 95 | x=((5.0+14)*5) | x 5.0 14 + 5 * = | x:money 5.0:money 14:money +:money 5:deck *:money =:money
+EXPR: 0 | POS | INT | 10 | 45 | 95 | ((5.0+14)*5)=x | 5.0 14 + 5 * x = | 5.0:money 14:money +:money 5:deck *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 45 | 75 | (5.0+(14*5))=x | 5.0 14 5 * + x = | 5.0:money 14:money 5:deck *:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 |  | (5.0+(x/14))=5 | 5.0 x 14 / + 5 = | 5.0:money x:money 14:deck /:money +:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 |  | (5.0-(x/14))=5 | 5.0 x 14 / - 5 = | 5.0:money x:money 14:deck /:money -:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 |  | (5.0+(x*14))=5 | 5.0 x 14 * + 5 = | 5.0:deck x:money 14:deck *:deck +:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 |  | (5.0-(x*14))=5 | 5.0 x 14 * - 5 = | 5.0:money x:money 14:deck *:money -:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 |  | x=(14*(5.0-5)) | x 14 5.0 5 - * = | x:money 14:deck 5.0:money 5:money -:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 39 | ((5.0*5)+14)=x | 5.0 5 * 14 + x = | 5.0:money 5:deck *:deck 14:deck +:deck x:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 75 | ((x-5.0)/14)=5 | x 5.0 - 14 / 5 = | x:money 5.0:money -:money 14:deck /:money 5:money =:money
+EXPR: 1 | POS | INT | 12 | 45 | 45 | x=((14-5.0)*5) | x 14 5.0 - 5 * = | x:money 14:money 5.0:money -:money 5:deck *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 |  | (5.0+(14*x))=5 | 5.0 14 x * + 5 = | 5.0:money 14:deck x:money *:money +:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 11 | ((5.0*5)-14)=x | 5.0 5 * 14 - x = | 5.0:money 5:deck *:deck 14:deck -:deck x:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 |  | (5.0-(14*x))=5 | 5.0 14 x * - 5 = | 5.0:money 14:deck x:money *:money -:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 65 | ((5.0*14)-x)=5 | 5.0 14 * x - 5 = | 5.0:money 14:deck *:deck x:deck -:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 39 | (14+(5.0*5))=x | 14 5.0 5 * + x = | 14:deck 5.0:money 5:deck *:deck +:deck x:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 65 | ((x+5.0)/14)=5 | x 5.0 + 14 / 5 = | x:money 5.0:money +:money 14:deck /:money 5:money =:money
+EXPR: 1 | POS | INT | 12 | 45 | 45 | ((14-5.0)*5)=x | 14 5.0 - 5 * x = | 14:money 5.0:money -:money 5:deck *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 140 | (14*(5.0+5))=x | 14 5.0 5 + * x = | 14:deck 5.0:money 5:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 15 | (5.0*(x-14))=5 | 5.0 x 14 - * 5 = | 5.0:money x:deck 14:deck -:deck *:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 65 | ((5.0+x)/14)=5 | 5.0 x + 14 / 5 = | 5.0:money x:money +:money 14:deck /:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 39 | x=(14+(5.0*5)) | x 14 5.0 5 * + = | x:deck 14:deck 5.0:money 5:deck *:deck +:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 15 | ((5.0/5)+14)=x | 5.0 5 / 14 + x = | 5.0:money 5:deck /:money 14:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 140 | x=(14*(5.0+5)) | x 14 5.0 5 + * = | x:money 14:deck 5.0:money 5:money +:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 13 | (5.0*(14-x))=5 | 5.0 14 x - * 5 = | 5.0:money 14:deck x:deck -:deck *:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 0 | (14*(5.0-5))=x | 14 5.0 5 - * x = | 14:deck 5.0:money 5:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 11 | x=((5.0*5)-14) | x 5.0 5 * 14 - = | x:money 5.0:money 5:deck *:money 14:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 15 | x=((5.0/5)+14) | x 5.0 5 / 14 + = | x:money 5.0:money 5:deck /:money 14:money +:money =:money
+EXPR: 1 | POS | INT | 12 | 45 | 45 | 5.0=(14-(x/5)) | 5.0 14 x 5 / - = | 5.0:money 14:money x:money 5:deck /:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 39 | x=((5.0*5)+14) | x 5.0 5 * 14 + = | x:deck 5.0:money 5:deck *:deck 14:deck +:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 75 | 5.0=(x-(14*5)) | 5.0 x 14 5 * - = | 5.0:money x:money 14:money 5:deck *:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 45 |  | x=((5.0-5)/14) | x 5.0 5 - 14 / = | x:money 5.0:money 5:money -:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 95 | ((x/5.0)-14)=5 | x 5.0 / 14 - 5 = | x:deck 5.0:money /:deck 14:deck -:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | - | 5.0=((14/x)+5) | 5.0 14 x / 5 + = | 5.0:deck 14:deck x:money /:deck 5:deck +:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 0 | 5.0=((14*x)+5) | 5.0 14 x * 5 + = | 5.0:deck 14:deck x:money *:deck 5:deck +:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 14 | (5.0*14)=(x*5) | 5.0 14 * x 5 * = | 5.0:money 14:deck *:deck x:money 5:deck *:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 |  | x=((5.0-5)*14) | x 5.0 5 - 14 * = | x:money 5.0:money 5:money -:money 14:deck *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 140 | x=((5.0+5)*14) | x 5.0 5 + 14 * = | x:money 5.0:money 5:money +:money 14:deck *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 13 | (14-(5.0/5))=x | 14 5.0 5 / - x = | 14:money 5.0:money 5:deck /:money -:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 15 | (14+(5.0/5))=x | 14 5.0 5 / + x = | 14:money 5.0:money 5:deck /:money +:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 39 | 5.0=((x-14)/5) | 5.0 x 14 - 5 / = | 5.0:money x:money 14:money -:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 15 | 5.0=((x-14)*5) | 5.0 x 14 - 5 * = | 5.0:money x:money 14:money -:money 5:deck *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 11 | 5.0=((14+x)/5) | 5.0 14 x + 5 / = | 5.0:money 14:money x:money +:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 65 | 5.0=((14*5)-x) | 5.0 14 5 * x - = | 5.0:money 14:deck 5:money *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 13 | x=(14-(5.0/5)) | x 14 5.0 5 / - = | x:money 14:money 5.0:money 5:deck /:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 11 | 5.0=((x+14)/5) | 5.0 x 14 + 5 / = | 5.0:money x:money 14:money +:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 14 | (5.0*14)=(5*x) | 5.0 14 * 5 x * = | 5.0:money 14:deck *:deck 5:deck x:money *:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 15 | x=(14+(5.0/5)) | x 14 5.0 5 / + = | x:money 14:money 5.0:money 5:deck /:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | - | (5.0+(14/x))=5 | 5.0 14 x / + 5 = | 5.0:deck 14:deck x:money /:deck +:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | - | (5.0-(14/x))=5 | 5.0 14 x / - 5 = | 5.0:deck 14:deck x:money /:deck -:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 75 | (x-(5.0*14))=5 | x 5.0 14 * - 5 = | x:money 5.0:money 14:deck *:money -:money 5:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 0 | ((5.0-5)/14)=x | 5.0 5 - 14 / x = | 5.0:money 5:money -:money 14:deck /:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 350 | (5.0*14)=(x/5) | 5.0 14 * x 5 / = | 5.0:money 14:deck *:money x:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 0 | 5.0=((x*14)+5) | 5.0 x 14 * 5 + = | 5.0:deck x:money 14:deck *:deck 5:deck +:deck =:deck
+EXPR: 0 | POS | INT | 12 | 45 | 140 | 5.0=((x/14)-5) | 5.0 x 14 / 5 - = | 5.0:money x:money 14:deck /:money 5:money -:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 140 | ((5.0+5)*14)=x | 5.0 5 + 14 * x = | 5.0:money 5:money +:money 14:deck *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 0 | ((5.0-5)*14)=x | 5.0 5 - 14 * x = | 5.0:money 5:money -:money 14:deck *:money x:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 0 | 5.0=((x/14)+5) | 5.0 x 14 / 5 + = | 5.0:money x:money 14:deck /:money 5:money +:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 13 | 5.0=((14-x)*5) | 5.0 14 x - 5 * = | 5.0:money 14:money x:money -:money 5:deck *:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 11 | ((5.0*5)-x)=14 | 5.0 5 * x - 14 = | 5.0:money 5:deck *:deck x:deck -:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 13 | ((5.0/5)+x)=14 | 5.0 5 / x + 14 = | 5.0:money 5:deck /:money x:money +:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 95 | 14=((x/5.0)-5) | 14 x 5.0 / 5 - = | 14:deck x:deck 5.0:money /:deck 5:deck -:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 0 | 5.0=(5+(x/14)) | 5.0 5 x 14 / + = | 5.0:money 5:money x:money 14:deck /:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 75 | 14=((x-5.0)/5) | 14 x 5.0 - 5 / = | 14:money x:money 5.0:money -:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 0 | 5.0=(5+(x*14)) | 5.0 5 x 14 * + = | 5.0:money 5:money x:money 14:deck *:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 15 | 14=(x-(5.0/5)) | 14 x 5.0 5 / - = | 14:money x:money 5.0:money 5:deck /:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 45 | 45 | ((x/5.0)+5)=14 | x 5.0 / 5 + 14 = | x:deck 5.0:money /:deck 5:deck +:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 39 | 14=(x-(5.0*5)) | 14 x 5.0 5 * - = | 14:money x:money 5.0:money 5:deck *:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 65 | 14=((x+5.0)/5) | 14 x 5.0 + 5 / = | 14:money x:money 5.0:money +:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | 14=(x*(5.0-5)) | 14 x 5.0 5 - * = | 14:deck x:money 5.0:deck 5:deck -:deck *:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 0 | 5.0=(5-(x*14)) | 5.0 5 x 14 * - = | 5.0:money 5:money x:money 14:deck *:money -:money =:money
+EXPR: 1 | POS | INT | 14 | 45 | 45 | 14=((x/5.0)+5) | 14 x 5.0 / 5 + = | 14:deck x:deck 5.0:money /:deck 5:deck +:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 0 | 5.0=(5-(x/14)) | 5.0 5 x 14 / - = | 5.0:money 5:money x:money 14:deck /:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 13 | 14=(x+(5.0/5)) | 14 x 5.0 5 / + = | 14:money x:money 5.0:money 5:deck /:money +:money =:money
+EXPR: 1 | POS | INT | 14 | 45 | 45 | (5.0+(x/5))=14 | 5.0 x 5 / + 14 = | 5.0:money x:money 5:deck /:money +:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 |  | ((14*x)+5.0)=5 | 14 x * 5.0 + 5 = | 14:deck x:money *:money 5.0:money +:money 5:money =:money
+EXPR: 1 | POS | INT | 14 | 45 | 45 | (14-(x/5.0))=5 | 14 x 5.0 / - 5 = | 14:deck x:deck 5.0:money /:deck -:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 140 | ((x/14)-5.0)=5 | x 14 / 5.0 - 5 = | x:money 14:deck /:money 5.0:money -:money 5:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 0 | 5.0=(5+(14*x)) | 5.0 5 14 x * + = | 5.0:money 5:money 14:deck x:money *:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 45 |  | ((x*14)+5.0)=5 | x 14 * 5.0 + 5 = | x:money 14:deck *:deck 5.0:deck +:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 0 | 5.0=(5-(14*x)) | 5.0 5 14 x * - = | 5.0:money 5:money 14:deck x:money *:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 65 | ((5.0+x)/5)=14 | 5.0 x + 5 / 14 = | 5.0:money x:money +:money 5:deck /:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 15 | ((x-14)*5.0)=5 | x 14 - 5.0 * 5 = | x:deck 14:deck -:deck 5.0:money *:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 |  | ((x/14)+5.0)=5 | x 14 / 5.0 + 5 = | x:money 14:deck /:money 5.0:money +:money 5:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | ((14/x)+5.0)=5 | 14 x / 5.0 + 5 = | 14:deck x:money /:deck 5.0:deck +:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | - | (x*(5.0-5))=14 | x 5.0 5 - * 14 = | x:money 5.0:deck 5:deck -:deck *:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 95 | ((x/5.0)-5)=14 | x 5.0 / 5 - 14 = | x:deck 5.0:money /:deck 5:deck -:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 350 | (5.0*5)=(x/14) | 5.0 5 * x 14 / = | 5.0:money 5:deck *:money x:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 15 | 5.0=(5*(x-14)) | 5.0 5 x 14 - * = | 5.0:money 5:deck x:money 14:money -:money *:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | ((5.0-5)*x)=14 | 5.0 5 - x * 14 = | 5.0:deck 5:deck -:deck x:money *:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 39 | ((x-14)/5.0)=5 | x 14 - 5.0 / 5 = | x:deck 14:deck -:deck 5.0:money /:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 15 | (x-(5.0/5))=14 | x 5.0 5 / - 14 = | x:money 5.0:money 5:deck /:money -:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | 14=((5.0-5)/x) | 14 5.0 5 - x / = | 14:deck 5.0:deck 5:deck -:deck x:money /:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 14 | (5.0/5)=(x/14) | 5.0 5 / x 14 / = | 5.0:money 5:deck /:money x:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 11 | ((x+14)/5.0)=5 | x 14 + 5.0 / 5 = | x:deck 14:deck +:deck 5.0:money /:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 65 | 5.0=((x+5)/14) | 5.0 x 5 + 14 / = | 5.0:money x:money 5:money +:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 350 | (x/14)=(5.0*5) | x 14 / 5.0 5 * = | x:money 14:deck /:money 5.0:money 5:deck *:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | 14=((5.0-5)*x) | 14 5.0 5 - x * = | 14:deck 5.0:deck 5:deck -:deck x:money *:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 65 | 5.0=((5+x)/14) | 5.0 5 x + 14 / = | 5.0:money 5:money x:money +:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 75 | 5.0=((x-5)/14) | 5.0 x 5 - 14 / = | 5.0:money x:money 5:money -:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 13 | 14=((5.0/5)+x) | 14 5.0 5 / x + = | 14:money 5.0:money 5:deck /:money x:money +:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 75 | ((x-5.0)/5)=14 | x 5.0 - 5 / 14 = | x:money 5.0:money -:money 5:deck /:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | 5.0=(5-(14/x)) | 5.0 5 14 x / - = | 5.0:deck 5:deck 14:deck x:money /:deck -:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 11 | ((14+x)/5.0)=5 | 14 x + 5.0 / 5 = | 14:deck x:deck +:deck 5.0:money /:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 13 | 5.0=(5*(14-x)) | 5.0 5 14 x - * = | 5.0:money 5:deck 14:money x:money -:money *:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 11 | 14=((5.0*5)-x) | 14 5.0 5 * x - = | 14:money 5.0:money 5:deck *:money x:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | 5.0=(5+(14/x)) | 5.0 5 14 x / + = | 5.0:deck 5:deck 14:deck x:money /:deck +:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 39 | (x-(5.0*5))=14 | x 5.0 5 * - 14 = | x:money 5.0:money 5:deck *:money -:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 13 | (x+(5.0/5))=14 | x 5.0 5 / + 14 = | x:money 5.0:money 5:deck /:money +:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 65 | 14=((5.0+x)/5) | 14 5.0 x + 5 / = | 14:money 5.0:money x:money +:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 65 | ((x+5.0)/5)=14 | x 5.0 + 5 / 14 = | x:money 5.0:money +:money 5:deck /:money 14:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 13 | ((14-x)*5.0)=5 | 14 x - 5.0 * 5 = | 14:deck x:deck -:deck 5.0:money *:deck 5:deck =:deck
+EXPR: 0 | POS | INT | 14 | 45 | 14 | (x/14)=(5.0/5) | x 14 / 5.0 5 / = | x:money 14:deck /:money 5.0:money 5:deck /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 95 | 5.0=((x/5)-14) | 5.0 x 5 / 14 - = | 5.0:money x:money 5:deck /:money 14:money -:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | - | ((5.0-5)/x)=14 | 5.0 5 - x / 14 = | 5.0:deck 5:deck -:deck x:money /:deck 14:deck =:deck
+EXPR: 1 | POS | INT | 14 | 45 | 45 | 14=(5.0+(x/5)) | 14 5.0 x 5 / + = | 14:money 5.0:money x:money 5:deck /:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 65 | x=((14*5)-5.0) | x 14 5 * 5.0 - = | x:money 14:deck 5:money *:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 75 | x=((14*5)+5.0) | x 14 5 * 5.0 + = | x:money 14:deck 5:money *:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 75 | x=(5+(5.0*14)) | x 5 5.0 14 * + = | x:deck 5:deck 5.0:money 14:deck *:deck +:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 65 | ((14*5)-5.0)=x | 14 5 * 5.0 - x = | 14:deck 5:money *:money 5.0:money -:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 15 | (14+(5/5.0))=x | 14 5 5.0 / + x = | 14:deck 5:deck 5.0:money /:deck +:deck x:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 75 | ((14*5)+5.0)=x | 14 5 * 5.0 + x = | 14:deck 5:money *:money 5.0:money +:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 13 | x=(14-(5/5.0)) | x 14 5 5.0 / - = | x:deck 14:deck 5:deck 5.0:money /:deck -:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 15 | x=(14+(5/5.0)) | x 14 5 5.0 / + = | x:deck 14:deck 5:deck 5.0:money /:deck +:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 95 | (5*(5.0+14))=x | 5 5.0 14 + * x = | 5:deck 5.0:money 14:money +:money *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 75 | (5+(5.0*14))=x | 5 5.0 14 * + x = | 5:deck 5.0:money 14:deck *:deck +:deck x:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 95 | x=(5*(5.0+14)) | x 5 5.0 14 + * = | x:money 5:deck 5.0:money 14:money +:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 0 | (14*(5-5.0))=x | 14 5 5.0 - * x = | 14:deck 5:money 5.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 13 | (14-(5/5.0))=x | 14 5 5.0 / - x = | 14:deck 5:deck 5.0:money /:deck -:deck x:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 0 | ((5-5.0)/14)=x | 5 5.0 - 14 / x = | 5:money 5.0:money -:money 14:deck /:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 45 |  | x=(14*(5-5.0)) | x 14 5 5.0 - * = | x:money 14:deck 5:money 5.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 15 | x=((5/5.0)+14) | x 5 5.0 / 14 + = | x:deck 5:deck 5.0:money /:deck 14:deck +:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 |  | x=((5-5.0)/14) | x 5 5.0 - 14 / = | x:money 5:money 5.0:money -:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 15 | 45 | 15 | ((5/5.0)+14)=x | 5 5.0 / 14 + x = | 5:deck 5.0:money /:deck 14:deck +:deck x:deck =:deck
+EXPR: 0 | POS | INT | 15 | 45 | 0 | ((5-5.0)*14)=x | 5 5.0 - 14 * x = | 5:money 5.0:money -:money 14:deck *:money x:money =:money
+EXPR: 0 | POS | INT | 15 | 45 |  | x=((5-5.0)*14) | x 5 5.0 - 14 * = | x:money 5:money 5.0:money -:money 14:deck *:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 13 | 5=(5.0*(14-x)) | 5 5.0 14 x - * = | 5:deck 5.0:money 14:deck x:deck -:deck *:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 15 | 5=(5.0*(x-14)) | 5 5.0 x 14 - * = | 5:deck 5.0:money x:deck 14:deck -:deck *:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 140 | ((x/14)-5)=5.0 | x 14 / 5 - 5.0 = | x:money 14:deck /:money 5:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 65 | ((14*5)-x)=5.0 | 14 5 * x - 5.0 = | 14:money 5:deck *:money x:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 95 | 5=((x/5.0)-14) | 5 x 5.0 / 14 - = | 5:deck x:deck 5.0:money /:deck 14:deck -:deck =:deck
+EXPR: 1 | POS | INT | 17 | 45 | 45 | (5+(x/5.0))=14 | 5 x 5.0 / + 14 = | 5:deck x:deck 5.0:money /:deck +:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 14 | (5/5.0)=(14/x) | 5 5.0 / 14 x / = | 5:deck 5.0:money /:deck 14:deck x:money /:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 15 | (x-(5/5.0))=14 | x 5 5.0 / - 14 = | x:deck 5:deck 5.0:money /:deck -:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 65 | 5=((5.0*14)-x) | 5 5.0 14 * x - = | 5:deck 5.0:money 14:deck *:deck x:deck -:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 75 | 5=((x-5.0)/14) | 5 x 5.0 - 14 / = | 5:money x:money 5.0:money -:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 65 | 5=((x+5.0)/14) | 5 x 5.0 + 14 / = | 5:money x:money 5.0:money +:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 75 | 5=(x-(5.0*14)) | 5 x 5.0 14 * - = | 5:deck x:deck 5.0:money 14:deck *:deck -:deck =:deck
+EXPR: 1 | POS | INT | 17 | 45 | 45 | (14-(x/5))=5.0 | 14 x 5 / - 5.0 = | 14:money x:money 5:deck /:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 0 | 5=(5.0-(14*x)) | 5 5.0 14 x * - = | 5:money 5.0:money 14:deck x:money *:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 13 | (x+(5/5.0))=14 | x 5 5.0 / + 14 = | x:deck 5:deck 5.0:money /:deck +:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | - | 14=(x*(5-5.0)) | 14 x 5 5.0 - * = | 14:deck x:money 5:deck 5.0:deck -:deck *:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 0 | 5=(5.0+(14*x)) | 5 5.0 14 x * + = | 5:money 5.0:money 14:deck x:money *:money +:money =:money
+EXPR: 1 | POS | INT | 17 | 45 | 45 | (5*(14-5.0))=x | 5 14 5.0 - * x = | 5:deck 14:money 5.0:money -:money *:money x:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | - | ((14/x)+5)=5.0 | 14 x / 5 + 5.0 = | 14:deck x:money /:deck 5:deck +:deck 5.0:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 95 | ((x/5)-5.0)=14 | x 5 / 5.0 - 14 = | x:money 5:deck /:money 5.0:money -:money 14:money =:money
+EXPR: 1 | POS | INT | 17 | 45 | 45 | x=(5*(14-5.0)) | x 5 14 5.0 - * = | x:money 5:deck 14:money 5.0:money -:money *:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 75 | ((x-5)/5.0)=14 | x 5 - 5.0 / 14 = | x:deck 5:deck -:deck 5.0:money /:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 13 | 14=((5/5.0)+x) | 14 5 5.0 / x + = | 14:deck 5:deck 5.0:money /:deck x:deck +:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | - | 14=((5-5.0)/x) | 14 5 5.0 - x / = | 14:deck 5:deck 5.0:deck -:deck x:money /:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 15 | 14=(x-(5/5.0)) | 14 x 5 5.0 / - = | 14:deck x:deck 5:deck 5.0:money /:deck -:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 11 | ((14+x)/5)=5.0 | 14 x + 5 / 5.0 = | 14:money x:money +:money 5:deck /:money 5.0:money =:money
+EXPR: 1 | POS | INT | 17 | 45 | 45 | 14=(5+(x/5.0)) | 14 5 x 5.0 / + = | 14:deck 5:deck x:deck 5.0:money /:deck +:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | - | 14=((5-5.0)*x) | 14 5 5.0 - x * = | 14:deck 5:deck 5.0:deck -:deck x:money *:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 14 | (x*5)=(5.0*14) | x 5 * 5.0 14 * = | x:money 5:deck *:deck 5.0:money 14:deck *:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 13 | ((14-x)*5)=5.0 | 14 x - 5 * 5.0 = | 14:money x:money -:money 5:deck *:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 75 | (x-(14*5))=5.0 | x 14 5 * - 5.0 = | x:money 14:deck 5:money *:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 |  | ((14*x)+5)=5.0 | 14 x * 5 + 5.0 = | 14:deck x:money *:deck 5:deck +:deck 5.0:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 14 | (5*x)=(5.0*14) | 5 x * 5.0 14 * = | 5:deck x:money *:deck 5.0:money 14:deck *:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 |  | ((x/14)+5)=5.0 | x 14 / 5 + 5.0 = | x:money 14:deck /:money 5:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 65 | 5=((5.0+x)/14) | 5 5.0 x + 14 / = | 5:money 5.0:money x:money +:money 14:deck /:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 0 | 5=(5.0-(x/14)) | 5 5.0 x 14 / - = | 5:money 5.0:money x:money 14:deck /:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 0 | 5=(5.0-(x*14)) | 5 5.0 x 14 * - = | 5:deck 5.0:deck x:money 14:deck *:deck -:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 65 | ((x+5)/5.0)=14 | x 5 + 5.0 / 14 = | x:deck 5:deck +:deck 5.0:money /:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 13 | ((5/5.0)+x)=14 | 5 5.0 / x + 14 = | 5:deck 5.0:money /:deck x:deck +:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 13 | 14=(x+(5/5.0)) | 14 x 5 5.0 / + = | 14:deck x:deck 5:deck 5.0:money /:deck +:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 65 | 14=((5+x)/5.0) | 14 5 x + 5.0 / = | 14:deck 5:deck x:deck +:deck 5.0:money /:deck =:deck
+EXPR: 1 | POS | INT | 17 | 45 | 45 | ((x/5)+5.0)=14 | x 5 / 5.0 + 14 = | x:money 5:deck /:money 5.0:money +:money 14:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | - | 5=(5.0-(14/x)) | 5 5.0 14 x / - = | 5:deck 5.0:deck 14:deck x:money /:deck -:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | - | 5=(5.0+(14/x)) | 5 5.0 14 x / + = | 5:deck 5.0:deck 14:deck x:money /:deck +:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 65 | ((5+x)/5.0)=14 | 5 x + 5.0 / 14 = | 5:deck x:deck +:deck 5.0:money /:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 0 | 5=(5.0+(x/14)) | 5 5.0 x 14 / + = | 5:money 5.0:money x:money 14:deck /:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 350 | (x/5)=(5.0*14) | x 5 / 5.0 14 * = | x:money 5:deck /:money 5.0:money 14:deck *:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 39 | ((x-14)/5)=5.0 | x 14 - 5 / 5.0 = | x:money 14:money -:money 5:deck /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 95 | 14=((x/5)-5.0) | 14 x 5 / 5.0 - = | 14:money x:money 5:deck /:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 11 | ((x+14)/5)=5.0 | x 14 + 5 / 5.0 = | x:money 14:money +:money 5:deck /:money 5.0:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | - | ((5-5.0)/x)=14 | 5 5.0 - x / 14 = | 5:deck 5.0:deck -:deck x:money /:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | - | (x*(5-5.0))=14 | x 5 5.0 - * 14 = | x:money 5:deck 5.0:deck -:deck *:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 |  | ((x*14)+5)=5.0 | x 14 * 5 + 5.0 = | x:money 14:deck *:deck 5:deck +:deck 5.0:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | - | ((5-5.0)*x)=14 | 5 5.0 - x * 14 = | 5:deck 5.0:deck -:deck x:money *:deck 14:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 15 | ((x-14)*5)=5.0 | x 14 - 5 * 5.0 = | x:money 14:money -:money 5:deck *:money 5.0:money =:money
+EXPR: 1 | POS | INT | 17 | 45 | 45 | 14=((x/5)+5.0) | 14 x 5 / 5.0 + = | 14:money x:money 5:deck /:money 5.0:money +:money =:money
+EXPR: 0 | POS | INT | 17 | 45 | 14 | (14/x)=(5/5.0) | 14 x / 5 5.0 / = | 14:deck x:money /:deck 5:deck 5.0:money /:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 0 | 5=(5.0+(x*14)) | 5 5.0 x 14 * + = | 5:deck 5.0:deck x:money 14:deck *:deck +:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 75 | 14=((x-5)/5.0) | 14 x 5 - 5.0 / = | 14:deck x:deck 5:deck -:deck 5.0:money /:deck =:deck
+EXPR: 0 | POS | INT | 17 | 45 | 65 | 14=((x+5)/5.0) | 14 x 5 + 5.0 / = | 14:deck x:deck 5:deck +:deck 5.0:money /:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 95 | ((x/5)-14)=5.0 | x 5 / 14 - 5.0 = | x:money 5:deck /:money 14:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 19 | 45 | 11 | 5=((x+14)/5.0) | 5 x 14 + 5.0 / = | 5:deck x:deck 14:deck +:deck 5.0:money /:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 39 | 5=((x-14)/5.0) | 5 x 14 - 5.0 / = | 5:deck x:deck 14:deck -:deck 5.0:money /:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 140 | 5=((x/14)-5.0) | 5 x 14 / 5.0 - = | 5:money x:money 14:deck /:money 5.0:money -:money =:money
+EXPR: 0 | POS | INT | 19 | 45 |  | (5+(x*14))=5.0 | 5 x 14 * + 5.0 = | 5:deck x:money 14:deck *:deck +:deck 5.0:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 |  | (5+(x/14))=5.0 | 5 x 14 / + 5.0 = | 5:money x:money 14:deck /:money +:money 5.0:money =:money
+EXPR: 0 | POS | INT | 19 | 45 |  | (5-(x/14))=5.0 | 5 x 14 / - 5.0 = | 5:money x:money 14:deck /:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 19 | 45 |  | (5-(14*x))=5.0 | 5 14 x * - 5.0 = | 5:deck 14:deck x:money *:deck -:deck 5.0:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 |  | (5+(14*x))=5.0 | 5 14 x * + 5.0 = | 5:deck 14:deck x:money *:deck +:deck 5.0:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 13 | (5*(14-x))=5.0 | 5 14 x - * 5.0 = | 5:deck 14:money x:money -:money *:money 5.0:money =:money
+EXPR: 1 | POS | INT | 19 | 45 | 45 | 5=(14-(x/5.0)) | 5 14 x 5.0 / - = | 5:deck 14:deck x:deck 5.0:money /:deck -:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 15 | (5*(x-14))=5.0 | 5 x 14 - * 5.0 = | 5:deck x:money 14:money -:money *:money 5.0:money =:money
+EXPR: 0 | POS | INT | 19 | 45 | 15 | 5=((x-14)*5.0) | 5 x 14 - 5.0 * = | 5:deck x:deck 14:deck -:deck 5.0:money *:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 0 | 5=((x*14)+5.0) | 5 x 14 * 5.0 + = | 5:deck x:money 14:deck *:deck 5.0:deck +:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 |  | (5-(x*14))=5.0 | 5 x 14 * - 5.0 = | 5:money x:money 14:deck *:money -:money 5.0:money =:money
+EXPR: 0 | POS | INT | 19 | 45 | - | 5=((14/x)+5.0) | 5 14 x / 5.0 + = | 5:deck 14:deck x:money /:deck 5.0:deck +:deck =:deck
+EXPR: 0 | POS | INT | 19 | 45 | 0 | 5=((14*x)+5.0) | 5 14 x * 5.0 + = | 5:deck 14:deck x:money *:deck 5.0:deck +:deck =:deck
+NET 230 unique, non-negative, integer-valued solutions found out of 1000 total solutions

@@ -1,0 +1,5 @@
+quantities : 40 20 4 x
+types : "book" "book" "book" "shelf"
+operators : + - * / =
+n : 7
+answer : 5.0

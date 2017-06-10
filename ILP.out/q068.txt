@@ -1,0 +1,5 @@
+quantities : 6 48 7 x
+types : "girl" "boy" "boy" "student"
+operators : + - * / =
+n : 7
+answer : 47.0

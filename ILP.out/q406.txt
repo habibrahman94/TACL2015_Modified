@@ -1,0 +1,5 @@
+quantities : 10 8 8 x
+types : "room" "hour" "room" "room"
+operators : + - * / =
+n : 7
+answer : 16.0

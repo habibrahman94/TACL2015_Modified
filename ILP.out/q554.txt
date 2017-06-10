@@ -1,0 +1,5 @@
+quantities : 12 x 4 4
+types : "point" "player" "point" "point"
+operators : + - * / =
+n : 7
+answer : 2.0

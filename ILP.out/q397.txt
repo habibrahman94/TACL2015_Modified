@@ -1,0 +1,5 @@
+quantities : x 9 40 14
+types : "van" "people" "student" "adult"
+operators : + - * / =
+n : 7
+answer : 6.0

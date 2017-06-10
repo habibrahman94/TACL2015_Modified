@@ -1,0 +1,149 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 4 | 55 | ((4*11)+11)=x | 4 11 * 11 + x = | 4:tulip 11:flower *:flower 11:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 88 | x=(4*(11+11)) | x 4 11 11 + * = | x:flower 4:tulip 11:flower 11:flower +:flower *:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 55 | x=((4*11)+11) | x 4 11 * 11 + = | x:flower 4:flower 11:rose *:flower 11:flower +:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 125 | x=(4+(11*11)) | x 4 11 11 * + = | x:flower 4:flower 11:rose 11:flower *:flower +:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 165 | x=((4+11)*11) | x 4 11 + 11 * = | x:flower 4:tulip 11:tulip +:tulip 11:flower *:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 33 | x=((4*11)-11) | x 4 11 * 11 - = | x:flower 4:flower 11:rose *:flower 11:flower -:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 |  | x=(4*(11-11)) | x 4 11 11 - * = | x:flower 4:tulip 11:flower 11:flower -:flower *:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 165 | ((4+11)*11)=x | 4 11 + 11 * x = | 4:rose 11:rose +:rose 11:flower *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 33 | ((4*11)-11)=x | 4 11 * 11 - x = | 4:flower 11:rose *:flower 11:flower -:flower x:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 88 | (4*(11+11))=x | 4 11 11 + * x = | 4:tulip 11:flower 11:flower +:flower *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 0 | (4*(11-11))=x | 4 11 11 - * x = | 4:tulip 11:flower 11:flower -:flower *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 10 | 4 | 125 | (4+(11*11))=x | 4 11 11 * + x = | 4:flower 11:rose 11:flower *:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 5 | ((x-4)*11)=11 | x 4 - 11 * 11 = | x:flower 4:flower -:flower 11:rose *:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 77 | (4+(x/11))=11 | 4 x 11 / + 11 = | 4:flower x:flower 11:rose /:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 5 | (4+(11/11))=x | 4 11 11 / + x = | 4:flower 11:flower 11:rose /:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 3 | (4-(11/11))=x | 4 11 11 / - x = | 4:flower 11:flower 11:rose /:flower -:flower x:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 33 | ((4*11)-x)=11 | 4 11 * x - 11 = | 4:flower 11:rose *:flower x:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 165 | (11*(4+11))=x | 11 4 11 + * x = | 11:rose 4:flower 11:flower +:flower *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 165 | (x/(4+11))=11 | x 4 11 + / 11 = | x:flower 4:tulip 11:tulip +:tulip /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 77 | x=((11-4)*11) | x 11 4 - 11 * = | x:flower 11:tulip 4:tulip -:tulip 11:flower *:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 484 | (x/4)=(11*11) | x 4 / 11 11 * = | x:flower 4:tulip /:flower 11:rose 11:flower *:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 117 | ((4+x)/11)=11 | 4 x + 11 / 11 = | 4:flower x:flower +:flower 11:rose /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 125 | 4=(x-(11*11)) | 4 x 11 11 * - = | 4:flower x:flower 11:rose 11:flower *:flower -:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 77 | ((11-4)*11)=x | 11 4 - 11 * x = | 11:tulip 4:tulip -:tulip 11:flower *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 55 | (x-(4*11))=11 | x 4 11 * - 11 = | x:flower 4:flower 11:rose *:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 |  | ((x*4)+11)=11 | x 4 * 11 + 11 = | x:flower 4:tulip *:flower 11:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 |  | ((x/4)+11)=11 | x 4 / 11 + 11 = | x:flower 4:tulip /:flower 11:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 12 | 4 | 3 | ((4-x)*11)=11 | 4 x - 11 * 11 = | 4:flower x:flower -:flower 11:rose *:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 |  | (11+(x*4))=11 | 11 x 4 * + 11 = | 11:flower x:flower 4:tulip *:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 |  | (11-(x*4))=11 | 11 x 4 * - 11 = | 11:flower x:flower 4:tulip *:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 77 | (x/(11-4))=11 | x 11 4 - / 11 = | x:flower 11:rose 4:rose -:rose /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 77 | ((x/11)+4)=11 | x 11 / 4 + 11 = | x:flower 11:rose /:flower 4:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 3 | (11*(4-x))=11 | 11 4 x - * 11 = | 11:rose 4:flower x:flower -:flower *:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 55 | 4=((x-11)/11) | 4 x 11 - 11 / = | 4:flower x:flower 11:flower -:flower 11:rose /:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 33 | 4=((x+11)/11) | 4 x 11 + 11 / = | 4:flower x:flower 11:flower +:flower 11:rose /:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 55 | 11=(x-(4*11)) | 11 x 4 11 * - = | 11:flower x:flower 4:tulip 11:flower *:flower -:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 0 | 11=((x*4)+11) | 11 x 4 * 11 + = | 11:flower x:flower 4:tulip *:flower 11:flower +:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 0 | 11=((x/4)+11) | 11 x 4 / 11 + = | 11:flower x:flower 4:tulip /:flower 11:flower +:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 88 | 11=((x/4)-11) | 11 x 4 / 11 - = | 11:flower x:flower 4:tulip /:flower 11:flower -:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 |  | (11-(x/4))=11 | 11 x 4 / - 11 = | 11:flower x:flower 4:tulip /:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 33 | ((x+11)/4)=11 | x 11 + 4 / 11 = | x:flower 11:flower +:flower 4:tulip /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 14 | 4 | 55 | ((x-11)/4)=11 | x 11 - 4 / 11 = | x:flower 11:flower -:flower 4:tulip /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 15 | 4 | 55 | x=(11+(4*11)) | x 11 4 11 * + = | x:flower 11:flower 4:flower 11:rose *:flower +:flower =:flower
+EXPR: 0 | POS | INT | 15 | 4 | 55 | (11+(4*11))=x | 11 4 11 * + x = | 11:flower 4:tulip 11:flower *:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 15 | 4 | 77 | x=(11*(11-4)) | x 11 11 4 - * = | x:flower 11:rose 11:flower 4:flower -:flower *:flower =:flower
+EXPR: 0 | POS | INT | 15 | 4 | 165 | x=(11*(4+11)) | x 11 4 11 + * = | x:flower 11:flower 4:rose 11:rose +:rose *:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 |  | (11-(4*x))=11 | 11 4 x * - 11 = | 11:flower 4:tulip x:flower *:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 5 | ((11/11)+4)=x | 11 11 / 4 + x = | 11:flower 11:rose /:flower 4:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 33 | ((11+x)/4)=11 | 11 x + 4 / 11 = | 11:flower x:flower +:flower 4:tulip /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 11=((4*x)+11) | 11 4 x * 11 + = | 11:flower 4:tulip x:flower *:flower 11:flower +:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 11=(11+(x*4)) | 11 11 x 4 * + = | 11:flower 11:flower x:flower 4:tulip *:flower +:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 77 | (11*(11-4))=x | 11 11 4 - * x = | 11:flower 11:rose 4:rose -:rose *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 |  | (11+(4*x))=11 | 11 4 x * + 11 = | 11:flower 4:tulip x:flower *:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 55 | 11=((x-11)/4) | 11 x 11 - 4 / = | 11:flower x:flower 11:flower -:flower 4:tulip /:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 33 | 11=((x+11)/4) | 11 x 11 + 4 / = | 11:flower x:flower 11:flower +:flower 4:tulip /:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 0 | ((11-11)*4)=x | 11 11 - 4 * x = | 11:flower 11:flower -:flower 4:tulip *:flower x:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 0 | ((11-11)/4)=x | 11 11 - 4 / x = | 11:flower 11:flower -:flower 4:tulip /:flower x:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 11=(11-(4*x)) | 11 11 4 x * - = | 11:flower 11:flower 4:tulip x:flower *:flower -:flower =:flower
+EXPR: 0 | POS | INT | 17 | 4 | 0 | 11=(11+(4*x)) | 11 11 4 x * + = | 11:flower 11:flower 4:tulip x:flower *:flower +:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 3 | ((11/11)+x)=4 | 11 11 / x + 4 = | 11:flower 11:rose /:flower x:flower +:flower 4:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 77 | 11=(x/(11-4)) | 11 x 11 4 - / = | 11:flower x:flower 11:rose 4:rose -:rose /:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 55 | ((x-11)/11)=4 | x 11 - 11 / 4 = | x:flower 11:flower -:flower 11:rose /:flower 4:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 33 | ((x+11)/11)=4 | x 11 + 11 / 4 = | x:flower 11:flower +:flower 11:rose /:flower 4:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 33 | ((11+x)/11)=4 | 11 x + 11 / 4 = | 11:flower x:flower +:flower 11:rose /:flower 4:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 11=(11+(x/4)) | 11 11 x 4 / + = | 11:flower 11:flower x:flower 4:tulip /:flower +:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 0 | 11=(11-(x/4)) | 11 11 x 4 / - = | 11:flower 11:flower x:flower 4:tulip /:flower -:flower =:flower
+EXPR: 0 | POS | INT | 19 | 4 | 77 | (11-(x/11))=4 | 11 x 11 / - 4 = | 11:flower x:flower 11:rose /:flower -:flower 4:flower =:flower
+EXPR: 1 | POS | INT | 20 | 4 | 4 | x=(4+(11-11)) | x 4 11 11 - + = | x:flower 4:flower 11:flower 11:flower -:flower +:flower =:flower
+EXPR: 0 | POS | INT | 20 | 4 | 26 | x=(4+(11+11)) | x 4 11 11 + + = | x:flower 4:flower 11:flower 11:flower +:flower +:flower =:flower
+EXPR: 0 | POS | INT | 20 | 4 | 5 | x=(4+(11/11)) | x 4 11 11 / + = | x:tulip 4:tulip 11:tulip 11:flower /:tulip +:tulip =:tulip
+EXPR: 0 | POS | INT | 20 | 4 | 26 | (4+(11+11))=x | 4 11 11 + + x = | 4:flower 11:flower 11:flower +:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 20 | 4 | 3 | x=(4-(11/11)) | x 4 11 11 / - = | x:rose 4:rose 11:rose 11:flower /:rose -:rose =:rose
+EXPR: 0 | POS | INT | 20 | 4 | 26 | ((4+11)+11)=x | 4 11 + 11 + x = | 4:flower 11:flower +:flower 11:flower +:flower x:flower =:flower
+EXPR: 1 | POS | INT | 20 | 4 | 4 | x=(4-(11-11)) | x 4 11 11 - - = | x:flower 4:flower 11:flower 11:flower -:flower -:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 18 | ((4+x)-11)=11 | 4 x + 11 - 11 = | 4:flower x:flower +:flower 11:flower -:flower 11:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | ((4+11)-11)=x | 4 11 + 11 - x = | 4:flower 11:flower +:flower 11:flower -:flower x:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 484 | (4*11)=(x/11) | 4 11 * x 11 / = | 4:tulip 11:rose *:tulip x:tulip 11:flower /:tulip =:tulip
+EXPR: 0 | POS | INT | 22 | 4 | 18 | x=((11-4)+11) | x 11 4 - 11 + = | x:flower 11:flower 4:flower -:flower 11:flower +:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | (4+(11-11))=x | 4 11 11 - + x = | 4:flower 11:flower 11:flower -:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | - | 4=(x*(11-11)) | 4 x 11 11 - * = | 4:tulip x:flower 11:tulip 11:tulip -:tulip *:tulip =:tulip
+EXPR: 0 | POS | INT | 22 | 4 | zoo | x=(4/(11-11)) | x 4 11 11 - / = | x:flower 4:flower 11:rose 11:rose -:rose /:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | ((4-x)+11)=11 | 4 x - 11 + 11 = | 4:flower x:flower -:flower 11:flower +:flower 11:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | ((4-11)+11)=x | 4 11 - 11 + x = | 4:flower 11:flower -:flower 11:flower +:flower x:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | 4=(x-(11-11)) | 4 x 11 11 - - = | 4:flower x:flower 11:flower 11:flower -:flower -:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 26 | 4=(x-(11+11)) | 4 x 11 11 + - = | 4:flower x:flower 11:flower 11:flower +:flower -:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | 4=((x-11)+11) | 4 x 11 - 11 + = | 4:flower x:flower 11:flower -:flower 11:flower +:flower =:flower
+EXPR: 1 | POS | INT | 22 | 4 | 4 | 4=((x+11)-11) | 4 x 11 + 11 - = | 4:flower x:flower 11:flower +:flower 11:flower -:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 26 | 4=((x-11)-11) | 4 x 11 - 11 - = | 4:flower x:flower 11:flower -:flower 11:flower -:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 3 | 4=((11/11)+x) | 4 11 11 / x + = | 4:rose 11:rose 11:flower /:rose x:rose +:rose =:rose
+EXPR: 0 | POS | INT | 22 | 4 | - | 4=((11-11)*x) | 4 11 11 - x * = | 4:rose 11:rose 11:rose -:rose x:flower *:rose =:rose
+EXPR: 1 | POS | INT | 22 | 4 | 4 | 4=(11+(x-11)) | 4 11 x 11 - + = | 4:flower 11:flower x:flower 11:flower -:flower +:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 117 | 4=((11*11)-x) | 4 11 11 * x - = | 4:rose 11:rose 11:flower *:rose x:rose -:rose =:rose
+EXPR: 0 | POS | INT | 22 | 4 | 18 | ((11-4)+11)=x | 11 4 - 11 + x = | 11:flower 4:flower -:flower 11:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 18 | 4=(11-(x-11)) | 4 11 x 11 - - = | 4:flower 11:flower x:flower 11:flower -:flower -:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 18 | ((x+4)-11)=11 | x 4 + 11 - 11 = | x:flower 4:flower +:flower 11:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 77 | 4=(11-(x/11)) | 4 11 x 11 / - = | 4:tulip 11:tulip x:tulip 11:flower /:tulip -:tulip =:tulip
+EXPR: 0 | POS | INT | 22 | 4 | 117 | ((x+4)/11)=11 | x 4 + 11 / 11 = | x:flower 4:flower +:flower 11:tulip /:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 22 | 4 | 3 | 4=(x+(11/11)) | 4 x 11 11 / + = | 4:tulip x:tulip 11:tulip 11:flower /:tulip +:tulip =:tulip
+EXPR: 0 | POS | INT | 24 | 4 | 33 | 11=((4*11)-x) | 11 4 11 * x - = | 11:rose 4:tulip 11:rose *:rose x:rose -:rose =:rose
+EXPR: 0 | POS | INT | 24 | 4 | 484 | (x/11)=(4*11) | x 11 / 4 11 * = | x:flower 11:tulip /:flower 4:tulip 11:flower *:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 | 165 | 11=(x/(4+11)) | 11 x 4 11 + / = | 11:flower x:flower 4:tulip 11:tulip +:tulip /:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 |  | ((4*x)+11)=11 | 4 x * 11 + 11 = | 4:tulip x:flower *:tulip 11:tulip +:tulip 11:tulip =:tulip
+EXPR: 1 | POS | INT | 24 | 4 | 4 | (11-(x-4))=11 | 11 x 4 - - 11 = | 11:flower x:flower 4:flower -:flower -:flower 11:flower =:flower
+EXPR: 1 | POS | INT | 24 | 4 | 4 | (11+(x-4))=11 | 11 x 4 - + 11 = | 11:flower x:flower 4:flower -:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 | 18 | 11=((x+4)-11) | 11 x 4 + 11 - = | 11:flower x:flower 4:flower +:flower 11:flower -:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 | 3 | (11/(4-x))=11 | 11 4 x - / 11 = | 11:rose 4:flower x:flower -:flower /:rose 11:rose =:rose
+EXPR: 1 | POS | INT | 24 | 4 | 4 | 11=((x-4)+11) | 11 x 4 - 11 + = | 11:flower x:flower 4:flower -:flower 11:flower +:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 | 5 | (11*(x-4))=11 | 11 x 4 - * 11 = | 11:rose x:flower 4:flower -:flower *:rose 11:rose =:rose
+EXPR: 1 | POS | INT | 24 | 4 | 4 | ((11-x)+4)=11 | 11 x - 4 + 11 = | 11:flower x:flower -:flower 4:flower +:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 |  | (x/4)=(11-11) | x 4 / 11 11 - = | x:flower 4:tulip /:flower 11:flower 11:flower -:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 |  | (x*4)=(11-11) | x 4 * 11 11 - = | x:flower 4:tulip *:flower 11:flower 11:flower -:flower =:flower
+EXPR: 1 | POS | INT | 24 | 4 | 4 | (4*11)=(11*x) | 4 11 * 11 x * = | 4:tulip 11:flower *:flower 11:tulip x:flower *:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 | 5 | (11/(x-4))=11 | 11 x 4 - / 11 = | 11:rose x:flower 4:flower -:flower /:rose 11:rose =:rose
+EXPR: 0 | POS | INT | 24 | 4 | - | ((4/x)+11)=11 | 4 x / 11 + 11 = | 4:tulip x:flower /:tulip 11:tulip +:tulip 11:tulip =:tulip
+EXPR: 0 | POS | INT | 24 | 4 | 77 | 11=(4+(x/11)) | 11 4 x 11 / + = | 11:rose 4:rose x:rose 11:flower /:rose +:rose =:rose
+EXPR: 1 | POS | INT | 24 | 4 | 4 | 4=((11-11)+x) | 4 11 11 - x + = | 4:flower 11:flower 11:flower -:flower x:flower +:flower =:flower
+EXPR: 0 | POS | INT | 24 | 4 | - | (11+(4/x))=11 | 11 4 x / + 11 = | 11:rose 4:rose x:flower /:rose +:rose 11:rose =:rose
+EXPR: 1 | POS | INT | 24 | 4 | 4 | ((11+x)-4)=11 | 11 x + 4 - 11 = | 11:flower x:flower +:flower 4:flower -:flower 11:flower =:flower
+EXPR: 0 | POS | INT | 25 | 4 | 125 | x=((11*11)+4) | x 11 11 * 4 + = | x:tulip 11:tulip 11:flower *:tulip 4:tulip +:tulip =:tulip
+EXPR: 0 | POS | INT | 25 | 4 | 5 | x=((11/11)+4) | x 11 11 / 4 + = | x:tulip 11:tulip 11:flower /:tulip 4:tulip +:tulip =:tulip
+EXPR: 0 | POS | INT | 25 | 4 | 117 | ((11*11)-4)=x | 11 11 * 4 - x = | 11:rose 11:flower *:rose 4:rose -:rose x:rose =:rose
+EXPR: 0 | POS | INT | 25 | 4 | 88 | x=((11+11)*4) | x 11 11 + 4 * = | x:tulip 11:rose 11:rose +:rose 4:tulip *:tulip =:tulip
+EXPR: 0 | POS | INT | 25 | 4 | 88 | ((11+11)*4)=x | 11 11 + 4 * x = | 11:rose 11:rose +:rose 4:tulip *:rose x:rose =:rose
+EXPR: 0 | POS | INT | 25 | 4 |  | x=((11-11)*4) | x 11 11 - 4 * = | x:tulip 11:rose 11:rose -:rose 4:tulip *:tulip =:tulip
+EXPR: 0 | POS | INT | 25 | 4 | 117 | x=((11*11)-4) | x 11 11 * 4 - = | x:tulip 11:rose 11:tulip *:tulip 4:tulip -:tulip =:tulip
+EXPR: 1 | POS | INT | 25 | 4 | 4 | (11-(11-4))=x | 11 11 4 - - x = | 11:flower 11:flower 4:flower -:flower -:flower x:flower =:flower
+EXPR: 0 | POS | INT | 25 | 4 | 18 | (11+(11-4))=x | 11 11 4 - + x = | 11:flower 11:flower 4:flower -:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 25 | 4 |  | x=((11-11)/4) | x 11 11 - 4 / = | x:flower 11:flower 11:flower -:flower 4:rose /:flower =:flower
+EXPR: 0 | POS | INT | 25 | 4 | 26 | ((11+11)+4)=x | 11 11 + 4 + x = | 11:flower 11:flower +:flower 4:flower +:flower x:flower =:flower
+EXPR: 1 | POS | INT | 25 | 4 | 4 | ((11-11)+4)=x | 11 11 - 4 + x = | 11:flower 11:flower -:flower 4:flower +:flower x:flower =:flower
+EXPR: 0 | POS | INT | 25 | 4 | 18 | ((11+11)-4)=x | 11 11 + 4 - x = | 11:flower 11:flower +:flower 4:flower -:flower x:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | 5 | 11=(11*(x-4)) | 11 11 x 4 - * = | 11:tulip 11:flower x:tulip 4:tulip -:tulip *:tulip =:tulip
+EXPR: 0 | POS | INT | 27 | 4 | 5 | 11=(11/(x-4)) | 11 11 x 4 - / = | 11:rose 11:rose x:flower 4:flower -:flower /:rose =:rose
+EXPR: 0 | POS | INT | 27 | 4 | 3 | 11=(11*(4-x)) | 11 11 4 x - * = | 11:rose 11:flower 4:rose x:rose -:rose *:rose =:rose
+EXPR: 0 | POS | INT | 27 | 4 | 165 | 11=((x/11)-4) | 11 x 11 / 4 - = | 11:tulip x:tulip 11:flower /:tulip 4:tulip -:tulip =:tulip
+EXPR: 0 | POS | INT | 27 | 4 | 77 | 11=((x/11)+4) | 11 x 11 / 4 + = | 11:tulip x:tulip 11:flower /:tulip 4:tulip +:tulip =:tulip
+EXPR: 0 | POS | INT | 27 | 4 | 3 | 11=(11/(4-x)) | 11 11 4 x - / = | 11:flower 11:flower 4:tulip x:tulip -:tulip /:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | - | (x/(11-11))=4 | x 11 11 - / 4 = | x:tulip 11:rose 11:rose -:rose /:tulip 4:tulip =:tulip
+EXPR: 1 | POS | INT | 27 | 4 | 4 | 11=(11+(x-4)) | 11 11 x 4 - + = | 11:flower 11:flower x:flower 4:flower -:flower +:flower =:flower
+EXPR: 1 | POS | INT | 27 | 4 | 4 | 11=(x+(11-4)) | 11 x 11 4 - + = | 11:flower x:flower 11:flower 4:flower -:flower +:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | 18 | 11=(x-(11-4)) | 11 x 11 4 - - = | 11:flower x:flower 11:flower 4:flower -:flower -:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | 33 | (x+11)=(4*11) | x 11 + 4 11 * = | x:flower 11:flower +:flower 4:flower 11:rose *:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | 26 | 11=(x-(4+11)) | 11 x 4 11 + - = | 11:flower x:flower 4:flower 11:flower +:flower -:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | 18 | 11=((x-11)+4) | 11 x 11 - 4 + = | 11:flower x:flower 11:flower -:flower 4:flower +:flower =:flower
+EXPR: 0 | POS | INT | 27 | 4 | 55 | (x-11)=(4*11) | x 11 - 4 11 * = | x:flower 11:flower -:flower 4:flower 11:rose *:flower =:flower
+NET 145 unique, non-negative, integer-valued solutions found out of 1000 total solutions
