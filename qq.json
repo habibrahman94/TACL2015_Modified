@@ -2,7 +2,7 @@
   {
     "iIndex": 0,
     "lSolutions": [
-        25.0
+      25.0
     ],
     "lEquations": [
       "x=50.0-(50.0*(50.0/100.0))"
@@ -13,7 +13,9 @@
   },
   {
     "iIndex": 1,
-    "lSolutions": [8.45],
+    "lSolutions": [
+      8.45
+    ],
     "lEquations": [
       "x=84.5*(10.0/100.0)"
     ],
@@ -23,7 +25,9 @@
   },
   {
     "iIndex": 2,
-    "lSolutions": [29.7],
+    "lSolutions": [
+      29.7
+    ],
     "lEquations": [
       "x=27.0+(27.00*(10.0/100.0))"
     ],
@@ -33,7 +37,9 @@
   },
   {
     "iIndex": 3,
-    "lSolutions": [31.45],
+    "lSolutions": [
+      31.45
+    ],
     "lEquations": [
       "x=37.0-(37.0*(15.0/100.0))"
     ],
@@ -43,7 +49,9 @@
   },
   {
     "iIndex": 4,
-    "lSolutions": [513.0],
+    "lSolutions": [
+      513.0
+    ],
     "lEquations": [
       "x=51.3*(1000.0/100.0)"
     ],
@@ -53,7 +61,9 @@
   },
   {
     "iIndex": 5,
-    "lSolutions": [6.3],
+    "lSolutions": [
+      6.3
+    ],
     "lEquations": [
       "x=7.0-(7.0*(10.0/100.0))"
     ],
@@ -63,7 +73,9 @@
   },
   {
     "iIndex": 6,
-    "lSolutions": [32.55],
+    "lSolutions": [
+      32.55
+    ],
     "lEquations": [
       "x=31.0+(31.0*(5.0/100.0))"
     ],
@@ -73,7 +85,9 @@
   },
   {
     "iIndex": 7,
-    "lSolutions": [0.0386],
+    "lSolutions": [
+      0.0386
+    ],
     "lEquations": [
       "x=38.6*(0.1/100.0)"
     ],
@@ -83,7 +97,9 @@
   },
   {
     "iIndex": 8,
-    "lSolutions": [28.8],
+    "lSolutions": [
+      28.8
+    ],
     "lEquations": [
       "x=24.0+(24.0*(20.0/100.0))"
     ],
@@ -93,7 +109,9 @@
   },
   {
     "iIndex": 9,
-    "lSolutions": [38.4],
+    "lSolutions": [
+      38.4
+    ],
     "lEquations": [
       "x=48.0-(48.0*(20/100.0))"
     ],
@@ -103,7 +121,9 @@
   },
   {
     "iIndex": 10,
-    "lSolutions": [57.8],
+    "lSolutions": [
+      57.8
+    ],
     "lEquations": [
       "x=57.8*(100.0/100.0)"
     ],
@@ -113,7 +133,9 @@
   },
   {
     "iIndex": 11,
-    "lSolutions": [43.95],
+    "lSolutions": [
+      43.95
+    ],
     "lEquations": [
       "x=293.0*(15.0/100.0)"
     ],
@@ -123,7 +145,9 @@
   },
   {
     "iIndex": 12,
-    "lSolutions": [0.652],
+    "lSolutions": [
+      0.652
+    ],
     "lEquations": [
       "x=65.2*(1.0/100.0)"
     ],
@@ -133,7 +157,9 @@
   },
   {
     "iIndex": 13,
-    "lSolutions": [135.8],
+    "lSolutions": [
+      135.8
+    ],
     "lEquations": [
       "x=97.0+(97.0*(40.0/100.0))"
     ],
@@ -143,7 +169,9 @@
   },
   {
     "iIndex": 14,
-    "lSolutions": [45.84],
+    "lSolutions": [
+      45.84
+    ],
     "lEquations": [
       "x=764.0*(6.0/100.0)"
     ],
@@ -153,7 +181,9 @@
   },
   {
     "iIndex": 15,
-    "lSolutions": [190.8],
+    "lSolutions": [
+      190.8
+    ],
     "lEquations": [
       "x=106.0+(106.0*(80.0/100.0))"
     ],
@@ -163,7 +193,9 @@
   },
   {
     "iIndex": 16,
-    "lSolutions": [28.0],
+    "lSolutions": [
+      28.0
+    ],
     "lEquations": [
       "x=35.0*(80.0/100.0)"
     ],
@@ -173,7 +205,9 @@
   },
   {
     "iIndex": 17,
-    "lSolutions": [58.33333333],
+    "lSolutions": [
+      58.33333333
+    ],
     "lEquations": [
       "x=(7.0/12.0)*100.0"
     ],
@@ -183,7 +217,9 @@
   },
   {
     "iIndex": 18,
-    "lSolutions": [42.857142857],
+    "lSolutions": [
+      42.857142857
+    ],
     "lEquations": [
       "x=((28.0-16.0)/28.0)*100.0"
     ],
@@ -193,7 +229,9 @@
   },
   {
     "iIndex": 19,
-    "lSolutions": [77.777777778],
+    "lSolutions": [
+      77.777777778
+    ],
     "lEquations": [
       "x=(35.0/(35.0+10.0))*100.0"
     ],
@@ -203,7 +241,9 @@
   },
   {
     "iIndex": 20,
-    "lSolutions": [16.0],
+    "lSolutions": [
+      16.0
+    ],
     "lEquations": [
       "x=20.0*(80.0/100.0)"
     ],
@@ -213,7 +253,9 @@
   },
   {
     "iIndex": 21,
-    "lSolutions": [19.444444444],
+    "lSolutions": [
+      19.444444444
+    ],
     "lEquations": [
       "x=((36.0-29.0)/36.0)*100.0"
     ],
@@ -223,7 +265,9 @@
   },
   {
     "iIndex": 22,
-    "lSolutions": [7.5795],
+    "lSolutions": [
+      7.5795
+    ],
     "lEquations": [
       "x=8.15*(93.0/100.0)"
     ],
@@ -233,7 +277,9 @@
   },
   {
     "iIndex": 23,
-    "lSolutions": [37.7],
+    "lSolutions": [
+      37.7
+    ],
     "lEquations": [
       "x=580.0*(6.50/100.0)"
     ],
@@ -243,7 +289,9 @@
   },
   {
     "iIndex": 24,
-    "lSolutions": [87.755102041],
+    "lSolutions": [
+      87.755102041
+    ],
     "lEquations": [
       "x*(98.0/100.0)=86.0"
     ],
@@ -253,7 +301,9 @@
   },
   {
     "iIndex": 25,
-    "lSolutions": [4680.0],
+    "lSolutions": [
+      4680.0
+    ],
     "lEquations": [
       "x=7200.0*(65.0/100.0)"
     ],
@@ -263,7 +313,9 @@
   },
   {
     "iIndex": 26,
-    "lSolutions": [38.694117647],
+    "lSolutions": [
+      38.694117647
+    ],
     "lEquations": [
       "x*(85.0/100.0)=32.89"
     ],
@@ -273,7 +325,9 @@
   },
   {
     "iIndex": 27,
-    "lSolutions": [160.0],
+    "lSolutions": [
+      160.0
+    ],
     "lEquations": [
       "x*(5.0/100.0)=8"
     ],
@@ -283,7 +337,9 @@
   },
   {
     "iIndex": 28,
-    "lSolutions": [1920.0],
+    "lSolutions": [
+      1920.0
+    ],
     "lEquations": [
       "x=12800*(15.0/100.0)"
     ],
@@ -293,7 +349,9 @@
   },
   {
     "iIndex": 29,
-    "lSolutions": [18.75],
+    "lSolutions": [
+      18.75
+    ],
     "lEquations": [
       "x*(80.0/100.0)=15.0"
     ],
@@ -303,7 +361,9 @@
   },
   {
     "iIndex": 30,
-    "lSolutions": [71.875],
+    "lSolutions": [
+      71.875
+    ],
     "lEquations": [
       "x=((32.0-9.0)/32.0)*100.0"
     ],
@@ -313,7 +373,9 @@
   },
   {
     "iIndex": 31,
-    "lSolutions": [26.666666667],
+    "lSolutions": [
+      26.666666667
+    ],
     "lEquations": [
       "x=((75.0-55.0)/75.0)*100.0"
     ],
@@ -323,7 +385,9 @@
   },
   {
     "iIndex": 32,
-    "lSolutions": [25.0],
+    "lSolutions": [
+      25.0
+    ],
     "lEquations": [
       "x=(13.0/(13.0+39.0))*100.0"
     ],
@@ -333,7 +397,9 @@
   },
   {
     "iIndex": 33,
-    "lSolutions": [25.0],
+    "lSolutions": [
+      25.0
+    ],
     "lEquations": [
       "x=(13.0/(13.0+39.0))*100.0"
     ],
@@ -343,7 +409,9 @@
   },
   {
     "iIndex": 34,
-    "lSolutions": [10.0],
+    "lSolutions": [
+      10.0
+    ],
     "lEquations": [
       "x=(6.0/(6.0+54.0))*100.0"
     ],
@@ -353,7 +421,9 @@
   },
   {
     "iIndex": 35,
-    "lSolutions": [30.0],
+    "lSolutions": [
+      30.0
+    ],
     "lEquations": [
       "x=(3.0/10.0)*100.0"
     ],
@@ -363,7 +433,9 @@
   },
   {
     "iIndex": 36,
-    "lSolutions": [75.0],
+    "lSolutions": [
+      75.0
+    ],
     "lEquations": [
       "x=(21.0/(21.0+7.0))*100.0"
     ],
@@ -373,7 +445,9 @@
   },
   {
     "iIndex": 37,
-    "lSolutions": [20.0],
+    "lSolutions": [
+      20.0
+    ],
     "lEquations": [
       "x=(4.0/20.0)*100.0"
     ],
@@ -383,7 +457,9 @@
   },
   {
     "iIndex": 38,
-    "lSolutions": [60.0],
+    "lSolutions": [
+      60.0
+    ],
     "lEquations": [
       "x=(42.0/70.0)*100.0"
     ],
@@ -393,7 +469,9 @@
   },
   {
     "iIndex": 39,
-    "lSolutions": [70.0],
+    "lSolutions": [
+      70.0
+    ],
     "lEquations": [
       "x=(63.0/90.0)*100.0"
     ],
@@ -403,7 +481,9 @@
   },
   {
     "iIndex": 40,
-    "lSolutions": [50.0],
+    "lSolutions": [
+      50.0
+    ],
     "lEquations": [
       "x=(40.0/80.0)*100.0"
     ],
@@ -413,7 +493,9 @@
   },
   {
     "iIndex": 41,
-    "lSolutions": [40.0],
+    "lSolutions": [
+      40.0
+    ],
     "lEquations": [
       "x=(30.0/75.0)*100.0"
     ],
@@ -423,7 +505,9 @@
   },
   {
     "iIndex": 42,
-    "lSolutions": [80.0],
+    "lSolutions": [
+      80.0
+    ],
     "lEquations": [
       "x=(44.0/(44.0+11.0))*100.0"
     ],
@@ -433,7 +517,9 @@
   },
   {
     "iIndex": 43,
-    "lSolutions": [18.0],
+    "lSolutions": [
+      18.0
+    ],
     "lEquations": [
       "x=90.0*(20.0/100.0)"
     ],
@@ -443,7 +529,9 @@
   },
   {
     "iIndex": 44,
-    "lSolutions": [4.0],
+    "lSolutions": [
+      4.0
+    ],
     "lEquations": [
       "x=10.0*(40.0/100.0)"
     ],
@@ -453,7 +541,9 @@
   },
   {
     "iIndex": 45,
-    "lSolutions": [18.0],
+    "lSolutions": [
+      18.0
+    ],
     "lEquations": [
       "x=36.0*(50.0/100.0)"
     ],
@@ -463,7 +553,9 @@
   },
   {
     "iIndex": 46,
-    "lSolutions": [21.0],
+    "lSolutions": [
+      21.0
+    ],
     "lEquations": [
       "x=28.0*(75.0/100.0)"
     ],
@@ -473,7 +565,9 @@
   },
   {
     "iIndex": 47,
-    "lSolutions": [8.0],
+    "lSolutions": [
+      8.0
+    ],
     "lEquations": [
       "x=80.0*(10.0/100.0)"
     ],
@@ -483,7 +577,9 @@
   },
   {
     "iIndex": 48,
-    "lSolutions": [70.0],
+    "lSolutions": [
+      70.0
+    ],
     "lEquations": [
       "x=100.0*(70.0/100.0)"
     ],
@@ -493,7 +589,9 @@
   },
   {
     "iIndex": 49,
-    "lSolutions": [16.0],
+    "lSolutions": [
+      16.0
+    ],
     "lEquations": [
       "x=20.0*(80.0/100.0)"
     ],
@@ -503,7 +601,9 @@
   },
   {
     "iIndex": 50,
-    "lSolutions": [15.000000],
+    "lSolutions": [
+      15.000000
+    ],
     "lEquations": [
       "x=25.0*(60.0/100.0)"
     ],
@@ -513,7 +613,9 @@
   },
   {
     "iIndex": 51,
-    "lSolutions": [15.000000],
+    "lSolutions": [
+      15.000000
+    ],
     "lEquations": [
       "x=50.0*(30.0/100.0)"
     ],
@@ -523,7 +625,9 @@
   },
   {
     "iIndex": 52,
-    "lSolutions": [54.000000],
+    "lSolutions": [
+      54.000000
+    ],
     "lEquations": [
       "x=60.0*(90.0/100.0)"
     ],
@@ -533,7 +637,9 @@
   },
   {
     "iIndex": 53,
-    "lSolutions": [13.000000],
+    "lSolutions": [
+      13.000000
+    ],
     "lEquations": [
       "x=65.0*(20.0/100.0)"
     ],
@@ -543,7 +649,9 @@
   },
   {
     "iIndex": 54,
-    "lSolutions": [28.000000],
+    "lSolutions": [
+      28.000000
+    ],
     "lEquations": [
       "x=40.0*(70.0/100.0)"
     ],
@@ -553,7 +661,9 @@
   },
   {
     "iIndex": 55,
-    "lSolutions": [48.000000],
+    "lSolutions": [
+      48.000000
+    ],
     "lEquations": [
       "x=64.0*(75.0/100.0)"
     ],
@@ -563,7 +673,9 @@
   },
   {
     "iIndex": 56,
-    "lSolutions": [21.000000],
+    "lSolutions": [
+      21.000000
+    ],
     "lEquations": [
       "x=84.0*(25.0/100.0)"
     ],
@@ -573,7 +685,9 @@
   },
   {
     "iIndex": 57,
-    "lSolutions": [38.000000],
+    "lSolutions": [
+      38.000000
+    ],
     "lEquations": [
       "x=95.0*(40.0/100.0)"
     ],
@@ -583,7 +697,9 @@
   },
   {
     "iIndex": 58,
-    "lSolutions": [28.0000000],
+    "lSolutions": [
+      28.0000000
+    ],
     "lEquations": [
       "x=56.0*(50.0/100.0)"
     ],
@@ -593,7 +709,9 @@
   },
   {
     "iIndex": 59,
-    "lSolutions": [9.000000],
+    "lSolutions": [
+      9.000000
+    ],
     "lEquations": [
       "x=15.0*(60.0/100.0)"
     ],
@@ -603,7 +721,9 @@
   },
   {
     "iIndex": 60,
-    "lSolutions": [63.000000],
+    "lSolutions": [
+      63.000000
+    ],
     "lEquations": [
       "x=70.0*(90.0/100.0)"
     ],
@@ -613,7 +733,9 @@
   },
   {
     "iIndex": 61,
-    "lSolutions": [54.000000],
+    "lSolutions": [
+      54.000000
+    ],
     "lEquations": [
       "x=72.0*(75.0/100.0)"
     ],
@@ -623,7 +745,9 @@
   },
   {
     "iIndex": 62,
-    "lSolutions": [27.000000],
+    "lSolutions": [
+      27.000000
+    ],
     "lEquations": [
       "x=30.0*(90.0/100.0)"
     ],
@@ -633,7 +757,9 @@
   },
   {
     "iIndex": 63,
-    "lSolutions": [11.000000],
+    "lSolutions": [
+      11.000000
+    ],
     "lEquations": [
       "x=44.0*(25.0/100.0)"
     ],
@@ -643,7 +769,9 @@
   },
   {
     "iIndex": 64,
-    "lSolutions": [17.000000],
+    "lSolutions": [
+      17.000000
+    ],
     "lEquations": [
       "x=85.0*(20.0/100.0)"
     ],
@@ -653,7 +781,9 @@
   },
   {
     "iIndex": 65,
-    "lSolutions": [6.000000],
+    "lSolutions": [
+      6.000000
+    ],
     "lEquations": [
       "x=8.0*(75.0/100.0)"
     ],
@@ -663,7 +793,9 @@
   },
   {
     "iIndex": 66,
-    "lSolutions": [1.000000],
+    "lSolutions": [
+      1.000000
+    ],
     "lEquations": [
       "x=5.0*(20.0/100.0)"
     ],
@@ -673,7 +805,9 @@
   },
   {
     "iIndex": 67,
-    "lSolutions": [9.000000],
+    "lSolutions": [
+      9.000000
+    ],
     "lEquations": [
       "x=90.0*(10.0/100.0)"
     ],
@@ -683,7 +817,9 @@
   },
   {
     "iIndex": 68,
-    "lSolutions": [36.000000],
+    "lSolutions": [
+      36.000000
+    ],
     "lEquations": [
       "x=45.0*(80.0/100.0)"
     ],
@@ -693,7 +829,9 @@
   },
   {
     "iIndex": 69,
-    "lSolutions": [42.000000],
+    "lSolutions": [
+      42.000000
+    ],
     "lEquations": [
       "x=60.0*(70.0/100.0)"
     ],
@@ -703,7 +841,9 @@
   },
   {
     "iIndex": 70,
-    "lSolutions": [49.000000],
+    "lSolutions": [
+      49.000000
+    ],
     "lEquations": [
       "x=98.0*(50.0/100.0)"
     ],
@@ -713,7 +853,9 @@
   },
   {
     "iIndex": 71,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=25.0*(40.0/100.0)"
     ],
@@ -723,7 +865,9 @@
   },
   {
     "iIndex": 72,
-    "lSolutions": [23.000000],
+    "lSolutions": [
+      23.000000
+    ],
     "lEquations": [
       "x=92.0*(25.0/100.0)"
     ],
@@ -733,7 +877,9 @@
   },
   {
     "iIndex": 73,
-    "lSolutions": [57.000000],
+    "lSolutions": [
+      57.000000
+    ],
     "lEquations": [
       "x=76.0*(75.0/100.0)"
     ],
@@ -743,7 +889,9 @@
   },
   {
     "iIndex": 74,
-    "lSolutions": [25.000000],
+    "lSolutions": [
+      25.000000
+    ],
     "lEquations": [
       "x=100.0*(25.0/100.0)"
     ],
@@ -753,7 +901,9 @@
   },
   {
     "iIndex": 75,
-    "lSolutions": [64.000000],
+    "lSolutions": [
+      64.000000
+    ],
     "lEquations": [
       "x=80.0*(80.0/100.0)"
     ],
@@ -763,7 +913,9 @@
   },
   {
     "iIndex": 76,
-    "lSolutions": [30.000000],
+    "lSolutions": [
+      30.000000
+    ],
     "lEquations": [
       "x=75.0*(40.0/100.0)"
     ],
@@ -773,7 +925,9 @@
   },
   {
     "iIndex": 77,
-    "lSolutions": [7.000000],
+    "lSolutions": [
+      7.000000
+    ],
     "lEquations": [
       "x=70.0*(10.0/100.0)"
     ],
@@ -783,7 +937,9 @@
   },
   {
     "iIndex": 78,
-    "lSolutions": [21.000000],
+    "lSolutions": [
+      21.000000
+    ],
     "lEquations": [
       "x=35.0*(60.0/100.0)"
     ],
@@ -793,7 +949,9 @@
   },
   {
     "iIndex": 79,
-    "lSolutions": [6.000000],
+    "lSolutions": [
+      6.000000
+    ],
     "lEquations": [
       "x=24.0*(25.0/100.0)"
     ],
@@ -803,7 +961,9 @@
   },
   {
     "iIndex": 80,
-    "lSolutions": [18.000000],
+    "lSolutions": [
+      18.000000
+    ],
     "lEquations": [
       "x=60.0*(30.0/100.0)"
     ],
@@ -813,7 +973,9 @@
   },
   {
     "iIndex": 81,
-    "lSolutions": [9.000000],
+    "lSolutions": [
+      9.000000
+    ],
     "lEquations": [
       "x=10.0*(90.0/100.0)"
     ],
@@ -823,7 +985,9 @@
   },
   {
     "iIndex": 82,
-    "lSolutions": [4.000000],
+    "lSolutions": [
+      4.000000
+    ],
     "lEquations": [
       "x=16.0*(25.0/100.0)"
     ],
@@ -833,7 +997,9 @@
   },
   {
     "iIndex": 83,
-    "lSolutions": [16.000000],
+    "lSolutions": [
+      16.000000
+    ],
     "lEquations": [
       "x=20.0*(80.0/100.0)"
     ],
@@ -843,7 +1009,9 @@
   },
   {
     "iIndex": 84,
-    "lSolutions": [17.000000],
+    "lSolutions": [
+      17.000000
+    ],
     "lEquations": [
       "x=68.0*(25.0/100.0)"
     ],
@@ -853,7 +1021,9 @@
   },
   {
     "iIndex": 85,
-    "lSolutions": [42.000000],
+    "lSolutions": [
+      42.000000
+    ],
     "lEquations": [
       "x=56.0*(75.0/100.0)"
     ],
@@ -863,7 +1033,9 @@
   },
   {
     "iIndex": 86,
-    "lSolutions": [41.000000],
+    "lSolutions": [
+      41.000000
+    ],
     "lEquations": [
       "x=82.0*(50.0/100.0)"
     ],
@@ -873,7 +1045,9 @@
   },
   {
     "iIndex": 87,
-    "lSolutions": [8.000000],
+    "lSolutions": [
+      8.000000
+    ],
     "lEquations": [
       "x=32.0*(25.0/100.0)"
     ],
@@ -883,7 +1057,9 @@
   },
   {
     "iIndex": 88,
-    "lSolutions": [7.000000],
+    "lSolutions": [
+      7.000000
+    ],
     "lEquations": [
       "x=35.0*(20.0/100.0)"
     ],
@@ -893,7 +1069,9 @@
   },
   {
     "iIndex": 89,
-    "lSolutions": [56.000000],
+    "lSolutions": [
+      56.000000
+    ],
     "lEquations": [
       "x=70.0*(80.0/100.0)"
     ],
@@ -903,7 +1081,9 @@
   },
   {
     "iIndex": 90,
-    "lSolutions": [24.000000],
+    "lSolutions": [
+      24.000000
+    ],
     "lEquations": [
       "x=96.0*(25.0/100.0)"
     ],
@@ -913,7 +1093,9 @@
   },
   {
     "iIndex": 91,
-    "lSolutions": [36.000000],
+    "lSolutions": [
+      36.000000
+    ],
     "lEquations": [
       "x=40.0*(90.0/100.0)"
     ],
@@ -923,7 +1105,9 @@
   },
   {
     "iIndex": 92,
-    "lSolutions": [70.0],
+    "lSolutions": [
+      70.0
+    ],
     "lEquations": [
       "x=100.0*(70.0/100.0)"
     ],
@@ -933,7 +1117,9 @@
   },
   {
     "iIndex": 93,
-    "lSolutions": [18.000000],
+    "lSolutions": [
+      18.000000
+    ],
     "lEquations": [
       "x=90.0*(20.0/100.0)"
     ],
@@ -943,7 +1129,9 @@
   },
   {
     "iIndex": 94,
-    "lSolutions": [15.000000],
+    "lSolutions": [
+      15.000000
+    ],
     "lEquations": [
       "x=25.0*(60.0/100.0)"
     ],
@@ -953,7 +1141,9 @@
   },
   {
     "iIndex": 95,
-    "lSolutions": [6.000000],
+    "lSolutions": [
+      6.000000
+    ],
     "lEquations": [
       "x=15.0*(40.0/100.0)"
     ],
@@ -963,7 +1153,9 @@
   },
   {
     "iIndex": 96,
-    "lSolutions": [39.000000],
+    "lSolutions": [
+      39.000000
+    ],
     "lEquations": [
       "x=52.0*(75.0/100.0)"
     ],
@@ -973,7 +1165,9 @@
   },
   {
     "iIndex": 97,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=50.0*(20.0/100.0)"
     ],
@@ -983,7 +1177,9 @@
   },
   {
     "iIndex": 98,
-    "lSolutions": [72.000000],
+    "lSolutions": [
+      72.000000
+    ],
     "lEquations": [
       "x=80.0*(90.0/100.0)"
     ],
@@ -993,7 +1189,9 @@
   },
   {
     "iIndex": 99,
-    "lSolutions": [9.000000],
+    "lSolutions": [
+      9.000000
+    ],
     "lEquations": [
       "x=36.0*(25.0/100.0)"
     ],
@@ -1003,7 +1201,9 @@
   },
   {
     "iIndex": 100,
-    "lSolutions": [30.000000],
+    "lSolutions": [
+      30.000000
+    ],
     "lEquations": [
       "x=100.0*(30.0/100.0)"
     ],
@@ -1013,7 +1213,9 @@
   },
   {
     "iIndex": 101,
-    "lSolutions": [22.000000],
+    "lSolutions": [
+      22.000000
+    ],
     "lEquations": [
       "x=88.0*(25.0/100.0)"
     ],
@@ -1023,7 +1225,9 @@
   },
   {
     "iIndex": 102,
-    "lSolutions": [23.00],
+    "lSolutions": [
+      23.00
+    ],
     "lEquations": [
       "x=46.0*(50.0/100.0)"
     ],
@@ -1033,7 +1237,9 @@
   },
   {
     "iIndex": 103,
-    "lSolutions": [36.000000],
+    "lSolutions": [
+      36.000000
+    ],
     "lEquations": [
       "x=60.0*(60.0/100.0)"
     ],
@@ -1043,7 +1249,9 @@
   },
   {
     "iIndex": 104,
-    "lSolutions": [51.000000],
+    "lSolutions": [
+      51.000000
+    ],
     "lEquations": [
       "x=68.0*(75.0/100.0)"
     ],
@@ -1053,7 +1261,9 @@
   },
   {
     "iIndex": 105,
-    "lSolutions": [17.000000],
+    "lSolutions": [
+      17.000000
+    ],
     "lEquations": [
       "x=85.0*(20.0/100.0)"
     ],
@@ -1063,7 +1273,9 @@
   },
   {
     "iIndex": 106,
-    "lSolutions": [39.000000],
+    "lSolutions": [
+      39.000000
+    ],
     "lEquations": [
       "x=78.0*(50.0/100.0)"
     ],
@@ -1073,7 +1285,9 @@
   },
   {
     "iIndex": 107,
-    "lSolutions": [9.000000],
+    "lSolutions": [
+      9.000000
+    ],
     "lEquations": [
       "x=12.0*(75.0/100.0)"
     ],
@@ -1083,7 +1297,9 @@
   },
   {
     "iIndex": 108,
-    "lSolutions": [30.0],
+    "lSolutions": [
+      30.0
+    ],
     "lEquations": [
       "x=100.0*(30.0/100.0)"
     ],
@@ -1093,7 +1309,9 @@
   },
   {
     "iIndex": 109,
-    "lSolutions": [16.000000],
+    "lSolutions": [
+      16.000000
+    ],
     "lEquations": [
       "x=64.0*(25.0/100.0)"
     ],
@@ -1103,7 +1321,9 @@
   },
   {
     "iIndex": 110,
-    "lSolutions": [3.000000],
+    "lSolutions": [
+      3.000000
+    ],
     "lEquations": [
       "x=30.0*(10.0/100.0)"
     ],
@@ -1113,7 +1333,9 @@
   },
   {
     "iIndex": 111,
-    "lSolutions": [3.000000],
+    "lSolutions": [
+      3.000000
+    ],
     "lEquations": [
       "x=15.0*(20.0/100.0)"
     ],
@@ -1123,7 +1345,9 @@
   },
   {
     "iIndex": 112,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=25.0*(40.0/100.0)"
     ],
@@ -1133,7 +1357,9 @@
   },
   {
     "iIndex": 113,
-    "lSolutions": [21.000000],
+    "lSolutions": [
+      21.000000
+    ],
     "lEquations": [
       "x=28.0*(75.0/100.0)"
     ],
@@ -1143,7 +1369,9 @@
   },
   {
     "iIndex": 114,
-    "lSolutions": [12.000000],
+    "lSolutions": [
+      12.000000
+    ],
     "lEquations": [
       "x=20.0*(60.0/100.0)"
     ],
@@ -1153,7 +1381,9 @@
   },
   {
     "iIndex": 115,
-    "lSolutions": [30.0],
+    "lSolutions": [
+      30.0
+    ],
     "lEquations": [
       "x=100.0*(30.0/100.0)"
     ],
@@ -1163,7 +1393,9 @@
   },
   {
     "iIndex": 116,
-    "lSolutions": [8.000000],
+    "lSolutions": [
+      8.000000
+    ],
     "lEquations": [
       "x=80.0*(10.0/100.0)"
     ],
@@ -1173,7 +1405,9 @@
   },
   {
     "iIndex": 117,
-    "lSolutions": [8.000000],
+    "lSolutions": [
+      8.000000
+    ],
     "lEquations": [
       "x=32.0*(25.0/100.0)"
     ],
@@ -1183,7 +1417,9 @@
   },
   {
     "iIndex": 118,
-    "lSolutions": [36.000000],
+    "lSolutions": [
+      36.000000
+    ],
     "lEquations": [
       "x=45.0*(80.0/100.0)"
     ],
@@ -1193,7 +1429,9 @@
   },
   {
     "iIndex": 119,
-    "lSolutions": [54.000000],
+    "lSolutions": [
+      54.000000
+    ],
     "lEquations": [
       "x=60.0*(90.0/100.0)"
     ],
@@ -1203,7 +1441,9 @@
   },
   {
     "iIndex": 120,
-    "lSolutions": [60.0],
+    "lSolutions": [
+      60.0
+    ],
     "lEquations": [
       "x=100.0*(60.0/100.0)"
     ],
@@ -1213,7 +1453,9 @@
   },
   {
     "iIndex": 121,
-    "lSolutions": [28.0],
+    "lSolutions": [
+      28.0
+    ],
     "lEquations": [
       "x=56.0*(50.0/100.0)"
     ],
@@ -1223,7 +1465,9 @@
   },
   {
     "iIndex": 122,
-    "lSolutions": [28.000000],
+    "lSolutions": [
+      28.000000
+    ],
     "lEquations": [
       "x=40.0*(70.0/100.0)"
     ],
@@ -1233,7 +1477,9 @@
   },
   {
     "iIndex": 123,
-    "lSolutions": [37.0],
+    "lSolutions": [
+      37.0
+    ],
     "lEquations": [
       "x=74.0*(50.0/100.0)"
     ],
@@ -1243,7 +1489,9 @@
   },
   {
     "iIndex": 124,
-    "lSolutions": [2.0],
+    "lSolutions": [
+      2.0
+    ],
     "lEquations": [
       "x=8.0*(25.0/100.0)"
     ],
@@ -1253,7 +1501,9 @@
   },
   {
     "iIndex": 125,
-    "lSolutions": [1.0],
+    "lSolutions": [
+      1.0
+    ],
     "lEquations": [
       "x=10.0*(10.0/100.0)"
     ],
@@ -1263,7 +1513,9 @@
   },
   {
     "iIndex": 126,
-    "lSolutions": [2.000000],
+    "lSolutions": [
+      2.000000
+    ],
     "lEquations": [
       "x=5.0*(40.0/100.0)"
     ],
@@ -1273,7 +1525,9 @@
   },
   {
     "iIndex": 127,
-    "lSolutions": [11.0],
+    "lSolutions": [
+      11.0
+    ],
     "lEquations": [
       "x=55.0*(20.0/100.0)"
     ],
@@ -1283,7 +1537,9 @@
   },
   {
     "iIndex": 128,
-    "lSolutions": [6.000000],
+    "lSolutions": [
+      6.000000
+    ],
     "lEquations": [
       "x=20.0*(30.0/100.0)"
     ],
@@ -1293,7 +1549,9 @@
   },
   {
     "iIndex": 129,
-    "lSolutions": [19.000000],
+    "lSolutions": [
+      19.000000
+    ],
     "lEquations": [
       "x=76.0*(25.0/100.0)"
     ],
@@ -1303,7 +1561,9 @@
   },
   {
     "iIndex": 130,
-    "lSolutions": [47.000000],
+    "lSolutions": [
+      47.000000
+    ],
     "lEquations": [
       "x=94.0*(50.0/100.0)"
     ],
@@ -1313,7 +1573,9 @@
   },
   {
     "iIndex": 131,
-    "lSolutions": [63.000000],
+    "lSolutions": [
+      63.000000
+    ],
     "lEquations": [
       "x=84.0*(75.0/100.0)"
     ],
@@ -1323,7 +1585,9 @@
   },
   {
     "iIndex": 132,
-    "lSolutions": [20.0],
+    "lSolutions": [
+      20.0
+    ],
     "lEquations": [
       "x=100.0*(20.0/100.0)"
     ],
@@ -1333,7 +1597,9 @@
   },
   {
     "iIndex": 133,
-    "lSolutions": [7.0],
+    "lSolutions": [
+      7.0
+    ],
     "lEquations": [
       "x=14.0*(50.0/100.0)"
     ],
@@ -1343,7 +1609,9 @@
   },
   {
     "iIndex": 134,
-    "lSolutions": [42.000000],
+    "lSolutions": [
+      42.000000
+    ],
     "lEquations": [
       "x=60.0*(70.0/100.0)"
     ],
@@ -1353,7 +1621,9 @@
   },
   {
     "iIndex": 135,
-    "lSolutions": [23.000000],
+    "lSolutions": [
+      23.000000
+    ],
     "lEquations": [
       "x=92.0*(25.0/100.0)"
     ],
@@ -1363,7 +1633,9 @@
   },
   {
     "iIndex": 136,
-    "lSolutions": [5.000000],
+    "lSolutions": [
+      5.000000
+    ],
     "lEquations": [
       "x=25.0*(20.0/100.0)"
     ],
@@ -1373,7 +1645,9 @@
   },
   {
     "iIndex": 137,
-    "lSolutions": [39.000000],
+    "lSolutions": [
+      39.000000
+    ],
     "lEquations": [
       "x=52.0*(75.0/100.0)"
     ],
@@ -1383,7 +1657,9 @@
   },
   {
     "iIndex": 138,
-    "lSolutions": [52.000000],
+    "lSolutions": [
+      52.000000
+    ],
     "lEquations": [
       "x=65.0*(80.0/100.0)"
     ],
@@ -1393,7 +1669,9 @@
   },
   {
     "iIndex": 139,
-    "lSolutions": [3.0],
+    "lSolutions": [
+      3.0
+    ],
     "lEquations": [
       "x=6.0*(50.0/100.0)"
     ],
@@ -1403,7 +1681,9 @@
   },
   {
     "iIndex": 140,
-    "lSolutions": [4.000000],
+    "lSolutions": [
+      4.000000
+    ],
     "lEquations": [
       "x=40.0*(10.0/100.0)"
     ],
@@ -1413,7 +1693,9 @@
   },
   {
     "iIndex": 141,
-    "lSolutions": [29.000000],
+    "lSolutions": [
+      29.000000
+    ],
     "lEquations": [
       "x=58.0*(50.0/100.0)"
     ],
@@ -1423,7 +1705,9 @@
   },
   {
     "iIndex": 142,
-    "lSolutions": [48.000000],
+    "lSolutions": [
+      48.000000
+    ],
     "lEquations": [
       "x=80.0*(60.0/100.0)"
     ],
@@ -1433,7 +1717,9 @@
   },
   {
     "iIndex": 143,
-    "lSolutions": [40.0],
+    "lSolutions": [
+      40.0
+    ],
     "lEquations": [
       "x=100.0*(40.0/100.0)"
     ],
@@ -1443,7 +1729,9 @@
   },
   {
     "iIndex": 144,
-    "lSolutions": [9.0],
+    "lSolutions": [
+      9.0
+    ],
     "lEquations": [
       "x=18.0*(50.0/100.0)"
     ],
@@ -1453,7 +1741,9 @@
   },
   {
     "iIndex": 145,
-    "lSolutions": [14.000000],
+    "lSolutions": [
+      14.000000
+    ],
     "lEquations": [
       "x=20.0*(70.0/100.0)"
     ],
@@ -1463,7 +1753,9 @@
   },
   {
     "iIndex": 146,
-    "lSolutions": [24.000000],
+    "lSolutions": [
+      24.000000
+    ],
     "lEquations": [
       "x=30.0*(80.0/100.0)"
     ],
@@ -1473,7 +1765,9 @@
   },
   {
     "iIndex": 147,
-    "lSolutions": [24.000000],
+    "lSolutions": [
+      24.000000
+    ],
     "lEquations": [
       "x=96.0*(25.0/100.0)"
     ],
@@ -1483,7 +1777,9 @@
   },
   {
     "iIndex": 148,
-    "lSolutions": [34.0],
+    "lSolutions": [
+      34.0
+    ],
     "lEquations": [
       "x=68.0*(50.0/100.0)"
     ],
@@ -1493,7 +1789,9 @@
   },
   {
     "iIndex": 149,
-    "lSolutions": [80.000000],
+    "lSolutions": [
+      80.000000
+    ],
     "lEquations": [
       "x=(24.0/(24.0+6.0))*100.0"
     ],
@@ -1503,7 +1801,9 @@
   },
   {
     "iIndex": 150,
-    "lSolutions": [30.000000],
+    "lSolutions": [
+      30.000000
+    ],
     "lEquations": [
       "x=(21.0/(21.0+49.0))*100.0"
     ],
@@ -1513,7 +1813,9 @@
   },
   {
     "iIndex": 151,
-    "lSolutions": [40.000000],
+    "lSolutions": [
+      40.000000
+    ],
     "lEquations": [
       "x=(2.0/(2.0+3.0))*100.0"
     ],
@@ -1523,7 +1825,9 @@
   },
   {
     "iIndex": 152,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=(5.0/50.0)*100.0"
     ],
@@ -1533,7 +1837,9 @@
   },
   {
     "iIndex": 153,
-    "lSolutions": [60.000000],
+    "lSolutions": [
+      60.000000
+    ],
     "lEquations": [
       "x=(15.0/25.0)*100.0"
     ],
@@ -1543,7 +1849,9 @@
   },
   {
     "iIndex": 154,
-    "lSolutions": [20.000000],
+    "lSolutions": [
+      20.000000
+    ],
     "lEquations": [
       "x=(19.0/95.0)*100.0"
     ],
@@ -1553,7 +1861,9 @@
   },
   {
     "iIndex": 155,
-    "lSolutions": [70.000000],
+    "lSolutions": [
+      70.000000
+    ],
     "lEquations": [
       "x=(56.0/80.0)*100.0"
     ],
@@ -1563,7 +1873,9 @@
   },
   {
     "iIndex": 156,
-    "lSolutions": [75.000000],
+    "lSolutions": [
+      75.000000
+    ],
     "lEquations": [
       "x=(69.0/(69.0+23.0))*100.0"
     ],
@@ -1573,7 +1885,9 @@
   },
   {
     "iIndex": 157,
-    "lSolutions": [90.000000],
+    "lSolutions": [
+      90.000000
+    ],
     "lEquations": [
       "x=(90.0/(90.0+10.0))*100.0"
     ],
@@ -1583,7 +1897,9 @@
   },
   {
     "iIndex": 158,
-    "lSolutions": [25.000000],
+    "lSolutions": [
+      25.000000
+    ],
     "lEquations": [
       "x=(18.0/72.0)*100.0"
     ],
@@ -1593,7 +1909,9 @@
   },
   {
     "iIndex": 159,
-    "lSolutions": [80.000000],
+    "lSolutions": [
+      80.000000
+    ],
     "lEquations": [
       "x=(52.0/65.0)*100.0"
     ],
@@ -1603,7 +1921,9 @@
   },
   {
     "iIndex": 160,
-    "lSolutions": [50.000000],
+    "lSolutions": [
+      50.000000
+    ],
     "lEquations": [
       "x=(43.0/86.0)*100.0"
     ],
@@ -1613,7 +1933,9 @@
   },
   {
     "iIndex": 161,
-    "lSolutions": [40.000000],
+    "lSolutions": [
+      40.000000
+    ],
     "lEquations": [
       "x=(16.0/40.0)*100.0"
     ],
@@ -1623,7 +1945,9 @@
   },
   {
     "iIndex": 162,
-    "lSolutions": [60.000000],
+    "lSolutions": [
+      60.000000
+    ],
     "lEquations": [
       "x=(33.0/55.0)*100.0"
     ],
@@ -1633,7 +1957,9 @@
   },
   {
     "iIndex": 163,
-    "lSolutions": [75.000000],
+    "lSolutions": [
+      75.000000
+    ],
     "lEquations": [
       "x=(45.0/60.0)*100.0"
     ],
@@ -1643,7 +1969,9 @@
   },
   {
     "iIndex": 164,
-    "lSolutions": [90.000000],
+    "lSolutions": [
+      90.000000
+    ],
     "lEquations": [
       "x=(18.0/(18.0+2.0))*100.0"
     ],
@@ -1653,7 +1981,9 @@
   },
   {
     "iIndex": 165,
-    "lSolutions": [75.000000],
+    "lSolutions": [
+      75.000000
+    ],
     "lEquations": [
       "x=(21.0/(21.0+7.0))*100.0"
     ],
@@ -1663,7 +1993,9 @@
   },
   {
     "iIndex": 166,
-    "lSolutions": [60.000000],
+    "lSolutions": [
+      60.000000
+    ],
     "lEquations": [
       "x=(51.0/(51.0+34.0))*100.0"
     ],
@@ -1673,7 +2005,9 @@
   },
   {
     "iIndex": 167,
-    "lSolutions": [20.000000],
+    "lSolutions": [
+      20.000000
+    ],
     "lEquations": [
       "x=(2.0/10.0)*100.0"
     ],
@@ -1683,7 +2017,9 @@
   },
   {
     "iIndex": 168,
-    "lSolutions": [75.000000],
+    "lSolutions": [
+      75.000000
+    ],
     "lEquations": [
       "x=(36.0/(36.0+12.0))*100.0"
     ],
@@ -1693,7 +2029,9 @@
   },
   {
     "iIndex": 169,
-    "lSolutions": [50.000000],
+    "lSolutions": [
+      50.000000
+    ],
     "lEquations": [
       "x=(38.0/76.0)*100.0"
     ],
@@ -1703,7 +2041,9 @@
   },
   {
     "iIndex": 170,
-    "lSolutions": [40.000000],
+    "lSolutions": [
+      40.000000
+    ],
     "lEquations": [
       "x=(18.0/45.0)*100.0"
     ],
@@ -1713,7 +2053,9 @@
   },
   {
     "iIndex": 171,
-    "lSolutions": [25.000000],
+    "lSolutions": [
+      25.000000
+    ],
     "lEquations": [
       "x=(16.0/(16.0+48.0))*100.0"
     ],
@@ -1723,7 +2065,9 @@
   },
   {
     "iIndex": 172,
-    "lSolutions": [50.0],
+    "lSolutions": [
+      50.0
+    ],
     "lEquations": [
       "x=(27.0/54.0)*100.0"
     ],
@@ -1733,7 +2077,9 @@
   },
   {
     "iIndex": 173,
-    "lSolutions": [20.000000],
+    "lSolutions": [
+      20.000000
+    ],
     "lEquations": [
       "x=(18.0/(18.0+72.0))*100.0"
     ],
@@ -1743,7 +2089,9 @@
   },
   {
     "iIndex": 174,
-    "lSolutions": [40.000000],
+    "lSolutions": [
+      40.000000
+    ],
     "lEquations": [
       "x=(30.0/(30.0+45.0))*100.0"
     ],
@@ -1753,7 +2101,9 @@
   },
   {
     "iIndex": 175,
-    "lSolutions": [80.000000],
+    "lSolutions": [
+      80.000000
+    ],
     "lEquations": [
       "x=(28.0/(28.0+7.0))*100.0"
     ],
@@ -1763,7 +2113,9 @@
   },
   {
     "iIndex": 176,
-    "lSolutions": [25.000000],
+    "lSolutions": [
+      25.000000
+    ],
     "lEquations": [
       "x=(13.0/(13.0+39.0))*100.0"
     ],
@@ -1773,7 +2125,9 @@
   },
   {
     "iIndex": 177,
-    "lSolutions": [50.000000],
+    "lSolutions": [
+      50.000000
+    ],
     "lEquations": [
       "x=(34.0/68.0)*100.0"
     ],
@@ -1783,7 +2137,9 @@
   },
   {
     "iIndex": 178,
-    "lSolutions": [75.000000],
+    "lSolutions": [
+      75.000000
+    ],
     "lEquations": [
       "x=(24.0/(24.0+8.0))*100.0"
     ],
@@ -1793,7 +2149,9 @@
   },
   {
     "iIndex": 179,
-    "lSolutions": [70.0],
+    "lSolutions": [
+      70.0
+    ],
     "lEquations": [
       "x=(70.0/100.0)*100.0"
     ],
@@ -1803,7 +2161,9 @@
   },
   {
     "iIndex": 180,
-    "lSolutions": [90.000000],
+    "lSolutions": [
+      90.000000
+    ],
     "lEquations": [
       "x=(36.0/(36.0+4.0))*100.0"
     ],
@@ -1813,7 +2173,9 @@
   },
   {
     "iIndex": 181,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=(8.0/80.0)*100.0"
     ],
@@ -1823,7 +2185,9 @@
   },
   {
     "iIndex": 182,
-    "lSolutions": [25.000000],
+    "lSolutions": [
+      25.000000
+    ],
     "lEquations": [
       "x=(22.0/(22.0+66.0))*100.0"
     ],
@@ -1833,7 +2197,9 @@
   },
   {
     "iIndex": 183,
-    "lSolutions": [40.000000],
+    "lSolutions": [
+      40.000000
+    ],
     "lEquations": [
       "x=(18.0/45.0)*100.0"
     ],
@@ -1843,7 +2209,9 @@
   },
   {
     "iIndex": 184,
-    "lSolutions": [50.000000],
+    "lSolutions": [
+      50.000000
+    ],
     "lEquations": [
       "x=(47.0/94.0)*100.0"
     ],
@@ -1853,7 +2221,9 @@
   },
   {
     "iIndex": 185,
-    "lSolutions": [30.000000],
+    "lSolutions": [
+      30.000000
+    ],
     "lEquations": [
       "x=(27.0/90.0)*100.0"
     ],
@@ -1863,7 +2233,9 @@
   },
   {
     "iIndex": 186,
-    "lSolutions": [25.000000],
+    "lSolutions": [
+      25.000000
+    ],
     "lEquations": [
       "x=(6.0/(6.0+18.0))*100.0"
     ],
@@ -1873,7 +2245,9 @@
   },
   {
     "iIndex": 187,
-    "lSolutions": [75.000000],
+    "lSolutions": [
+      75.000000
+    ],
     "lEquations": [
       "x=(63.0/(63.0+21.0))*100.0"
     ],
@@ -1883,7 +2257,9 @@
   },
   {
     "iIndex": 188,
-    "lSolutions": [20.000000],
+    "lSolutions": [
+      20.000000
+    ],
     "lEquations": [
       "x=(5.0/(5.0+20.0))*100.0"
     ],
@@ -1893,7 +2269,9 @@
   },
   {
     "iIndex": 189,
-    "lSolutions": [50.000000],
+    "lSolutions": [
+      50.000000
+    ],
     "lEquations": [
       "x=(13.0/26.0)*100.0"
     ],
@@ -1903,7 +2281,9 @@
   },
   {
     "iIndex": 190,
-    "lSolutions": [70.000000],
+    "lSolutions": [
+      70.000000
+    ],
     "lEquations": [
       "x=(14.0/(14.0+6.0))*100.0"
     ],
@@ -1913,7 +2293,9 @@
   },
   {
     "iIndex": 191,
-    "lSolutions": [80.000000],
+    "lSolutions": [
+      80.000000
+    ],
     "lEquations": [
       "x=(76.0/95.0)*100.0"
     ],
@@ -1923,7 +2305,9 @@
   },
   {
     "iIndex": 192,
-    "lSolutions": [50.0],
+    "lSolutions": [
+      50.0
+    ],
     "lEquations": [
       "x=(31.0/62.0)*100.0"
     ],
@@ -1933,7 +2317,9 @@
   },
   {
     "iIndex": 193,
-    "lSolutions": [27.000000],
+    "lSolutions": [
+      27.000000
+    ],
     "lEquations": [
       "x=30.0*(90.0/100.0)"
     ],
@@ -1943,7 +2329,9 @@
   },
   {
     "iIndex": 194,
-    "lSolutions": [4.000000],
+    "lSolutions": [
+      4.000000
+    ],
     "lEquations": [
       "x=5.0*(80.0/100.0)"
     ],
@@ -1953,7 +2341,9 @@
   },
   {
     "iIndex": 195,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=100.0*(10.0/100.0)"
     ],
@@ -1963,7 +2353,9 @@
   },
   {
     "iIndex": 196,
-    "lSolutions": [10.000000],
+    "lSolutions": [
+      10.000000
+    ],
     "lEquations": [
       "x=20.0*(50.0/100.0)"
     ],
@@ -1973,7 +2365,9 @@
   },
   {
     "iIndex": 197,
-    "lSolutions": [],
+    "lSolutions": [
+      10.0
+    ],
     "lEquations": [
       "x="
     ],
@@ -1983,7 +2377,9 @@
   },
   {
     "iIndex": 198,
-    "lSolutions": [30.000000],
+    "lSolutions": [
+      30.000000
+    ],
     "lEquations": [
       "x=((2041.0-1570.0)/1570.0)*100.0"
     ],
@@ -1993,7 +2389,9 @@
   },
   {
     "iIndex": 199,
-    "lSolutions": [16.666667],
+    "lSolutions": [
+      16.666667
+    ],
     "lEquations": [
       "x=((276.0-230.0)/276.0)*100.0"
     ],

@@ -51,6 +51,16 @@ def make_eq(q,a,VERBOSE,TRAIN):
                 problem[i] = x[:-1]+" "+x[-1]
         problem = ' '.join(problem)
         problem = " " + problem + " "
+        
+        Res = problem
+        problem=""
+        for i in range(len(Res)):
+            if Res[i]=='%':
+                problem += " percent"
+            else:
+                problem += Res[i]
+        
+        
         print(problem)
 
         story = nlp.parse(problem)
