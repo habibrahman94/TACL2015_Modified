@@ -3,15 +3,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : time
 idx : 2
 location : None
-num : 0.1
+num : 0.001
 origs : 0
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : be
 widx : 4
@@ -22,7 +22,7 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : time
 idx : 3
 location : None
 num : x
@@ -30,7 +30,7 @@ origs : 0
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : be
 widx : 4
@@ -41,7 +41,7 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : time
 idx : 5
 location : None
 num : 38.6
@@ -49,13 +49,72 @@ origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : be
 widx : 6
 _____________
 
 TOP SCORING NO CORRECT SOLUTION ,7
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 13
+location : None
+num : 24.00
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : eat
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : time
+idx : 1010
+location : None
+num : 0.2
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : want leave
+widx : 12
+_____________
+
+_____________
+adjs : total
+compound : 0
+container : None
+contains : None
+entity : bill
+idx : 2004
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : bill
+type_failure : 0
+verbs : include
+widx : 5
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,8
  INCORRECT
 _____________
 adjs : None
@@ -100,15 +159,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : Store
 idx : 1022
 location : None
-num : 80
+num : 0.8
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : buy mark sell
 widx : 24
@@ -119,36 +178,17 @@ TOP SCORING NO CORRECT SOLUTION ,15
 _____________
 adjs : None
 compound : 0
-container : None
+container : test
 contains : None
-entity : month
+entity : student
 idx : 6
 location : None
-num : 7
+num : 0.8
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : months
-type_failure : 0
-verbs : work
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : person
-idx : 7
-location : None
-num : 1
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : names
+surface : times
 type_failure : 0
 verbs : None
 widx : 8
@@ -157,64 +197,201 @@ _____________
 _____________
 adjs : None
 compound : 0
+container : that
+contains : None
+entity : problem
+idx : 14
+location : None
+num : 20
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : problems
+type_failure : 0
+verbs : had
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
 container : None
 contains : None
-entity : UNKNOWN
-idx : 1000
+entity : problem
+idx : 1002
+location : test
+num : x
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : problems
+type_failure : 0
+verbs : do
+widx : 3
+_____________
+
+20
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : test
+contains : None
+entity : problem
+idx : 3
+location : test
+num : 86
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : problems
+type_failure : 0
+verbs : answered
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : test
+idx : 13
+location : None
+num : 0.98
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : answer receive
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : problem
+idx : 1003
 location : None
 num : x
-origs : 10
+origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : UNKNOWN
+surface : problems
 type_failure : 0
-verbs : None
-widx : 1
+verbs : be be
+widx : 4
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,17
+24
  INCORRECT
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : man
 idx : 6
 location : None
-num : 85
+num : 8
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : percent
+surface : men
 type_failure : 0
-verbs : buy
+verbs : make
 widx : 8
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : Pamela
+container : None
+contains : None
+entity : time
+idx : 1000
+location : None
+num : 0.05
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : be
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : people
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : people
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+27
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : sale
 contains : None
 entity : dollar
-idx : 1003
+idx : 9
 location : None
-num : 32.89
-origs : 1
-role : do
+num : 15
+origs : 0
+role : other
 subset : 0
 subtypes : []
 surface : $
 type_failure : 0
-verbs : paid
-widx : 3
+verbs : None
+widx : 9
 _____________
 
 _____________
-adjs : regular
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : sale
+idx : 1003
+location : None
+num : 0.8
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : be
+widx : 5
+_____________
+
+_____________
+adjs : original
 compound : 0
 container : None
 contains : None
@@ -232,25 +409,25 @@ verbs : be
 widx : 5
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,26
+29
  INCORRECT
 _____________
 adjs : None
 compound : 0
-container : shop
+container : class
 contains : None
-entity : tea
-idx : 1004
-location : all
-num : 10
-origs : 1
-role : do
+entity : student
+idx : 2
+location : class
+num : 32
+origs : 0
+role : subj
 subset : 0
 subtypes : []
-surface : teas
+surface : students
 type_failure : 0
-verbs : served
-widx : 6
+verbs : None
+widx : 4
 _____________
 
 _____________
@@ -258,17 +435,76 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : tea
-idx : 1009
+entity : person
+idx : 3
 location : None
-num : 3
-origs : 2
+num : 0
+origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : teas
+surface : names
 type_failure : 0
-verbs : serve caffeinate
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 2000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,30
+ INCORRECT
+_____________
+adjs : blue
+compound : 0
+container : necklace
+contains : None
+entity : bead
+idx : 1003
+location : None
+num : 6
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : beads
+type_failure : 0
+verbs : has
+widx : 6
+_____________
+
+_____________
+adjs : white
+compound : 0
+container : None
+contains : None
+entity : bead
+idx : 1007
+location : None
+num : 54
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : beads
+type_failure : 0
+verbs : have
 widx : 10
 _____________
 
@@ -291,44 +527,44 @@ verbs : None
 widx : 1
 _____________
 
-35
+TOP SCORING NO CORRECT SOLUTION ,34
  INCORRECT
 _____________
-adjs : yellow
+adjs : None
 compound : 0
-container : Carmen
+container : Erik
 contains : None
-entity : pin
+entity : cookie
 idx : 1002
 location : None
-num : 40
+num : 90
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : pins
+surface : cookies
 type_failure : 0
-verbs : received
-widx : 5
+verbs : got
+widx : 4
 _____________
 
 _____________
-adjs : blue
+adjs : None
 compound : 0
 container : None
 contains : None
-entity : pin
-idx : 1006
+entity : cookie
+idx : 2000
 location : None
-num : 40
-origs : 1
+num : 63
+origs : 2
 role : other
 subset : 0
 subtypes : []
-surface : pins
+surface : cookies
 type_failure : 0
-verbs : receive
-widx : 9
+verbs : be
+widx : 4
 _____________
 
 _____________
@@ -337,7 +573,7 @@ compound : 0
 container : None
 contains : None
 entity : UNKNOWN
-idx : 2000
+idx : 3000
 location : None
 num : x
 origs : 10
@@ -350,24 +586,43 @@ verbs : None
 widx : 1
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,40
+TOP SCORING NO CORRECT SOLUTION ,39
  INCORRECT
 _____________
 adjs : None
 compound : 0
-container : shop
+container : None
 contains : None
-entity : tea
-idx : 1009
-location : all
-num : 36
+entity : people
+idx : 1002
+location : party
+num : 10
 origs : 1
-role : do
+role : subj
 subset : 0
 subtypes : []
-surface : teas
+surface : people
 type_failure : 0
-verbs : served
+verbs : pick
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : time
+idx : 1009
+location : None
+num : 0.4
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : pick
 widx : 11
 _____________
 
@@ -376,41 +631,22 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
-idx : 1014
-location : None
-num : 50
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : serve caffeinate
-widx : 16
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : tea
-idx : 2008
+entity : people
+idx : 2002
 location : None
 num : x
 origs : 2
-role : other
+role : subj
 subset : 0
 subtypes : []
-surface : teas
+surface : people
 type_failure : 0
-verbs : caffeinate serve
-widx : 9
+verbs : pick
+widx : 3
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,45
- INCORRECT
+44
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -435,15 +671,15 @@ adjs : None
 compound : 0
 container : hat
 contains : None
-entity : percent
+entity : time
 idx : 1008
 location : None
-num : 70
+num : 0.7
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : None
 widx : 10
@@ -468,143 +704,44 @@ verbs : None
 widx : 3
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,48
- INCORRECT
+48
+ CORRECT
 _____________
 adjs : None
 compound : 0
-container : None
+container : meeting
 contains : None
-entity : percent
-idx : 6
-location : None
-num : 80
+entity : teacher
+idx : 5
+location : attendance
+num : 56
 origs : 0
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : be
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : bead
-idx : 10
-location : clearance
-num : 20
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : beads
-type_failure : 0
-verbs : be
-widx : 12
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : bead
-idx : 1002
-location : None
-num : x
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : beads
-type_failure : 0
-verbs : be
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,49
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : cookie
-idx : 1006
-location : None
-num : 50
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : cookies
-type_failure : 0
-verbs : include
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1010
-location : None
-num : 30
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : include
-widx : 12
-_____________
-
-_____________
-adjs : gingerbread
-compound : 0
-container : Riley
-contains : None
-entity : cookie
-idx : 2003
-location : None
-num : x
-origs : 2
 role : do
 subset : 0
 subtypes : []
-surface : cookies
+surface : teachers
 type_failure : 0
-verbs : get
-widx : 4
+verbs : had
+widx : 7
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,51
- INCORRECT
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
-idx : 1000
+entity : meeting
+idx : 10
 location : None
-num : 90
-origs : 1
-role : subj
+num : 0.5
+origs : 0
+role : other
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
-verbs : sprinkle
-widx : 2
+verbs : have be
+widx : 12
 _____________
 
 _____________
@@ -612,100 +749,22 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : cupcake
+entity : teacher
 idx : 1004
 location : None
-num : 60
+num : x
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : cupcakes
+surface : teachers
 type_failure : 0
-verbs : sprinkle
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : cupcake
-idx : 2004
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : cupcakes
-type_failure : 0
-verbs : sprinkle
+verbs : be
 widx : 5
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,52
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : bag
-contains : None
-entity : button
-idx : 1003
-location : None
-num : 70
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : buttons
-type_failure : 0
-verbs : included
-widx : 5
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1008
-location : None
-num : 90
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : include
-widx : 10
-_____________
-
-_____________
-adjs : large
-compound : 0
-container : Jane
-contains : None
-entity : button
-idx : 2003
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : buttons
-type_failure : 0
-verbs : get
-widx : 4
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,60
- INCORRECT
+58
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -730,15 +789,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : tray
 idx : 1011
 location : None
-num : 20
+num : 0.2
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : have be
 widx : 13
@@ -763,162 +822,25 @@ verbs : bring
 widx : 3
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,64
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : cafe
-contains : None
-entity : espresso
-idx : 1006
-location : all
-num : 90
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : espressos
-type_failure : 0
-verbs : sold
-widx : 8
-_____________
-
+64
+ CORRECT
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
-idx : 1011
+entity : time
+idx : 0
 location : None
-num : 10
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : sell
-widx : 13
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : espresso
-idx : 2002
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : espressos
-type_failure : 0
-verbs : sell
-widx : 3
-_____________
-
-67
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : question
-idx : 1002
-location : None
-num : 25
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : questions
-type_failure : 0
-verbs : get
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Russell
-contains : None
-entity : right
-idx : 1007
-location : None
-num : 40
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : right
-type_failure : 0
-verbs : got
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Russell
-contains : None
-entity : question
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : questions
-type_failure : 0
-verbs : get
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,71
- INCORRECT
-_____________
-adjs : multiple
-compound : 0
-container : None
-contains : None
-entity : problem
-idx : 1002
-location : test
-num : 75
-origs : 1
+num : 0.3
+origs : 0
 role : subj
 subset : 0
 subtypes : []
-surface : problems
+surface : times
 type_failure : 0
-verbs : answer
-widx : 5
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Alec
-contains : None
-entity : percent
-idx : 1011
-location : None
-num : 40
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : answered
-widx : 13
+verbs : be
+widx : 2
 _____________
 
 _____________
@@ -926,95 +848,114 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : problem
-idx : 2002
-location : None
-num : x
-origs : 2
+entity : mug
+idx : 4
+location : House
+num : 60
+origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : problems
+surface : mugs
 type_failure : 0
-verbs : get
-widx : 3
+verbs : be
+widx : 7
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,76
- INCORRECT
 _____________
-adjs : None
+adjs : dirty
 compound : 0
-container : bag
+container : None
 contains : None
-entity : button
+entity : coffee
 idx : 1003
 location : None
-num : 35
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : buttons
-type_failure : 0
-verbs : included
-widx : 5
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1008
-location : None
-num : 60
+num : x
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : coffee
 type_failure : 0
-verbs : include
-widx : 10
-_____________
-
-_____________
-adjs : large
-compound : 0
-container : Gwen
-contains : None
-entity : button
-idx : 2003
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : buttons
-type_failure : 0
-verbs : get
+verbs : be
 widx : 4
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,78
+80
  INCORRECT
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : question
+idx : 1002
+location : None
+num : 16
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : questions
+type_failure : 0
+verbs : get
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : Mary
+idx : 1007
+location : None
+num : 0.25
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : get
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Mary
+contains : None
+entity : question
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : questions
+type_failure : 0
+verbs : get
+widx : 3
+_____________
+
+82
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : time
 idx : 1000
 location : None
-num : 50
+num : 0.5
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : sprinkle
 widx : 2
@@ -1058,8 +999,8 @@ verbs : sprinkle
 widx : 5
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,86
- INCORRECT
+86
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -1084,15 +1025,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : train
 idx : 1000
 location : None
-num : 80
+num : 0.8
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : be
 widx : 2
@@ -1117,25 +1058,25 @@ verbs : be
 widx : 4
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,89
- INCORRECT
+89
+ CORRECT
 _____________
 adjs : None
 compound : 0
-container : None
+container : cafe
 contains : None
-entity : percent
-idx : 5
-location : None
-num : 75
-origs : 0
-role : subj
+entity : coffee
+idx : 1006
+location : all
+num : 96
+origs : 1
+role : do
 subset : 0
 subtypes : []
-surface : percent
+surface : coffees
 type_failure : 0
-verbs : be
-widx : 7
+verbs : served
+widx : 8
 _____________
 
 _____________
@@ -1143,18 +1084,18 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : hat
-idx : 9
+entity : cafe
+idx : 1011
 location : None
-num : 52
-origs : 0
+num : 0.25
+origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : hats
+surface : times
 type_failure : 0
-verbs : be
-widx : 11
+verbs : serve
+widx : 13
 _____________
 
 _____________
@@ -1162,22 +1103,81 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : cap
-idx : 1003
+entity : coffee
+idx : 2002
 location : None
 num : x
-origs : 1
-role : subj
+origs : 2
+role : other
 subset : 0
 subtypes : []
-surface : caps
+surface : coffees
 type_failure : 0
-verbs : be
-widx : 4
+verbs : serve
+widx : 3
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,96
- INCORRECT
+90
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : special
+idx : 1003
+location : all
+num : 15
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : specials
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : restaurant
+idx : 1008
+location : None
+num : 0.4
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : serve
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : salmon
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : salmon
+type_failure : 0
+verbs : serve
+widx : 3
+_____________
+
+95
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -1202,15 +1202,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : diner
 idx : 1011
 location : None
-num : 20
+num : 0.2
 origs : 1
-role : other
+role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : serve
 widx : 13
@@ -1235,244 +1235,8 @@ verbs : serve
 widx : 4
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,97
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 0
-location : None
-num : 75
-origs : 0
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : sell
-widx : 2
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : park
-contains : None
-entity : ticket
-idx : 1004
-location : None
-num : 68
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : tickets
-type_failure : 0
-verbs : sold
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : it
-contains : None
-entity : discount
-idx : 1011
-location : None
-num : x
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : discount
-type_failure : 0
-verbs : sell
-widx : 12
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,104
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1000
-location : None
-num : 30
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : wear
-widx : 2
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : costume
-contains : None
-entity : student
-idx : 1004
-location : None
-num : 100
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : students
-type_failure : 0
-verbs : None
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : costume
-contains : None
-entity : student
-idx : 2002
-location : None
-num : x
-origs : 2
-role : subj
-subset : 0
-subtypes : []
-surface : students
-type_failure : 0
-verbs : None
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,108
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1000
-location : None
-num : 20
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : vote
-widx : 2
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : member
-idx : 1004
-location : None
-num : 15
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : members
-type_failure : 0
-verbs : vote
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : member
-idx : 2002
-location : None
-num : x
-origs : 2
-role : subj
-subset : 0
-subtypes : []
-surface : members
-type_failure : 0
-verbs : vote
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,111
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : question
-idx : 1002
-location : None
-num : 28
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : questions
-type_failure : 0
-verbs : get
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Bryan
-contains : None
-entity : right
-idx : 1007
-location : None
-num : 75
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : right
-type_failure : 0
-verbs : got
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Bryan
-contains : None
-entity : question
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : questions
-type_failure : 0
-verbs : get
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,113
- INCORRECT
+97
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -1481,7 +1245,7 @@ contains : None
 entity : milkshake
 idx : 4
 location : None
-num : 32
+num : 88
 origs : 0
 role : do
 subset : 0
@@ -1497,15 +1261,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : Diner
 idx : 1000
 location : None
-num : 25
+num : 0.25
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : whip
 widx : 2
@@ -1530,142 +1294,24 @@ verbs : whip sell
 widx : 8
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,117
- INCORRECT
+101
+ CORRECT
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
-idx : 5
-location : None
-num : 25
-origs : 0
-role : subj
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : be
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : style
-idx : 9
-location : None
-num : 8
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : styles
-type_failure : 0
-verbs : be
-widx : 12
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : bikini
+entity : student
 idx : 1002
-location : None
-num : x
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : bikini
-type_failure : 0
-verbs : be
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,124
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : cafe
-contains : None
-entity : espresso
-idx : 1006
-location : all
-num : 20
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : espressos
-type_failure : 0
-verbs : sold
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1011
-location : None
-num : 30
+location : school
+num : 100
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : percent
+surface : students
 type_failure : 0
-verbs : sell
-widx : 13
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : espresso
-idx : 2002
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : espressos
-type_failure : 0
-verbs : sell
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,128
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : Brennan
-contains : None
-entity : bead
-idx : 1002
-location : None
-num : 76
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : beads
-type_failure : 0
-verbs : received
+verbs : vote
 widx : 4
 _____________
 
@@ -1674,18 +1320,18 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
-idx : 1006
+entity : time
+idx : 1009
 location : None
-num : 25
+num : 0.3
 origs : 1
 role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
-verbs : receive
-widx : 8
+verbs : vote
+widx : 11
 _____________
 
 _____________
@@ -1693,7 +1339,66 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : bead
+entity : student
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : students
+type_failure : 0
+verbs : vote
+widx : 3
+_____________
+
+115
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : problem
+idx : 1002
+location : quiz
+num : 56
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : problems
+type_failure : 0
+verbs : answer
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Beth
+contains : None
+entity : Beth
+idx : 1010
+location : None
+num : 0.5
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : answered
+widx : 12
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : problem
 idx : 2002
 location : None
 num : x
@@ -1701,73 +1406,14 @@ origs : 2
 role : other
 subset : 0
 subtypes : []
-surface : beads
+surface : problems
 type_failure : 0
-verbs : receive
+verbs : get correct
 widx : 3
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,129
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : deer
-idx : 1006
-location : all
-num : 100
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : deer
-type_failure : 0
-verbs : find
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : percent
-idx : 1011
-location : None
-num : 20
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : percent
-type_failure : 0
-verbs : find
-widx : 13
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : juvenile
-idx : 2002
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : juveniles
-type_failure : 0
-verbs : be
-widx : 3
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,132
- INCORRECT
+121
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -1792,15 +1438,15 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : percent
+entity : cafe
 idx : 1011
 location : None
-num : 50
+num : 0.5
 origs : 1
-role : other
+role : subj
 subset : 0
 subtypes : []
-surface : percent
+surface : times
 type_failure : 0
 verbs : serve
 widx : 13
@@ -1825,25 +1471,25 @@ verbs : serve
 widx : 3
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,133
- INCORRECT
+133
+ CORRECT
 _____________
 adjs : None
 compound : 0
-container : None
+container : shop
 contains : None
-entity : park
-idx : 1
-location : None
-num : 45
-origs : 0
-role : other
+entity : tea
+idx : 1009
+location : all
+num : 65
+origs : 1
+role : do
 subset : 0
 subtypes : []
-surface : park
+surface : teas
 type_failure : 0
-verbs : sell
-widx : 4
+verbs : served
+widx : 11
 _____________
 
 _____________
@@ -1851,18 +1497,195 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : ticket
+entity : shop
+idx : 1014
+location : None
+num : 0.8
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : serve caffeinate
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : tea
+idx : 2008
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : teas
+type_failure : 0
+verbs : caffeinate serve
+widx : 9
+_____________
+
+138
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : special
+idx : 1003
+location : all
+num : 58
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : specials
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : restaurant
+idx : 1008
+location : None
+num : 0.5
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : times
+type_failure : 0
+verbs : serve
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : salmon
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : salmon
+type_failure : 0
+verbs : serve
+widx : 3
+_____________
+
+141
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : special
+idx : 1003
+location : all
+num : 80
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : specials
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : special
+idx : 1008
+location : None
+num : 56
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : specials
+type_failure : 0
+verbs : serve
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 2000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,155
+ INCORRECT
+_____________
+adjs : plastic
+compound : 0
+container : None
+contains : None
+entity : bead
 idx : 8
 location : None
-num : 60
+num : 69
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : beads
+type_failure : 0
+verbs : be
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bead
+idx : 12
+location : clearance
+num : 23
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : tickets
+surface : beads
 type_failure : 0
-verbs : sell
-widx : 10
+verbs : be
+widx : 15
 _____________
 
 _____________
@@ -1884,7 +1707,66 @@ verbs : None
 widx : 1
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,163
+TOP SCORING NO CORRECT SOLUTION ,156
+ INCORRECT
+_____________
+adjs : single
+compound : 0
+container : cafe
+contains : None
+entity : espresso
+idx : 1006
+location : None
+num : 90
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : espressos
+type_failure : 0
+verbs : sold
+widx : 9
+_____________
+
+_____________
+adjs : double
+compound : 0
+container : None
+contains : None
+entity : espresso
+idx : 1010
+location : None
+num : 10
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : espressos
+type_failure : 0
+verbs : sell
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 2000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,157
  INCORRECT
 _____________
 adjs : None
@@ -2005,183 +1887,6 @@ _____________
 TOP SCORING NO CORRECT SOLUTION ,165
  INCORRECT
 _____________
-adjs : None
-compound : 0
-container : Harry
-contains : None
-entity : worksheet
-idx : 6
-location : None
-num : 38
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : worksheet
-type_failure : 0
-verbs : completed
-widx : 9
-_____________
-
-_____________
-adjs : correct
-compound : 0
-container : None
-contains : None
-entity : question
-idx : 1005
-location : None
-num : 76
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : questions
-type_failure : 0
-verbs : get
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,169
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : Danielle
-contains : None
-entity : quiz
-idx : 2
-location : None
-num : 18
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : quiz
-type_failure : 0
-verbs : took
-widx : 5
-_____________
-
-_____________
-adjs : correct
-compound : 0
-container : None
-contains : None
-entity : problem
-idx : 1005
-location : None
-num : 45
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : problems
-type_failure : 0
-verbs : get
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,170
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : club
-contains : None
-entity : election
-idx : 12
-location : None
-num : 27
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : election
-type_failure : 0
-verbs : held
-widx : 14
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : member
-idx : 1004
-location : None
-num : 54
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : members
-type_failure : 0
-verbs : vote
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,172
- INCORRECT
-_____________
 adjs : well
 compound : 0
 container : restaurant
@@ -2241,158 +1946,21 @@ _____________
 TOP SCORING NO CORRECT SOLUTION ,173
  INCORRECT
 _____________
-adjs : infected
-compound : 0
-container : arborist
-contains : None
-entity : tree
-idx : 1003
-location : None
-num : 28
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : trees
-type_failure : 0
-verbs : counted
-widx : 6
-_____________
-
-_____________
-adjs : healthy
+adjs : None
 compound : 0
 container : None
 contains : None
-entity : tree
-idx : 1007
+entity : minute
+idx : 1009
 location : None
-num : 7
+num : 230
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : trees
+surface : minutes
 type_failure : 0
-verbs : count
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,175
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : member
-idx : 1000
-location : None
-num : 22
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : members
-type_failure : 0
-verbs : vote vote
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : member
-idx : 1011
-location : None
-num : 66
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : members
-type_failure : 0
-verbs : vote vote
-widx : 12
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,182
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : Sara
-contains : None
-entity : pumpkin
-idx : 2
-location : None
-num : 43
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : pumpkins
-type_failure : 0
-verbs : grew
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : rabbits
-contains : None
-entity : pumpkin
-idx : 9
-location : None
-num : 23
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : pumpkins
-type_failure : 0
-verbs : ate
+verbs : finish
 widx : 11
 _____________
 
@@ -2401,32 +1969,287 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : pumpkin
-idx : 1002
+entity : he
+idx : 2011
 location : None
 num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : time
+type_failure : 0
+verbs : run finish
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : minute
+idx : 2014
+location : None
+num : 276
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : minutes
+type_failure : 0
+verbs : run finish
+widx : 16
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,199
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 33
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : be
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1006
+location : None
+num : 18
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : cut
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 2005
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : finish
+widx : 6
+_____________
+
+204
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : She
+contains : None
+entity : half-dollar
+idx : 1002
+location : None
+num : 17
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : half-dollars
+type_failure : 0
+verbs : got
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : half-dollar
+idx : 1007
+location : None
+num : 6
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : pumpkins
+surface : half-dollars
 type_failure : 0
-verbs : leave
+verbs : get
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 2000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,205
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : money
+idx : 12
+location : jacket
+num : 1.5
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : found
+widx : 14
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 19
+location : shorts
+num : 0.4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : find
+widx : 21
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : money
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : find
 widx : 3
 _____________
 
-201
+211
  CORRECT
 _____________
 adjs : None
 compound : 0
-container : toy
+container : Sam
 contains : None
 entity : dollar
-idx : 3
+idx : 5
 location : None
-num : 10.22
+num : 0.02
 origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : pennies
+type_failure : 0
+verbs : spent
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : 1.2
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : spent
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2010
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : spend
+widx : 11
+_____________
+
+212
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : He
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 14.28
+origs : 1
 role : do
 subset : 0
 subtypes : []
@@ -2439,43 +2262,43 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : cage
+container : jacket
 contains : None
 entity : dollar
-idx : 15
+idx : 1008
 location : None
-num : 11.73
-origs : 0
-role : do
+num : 4.74
+origs : 1
+role : other
 subset : 0
 subtypes : []
 surface : $
 type_failure : 0
-verbs : cost
-widx : 15
+verbs : None
+widx : 8
 _____________
 
 _____________
-adjs : total
+adjs : None
 compound : 0
 container : None
 contains : None
-entity : cost
-idx : 1004
+entity : dollar
+idx : 2011
 location : None
 num : x
-origs : 1
-role : subj
+origs : 2
+role : other
 subset : 0
 subtypes : []
-surface : cost
+surface : dollar
 type_failure : 0
-verbs : be
-widx : 5
+verbs : spend
+widx : 12
 _____________
 
-217
- INCORRECT
+219
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -2578,95 +2401,95 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : dollar
-idx : 1006
+entity : ton
+idx : 5
 location : None
-num : 9.14
-origs : 1
+num : 5,973
+origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : $
+surface : tons
 type_failure : 0
-verbs : buy pay
-widx : 6
+verbs : fill
+widx : 7
 _____________
 
 _____________
-adjs : None
+adjs : more
 compound : 0
-container : baseball
+container : sailors
 contains : None
-entity : dollar
-idx : 1011
+entity : ton
+idx : 1009
 location : None
-num : 6.81
+num : 8,723
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : $
+surface : tons
 type_failure : 0
-verbs : paid
-widx : 11
+verbs : load
+widx : 12
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : None
+container : ship
 contains : None
-entity : dollar
-idx : 1018
-location : None
-num : 20
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : buy pay
-widx : 18
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : dollar
-idx : 2005
+entity : ton
+idx : 2002
 location : None
 num : x
 origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : receive
-widx : 6
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,232
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : she
-contains : None
-entity : pound
-idx : 1005
-location : None
-num : 2,479
-origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : pounds
+surface : tons
 type_failure : 0
-verbs : harvested
+verbs : hold
+widx : 3
+_____________
+
+233
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 2
+location : library
+num : 1,986
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 1005
+location : libraries
+num : 5,106
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : be
 widx : 7
 _____________
 
@@ -2675,100 +2498,22 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : pound
-idx : 2014
-location : None
-num : 6,085
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : pounds
-type_failure : 0
-verbs : buy increase
-widx : 16
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : pound
-idx : 3002
+entity : book
+idx : 2002
 location : None
 num : x
-origs : 3
+origs : 2
 role : subj
 subset : 0
 subtypes : []
-surface : pounds
+surface : books
 type_failure : 0
-verbs : do
+verbs : do have
 widx : 3
 _____________
 
-235
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : liter
-idx : 1008
-location : None
-num : 6,522
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : liters
-type_failure : 0
-verbs : start fix leak
-widx : 10
-_____________
-
-_____________
-adjs : more
-compound : 0
-container : pipe
-contains : None
-entity : liter
-idx : 2008
-location : None
-num : 5,165
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : liters
-type_failure : 0
-verbs : leaked
-widx : 11
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : liter
-idx : 3005
-location : all
-num : x
-origs : 3
-role : subj
-subset : 0
-subtypes : []
-surface : liters
-type_failure : 0
-verbs : leak
-widx : 6
-_____________
-
-236
- CORRECT
+239
+ INCORRECT
 _____________
 adjs : None
 compound : 0
@@ -2833,17 +2578,17 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : house
+entity : yard
 idx : 8
-location : County
-num : 1,426
+location : None
+num : 61,921
 origs : 0
-role : subj
+role : other
 subset : 0
 subtypes : []
-surface : houses
+surface : yards
 type_failure : 0
-verbs : be
+verbs : fill dye
 widx : 10
 _____________
 
@@ -2852,76 +2597,116 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : house
-idx : 1004
+entity : yard
+idx : 14
 location : None
-num : 2,000
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : houses
-type_failure : 0
-verbs : be
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : developers
-contains : None
-entity : house
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : houses
-type_failure : 0
-verbs : build
-widx : 3
-_____________
-
-252
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : pound
-idx : 11
-location : None
-num : 9,792
+num : 49,500
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : pounds
+surface : yards
 type_failure : 0
-verbs : sell
-widx : 13
+verbs : fill dye
+widx : 16
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : they
+container : it
 contains : None
-entity : pound
-idx : 1004
+entity : yard
+idx : 1002
 location : None
-num : 3,513
+num : x
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : pounds
+surface : yards
 type_failure : 0
-verbs : sold
+verbs : dye
+widx : 3
+_____________
+
+248
+ CORRECT
+_____________
+adjs : part
+compound : 0
+container : corporation
+contains : None
+entity : employee
+idx : 4
+location : None
+num : 2,041
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : employees
+type_failure : 0
+verbs : has
+widx : 7
+_____________
+
+_____________
+adjs : full
+compound : 0
+container : None
+contains : None
+entity : employee
+idx : 8
+location : None
+num : 63,093
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : employees
+type_failure : 0
+verbs : have
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : employee
+idx : 1002
+location : None
+num : x
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : employees
+type_failure : 0
+verbs : work
+widx : 3
+_____________
+
+249
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : Sara
+contains : None
+entity : dollar
+idx : 6
+location : None
+num : 10.62
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
 widx : 6
 _____________
 
@@ -2930,22 +2715,79 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : pound
-idx : 1012
+entity : ticket
+idx : 7
 location : None
-num : x
+num : 2
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : spend
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : movie
+contains : None
+entity : dollar
+idx : 1007
+location : None
+num : 1.59
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : pounds
+surface : $
 type_failure : 0
-verbs : sell sell
-widx : 13
+verbs : None
+widx : 7
 _____________
 
-254
- INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 13.95
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : rent buy
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2010
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : spend
+widx : 11
+_____________
+
+255
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -3046,289 +2888,36 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Dana
+container : Mika
 contains : None
-entity : money
-idx : 3
+entity : sticker
+idx : 2
 location : None
-num : 13.0
+num : 20
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : $
+surface : stickers
 type_failure : 0
-verbs : earns
-widx : 3
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Dana
-contains : None
-entity : hour
-idx : 1002
-location : Friday
-num : 9
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : hours
-type_failure : 0
-verbs : worked
+verbs : had
 widx : 4
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : None
+container : store
 contains : None
-entity : hour
-idx : 1007
-location : Saturday
-num : 10
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : hours
-type_failure : 0
-verbs : work
-widx : 9
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : hour
-idx : 1013
-location : Sunday
-num : 3
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : hours
-type_failure : 0
-verbs : work
-widx : 15
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Dana
-contains : None
-entity : money
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : money
-type_failure : 0
-verbs : earn
-widx : 3
-_____________
-
-257
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : money
-idx : 6
-location : None
-num : 91.0
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : gave
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : t-shirt
-contains : None
-entity : money
-idx : 1006
-location : None
-num : 24.0
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : None
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : pair
-contains : None
-entity : money
-idx : 1012
-location : None
-num : 6.0
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : None
-widx : 12
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : money
-idx : 1021
-location : None
-num : 11.0
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : buy
-widx : 21
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Carrie
-contains : None
-entity : money
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : money
-type_failure : 0
-verbs : left
-widx : 3
-_____________
-
-261
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : party
-contains : None
-entity : plate
-idx : 2
-location : None
-num : 61
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : plates
-type_failure : 0
-verbs : needs
-widx : 5
-_____________
-
-_____________
-adjs : blue
-compound : 0
-container : He
-contains : None
-entity : plate
-idx : 1003
+entity : sticker
+idx : 1002
 location : None
 num : 26
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : plates
-type_failure : 0
-verbs : has
-widx : 6
-_____________
-
-_____________
-adjs : red
-compound : 0
-container : None
-contains : None
-entity : plate
-idx : 1007
-location : None
-num : 7
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : plates
-type_failure : 0
-verbs : have
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : plate
-idx : 2006
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : plates
-type_failure : 0
-verbs : buy
-widx : 7
-_____________
-
-263
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : Adam
-contains : can
-entity : package
-idx : 2
-location : None
-num : 9
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : packages
+surface : stickers
 type_failure : 0
 verbs : bought
 widx : 4
@@ -3337,39 +2926,20 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : package
+container : None
 contains : None
-entity : can
-idx : 3
+entity : sticker
+idx : 1012
 location : None
-num : 10
+num : 20
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : cans
+surface : stickers
 type_failure : 0
-verbs : contained
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : package
-contains : None
-entity : can
-idx : 3
-location : None
-num : 5
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : cans
-type_failure : 0
-verbs : contained
-widx : 18
+verbs : got
+widx : 14
 _____________
 
 _____________
@@ -3377,26 +2947,201 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : package
+entity : sticker
+idx : 2003
+location : None
+num : 6
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : give use decorate greet
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : card
+contains : None
+entity : sticker
+idx : 2012
+location : None
+num : 58
+origs : 4
+role : other
+subset : 0
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Mika
+contains : None
+entity : sticker
+idx : 3002
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,259
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : Seth
+contains : dollar
+entity : carton
+idx : 2
+location : None
+num : 20
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
 idx : 8
 location : None
-num : 7
+num : 2
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : packages
+surface : cartons
 type_failure : 0
 verbs : buy
 widx : 10
 _____________
 
 _____________
-adjs : more
+adjs : None
 compound : 0
-container : Adam
+container : None
+contains : dollar
+entity : dollar
+idx : 1015
+location : None
+num : 1
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dollar
 contains : None
-entity : can
+entity : dollar
+idx : 1016
+location : None
+num : 6
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2012
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : spend
+widx : 13
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,268
+ INCORRECT
+_____________
+adjs : yellow
+compound : 0
+container : Mary
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 9
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : yellow
+compound : 0
+container : Joan
+contains : None
+entity : marble
+idx : 1002
+location : None
+num : 3
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : yellow
+compound : 0
+container : they
+contains : None
+entity : marble
 idx : 2003
 location : None
 num : x
@@ -3404,111 +3149,111 @@ origs : 2
 role : do
 subset : 0
 subtypes : []
-surface : cans
+surface : marbles
 type_failure : 0
-verbs : buy
+verbs : have
 widx : 4
 _____________
 
-277
+275
  CORRECT
 _____________
 adjs : None
 compound : 0
-container : None
+container : Maggie
 contains : None
-entity : ticket
-idx : 1004
+entity : pack
+idx : 2
 location : None
-num : 2
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : tickets
-type_failure : 0
-verbs : 
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : ticket
-idx : 1011
-location : None
-num : 7
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : tickets
-type_failure : 0
-verbs : 
-widx : 13
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : log
-entity : ticket
-idx : 1018
-location : None
-num : 1
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : ticket
-type_failure : 0
-verbs : 
-widx : 20
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Zach
-contains : None
-entity : ticket
-idx : 2002
-location : None
-num : 1
-origs : 2
+num : 4
+origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : ticket
+surface : packs
 type_failure : 0
-verbs : has
+verbs : bought
 widx : 4
 _____________
 
 _____________
-adjs : more
+adjs : None
 compound : 0
-container : Zach
+container : None
 contains : None
-entity : ticket
-idx : 3003
+entity : pack
+idx : 9
+location : None
+num : 8
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 17
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : package
+contains : None
+entity : ball
+idx : 1002
+location : package
+num : 10
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : bouncy
+compound : 0
+container : Maggie
+contains : None
+entity : ball
+idx : 2003
 location : None
 num : x
-origs : 3
+origs : 2
 role : do
 subset : 0
 subtypes : []
-surface : tickets
+surface : balls
 type_failure : 0
 verbs : buy
 widx : 4
 _____________
 
-278
- INCORRECT
+280
+ CORRECT
 _____________
 adjs : None
 compound : 0
@@ -3630,12 +3375,307 @@ _____________
 _____________
 adjs : None
 compound : 0
+container : None
+contains : None
+entity : budget
+idx : 4
+location : groceries
+num : 0.6
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : budget
+type_failure : 0
+verbs : spend go eat
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : budget
+idx : 12
+location : None
+num : 0.2
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : budget
+type_failure : 0
+verbs : spend go eat
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 1000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+298
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : cup
+contains : cup
+entity : cup
+idx : 3
+location : None
+num : 0.16666666666666666
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : cup
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : cup
+contains : None
+entity : cup
+idx : 4
+location : None
+num : 0.6666666666666666
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : cup
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : oil
+idx : 1011
+location : None
+num : x
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : oil
+type_failure : 0
+verbs : add measure
+widx : 12
+_____________
+
+300
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : apartment
+entity : apartment
+idx : 6
+location : None
+num : 0.16666666666666666
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : apartments
+type_failure : 0
+verbs : be be
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : apartment
+idx : 14
+location : None
+num : 0.3333333333333333
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : apartments
+type_failure : 0
+verbs : be be
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : UNKNOWN
+idx : 1000
+location : None
+num : x
+origs : 10
+role : other
+subset : 0
+subtypes : []
+surface : UNKNOWN
+type_failure : 0
+verbs : None
+widx : 1
+_____________
+
+312
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : acre
+contains : acre
+entity : acre
+idx : 1003
+location : None
+num : 0.4
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : acre
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : acre
+contains : None
+entity : acre
+idx : 1004
+location : None
+num : 0.1
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : acre
+type_failure : 0
+verbs : None
+widx : 17
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : acre
+idx : 2003
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : acres
+type_failure : 0
+verbs : do
+widx : 4
+_____________
+
+317
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : scoop
+contains : scoop
+entity : scoop
+idx : 11
+location : None
+num : 0.625
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : scoop
+type_failure : 0
+verbs : None
+widx : 14
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : scoop
+contains : None
+entity : scoop
+idx : 12
+location : None
+num : 0.25
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : scoop
+type_failure : 0
+verbs : None
+widx : 24
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : scoop
+idx : 1007
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : scoop
+type_failure : 0
+verbs : use
+widx : 8
+_____________
+
+319
+ CORRECT
+_____________
+adjs : None
+compound : 0
 container : mile
 contains : mile
 entity : mile
 idx : 3
 location : None
-num : 0.4
+num : 0.7
 origs : 0
 role : other
 subset : 0
@@ -3654,7 +3694,7 @@ contains : None
 entity : mile
 idx : 4
 location : None
-num : 0.2
+num : 0.6
 origs : 0
 role : other
 subset : 0
@@ -3684,302 +3724,7 @@ verbs : run walk
 widx : 6
 _____________
 
-302
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : bucket
-contains : bucket
-entity : bucket
-idx : 12
-location : None
-num : 0.2
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : bucket
-type_failure : 0
-verbs : None
-widx : 15
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : bucket
-contains : None
-entity : bucket
-idx : 13
-location : None
-num : 0.4
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : bucket
-type_failure : 0
-verbs : None
-widx : 22
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : bear
-contains : None
-entity : bucket
-idx : 1002
-location : None
-num : x
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : buckets
-type_failure : 0
-verbs : eat
-widx : 3
-_____________
-
-304
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : student
-idx : 0
-location : band
-num : 0.5
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : students
-type_failure : 0
-verbs : be
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : student
-idx : 1000
-location : band
-num : 0.125
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : students
-type_failure : 0
-verbs : be
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-306
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : inch
-contains : inch
-entity : inch
-idx : 1004
-location : None
-num : 0.8
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : inch
-type_failure : 0
-verbs : None
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : inch
-contains : None
-entity : inch
-idx : 1005
-location : None
-num : 0.1
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : inch
-type_failure : 0
-verbs : None
-widx : 8
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : inch
-idx : 3003
-location : None
-num : x
-origs : 3
-role : other
-subset : 0
-subtypes : []
-surface : inch
-type_failure : 0
-verbs : be
-widx : 4
-_____________
-
-307
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : mile
-contains : mile
-entity : mile
-idx : 8
-location : None
-num : 0.625
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : mile
-type_failure : 0
-verbs : None
-widx : 11
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : mile
-contains : None
-entity : mile
-idx : 9
-location : None
-num : 0.5
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : mile
-type_failure : 0
-verbs : None
-widx : 21
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : mile
-idx : 1003
-location : None
-num : x
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : mile
-type_failure : 0
-verbs : be
-widx : 4
-_____________
-
-309
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : mile
-contains : mile
-entity : mile
-idx : 3
-location : None
-num : 0.2
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : mile
-type_failure : 0
-verbs : None
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : mile
-contains : None
-entity : mile
-idx : 4
-location : None
-num : 0.7
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : mile
-type_failure : 0
-verbs : None
-widx : 17
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Craig
-contains : None
-entity : mile
-idx : 1002
-location : None
-num : x
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : miles
-type_failure : 0
-verbs : walk
-widx : 3
-_____________
-
-316
+320
  CORRECT
 _____________
 adjs : None
@@ -4086,7 +3831,7 @@ contains : None
 entity : bottle
 idx : 1004
 location : table
-num : 0.375
+num : 0.25
 origs : 1
 role : other
 subset : 0
@@ -4094,7 +3839,7 @@ subtypes : []
 surface : bottle
 type_failure : 0
 verbs : None
-widx : 25
+widx : 15
 _____________
 
 _____________
@@ -4105,7 +3850,7 @@ contains : None
 entity : bottle
 idx : 1004
 location : table
-num : 0.25
+num : 0.375
 origs : 1
 role : other
 subset : 0
@@ -4113,7 +3858,7 @@ subtypes : []
 surface : bottle
 type_failure : 0
 verbs : None
-widx : 15
+widx : 25
 _____________
 
 _____________
@@ -4136,162 +3881,6 @@ widx : 5
 _____________
 
 328
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : restaurant
-idx : 1006
-location : None
-num : 0.08333333333333333
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : restaurant
-type_failure : 0
-verbs : notice fill fill fill
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : restaurant
-idx : 1014
-location : None
-num : 0.75
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : restaurant
-type_failure : 0
-verbs : notice fill fill fill
-widx : 15
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : restaurant
-idx : 1023
-location : None
-num : 0.08333333333333333
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : restaurant
-type_failure : 0
-verbs : notice fill fill fill
-widx : 24
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : tart
-idx : 2002
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : tarts
-type_failure : 0
-verbs : do have
-widx : 3
-_____________
-
-329
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : ton
-contains : ton
-entity : ton
-idx : 1009
-location : None
-num : 0.3333333333333333
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : ton
-type_failure : 0
-verbs : None
-widx : 12
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : ton
-contains : None
-entity : ton
-idx : 1010
-location : None
-num : 0.08333333333333333
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : ton
-type_failure : 0
-verbs : None
-widx : 23
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : ton
-contains : None
-entity : ton
-idx : 1010
-location : None
-num : 0.3333333333333333
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : ton
-type_failure : 0
-verbs : None
-widx : 17
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : ton
-idx : 2002
-location : None
-num : x
-origs : 2
-role : subj
-subset : 0
-subtypes : []
-surface : tons
-type_failure : 0
-verbs : do
-widx : 3
-_____________
-
-334
  CORRECT
 _____________
 adjs : None
@@ -4301,7 +3890,7 @@ contains : mile
 entity : mile
 idx : 1005
 location : None
-num : 0.08333333333333333
+num : 0.1111111111111111
 origs : 1
 role : other
 subset : 0
@@ -4321,14 +3910,14 @@ entity : mile
 idx : 1006
 location : None
 num : 0.6666666666666666
-origs : 4
+origs : 2
 role : other
 subset : 0
 subtypes : []
 surface : mile
 type_failure : 0
 verbs : None
-widx : 9
+widx : 20
 _____________
 
 _____________
@@ -4339,7 +3928,7 @@ contains : None
 entity : mile
 idx : 1006
 location : None
-num : 0.08333333333333333
+num : 0.1111111111111111
 origs : 2
 role : other
 subset : 0
@@ -4353,7 +3942,7 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Nina
+container : Trisha
 contains : None
 entity : mile
 idx : 3002
@@ -4365,167 +3954,89 @@ subset : 0
 subtypes : []
 surface : miles
 type_failure : 0
-verbs : run
+verbs : walk
 widx : 3
 _____________
 
-335
+330
  CORRECT
 _____________
 adjs : None
 compound : 0
-container : gallon
-contains : gallon
-entity : gallon
-idx : 1003
+container : mile
+contains : mile
+entity : mile
+idx : 1005
 location : None
-num : 0.25
+num : 0.3
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : gallon
+surface : mile
 type_failure : 0
 verbs : None
-widx : 6
+widx : 8
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : gallon
+container : mile
 contains : None
-entity : gallon
-idx : 1004
-location : None
-num : 0.375
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : gallon
-type_failure : 0
-verbs : None
-widx : 14
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : gallon
-contains : None
-entity : gallon
-idx : 1004
-location : None
-num : 0.125
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : gallon
-type_failure : 0
-verbs : None
-widx : 23
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Kendra
-contains : None
-entity : gallon
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : gallons
-type_failure : 0
-verbs : make
-widx : 3
-_____________
-
-339
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : cup
-contains : cup
-entity : cup
-idx : 1003
-location : None
-num : 0.2
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : cup
-type_failure : 0
-verbs : None
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : cup
-contains : None
-entity : cup
-idx : 1004
+entity : mile
+idx : 1006
 location : None
 num : 0.1
 origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : cup
+surface : mile
 type_failure : 0
 verbs : None
-widx : 13
+widx : 19
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : cup
+container : mile
 contains : None
-entity : cup
-idx : 1004
+entity : mile
+idx : 1006
 location : None
-num : 0.2
-origs : 1
+num : 0.4
+origs : 2
 role : other
 subset : 0
 subtypes : []
-surface : cup
+surface : mile
 type_failure : 0
 verbs : None
-widx : 21
+widx : 7
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : Ellen
+container : Spencer
 contains : None
-entity : cup
-idx : 2002
+entity : mile
+idx : 3002
 location : None
 num : x
-origs : 2
+origs : 3
 role : do
 subset : 0
 subtypes : []
-surface : cups
+surface : miles
 type_failure : 0
-verbs : use
+verbs : walk
 widx : 3
 _____________
 
-342
+337
  CORRECT
 _____________
 adjs : None
@@ -4589,20 +4100,39 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Company
-contains : None
-entity : ton
+container : None
+contains : pound
+entity : pound
 idx : 5
 location : None
-num : 10
+num : 7.125
 origs : 0
-role : do
+role : subj
 subset : 0
 subtypes : []
-surface : tons
+surface : pounds
 type_failure : 0
-verbs : used
+verbs : weigh weigh
 widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pound
+contains : None
+entity : pound
+idx : 6
+location : None
+num : 0.625
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : None
+widx : 16
 _____________
 
 _____________
@@ -4610,40 +4140,21 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : ton
-idx : 15
-location : None
-num : 5.1
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : tons
-type_failure : 0
-verbs : use pave pave
-widx : 17
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Roadster
-contains : None
-entity : cement
-idx : 1002
+entity : pound
+idx : 1003
 location : None
 num : x
 origs : 1
-role : do
+role : other
 subset : 0
 subtypes : []
-surface : cement
+surface : pound
 type_failure : 0
-verbs : use
-widx : 3
+verbs : weigh
+widx : 4
 _____________
 
-351
+350
  CORRECT
 _____________
 adjs : None
@@ -4707,20 +4218,20 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Mason
+container : bucket
 contains : None
-entity : bottle
-idx : 10
+entity : gallon
+idx : 3
 location : None
-num : 2.6666666666666665
+num : 3
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : bottles
+surface : gallons
 type_failure : 0
-verbs : drank
-widx : 12
+verbs : contains
+widx : 5
 _____________
 
 _____________
@@ -4728,40 +4239,99 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : bottle
-idx : 16
+entity : gallon
+idx : 1003
 location : None
-num : 2.6666666666666665
-origs : 0
+num : 6.8
+origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : bottles
+surface : gallons
 type_failure : 0
-verbs : drink
-widx : 18
+verbs : add
+widx : 5
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : they
+container : there
 contains : None
-entity : soda
-idx : 1002
+entity : gallon
+idx : 1009
 location : None
 num : x
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : soda
+surface : gallons
 type_failure : 0
-verbs : drink
-widx : 3
+verbs : be
+widx : 10
 _____________
 
-355
+354
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : pound
+entity : pound
+idx : 1005
+location : None
+num : 11.166666666666666
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : weigh weigh
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pound
+contains : None
+entity : pound
+idx : 1006
+location : None
+num : 0.8333333333333334
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : None
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pound
+idx : 2001
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : pound
+type_failure : 0
+verbs : weigh
+widx : 2
+_____________
+
+356
  CORRECT
 _____________
 adjs : white
@@ -4825,20 +4395,79 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : colony
+container : None
 contains : None
-entity : pound
-idx : 4
+entity : gallon
+idx : 2
 location : None
-num : 0.36
+num : 7.75
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : gallons
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : gallon
+idx : 1003
+location : None
+num : 7
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : gallons
+type_failure : 0
+verbs : add
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : there
+contains : None
+entity : gallon
+idx : 1009
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : gallons
+type_failure : 0
+verbs : be
+widx : 10
+_____________
+
+365
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : It
+contains : None
+entity : inch
+idx : 2
+location : None
+num : 0.9
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : pounds
+surface : inches
 type_failure : 0
-verbs : produced
-widx : 6
+verbs : rained
+widx : 4
 _____________
 
 _____________
@@ -4846,18 +4475,18 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : pound
-idx : 12
+entity : inch
+idx : 1005
 location : None
-num : 0.05
-origs : 0
-role : subj
+num : 0.7
+origs : 1
+role : other
 subset : 0
 subtypes : []
-surface : pounds
+surface : inches
 type_failure : 0
-verbs : produce bear eat
-widx : 14
+verbs : rain
+widx : 7
 _____________
 
 _____________
@@ -4865,21 +4494,21 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : honey
-idx : 1002
+entity : inch
+idx : 2001
 location : None
 num : x
-origs : 1
-role : subj
+origs : 2
+role : other
 subset : 0
 subtypes : []
-surface : honey
+surface : inches
 type_failure : 0
-verbs : remain
-widx : 3
+verbs : do
+widx : 2
 _____________
 
-374
+375
  INCORRECT
 _____________
 adjs : None
@@ -5002,38 +4631,156 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Gordon
+container : It
 contains : None
-entity : pound
+entity : inch
 idx : 2
 location : None
-num : 3.42
+num : 0.2
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : pounds
+surface : inches
 type_failure : 0
-verbs : bought
+verbs : rained
 widx : 4
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : class
+container : None
+contains : None
+entity : inch
+idx : 7
+location : None
+num : 0.4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : inches
+type_failure : 0
+verbs : rain
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : inch
+idx : 1009
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : inches
+type_failure : 0
+verbs : combine
+widx : 10
+_____________
+
+379
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
 contains : None
 entity : pound
-idx : 1003
+idx : 3
 location : None
-num : 2.2
-origs : 1
+num : 4.1
+origs : 0
 role : do
 subset : 0
 subtypes : []
 surface : pounds
 type_failure : 0
-verbs : ate
+verbs : carrying
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : truck
+contains : None
+entity : pound
+idx : 14
+location : None
+num : 2.4
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : pounds
+type_failure : 0
+verbs : loses
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : truck
+contains : None
+entity : sand
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : sand
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+384
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : fishbowl
+idx : 2
+location : None
+num : 261
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : fishbowls
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : fishbowl
+contains : None
+entity : fish
+idx : 1003
+location : None
+num : 23
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : fish
+type_failure : 0
+verbs : has
 widx : 5
 _____________
 
@@ -5042,7 +4789,66 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : fruit
+entity : fish
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : fish
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+389
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : We
+contains : None
+entity : pizza
+idx : 2
+location : None
+num : 21
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : ordered
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pizza
+contains : None
+entity : slice
+idx : 1003
+location : None
+num : 8
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : slices
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : slice
 idx : 2002
 location : None
 num : x
@@ -5050,13 +4856,209 @@ origs : 2
 role : other
 subset : 0
 subtypes : []
-surface : fruit
+surface : slices
 type_failure : 0
-verbs : leave
+verbs : be
 widx : 3
 _____________
 
-381
+390
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : apple
+entity : basket
+idx : 2
+location : None
+num : 37
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : baskets
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : basket
+contains : None
+entity : apple
+idx : 3
+location : basket
+num : 17
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : apple
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+392
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : continent
+idx : 6
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : continents
+type_failure : 0
+verbs : come collect combine
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : book
+idx : 16
+location : None
+num : 122
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : collected
+widx : 18
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : book
+idx : 23
+location : None
+num : x
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 24
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : continent
+idx : 29
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : continents
+type_failure : 0
+verbs : come collect combine
+widx : 31
+_____________
+
+TOP SCORING NO CORRECT SOLUTION ,394
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ticket
+idx : 1001
+location : None
+num : 7
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : ticket
+type_failure : 0
+verbs : cost buy spend
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : ticket
+contains : None
+entity : dollar
+idx : 1004
+location : None
+num : 44
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : costs
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1020
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : cost buy spend
+widx : 21
+_____________
+
+399
  CORRECT
 _____________
 adjs : None
@@ -5118,22 +5120,140 @@ _____________
 401
  CORRECT
 _____________
-adjs : None
+adjs : classic
 compound : 0
 container : None
-contains : None
-entity : juggler
-idx : 1001
+contains : book
+entity : author
+idx : 1006
 location : None
-num : 378
+num : 6
 origs : 1
-role : subj
+role : other
 subset : 0
 subtypes : []
-surface : juggler
+surface : authors
 type_failure : 0
-verbs : juggle put
-widx : 3
+verbs : have have do have
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : author
+contains : None
+entity : book
+idx : 1007
+location : None
+num : 33
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : having
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Jack
+contains : None
+entity : book
+idx : 1019
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 20
+_____________
+
+406
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : Haley
+contains : None
+entity : magazine
+idx : 2
+location : cabinet
+num : 63
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : magazines
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : which
+contains : None
+entity : magazine
+idx : 2009
+location : None
+num : 9
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : magazines
+type_failure : 0
+verbs : contain
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Hayley
+contains : None
+entity : box
+idx : 2014
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : boxes
+type_failure : 0
+verbs : use
+widx : 15
+_____________
+
+423
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : tomato
+idx : 1003
+location : None
+num : 56
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : tomatoes
+type_failure : 0
+verbs : gathered
+widx : 6
 _____________
 
 _____________
@@ -5141,454 +5261,100 @@ adjs : None
 compound : 0
 container : time
 contains : None
-entity : ball
-idx : 1005
+entity : tomato
+idx : 1018
+location : None
+num : 8
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : tomatoes
+type_failure : 0
+verbs : contain
+widx : 21
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : jar
+idx : 1027
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : jars
+type_failure : 0
+verbs : need
+widx : 28
+_____________
+
+430
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : package
+idx : 8
 location : None
 num : 6
 origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : balls
-type_failure : 0
-verbs : juggling
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : ball
-idx : 1013
-location : None
-num : x
-origs : 1
 role : other
 subset : 0
 subtypes : []
-surface : balls
+surface : packages
 type_failure : 0
-verbs : juggle put
-widx : 14
-_____________
-
-402
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : booklet
-idx : 1001
-location : None
-num : 49
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : booklet
-type_failure : 0
-verbs : go plan read
-widx : 3
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : booklet
-contains : None
-entity : page
-idx : 1004
-location : None
-num : 9
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : pages
-type_failure : 0
-verbs : has
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : page
-idx : 1019
-location : None
-num : x
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : pages
-type_failure : 0
-verbs : go plan read
-widx : 20
-_____________
-
-405
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : bracelet
-entity : bracelet
-idx : 9
-location : None
-num : 3
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : bracelets
-type_failure : 0
-verbs : have
-widx : 11
-_____________
-
-_____________
-adjs : star
-compound : 0
-container : She
-contains : None
-entity : stone
-idx : 1003
-location : None
-num : 36
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : stones
-type_failure : 0
-verbs : bought
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : stone
-idx : 2006
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : stones
-type_failure : 0
-verbs : make
-widx : 7
-_____________
-
-426
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : Ellen
-contains : None
-entity : lego
-idx : 2
-location : None
-num : 380
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : legos
-type_failure : 0
-verbs : had
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : lego
-idx : 8
-location : None
-num : 57
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : legos
-type_failure : 0
-verbs : lose
+verbs : purchase
 widx : 9
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : None
+container : Mom
 contains : None
-entity : lego
-idx : 1002
-location : None
-num : x
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : legos
-type_failure : 0
-verbs : do have
-widx : 3
-_____________
-
-434
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : cupcake
-idx : 2
-location : None
-num : 96
-origs : 0
-role : subj
-subset : 0
-subtypes : []
-surface : cupcakes
-type_failure : 0
-verbs : share
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : child
-idx : 5
-location : None
-num : 8
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : children
-type_failure : 0
-verbs : share
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : person
+entity : package
 idx : 1003
 location : None
-num : x
+num : 71
 origs : 1
-role : subj
+role : do
 subset : 0
 subtypes : []
-surface : person
+surface : packages
 type_failure : 0
-verbs : get share
+verbs : buys
 widx : 5
 _____________
 
-438
+_____________
+adjs : white
+compound : 0
+container : Mom
+contains : None
+entity : t-shirt
+idx : 1009
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : t-shirts
+type_failure : 0
+verbs : have
+widx : 10
+_____________
+
+442
  INCORRECT
-_____________
-adjs : None
-compound : 0
-container : Jose
-contains : None
-entity : peanut
-idx : 2
-location : None
-num : 85
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : peanuts
-type_failure : 0
-verbs : has
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : peanut
-idx : 1002
-location : None
-num : 48
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : peanuts
-type_failure : 0
-verbs : have
-widx : 3
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : Kenya
-contains : None
-entity : peanut
-idx : 2002
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : peanuts
-type_failure : 0
-verbs : have
-widx : 3
-_____________
-
-440
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : Megan
-contains : None
-entity : marker
-idx : 2
-location : None
-num : 217
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : markers
-type_failure : 0
-verbs : had
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : marker
-idx : 1003
-location : None
-num : 109
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : markers
-type_failure : 0
-verbs : gave
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : marker
-idx : 2002
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : markers
-type_failure : 0
-verbs : do have
-widx : 3
-_____________
-
-445
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : book
-contains : None
-entity : dvd
-idx : 4
-location : None
-num : 126
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : DVDs
-type_failure : 0
-verbs : holds
-widx : 6
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : dvd
-idx : 1002
-location : None
-num : 81
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : DVDs
-type_failure : 0
-verbs : be
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : dvd
-idx : 2006
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : DVDs
-type_failure : 0
-verbs : put
-widx : 7
-_____________
-
-446
- CORRECT
 _____________
 adjs : None
 compound : 0
@@ -5651,17 +5417,76 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Connie
+container : Paco
 contains : None
-entity : marble
+entity : cookie
 idx : 2
 location : None
-num : 323
+num : 93
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : marbles
+surface : cookies
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cookie
+idx : 1002
+location : None
+num : 15
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : cookies
+type_failure : 0
+verbs : eat
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Paco
+contains : None
+entity : cookie
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : cookies
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+448
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : Sean
+contains : None
+entity : whistle
+idx : 2
+location : None
+num : 223
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : whistles
 type_failure : 0
 verbs : has
 widx : 4
@@ -5670,17 +5495,17 @@ _____________
 _____________
 adjs : more
 compound : 0
-container : Juan
+container : Sean
 contains : None
-entity : marble
+entity : whistle
 idx : 1002
 location : None
-num : 175
+num : 95
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : marbles
+surface : whistles
 type_failure : 0
 verbs : has
 widx : 5
@@ -5689,9 +5514,9 @@ _____________
 _____________
 adjs : None
 compound : 0
-container : Juan
+container : Charles
 contains : None
-entity : marble
+entity : whistle
 idx : 2002
 location : None
 num : x
@@ -5699,404 +5524,444 @@ origs : 2
 role : do
 subset : 0
 subtypes : []
-surface : marbles
+surface : whistles
 type_failure : 0
 verbs : have
 widx : 3
 _____________
 
-455
- CORRECT
+454
+ INCORRECT
 _____________
 adjs : None
 compound : 0
-container : family
+container : Marcia
 contains : None
-entity : vacation
-idx : 4
+entity : hour
+idx : 2
 location : None
-num : 5
+num : 5.0
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : vacation
+surface : minutes
 type_failure : 0
-verbs : took
+verbs : spent
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Marcia
+contains : None
+entity : hour
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : spend
+widx : 3
+_____________
+
+469
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : Tyler
+contains : None
+entity : dog
+idx : 2
+location : None
+num : 15
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : dogs
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dog
+contains : None
+entity : puppy
+idx : 1003
+location : None
+num : 5
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : had
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tyler
+contains : None
+entity : puppy
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+472
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : farmer
+contains : None
+entity : apple
+idx : 3
+location : None
+num : 127
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : had
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : neighbor
+contains : None
+entity : apple
+idx : 1003
+location : None
+num : 88
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : gave
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : farmer
+contains : None
+entity : apple
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+473
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : team
+contains : None
+entity : player
+idx : 5
+location : None
+num : 22
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : players
+type_failure : 0
+verbs : has
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : player
+contains : None
+entity : basketball
+idx : 1003
+location : None
+num : 11
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : basketballs
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : basketball
+idx : 2003
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : basketballs
+type_failure : 0
+verbs : do have
+widx : 4
+_____________
+
+476
+ CORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 1005
+location : None
+num : 3.75
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : share
+widx : 5
+_____________
+
+_____________
+adjs : total
+compound : 0
+container : None
+contains : None
+entity : people
+idx : 1008
+location : None
+num : 3
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : people
+type_failure : 0
+verbs : share
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : person
+contains : None
+entity : money
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : get
+widx : 3
+_____________
+
+480
+ INCORRECT
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : student
+idx : 2000
+location : None
+num : 7
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : students
+type_failure : 0
+verbs : ride
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : minute
+idx : 2005
+location : None
+num : 5
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : minutes
+type_failure : 0
+verbs : ride
 widx : 8
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : they
-contains : None
-entity : mile
-idx : 1004
-location : None
-num : 250
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : miles
-type_failure : 0
-verbs : drove
-widx : 6
-_____________
-
-_____________
-adjs : total
-compound : 0
-container : they
-contains : None
-entity : mile
-idx : 2003
-location : None
-num : x
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : miles
-type_failure : 0
-verbs : drive
-widx : 4
-_____________
-
-461
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : Lisa
-contains : dollar
-entity : dvd
-idx : 2
-location : None
-num : 4
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : DVDs
-type_failure : 0
-verbs : rented
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : dvd
-contains : None
-entity : dollar
-idx : 3
-location : None
-num : x
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : dollar
-type_failure : 0
-verbs : None
-widx : 9
-_____________
-
-_____________
-adjs : None
-compound : 0
 container : None
 contains : None
-entity : dollar
-idx : 6
-location : None
-num : 4.80
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : $
-type_failure : 0
-verbs : rent
-widx : 6
-_____________
-
-464
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : None
-contains : wall
 entity : student
-idx : 2
+idx : 3002
 location : None
-num : 124
-origs : 0
+num : x
+origs : 3
 role : subj
 subset : 0
 subtypes : []
 surface : students
 type_failure : 0
-verbs : make
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : star
-idx : 5
-location : None
-num : 3
-origs : 0
-role : do
-subset : 0
-subtypes : []
-surface : stars
-type_failure : 0
-verbs : making
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : star
-idx : 1002
-location : None
-num : x
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : stars
-type_failure : 0
-verbs : make
+verbs : ride
 widx : 3
 _____________
 
-468
- CORRECT
-_____________
-adjs : None
-compound : 0
-container : Hilt
-contains : None
-entity : ounce
-idx : 1002
-location : None
-num : 2
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : ounces
-type_failure : 0
-verbs : uses
-widx : 4
-_____________
-
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : pound
-idx : 1008
+entity : minute
+idx : 3007
 location : None
-num : 9
-origs : 1
-role : do
-subset : 0
-subtypes : []
-surface : pound
-type_failure : 0
-verbs : wash
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 3000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-477
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : She
-contains : None
-entity : cup
-idx : 2002
-location : None
-num : 5
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : cups
-type_failure : 0
-verbs : needs
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : loaf
-entity : loaf
-idx : 2008
-location : None
-num : 2
-origs : 2
-role : do
-subset : 0
-subtypes : []
-surface : loaves
-type_failure : 0
-verbs : bake
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : loaf
-contains : None
-entity : loaf
-idx : 2009
-location : None
-num : x
+num : 15
 origs : 3
 role : other
 subset : 0
 subtypes : []
-surface : loaves
+surface : minutes
 type_failure : 0
-verbs : None
-widx : 6
+verbs : ride
+widx : 9
 _____________
 
-TOP SCORING NO CORRECT SOLUTION ,484
+486
  INCORRECT
 _____________
-adjs : None
+adjs : frisky
 compound : 0
-container : None
+container : party
 contains : None
-entity : fish
-idx : 5
+entity : flea
+idx : 1010
 location : None
-num : 212
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : fish
-type_failure : 0
-verbs : have
-widx : 7
-_____________
-
-_____________
-adjs : more
-compound : 0
-container : None
-contains : None
-entity : fish
-idx : 1004
-location : None
-num : 68
+num : 36
 origs : 1
 role : do
 subset : 0
 subtypes : []
-surface : fish
+surface : fleas
 type_failure : 0
-verbs : buy
-widx : 7
+verbs : found
+widx : 13
 _____________
 
 _____________
 adjs : None
 compound : 0
-container : Lucy
+container : None
 contains : None
-entity : fish
-idx : 2002
+entity : flea
+idx : 1021
 location : None
-num : x
-origs : 2
-role : do
+num : 85
+origs : 1
+role : other
 subset : 0
 subtypes : []
-surface : fish
+surface : fleas
 type_failure : 0
-verbs : have
+verbs : peer find sleep
+widx : 24
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : flea
+idx : 3002
+location : None
+num : x
+origs : 3
+role : subj
+subset : 0
+subtypes : []
+surface : fleas
+type_failure : 0
+verbs : perish
 widx : 3
 _____________
 
-489
+492
  CORRECT
 _____________
 adjs : None
 compound : 0
-container : bag
+container : store
 contains : None
-entity : pound
-idx : 3
+entity : bag
+idx : 5
 location : None
-num : 23
+num : 600
 origs : 0
 role : do
 subset : 0
 subtypes : []
-surface : pounds
+surface : bags
 type_failure : 0
-verbs : contains
-widx : 5
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : pound
-idx : 1002
-location : None
-num : x
-origs : 1
-role : subj
-subset : 0
-subtypes : []
-surface : pounds
-type_failure : 0
-verbs : be
-widx : 3
+verbs : has
+widx : 7
 _____________
 
 _____________
@@ -6105,21 +5970,99 @@ compound : 0
 container : None
 contains : None
 entity : bag
-idx : 1007
+idx : 11
 location : None
-num : 45
-origs : 1
+num : 327
+origs : 0
 role : other
 subset : 0
 subtypes : []
 surface : bags
 type_failure : 0
-verbs : be
-widx : 9
+verbs : have
+widx : 13
 _____________
 
-496
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : bag
+idx : 1003
+location : None
+num : x
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : bags
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+493
  CORRECT
+_____________
+adjs : None
+compound : 0
+container : movie
+contains : None
+entity : people
+idx : 0
+location : None
+num : 532
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : people
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : theater
+contains : None
+entity : seat
+idx : 1003
+location : None
+num : 750
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : seats
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seat
+idx : 2002
+location : None
+num : x
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : seats
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+495
+ INCORRECT
 _____________
 adjs : None
 compound : 0
@@ -6185,17 +6128,17 @@ compound : 0
 container : None
 contains : None
 entity : dollar
-idx : 9
+idx : 10
 location : None
-num : 2
+num : 16,000
 origs : 0
 role : other
 subset : 0
 subtypes : []
 surface : dollars
 type_failure : 0
-verbs : pay
-widx : 11
+verbs : be be be
+widx : 12
 _____________
 
 _____________
@@ -6203,17 +6146,17 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : cent
-idx : 14
+entity : dollar
+idx : 15
 location : None
-num : 12
+num : 0.8
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : cents
+surface : dollars
 type_failure : 0
-verbs : pay
+verbs : be be be
 widx : 16
 _____________
 
@@ -6223,9 +6166,9 @@ compound : 0
 container : None
 contains : None
 entity : dollar
-idx : 1009
+idx : 1002
 location : None
-num : 23.36
+num : x
 origs : 1
 role : other
 subset : 0
@@ -6233,106 +6176,28 @@ subtypes : []
 surface : dollars
 type_failure : 0
 verbs : be
-widx : 11
+widx : 3
 _____________
 
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : minute
-idx : 2003
-location : None
-num : x
-origs : 2
-role : other
-subset : 0
-subtypes : []
-surface : minutes
-type_failure : 0
-verbs : bill
-widx : 4
-_____________
-
-TOP SCORING NO CORRECT SOLUTION ,498
+TOP SCORING NO CORRECT SOLUTION ,499
  INCORRECT
 _____________
 adjs : None
 compound : 0
 container : None
 contains : None
-entity : inch
-idx : 8
-location : None
-num : 77.75
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : inches
-type_failure : 0
-verbs : be
-widx : 10
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : inch
-idx : 1002
-location : None
-num : 9.5
-origs : 1
-role : other
-subset : 0
-subtypes : []
-surface : inches
-type_failure : 0
-verbs : be
-widx : 4
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : UNKNOWN
-idx : 2000
-location : None
-num : x
-origs : 10
-role : other
-subset : 0
-subtypes : []
-surface : UNKNOWN
-type_failure : 0
-verbs : None
-widx : 1
-_____________
-
-502
- INCORRECT
-_____________
-adjs : None
-compound : 0
-container : number
-contains : number
-entity : number
+entity : ounce
 idx : 1
 location : None
-num : 0.20
+num : 12
 origs : 0
-role : other
+role : subj
 subset : 0
 subtypes : []
-surface : number
+surface : ounce
 type_failure : 0
-verbs : None
-widx : 4
+verbs : sell
+widx : 3
 _____________
 
 _____________
@@ -6340,36 +6205,17 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : number
-idx : 6
+entity : cent
+idx : 9
 location : None
-num : 4
+num : 84
 origs : 0
 role : other
 subset : 0
 subtypes : []
-surface : number
+surface : cents
 type_failure : 0
-verbs : decrease
-widx : 7
-_____________
-
-_____________
-adjs : None
-compound : 0
-container : None
-contains : None
-entity : number
-idx : 10
-location : None
-num : 6
-origs : 0
-role : other
-subset : 0
-subtypes : []
-surface : number
-type_failure : 0
-verbs : decrease
+verbs : sell
 widx : 11
 _____________
 
@@ -6378,20 +6224,20 @@ adjs : None
 compound : 0
 container : None
 contains : None
-entity : UNKNOWN
-idx : 1000
-location : None
+entity : cost
+idx : 1003
+location : cents
 num : x
-origs : 10
-role : other
+origs : 1
+role : subj
 subset : 0
 subtypes : []
-surface : UNKNOWN
+surface : cost
 type_failure : 0
-verbs : None
-widx : 1
+verbs : be
+widx : 4
 _____________
 
-503
- INCORRECT
-(39, 62, 0)
+505
+ CORRECT
+(58, 42, 0)

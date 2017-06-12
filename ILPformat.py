@@ -52,6 +52,7 @@ def make_eq(q,a,VERBOSE,TRAIN):
         problem = ' '.join(problem)
         problem = " " + problem + " "
         
+        #Percentage putting
         Res = problem
         problem=""
         for i in range(len(Res)):
@@ -60,6 +61,26 @@ def make_eq(q,a,VERBOSE,TRAIN):
             else:
                 problem += Res[i]
         
+        ##Change Percentage to times
+        
+        problem = problem.strip().split(" ")
+        for i in range(len(problem)-1):
+            if (problem[i+1]=='percent') or (problem[i+1]=='percentage') or (problem[i+1]=='Percentage') or (problem[i+1]=='Percent'):
+                strval = problem[i]
+                val=''
+                if strval[0]=='$':
+                    val=strval[1:]
+                    val=float(val)/100.0
+                    problem[i]=str(val)
+                elif strval[0] in ['0','1','2','3','4','5','6','7','8','9']:
+                    val=strval
+                    val=float(val)/100.0
+                    problem[i]=str(val)
+                problem[i+1]="times"
+        
+        
+        problem = ' '.join(problem)
+        problem = " " + problem + " "
         
         print(problem)
 
