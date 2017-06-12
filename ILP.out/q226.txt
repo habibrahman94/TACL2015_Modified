@@ -1,5 +1,0 @@
-quantities : 4 6 3 x
-types : "bag" "can" "bag" "can"
-operators : + - * / =
-n : 7
-answer : 42.0

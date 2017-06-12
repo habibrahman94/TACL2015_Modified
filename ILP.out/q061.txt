@@ -1,5 +1,0 @@
-quantities : 13 30 10 x
-types : "file" "file" "file" "file"
-operators : + - * / =
-n : 7
-answer : 33.0

@@ -1,5 +1,0 @@
-quantities : 21 3 12 x
-types : "seed" "seed" "seed" "garden"
-operators : + - * / =
-n : 7
-answer : 3.0

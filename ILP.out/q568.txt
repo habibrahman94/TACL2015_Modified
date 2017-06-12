@@ -1,5 +1,0 @@
-quantities : 55 6 7 x
-types : "problem" "problem" "page" "problem"
-operators : + - * / =
-n : 7
-answer : 7.0

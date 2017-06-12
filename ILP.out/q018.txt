@@ -1,5 +1,0 @@
-quantities : 32 25 7 x
-types : "ticket" "ticket" "ticket" "ticket"
-operators : + - * / =
-n : 7
-answer : 50.0

@@ -1,5 +1,0 @@
-quantities : x 9.0 12 7
-types : "money" "money" "deck" "deck"
-operators : + - * / =
-n : 7
-answer : 45.0

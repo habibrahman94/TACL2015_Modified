@@ -1,5 +1,0 @@
-quantities : 8 17 8 x
-types : "brownie" "total" "cup" "cup"
-operators : + - * / =
-n : 7
-answer : 72.0

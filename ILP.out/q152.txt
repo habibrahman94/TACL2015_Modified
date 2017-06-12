@@ -1,5 +1,0 @@
-quantities : 34 7 36 x
-types : "worksheet" "worksheet" "worksheet" "worksheet"
-operators : + - * / =
-n : 7
-answer : 63.0

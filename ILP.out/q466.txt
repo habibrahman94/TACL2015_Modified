@@ -1,5 +1,0 @@
-quantities : 8 4 2 x
-types : "point" "bag" "bag" "point"
-operators : + - * / =
-n : 7
-answer : 16.0

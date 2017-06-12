@@ -1,5 +1,0 @@
-quantities : 4 2 8 x
-types : "chair" "table" "minute" "minute"
-operators : + - * / =
-n : 7
-answer : 48.0

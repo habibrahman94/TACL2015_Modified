@@ -1,5 +1,0 @@
-quantities : 3 x 8 10
-types : "binder" "page" "card" "card"
-operators : + - * / =
-n : 7
-answer : 6.0

@@ -1,5 +1,0 @@
-quantities : 27 6 7 x
-types : "book" "book" "book" "shelf"
-operators : + - * / =
-n : 7
-answer : 3.0

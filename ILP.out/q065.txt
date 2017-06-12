@@ -1,5 +1,0 @@
-quantities : 36 18 26 x
-types : "cat" "cat" "cat" "cat"
-operators : + - * / =
-n : 7
-answer : 28.0

@@ -1,5 +1,0 @@
-quantities : 2 6 4 x
-types : "player" "player" "player" "group"
-operators : + - * / =
-n : 7
-answer : 2.0

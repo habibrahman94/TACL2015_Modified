@@ -1,5 +1,0 @@
-quantities : 5 15 8 x
-types : "dollar" "people" "people" "dollar"
-operators : + - * / =
-n : 7
-answer : 35.0

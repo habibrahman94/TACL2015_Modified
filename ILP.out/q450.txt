@@ -1,5 +1,0 @@
-quantities : 14 x 8 8
-types : "window" "LENGTH" "window" "hour"
-operators : + - * / =
-n : 7
-answer : 48.0

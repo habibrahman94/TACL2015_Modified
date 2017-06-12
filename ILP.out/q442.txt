@@ -1,5 +1,0 @@
-quantities : 3.0 9 3 x
-types : "money" "bar" "bar" "money"
-operators : + - * / =
-n : 7
-answer : 18.0

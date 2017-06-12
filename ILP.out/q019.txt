@@ -1,5 +1,0 @@
-quantities : 26 15 16 x
-types : "carrot" "carrot" "carrot" "carrot"
-operators : + - * / =
-n : 7
-answer : 25.0

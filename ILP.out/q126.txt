@@ -1,5 +1,0 @@
-quantities : 43 8 39 x
-types : "life" "life" "life" "life"
-operators : + - * / =
-n : 7
-answer : 74.0

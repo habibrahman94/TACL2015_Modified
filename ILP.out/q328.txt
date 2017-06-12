@@ -1,5 +1,0 @@
-quantities : x 5 12 3
-types : "van" "people" "student" "adult"
-operators : + - * / =
-n : 7
-answer : 3.0

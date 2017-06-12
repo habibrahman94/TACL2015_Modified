@@ -1,5 +1,0 @@
-quantities : 60 40 5 x
-types : "piece" "piece" "load" "piece"
-operators : + - * / =
-n : 7
-answer : 4.0

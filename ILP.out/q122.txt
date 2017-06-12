@@ -1,5 +1,0 @@
-quantities : 34 3 48 x
-types : "book" "book" "book" "book"
-operators : + - * / =
-n : 7
-answer : 79.0

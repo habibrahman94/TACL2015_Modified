@@ -1,5 +1,0 @@
-quantities : 28 25 8 x
-types : "cupcake" "cupcake" "cupcake" "cupcake"
-operators : + - * / =
-n : 7
-answer : 11.0

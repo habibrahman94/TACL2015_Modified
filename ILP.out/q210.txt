@@ -1,5 +1,0 @@
-quantities : 7 3 4 x
-types : "box" "scarf" "mitten" "piece"
-operators : + - * / =
-n : 7
-answer : 49.0

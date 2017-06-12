@@ -1,5 +1,0 @@
-quantities : 4 52 7 x
-types : "soda" "soda" "soda" "shelf"
-operators : + - * / =
-n : 7
-answer : 8.0

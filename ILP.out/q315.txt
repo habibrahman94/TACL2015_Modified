@@ -1,5 +1,0 @@
-quantities : 4 10 7 x
-types : "store" "bear" "store" "shelf"
-operators : + - * / =
-n : 7
-answer : 2.0

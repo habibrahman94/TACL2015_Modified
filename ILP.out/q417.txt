@@ -1,5 +1,0 @@
-quantities : 12 8 4 x
-types : "member" "point" "member" "point"
-operators : + - * / =
-n : 7
-answer : 64.0

@@ -1,5 +1,0 @@
-quantities : 28 4 36 x
-types : "sock" "one" "one" "sock"
-operators : + - * / =
-n : 7
-answer : 60.0

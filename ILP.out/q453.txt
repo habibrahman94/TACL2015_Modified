@@ -1,5 +1,0 @@
-quantities : 3 8 6.0 x
-types : "figure" "total" "money" "money"
-operators : + - * / =
-n : 7
-answer : 30.0

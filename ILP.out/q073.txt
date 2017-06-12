@@ -1,5 +1,0 @@
-quantities : 35 21 34 x
-types : "towel" "towel" "towel" "towel"
-operators : + - * / =
-n : 7
-answer : 22.0

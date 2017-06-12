@@ -1,5 +1,0 @@
-quantities : 11 6 42 x
-types : "student" "student" "student" "student"
-operators : + - * / =
-n : 7
-answer : 47.0

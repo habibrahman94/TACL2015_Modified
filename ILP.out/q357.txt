@@ -1,5 +1,0 @@
-quantities : 17 55 8 x
-types : "puppy" "puppy" "puppy" "LENGTH"
-operators : + - * / =
-n : 7
-answer : 9.0

@@ -1,5 +1,0 @@
-quantities : 9 3 7 x
-types : "potato" "minute" "potato" "LENGTH"
-operators : + - * / =
-n : 7
-answer : 6.0

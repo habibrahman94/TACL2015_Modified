@@ -1,5 +1,0 @@
-quantities : 44 44 20 x
-types : "picture" "picture" "picture" "picture"
-operators : + - * / =
-n : 7
-answer : 68.0

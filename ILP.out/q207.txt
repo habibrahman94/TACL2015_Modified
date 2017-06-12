@@ -1,5 +1,0 @@
-quantities : 6 9 4 x
-types : "box" "piece" "box" "candy"
-operators : + - * / =
-n : 7
-answer : 90.0

@@ -1,5 +1,0 @@
-quantities : 13 7 4 x
-types : "friend" "friend" "friend" "friend"
-operators : + - * / =
-n : 7
-answer : 24.0

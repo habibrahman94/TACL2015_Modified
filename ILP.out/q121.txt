@@ -1,5 +1,0 @@
-quantities : 30 10 5 x
-types : "people" "people" "people" "people"
-operators : + - * / =
-n : 7
-answer : 25.0

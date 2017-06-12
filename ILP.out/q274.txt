@@ -1,5 +1,0 @@
-quantities : 4 8 2 x
-types : "cage" "parrot" "parakeet" "bird"
-operators : + - * / =
-n : 7
-answer : 40.0

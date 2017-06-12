@@ -1,5 +1,0 @@
-quantities : 7 13 5 x
-types : "picture" "picture" "album" "picture"
-operators : + - * / =
-n : 7
-answer : 4.0

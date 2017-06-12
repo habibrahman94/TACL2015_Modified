@@ -1,5 +1,0 @@
-quantities : 9 19 8 x
-types : "piece" "shirt" "sweater" "load"
-operators : + - * / =
-n : 7
-answer : 3.0

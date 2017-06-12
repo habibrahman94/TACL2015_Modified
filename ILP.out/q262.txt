@@ -1,5 +1,0 @@
-quantities : 3 7 3 x
-types : "pile" "coin" "pile" "coin"
-operators : + - * / =
-n : 7
-answer : 42.0

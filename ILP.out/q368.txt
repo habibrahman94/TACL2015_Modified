@@ -1,5 +1,0 @@
-quantities : 5 40 9 x
-types : "boy" "girl" "girl" "group"
-operators : + - * / =
-n : 7
-answer : 5.0

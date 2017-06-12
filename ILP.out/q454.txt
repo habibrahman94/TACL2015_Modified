@@ -1,5 +1,0 @@
-quantities : 8.0 15 7 x
-types : "money" "lawn" "lawn" "money"
-operators : + - * / =
-n : 7
-answer : 64.0

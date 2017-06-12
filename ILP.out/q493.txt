@@ -1,5 +1,0 @@
-quantities : 15 x 9 5.0
-types : "game" "money" "game" "money"
-operators : + - * / =
-n : 7
-answer : 30.0

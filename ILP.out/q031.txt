@@ -1,5 +1,0 @@
-quantities : 36 9 4 x
-types : "cupcake" "cookie" "cookie" "pastry"
-operators : + - * / =
-n : 7
-answer : 41.0

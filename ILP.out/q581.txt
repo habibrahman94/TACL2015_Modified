@@ -1,5 +1,0 @@
-quantities : 75 x 45 6
-types : "point" "player" "point" "point"
-operators : + - * / =
-n : 7
-answer : 5.0

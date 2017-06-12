@@ -1,5 +1,0 @@
-quantities : 108 36 9 x
-types : "piece" "piece" "piece" "pile"
-operators : + - * / =
-n : 7
-answer : 8.0

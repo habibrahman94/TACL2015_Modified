@@ -1,5 +1,0 @@
-quantities : 23 7 6 x
-types : "manager" "employee" "team" "people"
-operators : + - * / =
-n : 7
-answer : 5.0

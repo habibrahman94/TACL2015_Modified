@@ -1,5 +1,0 @@
-quantities : 9 4 4 x
-types : "dollar" "deck" "deck" "dollar"
-operators : + - * / =
-n : 7
-answer : 72.0

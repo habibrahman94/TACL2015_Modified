@@ -1,5 +1,0 @@
-quantities : 6 3 2 x
-types : "enemy" "point" "enemy" "point"
-operators : + - * / =
-n : 7
-answer : 12.0

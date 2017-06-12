@@ -1,5 +1,0 @@
-quantities : 37 21 2 x
-types : "lawn" "dollar" "dollar" "dollar"
-operators : + - * / =
-n : 7
-answer : 8.0

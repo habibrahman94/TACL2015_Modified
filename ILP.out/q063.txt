@@ -1,5 +1,0 @@
-quantities : 8 43 42 x
-types : "apple" "apple" "student" "student"
-operators : + - * / =
-n : 7
-answer : 9.0

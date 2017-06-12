@@ -1,5 +1,0 @@
-quantities : 2 2 2 x
-types : "game" "game" "game" "game"
-operators : + - * / =
-n : 7
-answer : 2.0

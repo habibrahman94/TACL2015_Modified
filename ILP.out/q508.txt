@@ -1,5 +1,0 @@
-quantities : 62 8 x 9
-types : "apple" "rest" "pie" "apple"
-operators : + - * / =
-n : 7
-answer : 6.0

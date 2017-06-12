@@ -1,5 +1,0 @@
-quantities : 21 12 3 x
-types : "customer" "rest" "people" "table"
-operators : + - * / =
-n : 7
-answer : 3.0

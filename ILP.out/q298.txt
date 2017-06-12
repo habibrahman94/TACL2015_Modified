@@ -1,5 +1,0 @@
-quantities : 4 5 3 x
-types : "friend" "player" "life" "life"
-operators : + - * / =
-n : 7
-answer : 27.0

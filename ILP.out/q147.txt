@@ -1,5 +1,0 @@
-quantities : 40 37 7 x
-types : "orange" "one" "one" "one"
-operators : + - * / =
-n : 7
-answer : 10.0

@@ -1,5 +1,0 @@
-quantities : 33 17 19 x
-types : "piece" "piece" "piece" "piece"
-operators : + - * / =
-n : 7
-answer : 35.0

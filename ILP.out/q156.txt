@@ -1,5 +1,0 @@
-quantities : 30 8 10 x
-types : "song" "song" "song" "song"
-operators : + - * / =
-n : 7
-answer : 32.0

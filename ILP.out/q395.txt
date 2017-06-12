@@ -1,5 +1,0 @@
-quantities : 4 11 5 x
-types : "dollar" "dollar" "dollar" "dollar"
-operators : + - * / =
-n : 7
-answer : 3.0

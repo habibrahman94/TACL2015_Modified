@@ -1,5 +1,0 @@
-quantities : 38 20 28 x
-types : "apple" "apple" "apple" "apple"
-operators : + - * / =
-n : 7
-answer : 46.0

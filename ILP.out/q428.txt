@@ -1,5 +1,0 @@
-quantities : x 2.0 5 3
-types : "money" "money" "deck" "left"
-operators : + - * / =
-n : 7
-answer : 4.0

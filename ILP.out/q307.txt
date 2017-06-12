@@ -1,5 +1,0 @@
-quantities : 4 x 14 2
-types : "pound" "point" "pound" "pound"
-operators : + - * / =
-n : 7
-answer : 4.0

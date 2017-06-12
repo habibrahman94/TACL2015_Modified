@@ -1,5 +1,0 @@
-quantities : 42 25 30 x
-types : "bottle" "bottle" "bottle" "bottle"
-operators : + - * / =
-n : 7
-answer : 47.0

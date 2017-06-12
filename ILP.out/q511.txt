@@ -1,5 +1,0 @@
-quantities : 46 10 4 x
-types : "book" "rest" "book" "shelf"
-operators : + - * / =
-n : 7
-answer : 9.0

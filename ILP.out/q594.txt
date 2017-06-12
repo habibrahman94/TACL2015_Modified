@@ -1,5 +1,0 @@
-quantities : 85 40 5 x
-types : "file" "rest" "file" "folder"
-operators : + - * / =
-n : 7
-answer : 9.0

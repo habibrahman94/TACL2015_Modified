@@ -1,5 +1,0 @@
-quantities : 3 3 5 x
-types : "question" "point" "question" "score"
-operators : + - * / =
-n : 7
-answer : 24.0

@@ -1,5 +1,0 @@
-quantities : 12 8 2 x
-types : "dollar" "buck" "dollar" "dollar"
-operators : + - * / =
-n : 7
-answer : 2.0

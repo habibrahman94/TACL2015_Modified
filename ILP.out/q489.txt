@@ -1,5 +1,0 @@
-quantities : 7 5 3.0 x
-types : "customer" "customer" "money" "money"
-operators : + - * / =
-n : 7
-answer : 6.0

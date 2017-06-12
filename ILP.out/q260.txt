@@ -1,5 +1,0 @@
-quantities : 6 5 5 x
-types : "dollar" "rose" "daisy" "dollar"
-operators : + - * / =
-n : 7
-answer : 60.0

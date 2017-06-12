@@ -1,5 +1,0 @@
-quantities : 7 3 3 x
-types : "Oliver" "Oliver" "ticket" "ticket"
-operators : + - * / =
-n : 7
-answer : 30.0

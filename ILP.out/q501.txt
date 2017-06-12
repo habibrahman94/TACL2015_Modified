@@ -1,5 +1,0 @@
-quantities : 18 3 5 x
-types : "puppy" "rest" "rest" "cage"
-operators : + - * / =
-n : 7
-answer : 3.0

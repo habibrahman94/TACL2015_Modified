@@ -1,5 +1,0 @@
-quantities : 26 27 27 x
-types : "customer" "customer" "customer" "customer"
-operators : + - * / =
-n : 7
-answer : 26.0

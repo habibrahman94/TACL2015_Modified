@@ -1,5 +1,0 @@
-quantities : x 40 23 29
-types : "shirt" "shirt" "shirt" "shirt"
-operators : + - * / =
-n : 7
-answer : 34.0
