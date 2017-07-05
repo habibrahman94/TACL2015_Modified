@@ -2998,5 +2998,365 @@
     "templateNumber": 0,
     "sQuestion": "A multi-national corporation has 2,041 part-time employees and 63,093 full-time employees. How many employees work for the corporation?",
     "iIndex": 249
+  },
+  {
+    "lEquations": [
+      "712261+259378=x"
+    ],
+    "lSolutions": [
+      971639.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Each year, salmon travel upstream, going from the ocean to the rivers where they were born. This year, 712,261 male and 259,378 female salmon returned to their rivers. How many salmon made the trip?",
+    "iIndex": 250
+  },
+  {
+    "lEquations": [
+      "14797+4969=x"
+    ],
+    "lSolutions": [
+      19766.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A bathing suit manufacturer has a supply of 14,797 bathing suits for men. In addition, it has 4,969 bathing suits for women. How many bathing suits are available overall?",
+    "iIndex": 251
+  },
+  {
+    "lEquations": [
+      "1426+x=2000"
+    ],
+    "lSolutions": [
+      574.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Before the recent housing boom, there were 1,426 houses in Lawrence County. Now, there are 2,000 houses. How many houses did developers build during the housing boom?",
+    "iIndex": 252
+  },
+  {
+    "lEquations": [
+      "7341=4221+x"
+    ],
+    "lSolutions": [
+      3120.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A worker at a medical lab is studying blood samples. Two samples contained a total of 7,341 blood cells. The first sample contained 4,221 blood cells. How many blood cells were in the second sample?",
+    "iIndex": 253
+  },
+  {
+    "lEquations": [
+      "9792=3513+x"
+    ],
+    "lSolutions": [
+      6279.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "So far, an orchard has sold a combined total of 9,792 pounds of fresh and frozen fruit this season. If they have sold 3,513 pounds of frozen fruit, how many pounds of fresh fruit have been sold so far?",
+    "iIndex": 254
+  },
+  {
+    "lEquations": [
+      "(2*10.62)+1.59+13.59=x"
+    ],
+    "lSolutions": [
+      36.78
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "On Saturday, Sara spent $10.62 each on 2 tickets to a movie theater. Sara also rented a movie for $1.59, and bought a movie for $13.95. How much money in total did Sara spend on movies?",
+    "iIndex": 255
+  },
+  {
+    "lEquations": [
+      "((11+19)+7)-8=x"
+    ],
+    "lSolutions": [
+      29.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Jonathan wants to buy a dictionary that costs $11, a dinosaur book that costs $19, and a children's cookbook that costs $7. He has saved $8 from his allowance. How much more money does Jonathan need to buy all three books?",
+    "iIndex": 256
+  },
+  {
+    "lEquations": [
+      "13*((9+10)+3)=x"
+    ],
+    "lSolutions": [
+      286.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Dana earns $13 per hour. She worked 9 hours on Friday, 10 hours on Saturday, and 3 hours on Sunday. How much money did Dana earn in all?",
+    "iIndex": 257
+  },
+  {
+    "lEquations": [
+      "((17+48)+25)-49=x"
+    ],
+    "lSolutions": [
+      41.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Tanner saved $17 in September. He saved $48 in October and $25 in November. Then Tanner spent $49 on a video game. How much money does Tanner have left?",
+    "iIndex": 258
+  },
+  {
+    "lEquations": [
+      "((20+26)+20)-(6+58)=x"
+    ],
+    "lSolutions": [
+      2.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Mika had 20 stickers. She bought 26 stickers from a store in the mall and got 20 stickers for her birthday. Then Mika gave 6 of the stickers to her sister and used 58 to decorate a greeting card. How many stickers does Mika have left?",
+    "iIndex": 259
+  },
+  {
+    "lEquations": [
+      "(6*6)+(8*18)=x"
+    ],
+    "lSolutions": [
+      180.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A group of science students went on a field trip. They took 6 vans and 8 buses. There were 6 people in each van and 18 people in each bus. How many people went on the field trip?",
+    "iIndex": 260
+  },
+  {
+    "lEquations": [
+      "91-((24+6)+11)=x"
+    ],
+    "lSolutions": [
+      50.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Carrie's mom gave her $91 to go shopping. She bought a sweater for $24, a T-shirt for $6, and a pair of shoes for $11. How much money does Carrie have left?",
+    "iIndex": 261
+  },
+  {
+    "lEquations": [
+      "((15+13)+8)-21=x"
+    ],
+    "lSolutions": [
+      15.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Kylie was collecting coins. She got 15 coins from her piggy bank and 13 coins from her brother. Her father gave Kylie 8 coins. Kylie gave 21 of the coins to her friend Laura. How many coins did Kylie have left?",
+    "iIndex": 262
+  },
+  {
+    "lEquations": [
+      "61-(26+7)=x"
+    ],
+    "lSolutions": [
+      28.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Justin needs 61 paper plates for a birthday party. He already has 26 blue plates and 7 red plates. How many more plates should Justin buy?",
+    "iIndex": 263
+  },
+  {
+    "lEquations": [
+      "85-(10*5)=x"
+    ],
+    "lSolutions": [
+      35.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Mark's father gave him $85. Mark bought 10 books, each of which cost $5. How much money does Mark have left?",
+    "iIndex": 264
+  },
+  {
+    "lEquations": [
+      "(8+13)-(2+18)=x"
+    ],
+    "lSolutions": [
+      1.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Elise had $8. Then she saved $13 from her allowance and spent $2 on a comic book and $18 on a puzzle. How much money does Elise have left?",
+    "iIndex": 265
+  },
+  {
+    "lEquations": [
+      "(((20+12)+20)-5)-8=x"
+    ],
+    "lSolutions": [
+      39.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Luke had 20 stickers. He bought 12 stickers from a store in the mall and got 20 stickers for his birthday. Then Luke gave 5 of the stickers to his sister and used 8 to decorate a greeting card. How many stickers does Luke have left?",
+    "iIndex": 266
+  },
+  {
+    "lEquations": [
+      "(30+(49+46))-58=x"
+    ],
+    "lSolutions": [
+      67.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Johnny saved $30 in September. He saved $49 in October and $46 in November. Then Johnny spent $58 on a video game. How much money does Johnny have left?",
+    "iIndex": 267
+  },
+  {
+    "lEquations": [
+      "(20*6)-(2*1)=x"
+    ],
+    "lSolutions": [
+      118.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Seth bought 20 cartons of ice cream and 2 cartons of yogurt. Each carton of ice cream cost $6 and each carton of yogurt cost $1. How much more did Seth spend on ice cream than on yogurt?",
+    "iIndex": 268
+  },
+  {
+    "lEquations": [
+      "((7+12)+4)-(6+13)=x"
+    ],
+    "lSolutions": [
+      4.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Dalton wants to buy a jump rope that costs $7, a board game that costs $12, and a playground ball that costs $4. He has saved $6 from his allowance, and his uncle gave him $13. How much more money does Dalton need to buy the jump rope, the game, and the ball?",
+    "iIndex": 269
+  },
+  {
+    "lEquations": [
+      "((10+1)+3)*16=x"
+    ],
+    "lSolutions": [
+      224.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Vincent bought 10 books about animals, 1 book about outer space, and 3 books about trains. Each book cost $16. How much did Vincent spend on the books?",
+    "iIndex": 270
+  },
+  {
+    "lEquations": [
+      "54-(15+25)=x"
+    ],
+    "lSolutions": [
+      14.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Priya needs 54 cupcakes for a birthday party. She already has 15 chocolate cupcakes and 25 vanilla cupcakes. How many more cupcakes should Priya buy?",
+    "iIndex": 271
+  },
+  {
+    "lEquations": [
+      "21-(4+8)=x"
+    ],
+    "lSolutions": [
+      9.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Maria needs 21 cartons of berries to make a berry cobbler. She already has 4 cartons of strawberries and 8 cartons of blueberries. How many more cartons of berries should Maria buy?",
+    "iIndex": 272
+  },
+  {
+    "lEquations": [
+      "(24*2)+(14*3)=x"
+    ],
+    "lSolutions": [
+      90.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "There are 24 bicycles and 14 tricycles in the storage area at Danny's apartment building. Each bicycle has 2 wheels and each tricycle has 3 wheels. How many wheels are there in all?",
+    "iIndex": 273
+  },
+  {
+    "lEquations": [
+      "109-((2*11)+13)=x"
+    ],
+    "lSolutions": [
+      74.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Paula's aunt gave her $109 to spend on clothes at the mall. She bought 2 shirts that cost $11 each and a pair of pants that cost $13. How much money does Paula have left to buy more clothes?",
+    "iIndex": 274
+  },
+  {
+    "lEquations": [
+      "9+3=x"
+    ],
+    "lSolutions": [
+      12.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Mary has 9 yellow marbles. Joan has 3 yellow marbles. How many yellow marbles do they have in all ?",
+    "iIndex": 275
+  },
+  {
+    "lEquations": [
+      "x-9=4"
+    ],
+    "lSolutions": [
+      13.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Jason had Pokemon cards. Jason gave 9 to his friends. Jason now has 4 Pokemon cards left. How many Pokemon cards did Jason have to start with ?",
+    "iIndex": 276
+  },
+  {
+    "lEquations": [
+      "(9*10)-(7*5)=x"
+    ],
+    "lSolutions": [
+      55.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Adam bought 9 packages of cat food and 7 packages of dog food. Each package of cat food contained 10 cans, and each package of dog food contained 5 cans. How many more cans of cat food than dog food did Adam buy?",
+    "iIndex": 277
+  },
+  {
+    "lEquations": [
+      "2+7+1=1+x"
+    ],
+    "lSolutions": [
+      9.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Zach wants to ride the Ferris wheel, the roller coaster, and the log ride. The Ferris wheel costs 2 tickets, the roller coaster costs 7 tickets and the log ride costs 1 ticket. Zach has 1 ticket. How many more tickets should Zach buy?",
+    "iIndex": 278
+  },
+  {
+    "lEquations": [
+      "53=7+14+x"
+    ],
+    "lSolutions": [
+      32.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Randy needs 53 cupcakes for a birthday party. He already has 7 chocolate cupcakes and 19 vanilla cupcakes. How many more cupcakes should Randy buy?",
+    "iIndex": 279
   }
 ]

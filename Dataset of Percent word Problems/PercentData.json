@@ -1579,9 +1579,9 @@
   },
   {
     "iIndex": 197,
-    "lSolutions": [10.0],
+    "lSolutions": [13.0],
     "lEquations": [
-      "x="
+      "x=10.0+(10.0*(30.0/100.0))"
     ],
     "sQuestion": "During elementary school, Cody received a weekly allowance of $10 for completing all of his chores. These days he receives 30% more. What is Cody's weekly allowance now? "
   },
@@ -1603,273 +1603,273 @@
   },
   {
     "iIndex": 200,
-    "lSolutions": [],
+    "lSolutions": [56.000000],
     "lEquations": [
-      "x=2"
+      "x=70.0-(70.0*(20.0/100.0))"
     ],
     "sQuestion": " Hanson is trying to drink more water, so he has been keeping a log of how much water he drinks. Hanson drank 70 ounces of water two days ago. Yesterday, he drank 20% less. How much water did he drink yesterday? "
   },
   {
     "iIndex": 201,
-    "lSolutions": [],
+    "lSolutions": [50.000000],
     "lEquations": [
-      "x=2"
+      "x=((15.0-10.0)/10.0)*100.0"
     ],
     "sQuestion": "The cheerleading squad at Lakeside High School had 10 members with the old coach. Now, with the new coach, there are 15 members on the squad. What is the percent of increase in the squad's size? "
   },
   {
     "iIndex": 202,
-    "lSolutions": [],
+    "lSolutions": [20.000000],
     "lEquations": [
-      "x=2"
+      "x=((36.0-30.0)/30.0)*100.0"
     ],
     "sQuestion": " At his most recent medical checkup, a boy was 30 inches tall. Currently, he is 36 inches tall. What percent taller is the boy now? "
   },
   {
     "iIndex": 203,
-    "lSolutions": [],
+    "lSolutions": [6792.000],
     "lEquations": [
-      "x=2"
+      "x=8490.0-(8490.0*(20.0/100.0))"
     ],
-    "sQuestion": " Frames-for-All sells framed pictures to hotels and other corporations across the country. Last year, Frames-for-All sold a total of 8,490 pictures. This year, they sold 20% fewer pictures. How many pictures did they sell this year? "
+    "sQuestion": " Frames-for-All sells framed pictures to hotels and other corporations across the country. Last year, Frames-for-All sold a total of 8490 pictures. This year, they sold 20% fewer pictures. How many pictures did they sell this year? "
   },
   {
     "iIndex": 204,
-    "lSolutions": [],
+    "lSolutions": [19.000000],
     "lEquations": [
-      "x=2"
+      "x=((2200.0-1782.0)/2200.0)*100.0"
     ],
     "sQuestion": " Until recently, Preston owned 2,200 acres of farmland. This year, he sold the old land and purchased a new plot that is 1,782 acres in size. What is the percent of decrease in the amount of land that Preston owns now? "
   },
   {
     "iIndex": 205,
-    "lSolutions": [],
+    "lSolutions": [84.000000],
     "lEquations": [
-      "x=2"
+      "x=70.0+(70.0*(20.0/100.0))"
     ],
     "sQuestion": " Before the advance-purchase deadline, the cost of attending a particular event is $70. After that, the price increases 20%. What is the cost then? "
   },
   {
     "iIndex": 206,
-    "lSolutions": [],
+    "lSolutions": [3.000000],
     "lEquations": [
-      "x=2"
+      "x=5.0-(5.0*(40.0/100.0))"
     ],
     "sQuestion": "The FAA tracks average flight delays. It found that, last year, a particular airline had an average flight delay of 5 minutes. So far this year, the airline has an average that is 40% shorter. What is the current year's average? "
   },
   {
     "iIndex": 207,
-    "lSolutions": [],
+    "lSolutions": [8463.000000],
     "lEquations": [
-      "x=2"
+      "x=6510.0+(6510.0*(30.0/100.0))"
     ],
     "sQuestion": " The Lexington Times had 6,510 subscribers last year. This year, after the paper was bought out, it had 30% more. How many subscribers were there this year? "
   },
   {
     "iIndex": 208,
-    "lSolutions": [],
+    "lSolutions": [90.000000],
     "lEquations": [
-      "x=2"
+      "x=((16473.0-8670.0)/8670.0)*100.0"
     ],
     "sQuestion": " Berry Delicious is a popular shop that sells chocolate-covered strawberries. Last year, the shop used 8,670 kilograms of strawberries to make its treats. This year, the shop used 16,473 kilograms. What is the percent of increase in the amount of strawberries used annually? "
   },
   {
     "iIndex": 209,
-    "lSolutions": [],
+    "lSolutions": [15.000000],
     "lEquations": [
-      "x=2"
+      "x=((20.0-17.0)/20.0)*100.0"
     ],
     "sQuestion": " Kemal swims several times per week in a lake near his home. Last summer, the average water temperature was 20 °C. This summer, the average water temperature was 17 °C. What was the percent of decrease in the temperature? "
   },
   {
     "iIndex": 210,
-    "lSolutions": [],
+    "lSolutions": [2359.000000],
     "lEquations": [
-      "x=2"
+      "x=3370.0-(3370.0*(30.0/100.0))"
     ],
     "sQuestion": "Blake's mortgage payment was originally $3,370 per month. Now, after refinancing his home loan, Blake's mortgage payment is 30% less than it used to be. How much is Blake's monthly payment now? "
   },
   {
     "iIndex": 211,
-    "lSolutions": [],
+    "lSolutions": [1702.000000],
     "lEquations": [
-      "x=2"
+      "x=4600.0-(4600.0*(63.0/100.0))"
     ],
     "sQuestion": " A beauty magazine had 4,600 subscribers last year. This year, after its parent company made some changes, the magazine had 63% fewer subscribers. How many subscribers were there this year? "
   },
   {
     "iIndex": 212,
-    "lSolutions": [],
+    "lSolutions": [57249.000000],
     "lEquations": [
-      "x=2"
+      "x=190830.0-(190830.0*(70.0/100.0))"
     ],
     "sQuestion": " A French restaurant used 190,830 ounces of cream last year. This year, due to a menu update, it used 70% less. How much cream did the restaurant use this year? "
   },
   {
     "iIndex": 213,
-    "lSolutions": [],
+    "lSolutions": [20.000000],
     "lEquations": [
-      "x=2"
+      "x=((5.0-4.0)/5.0)*100.0"
     ],
     "sQuestion": " Last month, a carpenter made 5 tables. This month, she made 4 tables. What is the percent of decrease in the number of tables made?  "
   },
   {
     "iIndex": 214,
-    "lSolutions": [],
+    "lSolutions": [18.000000],
     "lEquations": [
-      "x=2"
+      "x=((4550.0-3731.0)/4550.0)*100.0"
     ],
     "sQuestion": "A while back, Maki paid a car insurance premium of $4,550 per year. Now she pays $3,731. What is the percent of decrease in Maki's car insurance premium? "
   },
   {
     "iIndex": 215,
-    "lSolutions": [],
+    "lSolutions": [15.000000],
     "lEquations": [
-      "x=2"
+      "x=((1640.0-1394.0)/1640.0)*100.0"
     ],
     "sQuestion": " The last time it placed an order for ingredients, Sweet Treats Bakery ordered 1,640 kilograms of sugar. This time, the bakery is ordering 1,394 kilograms. What is the percent of decrease in the size of the sugar order? "
   },
   {
     "iIndex": 216,
-    "lSolutions": [],
+    "lSolutions": [42.000000],
     "lEquations": [
-      "x=2"
+      "x=((30050.0-17429.0)/30050.0)*100.0"
     ],
     "sQuestion": " Mendoza Real Estate is a national real estate company that sells houses across the country. Last year, the company sold a total of 30,050 homes. This year, they sold 17,429 homes. What is the percent of decrease in yearly home sales? "
   },
   {
     "iIndex": 217,
-    "lSolutions": [],
+    "lSolutions": [30.000000],
     "lEquations": [
-      "x=2"
+      "x=((117.0-90.0)/90.0)*100.0"
     ],
     "sQuestion": "Montoya's Solar Systems manufactures solar panels, and their business is growing. Last year, they hired 90 new employees, and this year they have hired 117 new employees. What is the percent of increase in the number of employees hired each year? "
   },
   {
     "iIndex": 218,
-    "lSolutions": [],
+    "lSolutions": [9894.000000],
     "lEquations": [
-      "x=2"
+      "x=5820.0+(5820.0*(70.0/100.0))"
     ],
     "sQuestion": " Last year, a lighting supplier called Bright Idea shipped a total of 5,820 lamps to its distributors. This year, the supplier shipped 70% more than that. How many lamps did Bright Idea ship this year? "
   },
   {
     "iIndex": 219,
-    "lSolutions": [],
+    "lSolutions": [12.000000],
     "lEquations": [
-      "x=2"
+      "x=((207816.0-185550.0)/185550.0)*100.0"
     ],
     "sQuestion": " For a school project, Jeff is investigating cell phone use in his hometown, Millersburg. So far, he has found that the residents of Millersburg used their cell phones for 185,550 minutes last year. This year, they used their cell phones for a total of 207,816 minutes. What is the percent of increase in annual usage? "
   },
   {
     "iIndex": 220,
-    "lSolutions": [],
+    "lSolutions": [30.000000],
     "lEquations": [
-      "x=2"
+      "x=((7860.0-5502.0)/7860.0)*100.0"
     ],
     "sQuestion": " Mrs. Boyd is interested in a particular bracelet. Its original price was $7,860, but it is currently priced at $5,502. What is the percent of decrease in the price of the bracelet? "
   },
   {
     "iIndex": 221,
-    "lSolutions": [],
+    "lSolutions": [372.000000],
     "lEquations": [
-      "x=2"
+      "x=240.0+(240.0*(55.0/100.0))"
     ],
     "sQuestion": " Each morning, Sleepwell Hotel offers its guests a free continental breakfast with pastries and orange juice. The hotel served 240 gallons of orange juice last year. This year, the hotel served 55% more orange juice than it did the previous year. How much was served this year? "
   },
   {
     "iIndex": 222,
-    "lSolutions": [],
+    "lSolutions": [20.000000],
     "lEquations": [
-      "x=2"
+      "x=((78.0-65.0)/65.0)*100.0"
     ],
     "sQuestion": " Garrett planted sunflowers in the community garden. During his last visit to the garden, the plants were 65 inches tall. Today they are 78 inches tall. What is the percent of increase in the height of the sunflowers? "
   },
   {
     "iIndex": 223,
-    "lSolutions": [],
+    "lSolutions": [25308.000000],
     "lEquations": [
-      "x=2"
+      "x=421800.0-(421800.0*(94.0/100.0))"
     ],
     "sQuestion": " A container ship left port last week carrying some goods weighing a total of 421,800 tons. Today, it stopped in another port to unload. As a result, the weight of the goods on the ship decreased by 94%. What is the weight of the goods on the ship now? "
   },
   {
     "iIndex": 224,
-    "lSolutions": [],
+    "lSolutions": [166401.000000],
     "lEquations": [
-      "x=2"
+      "x=123260.0+(123260.0*(35.0/100.0))"
     ],
     "sQuestion": " The PTA at Stamford High School is having its annual dinner and auction to raise money for music and art programs. Last year, the event raised $123,260. This year, it raised 35% more than that. How much was raised this year? "
   },
   {
     "iIndex": 225,
-    "lSolutions": [],
+    "lSolutions": [50.000000],
     "lEquations": [
-      "x=2"
+      "x=((1370.0-685.0)/1370.0)*100.0)"
     ],
     "sQuestion": " Last year, Dr. Thompson saw 1,370 patients. This year, he saw 685 patients. What is the percent of decrease in the number of patients seen each year? "
   },
   {
     "iIndex": 226,
-    "lSolutions": [],
+    "lSolutions": [46.000000],
     "lEquations": [
-      "x=2"
+      "x=40.0+(40.0*(15.0/100.0))"
     ],
     "sQuestion": " In Stamford, the average low temperature for January was 40 °F. The average low in February was 15% higher. What was the average low in February? "
   },
   {
     "iIndex": 227,
-    "lSolutions": [],
+    "lSolutions": [15.000000],
     "lEquations": [
-      "x=2"
+      "x=((340.0-289.0)/340.0)*100.0"
     ],
     "sQuestion": "Carrie enjoys taking part in races and keeps track of all of her finishing times. At a race last month, she finished in 340 minutes. Yesterday, she completed another race and finished in 289 minutes. What is the decrease in Carrie's finishing time? "
   },
   {
     "iIndex": 228,
-    "lSolutions": [],
+    "lSolutions": [55.000000],
     "lEquations": [
-      "x=2"
+      "x=((868.0-560.0)/560.0)*100.0"
     ],
     "sQuestion": " Last year, Tommy gave 560 piano performances. This year, he gave 868 piano performances. What is the percent of increase in the annual number of performances? "
   },
   {
     "iIndex": 229,
-    "lSolutions": [],
+    "lSolutions": [8151.000000],
     "lEquations": [
-      "x=2"
+      "x=4940.0+(4940.0*(65.0/100.0))"
     ],
     "sQuestion": " The library in Westminster collected $4,940 in overdue fees last year. This year, the amount collected was 65% greater. How much did the library collect this year? "
   },
   {
     "iIndex": 230,
-    "lSolutions": [],
+    "lSolutions": [198.000000],
     "lEquations": [
-      "x=2"
+      "x=110.0+(110.0*(80.0/100.0))"
     ],
     "sQuestion": " Last summer, a sports club had 110 members. This summer, due to some renovations, it has 80% more members. How many members are there now? "
   },
   {
     "iIndex": 231,
-    "lSolutions": [],
+    "lSolutions": [85.000000],
     "lEquations": [
-      "x=2"
+      "x=68.0+(68.0*(25.0/100.0))"
     ],
     "sQuestion": "The depth of a lake in Winchester changes over time due to rainfall and evaporation. A few months ago, the depth was 68 feet. Currently, the lake is 25% deeper. What is this year's depth? "
   },
   {
     "iIndex": 232,
-    "lSolutions": [],
+    "lSolutions": [78.000000],
     "lEquations": [
-      "x=2"
+      "x=65.0+(65.0*(20.0/100.0))"
     ],
     "sQuestion": " An accountant used to charge $65 per hour, but recently decided to charge 20% more. Now how much does she charge per hour? "
   },
   {
     "iIndex": 233,
-    "lSolutions": [],
+    "lSolutions": [64.000000],
     "lEquations": [
-      "x=2"
+      "x=80.0-(80.0*(20.0/100.0))"
     ],
     "sQuestion": "Jason, a professional golfer, had an average score of 80 points last season. This season, however, his average score has been 20% lower. What is Jason's current average score? "
   },
