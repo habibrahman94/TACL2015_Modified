@@ -1,5 +1,0 @@
-quantities : 6 71 x
-types : "package" "package" "t-shirt"
-operators : + - * / =
-n : 5
-answer : 426

@@ -1,5 +1,0 @@
-quantities : 0.20 4 6 x
-types : "number" "number" "number" "UNKNOWN"
-operators : + - * / =
-n : 7
-answer : 50.0

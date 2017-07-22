@@ -1,5 +1,0 @@
-quantities : 4 12 42 x
-types : "dozen" "calorie" "bar" "calorie"
-operators : + - * / =
-n : 7
-answer : 2016.0

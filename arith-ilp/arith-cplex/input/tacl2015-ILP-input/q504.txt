@@ -1,5 +1,0 @@
-quantities : 1800000 0.75 x
-types : "ton" "demand" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 2400000.0

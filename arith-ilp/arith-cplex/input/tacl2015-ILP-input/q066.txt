@@ -1,5 +1,0 @@
-quantities : 9 3 x
-types : "crayon" "crayon" "crayon"
-operators : + - * / =
-n : 5
-answer : 12.0

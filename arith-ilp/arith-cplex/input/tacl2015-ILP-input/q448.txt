@@ -1,5 +1,0 @@
-quantities : 93 15 x
-types : "cookie" "cookie" "cookie"
-operators : + - * / =
-n : 5
-answer : 78

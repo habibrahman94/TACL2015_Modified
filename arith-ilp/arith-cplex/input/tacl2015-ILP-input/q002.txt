@@ -1,5 +1,0 @@
-quantities : 45 3 x
-types : "dollar" "person" "total"
-operators : + - * / =
-n : 5
-answer : 135.0

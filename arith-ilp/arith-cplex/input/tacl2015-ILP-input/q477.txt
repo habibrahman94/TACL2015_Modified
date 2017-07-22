@@ -1,5 +1,0 @@
-quantities : 2 9 x
-types : "ounce" "pound" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 18

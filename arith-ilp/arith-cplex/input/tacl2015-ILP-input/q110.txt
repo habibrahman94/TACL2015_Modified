@@ -1,5 +1,0 @@
-quantities : 615 15 x
-types : "crayon" "crayon" "pack"
-operators : + - * / =
-n : 5
-answer : 41.0

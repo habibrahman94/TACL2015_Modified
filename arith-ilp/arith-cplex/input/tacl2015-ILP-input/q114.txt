@@ -1,5 +1,0 @@
-quantities : 344 43 x
-types : "piece" "student" "piece"
-operators : + - * / =
-n : 5
-answer : 8.0

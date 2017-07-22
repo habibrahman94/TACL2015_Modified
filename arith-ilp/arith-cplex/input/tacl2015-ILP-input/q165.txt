@@ -1,5 +1,0 @@
-quantities : 13 12 x
-types : "dozen" "ball" "golf"
-operators : + - * / =
-n : 5
-answer : 156.0

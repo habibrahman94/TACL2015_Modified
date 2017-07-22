@@ -1,5 +1,0 @@
-quantities : 7 8 x
-types : "day" "pie" "pie"
-operators : + - * / =
-n : 5
-answer : 56.0

@@ -1,5 +1,0 @@
-quantities : 9 6 x
-types : "pizza" "pizza" "pizza"
-operators : + - * / =
-n : 5
-answer : 15.0

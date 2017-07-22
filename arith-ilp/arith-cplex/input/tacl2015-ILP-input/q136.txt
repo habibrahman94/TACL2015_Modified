@@ -1,5 +1,0 @@
-quantities : 6 9 x
-types : "turnip" "turnip" "turnip"
-operators : + - * / =
-n : 5
-answer : 15.0

@@ -1,5 +1,0 @@
-quantities : 96 1 x
-types : "muffin" "person" "box"
-operators : + - * / =
-n : 5
-answer : 8.0

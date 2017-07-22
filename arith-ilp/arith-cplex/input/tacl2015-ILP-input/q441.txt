@@ -1,5 +1,0 @@
-quantities : 813 125 x
-types : "stamp" "stamp" "stamp"
-operators : + - * / =
-n : 5
-answer : 688

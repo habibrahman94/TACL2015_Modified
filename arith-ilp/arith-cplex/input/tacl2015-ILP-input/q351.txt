@@ -1,5 +1,0 @@
-quantities : 10 5.1 x
-types : "ton" "ton" "cement"
-operators : + - * / =
-n : 5
-answer : 15.1

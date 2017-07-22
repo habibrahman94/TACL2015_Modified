@@ -1,5 +1,0 @@
-quantities : 8 3 x
-types : "quarter" "quarter" "quarter"
-operators : + - * / =
-n : 5
-answer : 5.0

@@ -1,5 +1,0 @@
-quantities : 36 85 x
-types : "flea" "flea" "flea"
-operators : + - * / =
-n : 5
-answer : 121

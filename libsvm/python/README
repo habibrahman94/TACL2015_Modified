@@ -124,7 +124,7 @@ LIBSVM shared library:
     >>> from svm import *
 
 - class svm_node:
-
+p_labs, p_acc, p_vals = svm_predict(y, x, model [,'predicting_options'])
     Construct an svm_node.
 
     >>> node = svm_node(idx, val)

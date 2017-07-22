@@ -1,5 +1,0 @@
-quantities : 16,000 0.8 x
-types : "dollar" "dollar" "dollar"
-operators : + - * / =
-n : 5
-answer : 20000.0

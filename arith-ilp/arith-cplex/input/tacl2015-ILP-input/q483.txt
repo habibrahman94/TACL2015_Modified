@@ -1,5 +1,0 @@
-quantities : 4 17 x
-types : "book" "chapter" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 68

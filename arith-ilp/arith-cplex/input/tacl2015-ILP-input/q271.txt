@@ -1,5 +1,0 @@
-quantities : 54 15 25 x
-types : "cupcake" "cupcake" "vanilla" "cupcake"
-operators : + - * / =
-n : 7
-answer : 14.0

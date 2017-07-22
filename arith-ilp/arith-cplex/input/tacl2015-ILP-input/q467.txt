@@ -1,5 +1,0 @@
-quantities : 8 45 x
-types : "bus" "student" "student"
-operators : + - * / =
-n : 5
-answer : 360

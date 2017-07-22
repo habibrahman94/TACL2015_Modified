@@ -1,5 +1,0 @@
-quantities : 7 3 x
-types : "dime" "dime" "dime"
-operators : + - * / =
-n : 5
-answer : 4.0

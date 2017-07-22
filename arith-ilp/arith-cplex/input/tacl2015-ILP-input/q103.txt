@@ -1,5 +1,0 @@
-quantities : 27 3 x
-types : "game" "season" "game"
-operators : + - * / =
-n : 5
-answer : 9.0

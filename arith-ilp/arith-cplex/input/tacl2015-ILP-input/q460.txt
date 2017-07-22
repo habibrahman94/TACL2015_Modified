@@ -1,5 +1,0 @@
-quantities : 48 4 x
-types : "doughnut" "box" "doughnut"
-operators : + - * / =
-n : 5
-answer : 12

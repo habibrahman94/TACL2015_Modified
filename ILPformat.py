@@ -65,7 +65,7 @@ def make_eq(q,a,VERBOSE,TRAIN):
         
         problem = problem.strip().split(" ")
         for i in range(len(problem)-1):
-            if (problem[i+1]=='percent') or (problem[i+1]=='percentage') or (problem[i+1]=='Percentage') or (problem[i+1]=='Percent'):
+            if (problem[i+1]=='percent') or (problem[i+1]=='percentage') or (problem[i+1]=='Percentage') or (problem[i+1]=='Percent'): #
                 strval = problem[i]
                 val=''
                 if strval[0]=='$':

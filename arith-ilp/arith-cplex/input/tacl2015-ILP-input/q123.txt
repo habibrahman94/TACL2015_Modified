@@ -1,5 +1,0 @@
-quantities : 96 x 12
-types : "card" "dozen" "card"
-operators : + - * / =
-n : 5
-answer : 32.0

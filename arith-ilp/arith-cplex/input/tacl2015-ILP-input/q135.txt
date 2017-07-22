@@ -1,5 +1,0 @@
-quantities : 3 4 x
-types : "card" "person" "card"
-operators : + - * / =
-n : 5
-answer : 12.0

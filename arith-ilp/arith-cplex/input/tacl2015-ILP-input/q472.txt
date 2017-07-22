@@ -1,5 +1,0 @@
-quantities : 15 5 x
-types : "dog" "puppy" "puppy"
-operators : + - * / =
-n : 5
-answer : 75

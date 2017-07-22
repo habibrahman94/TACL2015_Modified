@@ -1,5 +1,0 @@
-quantities : 10.2 8.6 x
-types : "page" "page" "page"
-operators : + - * / =
-n : 5
-answer : 18.8

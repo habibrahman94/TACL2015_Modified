@@ -1,5 +1,0 @@
-quantities : 8 56 x
-types : "carving" "carving" "shelf"
-operators : + - * / =
-n : 5
-answer : 7

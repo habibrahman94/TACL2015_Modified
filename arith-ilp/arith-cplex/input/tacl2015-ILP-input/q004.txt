@@ -1,5 +1,0 @@
-quantities : 12 4 x
-types : "game" "game" "game"
-operators : + - * / =
-n : 5
-answer : 8.0

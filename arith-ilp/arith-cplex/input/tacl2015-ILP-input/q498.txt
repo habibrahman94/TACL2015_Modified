@@ -1,5 +1,0 @@
-quantities : 2 12 23.36 x
-types : "dollar" "cent" "dollar" "minute"
-operators : + - * / =
-n : 7
-answer : 178.0

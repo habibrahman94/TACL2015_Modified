@@ -1,5 +1,0 @@
-quantities : 217 109 x
-types : "marker" "marker" "marker"
-operators : + - * / =
-n : 5
-answer : 326

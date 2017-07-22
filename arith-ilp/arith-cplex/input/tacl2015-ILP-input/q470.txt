@@ -1,5 +1,0 @@
-quantities : 1134 1475 3 x
-types : "mile" "mile" "week" "mile"
-operators : + - * / =
-n : 7
-answer : 7827

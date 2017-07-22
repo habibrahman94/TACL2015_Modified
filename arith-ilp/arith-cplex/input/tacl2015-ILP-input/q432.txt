@@ -1,5 +1,0 @@
-quantities : 24 x 1
-types : "potato" "potato" "person"
-operators : + - * / =
-n : 5
-answer : 8

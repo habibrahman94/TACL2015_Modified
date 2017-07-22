@@ -2806,5 +2806,545 @@
     "grammarCheck": 0,
     "templateNumber": 0,
     "sQuestion": "Jason, a professional golfer, had an average score of 80 points last season. This season, however, his average score has been 20% lower. What is Jason's current average score? "
+  },
+  {
+    "iIndex": 234,
+    "lSolutions": [
+      620456.000000
+    ],
+    "lEquations": [
+      "x=775570.0-(775570.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Winchester had 775,570 residents at the time of its founding. Currently it is 20% smaller. What is the current population? "
+  },
+  {
+    "iIndex": 235,
+    "lSolutions": [
+      50.000000
+    ],
+    "lEquations": [
+      "x=(((3.0-2.0)/2.0)*100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A few weeks ago, Zach bought 2 apples from his local farmers' market. Today, he bought 3 apples. What is the percent of increase in the number of apples bought? "
+  },
+  {
+    "iIndex": 236,
+    "lSolutions": [
+      6019.000000
+    ],
+    "lEquations": [
+      "x=(9260.0-(9260.0*(35.0/100.0)))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Newberry Theater issued 9,260 tickets last weekend. This weekend, the theater issued 35% fewer tickets. How many tickets to comedies did the theater issue this weekend? "
+  },
+  {
+    "iIndex": 237,
+    "lSolutions": [
+      35.000000
+    ],
+    "lEquations": [
+      "x=((13149.0-9740.0)/9740.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The population of Sparrowtown was 9,740 people when Mary moved there. Currently, the population is 13,149 people. What is the percent of increase in Sparrowtown's population? "
+  },
+  {
+    "iIndex": 238,
+    "lSolutions": [
+      2112.000000
+    ],
+    "lEquations": [
+      "x=1320.0+(1320.0*(60.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Several years ago, Maggie bought some gold at a price of $1,320 per ounce. When she went to sell it, the gold was worth 60% more than it was when she purchased it. What was the new value of the gold? "
+  },
+  {
+    "iIndex": 239,
+    "lSolutions": [
+      14.000000
+    ],
+    "lEquations": [
+      "x=100.0*(14.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The Trans-Global Shipping Company has been forced to lay off some workers due to a decrease in revenue. Last year, the company had to lay off 100 people. So far this year, they have had to lay off 14% more employees than last year. How many have been laid off this year? "
+  },
+  {
+    "iIndex": 240,
+    "lSolutions": [
+      439518.000000
+    ],
+    "lEquations": [
+      "x=283560.0+(283560.0*(55.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The customers of Rhythm Time, an online music service, downloaded 283,560 songs last year. This year, the number was 55% higher. How many songs did they download this year? "
+  },
+  {
+    "iIndex": 241,
+    "lSolutions": [
+      50.000000
+    ],
+    "lEquations": [
+      "x=((40335.0-26890.0)/26890.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The football team at Belleville College is having a bigger stadium built to accommodate its growing fan base. The old stadium had enough seats for 26,890 people. The new stadium will have enough seats for 40,335 people. What is the percent of increase in the seating capacity of the stadium? "
+  },
+  {
+    "iIndex": 242,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=((108570.0-98700.0)/98700.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A family originally bought a home for $98,700. Now, a few years later, the home is worth $108,570. What was the percent of increase in its value? "
+  },
+  {
+    "iIndex": 243,
+    "lSolutions": [
+      8469.000000
+    ],
+    "lEquations": [
+      "x=9410.0-(9410.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Tammy is a sophomore at Seaside College. Last year, tuition was $9,410 per semester. This year, she paid 10% less. How much was tuition this year? "
+  },
+  {
+    "iIndex": 244,
+    "lSolutions": [
+      533.000000
+    ],
+    "lEquations": [
+      "x=410.0+(410.0*(30.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last year, the student population at Russell Elementary School was 410 students. This year, after rezoning, it is 30% larger. How many students attend Russell Elementary this year? "
+  },
+  {
+    "iIndex": 245,
+    "lSolutions": [
+      75.000000
+    ],
+    "lEquations": [
+      "x=((16.0-4.0)/16.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A medical provider is doing a study to determine the average time spent waiting before an appointment. When the study started, the average wait time was 16 minutes. Currently, the average is 4 minutes. What is the percent of decrease in the average wait time? "
+  },
+  {
+    "iIndex": 246,
+    "lSolutions": [
+      20.000000
+    ],
+    "lEquations": [
+      "x=((12.0-10.0)/10.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "During summer vacation, Nate read, on average, 10 pages per night. Once he returned to school, he averaged 12 pages per night. What is the percent of increase in Nate's reading? "
+  },
+  {
+    "iIndex": 247,
+    "lSolutions": [
+      80.000000
+    ],
+    "lEquations": [
+      "x=((21402.0-11890.0)/11890.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Engineering students at Millersburg College last year received an average of $11,890 in scholarships and grants. This year, the average is $21,402. What is the percent of increase in the average amount? "
+  },
+  {
+    "iIndex": 248,
+    "lSolutions": [
+      4125.000000
+    ],
+    "lEquations": [
+      "x=3750.0+(3750.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The height of a mountain on a tropical island changes due to volcanic activity. When the mountain was last measured, its height was 3,750 meters. Now it is 10% taller. How tall is the mountain currently? "
+  },
+  {
+    "iIndex": 249,
+    "lSolutions": [
+      25.000000
+    ],
+    "lEquations": [
+      "x=((85.0-68.0)/68.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A magician is training for an underwater escape trick. Upon first trying, he could hold his breath for 68 seconds. Now, using a different technique, he can hold it for 85 seconds. What is the percent of increase in how long he can hold his breath? "
+  },
+  {
+    "iIndex": 250,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x=((732160.0-622336.0)/732160.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last year, the city of Middletown experienced a budget deficit of $732,160. This year, the budget deficit is expected to be $622,336. What is the percent of decrease in the budget deficit? "
+  },
+  {
+    "iIndex": 251,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=((280.0-196.0)/280.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A software company in Silvergrove used to bill clients $280 per hour for work done by its consultants. The company recently adjusted its rates and now charges $196 per hour. What was the percent of decrease in the billing rate? "
+  },
+  {
+    "iIndex": 252,
+    "lSolutions": [
+      231.000000
+    ],
+    "lEquations": [
+      "x=150.0+(150.0*(54.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A generation ago, the graduating class at Kensington High School was 150 students. This year, it is 54% larger. What is the current size of the graduating class? "
+  },
+  {
+    "iIndex": 253,
+    "lSolutions": [
+      1023.000000
+    ],
+    "lEquations": [
+      "x=930.0+(930.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Hoffman's Books sold 930 bookmarks last year. This year, the store sold 10% more bookmarks. How many bookmarks did the store sell this year? "
+  },
+  {
+    "iIndex": 254,
+    "lSolutions": [
+      15696.000000
+    ],
+    "lEquations": [
+      "x=9810.0+(9810.0*(60.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Clean Machine is Ashland's premier house cleaning service. The company used 9,810 gallons of soap last year, and 60% more than that this year. How many gallons of soap did the company use this year? "
+  },
+  {
+    "iIndex": 255,
+    "lSolutions": [
+      85.000000
+    ],
+    "lEquations": [
+      "x=((74.0-40.0)/40.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Cooper just measured his dog and found out it weighs 74 kilograms. The last time he measured, the dog weighed 40 kilograms. What percent heavier is the dog now? "
+  },
+  {
+    "iIndex": 256,
+    "lSolutions": [
+      20.000000
+    ],
+    "lEquations": [
+      "x=((8990.0-7192.0)/8990.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last year, 8,990 athletes finished a marathon in Weston. This year, there were 7,192 athletes finishing. What is the percent of decrease in the number of finishers? "
+  },
+  {
+    "iIndex": 257,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=18.0-(18.0*(50.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Nicole's family watched 18 hours of TV last week. This week, they watched 50% fewer hours. How many hours of TV did they watch this week? "
+  },
+  {
+    "iIndex": 258,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=6.0+(6.0*(50.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " As part of an ongoing service project, the students at Georgetown High School recently spent an afternoon planting trees. They planted an average of 6 trees per participant. This month, they plan to do more planting, averaging 50% more trees per participant this time. What will be the average this month? "
+  },
+  {
+    "iIndex": 259,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=((77.0-70.0)/70.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Tommy just measured himself and found out he is 77 inches tall. The last time he measured, he was 70 inches tall. What percent taller is Tommy now? "
+  },
+  {
+    "iIndex": 260,
+    "lSolutions": [
+      60.000000
+    ],
+    "lEquations": [
+      "x=((8.0-5.0)/5.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Several years ago, the average serving size of beef at restaurants was 5 ounces. Due to changing restaurant trends, the average serving size is now 8 ounces. What is the percent of increase in the average serving size? "
+  },
+  {
+    "iIndex": 261,
+    "lSolutions": [
+      20.000000
+    ],
+    "lEquations": [
+      "x=16.0+(16.0*(25.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Beth's Boutique historically paid the members of its staff $16. The boutique recently merged with another store, and the staff members now make 25% more. Now how much do the staff members make per hour? "
+  },
+  {
+    "iIndex": 262,
+    "lSolutions": [
+      48.000000
+    ],
+    "lEquations": [
+      "x=40.0+(40.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Newberg Auto Repair originally paid its mechanics $40 per hour. Now that there is a new owner, the mechanics make 20% more. How much do the mechanics make per hour now? "
+  },
+  {
+    "iIndex": 263,
+    "lSolutions": [
+      1711.000000
+    ],
+    "lEquations": [
+      "x=5900.0-(5900.0*(71.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In 2009, Gordon paid $5,900 in federal income tax. In 2010, he paid 71% less. How much did Gordon pay in 2010? "
+  },
+  {
+    "iIndex": 264,
+    "lSolutions": [
+      14.000000
+    ],
+    "lEquations": [
+      "x=8.0+(8.0*(75.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The last time that Dr. Copeland, a farm veterinarian, checked, a particular pig weighed 8 kilograms. Dr. Copeland just weighed the pig again and found out that it weighs 75% more now. How much does the pig weigh now? "
+  },
+  {
+    "iIndex": 265,
+    "lSolutions": [
+      84.000000
+    ],
+    "lEquations": [
+      "x=80+(80.0*(5.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last semester, Arjun earned an average score of 80 points on math tests. So far this semester, his average score is 5% higher. What is the average of Arjun's scores this semester? "
+  },
+  {
+    "iIndex": 266,
+    "lSolutions": [
+      4.000000
+    ],
+    "lEquations": [
+      "x=20.0-(20.0*(80.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A test has 20 questions. If peter gets 80% correct, how many questions did peter missed? "
+  },
+  {
+    "iIndex": 267,
+    "lSolutions": [
+      200.000000
+    ],
+    "lEquations": [
+      "x*(25.0/100.0)=50.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In a school, 25% of the teachers teach basic math. If there are 50 basic math teachers, how many teachers are there in the school? "
+  },
+  {
+    "iIndex": 268,
+    "lSolutions": [
+      25.000000
+    ],
+    "lEquations": [
+      "x=((24.0-18.0)/24.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 24 students in a class took an algebra test. If 18 students passed the test, what percent do not pass? "
+  },
+  {
+    "iIndex": 269,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=50.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " For one Geometry test, Jess had to answer 50 questions. Of these questions, Jess answered 60% of them correctly. How many questions did Jess correctly answer on her test? "
+  },
+  {
+    "iIndex": 270,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=(12.0/40.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In one particular suburb, there are 12 families that own a shih tzu. If there are a total of 40 families that own a dog in general, then what percentage of dog owners have a shih tzu? "
+  },
+  {
+    "iIndex": 271,
+    "lSolutions": [
+      25.000000
+    ],
+    "lEquations": [
+      "x=((20.0-15.0)/20.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " There are 20 students in a class and 15 of these students passed their History test. What percentage of these students passed their test? "
+  },
+  {
+    "iIndex": 272,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x*(60.0/100.0)=9.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " While mining, Sandy found a large metal bar that contained 9 ounces of zinc. Sandy also determined that the bar was 60% zinc. What was the total weight of the metal bar in ounces? "
+  },
+  {
+    "iIndex": 273,
+    "lSolutions": [
+      45.000000
+    ],
+    "lEquations": [
+      "x*(40.0/100.0)=18.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Nancy went to her local zoo that featured 18 bird exhibits. If these bird exhibits make up 40% of the zoo's exhibits, then how many exhibits does the zoo have in total? "
+  },
+  {
+    "iIndex": 274,
+    "lSolutions": [
+      33.333333
+    ],
+    "lEquations": [
+      "x=((16000.0-12000.0)/12000.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Sally decided to look at new and used trucks. Sally found a used truck for $12000. A new truck is $16000, so what percent of the price of a new truck does Sally pay for a used truck? "
+  },
+  {
+    "iIndex": 275,
+    "lSolutions": [
+      20.0
+    ],
+    "lEquations": [
+      "x*(50.0/100.0)=10.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " One baseball team won 10 games throughout their entire season. Of all their games, this team won 50% of them. Given this, how many games in total did this baseball team play? "
+  },
+  {
+    "iIndex": 276,
+    "lSolutions": [
+      36000.000000
+    ],
+    "lEquations": [
+      "x=40000.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Fred receives a $40000 salary for working as an administrator. If Fred spends 90% of his salary on expenses each year, then how much money does Fred have to spend on expenses? "
+  },
+  {
+    "iIndex": 277,
+    "lSolutions": [
+      40.000000
+    ],
+    "lEquations": [
+      "x=((25.0-15.0)/25.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At a local department store, pants typically cost $25. However, due to a special, the pants are reduced to $15. What percent of the original price has the pants been reduced to? "
+  },
+  {
+    "iIndex": 278,
+    "lSolutions": [
+      11.000000
+    ],
+    "lEquations": [
+      "x=20.0*(55.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At a construction job for a gallery there are 20 painters. Of these painters, 55% of them paint the interior of the gallery. How many painters are painting the interior? "
   }
 ]

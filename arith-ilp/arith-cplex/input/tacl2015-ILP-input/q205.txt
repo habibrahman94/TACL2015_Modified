@@ -1,5 +1,0 @@
-quantities : 17 6 x
-types : "half-dollar" "half-dollar" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 11.5

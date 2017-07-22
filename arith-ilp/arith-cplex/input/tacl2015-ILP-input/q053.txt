@@ -1,5 +1,0 @@
-quantities : 27 41 20 x
-types : "card" "card" "card" "card"
-operators : + - * / =
-n : 7
-answer : 88.0

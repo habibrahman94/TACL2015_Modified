@@ -1,5 +1,0 @@
-quantities : 46 x 276
-types : "dollar" "home" "dollar"
-operators : + - * / =
-n : 5
-answer : 6.0

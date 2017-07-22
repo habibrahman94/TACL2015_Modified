@@ -1,5 +1,0 @@
-quantities : 21 49 x
-types : "quarter" "quarter" "quarter"
-operators : + - * / =
-n : 5
-answer : 70.0

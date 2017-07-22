@@ -1,5 +1,0 @@
-quantities : 81 9 x
-types : "clip" "box" "paper"
-operators : + - * / =
-n : 5
-answer : 9

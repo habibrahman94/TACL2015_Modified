@@ -1,5 +1,0 @@
-quantities : 16 14 x 5
-types : "pecan" "pie" "row" "pie"
-operators : + - * / =
-n : 7
-answer : 6

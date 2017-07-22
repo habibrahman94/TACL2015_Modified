@@ -1,5 +1,0 @@
-quantities : 12.5 12 x
-types : "money" "hour" "money"
-operators : + - * / =
-n : 5
-answer : 150.0

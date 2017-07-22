@@ -1,5 +1,0 @@
-quantities : 54 9 x
-types : "seed" "can" "seed"
-operators : + - * / =
-n : 5
-answer : 6

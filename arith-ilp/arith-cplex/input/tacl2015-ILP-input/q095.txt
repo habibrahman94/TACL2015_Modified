@@ -1,5 +1,0 @@
-quantities : 676 224 x
-types : "card" "card" "pokemon"
-operators : + - * / =
-n : 5
-answer : 452.0

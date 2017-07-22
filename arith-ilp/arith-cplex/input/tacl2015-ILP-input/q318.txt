@@ -1,5 +1,0 @@
-quantities : 0.25 0.5 x
-types : "nail" "nail" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 0.75

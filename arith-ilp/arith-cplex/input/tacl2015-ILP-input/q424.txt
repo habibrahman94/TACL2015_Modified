@@ -1,5 +1,0 @@
-quantities : 88 8 x
-types : "stone" "bracelet" "flower"
-operators : + - * / =
-n : 5
-answer : 11

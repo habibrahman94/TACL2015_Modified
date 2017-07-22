@@ -1,5 +1,0 @@
-quantities : 46 4 12 x
-types : "child" "dozen" "pencil" "pencil"
-operators : + - * / =
-n : 7
-answer : 2208.0

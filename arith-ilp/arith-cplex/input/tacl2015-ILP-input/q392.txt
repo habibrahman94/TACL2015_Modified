@@ -1,5 +1,0 @@
-quantities : 37 17 x
-types : "basket" "apple" "apple"
-operators : + - * / =
-n : 5
-answer : 629

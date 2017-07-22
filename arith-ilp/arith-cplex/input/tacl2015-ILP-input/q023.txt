@@ -1,5 +1,0 @@
-quantities : 2 3 x
-types : "pencil" "pencil" "pencil"
-operators : + - * / =
-n : 5
-answer : 5.0

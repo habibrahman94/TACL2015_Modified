@@ -1,5 +1,0 @@
-quantities : 223 95 x
-types : "whistle" "whistle" "whistle"
-operators : + - * / =
-n : 5
-answer : 128

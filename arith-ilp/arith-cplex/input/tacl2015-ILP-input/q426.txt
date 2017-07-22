@@ -1,5 +1,0 @@
-quantities : 3 36 x
-types : "bracelet" "stone" "stone"
-operators : + - * / =
-n : 5
-answer : 12

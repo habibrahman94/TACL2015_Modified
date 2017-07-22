@@ -1,5 +1,0 @@
-quantities : 9 12 x
-types : "dozen" "egg" "egg"
-operators : + - * / =
-n : 5
-answer : 108.0

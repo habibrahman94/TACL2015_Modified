@@ -175,10 +175,11 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
         vec = [order,score,cons]
         vec.extend(makesets.vector(p,e,problem,story,target))
         op_label, op_acc, op_val = svm_predict([-1], [vec], glob ,'-q -b 1')
+        
     else:
         vec = makesets.vector(p,e,problem,story,target)
         op_label, op_acc, op_val = svm_predict([-1], [vec], multi ,'-q -b 1')
-	
+    
     op_val=op_val[0]
     if op == '+':
         val = op_val[0]
@@ -190,8 +191,7 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
         val = op_val[3]
     if op == '=':
         val = op_val[0]
-
-
+    
     c = makesets.combine(p[1],e[1],op)
     return (val,c,op_val)
 
@@ -206,5 +206,4 @@ if __name__=="__main__":
     q,a,e = parse_inp(inp)
     right, wrong = make_eq(q,a,e)
     print(right,wrong,right/len(q))
-
 

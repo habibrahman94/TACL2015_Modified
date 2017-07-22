@@ -1,5 +1,0 @@
-quantities : 3 12 4 x
-types : "dozen" "marble" "dozen" "marble"
-operators : + - * / =
-n : 7
-answer : 144.0

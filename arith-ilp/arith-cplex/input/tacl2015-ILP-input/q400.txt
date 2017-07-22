@@ -1,5 +1,0 @@
-quantities : 4 246 x
-types : "section" "people" "people"
-operators : + - * / =
-n : 5
-answer : 984

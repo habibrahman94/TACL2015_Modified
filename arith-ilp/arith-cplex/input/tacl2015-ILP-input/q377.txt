@@ -1,5 +1,0 @@
-quantities : 0.25 0.16 x
-types : "gram" "gram" "pepper"
-operators : + - * / =
-n : 5
-answer : 0.09

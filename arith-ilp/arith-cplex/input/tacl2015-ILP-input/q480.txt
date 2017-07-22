@@ -1,5 +1,0 @@
-quantities : 3.75 3 x
-types : "money" "people" "money"
-operators : + - * / =
-n : 5
-answer : 1.25

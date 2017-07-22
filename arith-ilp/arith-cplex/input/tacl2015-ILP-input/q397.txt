@@ -1,5 +1,0 @@
-quantities : 83 x 6
-types : "sack" "sack" "day"
-operators : + - * / =
-n : 5
-answer : 498

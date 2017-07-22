@@ -1,5 +1,0 @@
-quantities : 6 54 x
-types : "neighbor" "animal" "number"
-operators : + - * / =
-n : 5
-answer : 9

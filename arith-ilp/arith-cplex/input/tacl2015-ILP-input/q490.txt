@@ -1,5 +1,0 @@
-quantities : 212 x 280
-types : "fish" "fish" "fish"
-operators : + - * / =
-n : 5
-answer : 68

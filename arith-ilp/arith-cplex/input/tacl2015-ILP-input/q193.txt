@@ -1,5 +1,0 @@
-quantities : 9 4 x
-types : "lime" "lime" "lime"
-operators : + - * / =
-n : 5
-answer : 5.0

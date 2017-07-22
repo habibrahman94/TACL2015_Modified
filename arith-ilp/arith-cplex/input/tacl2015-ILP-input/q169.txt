@@ -1,5 +1,0 @@
-quantities : 31 11 x
-types : "calorie" "bar" "calorie"
-operators : + - * / =
-n : 5
-answer : 341.0

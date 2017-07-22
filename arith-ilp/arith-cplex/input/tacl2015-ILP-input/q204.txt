@@ -1,5 +1,0 @@
-quantities : 33 18 x
-types : "tree" "tree" "tree"
-operators : + - * / =
-n : 5
-answer : 15.0

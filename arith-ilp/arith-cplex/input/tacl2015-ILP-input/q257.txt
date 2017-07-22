@@ -1,5 +1,0 @@
-quantities : 13.0 9 10 3 x
-types : "money" "hour" "hour" "hour" "money"
-operators : + - * / =
-n : 9
-answer : 286.0

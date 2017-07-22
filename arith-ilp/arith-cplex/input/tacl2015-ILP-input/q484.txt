@@ -1,5 +1,0 @@
-quantities : 5 2 x
-types : "cup" "loaf" "loaf"
-operators : + - * / =
-n : 5
-answer : 2.5

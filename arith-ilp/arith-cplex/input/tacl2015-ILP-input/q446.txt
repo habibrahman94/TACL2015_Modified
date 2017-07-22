@@ -1,5 +1,0 @@
-quantities : 126 81 x
-types : "dvd" "dvd" "dvd"
-operators : + - * / =
-n : 5
-answer : 45

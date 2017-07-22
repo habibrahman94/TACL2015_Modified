@@ -1,5 +1,0 @@
-quantities : 0.2 0.1 x
-types : "bag" "bag" "bag"
-operators : + - * / =
-n : 5
-answer : 0.3

@@ -1,5 +1,0 @@
-quantities : 0.125 0.125 0.5 x
-types : "bin" "bin" "bin" "bin"
-operators : + - * / =
-n : 7
-answer : 0.75

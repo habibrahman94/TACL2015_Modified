@@ -1,5 +1,0 @@
-quantities : 18 47 x
-types : "seashell" "seashell" "seashell"
-operators : + - * / =
-n : 5
-answer : 65.0

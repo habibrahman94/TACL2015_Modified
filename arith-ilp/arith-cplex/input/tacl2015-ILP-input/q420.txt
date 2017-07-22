@@ -1,5 +1,0 @@
-quantities : 5 35 x
-types : "boy" "marble" "boy"
-operators : + - * / =
-n : 5
-answer : 7

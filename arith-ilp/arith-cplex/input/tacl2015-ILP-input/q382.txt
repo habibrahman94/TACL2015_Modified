@@ -1,5 +1,0 @@
-quantities : 0.14 0.38 x
-types : "kilogram" "kilogram" "kilogram"
-operators : + - * / =
-n : 5
-answer : 0.52

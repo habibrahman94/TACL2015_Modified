@@ -1,5 +1,0 @@
-quantities : 5 28 x
-types : "mobile" "clown" "clown"
-operators : + - * / =
-n : 5
-answer : 140

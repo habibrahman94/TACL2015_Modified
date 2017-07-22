@@ -1,5 +1,0 @@
-quantities : 9 8 x
-types : "balloon" "balloon" "balloon"
-operators : + - * / =
-n : 5
-answer : 17.0

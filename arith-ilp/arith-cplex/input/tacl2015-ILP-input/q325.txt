@@ -1,5 +1,0 @@
-quantities : 0.75 0.5 x
-types : "gallon" "gallon" "gallon"
-operators : + - * / =
-n : 5
-answer : 0.25

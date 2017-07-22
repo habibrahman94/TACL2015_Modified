@@ -1,5 +1,0 @@
-quantities : 303 28 x
-types : "basket" "egg" "egg"
-operators : + - * / =
-n : 5
-answer : 8484

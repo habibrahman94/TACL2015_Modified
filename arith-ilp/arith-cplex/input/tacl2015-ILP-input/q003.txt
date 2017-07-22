@@ -1,5 +1,0 @@
-quantities : 8 2 x
-types : "cup" "cup" "cup"
-operators : + - * / =
-n : 5
-answer : 6.0

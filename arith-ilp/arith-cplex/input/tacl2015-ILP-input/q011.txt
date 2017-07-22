@@ -1,5 +1,0 @@
-quantities : 162 0 x
-types : "number" "person" "smallest"
-operators : + - * / =
-n : 5
-answer : 52.0

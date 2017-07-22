@@ -1,5 +1,0 @@
-quantities : 540 20 x
-types : "card" "card" "pack"
-operators : + - * / =
-n : 5
-answer : 108.0

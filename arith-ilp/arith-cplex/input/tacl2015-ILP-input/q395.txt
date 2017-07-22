@@ -1,5 +1,0 @@
-quantities : 8 x 1785.0
-types : "stone" "money" "money"
-operators : + - * / =
-n : 5
-answer : 14280

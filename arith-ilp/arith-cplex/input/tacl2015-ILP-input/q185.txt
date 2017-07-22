@@ -1,5 +1,0 @@
-quantities : 7 2 x
-types : "game" "month" "game"
-operators : + - * / =
-n : 5
-answer : 14.0

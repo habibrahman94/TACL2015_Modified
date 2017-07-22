@@ -1,5 +1,0 @@
-quantities : 4 x 6
-types : "book" "book" "week"
-operators : + - * / =
-n : 5
-answer : 48

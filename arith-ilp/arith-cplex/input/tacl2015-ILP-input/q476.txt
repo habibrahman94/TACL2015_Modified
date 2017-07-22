@@ -1,5 +1,0 @@
-quantities : 22 11 x
-types : "player" "basketball" "basketball"
-operators : + - * / =
-n : 5
-answer : 242

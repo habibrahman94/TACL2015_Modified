@@ -1,5 +1,0 @@
-quantities : 45 11 x
-types : "pear" "pear" "pear"
-operators : + - * / =
-n : 5
-answer : 56.0

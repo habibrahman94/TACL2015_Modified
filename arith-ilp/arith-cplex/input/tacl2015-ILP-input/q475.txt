@@ -1,5 +1,0 @@
-quantities : 37 8 x
-types : "people" "piece" "piece"
-operators : + - * / =
-n : 5
-answer : 296

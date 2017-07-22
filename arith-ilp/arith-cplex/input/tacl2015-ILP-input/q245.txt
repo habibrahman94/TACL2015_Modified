@@ -1,5 +1,0 @@
-quantities : 12,170 54,912 x
-types : "ladybug" "ladybug" "ladybug"
-operators : + - * / =
-n : 5
-answer : 67082.0

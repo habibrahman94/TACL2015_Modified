@@ -1,5 +1,0 @@
-quantities : 4 5 9 x
-types : "onion" "onion" "onion" "onion"
-operators : + - * / =
-n : 7
-answer : 18.0

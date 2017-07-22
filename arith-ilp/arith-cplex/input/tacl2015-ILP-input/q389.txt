@@ -1,5 +1,0 @@
-quantities : 261 23 x
-types : "fishbowl" "fish" "fish"
-operators : + - * / =
-n : 5
-answer : 6003

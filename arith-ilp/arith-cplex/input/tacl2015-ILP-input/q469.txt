@@ -1,5 +1,0 @@
-quantities : 5.0 x
-types : "hour" "hour"
-operators : + - * / =
-n : 3
-answer : 5

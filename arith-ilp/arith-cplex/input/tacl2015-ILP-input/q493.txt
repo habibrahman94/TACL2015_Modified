@@ -1,5 +1,0 @@
-quantities : 600 327 x
-types : "bag" "bag" "bag"
-operators : + - * / =
-n : 5
-answer : 273

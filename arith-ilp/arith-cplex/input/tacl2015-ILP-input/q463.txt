@@ -1,5 +1,0 @@
-quantities : 5256 2987 x
-types : "grown-up" "child" "people"
-operators : + - * / =
-n : 5
-answer : 8243

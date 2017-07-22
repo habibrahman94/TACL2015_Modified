@@ -1,5 +1,0 @@
-quantities : 0.9 0.7 x
-types : "inch" "inch" "inch"
-operators : + - * / =
-n : 5
-answer : 0.2

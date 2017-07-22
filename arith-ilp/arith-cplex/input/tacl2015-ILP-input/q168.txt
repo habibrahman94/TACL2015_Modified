@@ -1,5 +1,0 @@
-quantities : 29 7 x
-types : "balloon" "Dan" "balloon"
-operators : + - * / =
-n : 5
-answer : 203.0

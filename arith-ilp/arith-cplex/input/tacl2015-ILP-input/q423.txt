@@ -1,5 +1,0 @@
-quantities : 63 9 x
-types : "magazine" "magazine" "box"
-operators : + - * / =
-n : 5
-answer : 7

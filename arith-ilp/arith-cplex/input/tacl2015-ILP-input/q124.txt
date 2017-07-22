@@ -1,5 +1,0 @@
-quantities : 3 2 x
-types : "card" "card" "pokemon"
-operators : + - * / =
-n : 5
-answer : 1.0

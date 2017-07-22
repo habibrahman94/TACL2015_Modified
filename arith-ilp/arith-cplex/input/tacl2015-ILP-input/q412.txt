@@ -1,5 +1,0 @@
-quantities : 5 30 x
-types : "glass" "glass" "pitcher"
-operators : + - * / =
-n : 5
-answer : 6

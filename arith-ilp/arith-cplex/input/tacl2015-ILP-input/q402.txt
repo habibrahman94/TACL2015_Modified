@@ -1,5 +1,0 @@
-quantities : 378 6 x
-types : "juggler" "ball" "ball"
-operators : + - * / =
-n : 5
-answer : 2268

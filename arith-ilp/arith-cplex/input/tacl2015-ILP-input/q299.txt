@@ -1,5 +1,0 @@
-quantities : 0.7 0.2 x
-types : "student" "student" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 0.9

@@ -1,5 +1,0 @@
-quantities : 1.5 0.4 x
-types : "money" "money" "money"
-operators : + - * / =
-n : 5
-answer : 1.9

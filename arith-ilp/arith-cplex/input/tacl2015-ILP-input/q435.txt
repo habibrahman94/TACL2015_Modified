@@ -1,5 +1,0 @@
-quantities : 35 x 83
-types : "muffin" "muffin" "muffin"
-operators : + - * / =
-n : 5
-answer : 48

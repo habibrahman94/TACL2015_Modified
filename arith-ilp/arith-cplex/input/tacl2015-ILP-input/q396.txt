@@ -1,5 +1,0 @@
-quantities : 45 8 x
-types : "sack" "section" "sack"
-operators : + - * / =
-n : 5
-answer : 360

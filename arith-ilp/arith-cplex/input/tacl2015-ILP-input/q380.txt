@@ -1,5 +1,0 @@
-quantities : 9.8 5.2 x
-types : "ounce" "ounce" "floor"
-operators : + - * / =
-n : 5
-answer : 4.6

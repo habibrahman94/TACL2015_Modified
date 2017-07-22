@@ -1,5 +1,0 @@
-quantities : 17 7 x 80
-types : "dollar" "dollar" "hour" "dollar"
-operators : + - * / =
-n : 7
-answer : 9.0

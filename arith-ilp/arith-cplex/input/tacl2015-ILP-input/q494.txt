@@ -1,5 +1,0 @@
-quantities : 7 4 x
-types : "box" "dog" "dog"
-operators : + - * / =
-n : 5
-answer : 28

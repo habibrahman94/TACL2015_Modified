@@ -1,5 +1,0 @@
-quantities : 142.46 8.89 7 x
-types : "dollar" "dollar" "dollar" "dollar"
-operators : + - * / =
-n : 7
-answer : 158.35

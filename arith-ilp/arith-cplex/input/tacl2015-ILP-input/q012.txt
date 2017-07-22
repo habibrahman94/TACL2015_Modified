@@ -1,5 +1,0 @@
-quantities : 79 9 x 16
-types : "dollar" "book" "dollar" "dollar"
-operators : + - * / =
-n : 7
-answer : 7.0

@@ -1,5 +1,0 @@
-quantities : 8 12 5 x
-types : "dozen" "book" "dozen" "book"
-operators : + - * / =
-n : 7
-answer : 480.0

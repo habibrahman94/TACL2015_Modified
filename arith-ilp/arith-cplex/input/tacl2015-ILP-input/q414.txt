@@ -1,5 +1,0 @@
-quantities : 140 x 7
-types : "nail" "station" "nail"
-operators : + - * / =
-n : 5
-answer : 20

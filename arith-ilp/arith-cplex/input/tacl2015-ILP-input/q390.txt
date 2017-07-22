@@ -1,5 +1,0 @@
-quantities : 21 8 x
-types : "pizza" "slice" "slice"
-operators : + - * / =
-n : 5
-answer : 168

@@ -1,5 +1,0 @@
-quantities : 4 x 32
-types : "room" "painting" "painting"
-operators : + - * / =
-n : 5
-answer : 8

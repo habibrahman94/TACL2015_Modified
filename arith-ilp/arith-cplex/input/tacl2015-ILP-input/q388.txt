@@ -1,5 +1,0 @@
-quantities : 14 6 x
-types : "seat" "people" "people"
-operators : + - * / =
-n : 5
-answer : 84

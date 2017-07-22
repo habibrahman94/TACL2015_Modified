@@ -1,5 +1,0 @@
-quantities : 3 x 14
-types : "rose" "rose" "rose"
-operators : + - * / =
-n : 5
-answer : 11.0

@@ -1,5 +1,0 @@
-quantities : 9 1 x
-types : "bill" "person" "money"
-operators : + - * / =
-n : 5
-answer : 45.0

@@ -1,5 +1,0 @@
-quantities : 6 9 x
-types : "cake" "cake" "cake"
-operators : + - * / =
-n : 5
-answer : 15.0

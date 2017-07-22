@@ -1,5 +1,0 @@
-quantities : 9 x 72
-types : "friend" "number" "sticker"
-operators : + - * / =
-n : 5
-answer : 8
