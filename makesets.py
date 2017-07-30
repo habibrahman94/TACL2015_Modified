@@ -415,7 +415,7 @@ def extract_quantify(story):
         # nums is a list of potential entities
         nums = [(x[1],x[2]) for x in deps if x[0]=='num' or x[0]=='number' or x[0]=='det']
         #nums.extend([(x[1],x[2]) for x in deps if x[0] == 'nmod' and x[1][0].isdigit()])
-        print(nums)
+        #print(nums)
         nums.extend([(x[2],x[1]) for x in deps if x[0]=="prep_of" and (x[1][0].isdigit() or x[1].rsplit("-",1)[0] in ['half','third','quarter','some'])])
         print(nums)
         # w = word, n = number. Take each and split it out
