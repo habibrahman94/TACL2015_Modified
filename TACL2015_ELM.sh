@@ -4,7 +4,7 @@
 
 
 if [ $# -ne 1 ]; then
-  echo "USAGE: ./TACL2015.sh problemSet"
+  echo "USAGE: ./TACL2015_ELM.sh problemSet"
   exit 1
 fi
 
@@ -55,26 +55,26 @@ cd ../../../
 
 echo '################################################################################'
 echo 'for i in {0..4}; do ./runone.sh $i ; done'
-for i in {0..4}; do ./runone.sh $i ; done
+for i in {0..4}; do ./run_mod.sh $i ; done
 
 #echo '################################################################################'
-#echo 'File Romoving Started...'
+echo 'File Romoving Started...'
 
-#rm -rf ILP.out
+rm -rf ILP.out
 
-#rm -rf data/*.local.m
-#rm -rf data/*.local.training
-#rm -rf data/*.local.data
-#rm -rf data/test*
-#rm -rf data/train*
-#rm -rf data/*input
-#rm -rf data/*txt
+rm -rf data/*.local.m
+rm -rf data/*.local.training
+rm -rf data/*.local.data
+rm -rf data/test*
+rm -rf data/train*
+rm -rf data/*input
+rm -rf data/*txt
 
-#rm -rf madesets/*
-#rm -rf s_data/*
-#rm -rf arith-ilp/arith-cplex/scripts/*.input
+rm -rf madesets/*
+rm -rf s_data/*
+rm -rf arith-ilp/arith-cplex/scripts/*.input
 
-#echo 'Removing Completed!'
+echo 'Removing Completed!'
 
 ##to remove the folder with all its contents(including all interior folders):
 ##rm -rf /path/to/directory
