@@ -1,0 +1,5 @@
+quantities : 36 29 x
+types : "carpenter" "carpenter" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 19.444444444

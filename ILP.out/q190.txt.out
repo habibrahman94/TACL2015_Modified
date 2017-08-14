@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 70 | 20 | x=(14+6) | x 14 6 + = | x:brownie 14:brownie 6:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 10 | 70 | 84 | x=(14*6) | x 14 6 * = | x:UNKNOWN 14:brownie 6:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 70 | 8 | (14-6)=x | 14 6 - x = | 14:brownie 6:brownie -:brownie x:brownie =:brownie
+EXPR: 0 | POS | INT | 10 | 70 | 84 | (14*6)=x | 14 6 * x = | 14:brownie 6:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 70 | 8 | x=(14-6) | x 14 6 - = | x:brownie 14:brownie 6:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 10 | 70 | 20 | (14+6)=x | 14 6 + x = | 14:brownie 6:brownie +:brownie x:brownie =:brownie
+EXPR: 0 | POS | INT | 12 | 70 | 8 | (14-x)=6 | 14 x - 6 = | 14:brownie x:brownie -:brownie 6:brownie =:brownie
+EXPR: 0 | POS | INT | 12 | 70 | 8 | 14=(6+x) | 14 6 x + = | 14:brownie 6:brownie x:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 12 | 70 | 84 | (x/14)=6 | x 14 / 6 = | x:UNKNOWN 14:brownie /:UNKNOWN 6:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 70 | 20 | (x-14)=6 | x 14 - 6 = | x:brownie 14:brownie -:brownie 6:brownie =:brownie
+EXPR: 0 | POS | INT | 12 | 70 | 20 | 14=(x-6) | 14 x 6 - = | 14:brownie x:brownie 6:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 12 | 70 | 8 | 14=(x+6) | 14 x 6 + = | 14:brownie x:brownie 6:brownie +:brownie =:brownie
+EXPR: 0 | POS | INT | 12 | 70 | 84 | 14=(x/6) | 14 x 6 / = | 14:UNKNOWN x:UNKNOWN 6:brownie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 20 | (x-6)=14 | x 6 - 14 = | x:brownie 6:brownie -:brownie 14:brownie =:brownie
+EXPR: 0 | POS | INT | 14 | 70 | 84 | 6=(x/14) | 6 x 14 / = | 6:UNKNOWN x:UNKNOWN 14:brownie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 8 | (x+6)=14 | x 6 + 14 = | x:brownie 6:brownie +:brownie 14:brownie =:brownie
+EXPR: 0 | POS | INT | 14 | 70 | 84 | (x/6)=14 | x 6 / 14 = | x:UNKNOWN 6:brownie /:UNKNOWN 14:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 8 | 6=(14-x) | 6 14 x - = | 6:brownie 14:brownie x:brownie -:brownie =:brownie
+EXPR: 0 | POS | INT | 14 | 70 | 8 | (6+x)=14 | 6 x + 14 = | 6:brownie x:brownie +:brownie 14:brownie =:brownie
+EXPR: 0 | POS | INT | 14 | 70 | 20 | 6=(x-14) | 6 x 14 - = | 6:brownie x:brownie 14:brownie -:brownie =:brownie
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

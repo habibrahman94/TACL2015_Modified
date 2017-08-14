@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 60 | 1734 | (51*34)=x | 51 34 * x = | 51:cap 34:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 60 | 1734 | x=(51*34) | x 51 34 * = | x:cap 51:cap 34:hat *:cap =:cap
+EXPR: 0 | POS | INT | 12 | 60 | 1734 | 51=(x/34) | 51 x 34 / = | 51:UNKNOWN x:UNKNOWN 34:hat /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 60 | 1734 | (x/51)=34 | x 51 / 34 = | x:UNKNOWN 51:cap /:UNKNOWN 34:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 1734 | (x/34)=51 | x 34 / 51 = | x:cap 34:hat /:cap 51:cap =:cap
+EXPR: 0 | POS | INT | 14 | 60 | 1734 | 34=(x/51) | 34 x 51 / = | 34:UNKNOWN x:UNKNOWN 51:cap /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 60 | 85 | x=(51+34) | x 51 34 + = | x:cap 51:cap 34:cap +:cap =:cap
+EXPR: 0 | POS | INT | 20 | 60 | 17 | x=(51-34) | x 51 34 - = | x:UNKNOWN 51:UNKNOWN 34:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 60 | 85 | (51+34)=x | 51 34 + x = | 51:cap 34:cap +:cap x:cap =:cap
+EXPR: 0 | POS | INT | 20 | 60 | 17 | (51-34)=x | 51 34 - x = | 51:UNKNOWN 34:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 60 | 85 | 51=(x-34) | 51 x 34 - = | 51:cap x:cap 34:cap -:cap =:cap
+EXPR: 0 | POS | INT | 22 | 60 | 17 | 51=(x+34) | 51 x 34 + = | 51:cap x:cap 34:cap +:cap =:cap
+EXPR: 0 | POS | INT | 22 | 60 | 85 | (x-51)=34 | x 51 - 34 = | x:hat 51:hat -:hat 34:hat =:hat
+EXPR: 0 | POS | INT | 22 | 60 | 17 | (51-x)=34 | 51 x - 34 = | 51:cap x:cap -:cap 34:cap =:cap
+EXPR: 0 | POS | INT | 22 | 60 | 17 | 51=(34+x) | 51 34 x + = | 51:UNKNOWN 34:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 60 | 17 | (34+x)=51 | 34 x + 51 = | 34:UNKNOWN x:UNKNOWN +:UNKNOWN 51:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 60 | 85 | (x-34)=51 | x 34 - 51 = | x:cap 34:cap -:cap 51:cap =:cap
+EXPR: 0 | POS | INT | 24 | 60 | 17 | (x+34)=51 | x 34 + 51 = | x:UNKNOWN 34:UNKNOWN +:UNKNOWN 51:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 60 | 17 | 34=(51-x) | 34 51 x - = | 34:cap 51:cap x:cap -:cap =:cap
+EXPR: 0 | POS | INT | 24 | 60 | 85 | 34=(x-51) | 34 x 51 - = | 34:cap x:cap 51:cap -:cap =:cap
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

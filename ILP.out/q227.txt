@@ -1,0 +1,5 @@
+quantities : 340 289 x
+types : "minute" "minute" "decrease"
+operators : + - * / =
+n : 5
+answer : 15.0

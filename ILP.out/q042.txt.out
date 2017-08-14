@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 80 | 4 | 44=(x*11) | 44 x 11 * = | 44:mug x:UNKNOWN 11:mug *:mug =:mug
+EXPR: 0 | POS | INT | 2 | 80 | 4 | 44=(11*x) | 44 11 x * = | 44:mug 11:mug x:UNKNOWN *:mug =:mug
+EXPR: 0 | POS | INT | 2 | 80 | 4 | (44/x)=11 | 44 x / 11 = | 44:mug x:UNKNOWN /:mug 11:mug =:mug
+EXPR: 0 | POS | INT | 4 | 80 | 4 | (x*11)=44 | x 11 * 44 = | x:UNKNOWN 11:mug *:mug 44:mug =:mug
+EXPR: 0 | POS | INT | 4 | 80 | 4 | (11*x)=44 | 11 x * 44 = | 11:mug x:UNKNOWN *:mug 44:mug =:mug
+EXPR: 0 | POS | INT | 4 | 80 | 4 | 11=(44/x) | 11 44 x / = | 11:mug 44:mug x:UNKNOWN /:mug =:mug
+EXPR: 0 | POS | INT | 10 | 80 | 55 | x=(44+11) | x 44 11 + = | x:mug 44:mug 11:mug +:mug =:mug
+EXPR: 0 | POS | INT | 10 | 80 | 484 | x=(44*11) | x 44 11 * = | x:UNKNOWN 44:mug 11:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 33 | (44-11)=x | 44 11 - x = | 44:mug 11:mug -:mug x:mug =:mug
+EXPR: 0 | POS | INT | 10 | 80 | 484 | (44*11)=x | 44 11 * x = | 44:mug 11:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 33 | x=(44-11) | x 44 11 - = | x:mug 44:mug 11:mug -:mug =:mug
+EXPR: 0 | POS | INT | 10 | 80 | 4 | x=(44/11) | x 44 11 / = | x:UNKNOWN 44:UNKNOWN 11:mug /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 55 | (44+11)=x | 44 11 + x = | 44:mug 11:mug +:mug x:mug =:mug
+EXPR: 0 | POS | INT | 10 | 80 | 4 | (44/11)=x | 44 11 / x = | 44:UNKNOWN 11:mug /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 33 | (44-x)=11 | 44 x - 11 = | 44:mug x:mug -:mug 11:mug =:mug
+EXPR: 0 | POS | INT | 12 | 80 | 33 | 44=(11+x) | 44 11 x + = | 44:mug 11:mug x:mug +:mug =:mug
+EXPR: 0 | POS | INT | 12 | 80 | 484 | (x/44)=11 | x 44 / 11 = | x:UNKNOWN 44:mug /:UNKNOWN 11:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 55 | (x-44)=11 | x 44 - 11 = | x:mug 44:mug -:mug 11:mug =:mug
+EXPR: 0 | POS | INT | 12 | 80 | 55 | 44=(x-11) | 44 x 11 - = | 44:mug x:mug 11:mug -:mug =:mug
+EXPR: 0 | POS | INT | 12 | 80 | 33 | 44=(x+11) | 44 x 11 + = | 44:mug x:mug 11:mug +:mug =:mug
+EXPR: 0 | POS | INT | 12 | 80 | 484 | 44=(x/11) | 44 x 11 / = | 44:UNKNOWN x:UNKNOWN 11:mug /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 55 | (x-11)=44 | x 11 - 44 = | x:mug 11:mug -:mug 44:mug =:mug
+EXPR: 0 | POS | INT | 14 | 80 | 484 | 11=(x/44) | 11 x 44 / = | 11:UNKNOWN x:UNKNOWN 44:mug /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 33 | (x+11)=44 | x 11 + 44 = | x:mug 11:mug +:mug 44:mug =:mug
+EXPR: 0 | POS | INT | 14 | 80 | 484 | (x/11)=44 | x 11 / 44 = | x:UNKNOWN 11:mug /:UNKNOWN 44:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 33 | 11=(44-x) | 11 44 x - = | 11:mug 44:mug x:mug -:mug =:mug
+EXPR: 0 | POS | INT | 14 | 80 | 33 | (11+x)=44 | 11 x + 44 = | 11:mug x:mug +:mug 44:mug =:mug
+EXPR: 0 | POS | INT | 14 | 80 | 55 | 11=(x-44) | 11 x 44 - = | 11:mug x:mug 44:mug -:mug =:mug
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

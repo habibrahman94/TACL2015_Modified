@@ -1,0 +1,5 @@
+quantities : 2,200 1,782 x
+types : "acre" "acre" "he"
+operators : + - * / =
+n : 5
+answer : 19.0

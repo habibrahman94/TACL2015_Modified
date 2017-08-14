@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 11 | 176 | x=(44/0.25) | x 44 0.25 / = | x:magazine 44:magazine 0.25:bookstore /:magazine =:magazine
+EXPR: 1 | POS | INT | 0 | 11 | 11 | (44*0.25)=x | 44 0.25 * x = | 44:magazine 0.25:bookstore *:magazine x:magazine =:magazine
+EXPR: 1 | POS | INT | 0 | 11 | 11 | x=(44*0.25) | x 44 0.25 * = | x:magazine 44:magazine 0.25:bookstore *:magazine =:magazine
+EXPR: 0 | POS | INT | 0 | 11 | 176 | (44/0.25)=x | 44 0.25 / x = | 44:magazine 0.25:bookstore /:magazine x:magazine =:magazine
+EXPR: 1 | POS | INT | 2 | 11 | 11 | 44=(x/0.25) | 44 x 0.25 / = | 44:magazine x:magazine 0.25:bookstore /:magazine =:magazine
+EXPR: 0 | POS | INT | 2 | 11 | 176 | 44=(x*0.25) | 44 x 0.25 * = | 44:magazine x:magazine 0.25:bookstore *:magazine =:magazine
+EXPR: 0 | POS | INT | 2 | 11 | 176 | 44=(0.25*x) | 44 0.25 x * = | 44:magazine 0.25:bookstore x:magazine *:magazine =:magazine
+EXPR: 0 | POS | INT | 4 | 11 | 176 | (0.25*x)=44 | 0.25 x * 44 = | 0.25:bookstore x:magazine *:magazine 44:magazine =:magazine
+EXPR: 0 | POS | INT | 4 | 11 | 176 | (x*0.25)=44 | x 0.25 * 44 = | x:magazine 0.25:bookstore *:magazine 44:magazine =:magazine
+EXPR: 1 | POS | INT | 4 | 11 | 11 | (x/0.25)=44 | x 0.25 / 44 = | x:magazine 0.25:bookstore /:magazine 44:magazine =:magazine
+EXPR: 0 | POS | FRA | 10 | 11 | 44.25 | (44+0.25)=x | 44 0.25 + x = | 44:magazine 0.25:magazine +:magazine x:magazine =:magazine
+EXPR: 0 | POS | FRA | 10 | 11 | 44.25 | x=(44+0.25) | x 44 0.25 + = | x:magazine 44:magazine 0.25:magazine +:magazine =:magazine
+EXPR: 0 | POS | FRA | 10 | 11 | 43.75 | (44-0.25)=x | 44 0.25 - x = | 44:magazine 0.25:magazine -:magazine x:magazine =:magazine
+EXPR: 0 | POS | FRA | 10 | 11 | 43.75 | x=(44-0.25) | x 44 0.25 - = | x:magazine 44:magazine 0.25:magazine -:magazine =:magazine
+EXPR: 0 | POS | FRA | 12 | 11 | 43.75 | 44=(x+0.25) | 44 x 0.25 + = | 44:magazine x:magazine 0.25:magazine +:magazine =:magazine
+EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | 44=(0.25/x) | 44 0.25 x / = | 44:bookstore 0.25:bookstore x:magazine /:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | (x*44)=0.25 | x 44 * 0.25 = | x:magazine 44:bookstore *:bookstore 0.25:bookstore =:bookstore
+EXPR: 0 | POS | INT | 12 | 11 | 176 | (44/x)=0.25 | 44 x / 0.25 = | 44:bookstore x:magazine /:bookstore 0.25:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | x=(0.25/44) | x 0.25 44 / = | x:bookstore 0.25:bookstore 44:magazine /:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 12 | 11 | 44.25 | 44=(x-0.25) | 44 x 0.25 - = | 44:magazine x:magazine 0.25:magazine -:magazine =:magazine
+EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | (0.25/44)=x | 0.25 44 / x = | 0.25:bookstore 44:magazine /:bookstore x:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | (44*x)=0.25 | 44 x * 0.25 = | 44:bookstore x:magazine *:bookstore 0.25:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 12 | 11 | 44.25 | (x-44)=0.25 | x 44 - 0.25 = | x:magazine 44:magazine -:magazine 0.25:magazine =:magazine
+EXPR: 0 | POS | FRA | 12 | 11 | 43.75 | (44-x)=0.25 | 44 x - 0.25 = | 44:magazine x:magazine -:magazine 0.25:magazine =:magazine
+EXPR: 1 | POS | INT | 12 | 11 | 11 | (x/44)=0.25 | x 44 / 0.25 = | x:bookstore 44:magazine /:bookstore 0.25:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 12 | 11 | 43.75 | 44=(0.25+x) | 44 0.25 x + = | 44:magazine 0.25:magazine x:magazine +:magazine =:magazine
+EXPR: 1 | POS | INT | 14 | 11 | 11 | 0.25=(x/44) | 0.25 x 44 / = | 0.25:bookstore x:bookstore 44:magazine /:bookstore =:bookstore
+EXPR: 0 | POS | INT | 14 | 11 | 176 | 0.25=(44/x) | 0.25 44 x / = | 0.25:bookstore 44:bookstore x:magazine /:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 14 | 11 | 43.75 | (0.25+x)=44 | 0.25 x + 44 = | 0.25:magazine x:magazine +:magazine 44:magazine =:magazine
+EXPR: 0 | POS | FRA | 14 | 11 | 43.75 | (x+0.25)=44 | x 0.25 + 44 = | x:magazine 0.25:magazine +:magazine 44:magazine =:magazine
+EXPR: 0 | POS | FRA | 14 | 11 | 0.00568181818181818 | 0.25=(44*x) | 0.25 44 x * = | 0.25:bookstore 44:magazine x:bookstore *:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 14 | 11 | 0.00568181818181818 | (0.25/x)=44 | 0.25 x / 44 = | 0.25:bookstore x:magazine /:bookstore 44:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 14 | 11 | 43.75 | 0.25=(44-x) | 0.25 44 x - = | 0.25:magazine 44:magazine x:magazine -:magazine =:magazine
+EXPR: 0 | POS | FRA | 14 | 11 | 44.25 | 0.25=(x-44) | 0.25 x 44 - = | 0.25:magazine x:magazine 44:magazine -:magazine =:magazine
+EXPR: 0 | POS | FRA | 14 | 11 | 0.00568181818181818 | 0.25=(x*44) | 0.25 x 44 * = | 0.25:bookstore x:magazine 44:bookstore *:bookstore =:bookstore
+EXPR: 0 | POS | FRA | 14 | 11 | 44.25 | (x-0.25)=44 | x 0.25 - 44 = | x:magazine 0.25:magazine -:magazine 44:magazine =:magazine
+NET 36 unique, non-negative solutions found out of 136 total solutions

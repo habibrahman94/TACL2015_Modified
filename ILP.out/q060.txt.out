@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 63 | 77.7777777777778 | x=(70/0.9) | x 70 0.9 / = | x:button 70:button 0.9:bag /:button =:button
+EXPR: 1 | POS | INT | 0 | 63 | 63 | (70*0.9)=x | 70 0.9 * x = | 70:button 0.9:bag *:button x:button =:button
+EXPR: 1 | POS | INT | 0 | 63 | 63 | x=(70*0.9) | x 70 0.9 * = | x:button 70:button 0.9:bag *:button =:button
+EXPR: 0 | POS | FRA | 0 | 63 | 77.7777777777778 | (70/0.9)=x | 70 0.9 / x = | 70:button 0.9:bag /:button x:button =:button
+EXPR: 1 | POS | INT | 2 | 63 | 63 | 70=(x/0.9) | 70 x 0.9 / = | 70:button x:button 0.9:bag /:button =:button
+EXPR: 0 | POS | FRA | 2 | 63 | 77.7777777777778 | 70=(x*0.9) | 70 x 0.9 * = | 70:button x:button 0.9:bag *:button =:button
+EXPR: 0 | POS | FRA | 2 | 63 | 77.7777777777778 | 70=(0.9*x) | 70 0.9 x * = | 70:button 0.9:bag x:button *:button =:button
+EXPR: 0 | POS | FRA | 4 | 63 | 77.7777777777778 | (0.9*x)=70 | 0.9 x * 70 = | 0.9:bag x:button *:button 70:button =:button
+EXPR: 0 | POS | FRA | 4 | 63 | 77.7777777777778 | (x*0.9)=70 | x 0.9 * 70 = | x:button 0.9:bag *:button 70:button =:button
+EXPR: 1 | POS | INT | 4 | 63 | 63 | (x/0.9)=70 | x 0.9 / 70 = | x:button 0.9:bag /:button 70:button =:button
+EXPR: 0 | POS | FRA | 10 | 63 | 70.9 | (70+0.9)=x | 70 0.9 + x = | 70:button 0.9:button +:button x:button =:button
+EXPR: 0 | POS | FRA | 10 | 63 | 70.9 | x=(70+0.9) | x 70 0.9 + = | x:button 70:button 0.9:button +:button =:button
+EXPR: 0 | POS | FRA | 10 | 63 | 69.1 | (70-0.9)=x | 70 0.9 - x = | 70:button 0.9:button -:button x:button =:button
+EXPR: 0 | POS | FRA | 10 | 63 | 69.1 | x=(70-0.9) | x 70 0.9 - = | x:button 70:button 0.9:button -:button =:button
+EXPR: 0 | POS | FRA | 12 | 63 | 69.1 | 70=(x+0.9) | 70 x 0.9 + = | 70:button x:button 0.9:button +:button =:button
+EXPR: 0 | POS | FRA | 12 | 63 | 0.0128571428571429 | 70=(0.9/x) | 70 0.9 x / = | 70:bag 0.9:bag x:button /:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 0.0128571428571429 | (x*70)=0.9 | x 70 * 0.9 = | x:button 70:bag *:bag 0.9:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 77.7777777777778 | (70/x)=0.9 | 70 x / 0.9 = | 70:bag x:button /:bag 0.9:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 0.0128571428571429 | x=(0.9/70) | x 0.9 70 / = | x:bag 0.9:bag 70:button /:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 70.9 | 70=(x-0.9) | 70 x 0.9 - = | 70:button x:button 0.9:button -:button =:button
+EXPR: 0 | POS | FRA | 12 | 63 | 0.0128571428571429 | (0.9/70)=x | 0.9 70 / x = | 0.9:bag 70:button /:bag x:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 0.0128571428571429 | (70*x)=0.9 | 70 x * 0.9 = | 70:bag x:button *:bag 0.9:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 70.9 | (x-70)=0.9 | x 70 - 0.9 = | x:button 70:button -:button 0.9:button =:button
+EXPR: 0 | POS | FRA | 12 | 63 | 69.1 | (70-x)=0.9 | 70 x - 0.9 = | 70:button x:button -:button 0.9:button =:button
+EXPR: 1 | POS | INT | 12 | 63 | 63 | (x/70)=0.9 | x 70 / 0.9 = | x:bag 70:button /:bag 0.9:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 63 | 69.1 | 70=(0.9+x) | 70 0.9 x + = | 70:button 0.9:button x:button +:button =:button
+EXPR: 1 | POS | INT | 14 | 63 | 63 | 0.9=(x/70) | 0.9 x 70 / = | 0.9:bag x:bag 70:button /:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 63 | 77.7777777777778 | 0.9=(70/x) | 0.9 70 x / = | 0.9:bag 70:bag x:button /:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 63 | 69.1 | (0.9+x)=70 | 0.9 x + 70 = | 0.9:button x:button +:button 70:button =:button
+EXPR: 0 | POS | FRA | 14 | 63 | 69.1 | (x+0.9)=70 | x 0.9 + 70 = | x:button 0.9:button +:button 70:button =:button
+EXPR: 0 | POS | FRA | 14 | 63 | 0.0128571428571429 | 0.9=(70*x) | 0.9 70 x * = | 0.9:bag 70:button x:bag *:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 63 | 0.0128571428571429 | (0.9/x)=70 | 0.9 x / 70 = | 0.9:bag x:button /:bag 70:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 63 | 69.1 | 0.9=(70-x) | 0.9 70 x - = | 0.9:button 70:button x:button -:button =:button
+EXPR: 0 | POS | FRA | 14 | 63 | 70.9 | 0.9=(x-70) | 0.9 x 70 - = | 0.9:button x:button 70:button -:button =:button
+EXPR: 0 | POS | FRA | 14 | 63 | 0.0128571428571429 | 0.9=(x*70) | 0.9 x 70 * = | 0.9:bag x:button 70:bag *:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 63 | 70.9 | (x-0.9)=70 | x 0.9 - 70 = | x:button 0.9:button -:button 70:button =:button
+NET 36 unique, non-negative solutions found out of 136 total solutions

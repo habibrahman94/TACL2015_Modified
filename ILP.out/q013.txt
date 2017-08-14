@@ -1,0 +1,5 @@
+quantities : x 97.00 0.4
+types : "UNKNOWN" "dollar" "Store"
+operators : + - * / =
+n : 5
+answer : 135.8

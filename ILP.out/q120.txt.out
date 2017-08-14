@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 60 | 166.666666666667 | x=(100/0.6) | x 100 0.6 / = | x:domino 100:domino 0.6:time /:domino =:domino
+EXPR: 1 | POS | INT | 0 | 60 | 60 | (100*0.6)=x | 100 0.6 * x = | 100:domino 0.6:time *:domino x:domino =:domino
+EXPR: 1 | POS | INT | 0 | 60 | 60 | x=(100*0.6) | x 100 0.6 * = | x:domino 100:domino 0.6:time *:domino =:domino
+EXPR: 0 | POS | FRA | 0 | 60 | 166.666666666667 | (100/0.6)=x | 100 0.6 / x = | 100:domino 0.6:time /:domino x:domino =:domino
+EXPR: 1 | POS | INT | 2 | 60 | 60 | 100=(x/0.6) | 100 x 0.6 / = | 100:domino x:domino 0.6:time /:domino =:domino
+EXPR: 0 | POS | FRA | 2 | 60 | 166.666666666667 | 100=(x*0.6) | 100 x 0.6 * = | 100:domino x:domino 0.6:time *:domino =:domino
+EXPR: 0 | POS | FRA | 2 | 60 | 166.666666666667 | 100=(0.6*x) | 100 0.6 x * = | 100:domino 0.6:time x:domino *:domino =:domino
+EXPR: 0 | POS | FRA | 4 | 60 | 166.666666666667 | (0.6*x)=100 | 0.6 x * 100 = | 0.6:time x:domino *:domino 100:domino =:domino
+EXPR: 0 | POS | FRA | 4 | 60 | 166.666666666667 | (x*0.6)=100 | x 0.6 * 100 = | x:domino 0.6:time *:domino 100:domino =:domino
+EXPR: 1 | POS | INT | 4 | 60 | 60 | (x/0.6)=100 | x 0.6 / 100 = | x:domino 0.6:time /:domino 100:domino =:domino
+EXPR: 0 | POS | FRA | 10 | 60 | 100.6 | (100+0.6)=x | 100 0.6 + x = | 100:domino 0.6:domino +:domino x:domino =:domino
+EXPR: 0 | POS | FRA | 10 | 60 | 100.6 | x=(100+0.6) | x 100 0.6 + = | x:domino 100:domino 0.6:domino +:domino =:domino
+EXPR: 0 | POS | FRA | 10 | 60 | 99.4 | (100-0.6)=x | 100 0.6 - x = | 100:domino 0.6:domino -:domino x:domino =:domino
+EXPR: 0 | POS | FRA | 10 | 60 | 99.4 | x=(100-0.6) | x 100 0.6 - = | x:domino 100:domino 0.6:domino -:domino =:domino
+EXPR: 0 | POS | FRA | 12 | 60 | 99.4 | 100=(x+0.6) | 100 x 0.6 + = | 100:domino x:domino 0.6:domino +:domino =:domino
+EXPR: 0 | POS | FRA | 12 | 60 | 0.006 | 100=(0.6/x) | 100 0.6 x / = | 100:time 0.6:time x:domino /:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 0.006 | (x*100)=0.6 | x 100 * 0.6 = | x:domino 100:time *:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 166.666666666667 | (100/x)=0.6 | 100 x / 0.6 = | 100:time x:domino /:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 0.006 | x=(0.6/100) | x 0.6 100 / = | x:time 0.6:time 100:domino /:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 100.6 | 100=(x-0.6) | 100 x 0.6 - = | 100:domino x:domino 0.6:domino -:domino =:domino
+EXPR: 0 | POS | FRA | 12 | 60 | 0.006 | (0.6/100)=x | 0.6 100 / x = | 0.6:time 100:domino /:time x:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 0.006 | (100*x)=0.6 | 100 x * 0.6 = | 100:time x:domino *:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 100.6 | (x-100)=0.6 | x 100 - 0.6 = | x:domino 100:domino -:domino 0.6:domino =:domino
+EXPR: 0 | POS | FRA | 12 | 60 | 99.4 | (100-x)=0.6 | 100 x - 0.6 = | 100:domino x:domino -:domino 0.6:domino =:domino
+EXPR: 1 | POS | INT | 12 | 60 | 60 | (x/100)=0.6 | x 100 / 0.6 = | x:time 100:domino /:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 12 | 60 | 99.4 | 100=(0.6+x) | 100 0.6 x + = | 100:domino 0.6:domino x:domino +:domino =:domino
+EXPR: 1 | POS | INT | 14 | 60 | 60 | 0.6=(x/100) | 0.6 x 100 / = | 0.6:time x:time 100:domino /:time =:time
+EXPR: 0 | POS | FRA | 14 | 60 | 166.666666666667 | 0.6=(100/x) | 0.6 100 x / = | 0.6:time 100:time x:domino /:time =:time
+EXPR: 0 | POS | FRA | 14 | 60 | 99.4 | (0.6+x)=100 | 0.6 x + 100 = | 0.6:domino x:domino +:domino 100:domino =:domino
+EXPR: 0 | POS | FRA | 14 | 60 | 99.4 | (x+0.6)=100 | x 0.6 + 100 = | x:domino 0.6:domino +:domino 100:domino =:domino
+EXPR: 0 | POS | FRA | 14 | 60 | 0.006 | 0.6=(100*x) | 0.6 100 x * = | 0.6:time 100:domino x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 60 | 0.006 | (0.6/x)=100 | 0.6 x / 100 = | 0.6:time x:domino /:time 100:time =:time
+EXPR: 0 | POS | FRA | 14 | 60 | 99.4 | 0.6=(100-x) | 0.6 100 x - = | 0.6:domino 100:domino x:domino -:domino =:domino
+EXPR: 0 | POS | FRA | 14 | 60 | 100.6 | 0.6=(x-100) | 0.6 x 100 - = | 0.6:domino x:domino 100:domino -:domino =:domino
+EXPR: 0 | POS | FRA | 14 | 60 | 0.006 | 0.6=(x*100) | 0.6 x 100 * = | 0.6:time x:domino 100:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 60 | 100.6 | (x-0.6)=100 | x 0.6 - 100 = | x:domino 0.6:domino -:domino 100:domino =:domino
+NET 36 unique, non-negative solutions found out of 136 total solutions

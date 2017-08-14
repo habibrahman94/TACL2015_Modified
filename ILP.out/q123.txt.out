@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 37 | 37 | x=(0.5*74) | x 0.5 74 * = | x:cupcake 0.5:time 74:cupcake *:cupcake =:cupcake
+EXPR: 1 | POS | INT | 0 | 37 | 37 | (0.5*74)=x | 0.5 74 * x = | 0.5:time 74:cupcake *:cupcake x:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 37 | 148 | (74/0.5)=x | 74 0.5 / x = | 74:cupcake 0.5:time /:cupcake x:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 37 | 148 | (0.5*x)=74 | 0.5 x * 74 = | 0.5:time x:cupcake *:cupcake 74:cupcake =:cupcake
+EXPR: 1 | POS | INT | 2 | 37 | 37 | (x/0.5)=74 | x 0.5 / 74 = | x:cupcake 0.5:time /:cupcake 74:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 37 | 148 | (x*0.5)=74 | x 0.5 * 74 = | x:cupcake 0.5:time *:cupcake 74:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 37 | 148 | x=(74/0.5) | x 74 0.5 / = | x:cupcake 74:cupcake 0.5:time /:cupcake =:cupcake
+EXPR: 0 | POS | INT | 4 | 37 | 148 | 74=(x*0.5) | 74 x 0.5 * = | 74:cupcake x:cupcake 0.5:time *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 4 | 37 | 148 | 74=(0.5*x) | 74 0.5 x * = | 74:cupcake 0.5:time x:cupcake *:cupcake =:cupcake
+EXPR: 1 | POS | INT | 4 | 37 | 37 | 74=(x/0.5) | 74 x 0.5 / = | 74:cupcake x:cupcake 0.5:time /:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 10 | 37 | 0.00675675675675676 | (0.5/74)=x | 0.5 74 / x = | 0.5:time 74:cupcake /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 37 | 74.5 | (0.5+74)=x | 0.5 74 + x = | 0.5:cupcake 74:cupcake +:cupcake x:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 10 | 37 | 74.5 | x=(0.5+74) | x 0.5 74 + = | x:cupcake 0.5:cupcake 74:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 10 | 37 | 0.00675675675675676 | x=(0.5/74) | x 0.5 74 / = | x:time 0.5:time 74:cupcake /:time =:time
+EXPR: 0 | POS | FRA | 12 | 37 | 0.00675675675675676 | 0.5=(x*74) | 0.5 x 74 * = | 0.5:time x:time 74:cupcake *:time =:time
+EXPR: 0 | POS | INT | 12 | 37 | 148 | 0.5=(74/x) | 0.5 74 x / = | 0.5:time 74:time x:cupcake /:time =:time
+EXPR: 0 | POS | FRA | 12 | 37 | 74.5 | (x-0.5)=74 | x 0.5 - 74 = | x:cupcake 0.5:cupcake -:cupcake 74:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 12 | 37 | 0.00675675675675676 | (0.5/x)=74 | 0.5 x / 74 = | 0.5:time x:cupcake /:time 74:time =:time
+EXPR: 0 | POS | FRA | 12 | 37 | 73.5 | (74-0.5)=x | 74 0.5 - x = | 74:cupcake 0.5:cupcake -:cupcake x:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 12 | 37 | 73.5 | (x+0.5)=74 | x 0.5 + 74 = | x:cupcake 0.5:cupcake +:cupcake 74:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 12 | 37 | 0.00675675675675676 | 0.5=(74*x) | 0.5 74 x * = | 0.5:time 74:time x:cupcake *:time =:time
+EXPR: 0 | POS | FRA | 12 | 37 | 73.5 | (0.5+x)=74 | 0.5 x + 74 = | 0.5:cupcake x:cupcake +:cupcake 74:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 12 | 37 | 73.5 | 0.5=(74-x) | 0.5 74 x - = | 0.5:cupcake 74:cupcake x:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 12 | 37 | 73.5 | x=(74-0.5) | x 74 0.5 - = | x:cupcake 74:cupcake 0.5:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 12 | 37 | 74.5 | 0.5=(x-74) | 0.5 x 74 - = | 0.5:cupcake x:cupcake 74:cupcake -:cupcake =:cupcake
+EXPR: 1 | POS | INT | 12 | 37 | 37 | 0.5=(x/74) | 0.5 x 74 / = | 0.5:time x:time 74:cupcake /:time =:time
+EXPR: 0 | POS | INT | 14 | 37 | 148 | (74/x)=0.5 | 74 x / 0.5 = | 74:time x:cupcake /:time 0.5:time =:time
+EXPR: 1 | POS | INT | 14 | 37 | 37 | (x/74)=0.5 | x 74 / 0.5 = | x:time 74:cupcake /:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 37 | 0.00675675675675676 | 74=(0.5/x) | 74 0.5 x / = | 74:time 0.5:time x:cupcake /:time =:time
+EXPR: 0 | POS | FRA | 14 | 37 | 73.5 | (74-x)=0.5 | 74 x - 0.5 = | 74:cupcake x:cupcake -:cupcake 0.5:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 14 | 37 | 0.00675675675675676 | (74*x)=0.5 | 74 x * 0.5 = | 74:time x:cupcake *:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 37 | 73.5 | 74=(0.5+x) | 74 0.5 x + = | 74:cupcake 0.5:cupcake x:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 14 | 37 | 0.00675675675675676 | (x*74)=0.5 | x 74 * 0.5 = | x:cupcake 74:time *:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 37 | 74.5 | (x-74)=0.5 | x 74 - 0.5 = | x:cupcake 74:cupcake -:cupcake 0.5:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 14 | 37 | 74.5 | 74=(x-0.5) | 74 x 0.5 - = | 74:cupcake x:cupcake 0.5:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | FRA | 14 | 37 | 73.5 | 74=(x+0.5) | 74 x 0.5 + = | 74:cupcake x:cupcake 0.5:cupcake +:cupcake =:cupcake
+NET 36 unique, non-negative solutions found out of 136 total solutions

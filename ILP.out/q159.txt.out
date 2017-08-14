@@ -1,0 +1,433 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 80 | 1 | ((x*65)-52)=13 | x 65 * 52 - 13 = | x:UNKNOWN 65:problem *:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=((x*52)+13) | 65 x 52 * 13 + = | 65:problem x:UNKNOWN 52:problem *:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | (x*(65-52))=13 | x 65 52 - * 13 = | x:UNKNOWN 65:problem 52:problem -:problem *:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=(x*(52+13)) | 65 x 52 13 + * = | 65:problem x:UNKNOWN 52:problem 13:problem +:problem *:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=((52+13)*x) | 65 52 13 + x * = | 65:problem 52:problem 13:problem +:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 9 | ((65+52)/x)=13 | 65 52 + x / 13 = | 65:problem 52:problem +:problem x:UNKNOWN /:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=((52+13)/x) | 65 52 13 + x / = | 65:problem 52:problem 13:problem +:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | (65-(x*52))=13 | 65 x 52 * - 13 = | 65:problem x:UNKNOWN 52:problem *:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | ((65*x)-52)=13 | 65 x * 52 - 13 = | 65:problem x:UNKNOWN *:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | ((65/x)-52)=13 | 65 x / 52 - 13 = | 65:problem x:UNKNOWN /:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | ((65-52)*x)=13 | 65 52 - x * 13 = | 65:problem 52:problem -:problem x:UNKNOWN *:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | ((65-52)/x)=13 | 65 52 - x / 13 = | 65:problem 52:problem -:problem x:UNKNOWN /:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=(52+(x*13)) | 65 52 x 13 * + = | 65:problem 52:problem x:UNKNOWN 13:problem *:problem +:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=((52/x)+13) | 65 52 x / 13 + = | 65:problem 52:problem x:UNKNOWN /:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=((52*x)+13) | 65 52 x * 13 + = | 65:problem 52:problem x:UNKNOWN *:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | (65-(52*x))=13 | 65 52 x * - 13 = | 65:problem 52:problem x:UNKNOWN *:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | (65-(52/x))=13 | 65 52 x / - 13 = | 65:problem 52:problem x:UNKNOWN /:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=(52+(13/x)) | 65 52 13 x / + = | 65:problem 52:problem 13:problem x:UNKNOWN /:problem +:problem =:problem
+EXPR: 0 | POS | INT | 2 | 80 | 1 | 65=(52+(13*x)) | 65 52 13 x * + = | 65:problem 52:problem 13:problem x:UNKNOWN *:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | (65-(x*13))=52 | 65 x 13 * - 52 = | 65:problem x:UNKNOWN 13:problem *:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | ((x*65)-13)=52 | x 65 * 13 - 52 = | x:UNKNOWN 65:problem *:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | (x*(65-13))=52 | x 65 13 - * 52 = | x:UNKNOWN 65:problem 13:problem -:problem *:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 65=((x*13)+52) | 65 x 13 * 52 + = | 65:problem x:UNKNOWN 13:problem *:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | ((65*x)-13)=52 | 65 x * 13 - 52 = | 65:problem x:UNKNOWN *:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 9 | 65=((x*13)-52) | 65 x 13 * 52 - = | 65:problem x:UNKNOWN 13:problem *:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | ((65/x)-13)=52 | 65 x / 13 - 52 = | 65:problem x:UNKNOWN /:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | ((65-13)*x)=52 | 65 13 - x * 52 = | 65:problem 13:problem -:problem x:UNKNOWN *:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 9 | 65=((13*x)-52) | 65 13 x * 52 - = | 65:problem 13:problem x:UNKNOWN *:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 65=((13/x)+52) | 65 13 x / 52 + = | 65:problem 13:problem x:UNKNOWN /:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 65=((13*x)+52) | 65 13 x * 52 + = | 65:problem 13:problem x:UNKNOWN *:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 65=(13+(52/x)) | 65 13 52 x / + = | 65:problem 13:problem 52:problem x:UNKNOWN /:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | ((65-13)/x)=52 | 65 13 - x / 52 = | 65:problem 13:problem -:problem x:UNKNOWN /:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=((x*65)-13) | 52 x 65 * 13 - = | 52:problem x:UNKNOWN 65:problem *:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 65=(13+(52*x)) | 65 13 52 x * + = | 65:problem 13:problem 52:problem x:UNKNOWN *:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | (65-(13*x))=52 | 65 13 x * - 52 = | 65:problem 13:problem x:UNKNOWN *:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=((65-13)*x) | 52 65 13 - x * = | 52:problem 65:problem 13:problem -:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=((65-13)/x) | 52 65 13 - x / = | 52:problem 65:problem 13:problem -:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | (65-(13/x))=52 | 65 13 x / - 52 = | 65:problem 13:problem x:UNKNOWN /:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 65=(13+(x*52)) | 65 13 x 52 * + = | 65:problem 13:problem x:UNKNOWN 52:problem *:problem +:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=((65/x)-13) | 52 65 x / 13 - = | 52:problem 65:problem x:UNKNOWN /:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=(x*(65-13)) | 52 x 65 13 - * = | 52:problem x:UNKNOWN 65:problem 13:problem -:problem *:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=((65*x)-13) | 52 65 x * 13 - = | 52:problem 65:problem x:UNKNOWN *:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=(65-(13/x)) | 52 65 13 x / - = | 52:problem 65:problem 13:problem x:UNKNOWN /:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=(65-(13*x)) | 52 65 13 x * - = | 52:problem 65:problem 13:problem x:UNKNOWN *:problem -:problem =:problem
+EXPR: 0 | POS | INT | 4 | 80 | 1 | 52=(65-(x*13)) | 52 65 x 13 * - = | 52:problem 65:problem x:UNKNOWN 13:problem *:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | ((52/x)+13)=65 | 52 x / 13 + 65 = | 52:problem x:UNKNOWN /:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=((x*65)-52) | 13 x 65 * 52 - = | 13:problem x:UNKNOWN 65:problem *:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 9 | 52=((13*x)-65) | 52 13 x * 65 - = | 52:problem 13:problem x:UNKNOWN *:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | ((52+13)/x)=65 | 52 13 + x / 65 = | 52:problem 13:problem +:problem x:UNKNOWN /:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 9 | ((x*13)-65)=52 | x 13 * 65 - 52 = | x:UNKNOWN 13:problem *:problem 65:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | ((52+13)*x)=65 | 52 13 + x * 65 = | 52:problem 13:problem +:problem x:UNKNOWN *:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | (52+(13*x))=65 | 52 13 x * + 65 = | 52:problem 13:problem x:UNKNOWN *:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | (52+(13/x))=65 | 52 13 x / + 65 = | 52:problem 13:problem x:UNKNOWN /:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 9 | 52=((x*13)-65) | 52 x 13 * 65 - = | 52:problem x:UNKNOWN 13:problem *:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | ((52*x)+13)=65 | 52 x * 13 + 65 = | 52:problem x:UNKNOWN *:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 9 | 13=((65+52)/x) | 13 65 52 + x / = | 13:problem 65:problem 52:problem +:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=((65-52)*x) | 13 65 52 - x * = | 13:problem 65:problem 52:problem -:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=((65-52)/x) | 13 65 52 - x / = | 13:problem 65:problem 52:problem -:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 9 | ((13*x)-65)=52 | 13 x * 65 - 52 = | 13:problem x:UNKNOWN *:problem 65:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | (52+(x*13))=65 | 52 x 13 * + 65 = | 52:problem x:UNKNOWN 13:problem *:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | ((x*52)+13)=65 | x 52 * 13 + 65 = | x:UNKNOWN 52:problem *:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | (x*(52+13))=65 | x 52 13 + * 65 = | x:UNKNOWN 52:problem 13:problem +:problem *:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=(65-(52/x)) | 13 65 52 x / - = | 13:problem 65:problem 52:problem x:UNKNOWN /:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=((65/x)-52) | 13 65 x / 52 - = | 13:problem 65:problem x:UNKNOWN /:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=(65-(52*x)) | 13 65 52 x * - = | 13:problem 65:problem 52:problem x:UNKNOWN *:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=((65*x)-52) | 13 65 x * 52 - = | 13:problem 65:problem x:UNKNOWN *:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=(x*(65-52)) | 13 x 65 52 - * = | 13:problem x:UNKNOWN 65:problem 52:problem -:problem *:problem =:problem
+EXPR: 0 | POS | INT | 7 | 80 | 1 | 13=(65-(x*52)) | 13 65 x 52 * - = | 13:problem 65:problem x:UNKNOWN 52:problem *:problem -:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 1 | (13+(52*x))=65 | 13 52 x * + 65 = | 13:problem 52:problem x:UNKNOWN *:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 9 | ((13*x)-52)=65 | 13 x * 52 - 65 = | 13:problem x:UNKNOWN *:problem 52:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 1 | ((13*x)+52)=65 | 13 x * 52 + 65 = | 13:problem x:UNKNOWN *:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 9 | ((x*13)-52)=65 | x 13 * 52 - 65 = | x:UNKNOWN 13:problem *:problem 52:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 1 | (13+(x*52))=65 | 13 x 52 * + 65 = | 13:problem x:UNKNOWN 52:problem *:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 1 | (13+(52/x))=65 | 13 52 x / + 65 = | 13:problem 52:problem x:UNKNOWN /:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 1 | ((x*13)+52)=65 | x 13 * 52 + 65 = | x:UNKNOWN 13:problem *:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 9 | 80 | 1 | ((13/x)+52)=65 | 13 x / 52 + 65 = | 13:problem x:UNKNOWN /:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 1521 | x=((65+52)*13) | x 65 52 + 13 * = | x:UNKNOWN 65:problem 52:problem +:problem 13:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 4225 | x=(65*(52+13)) | x 65 52 13 + * = | x:UNKNOWN 65:UNKNOWN 52:problem 13:problem +:problem *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 2535 | x=(65*(52-13)) | x 65 52 13 - * = | x:UNKNOWN 65:UNKNOWN 52:problem 13:problem -:problem *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 169 | ((65-52)*13)=x | 65 52 - 13 * x = | 65:problem 52:problem -:problem 13:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 1 | (65/(52+13))=x | 65 52 13 + / x = | 65:UNKNOWN 52:problem 13:problem +:problem /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 104 | ((65+52)-13)=x | 65 52 + 13 - x = | 65:problem 52:problem +:problem 13:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 0 | ((65-52)-13)=x | 65 52 - 13 - x = | 65:problem 52:problem -:problem 13:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 26 | (65-(52-13))=x | 65 52 13 - - x = | 65:problem 52:problem 13:problem -:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 2535 | (65*(52-13))=x | 65 52 13 - * x = | 65:UNKNOWN 52:problem 13:problem -:problem *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 26 | ((65-52)+13)=x | 65 52 - 13 + x = | 65:problem 52:problem -:problem 13:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 104 | x=(65+(52-13)) | x 65 52 13 - + = | x:problem 65:problem 52:problem 13:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 |  | x=(65-(52+13)) | x 65 52 13 + - = | x:problem 65:problem 52:problem 13:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 130 | ((65+52)+13)=x | 65 52 + 13 + x = | 65:problem 52:problem +:problem 13:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 104 | (65+(52-13))=x | 65 52 13 - + x = | 65:problem 52:problem 13:problem -:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 169 | x=((65-52)*13) | x 65 52 - 13 * = | x:UNKNOWN 65:problem 52:problem -:problem 13:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 130 | x=(65+(52+13)) | x 65 52 13 + + = | x:problem 65:problem 52:problem 13:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 1521 | ((65+52)*13)=x | 65 52 + 13 * x = | 65:problem 52:problem +:problem 13:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 130 | (65+(52+13))=x | 65 52 13 + + x = | 65:problem 52:problem 13:problem +:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 26 | x=(65-(52-13)) | x 65 52 13 - - = | x:problem 65:problem 52:problem 13:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 4225 | (65*(52+13))=x | 65 52 13 + * x = | 65:UNKNOWN 52:problem 13:problem +:problem *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 1 | x=(65/(52+13)) | x 65 52 13 + / = | x:UNKNOWN 65:UNKNOWN 52:problem 13:problem +:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 104 | x=((65+52)-13) | x 65 52 + 13 - = | x:problem 65:problem 52:problem +:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 26 | x=((65-52)+13) | x 65 52 - 13 + = | x:problem 65:problem 52:problem -:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 |  | x=((65-52)-13) | x 65 52 - 13 - = | x:problem 65:problem 52:problem -:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 0 | (65-(52+13))=x | 65 52 13 + - x = | 65:problem 52:problem 13:problem +:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 10 | 80 | 130 | x=((65+52)+13) | x 65 52 + 13 + = | x:problem 65:problem 52:problem +:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 4225 | 65=(x/(52+13)) | 65 x 52 13 + / = | 65:UNKNOWN x:UNKNOWN 52:problem 13:problem +:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 1521 | (x/(65+52))=13 | x 65 52 + / 13 = | x:UNKNOWN 65:problem 52:problem +:problem /:UNKNOWN 13:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 |  | ((65+x)-52)=13 | 65 x + 52 - 13 = | 65:problem x:problem +:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | (x-(65+52))=13 | x 65 52 + - 13 = | x:problem 65:problem 52:problem +:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | 65=((x+52)-13) | 65 x 52 + 13 - = | 65:problem x:problem 52:problem +:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=((52+13)+x) | 65 52 13 + x + = | 65:problem 52:problem 13:problem +:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | 65=((52-13)+x) | 65 52 13 - x + = | 65:problem 52:problem 13:problem -:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=(52-(x-13)) | 65 52 x 13 - - = | 65:problem 52:problem x:problem 13:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 4056 | x=(52*(65+13)) | x 52 65 13 + * = | x:UNKNOWN 52:UNKNOWN 65:problem 13:problem +:problem *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=((52-x)+13) | 65 52 x - 13 + = | 65:problem 52:problem x:problem -:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | ((65-x)+52)=13 | 65 x - 52 + 13 = | 65:problem x:problem -:problem 52:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 2535 | 65=(x/(52-13)) | 65 x 52 13 - / = | 65:UNKNOWN x:UNKNOWN 52:problem 13:problem -:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 9 | (65+52)=(13*x) | 65 52 + 13 x * = | 65:problem 52:problem +:problem 13:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 169 | (x/(65-52))=13 | x 65 52 - / 13 = | x:UNKNOWN 65:problem 52:problem -:problem /:UNKNOWN 13:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 9 | (65+52)=(x*13) | 65 52 + x 13 * = | 65:problem 52:problem +:problem x:UNKNOWN 13:problem *:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | ((65+13)-52)=x | 65 13 + 52 - x = | 65:problem 13:problem +:problem 52:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | ((65-13)-52)=x | 65 13 - 52 - x = | 65:problem 13:problem -:problem 52:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 4056 | x=((65+13)*52) | x 65 13 + 52 * = | x:UNKNOWN 65:problem 13:problem +:problem 52:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 104 | (65-(13-52))=x | 65 13 52 - - x = | 65:problem 13:problem 52:problem -:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=((x+52)+13) | 65 x 52 + 13 + = | 65:problem x:problem 52:problem +:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | ((x+65)-52)=13 | x 65 + 52 - 13 = | x:problem 65:problem +:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | ((x-65)-52)=13 | x 65 - 52 - 13 = | x:problem 65:problem -:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 2704 | x=(52*(65-13)) | x 52 65 13 - * = | x:UNKNOWN 52:UNKNOWN 65:problem 13:problem -:problem *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 1 | x=(52/(65-13)) | x 52 65 13 - / = | x:UNKNOWN 52:UNKNOWN 65:problem 13:problem -:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 26 | x=(65+(13-52)) | x 65 13 52 - + = | x:problem 65:problem 13:problem 52:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | ((65-13)+52)=x | 65 13 - 52 + x = | 65:problem 13:problem -:problem 52:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | (65+(13-52))=x | 65 13 52 - + x = | 65:problem 13:problem 52:problem -:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 2704 | ((65-13)*52)=x | 65 13 - 52 * x = | 65:problem 13:problem -:problem 52:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 104 | (65-(x-52))=13 | 65 x 52 - - 13 = | 65:problem x:problem 52:problem -:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 2704 | x=((65-13)*52) | x 65 13 - 52 * = | x:UNKNOWN 65:problem 13:problem -:problem 52:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 104 | ((65+52)-x)=13 | 65 52 + x - 13 = | 65:problem 52:problem +:problem x:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | ((65-52)-x)=13 | 65 52 - x - 13 = | 65:problem 52:problem -:problem x:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | ((65-52)+x)=13 | 65 52 - x + 13 = | 65:problem 52:problem -:problem x:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | x=(52+(65-13)) | x 52 65 13 - + = | x:problem 52:problem 65:problem 13:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | ((x-65)+52)=13 | x 65 - 52 + 13 = | x:problem 65:problem -:problem 52:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | 65=(x-(52+13)) | 65 x 52 13 + - = | 65:problem x:problem 52:problem 13:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | x=(52+(65+13)) | x 52 65 13 + + = | x:problem 52:problem 65:problem 13:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | ((65+13)+52)=x | 65 13 + 52 + x = | 65:problem 13:problem +:problem 52:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | (52+(65+13))=x | 52 65 13 + + x = | 52:problem 65:problem 13:problem +:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | (52-(65-13))=x | 52 65 13 - - x = | 52:problem 65:problem 13:problem -:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 57 | (65/(x-52))=13 | 65 x 52 - / 13 = | 65:problem x:UNKNOWN 52:UNKNOWN -:UNKNOWN /:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | (65+(x-52))=13 | 65 x 52 - + 13 = | 65:problem x:problem 52:problem -:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (65-52)=(x*13) | 65 52 - x 13 * = | 65:problem 52:problem -:problem x:UNKNOWN 13:problem *:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | x=(52-(65-13)) | x 52 65 13 - - = | x:problem 52:problem 65:problem 13:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 4056 | (52*(65+13))=x | 52 65 13 + * x = | 52:UNKNOWN 65:problem 13:problem +:problem *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 0 | ((52-65)+13)=x | 52 65 - 13 + x = | 52:problem 65:problem -:problem 13:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | (x-(65-52))=13 | x 65 52 - - 13 = | x:problem 65:problem 52:problem -:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (65-52)=(13*x) | 65 52 - 13 x * = | 65:problem 52:problem -:problem 13:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (65-52)=(13/x) | 65 52 - 13 x / = | 65:problem 52:problem -:problem 13:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | 65=(x+(52-13)) | 65 x 52 13 - + = | 65:problem x:problem 52:problem 13:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | (52+(65-13))=x | 52 65 13 - + x = | 52:problem 65:problem 13:problem -:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 47 | 65=((52-x)*13) | 65 52 x - 13 * = | 65:problem 52:UNKNOWN x:UNKNOWN -:UNKNOWN 13:problem *:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=((52+x)+13) | 65 52 x + 13 + = | 65:problem 52:problem x:problem +:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | (65-(x+52))=13 | 65 x 52 + - 13 = | 65:problem x:problem 52:problem +:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (52/(65-13))=x | 52 65 13 - / x = | 52:UNKNOWN 65:problem 13:problem -:problem /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 26 | 65=(52+(x-13)) | 65 52 x 13 - + = | 65:problem 52:problem x:problem 13:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=(52+(x+13)) | 65 52 x 13 + + = | 65:problem 52:problem x:problem 13:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (x*65)=(52+13) | x 65 * 52 13 + = | x:UNKNOWN 65:problem *:problem 52:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | 65=(52-(13-x)) | 65 52 13 x - - = | 65:problem 52:problem 13:problem x:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (65/x)=(52+13) | 65 x / 52 13 + = | 65:problem x:UNKNOWN /:problem 52:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | x=((52-65)+13) | x 52 65 - 13 + = | x:problem 52:problem 65:problem -:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=(x+(52+13)) | 65 x 52 13 + + = | 65:problem x:problem 52:problem 13:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | x=((65-13)+52) | x 65 13 - 52 + = | x:problem 65:problem 13:problem -:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=((52+13)-x) | 65 52 13 + x - = | 65:problem 52:problem 13:problem +:problem x:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | x=(65-(13-52)) | x 65 13 52 - - = | x:problem 65:problem 13:problem 52:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 1 | (65*x)=(52+13) | 65 x * 52 13 + = | 65:problem x:UNKNOWN *:problem 52:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | 65=((52+x)-13) | 65 52 x + 13 - = | 65:problem 52:problem x:problem +:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 26 | x=((65+13)-52) | x 65 13 + 52 - = | x:problem 65:problem 13:problem +:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | x=((65-13)-52) | x 65 13 - 52 - = | x:problem 65:problem 13:problem -:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | (x+(65-52))=13 | x 65 52 - + 13 = | x:problem 65:problem 52:problem -:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | x=((65+13)+52) | x 65 13 + 52 + = | x:problem 65:problem 13:problem +:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=(52+(13-x)) | 65 52 13 x - + = | 65:problem 52:problem 13:problem x:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 0 | 65=(52+(13+x)) | 65 52 13 x + + = | 65:problem 52:problem 13:problem x:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | ((65-x)-52)=13 | 65 x - 52 - 13 = | 65:problem x:problem -:problem 52:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | 65=((x-52)+13) | 65 x 52 - 13 + = | 65:problem x:problem 52:problem -:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 130 | 65=((x-52)-13) | 65 x 52 - 13 - = | 65:problem x:problem 52:problem -:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 2704 | (52*(65-13))=x | 52 65 13 - * x = | 52:UNKNOWN 65:problem 13:problem -:problem *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 57 | 65=((x-52)*13) | 65 x 52 - 13 * = | 65:problem x:UNKNOWN 52:UNKNOWN -:UNKNOWN 13:problem *:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 47 | (65/(52-x))=13 | 65 52 x - / 13 = | 65:problem 52:UNKNOWN x:UNKNOWN -:UNKNOWN /:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | 65=(x-(52-13)) | 65 x 52 13 - - = | 65:problem x:problem 52:problem 13:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | (65-(52+x))=13 | 65 52 x + - 13 = | 65:problem 52:problem x:problem +:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 |  | (65-(52-x))=13 | 65 52 x - - 13 = | 65:problem 52:problem x:problem -:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 104 | (65+(52-x))=13 | 65 52 x - + 13 = | 65:problem 52:problem x:problem -:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 12 | 80 | 4056 | ((65+13)*52)=x | 65 13 + 52 * x = | 65:problem 13:problem +:problem 52:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 65=((x+13)-52) | 65 x 13 + 52 - = | 65:problem x:problem 13:problem +:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | ((65+x)-13)=52 | 65 x + 13 - 52 = | 65:problem x:problem +:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 52=(x-(65-13)) | 52 x 65 13 - - = | 52:problem x:problem 65:problem 13:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 130 | 52=(x-(65+13)) | 52 x 65 13 + - = | 52:problem x:problem 65:problem 13:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=(x+(65-13)) | 52 x 65 13 - + = | 52:problem x:problem 65:problem 13:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 57 | 65=(13*(x-52)) | 65 13 x 52 - * = | 65:problem 13:problem x:UNKNOWN 52:UNKNOWN -:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 69 | ((x-65)*13)=52 | x 65 - 13 * 52 = | x:UNKNOWN 65:UNKNOWN -:UNKNOWN 13:problem *:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 4056 | 52=(x/(65+13)) | 52 x 65 13 + / = | 52:UNKNOWN x:UNKNOWN 65:problem 13:problem +:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=(13-(x-52)) | 65 13 x 52 - - = | 65:problem 13:problem x:problem 52:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 130 | (x-(65+13))=52 | x 65 13 + - 52 = | x:problem 65:problem 13:problem +:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 65=((13-52)+x) | 65 13 52 - x + = | 65:problem 13:problem 52:problem -:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 65=((13+x)-52) | 65 13 x + 52 - = | 65:problem 13:problem x:problem +:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | ((52-x)+65)=13 | 52 x - 65 + 13 = | 52:problem x:problem -:problem 65:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 65=(13+(x-52)) | 65 13 x 52 - + = | 65:problem 13:problem x:problem 52:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=(13+(x+52)) | 65 13 x 52 + + = | 65:problem 13:problem x:problem 52:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=((x+65)-13) | 52 x 65 + 13 - = | 52:problem x:problem 65:problem +:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=((x+13)+52) | 65 x 13 + 52 + = | 65:problem x:problem 13:problem +:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 1 | (x*52)=(65-13) | x 52 * 65 13 - = | x:UNKNOWN 52:problem *:problem 65:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | ((x+65)-13)=52 | x 65 + 13 - 52 = | x:problem 65:problem +:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 130 | ((x-65)-13)=52 | x 65 - 13 - 52 = | x:problem 65:problem -:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 61 | (52/(65-x))=13 | 52 65 x - / 13 = | 52:problem 65:UNKNOWN x:UNKNOWN -:UNKNOWN /:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | (65-(x-13))=52 | 65 x 13 - - 52 = | 65:problem x:problem 13:problem -:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | ((65-x)+13)=52 | 65 x - 13 + 52 = | 65:problem x:problem -:problem 13:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 52=((x-65)+13) | 52 x 65 - 13 + = | 52:problem x:problem 65:problem -:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | (65-(13-x))=52 | 65 13 x - - 52 = | 65:problem 13:problem x:problem -:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | (65+(13-x))=52 | 65 13 x - + 52 = | 65:problem 13:problem x:problem -:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | (52-(x-65))=13 | 52 x 65 - - 13 = | 52:problem x:problem 65:problem -:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 4056 | (x/(65+13))=52 | x 65 13 + / 52 = | x:UNKNOWN 65:problem 13:problem +:problem /:UNKNOWN 52:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 |  | ((65-13)+x)=52 | 65 13 - x + 52 = | 65:problem 13:problem -:problem x:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 130 | ((x-52)-65)=13 | x 52 - 65 - 13 = | x:problem 52:problem -:problem 65:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | ((x-52)+65)=13 | x 52 - 65 + 13 = | x:problem 52:problem -:problem 65:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 1 | (52/x)=(65-13) | 52 x / 65 13 - = | 52:problem x:UNKNOWN /:problem 65:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 2704 | 52=(x/(65-13)) | 52 x 65 13 - / = | 52:UNKNOWN x:UNKNOWN 65:problem 13:problem -:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 2704 | (x/(65-13))=52 | x 65 13 - / 52 = | x:UNKNOWN 65:problem 13:problem -:problem /:UNKNOWN 52:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=((13+x)+52) | 65 13 x + 52 + = | 65:problem 13:problem x:problem +:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=(13+(52-x)) | 65 13 52 x - + = | 65:problem 13:problem 52:problem x:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 65=(13-(52-x)) | 65 13 52 x - - = | 65:problem 13:problem 52:problem x:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | (65+(x-13))=52 | 65 x 13 - + 52 = | 65:problem x:problem 13:problem -:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 47 | 65=(13*(52-x)) | 65 13 52 x - * = | 65:problem 13:problem 52:UNKNOWN x:UNKNOWN -:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=(65-(x+13)) | 52 65 x 13 + - = | 52:problem 65:problem x:problem 13:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | ((x-65)+13)=52 | x 65 - 13 + 52 = | x:problem 65:problem -:problem 13:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 130 | 52=((x-65)-13) | 52 x 65 - 13 - = | 52:problem x:problem 65:problem -:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | (x-(52-65))=13 | x 52 65 - - 13 = | x:problem 52:problem 65:problem -:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | (x-(65-13))=52 | x 65 13 - - 52 = | x:problem 65:problem 13:problem -:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | (65-(13+x))=52 | 65 13 x + - 52 = | 65:problem 13:problem x:problem +:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=(65+(x-13)) | 52 65 x 13 - + = | 52:problem 65:problem x:problem 13:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=(13+(52+x)) | 65 13 52 x + + = | 65:problem 13:problem 52:problem x:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | 52=(65-(x-13)) | 52 65 x 13 - - = | 52:problem 65:problem x:problem 13:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | (x+(65-13))=52 | x 65 13 - + 52 = | x:problem 65:problem 13:problem -:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | (52+(x-65))=13 | 52 x 65 - + 13 = | 52:problem x:problem 65:problem -:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | 65=(x+(13-52)) | 65 x 13 52 - + = | 65:problem x:problem 13:problem 52:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | 65=(x-(13-52)) | 65 x 13 52 - - = | 65:problem x:problem 13:problem 52:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 1 | (65-13)=(x*52) | 65 13 - x 52 * = | 65:problem 13:problem -:problem x:UNKNOWN 52:problem *:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | 52=(65+(13-x)) | 52 65 13 x - + = | 52:problem 65:problem 13:problem x:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 61 | 52=((65-x)*13) | 52 65 x - 13 * = | 52:problem 65:UNKNOWN x:UNKNOWN -:UNKNOWN 13:problem *:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | ((52+x)-65)=13 | 52 x + 65 - 13 = | 52:problem x:problem +:problem 65:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | (x+(52-65))=13 | x 52 65 - + 13 = | x:problem 52:problem 65:problem -:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 1 | (65-13)=(52*x) | 65 13 - 52 x * = | 65:problem 13:problem -:problem 52:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 1 | (65-13)=(52/x) | 65 13 - 52 x / = | 65:problem 13:problem -:problem 52:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=(65-(13-x)) | 52 65 13 x - - = | 52:problem 65:problem 13:problem x:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=((65+x)-13) | 52 65 x + 13 - = | 52:problem 65:problem x:problem +:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=(65-(13+x)) | 52 65 13 x + - = | 52:problem 65:problem 13:problem x:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | 52=((65+13)-x) | 52 65 13 + x - = | 52:problem 65:problem 13:problem +:problem x:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 69 | (52/(x-65))=13 | 52 x 65 - / 13 = | 52:problem x:UNKNOWN 65:UNKNOWN -:UNKNOWN /:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | ((52-65)+x)=13 | 52 65 - x + 13 = | 52:problem 65:problem -:problem x:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=((65-13)-x) | 52 65 13 - x - = | 52:problem 65:problem 13:problem -:problem x:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | ((65-x)-13)=52 | 65 x - 13 - 52 = | 65:problem x:problem -:problem 13:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | ((x+52)-65)=13 | x 52 + 65 - 13 = | x:problem 52:problem +:problem 65:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | 65=((x-13)+52) | 65 x 13 - 52 + = | 65:problem x:problem 13:problem -:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | (65-(x+13))=52 | 65 x 13 + - 52 = | 65:problem x:problem 13:problem +:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | (52-(65-x))=13 | 52 65 x - - 13 = | 52:problem 65:problem x:problem -:problem -:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 104 | (52+(65-x))=13 | 52 65 x - + 13 = | 52:problem 65:problem x:problem -:problem +:problem 13:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 61 | ((65-x)*13)=52 | 65 x - 13 * 52 = | 65:UNKNOWN x:UNKNOWN -:UNKNOWN 13:problem *:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 1 | (52*x)=(65-13) | 52 x * 65 13 - = | 52:problem x:UNKNOWN *:problem 65:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 130 | 65=((x-13)-52) | 65 x 13 - 52 - = | 65:problem x:problem 13:problem -:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 65=((13-x)+52) | 65 13 x - 52 + = | 65:problem 13:problem x:problem -:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | 52=((65-x)+13) | 52 65 x - 13 + = | 52:problem 65:problem x:problem -:problem 13:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 69 | 52=((x-65)*13) | 52 x 65 - 13 * = | 52:problem x:UNKNOWN 65:UNKNOWN -:UNKNOWN 13:problem *:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=((65-x)-13) | 52 65 x - 13 - = | 52:problem 65:problem x:problem -:problem 13:problem -:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 0 | 52=((65-13)+x) | 52 65 13 - x + = | 52:problem 65:problem 13:problem -:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 | 26 | ((65+13)-x)=52 | 65 13 + x - 52 = | 65:problem 13:problem +:problem x:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 14 | 80 |  | ((65-13)-x)=52 | 65 13 - x - 52 = | 65:problem 13:problem -:problem x:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 1521 | x=(13*(65+52)) | x 13 65 52 + * = | x:UNKNOWN 13:UNKNOWN 65:problem 52:problem +:problem *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 4225 | x=((52+13)*65) | x 52 13 + 65 * = | x:UNKNOWN 52:problem 13:problem +:problem 65:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 2535 | x=((52-13)*65) | x 52 13 - 65 * = | x:UNKNOWN 52:problem 13:problem -:problem 65:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 |  | x=((52+13)-65) | x 52 13 + 65 - = | x:problem 52:problem 13:problem +:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 130 | x=((52+13)+65) | x 52 13 + 65 + = | x:problem 52:problem 13:problem +:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 169 | x=(13*(65-52)) | x 13 65 52 - * = | x:UNKNOWN 13:UNKNOWN 65:problem 52:problem -:problem *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 |  | x=(52+(13-65)) | x 52 13 65 - + = | x:problem 52:problem 13:problem 65:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 4225 | ((52+13)*65)=x | 52 13 + 65 * x = | 52:problem 13:problem +:problem 65:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 26 | x=(13+(65-52)) | x 13 65 52 - + = | x:problem 13:problem 65:problem 52:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 130 | x=(13+(65+52)) | x 13 65 52 + + = | x:problem 13:problem 65:problem 52:problem +:problem +:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 |  | x=(13-(65-52)) | x 13 65 52 - - = | x:problem 13:problem 65:problem 52:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 2535 | ((52-13)*65)=x | 52 13 - 65 * x = | 52:problem 13:problem -:problem 65:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 130 | (13+(65+52))=x | 13 65 52 + + x = | 13:problem 65:problem 52:problem +:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 0 | (13-(65-52))=x | 13 65 52 - - x = | 13:problem 65:problem 52:problem -:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 26 | (13+(65-52))=x | 13 65 52 - + x = | 13:problem 65:problem 52:problem -:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 0 | ((13-65)+52)=x | 13 65 - 52 + x = | 13:problem 65:problem -:problem 52:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 104 | ((52-13)+65)=x | 52 13 - 65 + x = | 52:problem 13:problem -:problem 65:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 1521 | (13*(65+52))=x | 13 65 52 + * x = | 13:UNKNOWN 65:problem 52:problem +:problem *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 1 | x=(13/(65-52)) | x 13 65 52 - / = | x:UNKNOWN 13:UNKNOWN 65:problem 52:problem -:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 104 | (52-(13-65))=x | 52 13 65 - - x = | 52:problem 13:problem 65:problem -:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 0 | ((52+13)-65)=x | 52 13 + 65 - x = | 52:problem 13:problem +:problem 65:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 130 | ((52+13)+65)=x | 52 13 + 65 + x = | 52:problem 13:problem +:problem 65:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 0 | (52+(13-65))=x | 52 13 65 - + x = | 52:problem 13:problem 65:problem -:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 |  | x=((13-65)+52) | x 13 65 - 52 + = | x:problem 13:problem 65:problem -:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 104 | x=(52-(13-65)) | x 52 13 65 - - = | x:problem 52:problem 13:problem 65:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 104 | x=((52-13)+65) | x 52 13 - 65 + = | x:problem 52:problem 13:problem -:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 15 | 80 | 1 | (13/(65-52))=x | 13 65 52 - / x = | 13:UNKNOWN 65:problem 52:problem -:problem /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 15 | 80 | 169 | (13*(65-52))=x | 13 65 52 - * x = | 13:UNKNOWN 65:problem 52:problem -:problem *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 52=((x+13)-65) | 52 x 13 + 65 - = | 52:problem x:problem 13:problem +:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 69 | (13*(x-65))=52 | 13 x 65 - * 52 = | 13:problem x:UNKNOWN 65:UNKNOWN -:UNKNOWN *:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | 13=(x-(65-52)) | 13 x 65 52 - - = | 13:problem x:problem 65:problem 52:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 130 | 13=(x-(65+52)) | 13 x 65 52 + - = | 13:problem x:problem 65:problem 52:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 52=(x-(13-65)) | 52 x 13 65 - - = | 52:problem x:problem 13:problem 65:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | (13-(x-65))=52 | 13 x 65 - - 52 = | 13:problem x:problem 65:problem -:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=((x+65)-52) | 13 x 65 + 52 - = | 13:problem x:problem 65:problem +:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | (13+(x-65))=52 | 13 x 65 - + 52 = | 13:problem x:problem 65:problem -:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 4225 | (x/(52+13))=65 | x 52 13 + / 65 = | x:UNKNOWN 52:problem 13:problem +:problem /:UNKNOWN 65:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 17 | 80 |  | ((52-x)+13)=65 | 52 x - 13 + 65 = | 52:problem x:problem -:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 52=((13+x)-65) | 52 13 x + 65 - = | 52:problem 13:problem x:problem +:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 52=((x-13)+65) | 52 x 13 - 65 + = | 52:problem x:problem 13:problem -:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | 52=((13-x)+65) | 52 13 x - 65 + = | 52:problem 13:problem x:problem -:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 61 | (13*(65-x))=52 | 13 65 x - * 52 = | 13:problem 65:UNKNOWN x:UNKNOWN -:UNKNOWN *:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 52=(x+(13-65)) | 52 x 13 65 - + = | 52:problem x:problem 13:problem 65:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | ((x+13)-65)=52 | x 13 + 65 - 52 = | x:problem 13:problem +:problem 65:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 130 | ((x-13)-65)=52 | x 13 - 65 - 52 = | x:problem 13:problem -:problem 65:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 1521 | 13=(x/(65+52)) | 13 x 65 52 + / = | 13:UNKNOWN x:UNKNOWN 65:problem 52:problem +:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 17 | 80 | 1 | (x*13)=(65-52) | x 13 * 65 52 - = | x:UNKNOWN 13:problem *:problem 65:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | ((x+52)-13)=65 | x 52 + 13 - 65 = | x:problem 52:problem +:problem 13:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | ((52+x)-13)=65 | 52 x + 13 - 65 = | 52:problem x:problem +:problem 13:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | ((52+x)+13)=65 | 52 x + 13 + 65 = | 52:problem x:problem +:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | (x-(52-13))=65 | x 52 13 - - 65 = | x:problem 52:problem 13:problem -:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | (x+(52-13))=65 | x 52 13 - + 65 = | x:problem 52:problem 13:problem -:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 57 | 13=(65/(x-52)) | 13 65 x 52 - / = | 13:problem 65:problem x:UNKNOWN 52:UNKNOWN -:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 52=((13-65)+x) | 52 13 65 - x + = | 52:problem 13:problem 65:problem -:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 169 | 13=(x/(65-52)) | 13 x 65 52 - / = | 13:UNKNOWN x:UNKNOWN 65:problem 52:problem -:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 17 | 80 | 104 | ((13+x)-65)=52 | 13 x + 65 - 52 = | 13:problem x:problem +:problem 65:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 9 | (x*13)=(65+52) | x 13 * 65 52 + = | x:UNKNOWN 13:problem *:problem 65:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 52=(13+(x-65)) | 52 13 x 65 - + = | 52:problem 13:problem x:problem 65:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | (52-(13-x))=65 | 52 13 x - - 65 = | 52:problem 13:problem x:problem -:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | (52+(13-x))=65 | 52 13 x - + 65 = | 52:problem 13:problem x:problem -:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | x=(13+(52-65)) | x 13 52 65 - + = | x:problem 13:problem 52:problem 65:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | 13=((x-65)+52) | 13 x 65 - 52 + = | 13:problem x:problem 65:problem -:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | (52-(x-13))=65 | 52 x 13 - - 65 = | 52:problem x:problem 13:problem -:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | (52+(x-13))=65 | 52 x 13 - + 65 = | 52:problem x:problem 13:problem -:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | ((x-13)+65)=52 | x 13 - 65 + 52 = | x:problem 13:problem -:problem 65:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | x=(13-(52-65)) | x 13 52 65 - - = | x:problem 13:problem 52:problem 65:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 69 | 52=(13*(x-65)) | 52 13 x 65 - * = | 52:problem 13:problem x:UNKNOWN 65:UNKNOWN -:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | (x-(13-65))=52 | x 13 65 - - 52 = | x:problem 13:problem 65:problem -:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | (x+(13-65))=52 | x 13 65 - + 52 = | x:problem 13:problem 65:problem -:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | (x+(52+13))=65 | x 52 13 + + 65 = | x:problem 52:problem 13:problem +:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | 52=(13-(x-65)) | 52 13 x 65 - - = | 52:problem 13:problem x:problem 65:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | ((x-52)+13)=65 | x 52 - 13 + 65 = | x:problem 52:problem -:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | (52+(x+13))=65 | 52 x 13 + + 65 = | 52:problem x:problem 13:problem +:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | ((13-x)+65)=52 | 13 x - 65 + 52 = | 13:problem x:problem -:problem 65:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | (52+(13+x))=65 | 52 13 x + + 65 = | 52:problem 13:problem x:problem +:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 130 | (x-(52+13))=65 | x 52 13 + - 65 = | x:problem 52:problem 13:problem +:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | ((13-52)+65)=x | 13 52 - 65 + x = | 13:problem 52:problem -:problem 65:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | ((52-13)+x)=65 | 52 13 - x + 65 = | 52:problem 13:problem -:problem x:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | ((52+13)-x)=65 | 52 13 + x - 65 = | 52:problem 13:problem +:problem x:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=(65-(x+52)) | 13 65 x 52 + - = | 13:problem 65:problem x:problem 52:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 13=(65-(x-52)) | 13 65 x 52 - - = | 13:problem 65:problem x:problem 52:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 130 | 13=((x-65)-52) | 13 x 65 - 52 - = | 13:problem x:problem 65:problem -:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=(65+(x-52)) | 13 65 x 52 - + = | 13:problem 65:problem x:problem 52:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 13=((65+52)-x) | 13 65 52 + x - = | 13:problem 65:problem 52:problem +:problem x:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | ((x+52)+13)=65 | x 52 + 13 + 65 = | x:problem 52:problem +:problem 13:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 130 | ((x-52)-13)=65 | x 52 - 13 - 65 = | x:problem 52:problem -:problem 13:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=(65-(52+x)) | 13 65 52 x + - = | 13:problem 65:problem 52:problem x:problem +:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=(x+(65-52)) | 13 x 65 52 - + = | 13:problem x:problem 65:problem 52:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=((65-52)+x) | 13 65 52 - x + = | 13:problem 65:problem 52:problem -:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | ((13-65)+x)=52 | 13 65 - x + 52 = | 13:problem 65:problem -:problem x:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=((65-52)-x) | 13 65 52 - x - = | 13:problem 65:problem 52:problem -:problem x:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 13=(65+(52-x)) | 13 65 52 x - + = | 13:problem 65:problem 52:problem x:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 1 | (52+13)=(x*65) | 52 13 + x 65 * = | 52:problem 13:problem +:problem x:UNKNOWN 65:problem *:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 47 | ((52-x)*13)=65 | 52 x - 13 * 65 = | 52:UNKNOWN x:UNKNOWN -:UNKNOWN 13:problem *:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 61 | 52=(13*(65-x)) | 52 13 65 x - * = | 52:problem 13:problem 65:UNKNOWN x:UNKNOWN -:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 1 | (13/x)=(65-52) | 13 x / 65 52 - = | 13:problem x:UNKNOWN /:problem 65:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 130 | 52=((x-13)-65) | 52 x 13 - 65 - = | 52:problem x:problem 13:problem -:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | (13+(65-x))=52 | 13 65 x - + 52 = | 13:problem 65:problem x:problem -:problem +:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=((65+x)-52) | 13 65 x + 52 - = | 13:problem 65:problem x:problem +:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | (13-(52-65))=x | 13 52 65 - - x = | 13:problem 52:problem 65:problem -:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | (13+(52-65))=x | 13 52 65 - + x = | 13:problem 52:problem 65:problem -:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=((65-x)-52) | 13 65 x - 52 - = | 13:problem 65:problem x:problem -:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 0 | 13=(65-(52-x)) | 13 65 52 x - - = | 13:problem 65:problem 52:problem x:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 47 | 13=(65/(52-x)) | 13 65 52 x - / = | 13:problem 65:problem 52:UNKNOWN x:UNKNOWN -:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 1 | (13*x)=(65-52) | 13 x * 65 52 - = | 13:problem x:UNKNOWN *:problem 65:problem 52:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 9 | (13*x)=(65+52) | 13 x * 65 52 + = | 13:problem x:UNKNOWN *:problem 65:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | x=((13-52)+65) | x 13 52 - 65 + = | x:problem 13:problem 52:problem -:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 2535 | (x/(52-13))=65 | x 52 13 - / 65 = | x:UNKNOWN 52:problem 13:problem -:problem /:UNKNOWN 65:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 52=(13-(65-x)) | 52 13 65 x - - = | 52:problem 13:problem 65:problem x:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | (13-(65-x))=52 | 13 65 x - - 52 = | 13:problem 65:problem x:problem -:problem -:problem 52:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 1 | (52+13)=(65*x) | 52 13 + 65 x * = | 52:problem 13:problem +:problem 65:problem x:UNKNOWN *:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 1 | (52+13)=(65/x) | 52 13 + 65 x / = | 52:problem 13:problem +:problem 65:problem x:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 104 | 13=((65-x)+52) | 13 65 x - 52 + = | 13:problem 65:problem x:problem -:problem 52:problem +:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 |  | ((52+13)+x)=65 | 52 13 + x + 65 = | 52:problem 13:problem +:problem x:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 57 | ((x-52)*13)=65 | x 52 - 13 * 65 = | x:UNKNOWN 52:UNKNOWN -:UNKNOWN 13:problem *:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 17 | 80 | 26 | 52=(13+(65-x)) | 52 13 65 x - + = | 52:problem 13:problem 65:problem x:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 57 | (13*(x-52))=65 | 13 x 52 - * 65 = | 13:problem x:UNKNOWN 52:UNKNOWN -:UNKNOWN *:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 0 | 13=(x-(52-65)) | 13 x 52 65 - - = | 13:problem x:problem 52:problem 65:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | ((13-x)+52)=65 | 13 x - 52 + 65 = | 13:problem x:problem -:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | 13=((x+52)-65) | 13 x 52 + 65 - = | 13:problem x:problem 52:problem +:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 47 | (13*(52-x))=65 | 13 52 x - * 65 = | 13:problem 52:UNKNOWN x:UNKNOWN -:UNKNOWN *:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 61 | 13=(52/(65-x)) | 13 52 65 x - / = | 13:problem 52:problem 65:UNKNOWN x:UNKNOWN -:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | ((x+13)-52)=65 | x 13 + 52 - 65 = | x:problem 13:problem +:problem 52:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | ((x+13)+52)=65 | x 13 + 52 + 65 = | x:problem 13:problem +:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 69 | 13=(52/(x-65)) | 13 52 x 65 - / = | 13:problem 52:problem x:UNKNOWN 65:UNKNOWN -:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 130 | ((x-13)-52)=65 | x 13 - 52 - 65 = | x:problem 13:problem -:problem 52:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | ((13+x)-52)=65 | 13 x + 52 - 65 = | 13:problem x:problem +:problem 52:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | ((13+x)+52)=65 | 13 x + 52 + 65 = | 13:problem x:problem +:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | ((x-13)+52)=65 | x 13 - 52 + 65 = | x:problem 13:problem -:problem 52:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | (13-(52-x))=65 | 13 52 x - - 65 = | 13:problem 52:problem x:problem -:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | 13=((52+x)-65) | 13 52 x + 65 - = | 13:problem 52:problem x:problem +:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | (13-(x-52))=65 | 13 x 52 - - 65 = | 13:problem x:problem 52:problem -:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | (13+(x-52))=65 | 13 x 52 - + 65 = | 13:problem x:problem 52:problem -:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 0 | 13=((x-52)+65) | 13 x 52 - 65 + = | 13:problem x:problem 52:problem -:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | (x-(13-52))=65 | x 13 52 - - 65 = | x:problem 13:problem 52:problem -:problem -:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | (x+(13-52))=65 | x 13 52 - + 65 = | x:problem 13:problem 52:problem -:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | (13+(52-x))=65 | 13 52 x - + 65 = | 13:problem 52:problem x:problem -:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 130 | 13=((x-52)-65) | 13 x 52 - 65 - = | 13:problem x:problem 52:problem -:problem 65:problem -:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | 13=(52-(x-65)) | 13 52 x 65 - - = | 13:problem 52:problem x:problem 65:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | (13+(52+x))=65 | 13 52 x + + 65 = | 13:problem 52:problem x:problem +:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | ((13-52)+x)=65 | 13 52 - x + 65 = | 13:problem 52:problem -:problem x:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 |  | (13+(x+52))=65 | 13 x 52 + + 65 = | 13:problem x:problem 52:problem +:problem +:problem 65:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | 13=(52+(x-65)) | 13 52 x 65 - + = | 13:problem 52:problem x:problem 65:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | 13=((52-x)+65) | 13 52 x - 65 + = | 13:problem 52:problem x:problem -:problem 65:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | 13=((52-65)+x) | 13 52 65 - x + = | 13:problem 52:problem 65:problem -:problem x:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | 13=(x+(52-65)) | 13 x 52 65 - + = | 13:problem x:problem 52:problem 65:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 104 | 13=(52+(65-x)) | 13 52 65 x - + = | 13:problem 52:problem 65:problem x:problem -:problem +:problem =:problem
+EXPR: 0 | POS | INT | 19 | 80 | 26 | 13=(52-(65-x)) | 13 52 65 x - - = | 13:problem 52:problem 65:problem x:problem -:problem -:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 3367 | x=((65*52)-13) | x 65 52 * 13 - = | x:UNKNOWN 65:problem 52:UNKNOWN *:UNKNOWN 13:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 80 | 3393 | x=((65*52)+13) | x 65 52 * 13 + = | x:UNKNOWN 65:problem 52:UNKNOWN *:UNKNOWN 13:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 80 | 3393 | ((65*52)+13)=x | 65 52 * 13 + x = | 65:UNKNOWN 52:problem *:problem 13:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 3367 | ((65*52)-13)=x | 65 52 * 13 - x = | 65:UNKNOWN 52:problem *:problem 13:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 61 | x=(65-(52/13)) | x 65 52 13 / - = | x:UNKNOWN 65:UNKNOWN 52:UNKNOWN 13:problem /:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 80 | 9 | x=((65+52)/13) | x 65 52 + 13 / = | x:problem 65:problem 52:problem +:problem 13:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 741 | (65+(52*13))=x | 65 52 13 * + x = | 65:problem 52:problem 13:UNKNOWN *:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 69 | (65+(52/13))=x | 65 52 13 / + x = | 65:problem 52:problem 13:UNKNOWN /:problem +:problem x:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 61 | (65-(52/13))=x | 65 52 13 / - x = | 65:problem 52:problem 13:UNKNOWN /:problem -:problem x:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 1 | x=((65-52)/13) | x 65 52 - 13 / = | x:problem 65:problem 52:problem -:problem 13:UNKNOWN /:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 741 | x=(65+(52*13)) | x 65 52 13 * + = | x:UNKNOWN 65:UNKNOWN 52:problem 13:UNKNOWN *:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 80 | 1 | ((65-52)/13)=x | 65 52 - 13 / x = | 65:problem 52:problem -:problem 13:UNKNOWN /:problem x:problem =:problem
+EXPR: 0 | POS | INT | 20 | 80 | 9 | ((65+52)/13)=x | 65 52 + 13 / x = | 65:problem 52:problem +:problem 13:UNKNOWN /:problem x:problem =:problem
+NET 429 unique, non-negative, integer-valued solutions found out of 1000 total solutions

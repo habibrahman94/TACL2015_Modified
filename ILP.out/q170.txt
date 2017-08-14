@@ -1,0 +1,5 @@
+quantities : 18 45 x
+types : "quiz" "problem" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 40.0

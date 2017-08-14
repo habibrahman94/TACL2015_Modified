@@ -1,0 +1,5 @@
+quantities : 123,260 0.35 x
+types : "dollar" "event" "event"
+operators : + - * / =
+n : 5
+answer : 166401.0

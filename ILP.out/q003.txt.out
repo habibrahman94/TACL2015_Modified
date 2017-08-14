@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 31.45 | 5.55 | x=(0.15*37) | x 0.15 37 * = | x:dollar 0.15:they 37:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 31.45 | 5.55 | (0.15*37)=x | 0.15 37 * x = | 0.15:they 37:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 31.45 | 246.666666666667 | (37/0.15)=x | 37 0.15 / x = | 37:dollar 0.15:they /:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 31.45 | 246.666666666667 | (0.15*x)=37 | 0.15 x * 37 = | 0.15:they x:dollar *:dollar 37:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 31.45 | 5.55 | (x/0.15)=37 | x 0.15 / 37 = | x:dollar 0.15:they /:dollar 37:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 31.45 | 246.666666666667 | (x*0.15)=37 | x 0.15 * 37 = | x:dollar 0.15:they *:dollar 37:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 31.45 | 246.666666666667 | x=(37/0.15) | x 37 0.15 / = | x:dollar 37:dollar 0.15:they /:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 31.45 | 246.666666666667 | 37=(x*0.15) | 37 x 0.15 * = | 37:dollar x:dollar 0.15:they *:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 31.45 | 246.666666666667 | 37=(0.15*x) | 37 0.15 x * = | 37:dollar 0.15:they x:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 31.45 | 5.55 | 37=(x/0.15) | 37 x 0.15 / = | 37:dollar x:dollar 0.15:they /:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 31.45 | 0.00405405405405405 | (0.15/37)=x | 0.15 37 / x = | 0.15:they 37:dollar /:they x:they =:they
+EXPR: 0 | POS | FRA | 10 | 31.45 | 37.15 | (0.15+37)=x | 0.15 37 + x = | 0.15:dollar 37:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 31.45 | 37.15 | x=(0.15+37) | x 0.15 37 + = | x:dollar 0.15:dollar 37:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 31.45 | 0.00405405405405405 | x=(0.15/37) | x 0.15 37 / = | x:they 0.15:they 37:dollar /:they =:they
+EXPR: 0 | POS | FRA | 12 | 31.45 | 0.00405405405405405 | 0.15=(x*37) | 0.15 x 37 * = | 0.15:they x:they 37:dollar *:they =:they
+EXPR: 0 | POS | FRA | 12 | 31.45 | 246.666666666667 | 0.15=(37/x) | 0.15 37 x / = | 0.15:they 37:they x:dollar /:they =:they
+EXPR: 0 | POS | FRA | 12 | 31.45 | 37.15 | (x-0.15)=37 | x 0.15 - 37 = | x:dollar 0.15:dollar -:dollar 37:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 0.00405405405405405 | (0.15/x)=37 | 0.15 x / 37 = | 0.15:they x:dollar /:they 37:they =:they
+EXPR: 0 | POS | FRA | 12 | 31.45 | 36.85 | (37-0.15)=x | 37 0.15 - x = | 37:dollar 0.15:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 36.85 | (x+0.15)=37 | x 0.15 + 37 = | x:dollar 0.15:dollar +:dollar 37:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 0.00405405405405405 | 0.15=(37*x) | 0.15 37 x * = | 0.15:they 37:they x:dollar *:they =:they
+EXPR: 0 | POS | FRA | 12 | 31.45 | 36.85 | (0.15+x)=37 | 0.15 x + 37 = | 0.15:dollar x:dollar +:dollar 37:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 36.85 | 0.15=(37-x) | 0.15 37 x - = | 0.15:dollar 37:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 36.85 | x=(37-0.15) | x 37 0.15 - = | x:dollar 37:dollar 0.15:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 37.15 | 0.15=(x-37) | 0.15 x 37 - = | 0.15:dollar x:dollar 37:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 31.45 | 5.55 | 0.15=(x/37) | 0.15 x 37 / = | 0.15:they x:they 37:dollar /:they =:they
+EXPR: 0 | POS | FRA | 14 | 31.45 | 246.666666666667 | (37/x)=0.15 | 37 x / 0.15 = | 37:they x:dollar /:they 0.15:they =:they
+EXPR: 0 | POS | FRA | 14 | 31.45 | 5.55 | (x/37)=0.15 | x 37 / 0.15 = | x:they 37:dollar /:they 0.15:they =:they
+EXPR: 0 | POS | FRA | 14 | 31.45 | 0.00405405405405405 | 37=(0.15/x) | 37 0.15 x / = | 37:they 0.15:they x:dollar /:they =:they
+EXPR: 0 | POS | FRA | 14 | 31.45 | 36.85 | (37-x)=0.15 | 37 x - 0.15 = | 37:dollar x:dollar -:dollar 0.15:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 31.45 | 0.00405405405405405 | (37*x)=0.15 | 37 x * 0.15 = | 37:they x:dollar *:they 0.15:they =:they
+EXPR: 0 | POS | FRA | 14 | 31.45 | 36.85 | 37=(0.15+x) | 37 0.15 x + = | 37:dollar 0.15:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 31.45 | 0.00405405405405405 | (x*37)=0.15 | x 37 * 0.15 = | x:dollar 37:they *:they 0.15:they =:they
+EXPR: 0 | POS | FRA | 14 | 31.45 | 37.15 | (x-37)=0.15 | x 37 - 0.15 = | x:dollar 37:dollar -:dollar 0.15:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 31.45 | 37.15 | 37=(x-0.15) | 37 x 0.15 - = | 37:dollar x:dollar 0.15:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 31.45 | 36.85 | 37=(x+0.15) | 37 x 0.15 + = | 37:dollar x:dollar 0.15:dollar +:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

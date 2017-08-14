@@ -1,0 +1,5 @@
+quantities : 75 0.4 x
+types : "problem" "Alec" "problem"
+operators : + - * / =
+n : 5
+answer : 30.0

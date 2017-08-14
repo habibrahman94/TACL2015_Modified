@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 198 | 137.5 | x=(110/0.8) | x 110 0.8 / = | x:member 110:member 0.8:club /:member =:member
+EXPR: 0 | POS | INT | 0 | 198 | 88 | (110*0.8)=x | 110 0.8 * x = | 110:member 0.8:club *:member x:member =:member
+EXPR: 0 | POS | INT | 0 | 198 | 88 | x=(110*0.8) | x 110 0.8 * = | x:member 110:member 0.8:club *:member =:member
+EXPR: 0 | POS | FRA | 0 | 198 | 137.5 | (110/0.8)=x | 110 0.8 / x = | 110:member 0.8:club /:member x:member =:member
+EXPR: 0 | POS | INT | 2 | 198 | 88 | 110=(x/0.8) | 110 x 0.8 / = | 110:member x:member 0.8:club /:member =:member
+EXPR: 0 | POS | FRA | 2 | 198 | 137.5 | 110=(x*0.8) | 110 x 0.8 * = | 110:member x:member 0.8:club *:member =:member
+EXPR: 0 | POS | FRA | 2 | 198 | 137.5 | 110=(0.8*x) | 110 0.8 x * = | 110:member 0.8:club x:member *:member =:member
+EXPR: 0 | POS | FRA | 4 | 198 | 137.5 | (0.8*x)=110 | 0.8 x * 110 = | 0.8:club x:member *:member 110:member =:member
+EXPR: 0 | POS | FRA | 4 | 198 | 137.5 | (x*0.8)=110 | x 0.8 * 110 = | x:member 0.8:club *:member 110:member =:member
+EXPR: 0 | POS | INT | 4 | 198 | 88 | (x/0.8)=110 | x 0.8 / 110 = | x:member 0.8:club /:member 110:member =:member
+EXPR: 0 | POS | FRA | 10 | 198 | 110.8 | (110+0.8)=x | 110 0.8 + x = | 110:member 0.8:member +:member x:member =:member
+EXPR: 0 | POS | FRA | 10 | 198 | 110.8 | x=(110+0.8) | x 110 0.8 + = | x:member 110:member 0.8:member +:member =:member
+EXPR: 0 | POS | FRA | 10 | 198 | 109.2 | (110-0.8)=x | 110 0.8 - x = | 110:member 0.8:member -:member x:member =:member
+EXPR: 0 | POS | FRA | 10 | 198 | 109.2 | x=(110-0.8) | x 110 0.8 - = | x:member 110:member 0.8:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 198 | 109.2 | 110=(x+0.8) | 110 x 0.8 + = | 110:member x:member 0.8:member +:member =:member
+EXPR: 0 | POS | FRA | 12 | 198 | 0.00727272727272727 | 110=(0.8/x) | 110 0.8 x / = | 110:club 0.8:club x:member /:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 0.00727272727272727 | (x*110)=0.8 | x 110 * 0.8 = | x:member 110:club *:club 0.8:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 137.5 | (110/x)=0.8 | 110 x / 0.8 = | 110:club x:member /:club 0.8:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 0.00727272727272727 | x=(0.8/110) | x 0.8 110 / = | x:club 0.8:club 110:member /:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 110.8 | 110=(x-0.8) | 110 x 0.8 - = | 110:member x:member 0.8:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 198 | 0.00727272727272727 | (0.8/110)=x | 0.8 110 / x = | 0.8:club 110:member /:club x:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 0.00727272727272727 | (110*x)=0.8 | 110 x * 0.8 = | 110:club x:member *:club 0.8:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 110.8 | (x-110)=0.8 | x 110 - 0.8 = | x:member 110:member -:member 0.8:member =:member
+EXPR: 0 | POS | FRA | 12 | 198 | 109.2 | (110-x)=0.8 | 110 x - 0.8 = | 110:member x:member -:member 0.8:member =:member
+EXPR: 0 | POS | INT | 12 | 198 | 88 | (x/110)=0.8 | x 110 / 0.8 = | x:club 110:member /:club 0.8:club =:club
+EXPR: 0 | POS | FRA | 12 | 198 | 109.2 | 110=(0.8+x) | 110 0.8 x + = | 110:member 0.8:member x:member +:member =:member
+EXPR: 0 | POS | INT | 14 | 198 | 88 | 0.8=(x/110) | 0.8 x 110 / = | 0.8:club x:club 110:member /:club =:club
+EXPR: 0 | POS | FRA | 14 | 198 | 137.5 | 0.8=(110/x) | 0.8 110 x / = | 0.8:club 110:club x:member /:club =:club
+EXPR: 0 | POS | FRA | 14 | 198 | 109.2 | (0.8+x)=110 | 0.8 x + 110 = | 0.8:member x:member +:member 110:member =:member
+EXPR: 0 | POS | FRA | 14 | 198 | 109.2 | (x+0.8)=110 | x 0.8 + 110 = | x:member 0.8:member +:member 110:member =:member
+EXPR: 0 | POS | FRA | 14 | 198 | 0.00727272727272727 | 0.8=(110*x) | 0.8 110 x * = | 0.8:club 110:member x:club *:club =:club
+EXPR: 0 | POS | FRA | 14 | 198 | 0.00727272727272727 | (0.8/x)=110 | 0.8 x / 110 = | 0.8:club x:member /:club 110:club =:club
+EXPR: 0 | POS | FRA | 14 | 198 | 109.2 | 0.8=(110-x) | 0.8 110 x - = | 0.8:member 110:member x:member -:member =:member
+EXPR: 0 | POS | FRA | 14 | 198 | 110.8 | 0.8=(x-110) | 0.8 x 110 - = | 0.8:member x:member 110:member -:member =:member
+EXPR: 0 | POS | FRA | 14 | 198 | 0.00727272727272727 | 0.8=(x*110) | 0.8 x 110 * = | 0.8:club x:member 110:club *:club =:club
+EXPR: 0 | POS | FRA | 14 | 198 | 110.8 | (x-0.8)=110 | x 0.8 - 110 = | x:member 0.8:member -:member 110:member =:member
+NET 36 unique, non-negative solutions found out of 136 total solutions

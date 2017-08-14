@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 10 | 9 | 6=(54/x) | 6 54 x / = | 6:bead 54:bead x:UNKNOWN /:bead =:bead
+EXPR: 0 | POS | INT | 2 | 10 | 9 | (x*6)=54 | x 6 * 54 = | x:UNKNOWN 6:bead *:bead 54:bead =:bead
+EXPR: 0 | POS | INT | 2 | 10 | 9 | (6*x)=54 | 6 x * 54 = | 6:bead x:UNKNOWN *:bead 54:bead =:bead
+EXPR: 0 | POS | INT | 4 | 10 | 9 | 54=(x*6) | 54 x 6 * = | 54:bead x:UNKNOWN 6:bead *:bead =:bead
+EXPR: 0 | POS | INT | 4 | 10 | 9 | (54/x)=6 | 54 x / 6 = | 54:bead x:UNKNOWN /:bead 6:bead =:bead
+EXPR: 0 | POS | INT | 4 | 10 | 9 | 54=(6*x) | 54 6 x * = | 54:bead 6:bead x:UNKNOWN *:bead =:bead
+EXPR: 0 | POS | INT | 10 | 10 | 60 | x=(6+54) | x 6 54 + = | x:bead 6:bead 54:bead +:bead =:bead
+EXPR: 0 | POS | INT | 10 | 10 | 324 | x=(6*54) | x 6 54 * = | x:UNKNOWN 6:bead 54:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 324 | (6*54)=x | 6 54 * x = | 6:bead 54:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 60 | (6+54)=x | 6 54 + x = | 6:bead 54:bead +:bead x:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 48 | 6=(54-x) | 6 54 x - = | 6:bead 54:bead x:bead -:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 9 | x=(54/6) | x 54 6 / = | x:UNKNOWN 54:UNKNOWN 6:bead /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 324 | (x/6)=54 | x 6 / 54 = | x:UNKNOWN 6:bead /:UNKNOWN 54:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 60 | (x-6)=54 | x 6 - 54 = | x:bead 6:bead -:bead 54:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 60 | 6=(x-54) | 6 x 54 - = | 6:bead x:bead 54:bead -:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 48 | (54-6)=x | 54 6 - x = | 54:bead 6:bead -:bead x:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 48 | x=(54-6) | x 54 6 - = | x:bead 54:bead 6:bead -:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 48 | (x+6)=54 | x 6 + 54 = | x:bead 6:bead +:bead 54:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 324 | 6=(x/54) | 6 x 54 / = | 6:UNKNOWN x:UNKNOWN 54:bead /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 48 | (6+x)=54 | 6 x + 54 = | 6:bead x:bead +:bead 54:bead =:bead
+EXPR: 0 | POS | INT | 12 | 10 | 9 | (54/6)=x | 54 6 / x = | 54:UNKNOWN 6:bead /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 48 | (54-x)=6 | 54 x - 6 = | 54:bead x:bead -:bead 6:bead =:bead
+EXPR: 0 | POS | INT | 14 | 10 | 60 | (x-54)=6 | x 54 - 6 = | x:bead 54:bead -:bead 6:bead =:bead
+EXPR: 0 | POS | INT | 14 | 10 | 324 | 54=(x/6) | 54 x 6 / = | 54:UNKNOWN x:UNKNOWN 6:bead /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 324 | (x/54)=6 | x 54 / 6 = | x:UNKNOWN 54:bead /:UNKNOWN 6:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 48 | 54=(6+x) | 54 6 x + = | 54:bead 6:bead x:bead +:bead =:bead
+EXPR: 0 | POS | INT | 14 | 10 | 60 | 54=(x-6) | 54 x 6 - = | 54:bead x:bead 6:bead -:bead =:bead
+EXPR: 0 | POS | INT | 14 | 10 | 48 | 54=(x+6) | 54 x 6 + = | 54:bead x:bead 6:bead +:bead =:bead
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

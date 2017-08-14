@@ -1,0 +1,5 @@
+quantities : 7 1 x
+types : "month" "person" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 58.33333333

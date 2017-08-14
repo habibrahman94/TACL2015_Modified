@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 15 | 166.666666666667 | x=(50/0.3) | x 50 0.3 / = | x:cookie 50:cookie 0.3:box /:cookie =:cookie
+EXPR: 1 | POS | INT | 0 | 15 | 15 | (50*0.3)=x | 50 0.3 * x = | 50:cookie 0.3:box *:cookie x:cookie =:cookie
+EXPR: 1 | POS | INT | 0 | 15 | 15 | x=(50*0.3) | x 50 0.3 * = | x:cookie 50:cookie 0.3:box *:cookie =:cookie
+EXPR: 0 | POS | FRA | 0 | 15 | 166.666666666667 | (50/0.3)=x | 50 0.3 / x = | 50:cookie 0.3:box /:cookie x:cookie =:cookie
+EXPR: 1 | POS | INT | 2 | 15 | 15 | 50=(x/0.3) | 50 x 0.3 / = | 50:cookie x:cookie 0.3:box /:cookie =:cookie
+EXPR: 0 | POS | FRA | 2 | 15 | 166.666666666667 | 50=(x*0.3) | 50 x 0.3 * = | 50:cookie x:cookie 0.3:box *:cookie =:cookie
+EXPR: 0 | POS | FRA | 2 | 15 | 166.666666666667 | 50=(0.3*x) | 50 0.3 x * = | 50:cookie 0.3:box x:cookie *:cookie =:cookie
+EXPR: 0 | POS | FRA | 4 | 15 | 166.666666666667 | (0.3*x)=50 | 0.3 x * 50 = | 0.3:box x:cookie *:cookie 50:cookie =:cookie
+EXPR: 0 | POS | FRA | 4 | 15 | 166.666666666667 | (x*0.3)=50 | x 0.3 * 50 = | x:cookie 0.3:box *:cookie 50:cookie =:cookie
+EXPR: 1 | POS | INT | 4 | 15 | 15 | (x/0.3)=50 | x 0.3 / 50 = | x:cookie 0.3:box /:cookie 50:cookie =:cookie
+EXPR: 0 | POS | FRA | 10 | 15 | 50.3 | (50+0.3)=x | 50 0.3 + x = | 50:cookie 0.3:cookie +:cookie x:cookie =:cookie
+EXPR: 0 | POS | FRA | 10 | 15 | 50.3 | x=(50+0.3) | x 50 0.3 + = | x:cookie 50:cookie 0.3:cookie +:cookie =:cookie
+EXPR: 0 | POS | FRA | 10 | 15 | 49.7 | (50-0.3)=x | 50 0.3 - x = | 50:cookie 0.3:cookie -:cookie x:cookie =:cookie
+EXPR: 0 | POS | FRA | 10 | 15 | 49.7 | x=(50-0.3) | x 50 0.3 - = | x:cookie 50:cookie 0.3:cookie -:cookie =:cookie
+EXPR: 0 | POS | FRA | 12 | 15 | 49.7 | 50=(x+0.3) | 50 x 0.3 + = | 50:cookie x:cookie 0.3:cookie +:cookie =:cookie
+EXPR: 0 | POS | FRA | 12 | 15 | 0.006 | 50=(0.3/x) | 50 0.3 x / = | 50:box 0.3:box x:cookie /:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 0.006 | (x*50)=0.3 | x 50 * 0.3 = | x:cookie 50:box *:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 166.666666666667 | (50/x)=0.3 | 50 x / 0.3 = | 50:box x:cookie /:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 0.006 | x=(0.3/50) | x 0.3 50 / = | x:box 0.3:box 50:cookie /:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 50.3 | 50=(x-0.3) | 50 x 0.3 - = | 50:cookie x:cookie 0.3:cookie -:cookie =:cookie
+EXPR: 0 | POS | FRA | 12 | 15 | 0.006 | (0.3/50)=x | 0.3 50 / x = | 0.3:box 50:cookie /:box x:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 0.006 | (50*x)=0.3 | 50 x * 0.3 = | 50:box x:cookie *:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 50.3 | (x-50)=0.3 | x 50 - 0.3 = | x:cookie 50:cookie -:cookie 0.3:cookie =:cookie
+EXPR: 0 | POS | FRA | 12 | 15 | 49.7 | (50-x)=0.3 | 50 x - 0.3 = | 50:cookie x:cookie -:cookie 0.3:cookie =:cookie
+EXPR: 1 | POS | INT | 12 | 15 | 15 | (x/50)=0.3 | x 50 / 0.3 = | x:box 50:cookie /:box 0.3:box =:box
+EXPR: 0 | POS | FRA | 12 | 15 | 49.7 | 50=(0.3+x) | 50 0.3 x + = | 50:cookie 0.3:cookie x:cookie +:cookie =:cookie
+EXPR: 1 | POS | INT | 14 | 15 | 15 | 0.3=(x/50) | 0.3 x 50 / = | 0.3:box x:box 50:cookie /:box =:box
+EXPR: 0 | POS | FRA | 14 | 15 | 166.666666666667 | 0.3=(50/x) | 0.3 50 x / = | 0.3:box 50:box x:cookie /:box =:box
+EXPR: 0 | POS | FRA | 14 | 15 | 49.7 | (0.3+x)=50 | 0.3 x + 50 = | 0.3:cookie x:cookie +:cookie 50:cookie =:cookie
+EXPR: 0 | POS | FRA | 14 | 15 | 49.7 | (x+0.3)=50 | x 0.3 + 50 = | x:cookie 0.3:cookie +:cookie 50:cookie =:cookie
+EXPR: 0 | POS | FRA | 14 | 15 | 0.006 | 0.3=(50*x) | 0.3 50 x * = | 0.3:box 50:cookie x:box *:box =:box
+EXPR: 0 | POS | FRA | 14 | 15 | 0.006 | (0.3/x)=50 | 0.3 x / 50 = | 0.3:box x:cookie /:box 50:box =:box
+EXPR: 0 | POS | FRA | 14 | 15 | 49.7 | 0.3=(50-x) | 0.3 50 x - = | 0.3:cookie 50:cookie x:cookie -:cookie =:cookie
+EXPR: 0 | POS | FRA | 14 | 15 | 50.3 | 0.3=(x-50) | 0.3 x 50 - = | 0.3:cookie x:cookie 50:cookie -:cookie =:cookie
+EXPR: 0 | POS | FRA | 14 | 15 | 0.006 | 0.3=(x*50) | 0.3 x 50 * = | 0.3:box x:cookie 50:box *:box =:box
+EXPR: 0 | POS | FRA | 14 | 15 | 50.3 | (x-0.3)=50 | x 0.3 - 50 = | x:cookie 0.3:cookie -:cookie 50:cookie =:cookie
+NET 36 unique, non-negative solutions found out of 136 total solutions

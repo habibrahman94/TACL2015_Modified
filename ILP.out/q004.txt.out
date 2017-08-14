@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 513 | 61.3 | (10.0+51.3)=x | 10.0 51.3 + x = | 10.0:time 51.3:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 0 | 513 | 61.3 | x=(10.0+51.3) | x 10.0 51.3 + = | x:time 10.0:time 51.3:time +:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 61.3 | (x-10.0)=51.3 | x 10.0 - 51.3 = | x:time 10.0:time -:time 51.3:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 41.3 | 10.0=(51.3-x) | 10.0 51.3 x - = | 10.0:time 51.3:time x:time -:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 41.3 | x=(51.3-10.0) | x 51.3 10.0 - = | x:time 51.3:time 10.0:time -:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 41.3 | (10.0+x)=51.3 | 10.0 x + 51.3 = | 10.0:time x:time +:time 51.3:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 41.3 | (x+10.0)=51.3 | x 10.0 + 51.3 = | x:time 10.0:time +:time 51.3:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 61.3 | 10.0=(x-51.3) | 10.0 x 51.3 - = | 10.0:time x:time 51.3:time -:time =:time
+EXPR: 0 | POS | FRA | 2 | 513 | 41.3 | (51.3-10.0)=x | 51.3 10.0 - x = | 51.3:time 10.0:time -:time x:time =:time
+EXPR: 0 | POS | FRA | 4 | 513 | 41.3 | (51.3-x)=10.0 | 51.3 x - 10.0 = | 51.3:time x:time -:time 10.0:time =:time
+EXPR: 0 | POS | FRA | 4 | 513 | 61.3 | 51.3=(x-10.0) | 51.3 x 10.0 - = | 51.3:time x:time 10.0:time -:time =:time
+EXPR: 0 | POS | FRA | 4 | 513 | 61.3 | (x-51.3)=10.0 | x 51.3 - 10.0 = | x:time 51.3:time -:time 10.0:time =:time
+EXPR: 0 | POS | FRA | 4 | 513 | 41.3 | 51.3=(x+10.0) | 51.3 x 10.0 + = | 51.3:time x:time 10.0:time +:time =:time
+EXPR: 0 | POS | FRA | 4 | 513 | 41.3 | 51.3=(10.0+x) | 51.3 10.0 x + = | 51.3:time 10.0:time x:time +:time =:time
+NET 14 unique, non-negative solutions found out of 28 total solutions

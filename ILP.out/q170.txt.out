@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 40 | 810 | (18*45)=x | 18 45 * x = | 18:quiz 45:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 40 | 810 | x=(18*45) | x 18 45 * = | x:quiz 18:quiz 45:problem *:quiz =:quiz
+EXPR: 0 | POS | INT | 12 | 40 | 810 | 18=(x/45) | 18 x 45 / = | 18:UNKNOWN x:UNKNOWN 45:problem /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 40 | 810 | (x/18)=45 | x 18 / 45 = | x:UNKNOWN 18:quiz /:UNKNOWN 45:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 40 | 810 | (x/45)=18 | x 45 / 18 = | x:quiz 45:problem /:quiz 18:quiz =:quiz
+EXPR: 0 | POS | INT | 14 | 40 | 810 | 45=(x/18) | 45 x 18 / = | 45:UNKNOWN x:UNKNOWN 18:quiz /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 40 | 63 | x=(18+45) | x 18 45 + = | x:quiz 18:quiz 45:quiz +:quiz =:quiz
+EXPR: 0 | POS | INT | 20 | 40 | 63 | (18+45)=x | 18 45 + x = | 18:quiz 45:quiz +:quiz x:quiz =:quiz
+EXPR: 0 | POS | INT | 22 | 40 | 63 | 18=(x-45) | 18 x 45 - = | 18:quiz x:quiz 45:quiz -:quiz =:quiz
+EXPR: 0 | POS | INT | 22 | 40 | 27 | 18=(45-x) | 18 45 x - = | 18:problem 45:problem x:problem -:problem =:problem
+EXPR: 0 | POS | INT | 22 | 40 | 27 | x=(45-18) | x 45 18 - = | x:problem 45:problem 18:problem -:problem =:problem
+EXPR: 0 | POS | INT | 22 | 40 | 27 | (x+18)=45 | x 18 + 45 = | x:problem 18:problem +:problem 45:problem =:problem
+EXPR: 0 | POS | INT | 22 | 40 | 63 | (x-18)=45 | x 18 - 45 = | x:problem 18:problem -:problem 45:problem =:problem
+EXPR: 0 | POS | INT | 22 | 40 | 27 | (18+x)=45 | 18 x + 45 = | 18:quiz x:quiz +:quiz 45:quiz =:quiz
+EXPR: 0 | POS | INT | 22 | 40 | 27 | (45-18)=x | 45 18 - x = | 45:UNKNOWN 18:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 40 | 27 | 45=(x+18) | 45 x 18 + = | 45:quiz x:quiz 18:quiz +:quiz =:quiz
+EXPR: 0 | POS | INT | 24 | 40 | 27 | (45-x)=18 | 45 x - 18 = | 45:quiz x:quiz -:quiz 18:quiz =:quiz
+EXPR: 0 | POS | INT | 24 | 40 | 63 | (x-45)=18 | x 45 - 18 = | x:quiz 45:quiz -:quiz 18:quiz =:quiz
+EXPR: 0 | POS | INT | 24 | 40 | 63 | 45=(x-18) | 45 x 18 - = | 45:quiz x:quiz 18:quiz -:quiz =:quiz
+EXPR: 0 | POS | INT | 24 | 40 | 27 | 45=(18+x) | 45 18 x + = | 45:UNKNOWN 18:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

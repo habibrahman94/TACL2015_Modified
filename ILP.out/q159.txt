@@ -1,0 +1,5 @@
+quantities : 65 52 13 x
+types : "problem" "problem" "problem" "UNKNOWN"
+operators : + - * / =
+n : 7
+answer : 80.0

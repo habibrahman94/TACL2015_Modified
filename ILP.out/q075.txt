@@ -1,0 +1,5 @@
+quantities : 80 0.8 x
+types : "pin" "She" "pin"
+operators : + - * / =
+n : 5
+answer : 64.0

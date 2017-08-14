@@ -1,0 +1,5 @@
+quantities : 2 3 x
+types : "employee" "employee" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 40.0

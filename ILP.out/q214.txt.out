@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 18 | 8281 | x=(4550+3731) | x 4550 3731 + = | x:dollar 4550:dollar 3731:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 18 | 16976050 | x=(4550*3731) | x 4550 3731 * = | x:she 4550:dollar 3731:she *:she =:she
+EXPR: 0 | POS | INT | 10 | 18 | 819 | (4550-3731)=x | 4550 3731 - x = | 4550:dollar 3731:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 18 | 16976050 | (4550*3731)=x | 4550 3731 * x = | 4550:dollar 3731:she *:she x:she =:she
+EXPR: 0 | POS | INT | 10 | 18 | 819 | x=(4550-3731) | x 4550 3731 - = | x:dollar 4550:dollar 3731:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 18 | 8281 | (4550+3731)=x | 4550 3731 + x = | 4550:dollar 3731:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 18 | 819 | (4550-x)=3731 | 4550 x - 3731 = | 4550:dollar x:dollar -:dollar 3731:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 18 | 819 | 4550=(3731+x) | 4550 3731 x + = | 4550:dollar 3731:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 18 | 16976050 | (x/4550)=3731 | x 4550 / 3731 = | x:she 4550:dollar /:she 3731:she =:she
+EXPR: 0 | POS | INT | 12 | 18 | 8281 | (x-4550)=3731 | x 4550 - 3731 = | x:dollar 4550:dollar -:dollar 3731:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 18 | 8281 | 4550=(x-3731) | 4550 x 3731 - = | 4550:dollar x:dollar 3731:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 18 | 819 | 4550=(x+3731) | 4550 x 3731 + = | 4550:dollar x:dollar 3731:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 18 | 16976050 | 4550=(x/3731) | 4550 x 3731 / = | 4550:she x:she 3731:dollar /:she =:she
+EXPR: 0 | POS | INT | 14 | 18 | 8281 | (x-3731)=4550 | x 3731 - 4550 = | x:dollar 3731:dollar -:dollar 4550:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 18 | 16976050 | 3731=(x/4550) | 3731 x 4550 / = | 3731:she x:she 4550:dollar /:she =:she
+EXPR: 0 | POS | INT | 14 | 18 | 819 | (x+3731)=4550 | x 3731 + 4550 = | x:dollar 3731:dollar +:dollar 4550:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 18 | 16976050 | (x/3731)=4550 | x 3731 / 4550 = | x:she 3731:dollar /:she 4550:she =:she
+EXPR: 0 | POS | INT | 14 | 18 | 819 | 3731=(4550-x) | 3731 4550 x - = | 3731:dollar 4550:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 18 | 819 | (3731+x)=4550 | 3731 x + 4550 = | 3731:dollar x:dollar +:dollar 4550:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 18 | 8281 | 3731=(x-4550) | 3731 x 4550 - = | 3731:dollar x:dollar 4550:dollar -:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

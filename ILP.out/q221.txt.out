@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 372 | 132 | (240*0.55)=x | 240 0.55 * x = | 240:gallon 0.55:year *:year x:year =:year
+EXPR: 0 | POS | FRA | 10 | 372 | 436.363636363636 | (240/0.55)=x | 240 0.55 / x = | 240:year 0.55:hotel /:year x:year =:year
+EXPR: 0 | POS | INT | 10 | 372 | 132 | x=(240*0.55) | x 240 0.55 * = | x:gallon 240:gallon 0.55:hotel *:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 372 | 436.363636363636 | x=(240/0.55) | x 240 0.55 / = | x:year 240:year 0.55:hotel /:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | (240*x)=0.55 | 240 x * 0.55 = | 240:gallon x:hotel *:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | x=(0.55/240) | x 0.55 240 / = | x:hotel 0.55:hotel 240:gallon /:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | 240=(0.55/x) | 240 0.55 x / = | 240:hotel 0.55:hotel x:year /:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 436.363636363636 | 240=(0.55*x) | 240 0.55 x * = | 240:year 0.55:hotel x:year *:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 436.363636363636 | (240/x)=0.55 | 240 x / 0.55 = | 240:hotel x:year /:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 436.363636363636 | 240=(x*0.55) | 240 x 0.55 * = | 240:year x:year 0.55:hotel *:year =:year
+EXPR: 0 | POS | INT | 12 | 372 | 132 | 240=(x/0.55) | 240 x 0.55 / = | 240:year x:year 0.55:hotel /:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | (x*240)=0.55 | x 240 * 0.55 = | x:year 240:hotel *:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | INT | 12 | 372 | 132 | (x/240)=0.55 | x 240 / 0.55 = | x:year 240:gallon /:year 0.55:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | (0.55/240)=x | 0.55 240 / x = | 0.55:year 240:gallon /:year x:year =:year
+EXPR: 0 | POS | FRA | 14 | 372 | 0.00229166666666667 | (0.55/x)=240 | 0.55 x / 240 = | 0.55:gallon x:year /:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 372 | 436.363636363636 | (0.55*x)=240 | 0.55 x * 240 = | 0.55:gallon x:year *:gallon 240:gallon =:gallon
+EXPR: 0 | POS | INT | 14 | 372 | 132 | (x/0.55)=240 | x 0.55 / 240 = | x:gallon 0.55:hotel /:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 372 | 436.363636363636 | (x*0.55)=240 | x 0.55 * 240 = | x:gallon 0.55:hotel *:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 372 | 0.00229166666666667 | 0.55=(240*x) | 0.55 240 x * = | 0.55:hotel 240:gallon x:hotel *:hotel =:hotel
+EXPR: 0 | POS | FRA | 14 | 372 | 0.00229166666666667 | 0.55=(x*240) | 0.55 x 240 * = | 0.55:hotel x:year 240:hotel *:hotel =:hotel
+EXPR: 0 | POS | INT | 14 | 372 | 132 | 0.55=(x/240) | 0.55 x 240 / = | 0.55:year x:year 240:gallon /:year =:year
+EXPR: 0 | POS | FRA | 14 | 372 | 436.363636363636 | 0.55=(240/x) | 0.55 240 x / = | 0.55:gallon 240:gallon x:year /:gallon =:gallon
+EXPR: 0 | POS | FRA | 20 | 372 | 240.55 | x=(240+0.55) | x 240 0.55 + = | x:gallon 240:gallon 0.55:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 20 | 372 | 239.45 | x=(240-0.55) | x 240 0.55 - = | x:year 240:year 0.55:year -:year =:year
+EXPR: 0 | POS | FRA | 20 | 372 | 240.55 | (240+0.55)=x | 240 0.55 + x = | 240:gallon 0.55:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 20 | 372 | 239.45 | (240-0.55)=x | 240 0.55 - x = | 240:year 0.55:year -:year x:year =:year
+EXPR: 0 | POS | FRA | 22 | 372 | 240.55 | 240=(x-0.55) | 240 x 0.55 - = | 240:gallon x:gallon 0.55:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 372 | 239.45 | 240=(x+0.55) | 240 x 0.55 + = | 240:gallon x:gallon 0.55:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 372 | 240.55 | (x-240)=0.55 | x 240 - 0.55 = | x:hotel 240:hotel -:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | FRA | 22 | 372 | 239.45 | (240-x)=0.55 | 240 x - 0.55 = | 240:gallon x:gallon -:gallon 0.55:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 372 | 239.45 | 240=(0.55+x) | 240 0.55 x + = | 240:year 0.55:year x:year +:year =:year
+EXPR: 0 | POS | FRA | 24 | 372 | 239.45 | (0.55+x)=240 | 0.55 x + 240 = | 0.55:year x:year +:year 240:year =:year
+EXPR: 0 | POS | FRA | 24 | 372 | 240.55 | (x-0.55)=240 | x 0.55 - 240 = | x:gallon 0.55:gallon -:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 24 | 372 | 239.45 | (x+0.55)=240 | x 0.55 + 240 = | x:year 0.55:year +:year 240:year =:year
+EXPR: 0 | POS | FRA | 24 | 372 | 239.45 | 0.55=(240-x) | 0.55 240 x - = | 0.55:gallon 240:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 24 | 372 | 240.55 | 0.55=(x-240) | 0.55 x 240 - = | 0.55:gallon x:gallon 240:gallon -:gallon =:gallon
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 55 | 1428 | x=(560+868) | x 560 868 + = | x:performance 560:performance 868:performance +:performance =:performance
+EXPR: 0 | POS | INT | 10 | 55 | 486080 | x=(560*868) | x 560 868 * = | x:time 560:performance 868:time *:time =:time
+EXPR: 0 | POS | INT | 10 | 55 | 486080 | (560*868)=x | 560 868 * x = | 560:performance 868:time *:time x:time =:time
+EXPR: 0 | POS | INT | 10 | 55 | 1428 | (560+868)=x | 560 868 + x = | 560:performance 868:performance +:performance x:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 308 | 560=(868-x) | 560 868 x - = | 560:performance 868:performance x:performance -:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 486080 | (x/560)=868 | x 560 / 868 = | x:time 560:performance /:time 868:time =:time
+EXPR: 0 | POS | INT | 12 | 55 | 1428 | (x-560)=868 | x 560 - 868 = | x:performance 560:performance -:performance 868:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 1428 | 560=(x-868) | 560 x 868 - = | 560:performance x:performance 868:performance -:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 308 | (868-560)=x | 868 560 - x = | 868:performance 560:performance -:performance x:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 308 | x=(868-560) | x 868 560 - = | x:performance 868:performance 560:performance -:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 308 | (x+560)=868 | x 560 + 868 = | x:performance 560:performance +:performance 868:performance =:performance
+EXPR: 0 | POS | INT | 12 | 55 | 486080 | 560=(x/868) | 560 x 868 / = | 560:time x:time 868:performance /:time =:time
+EXPR: 0 | POS | INT | 12 | 55 | 308 | (560+x)=868 | 560 x + 868 = | 560:performance x:performance +:performance 868:performance =:performance
+EXPR: 0 | POS | INT | 14 | 55 | 308 | (868-x)=560 | 868 x - 560 = | 868:performance x:performance -:performance 560:performance =:performance
+EXPR: 0 | POS | INT | 14 | 55 | 1428 | (x-868)=560 | x 868 - 560 = | x:performance 868:performance -:performance 560:performance =:performance
+EXPR: 0 | POS | INT | 14 | 55 | 486080 | 868=(x/560) | 868 x 560 / = | 868:time x:time 560:performance /:time =:time
+EXPR: 0 | POS | INT | 14 | 55 | 486080 | (x/868)=560 | x 868 / 560 = | x:time 868:performance /:time 560:time =:time
+EXPR: 0 | POS | INT | 14 | 55 | 308 | 868=(560+x) | 868 560 x + = | 868:performance 560:performance x:performance +:performance =:performance
+EXPR: 0 | POS | INT | 14 | 55 | 1428 | 868=(x-560) | 868 x 560 - = | 868:performance x:performance 560:performance -:performance =:performance
+EXPR: 0 | POS | INT | 14 | 55 | 308 | 868=(x+560) | 868 x 560 + = | 868:performance x:performance 560:performance +:performance =:performance
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

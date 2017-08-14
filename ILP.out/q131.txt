@@ -1,0 +1,5 @@
+quantities : 84 0.75 x
+types : "soda" "diner" "soda"
+operators : + - * / =
+n : 5
+answer : 63.0

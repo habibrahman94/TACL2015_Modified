@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 40 | 63 | x=(18+45) | x 18 45 + = | x:sixth-grader 18:sixth-grader 45:sixth-grader +:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 10 | 40 | 810 | x=(18*45) | x 18 45 * = | x:UNKNOWN 18:sixth-grader 45:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 40 | 810 | (18*45)=x | 18 45 * x = | 18:sixth-grader 45:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 40 | 63 | (18+45)=x | 18 45 + x = | 18:sixth-grader 45:sixth-grader +:sixth-grader x:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 27 | 18=(45-x) | 18 45 x - = | 18:sixth-grader 45:sixth-grader x:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 810 | (x/18)=45 | x 18 / 45 = | x:UNKNOWN 18:sixth-grader /:UNKNOWN 45:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 40 | 63 | (x-18)=45 | x 18 - 45 = | x:sixth-grader 18:sixth-grader -:sixth-grader 45:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 63 | 18=(x-45) | 18 x 45 - = | 18:sixth-grader x:sixth-grader 45:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 27 | (45-18)=x | 45 18 - x = | 45:sixth-grader 18:sixth-grader -:sixth-grader x:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 27 | x=(45-18) | x 45 18 - = | x:sixth-grader 45:sixth-grader 18:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 27 | (x+18)=45 | x 18 + 45 = | x:sixth-grader 18:sixth-grader +:sixth-grader 45:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 12 | 40 | 810 | 18=(x/45) | 18 x 45 / = | 18:UNKNOWN x:UNKNOWN 45:sixth-grader /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 40 | 27 | (18+x)=45 | 18 x + 45 = | 18:sixth-grader x:sixth-grader +:sixth-grader 45:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 14 | 40 | 27 | (45-x)=18 | 45 x - 18 = | 45:sixth-grader x:sixth-grader -:sixth-grader 18:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 14 | 40 | 63 | (x-45)=18 | x 45 - 18 = | x:sixth-grader 45:sixth-grader -:sixth-grader 18:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 14 | 40 | 810 | 45=(x/18) | 45 x 18 / = | 45:UNKNOWN x:UNKNOWN 18:sixth-grader /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 40 | 810 | (x/45)=18 | x 45 / 18 = | x:UNKNOWN 45:sixth-grader /:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 40 | 27 | 45=(18+x) | 45 18 x + = | 45:sixth-grader 18:sixth-grader x:sixth-grader +:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 14 | 40 | 63 | 45=(x-18) | 45 x 18 - = | 45:sixth-grader x:sixth-grader 18:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 14 | 40 | 27 | 45=(x+18) | 45 x 18 + = | 45:sixth-grader x:sixth-grader 18:sixth-grader +:sixth-grader =:sixth-grader
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

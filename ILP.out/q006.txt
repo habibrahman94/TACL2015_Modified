@@ -1,0 +1,5 @@
+quantities : 31.00 0.05 x
+types : "dollar" "tip" "bill"
+operators : + - * / =
+n : 5
+answer : 32.55

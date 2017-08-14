@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 12 | 393366 | x=(185550+207816) | x 185550 207816 + = | x:minute 185550:minute 207816:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 12 | 38560258800 | x=(185550*207816) | x 185550 207816 * = | x:time 185550:minute 207816:time *:time =:time
+EXPR: 0 | POS | INT | 10 | 12 | 38560258800 | (185550*207816)=x | 185550 207816 * x = | 185550:minute 207816:time *:time x:time =:time
+EXPR: 0 | POS | INT | 10 | 12 | 393366 | (185550+207816)=x | 185550 207816 + x = | 185550:minute 207816:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 22266 | 185550=(207816-x) | 185550 207816 x - = | 185550:minute 207816:minute x:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 38560258800 | (x/185550)=207816 | x 185550 / 207816 = | x:time 185550:minute /:time 207816:time =:time
+EXPR: 0 | POS | INT | 12 | 12 | 393366 | (x-185550)=207816 | x 185550 - 207816 = | x:minute 185550:minute -:minute 207816:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 393366 | 185550=(x-207816) | 185550 x 207816 - = | 185550:minute x:minute 207816:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 22266 | (207816-185550)=x | 207816 185550 - x = | 207816:minute 185550:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 22266 | x=(207816-185550) | x 207816 185550 - = | x:minute 207816:minute 185550:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 22266 | (x+185550)=207816 | x 185550 + 207816 = | x:minute 185550:minute +:minute 207816:minute =:minute
+EXPR: 0 | POS | INT | 12 | 12 | 38560258800 | 185550=(x/207816) | 185550 x 207816 / = | 185550:time x:time 207816:minute /:time =:time
+EXPR: 0 | POS | INT | 12 | 12 | 22266 | (185550+x)=207816 | 185550 x + 207816 = | 185550:minute x:minute +:minute 207816:minute =:minute
+EXPR: 0 | POS | INT | 14 | 12 | 22266 | (207816-x)=185550 | 207816 x - 185550 = | 207816:minute x:minute -:minute 185550:minute =:minute
+EXPR: 0 | POS | INT | 14 | 12 | 393366 | (x-207816)=185550 | x 207816 - 185550 = | x:minute 207816:minute -:minute 185550:minute =:minute
+EXPR: 0 | POS | INT | 14 | 12 | 38560258800 | 207816=(x/185550) | 207816 x 185550 / = | 207816:time x:time 185550:minute /:time =:time
+EXPR: 0 | POS | INT | 14 | 12 | 38560258800 | (x/207816)=185550 | x 207816 / 185550 = | x:time 207816:minute /:time 185550:time =:time
+EXPR: 0 | POS | INT | 14 | 12 | 22266 | 207816=(185550+x) | 207816 185550 x + = | 207816:minute 185550:minute x:minute +:minute =:minute
+EXPR: 0 | POS | INT | 14 | 12 | 393366 | 207816=(x-185550) | 207816 x 185550 - = | 207816:minute x:minute 185550:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 12 | 22266 | 207816=(x+185550) | 207816 x 185550 + = | 207816:minute x:minute 185550:minute +:minute =:minute
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

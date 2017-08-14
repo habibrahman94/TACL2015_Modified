@@ -1,0 +1,5 @@
+quantities : 50 0.5 x
+types : "book" "Alice" "book"
+operators : + - * / =
+n : 5
+answer : 25.0

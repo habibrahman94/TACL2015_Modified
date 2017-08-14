@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 42 | 74.6666666666667 | x=(56/0.75) | x 56 0.75 / = | x:teacher 56:teacher 0.75:meeting /:teacher =:teacher
+EXPR: 1 | POS | INT | 0 | 42 | 42 | (56*0.75)=x | 56 0.75 * x = | 56:teacher 0.75:meeting *:teacher x:teacher =:teacher
+EXPR: 1 | POS | INT | 0 | 42 | 42 | x=(56*0.75) | x 56 0.75 * = | x:teacher 56:teacher 0.75:meeting *:teacher =:teacher
+EXPR: 0 | POS | FRA | 0 | 42 | 74.6666666666667 | (56/0.75)=x | 56 0.75 / x = | 56:teacher 0.75:meeting /:teacher x:teacher =:teacher
+EXPR: 1 | POS | INT | 2 | 42 | 42 | 56=(x/0.75) | 56 x 0.75 / = | 56:teacher x:teacher 0.75:meeting /:teacher =:teacher
+EXPR: 0 | POS | FRA | 2 | 42 | 74.6666666666667 | 56=(x*0.75) | 56 x 0.75 * = | 56:teacher x:teacher 0.75:meeting *:teacher =:teacher
+EXPR: 0 | POS | FRA | 2 | 42 | 74.6666666666667 | 56=(0.75*x) | 56 0.75 x * = | 56:teacher 0.75:meeting x:teacher *:teacher =:teacher
+EXPR: 0 | POS | FRA | 4 | 42 | 74.6666666666667 | (0.75*x)=56 | 0.75 x * 56 = | 0.75:meeting x:teacher *:teacher 56:teacher =:teacher
+EXPR: 0 | POS | FRA | 4 | 42 | 74.6666666666667 | (x*0.75)=56 | x 0.75 * 56 = | x:teacher 0.75:meeting *:teacher 56:teacher =:teacher
+EXPR: 1 | POS | INT | 4 | 42 | 42 | (x/0.75)=56 | x 0.75 / 56 = | x:teacher 0.75:meeting /:teacher 56:teacher =:teacher
+EXPR: 0 | POS | FRA | 10 | 42 | 56.75 | (56+0.75)=x | 56 0.75 + x = | 56:teacher 0.75:teacher +:teacher x:teacher =:teacher
+EXPR: 0 | POS | FRA | 10 | 42 | 56.75 | x=(56+0.75) | x 56 0.75 + = | x:teacher 56:teacher 0.75:teacher +:teacher =:teacher
+EXPR: 0 | POS | FRA | 10 | 42 | 55.25 | (56-0.75)=x | 56 0.75 - x = | 56:teacher 0.75:teacher -:teacher x:teacher =:teacher
+EXPR: 0 | POS | FRA | 10 | 42 | 55.25 | x=(56-0.75) | x 56 0.75 - = | x:teacher 56:teacher 0.75:teacher -:teacher =:teacher
+EXPR: 0 | POS | FRA | 12 | 42 | 55.25 | 56=(x+0.75) | 56 x 0.75 + = | 56:teacher x:teacher 0.75:teacher +:teacher =:teacher
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0133928571428571 | 56=(0.75/x) | 56 0.75 x / = | 56:meeting 0.75:meeting x:teacher /:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0133928571428571 | (x*56)=0.75 | x 56 * 0.75 = | x:teacher 56:meeting *:meeting 0.75:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 74.6666666666667 | (56/x)=0.75 | 56 x / 0.75 = | 56:meeting x:teacher /:meeting 0.75:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0133928571428571 | x=(0.75/56) | x 0.75 56 / = | x:meeting 0.75:meeting 56:teacher /:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 56.75 | 56=(x-0.75) | 56 x 0.75 - = | 56:teacher x:teacher 0.75:teacher -:teacher =:teacher
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0133928571428571 | (0.75/56)=x | 0.75 56 / x = | 0.75:meeting 56:teacher /:meeting x:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0133928571428571 | (56*x)=0.75 | 56 x * 0.75 = | 56:meeting x:teacher *:meeting 0.75:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 56.75 | (x-56)=0.75 | x 56 - 0.75 = | x:teacher 56:teacher -:teacher 0.75:teacher =:teacher
+EXPR: 0 | POS | FRA | 12 | 42 | 55.25 | (56-x)=0.75 | 56 x - 0.75 = | 56:teacher x:teacher -:teacher 0.75:teacher =:teacher
+EXPR: 1 | POS | INT | 12 | 42 | 42 | (x/56)=0.75 | x 56 / 0.75 = | x:meeting 56:teacher /:meeting 0.75:meeting =:meeting
+EXPR: 0 | POS | FRA | 12 | 42 | 55.25 | 56=(0.75+x) | 56 0.75 x + = | 56:teacher 0.75:teacher x:teacher +:teacher =:teacher
+EXPR: 1 | POS | INT | 14 | 42 | 42 | 0.75=(x/56) | 0.75 x 56 / = | 0.75:meeting x:meeting 56:teacher /:meeting =:meeting
+EXPR: 0 | POS | FRA | 14 | 42 | 74.6666666666667 | 0.75=(56/x) | 0.75 56 x / = | 0.75:meeting 56:meeting x:teacher /:meeting =:meeting
+EXPR: 0 | POS | FRA | 14 | 42 | 55.25 | (0.75+x)=56 | 0.75 x + 56 = | 0.75:teacher x:teacher +:teacher 56:teacher =:teacher
+EXPR: 0 | POS | FRA | 14 | 42 | 55.25 | (x+0.75)=56 | x 0.75 + 56 = | x:teacher 0.75:teacher +:teacher 56:teacher =:teacher
+EXPR: 0 | POS | FRA | 14 | 42 | 0.0133928571428571 | 0.75=(56*x) | 0.75 56 x * = | 0.75:meeting 56:teacher x:meeting *:meeting =:meeting
+EXPR: 0 | POS | FRA | 14 | 42 | 0.0133928571428571 | (0.75/x)=56 | 0.75 x / 56 = | 0.75:meeting x:teacher /:meeting 56:meeting =:meeting
+EXPR: 0 | POS | FRA | 14 | 42 | 55.25 | 0.75=(56-x) | 0.75 56 x - = | 0.75:teacher 56:teacher x:teacher -:teacher =:teacher
+EXPR: 0 | POS | FRA | 14 | 42 | 56.75 | 0.75=(x-56) | 0.75 x 56 - = | 0.75:teacher x:teacher 56:teacher -:teacher =:teacher
+EXPR: 0 | POS | FRA | 14 | 42 | 0.0133928571428571 | 0.75=(x*56) | 0.75 x 56 * = | 0.75:meeting x:teacher 56:meeting *:meeting =:meeting
+EXPR: 0 | POS | FRA | 14 | 42 | 56.75 | (x-0.75)=56 | x 0.75 - 56 = | x:teacher 0.75:teacher -:teacher 56:teacher =:teacher
+NET 36 unique, non-negative solutions found out of 136 total solutions

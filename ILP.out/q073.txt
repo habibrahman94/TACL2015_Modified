@@ -1,0 +1,5 @@
+quantities : 76 0.75 x
+types : "student" "assembly" "first-grader"
+operators : + - * / =
+n : 5
+answer : 57.0

@@ -1,0 +1,5 @@
+quantities : 18 x 45
+types : "sixth-grader" "UNKNOWN" "sixth-grader"
+operators : + - * / =
+n : 5
+answer : 40.0

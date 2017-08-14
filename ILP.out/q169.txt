@@ -1,0 +1,5 @@
+quantities : 38 76 x
+types : "worksheet" "question" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 50.0

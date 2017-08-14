@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 90 | 36 | (18*2)=x | 18 2 * x = | 18:manager 2:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 9 | (18/2)=x | 18 2 / x = | 18:UNKNOWN 2:non-manager /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 36 | x=(18*2) | x 18 2 * = | x:manager 18:manager 2:non-manager *:manager =:manager
+EXPR: 0 | POS | INT | 10 | 90 | 9 | x=(18/2) | x 18 2 / = | x:UNKNOWN 18:UNKNOWN 2:non-manager /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 9 | 18=(2*x) | 18 2 x * = | 18:UNKNOWN 2:non-manager x:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 9 | (18/x)=2 | 18 x / 2 = | 18:non-manager x:UNKNOWN /:non-manager 2:non-manager =:non-manager
+EXPR: 0 | POS | INT | 12 | 90 | 9 | 18=(x*2) | 18 x 2 * = | 18:UNKNOWN x:UNKNOWN 2:non-manager *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 36 | 18=(x/2) | 18 x 2 / = | 18:UNKNOWN x:UNKNOWN 2:non-manager /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 36 | (x/18)=2 | x 18 / 2 = | x:UNKNOWN 18:manager /:UNKNOWN 2:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 9 | (2*x)=18 | 2 x * 18 = | 2:manager x:UNKNOWN *:manager 18:manager =:manager
+EXPR: 0 | POS | INT | 14 | 90 | 36 | (x/2)=18 | x 2 / 18 = | x:manager 2:non-manager /:manager 18:manager =:manager
+EXPR: 0 | POS | INT | 14 | 90 | 9 | (x*2)=18 | x 2 * 18 = | x:manager 2:non-manager *:manager 18:manager =:manager
+EXPR: 0 | POS | INT | 14 | 90 | 36 | 2=(x/18) | 2 x 18 / = | 2:UNKNOWN x:UNKNOWN 18:manager /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 9 | 2=(18/x) | 2 18 x / = | 2:manager 18:manager x:UNKNOWN /:manager =:manager
+EXPR: 0 | POS | INT | 20 | 90 | 20 | x=(18+2) | x 18 2 + = | x:manager 18:manager 2:manager +:manager =:manager
+EXPR: 0 | POS | INT | 20 | 90 | 16 | x=(18-2) | x 18 2 - = | x:UNKNOWN 18:UNKNOWN 2:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 90 | 20 | (18+2)=x | 18 2 + x = | 18:manager 2:manager +:manager x:manager =:manager
+EXPR: 0 | POS | INT | 20 | 90 | 16 | (18-2)=x | 18 2 - x = | 18:UNKNOWN 2:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 90 | 20 | 18=(x-2) | 18 x 2 - = | 18:manager x:manager 2:manager -:manager =:manager
+EXPR: 0 | POS | INT | 22 | 90 | 16 | 18=(x+2) | 18 x 2 + = | 18:manager x:manager 2:manager +:manager =:manager
+EXPR: 0 | POS | INT | 22 | 90 | 20 | (x-18)=2 | x 18 - 2 = | x:non-manager 18:non-manager -:non-manager 2:non-manager =:non-manager
+EXPR: 0 | POS | INT | 22 | 90 | 16 | (18-x)=2 | 18 x - 2 = | 18:manager x:manager -:manager 2:manager =:manager
+EXPR: 0 | POS | INT | 22 | 90 | 16 | 18=(2+x) | 18 2 x + = | 18:UNKNOWN 2:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 90 | 16 | (2+x)=18 | 2 x + 18 = | 2:UNKNOWN x:UNKNOWN +:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 90 | 20 | (x-2)=18 | x 2 - 18 = | x:manager 2:manager -:manager 18:manager =:manager
+EXPR: 0 | POS | INT | 24 | 90 | 16 | (x+2)=18 | x 2 + 18 = | x:UNKNOWN 2:UNKNOWN +:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 90 | 16 | 2=(18-x) | 2 18 x - = | 2:manager 18:manager x:manager -:manager =:manager
+EXPR: 0 | POS | INT | 24 | 90 | 20 | 2=(x-18) | 2 x 18 - = | 2:manager x:manager 18:manager -:manager =:manager
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

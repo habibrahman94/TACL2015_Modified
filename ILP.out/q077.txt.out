@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 700 | x=(70/0.1) | x 70 0.1 / = | x:tree 70:tree 0.1:time /:tree =:tree
+EXPR: 1 | POS | INT | 0 | 7 | 7 | (70*0.1)=x | 70 0.1 * x = | 70:tree 0.1:time *:tree x:tree =:tree
+EXPR: 1 | POS | INT | 0 | 7 | 7 | x=(70*0.1) | x 70 0.1 * = | x:tree 70:tree 0.1:time *:tree =:tree
+EXPR: 0 | POS | INT | 0 | 7 | 700 | (70/0.1)=x | 70 0.1 / x = | 70:tree 0.1:time /:tree x:tree =:tree
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 70=(x/0.1) | 70 x 0.1 / = | 70:tree x:tree 0.1:time /:tree =:tree
+EXPR: 0 | POS | INT | 2 | 7 | 700 | 70=(x*0.1) | 70 x 0.1 * = | 70:tree x:tree 0.1:time *:tree =:tree
+EXPR: 0 | POS | INT | 2 | 7 | 700 | 70=(0.1*x) | 70 0.1 x * = | 70:tree 0.1:time x:tree *:tree =:tree
+EXPR: 0 | POS | INT | 4 | 7 | 700 | (0.1*x)=70 | 0.1 x * 70 = | 0.1:time x:tree *:tree 70:tree =:tree
+EXPR: 0 | POS | INT | 4 | 7 | 700 | (x*0.1)=70 | x 0.1 * 70 = | x:tree 0.1:time *:tree 70:tree =:tree
+EXPR: 1 | POS | INT | 4 | 7 | 7 | (x/0.1)=70 | x 0.1 / 70 = | x:tree 0.1:time /:tree 70:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 7 | 70.1 | (70+0.1)=x | 70 0.1 + x = | 70:tree 0.1:tree +:tree x:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 7 | 70.1 | x=(70+0.1) | x 70 0.1 + = | x:tree 70:tree 0.1:tree +:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 7 | 69.9 | (70-0.1)=x | 70 0.1 - x = | 70:tree 0.1:tree -:tree x:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 7 | 69.9 | x=(70-0.1) | x 70 0.1 - = | x:tree 70:tree 0.1:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 7 | 69.9 | 70=(x+0.1) | 70 x 0.1 + = | 70:tree x:tree 0.1:tree +:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 7 | 0.00142857142857143 | 70=(0.1/x) | 70 0.1 x / = | 70:time 0.1:time x:tree /:time =:time
+EXPR: 0 | POS | FRA | 12 | 7 | 0.00142857142857143 | (x*70)=0.1 | x 70 * 0.1 = | x:tree 70:time *:time 0.1:time =:time
+EXPR: 0 | POS | INT | 12 | 7 | 700 | (70/x)=0.1 | 70 x / 0.1 = | 70:time x:tree /:time 0.1:time =:time
+EXPR: 0 | POS | FRA | 12 | 7 | 0.00142857142857143 | x=(0.1/70) | x 0.1 70 / = | x:time 0.1:time 70:tree /:time =:time
+EXPR: 0 | POS | FRA | 12 | 7 | 70.1 | 70=(x-0.1) | 70 x 0.1 - = | 70:tree x:tree 0.1:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 7 | 0.00142857142857143 | (0.1/70)=x | 0.1 70 / x = | 0.1:time 70:tree /:time x:time =:time
+EXPR: 0 | POS | FRA | 12 | 7 | 0.00142857142857143 | (70*x)=0.1 | 70 x * 0.1 = | 70:time x:tree *:time 0.1:time =:time
+EXPR: 0 | POS | FRA | 12 | 7 | 70.1 | (x-70)=0.1 | x 70 - 0.1 = | x:tree 70:tree -:tree 0.1:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 7 | 69.9 | (70-x)=0.1 | 70 x - 0.1 = | 70:tree x:tree -:tree 0.1:tree =:tree
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x/70)=0.1 | x 70 / 0.1 = | x:time 70:tree /:time 0.1:time =:time
+EXPR: 0 | POS | FRA | 12 | 7 | 69.9 | 70=(0.1+x) | 70 0.1 x + = | 70:tree 0.1:tree x:tree +:tree =:tree
+EXPR: 1 | POS | INT | 14 | 7 | 7 | 0.1=(x/70) | 0.1 x 70 / = | 0.1:time x:time 70:tree /:time =:time
+EXPR: 0 | POS | INT | 14 | 7 | 700 | 0.1=(70/x) | 0.1 70 x / = | 0.1:time 70:time x:tree /:time =:time
+EXPR: 0 | POS | FRA | 14 | 7 | 69.9 | (0.1+x)=70 | 0.1 x + 70 = | 0.1:tree x:tree +:tree 70:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 7 | 69.9 | (x+0.1)=70 | x 0.1 + 70 = | x:tree 0.1:tree +:tree 70:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 7 | 0.00142857142857143 | 0.1=(70*x) | 0.1 70 x * = | 0.1:time 70:tree x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 7 | 0.00142857142857143 | (0.1/x)=70 | 0.1 x / 70 = | 0.1:time x:tree /:time 70:time =:time
+EXPR: 0 | POS | FRA | 14 | 7 | 69.9 | 0.1=(70-x) | 0.1 70 x - = | 0.1:tree 70:tree x:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 7 | 70.1 | 0.1=(x-70) | 0.1 x 70 - = | 0.1:tree x:tree 70:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 7 | 0.00142857142857143 | 0.1=(x*70) | 0.1 x 70 * = | 0.1:time x:tree 70:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 7 | 70.1 | (x-0.1)=70 | x 0.1 - 70 = | x:tree 0.1:tree -:tree 70:tree =:tree
+NET 36 unique, non-negative solutions found out of 136 total solutions

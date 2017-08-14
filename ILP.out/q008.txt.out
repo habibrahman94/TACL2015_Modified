@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 28.8 | 4.8 | (24.00*0.2)=x | 24.00 0.2 * x = | 24.00:dollar 0.2:bill *:bill x:bill =:bill
+EXPR: 0 | POS | INT | 10 | 28.8 | 120 | (24.00/0.2)=x | 24.00 0.2 / x = | 24.00:bill 0.2:time /:bill x:bill =:bill
+EXPR: 0 | POS | FRA | 10 | 28.8 | 4.8 | x=(24.00*0.2) | x 24.00 0.2 * = | x:dollar 24.00:dollar 0.2:time *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 28.8 | 120 | x=(24.00/0.2) | x 24.00 0.2 / = | x:bill 24.00:bill 0.2:time /:bill =:bill
+EXPR: 0 | POS | FRA | 12 | 28.8 | 0.00833333333333333 | (24.00*x)=0.2 | 24.00 x * 0.2 = | 24.00:dollar x:time *:time 0.2:time =:time
+EXPR: 0 | POS | FRA | 12 | 28.8 | 0.00833333333333333 | x=(0.2/24.00) | x 0.2 24.00 / = | x:time 0.2:time 24.00:dollar /:time =:time
+EXPR: 0 | POS | FRA | 12 | 28.8 | 0.00833333333333333 | 24.00=(0.2/x) | 24.00 0.2 x / = | 24.00:time 0.2:time x:bill /:time =:time
+EXPR: 0 | POS | INT | 12 | 28.8 | 120 | 24.00=(0.2*x) | 24.00 0.2 x * = | 24.00:bill 0.2:time x:bill *:bill =:bill
+EXPR: 0 | POS | INT | 12 | 28.8 | 120 | (24.00/x)=0.2 | 24.00 x / 0.2 = | 24.00:time x:bill /:time 0.2:time =:time
+EXPR: 0 | POS | INT | 12 | 28.8 | 120 | 24.00=(x*0.2) | 24.00 x 0.2 * = | 24.00:bill x:bill 0.2:time *:bill =:bill
+EXPR: 0 | POS | FRA | 12 | 28.8 | 4.8 | 24.00=(x/0.2) | 24.00 x 0.2 / = | 24.00:bill x:bill 0.2:time /:bill =:bill
+EXPR: 0 | POS | FRA | 12 | 28.8 | 0.00833333333333333 | (x*24.00)=0.2 | x 24.00 * 0.2 = | x:bill 24.00:time *:time 0.2:time =:time
+EXPR: 0 | POS | FRA | 12 | 28.8 | 4.8 | (x/24.00)=0.2 | x 24.00 / 0.2 = | x:bill 24.00:dollar /:bill 0.2:bill =:bill
+EXPR: 0 | POS | FRA | 12 | 28.8 | 0.00833333333333333 | (0.2/24.00)=x | 0.2 24.00 / x = | 0.2:bill 24.00:dollar /:bill x:bill =:bill
+EXPR: 0 | POS | FRA | 14 | 28.8 | 0.00833333333333333 | (0.2/x)=24.00 | 0.2 x / 24.00 = | 0.2:dollar x:bill /:dollar 24.00:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 28.8 | 120 | (0.2*x)=24.00 | 0.2 x * 24.00 = | 0.2:dollar x:bill *:dollar 24.00:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 28.8 | 4.8 | (x/0.2)=24.00 | x 0.2 / 24.00 = | x:dollar 0.2:time /:dollar 24.00:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 28.8 | 120 | (x*0.2)=24.00 | x 0.2 * 24.00 = | x:dollar 0.2:time *:dollar 24.00:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 28.8 | 0.00833333333333333 | 0.2=(24.00*x) | 0.2 24.00 x * = | 0.2:time 24.00:dollar x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 28.8 | 0.00833333333333333 | 0.2=(x*24.00) | 0.2 x 24.00 * = | 0.2:time x:bill 24.00:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 28.8 | 4.8 | 0.2=(x/24.00) | 0.2 x 24.00 / = | 0.2:bill x:bill 24.00:dollar /:bill =:bill
+EXPR: 0 | POS | INT | 14 | 28.8 | 120 | 0.2=(24.00/x) | 0.2 24.00 x / = | 0.2:dollar 24.00:dollar x:bill /:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 28.8 | 24.2 | x=(24.00+0.2) | x 24.00 0.2 + = | x:dollar 24.00:dollar 0.2:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 28.8 | 23.8 | x=(24.00-0.2) | x 24.00 0.2 - = | x:bill 24.00:bill 0.2:bill -:bill =:bill
+EXPR: 0 | POS | FRA | 20 | 28.8 | 24.2 | (24.00+0.2)=x | 24.00 0.2 + x = | 24.00:dollar 0.2:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 28.8 | 23.8 | (24.00-0.2)=x | 24.00 0.2 - x = | 24.00:bill 0.2:bill -:bill x:bill =:bill
+EXPR: 0 | POS | FRA | 22 | 28.8 | 24.2 | 24.00=(x-0.2) | 24.00 x 0.2 - = | 24.00:dollar x:dollar 0.2:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 28.8 | 23.8 | 24.00=(x+0.2) | 24.00 x 0.2 + = | 24.00:dollar x:dollar 0.2:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 28.8 | 24.2 | (x-24.00)=0.2 | x 24.00 - 0.2 = | x:time 24.00:time -:time 0.2:time =:time
+EXPR: 0 | POS | FRA | 22 | 28.8 | 23.8 | (24.00-x)=0.2 | 24.00 x - 0.2 = | 24.00:dollar x:dollar -:dollar 0.2:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 28.8 | 23.8 | 24.00=(0.2+x) | 24.00 0.2 x + = | 24.00:bill 0.2:bill x:bill +:bill =:bill
+EXPR: 0 | POS | FRA | 24 | 28.8 | 23.8 | (0.2+x)=24.00 | 0.2 x + 24.00 = | 0.2:bill x:bill +:bill 24.00:bill =:bill
+EXPR: 0 | POS | FRA | 24 | 28.8 | 24.2 | (x-0.2)=24.00 | x 0.2 - 24.00 = | x:dollar 0.2:dollar -:dollar 24.00:dollar =:dollar
+EXPR: 0 | POS | FRA | 24 | 28.8 | 23.8 | (x+0.2)=24.00 | x 0.2 + 24.00 = | x:bill 0.2:bill +:bill 24.00:bill =:bill
+EXPR: 0 | POS | FRA | 24 | 28.8 | 23.8 | 0.2=(24.00-x) | 0.2 24.00 x - = | 0.2:dollar 24.00:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 24 | 28.8 | 24.2 | 0.2=(x-24.00) | 0.2 x 24.00 - = | 0.2:dollar x:dollar 24.00:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 324 total solutions

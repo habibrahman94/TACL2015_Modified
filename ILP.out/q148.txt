@@ -1,0 +1,5 @@
+quantities : 68 0.5 x
+types : "people" "time" "manager"
+operators : + - * / =
+n : 5
+answer : 34.0

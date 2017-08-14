@@ -55,7 +55,7 @@ cd ../../../
 
 echo '################################################################################'
 echo 'for i in {0..4}; do ./runone.sh $i ; done'
-for i in {0..4}; do ./run_mod.sh $i ; done
+for i in {0..4}; do ./runone_ELM.sh $i ; done
 
 #echo '################################################################################'
 echo 'File Romoving Started...'

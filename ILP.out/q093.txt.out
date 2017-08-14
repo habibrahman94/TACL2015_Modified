@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 18 | 450 | x=(90/0.2) | x 90 0.2 / = | x:bead 90:bead 0.2:She /:bead =:bead
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (90*0.2)=x | 90 0.2 * x = | 90:bead 0.2:She *:bead x:bead =:bead
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(90*0.2) | x 90 0.2 * = | x:bead 90:bead 0.2:She *:bead =:bead
+EXPR: 0 | POS | INT | 0 | 18 | 450 | (90/0.2)=x | 90 0.2 / x = | 90:bead 0.2:She /:bead x:bead =:bead
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 90=(x/0.2) | 90 x 0.2 / = | 90:bead x:bead 0.2:She /:bead =:bead
+EXPR: 0 | POS | INT | 2 | 18 | 450 | 90=(x*0.2) | 90 x 0.2 * = | 90:bead x:bead 0.2:She *:bead =:bead
+EXPR: 0 | POS | INT | 2 | 18 | 450 | 90=(0.2*x) | 90 0.2 x * = | 90:bead 0.2:She x:bead *:bead =:bead
+EXPR: 0 | POS | INT | 4 | 18 | 450 | (0.2*x)=90 | 0.2 x * 90 = | 0.2:She x:bead *:bead 90:bead =:bead
+EXPR: 0 | POS | INT | 4 | 18 | 450 | (x*0.2)=90 | x 0.2 * 90 = | x:bead 0.2:She *:bead 90:bead =:bead
+EXPR: 1 | POS | INT | 4 | 18 | 18 | (x/0.2)=90 | x 0.2 / 90 = | x:bead 0.2:She /:bead 90:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 18 | 90.2 | (90+0.2)=x | 90 0.2 + x = | 90:bead 0.2:bead +:bead x:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 18 | 90.2 | x=(90+0.2) | x 90 0.2 + = | x:bead 90:bead 0.2:bead +:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 18 | 89.8 | (90-0.2)=x | 90 0.2 - x = | 90:bead 0.2:bead -:bead x:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 18 | 89.8 | x=(90-0.2) | x 90 0.2 - = | x:bead 90:bead 0.2:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | 90=(x+0.2) | 90 x 0.2 + = | 90:bead x:bead 0.2:bead +:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | 90=(0.2/x) | 90 0.2 x / = | 90:She 0.2:She x:bead /:She =:She
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (x*90)=0.2 | x 90 * 0.2 = | x:bead 90:She *:She 0.2:She =:She
+EXPR: 0 | POS | INT | 12 | 18 | 450 | (90/x)=0.2 | 90 x / 0.2 = | 90:She x:bead /:She 0.2:She =:She
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | x=(0.2/90) | x 0.2 90 / = | x:She 0.2:She 90:bead /:She =:She
+EXPR: 0 | POS | FRA | 12 | 18 | 90.2 | 90=(x-0.2) | 90 x 0.2 - = | 90:bead x:bead 0.2:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (0.2/90)=x | 0.2 90 / x = | 0.2:She 90:bead /:She x:She =:She
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (90*x)=0.2 | 90 x * 0.2 = | 90:She x:bead *:She 0.2:She =:She
+EXPR: 0 | POS | FRA | 12 | 18 | 90.2 | (x-90)=0.2 | x 90 - 0.2 = | x:bead 90:bead -:bead 0.2:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | (90-x)=0.2 | 90 x - 0.2 = | 90:bead x:bead -:bead 0.2:bead =:bead
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/90)=0.2 | x 90 / 0.2 = | x:She 90:bead /:She 0.2:She =:She
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | 90=(0.2+x) | 90 0.2 x + = | 90:bead 0.2:bead x:bead +:bead =:bead
+EXPR: 1 | POS | INT | 14 | 18 | 18 | 0.2=(x/90) | 0.2 x 90 / = | 0.2:She x:She 90:bead /:She =:She
+EXPR: 0 | POS | INT | 14 | 18 | 450 | 0.2=(90/x) | 0.2 90 x / = | 0.2:She 90:She x:bead /:She =:She
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | (0.2+x)=90 | 0.2 x + 90 = | 0.2:bead x:bead +:bead 90:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | (x+0.2)=90 | x 0.2 + 90 = | x:bead 0.2:bead +:bead 90:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | 0.2=(90*x) | 0.2 90 x * = | 0.2:She 90:bead x:She *:She =:She
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | (0.2/x)=90 | 0.2 x / 90 = | 0.2:She x:bead /:She 90:She =:She
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | 0.2=(90-x) | 0.2 90 x - = | 0.2:bead 90:bead x:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 18 | 90.2 | 0.2=(x-90) | 0.2 x 90 - = | 0.2:bead x:bead 90:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | 0.2=(x*90) | 0.2 x 90 * = | 0.2:She x:bead 90:She *:She =:She
+EXPR: 0 | POS | FRA | 14 | 18 | 90.2 | (x-0.2)=90 | x 0.2 - 90 = | x:bead 0.2:bead -:bead 90:bead =:bead
+NET 36 unique, non-negative solutions found out of 136 total solutions

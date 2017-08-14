@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 0.0386 | 38.601 | (0.001+38.6)=x | 0.001 38.6 + x = | 0.001:time 38.6:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 0 | 0.0386 | 38.601 | x=(0.001+38.6) | x 0.001 38.6 + = | x:time 0.001:time 38.6:time +:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.601 | (x-0.001)=38.6 | x 0.001 - 38.6 = | x:time 0.001:time -:time 38.6:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.599 | 0.001=(38.6-x) | 0.001 38.6 x - = | 0.001:time 38.6:time x:time -:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.599 | x=(38.6-0.001) | x 38.6 0.001 - = | x:time 38.6:time 0.001:time -:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.599 | (0.001+x)=38.6 | 0.001 x + 38.6 = | 0.001:time x:time +:time 38.6:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.599 | (x+0.001)=38.6 | x 0.001 + 38.6 = | x:time 0.001:time +:time 38.6:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.601 | 0.001=(x-38.6) | 0.001 x 38.6 - = | 0.001:time x:time 38.6:time -:time =:time
+EXPR: 0 | POS | FRA | 2 | 0.0386 | 38.599 | (38.6-0.001)=x | 38.6 0.001 - x = | 38.6:time 0.001:time -:time x:time =:time
+EXPR: 0 | POS | FRA | 4 | 0.0386 | 38.599 | (38.6-x)=0.001 | 38.6 x - 0.001 = | 38.6:time x:time -:time 0.001:time =:time
+EXPR: 0 | POS | FRA | 4 | 0.0386 | 38.601 | 38.6=(x-0.001) | 38.6 x 0.001 - = | 38.6:time x:time 0.001:time -:time =:time
+EXPR: 0 | POS | FRA | 4 | 0.0386 | 38.601 | (x-38.6)=0.001 | x 38.6 - 0.001 = | x:time 38.6:time -:time 0.001:time =:time
+EXPR: 0 | POS | FRA | 4 | 0.0386 | 38.599 | 38.6=(x+0.001) | 38.6 x 0.001 + = | 38.6:time x:time 0.001:time +:time =:time
+EXPR: 0 | POS | FRA | 4 | 0.0386 | 38.599 | 38.6=(0.001+x) | 38.6 0.001 x + = | 38.6:time 0.001:time x:time +:time =:time
+NET 14 unique, non-negative solutions found out of 28 total solutions

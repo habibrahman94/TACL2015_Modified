@@ -1,0 +1,23 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 42 | 47479 | x=(30050+17429) | x 30050 17429 + = | x:home 30050:home 17429:home +:home =:home
+EXPR: 0 | POS | INT | 10 | 42 | 523741450 | x=(30050*17429) | x 30050 17429 * = | x:they 30050:home 17429:they *:they =:they
+EXPR: 0 | POS | INT | 10 | 42 | 12621 | (30050-17429)=x | 30050 17429 - x = | 30050:home 17429:home -:home x:home =:home
+EXPR: 0 | POS | INT | 10 | 42 | 523741450 | (30050*17429)=x | 30050 17429 * x = | 30050:home 17429:they *:they x:they =:they
+EXPR: 0 | POS | INT | 10 | 42 | 12621 | x=(30050-17429) | x 30050 17429 - = | x:home 30050:home 17429:home -:home =:home
+EXPR: 0 | POS | INT | 10 | 42 | 47479 | (30050+17429)=x | 30050 17429 + x = | 30050:home 17429:home +:home x:home =:home
+EXPR: 0 | POS | INT | 12 | 42 | 12621 | (30050-x)=17429 | 30050 x - 17429 = | 30050:home x:home -:home 17429:home =:home
+EXPR: 0 | POS | INT | 12 | 42 | 12621 | 30050=(17429+x) | 30050 17429 x + = | 30050:home 17429:home x:home +:home =:home
+EXPR: 0 | POS | INT | 12 | 42 | 523741450 | (x/30050)=17429 | x 30050 / 17429 = | x:they 30050:home /:they 17429:they =:they
+EXPR: 0 | POS | INT | 12 | 42 | 47479 | (x-30050)=17429 | x 30050 - 17429 = | x:home 30050:home -:home 17429:home =:home
+EXPR: 0 | POS | INT | 12 | 42 | 47479 | 30050=(x-17429) | 30050 x 17429 - = | 30050:home x:home 17429:home -:home =:home
+EXPR: 0 | POS | INT | 12 | 42 | 12621 | 30050=(x+17429) | 30050 x 17429 + = | 30050:home x:home 17429:home +:home =:home
+EXPR: 0 | POS | INT | 12 | 42 | 523741450 | 30050=(x/17429) | 30050 x 17429 / = | 30050:they x:they 17429:home /:they =:they
+EXPR: 0 | POS | INT | 14 | 42 | 47479 | (x-17429)=30050 | x 17429 - 30050 = | x:home 17429:home -:home 30050:home =:home
+EXPR: 0 | POS | INT | 14 | 42 | 12621 | (x+17429)=30050 | x 17429 + 30050 = | x:home 17429:home +:home 30050:home =:home
+EXPR: 0 | POS | INT | 14 | 42 | 523741450 | (x/17429)=30050 | x 17429 / 30050 = | x:they 17429:home /:they 30050:they =:they
+EXPR: 0 | POS | INT | 14 | 42 | 12621 | 17429=(30050-x) | 17429 30050 x - = | 17429:home 30050:home x:home -:home =:home
+EXPR: 0 | POS | INT | 14 | 42 | 12621 | (17429+x)=30050 | 17429 x + 30050 = | 17429:home x:home +:home 30050:home =:home
+EXPR: 0 | POS | INT | 14 | 42 | 47479 | 17429=(x-30050) | 17429 x 30050 - = | 17429:home x:home 30050:home -:home =:home
+NET 19 unique, non-negative, integer-valued solutions found out of 136 total solutions

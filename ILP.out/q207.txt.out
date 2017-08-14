@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 8463 | 21700 | x=(6510/0.3) | x 6510 0.3 / = | x:subscriber 6510:subscriber 0.3:Times /:subscriber =:subscriber
+EXPR: 0 | POS | INT | 0 | 8463 | 1953 | (6510*0.3)=x | 6510 0.3 * x = | 6510:subscriber 0.3:Times *:subscriber x:subscriber =:subscriber
+EXPR: 0 | POS | INT | 0 | 8463 | 1953 | x=(6510*0.3) | x 6510 0.3 * = | x:subscriber 6510:subscriber 0.3:Times *:subscriber =:subscriber
+EXPR: 0 | POS | INT | 0 | 8463 | 21700 | (6510/0.3)=x | 6510 0.3 / x = | 6510:subscriber 0.3:Times /:subscriber x:subscriber =:subscriber
+EXPR: 0 | POS | INT | 2 | 8463 | 1953 | 6510=(x/0.3) | 6510 x 0.3 / = | 6510:subscriber x:subscriber 0.3:Times /:subscriber =:subscriber
+EXPR: 0 | POS | INT | 2 | 8463 | 21700 | 6510=(x*0.3) | 6510 x 0.3 * = | 6510:subscriber x:subscriber 0.3:Times *:subscriber =:subscriber
+EXPR: 0 | POS | INT | 2 | 8463 | 21700 | 6510=(0.3*x) | 6510 0.3 x * = | 6510:subscriber 0.3:Times x:subscriber *:subscriber =:subscriber
+EXPR: 0 | POS | INT | 4 | 8463 | 21700 | (0.3*x)=6510 | 0.3 x * 6510 = | 0.3:Times x:subscriber *:subscriber 6510:subscriber =:subscriber
+EXPR: 0 | POS | INT | 4 | 8463 | 21700 | (x*0.3)=6510 | x 0.3 * 6510 = | x:subscriber 0.3:Times *:subscriber 6510:subscriber =:subscriber
+EXPR: 0 | POS | INT | 4 | 8463 | 1953 | (x/0.3)=6510 | x 0.3 / 6510 = | x:subscriber 0.3:Times /:subscriber 6510:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 10 | 8463 | 6510.3 | (6510+0.3)=x | 6510 0.3 + x = | 6510:subscriber 0.3:subscriber +:subscriber x:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 10 | 8463 | 6510.3 | x=(6510+0.3) | x 6510 0.3 + = | x:subscriber 6510:subscriber 0.3:subscriber +:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 10 | 8463 | 6509.7 | (6510-0.3)=x | 6510 0.3 - x = | 6510:subscriber 0.3:subscriber -:subscriber x:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 10 | 8463 | 6509.7 | x=(6510-0.3) | x 6510 0.3 - = | x:subscriber 6510:subscriber 0.3:subscriber -:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 12 | 8463 | 6509.7 | 6510=(x+0.3) | 6510 x 0.3 + = | 6510:subscriber x:subscriber 0.3:subscriber +:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 12 | 8463 | 4.60829493087558e-5 | 6510=(0.3/x) | 6510 0.3 x / = | 6510:Times 0.3:Times x:subscriber /:Times =:Times
+EXPR: 0 | POS | FRA | 12 | 8463 | 4.60829493087558e-5 | (x*6510)=0.3 | x 6510 * 0.3 = | x:subscriber 6510:Times *:Times 0.3:Times =:Times
+EXPR: 0 | POS | INT | 12 | 8463 | 21700 | (6510/x)=0.3 | 6510 x / 0.3 = | 6510:Times x:subscriber /:Times 0.3:Times =:Times
+EXPR: 0 | POS | FRA | 12 | 8463 | 4.60829493087558e-5 | x=(0.3/6510) | x 0.3 6510 / = | x:Times 0.3:Times 6510:subscriber /:Times =:Times
+EXPR: 0 | POS | FRA | 12 | 8463 | 6510.3 | 6510=(x-0.3) | 6510 x 0.3 - = | 6510:subscriber x:subscriber 0.3:subscriber -:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 12 | 8463 | 4.60829493087558e-5 | (0.3/6510)=x | 0.3 6510 / x = | 0.3:Times 6510:subscriber /:Times x:Times =:Times
+EXPR: 0 | POS | FRA | 12 | 8463 | 4.60829493087558e-5 | (6510*x)=0.3 | 6510 x * 0.3 = | 6510:Times x:subscriber *:Times 0.3:Times =:Times
+EXPR: 0 | POS | FRA | 12 | 8463 | 6510.3 | (x-6510)=0.3 | x 6510 - 0.3 = | x:subscriber 6510:subscriber -:subscriber 0.3:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 12 | 8463 | 6509.7 | (6510-x)=0.3 | 6510 x - 0.3 = | 6510:subscriber x:subscriber -:subscriber 0.3:subscriber =:subscriber
+EXPR: 0 | POS | INT | 12 | 8463 | 1953 | (x/6510)=0.3 | x 6510 / 0.3 = | x:Times 6510:subscriber /:Times 0.3:Times =:Times
+EXPR: 0 | POS | FRA | 12 | 8463 | 6509.7 | 6510=(0.3+x) | 6510 0.3 x + = | 6510:subscriber 0.3:subscriber x:subscriber +:subscriber =:subscriber
+EXPR: 0 | POS | INT | 14 | 8463 | 1953 | 0.3=(x/6510) | 0.3 x 6510 / = | 0.3:Times x:Times 6510:subscriber /:Times =:Times
+EXPR: 0 | POS | INT | 14 | 8463 | 21700 | 0.3=(6510/x) | 0.3 6510 x / = | 0.3:Times 6510:Times x:subscriber /:Times =:Times
+EXPR: 0 | POS | FRA | 14 | 8463 | 6509.7 | (0.3+x)=6510 | 0.3 x + 6510 = | 0.3:subscriber x:subscriber +:subscriber 6510:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 14 | 8463 | 6509.7 | (x+0.3)=6510 | x 0.3 + 6510 = | x:subscriber 0.3:subscriber +:subscriber 6510:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 14 | 8463 | 4.60829493087558e-5 | 0.3=(6510*x) | 0.3 6510 x * = | 0.3:Times 6510:subscriber x:Times *:Times =:Times
+EXPR: 0 | POS | FRA | 14 | 8463 | 4.60829493087558e-5 | (0.3/x)=6510 | 0.3 x / 6510 = | 0.3:Times x:subscriber /:Times 6510:Times =:Times
+EXPR: 0 | POS | FRA | 14 | 8463 | 6509.7 | 0.3=(6510-x) | 0.3 6510 x - = | 0.3:subscriber 6510:subscriber x:subscriber -:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 14 | 8463 | 6510.3 | 0.3=(x-6510) | 0.3 x 6510 - = | 0.3:subscriber x:subscriber 6510:subscriber -:subscriber =:subscriber
+EXPR: 0 | POS | FRA | 14 | 8463 | 4.60829493087558e-5 | 0.3=(x*6510) | 0.3 x 6510 * = | 0.3:Times x:subscriber 6510:Times *:Times =:Times
+EXPR: 0 | POS | FRA | 14 | 8463 | 6510.3 | (x-0.3)=6510 | x 0.3 - 6510 = | x:subscriber 0.3:subscriber -:subscriber 6510:subscriber =:subscriber
+NET 36 unique, non-negative solutions found out of 136 total solutions

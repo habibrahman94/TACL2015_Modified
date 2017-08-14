@@ -1,0 +1,5 @@
+quantities : 0.3 100 x
+types : "time" "car" "car"
+operators : + - * / =
+n : 5
+answer : 30.0

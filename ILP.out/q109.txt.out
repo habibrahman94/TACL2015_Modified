@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 16 | 256 | x=(64/0.25) | x 64 0.25 / = | x:student 64:student 0.25:time /:student =:student
+EXPR: 1 | POS | INT | 0 | 16 | 16 | (64*0.25)=x | 64 0.25 * x = | 64:student 0.25:time *:student x:student =:student
+EXPR: 1 | POS | INT | 0 | 16 | 16 | x=(64*0.25) | x 64 0.25 * = | x:student 64:student 0.25:time *:student =:student
+EXPR: 0 | POS | INT | 0 | 16 | 256 | (64/0.25)=x | 64 0.25 / x = | 64:student 0.25:time /:student x:student =:student
+EXPR: 1 | POS | INT | 2 | 16 | 16 | 64=(x/0.25) | 64 x 0.25 / = | 64:student x:student 0.25:time /:student =:student
+EXPR: 0 | POS | INT | 2 | 16 | 256 | 64=(x*0.25) | 64 x 0.25 * = | 64:student x:student 0.25:time *:student =:student
+EXPR: 0 | POS | INT | 2 | 16 | 256 | 64=(0.25*x) | 64 0.25 x * = | 64:student 0.25:time x:student *:student =:student
+EXPR: 0 | POS | INT | 4 | 16 | 256 | (0.25*x)=64 | 0.25 x * 64 = | 0.25:time x:student *:student 64:student =:student
+EXPR: 0 | POS | INT | 4 | 16 | 256 | (x*0.25)=64 | x 0.25 * 64 = | x:student 0.25:time *:student 64:student =:student
+EXPR: 1 | POS | INT | 4 | 16 | 16 | (x/0.25)=64 | x 0.25 / 64 = | x:student 0.25:time /:student 64:student =:student
+EXPR: 0 | POS | FRA | 10 | 16 | 64.25 | (64+0.25)=x | 64 0.25 + x = | 64:student 0.25:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 16 | 64.25 | x=(64+0.25) | x 64 0.25 + = | x:student 64:student 0.25:student +:student =:student
+EXPR: 0 | POS | FRA | 10 | 16 | 63.75 | (64-0.25)=x | 64 0.25 - x = | 64:student 0.25:student -:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 16 | 63.75 | x=(64-0.25) | x 64 0.25 - = | x:student 64:student 0.25:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 63.75 | 64=(x+0.25) | 64 x 0.25 + = | 64:student x:student 0.25:student +:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 0.00390625 | 64=(0.25/x) | 64 0.25 x / = | 64:time 0.25:time x:student /:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 0.00390625 | (x*64)=0.25 | x 64 * 0.25 = | x:student 64:time *:time 0.25:time =:time
+EXPR: 0 | POS | INT | 12 | 16 | 256 | (64/x)=0.25 | 64 x / 0.25 = | 64:time x:student /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 0.00390625 | x=(0.25/64) | x 0.25 64 / = | x:time 0.25:time 64:student /:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 64.25 | 64=(x-0.25) | 64 x 0.25 - = | 64:student x:student 0.25:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 0.00390625 | (0.25/64)=x | 0.25 64 / x = | 0.25:time 64:student /:time x:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 0.00390625 | (64*x)=0.25 | 64 x * 0.25 = | 64:time x:student *:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 64.25 | (x-64)=0.25 | x 64 - 0.25 = | x:student 64:student -:student 0.25:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 63.75 | (64-x)=0.25 | 64 x - 0.25 = | 64:student x:student -:student 0.25:student =:student
+EXPR: 1 | POS | INT | 12 | 16 | 16 | (x/64)=0.25 | x 64 / 0.25 = | x:time 64:student /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 63.75 | 64=(0.25+x) | 64 0.25 x + = | 64:student 0.25:student x:student +:student =:student
+EXPR: 1 | POS | INT | 14 | 16 | 16 | 0.25=(x/64) | 0.25 x 64 / = | 0.25:time x:time 64:student /:time =:time
+EXPR: 0 | POS | INT | 14 | 16 | 256 | 0.25=(64/x) | 0.25 64 x / = | 0.25:time 64:time x:student /:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 63.75 | (0.25+x)=64 | 0.25 x + 64 = | 0.25:student x:student +:student 64:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 63.75 | (x+0.25)=64 | x 0.25 + 64 = | x:student 0.25:student +:student 64:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 0.00390625 | 0.25=(64*x) | 0.25 64 x * = | 0.25:time 64:student x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 0.00390625 | (0.25/x)=64 | 0.25 x / 64 = | 0.25:time x:student /:time 64:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 63.75 | 0.25=(64-x) | 0.25 64 x - = | 0.25:student 64:student x:student -:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 64.25 | 0.25=(x-64) | 0.25 x 64 - = | 0.25:student x:student 64:student -:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 0.00390625 | 0.25=(x*64) | 0.25 x 64 * = | 0.25:time x:student 64:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 64.25 | (x-0.25)=64 | x 0.25 - 64 = | x:student 0.25:student -:student 64:student =:student
+NET 36 unique, non-negative solutions found out of 136 total solutions

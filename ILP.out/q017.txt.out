@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 58.3333 | 7 | (7*1)=x | 7 1 * x = | 7:month 1:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 58.3333 | 7 | x=(7*1) | x 7 1 * = | x:UNKNOWN 7:UNKNOWN 1:person *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | 7=(x*1) | 7 x 1 * = | 7:month x:UNKNOWN 1:month *:month =:month
+EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | (x/7)=1 | x 7 / 1 = | x:UNKNOWN 7:month /:UNKNOWN 1:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | 7=(1*x) | 7 1 x * = | 7:month 1:month x:UNKNOWN *:month =:month
+EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | (7/x)=1 | 7 x / 1 = | 7:person x:UNKNOWN /:person 1:person =:person
+EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | 1=(7/x) | 1 7 x / = | 1:person 7:person x:UNKNOWN /:person =:person
+EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | (1*x)=7 | 1 x * 7 = | 1:person x:UNKNOWN *:person 7:person =:person
+EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | (x*1)=7 | x 1 * 7 = | x:UNKNOWN 1:person *:person 7:person =:person
+EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | 1=(x/7) | 1 x 7 / = | 1:person x:person 7:month /:person =:person
+EXPR: 0 | POS | INT | 20 | 58.3333 | 6 | (7-1)=x | 7 1 - x = | 7:month 1:month -:month x:month =:month
+EXPR: 0 | POS | INT | 20 | 58.3333 | 8 | (7+1)=x | 7 1 + x = | 7:month 1:month +:month x:month =:month
+EXPR: 0 | POS | INT | 20 | 58.3333 | 8 | x=(7+1) | x 7 1 + = | x:UNKNOWN 7:UNKNOWN 1:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 58.3333 | 6 | x=(7-1) | x 7 1 - = | x:month 7:month 1:month -:month =:month
+EXPR: 0 | POS | INT | 22 | 58.3333 | 6 | 7=(x+1) | 7 x 1 + = | 7:month x:month 1:month +:month =:month
+EXPR: 0 | POS | INT | 22 | 58.3333 | 8 | (x-7)=1 | x 7 - 1 = | x:person 7:person -:person 1:person =:person
+EXPR: 0 | POS | INT | 22 | 58.3333 | 6 | 7=(1+x) | 7 1 x + = | 7:UNKNOWN 1:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 58.3333 | 8 | 7=(x-1) | 7 x 1 - = | 7:month x:month 1:month -:month =:month
+EXPR: 0 | POS | INT | 22 | 58.3333 | 6 | (7-x)=1 | 7 x - 1 = | 7:UNKNOWN x:UNKNOWN -:UNKNOWN 1:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 58.3333 | 6 | (x+1)=7 | x 1 + 7 = | x:person 1:person +:person 7:person =:person
+EXPR: 0 | POS | INT | 24 | 58.3333 | 6 | 1=(7-x) | 1 7 x - = | 1:month 7:month x:month -:month =:month
+EXPR: 0 | POS | INT | 24 | 58.3333 | 8 | (x-1)=7 | x 1 - 7 = | x:UNKNOWN 1:UNKNOWN -:UNKNOWN 7:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 58.3333 | 8 | 1=(x-7) | 1 x 7 - = | 1:month x:month 7:month -:month =:month
+EXPR: 0 | POS | INT | 24 | 58.3333 | 6 | (1+x)=7 | 1 x + 7 = | 1:UNKNOWN x:UNKNOWN +:UNKNOWN 7:UNKNOWN =:UNKNOWN
+NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions

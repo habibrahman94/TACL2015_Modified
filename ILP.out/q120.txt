@@ -1,0 +1,5 @@
+quantities : 100 0.6 x
+types : "domino" "time" "domino"
+operators : + - * / =
+n : 5
+answer : 60.0

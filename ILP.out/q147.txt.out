@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 24 | 24 | x=(0.25*96) | x 0.25 96 * = | x:member 0.25:club 96:member *:member =:member
+EXPR: 1 | POS | INT | 0 | 24 | 24 | (0.25*96)=x | 0.25 96 * x = | 0.25:club 96:member *:member x:member =:member
+EXPR: 0 | POS | INT | 2 | 24 | 384 | (96/0.25)=x | 96 0.25 / x = | 96:member 0.25:club /:member x:member =:member
+EXPR: 0 | POS | INT | 2 | 24 | 384 | (0.25*x)=96 | 0.25 x * 96 = | 0.25:club x:member *:member 96:member =:member
+EXPR: 1 | POS | INT | 2 | 24 | 24 | (x/0.25)=96 | x 0.25 / 96 = | x:member 0.25:club /:member 96:member =:member
+EXPR: 0 | POS | INT | 2 | 24 | 384 | (x*0.25)=96 | x 0.25 * 96 = | x:member 0.25:club *:member 96:member =:member
+EXPR: 0 | POS | INT | 2 | 24 | 384 | x=(96/0.25) | x 96 0.25 / = | x:member 96:member 0.25:club /:member =:member
+EXPR: 0 | POS | INT | 4 | 24 | 384 | 96=(x*0.25) | 96 x 0.25 * = | 96:member x:member 0.25:club *:member =:member
+EXPR: 0 | POS | INT | 4 | 24 | 384 | 96=(0.25*x) | 96 0.25 x * = | 96:member 0.25:club x:member *:member =:member
+EXPR: 1 | POS | INT | 4 | 24 | 24 | 96=(x/0.25) | 96 x 0.25 / = | 96:member x:member 0.25:club /:member =:member
+EXPR: 0 | POS | FRA | 10 | 24 | 0.00260416666666667 | (0.25/96)=x | 0.25 96 / x = | 0.25:club 96:member /:club x:club =:club
+EXPR: 0 | POS | FRA | 10 | 24 | 96.25 | (0.25+96)=x | 0.25 96 + x = | 0.25:member 96:member +:member x:member =:member
+EXPR: 0 | POS | FRA | 10 | 24 | 96.25 | x=(0.25+96) | x 0.25 96 + = | x:member 0.25:member 96:member +:member =:member
+EXPR: 0 | POS | FRA | 10 | 24 | 0.00260416666666667 | x=(0.25/96) | x 0.25 96 / = | x:club 0.25:club 96:member /:club =:club
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | 0.25=(x*96) | 0.25 x 96 * = | 0.25:club x:club 96:member *:club =:club
+EXPR: 0 | POS | INT | 12 | 24 | 384 | 0.25=(96/x) | 0.25 96 x / = | 0.25:club 96:club x:member /:club =:club
+EXPR: 0 | POS | FRA | 12 | 24 | 96.25 | (x-0.25)=96 | x 0.25 - 96 = | x:member 0.25:member -:member 96:member =:member
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | (0.25/x)=96 | 0.25 x / 96 = | 0.25:club x:member /:club 96:club =:club
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (96-0.25)=x | 96 0.25 - x = | 96:member 0.25:member -:member x:member =:member
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (x+0.25)=96 | x 0.25 + 96 = | x:member 0.25:member +:member 96:member =:member
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | 0.25=(96*x) | 0.25 96 x * = | 0.25:club 96:club x:member *:club =:club
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (0.25+x)=96 | 0.25 x + 96 = | 0.25:member x:member +:member 96:member =:member
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | 0.25=(96-x) | 0.25 96 x - = | 0.25:member 96:member x:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | x=(96-0.25) | x 96 0.25 - = | x:member 96:member 0.25:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 24 | 96.25 | 0.25=(x-96) | 0.25 x 96 - = | 0.25:member x:member 96:member -:member =:member
+EXPR: 1 | POS | INT | 12 | 24 | 24 | 0.25=(x/96) | 0.25 x 96 / = | 0.25:club x:club 96:member /:club =:club
+EXPR: 0 | POS | INT | 14 | 24 | 384 | (96/x)=0.25 | 96 x / 0.25 = | 96:club x:member /:club 0.25:club =:club
+EXPR: 1 | POS | INT | 14 | 24 | 24 | (x/96)=0.25 | x 96 / 0.25 = | x:club 96:member /:club 0.25:club =:club
+EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | 96=(0.25/x) | 96 0.25 x / = | 96:club 0.25:club x:member /:club =:club
+EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | (96-x)=0.25 | 96 x - 0.25 = | 96:member x:member -:member 0.25:member =:member
+EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | (96*x)=0.25 | 96 x * 0.25 = | 96:club x:member *:club 0.25:club =:club
+EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | 96=(0.25+x) | 96 0.25 x + = | 96:member 0.25:member x:member +:member =:member
+EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | (x*96)=0.25 | x 96 * 0.25 = | x:member 96:club *:club 0.25:club =:club
+EXPR: 0 | POS | FRA | 14 | 24 | 96.25 | (x-96)=0.25 | x 96 - 0.25 = | x:member 96:member -:member 0.25:member =:member
+EXPR: 0 | POS | FRA | 14 | 24 | 96.25 | 96=(x-0.25) | 96 x 0.25 - = | 96:member x:member 0.25:member -:member =:member
+EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | 96=(x+0.25) | 96 x 0.25 + = | 96:member x:member 0.25:member +:member =:member
+NET 36 unique, non-negative solutions found out of 136 total solutions

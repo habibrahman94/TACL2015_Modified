@@ -1,0 +1,5 @@
+quantities : 84 0.25 x
+types : "special" "restaurant" "salmon"
+operators : + - * / =
+n : 5
+answer : 21.0

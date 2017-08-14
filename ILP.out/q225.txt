@@ -1,0 +1,5 @@
+quantities : 1,370 685 x
+types : "patient" "patient" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 50.0

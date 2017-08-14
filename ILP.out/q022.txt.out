@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 7.5795 | 8.76344086021505 | x=(8.15/0.93) | x 8.15 0.93 / = | x:ounce 8.15:ounce 0.93:bar /:ounce =:ounce
+EXPR: 1 | POS | FRA | 0 | 7.5795 | 7.5795 | (8.15*0.93)=x | 8.15 0.93 * x = | 8.15:ounce 0.93:bar *:ounce x:ounce =:ounce
+EXPR: 1 | POS | FRA | 0 | 7.5795 | 7.5795 | x=(8.15*0.93) | x 8.15 0.93 * = | x:ounce 8.15:ounce 0.93:bar *:ounce =:ounce
+EXPR: 0 | POS | FRA | 0 | 7.5795 | 8.76344086021505 | (8.15/0.93)=x | 8.15 0.93 / x = | 8.15:ounce 0.93:bar /:ounce x:ounce =:ounce
+EXPR: 1 | POS | FRA | 2 | 7.5795 | 7.5795 | 8.15=(x/0.93) | 8.15 x 0.93 / = | 8.15:ounce x:ounce 0.93:bar /:ounce =:ounce
+EXPR: 0 | POS | FRA | 2 | 7.5795 | 8.76344086021505 | 8.15=(x*0.93) | 8.15 x 0.93 * = | 8.15:ounce x:ounce 0.93:bar *:ounce =:ounce
+EXPR: 0 | POS | FRA | 2 | 7.5795 | 8.76344086021505 | 8.15=(0.93*x) | 8.15 0.93 x * = | 8.15:ounce 0.93:bar x:ounce *:ounce =:ounce
+EXPR: 0 | POS | FRA | 4 | 7.5795 | 8.76344086021505 | (0.93*x)=8.15 | 0.93 x * 8.15 = | 0.93:bar x:ounce *:ounce 8.15:ounce =:ounce
+EXPR: 0 | POS | FRA | 4 | 7.5795 | 8.76344086021505 | (x*0.93)=8.15 | x 0.93 * 8.15 = | x:ounce 0.93:bar *:ounce 8.15:ounce =:ounce
+EXPR: 1 | POS | FRA | 4 | 7.5795 | 7.5795 | (x/0.93)=8.15 | x 0.93 / 8.15 = | x:ounce 0.93:bar /:ounce 8.15:ounce =:ounce
+EXPR: 0 | POS | FRA | 10 | 7.5795 | 9.08 | (8.15+0.93)=x | 8.15 0.93 + x = | 8.15:ounce 0.93:ounce +:ounce x:ounce =:ounce
+EXPR: 0 | POS | FRA | 10 | 7.5795 | 9.08 | x=(8.15+0.93) | x 8.15 0.93 + = | x:ounce 8.15:ounce 0.93:ounce +:ounce =:ounce
+EXPR: 0 | POS | FRA | 10 | 7.5795 | 7.22 | (8.15-0.93)=x | 8.15 0.93 - x = | 8.15:ounce 0.93:ounce -:ounce x:ounce =:ounce
+EXPR: 0 | POS | FRA | 10 | 7.5795 | 7.22 | x=(8.15-0.93) | x 8.15 0.93 - = | x:ounce 8.15:ounce 0.93:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 7.22 | 8.15=(x+0.93) | 8.15 x 0.93 + = | 8.15:ounce x:ounce 0.93:ounce +:ounce =:ounce
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 0.114110429447853 | 8.15=(0.93/x) | 8.15 0.93 x / = | 8.15:bar 0.93:bar x:ounce /:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 0.114110429447853 | (x*8.15)=0.93 | x 8.15 * 0.93 = | x:ounce 8.15:bar *:bar 0.93:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 8.76344086021505 | (8.15/x)=0.93 | 8.15 x / 0.93 = | 8.15:bar x:ounce /:bar 0.93:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 0.114110429447853 | x=(0.93/8.15) | x 0.93 8.15 / = | x:bar 0.93:bar 8.15:ounce /:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 9.08 | 8.15=(x-0.93) | 8.15 x 0.93 - = | 8.15:ounce x:ounce 0.93:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 0.114110429447853 | (0.93/8.15)=x | 0.93 8.15 / x = | 0.93:bar 8.15:ounce /:bar x:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 0.114110429447853 | (8.15*x)=0.93 | 8.15 x * 0.93 = | 8.15:bar x:ounce *:bar 0.93:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 9.08 | (x-8.15)=0.93 | x 8.15 - 0.93 = | x:ounce 8.15:ounce -:ounce 0.93:ounce =:ounce
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 7.22 | (8.15-x)=0.93 | 8.15 x - 0.93 = | 8.15:ounce x:ounce -:ounce 0.93:ounce =:ounce
+EXPR: 1 | POS | FRA | 12 | 7.5795 | 7.5795 | (x/8.15)=0.93 | x 8.15 / 0.93 = | x:bar 8.15:ounce /:bar 0.93:bar =:bar
+EXPR: 0 | POS | FRA | 12 | 7.5795 | 7.22 | 8.15=(0.93+x) | 8.15 0.93 x + = | 8.15:ounce 0.93:ounce x:ounce +:ounce =:ounce
+EXPR: 1 | POS | FRA | 14 | 7.5795 | 7.5795 | 0.93=(x/8.15) | 0.93 x 8.15 / = | 0.93:bar x:bar 8.15:ounce /:bar =:bar
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 8.76344086021505 | 0.93=(8.15/x) | 0.93 8.15 x / = | 0.93:bar 8.15:bar x:ounce /:bar =:bar
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 7.22 | (0.93+x)=8.15 | 0.93 x + 8.15 = | 0.93:ounce x:ounce +:ounce 8.15:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 7.22 | (x+0.93)=8.15 | x 0.93 + 8.15 = | x:ounce 0.93:ounce +:ounce 8.15:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 0.114110429447853 | 0.93=(8.15*x) | 0.93 8.15 x * = | 0.93:bar 8.15:ounce x:bar *:bar =:bar
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 0.114110429447853 | (0.93/x)=8.15 | 0.93 x / 8.15 = | 0.93:bar x:ounce /:bar 8.15:bar =:bar
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 7.22 | 0.93=(8.15-x) | 0.93 8.15 x - = | 0.93:ounce 8.15:ounce x:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 9.08 | 0.93=(x-8.15) | 0.93 x 8.15 - = | 0.93:ounce x:ounce 8.15:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 0.114110429447853 | 0.93=(x*8.15) | 0.93 x 8.15 * = | 0.93:bar x:ounce 8.15:bar *:bar =:bar
+EXPR: 0 | POS | FRA | 14 | 7.5795 | 9.08 | (x-0.93)=8.15 | x 0.93 - 8.15 = | x:ounce 0.93:ounce -:ounce 8.15:ounce =:ounce
+NET 36 unique, non-negative solutions found out of 136 total solutions

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 50 | 1458 | (27*54)=x | 27 54 * x = | 27:election 54:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 50 | 1458 | x=(27*54) | x 27 54 * = | x:election 27:election 54:member *:election =:election
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (27*x)=54 | 27 x * 54 = | 27:election x:member *:member 54:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 2 | x=(54/27) | x 54 27 / = | x:member 54:member 27:election /:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 2 | 27=(54/x) | 27 54 x / = | 27:member 54:member x:UNKNOWN /:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 1458 | 27=(x/54) | 27 x 54 / = | 27:UNKNOWN x:UNKNOWN 54:member /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (x*27)=54 | x 27 * 54 = | x:UNKNOWN 27:member *:member 54:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 1458 | (x/27)=54 | x 27 / 54 = | x:UNKNOWN 27:election /:UNKNOWN 54:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (54/27)=x | 54 27 / x = | 54:UNKNOWN 27:election /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 50 | 2 | (54/x)=27 | 54 x / 27 = | 54:election x:UNKNOWN /:election 27:election =:election
+EXPR: 0 | POS | INT | 14 | 50 | 1458 | (x/54)=27 | x 54 / 27 = | x:election 54:member /:election 27:election =:election
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 54=(27*x) | 54 27 x * = | 54:member 27:election x:member *:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 54=(x*27) | 54 x 27 * = | 54:member x:UNKNOWN 27:member *:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 1458 | 54=(x/27) | 54 x 27 / = | 54:UNKNOWN x:UNKNOWN 27:election /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 50 | 81 | x=(27+54) | x 27 54 + = | x:election 27:election 54:election +:election =:election
+EXPR: 0 | POS | INT | 20 | 50 | 81 | (27+54)=x | 27 54 + x = | 27:election 54:election +:election x:election =:election
+EXPR: 0 | POS | INT | 22 | 50 | 81 | 27=(x-54) | 27 x 54 - = | 27:election x:election 54:election -:election =:election
+EXPR: 0 | POS | INT | 22 | 50 | 27 | 27=(54-x) | 27 54 x - = | 27:member 54:member x:member -:member =:member
+EXPR: 0 | POS | INT | 22 | 50 | 27 | x=(54-27) | x 54 27 - = | x:member 54:member 27:member -:member =:member
+EXPR: 0 | POS | INT | 22 | 50 | 27 | (x+27)=54 | x 27 + 54 = | x:member 27:member +:member 54:member =:member
+EXPR: 0 | POS | INT | 22 | 50 | 81 | (x-27)=54 | x 27 - 54 = | x:member 27:member -:member 54:member =:member
+EXPR: 0 | POS | INT | 22 | 50 | 27 | (27+x)=54 | 27 x + 54 = | 27:election x:election +:election 54:election =:election
+EXPR: 0 | POS | INT | 22 | 50 | 27 | (54-27)=x | 54 27 - x = | 54:UNKNOWN 27:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 50 | 27 | 54=(x+27) | 54 x 27 + = | 54:election x:election 27:election +:election =:election
+EXPR: 0 | POS | INT | 24 | 50 | 27 | (54-x)=27 | 54 x - 27 = | 54:election x:election -:election 27:election =:election
+EXPR: 0 | POS | INT | 24 | 50 | 81 | (x-54)=27 | x 54 - 27 = | x:election 54:election -:election 27:election =:election
+EXPR: 0 | POS | INT | 24 | 50 | 81 | 54=(x-27) | 54 x 27 - = | 54:election x:election 27:election -:election =:election
+EXPR: 0 | POS | INT | 24 | 50 | 27 | 54=(27+x) | 54 27 x + = | 54:UNKNOWN 27:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

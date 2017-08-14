@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 20 | 4 | 5=(20/x) | 5 20 x / = | 5:student 20:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | INT | 2 | 20 | 4 | (x*5)=20 | x 5 * 20 = | x:UNKNOWN 5:student *:student 20:student =:student
+EXPR: 0 | POS | INT | 2 | 20 | 4 | (5*x)=20 | 5 x * 20 = | 5:student x:UNKNOWN *:student 20:student =:student
+EXPR: 0 | POS | INT | 4 | 20 | 4 | 20=(x*5) | 20 x 5 * = | 20:student x:UNKNOWN 5:student *:student =:student
+EXPR: 0 | POS | INT | 4 | 20 | 4 | (20/x)=5 | 20 x / 5 = | 20:student x:UNKNOWN /:student 5:student =:student
+EXPR: 0 | POS | INT | 4 | 20 | 4 | 20=(5*x) | 20 5 x * = | 20:student 5:student x:UNKNOWN *:student =:student
+EXPR: 0 | POS | INT | 10 | 20 | 25 | x=(5+20) | x 5 20 + = | x:student 5:student 20:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 20 | 100 | x=(5*20) | x 5 20 * = | x:UNKNOWN 5:student 20:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 100 | (5*20)=x | 5 20 * x = | 5:student 20:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 25 | (5+20)=x | 5 20 + x = | 5:student 20:student +:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 15 | 5=(20-x) | 5 20 x - = | 5:student 20:student x:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 4 | x=(20/5) | x 20 5 / = | x:UNKNOWN 20:UNKNOWN 5:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 100 | (x/5)=20 | x 5 / 20 = | x:UNKNOWN 5:student /:UNKNOWN 20:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 25 | (x-5)=20 | x 5 - 20 = | x:student 5:student -:student 20:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 25 | 5=(x-20) | 5 x 20 - = | 5:student x:student 20:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 15 | (20-5)=x | 20 5 - x = | 20:student 5:student -:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 15 | x=(20-5) | x 20 5 - = | x:student 20:student 5:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 15 | (x+5)=20 | x 5 + 20 = | x:student 5:student +:student 20:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 100 | 5=(x/20) | 5 x 20 / = | 5:UNKNOWN x:UNKNOWN 20:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 15 | (5+x)=20 | 5 x + 20 = | 5:student x:student +:student 20:student =:student
+EXPR: 0 | POS | INT | 12 | 20 | 4 | (20/5)=x | 20 5 / x = | 20:UNKNOWN 5:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 15 | (20-x)=5 | 20 x - 5 = | 20:student x:student -:student 5:student =:student
+EXPR: 0 | POS | INT | 14 | 20 | 25 | (x-20)=5 | x 20 - 5 = | x:student 20:student -:student 5:student =:student
+EXPR: 0 | POS | INT | 14 | 20 | 100 | 20=(x/5) | 20 x 5 / = | 20:UNKNOWN x:UNKNOWN 5:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 100 | (x/20)=5 | x 20 / 5 = | x:UNKNOWN 20:student /:UNKNOWN 5:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 15 | 20=(5+x) | 20 5 x + = | 20:student 5:student x:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 20 | 25 | 20=(x-5) | 20 x 5 - = | 20:student x:student 5:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 20 | 15 | 20=(x+5) | 20 x 5 + = | 20:student x:student 5:student +:student =:student
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

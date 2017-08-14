@@ -1,0 +1,5 @@
+quantities : 0.3 60 x
+types : "time" "mug" "coffee"
+operators : + - * / =
+n : 5
+answer : 18.0

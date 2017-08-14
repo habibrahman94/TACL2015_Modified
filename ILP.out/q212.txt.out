@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 57249 | 133581 | (190830*0.7)=x | 190830 0.7 * x = | 190830:ounce 0.7:cream *:cream x:cream =:cream
+EXPR: 0 | POS | FRA | 10 | 57249 | 272614.285714286 | (190830/0.7)=x | 190830 0.7 / x = | 190830:cream 0.7:restaurant /:cream x:cream =:cream
+EXPR: 0 | POS | INT | 10 | 57249 | 133581 | x=(190830*0.7) | x 190830 0.7 * = | x:ounce 190830:ounce 0.7:restaurant *:ounce =:ounce
+EXPR: 0 | POS | FRA | 10 | 57249 | 272614.285714286 | x=(190830/0.7) | x 190830 0.7 / = | x:cream 190830:cream 0.7:restaurant /:cream =:cream
+EXPR: 0 | POS | FRA | 12 | 57249 | 3.66818634386627e-6 | (190830*x)=0.7 | 190830 x * 0.7 = | 190830:ounce x:restaurant *:restaurant 0.7:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 57249 | 3.66818634386627e-6 | x=(0.7/190830) | x 0.7 190830 / = | x:restaurant 0.7:restaurant 190830:ounce /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 57249 | 3.66818634386627e-6 | 190830=(0.7/x) | 190830 0.7 x / = | 190830:restaurant 0.7:restaurant x:cream /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 57249 | 272614.285714286 | 190830=(0.7*x) | 190830 0.7 x * = | 190830:cream 0.7:restaurant x:cream *:cream =:cream
+EXPR: 0 | POS | FRA | 12 | 57249 | 272614.285714286 | (190830/x)=0.7 | 190830 x / 0.7 = | 190830:restaurant x:cream /:restaurant 0.7:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 57249 | 272614.285714286 | 190830=(x*0.7) | 190830 x 0.7 * = | 190830:cream x:cream 0.7:restaurant *:cream =:cream
+EXPR: 0 | POS | INT | 12 | 57249 | 133581 | 190830=(x/0.7) | 190830 x 0.7 / = | 190830:cream x:cream 0.7:restaurant /:cream =:cream
+EXPR: 0 | POS | FRA | 12 | 57249 | 3.66818634386627e-6 | (x*190830)=0.7 | x 190830 * 0.7 = | x:cream 190830:restaurant *:restaurant 0.7:restaurant =:restaurant
+EXPR: 0 | POS | INT | 12 | 57249 | 133581 | (x/190830)=0.7 | x 190830 / 0.7 = | x:cream 190830:ounce /:cream 0.7:cream =:cream
+EXPR: 0 | POS | FRA | 12 | 57249 | 3.66818634386627e-6 | (0.7/190830)=x | 0.7 190830 / x = | 0.7:cream 190830:ounce /:cream x:cream =:cream
+EXPR: 0 | POS | FRA | 14 | 57249 | 3.66818634386627e-6 | (0.7/x)=190830 | 0.7 x / 190830 = | 0.7:ounce x:cream /:ounce 190830:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 57249 | 272614.285714286 | (0.7*x)=190830 | 0.7 x * 190830 = | 0.7:ounce x:cream *:ounce 190830:ounce =:ounce
+EXPR: 0 | POS | INT | 14 | 57249 | 133581 | (x/0.7)=190830 | x 0.7 / 190830 = | x:ounce 0.7:restaurant /:ounce 190830:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 57249 | 272614.285714286 | (x*0.7)=190830 | x 0.7 * 190830 = | x:ounce 0.7:restaurant *:ounce 190830:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 57249 | 3.66818634386627e-6 | 0.7=(190830*x) | 0.7 190830 x * = | 0.7:restaurant 190830:ounce x:restaurant *:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 57249 | 3.66818634386627e-6 | 0.7=(x*190830) | 0.7 x 190830 * = | 0.7:restaurant x:cream 190830:restaurant *:restaurant =:restaurant
+EXPR: 0 | POS | INT | 14 | 57249 | 133581 | 0.7=(x/190830) | 0.7 x 190830 / = | 0.7:cream x:cream 190830:ounce /:cream =:cream
+EXPR: 0 | POS | FRA | 14 | 57249 | 272614.285714286 | 0.7=(190830/x) | 0.7 190830 x / = | 0.7:ounce 190830:ounce x:cream /:ounce =:ounce
+EXPR: 0 | POS | FRA | 20 | 57249 | 190830.7 | x=(190830+0.7) | x 190830 0.7 + = | x:ounce 190830:ounce 0.7:ounce +:ounce =:ounce
+EXPR: 0 | POS | FRA | 20 | 57249 | 190829.3 | x=(190830-0.7) | x 190830 0.7 - = | x:cream 190830:cream 0.7:cream -:cream =:cream
+EXPR: 0 | POS | FRA | 20 | 57249 | 190830.7 | (190830+0.7)=x | 190830 0.7 + x = | 190830:ounce 0.7:ounce +:ounce x:ounce =:ounce
+EXPR: 0 | POS | FRA | 20 | 57249 | 190829.3 | (190830-0.7)=x | 190830 0.7 - x = | 190830:cream 0.7:cream -:cream x:cream =:cream
+EXPR: 0 | POS | FRA | 22 | 57249 | 190830.7 | 190830=(x-0.7) | 190830 x 0.7 - = | 190830:ounce x:ounce 0.7:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 22 | 57249 | 190829.3 | 190830=(x+0.7) | 190830 x 0.7 + = | 190830:ounce x:ounce 0.7:ounce +:ounce =:ounce
+EXPR: 0 | POS | FRA | 22 | 57249 | 190830.7 | (x-190830)=0.7 | x 190830 - 0.7 = | x:restaurant 190830:restaurant -:restaurant 0.7:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 22 | 57249 | 190829.3 | (190830-x)=0.7 | 190830 x - 0.7 = | 190830:ounce x:ounce -:ounce 0.7:ounce =:ounce
+EXPR: 0 | POS | FRA | 22 | 57249 | 190829.3 | 190830=(0.7+x) | 190830 0.7 x + = | 190830:cream 0.7:cream x:cream +:cream =:cream
+EXPR: 0 | POS | FRA | 24 | 57249 | 190829.3 | (0.7+x)=190830 | 0.7 x + 190830 = | 0.7:cream x:cream +:cream 190830:cream =:cream
+EXPR: 0 | POS | FRA | 24 | 57249 | 190830.7 | (x-0.7)=190830 | x 0.7 - 190830 = | x:ounce 0.7:ounce -:ounce 190830:ounce =:ounce
+EXPR: 0 | POS | FRA | 24 | 57249 | 190829.3 | (x+0.7)=190830 | x 0.7 + 190830 = | x:cream 0.7:cream +:cream 190830:cream =:cream
+EXPR: 0 | POS | FRA | 24 | 57249 | 190829.3 | 0.7=(190830-x) | 0.7 190830 x - = | 0.7:ounce 190830:ounce x:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 24 | 57249 | 190830.7 | 0.7=(x-190830) | 0.7 x 190830 - = | 0.7:ounce x:ounce 190830:ounce -:ounce =:ounce
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,0 +1,5 @@
+quantities : 0.01 x 65.2
+types : "time" "time" "time"
+operators : + - * / =
+n : 5
+answer : 0.652

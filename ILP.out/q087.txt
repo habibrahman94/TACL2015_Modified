@@ -1,0 +1,5 @@
+quantities : 32 0.25 x
+types : "problem" "Christina" "problem"
+operators : + - * / =
+n : 5
+answer : 8.0

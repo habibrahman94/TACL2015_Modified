@@ -1,0 +1,5 @@
+quantities : 16 x 40
+types : "student" "UNKNOWN" "student"
+operators : + - * / =
+n : 5
+answer : 40.0

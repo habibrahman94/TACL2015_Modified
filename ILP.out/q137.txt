@@ -1,0 +1,5 @@
+quantities : 52 0.75 x
+types : "problem" "Andy" "problem"
+operators : + - * / =
+n : 5
+answer : 39.0

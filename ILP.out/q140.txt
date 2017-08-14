@@ -1,0 +1,5 @@
+quantities : 40 0.1 x
+types : "question" "Lia" "question"
+operators : + - * / =
+n : 5
+answer : 4.0

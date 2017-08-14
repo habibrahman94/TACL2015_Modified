@@ -1,0 +1,5 @@
+quantities : 60 0.6 x
+types : "member" "council" "member"
+operators : + - * / =
+n : 5
+answer : 36.0

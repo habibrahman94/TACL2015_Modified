@@ -6,11 +6,11 @@ import jsonrpclib
 import makesets 
 import pickle
 from random import randint
-from train_local import get_k_eqs
-from train_local import read_parse
-from train_local import read_sets
-sys.path.insert(0, 'libsvm/python')
-from svmutil import *
+from train_local_elm import get_k_eqs
+from train_local_elm import read_parse
+from train_local_elm import read_sets
+#sys.path.insert(0, 'libsvm/python')
+#from svmutil import *
 from random import sample
 import elm
 import numpy as np
@@ -18,7 +18,7 @@ multi=None
 elmk = None
 tr_result = None
 data = None
-def compute(p,op,e,target,problem,story,order):
+def compute(p,op,e,target,problem,story,order): # Returns the val of probability for the operator 'op'
     vec = makesets.vector(p,e,problem,story,target)
     
     file_to_work = open('data/tm.data', 'w')
@@ -41,7 +41,7 @@ def compute(p,op,e,target,problem,story,order):
     #print te_result.predicted_targets
     op_val=[]
     c = makesets.combine(p[1],e[1],op)
-    return (round(val),c,op_val)
+    return (val,c,op_val)
 
 
 class StanfordNLP:
@@ -62,7 +62,7 @@ def kill(signum, frame):
 
 def training(a,b,problem,story,target,j,order,score,constraints):
     #this function take the trips and creates positive and negative training instances from them
-     
+    
     if j == 0:
         j=-1
     vec = [j,order,score,constraints]
@@ -73,24 +73,24 @@ def training(a,b,problem,story,target,j,order,score,constraints):
 
 def make_eq(q,a,equations):
     tdata = []
-    wps = q #open(q).readlines()
-    answs = a #open(a).readlines()
+    wps = q #open(q).readlines() #List of the Problem Text
+    answs = a #open(a).readlines() # List of the Answers of the problem
 
     for k in range(len(wps)):
         print(k,equations[k])
-        answers = get_k_eqs(equations[k],g=True)
+        answers = get_k_eqs(equations[k],g=True) # Positive / Negative, Expr, and OBJ_SCORE
         #simpleanswers = [x for x in answers if x[1].split(" ")[-2] == '=']
         #if simpleanswers:
         #    answers = simpleanswers
-        good = list(set([x for x in answers if x[0]==1]))
-        bad = list(set([x for x in answers if x[0]==0]))[:len(good)]
+        good = list(set([x for x in answers if x[0]==1])) # Positive Expresions
+        bad = list(set([x for x in answers if x[0]==0]))[:len(good)] # Negative Expresions
         '''
         if len(bad)>len(good):
             bad = sample(bad,len(good))
         '''
         answers = good+bad
         if answers == []: continue
-        answers = list(set(answers))
+        answers = list(set(answers)) # Gets the distincts
 
 
         #First preprocessing, tokenize slightly
@@ -119,10 +119,10 @@ def make_eq(q,a,equations):
         xidx = xidx[0]
 
 
-        numlist = [(cleannum(v.num),v) for k,v in sets]
+        numlist = [(cleannum(v.num),v) for k,v in sets] #takes original Number or variables
         numlist = [x for x in numlist if x[0]!='']
-        allnumbs = {str(k):v for k,v in numlist}
-        objs = {k:(0,v) for k,v in numlist}
+        allnumbs = {str(i):v for i,v in numlist}
+        objs = {i:(0,v) for i,v in numlist}
         #print(numlist)
         consts = [x for x in answers[0][1].split(" ") if x not in ['(',')','+','-','/','*','=',]]
         #print(consts)
@@ -132,13 +132,13 @@ def make_eq(q,a,equations):
         scores = []
         #print(answers)
 
-        for j,eq,cons in answers:
+        for j,eq,cons in answers: #j is Good or Bad , Eq is the Expr ...
             consts = [x for x in eq.split(" ") if x not in ['(',')','+','-','/','*','=',]]
             order = int(consts==[x[0] for x in numlist])
             #if order == 0:continue
             trips = []
             print(j,eq)
-            l,r = [x.strip().split(' ') for x in eq.split('=')]
+            l,r = [x.strip().split(' ') for x in eq.split('=')] #Divides the Expersion by left and Right
             consts = " ".join([x for x in answers[0][1].split(" ") if x not in ['(',')','+','-','/','*',]])
             consts = consts.split(" = ")
             
@@ -189,9 +189,9 @@ def make_eq(q,a,equations):
 
 
 def parse_inp(inp):
-    q=[]
-    a=[]
-    e=[]
+    q=[] # List of The problem Texts
+    a=[] # List of the Answers of the Problems
+    e=[] # List of the Problem Numbers Actually, But used for equations
     with open(inp) as f:
         f = f.readlines()
         i=0
@@ -214,7 +214,7 @@ if __name__=="__main__":
     tr_result = elmk.train(data)
     #te_result = elmk.test(data)
     #print te_result.predicted_targets
-    inp = sys.argv[1]
+    inp = sys.argv[1] #train'$1'
     
     #multi = svm_load_model(sys.argv[2])
     makesets.FOLD = sys.argv[1][-1]

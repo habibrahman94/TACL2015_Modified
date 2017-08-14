@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 17 | 17 | (85*0.2)=x | 85 0.2 * x = | 85:brownie 0.2:caramel *:caramel x:caramel =:caramel
+EXPR: 0 | POS | INT | 10 | 17 | 425 | (85/0.2)=x | 85 0.2 / x = | 85:caramel 0.2:tray /:caramel x:caramel =:caramel
+EXPR: 1 | POS | INT | 10 | 17 | 17 | x=(85*0.2) | x 85 0.2 * = | x:brownie 85:brownie 0.2:tray *:brownie =:brownie
+EXPR: 0 | POS | INT | 10 | 17 | 425 | x=(85/0.2) | x 85 0.2 / = | x:caramel 85:caramel 0.2:tray /:caramel =:caramel
+EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | (85*x)=0.2 | 85 x * 0.2 = | 85:brownie x:tray *:tray 0.2:tray =:tray
+EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | x=(0.2/85) | x 0.2 85 / = | x:tray 0.2:tray 85:brownie /:tray =:tray
+EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | 85=(0.2/x) | 85 0.2 x / = | 85:tray 0.2:tray x:caramel /:tray =:tray
+EXPR: 0 | POS | INT | 12 | 17 | 425 | 85=(0.2*x) | 85 0.2 x * = | 85:caramel 0.2:tray x:caramel *:caramel =:caramel
+EXPR: 0 | POS | INT | 12 | 17 | 425 | (85/x)=0.2 | 85 x / 0.2 = | 85:tray x:caramel /:tray 0.2:tray =:tray
+EXPR: 0 | POS | INT | 12 | 17 | 425 | 85=(x*0.2) | 85 x 0.2 * = | 85:caramel x:caramel 0.2:tray *:caramel =:caramel
+EXPR: 1 | POS | INT | 12 | 17 | 17 | 85=(x/0.2) | 85 x 0.2 / = | 85:caramel x:caramel 0.2:tray /:caramel =:caramel
+EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | (x*85)=0.2 | x 85 * 0.2 = | x:caramel 85:tray *:tray 0.2:tray =:tray
+EXPR: 1 | POS | INT | 12 | 17 | 17 | (x/85)=0.2 | x 85 / 0.2 = | x:caramel 85:brownie /:caramel 0.2:caramel =:caramel
+EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | (0.2/85)=x | 0.2 85 / x = | 0.2:caramel 85:brownie /:caramel x:caramel =:caramel
+EXPR: 0 | POS | FRA | 14 | 17 | 0.00235294117647059 | (0.2/x)=85 | 0.2 x / 85 = | 0.2:brownie x:caramel /:brownie 85:brownie =:brownie
+EXPR: 0 | POS | INT | 14 | 17 | 425 | (0.2*x)=85 | 0.2 x * 85 = | 0.2:brownie x:caramel *:brownie 85:brownie =:brownie
+EXPR: 1 | POS | INT | 14 | 17 | 17 | (x/0.2)=85 | x 0.2 / 85 = | x:brownie 0.2:tray /:brownie 85:brownie =:brownie
+EXPR: 0 | POS | INT | 14 | 17 | 425 | (x*0.2)=85 | x 0.2 * 85 = | x:brownie 0.2:tray *:brownie 85:brownie =:brownie
+EXPR: 0 | POS | FRA | 14 | 17 | 0.00235294117647059 | 0.2=(85*x) | 0.2 85 x * = | 0.2:tray 85:brownie x:tray *:tray =:tray
+EXPR: 0 | POS | FRA | 14 | 17 | 0.00235294117647059 | 0.2=(x*85) | 0.2 x 85 * = | 0.2:tray x:caramel 85:tray *:tray =:tray
+EXPR: 1 | POS | INT | 14 | 17 | 17 | 0.2=(x/85) | 0.2 x 85 / = | 0.2:caramel x:caramel 85:brownie /:caramel =:caramel
+EXPR: 0 | POS | INT | 14 | 17 | 425 | 0.2=(85/x) | 0.2 85 x / = | 0.2:brownie 85:brownie x:caramel /:brownie =:brownie
+EXPR: 0 | POS | FRA | 20 | 17 | 85.2 | x=(85+0.2) | x 85 0.2 + = | x:brownie 85:brownie 0.2:brownie +:brownie =:brownie
+EXPR: 0 | POS | FRA | 20 | 17 | 84.8 | x=(85-0.2) | x 85 0.2 - = | x:caramel 85:caramel 0.2:caramel -:caramel =:caramel
+EXPR: 0 | POS | FRA | 20 | 17 | 85.2 | (85+0.2)=x | 85 0.2 + x = | 85:brownie 0.2:brownie +:brownie x:brownie =:brownie
+EXPR: 0 | POS | FRA | 20 | 17 | 84.8 | (85-0.2)=x | 85 0.2 - x = | 85:caramel 0.2:caramel -:caramel x:caramel =:caramel
+EXPR: 0 | POS | FRA | 22 | 17 | 85.2 | 85=(x-0.2) | 85 x 0.2 - = | 85:brownie x:brownie 0.2:brownie -:brownie =:brownie
+EXPR: 0 | POS | FRA | 22 | 17 | 84.8 | 85=(x+0.2) | 85 x 0.2 + = | 85:brownie x:brownie 0.2:brownie +:brownie =:brownie
+EXPR: 0 | POS | FRA | 22 | 17 | 85.2 | (x-85)=0.2 | x 85 - 0.2 = | x:tray 85:tray -:tray 0.2:tray =:tray
+EXPR: 0 | POS | FRA | 22 | 17 | 84.8 | (85-x)=0.2 | 85 x - 0.2 = | 85:brownie x:brownie -:brownie 0.2:brownie =:brownie
+EXPR: 0 | POS | FRA | 22 | 17 | 84.8 | 85=(0.2+x) | 85 0.2 x + = | 85:caramel 0.2:caramel x:caramel +:caramel =:caramel
+EXPR: 0 | POS | FRA | 24 | 17 | 84.8 | (0.2+x)=85 | 0.2 x + 85 = | 0.2:caramel x:caramel +:caramel 85:caramel =:caramel
+EXPR: 0 | POS | FRA | 24 | 17 | 85.2 | (x-0.2)=85 | x 0.2 - 85 = | x:brownie 0.2:brownie -:brownie 85:brownie =:brownie
+EXPR: 0 | POS | FRA | 24 | 17 | 84.8 | (x+0.2)=85 | x 0.2 + 85 = | x:caramel 0.2:caramel +:caramel 85:caramel =:caramel
+EXPR: 0 | POS | FRA | 24 | 17 | 84.8 | 0.2=(85-x) | 0.2 85 x - = | 0.2:brownie 85:brownie x:brownie -:brownie =:brownie
+EXPR: 0 | POS | FRA | 24 | 17 | 85.2 | 0.2=(x-85) | 0.2 x 85 - = | 0.2:brownie x:brownie 85:brownie -:brownie =:brownie
+NET 36 unique, non-negative solutions found out of 324 total solutions

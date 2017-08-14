@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 25 | 100 | x=(50/0.5) | x 50 0.5 / = | x:book 50:book 0.5:Alice /:book =:book
+EXPR: 1 | POS | INT | 0 | 25 | 25 | (50*0.5)=x | 50 0.5 * x = | 50:book 0.5:Alice *:book x:book =:book
+EXPR: 1 | POS | INT | 0 | 25 | 25 | x=(50*0.5) | x 50 0.5 * = | x:book 50:book 0.5:Alice *:book =:book
+EXPR: 0 | POS | INT | 0 | 25 | 100 | (50/0.5)=x | 50 0.5 / x = | 50:book 0.5:Alice /:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 25 | 25 | 50=(x/0.5) | 50 x 0.5 / = | 50:book x:book 0.5:Alice /:book =:book
+EXPR: 0 | POS | INT | 2 | 25 | 100 | 50=(x*0.5) | 50 x 0.5 * = | 50:book x:book 0.5:Alice *:book =:book
+EXPR: 0 | POS | INT | 2 | 25 | 100 | 50=(0.5*x) | 50 0.5 x * = | 50:book 0.5:Alice x:book *:book =:book
+EXPR: 0 | POS | INT | 4 | 25 | 100 | (0.5*x)=50 | 0.5 x * 50 = | 0.5:Alice x:book *:book 50:book =:book
+EXPR: 0 | POS | INT | 4 | 25 | 100 | (x*0.5)=50 | x 0.5 * 50 = | x:book 0.5:Alice *:book 50:book =:book
+EXPR: 1 | POS | INT | 4 | 25 | 25 | (x/0.5)=50 | x 0.5 / 50 = | x:book 0.5:Alice /:book 50:book =:book
+EXPR: 0 | POS | FRA | 10 | 25 | 50.5 | (50+0.5)=x | 50 0.5 + x = | 50:book 0.5:book +:book x:book =:book
+EXPR: 0 | POS | FRA | 10 | 25 | 50.5 | x=(50+0.5) | x 50 0.5 + = | x:book 50:book 0.5:book +:book =:book
+EXPR: 0 | POS | FRA | 10 | 25 | 49.5 | (50-0.5)=x | 50 0.5 - x = | 50:book 0.5:book -:book x:book =:book
+EXPR: 0 | POS | FRA | 10 | 25 | 49.5 | x=(50-0.5) | x 50 0.5 - = | x:book 50:book 0.5:book -:book =:book
+EXPR: 0 | POS | FRA | 12 | 25 | 49.5 | 50=(x+0.5) | 50 x 0.5 + = | 50:book x:book 0.5:book +:book =:book
+EXPR: 0 | POS | FRA | 12 | 25 | 0.01 | 50=(0.5/x) | 50 0.5 x / = | 50:Alice 0.5:Alice x:book /:Alice =:Alice
+EXPR: 0 | POS | FRA | 12 | 25 | 0.01 | (x*50)=0.5 | x 50 * 0.5 = | x:book 50:Alice *:Alice 0.5:Alice =:Alice
+EXPR: 0 | POS | INT | 12 | 25 | 100 | (50/x)=0.5 | 50 x / 0.5 = | 50:Alice x:book /:Alice 0.5:Alice =:Alice
+EXPR: 0 | POS | FRA | 12 | 25 | 0.01 | x=(0.5/50) | x 0.5 50 / = | x:Alice 0.5:Alice 50:book /:Alice =:Alice
+EXPR: 0 | POS | FRA | 12 | 25 | 50.5 | 50=(x-0.5) | 50 x 0.5 - = | 50:book x:book 0.5:book -:book =:book
+EXPR: 0 | POS | FRA | 12 | 25 | 0.01 | (0.5/50)=x | 0.5 50 / x = | 0.5:Alice 50:book /:Alice x:Alice =:Alice
+EXPR: 0 | POS | FRA | 12 | 25 | 0.01 | (50*x)=0.5 | 50 x * 0.5 = | 50:Alice x:book *:Alice 0.5:Alice =:Alice
+EXPR: 0 | POS | FRA | 12 | 25 | 50.5 | (x-50)=0.5 | x 50 - 0.5 = | x:book 50:book -:book 0.5:book =:book
+EXPR: 0 | POS | FRA | 12 | 25 | 49.5 | (50-x)=0.5 | 50 x - 0.5 = | 50:book x:book -:book 0.5:book =:book
+EXPR: 1 | POS | INT | 12 | 25 | 25 | (x/50)=0.5 | x 50 / 0.5 = | x:Alice 50:book /:Alice 0.5:Alice =:Alice
+EXPR: 0 | POS | FRA | 12 | 25 | 49.5 | 50=(0.5+x) | 50 0.5 x + = | 50:book 0.5:book x:book +:book =:book
+EXPR: 1 | POS | INT | 14 | 25 | 25 | 0.5=(x/50) | 0.5 x 50 / = | 0.5:Alice x:Alice 50:book /:Alice =:Alice
+EXPR: 0 | POS | INT | 14 | 25 | 100 | 0.5=(50/x) | 0.5 50 x / = | 0.5:Alice 50:Alice x:book /:Alice =:Alice
+EXPR: 0 | POS | FRA | 14 | 25 | 49.5 | (0.5+x)=50 | 0.5 x + 50 = | 0.5:book x:book +:book 50:book =:book
+EXPR: 0 | POS | FRA | 14 | 25 | 49.5 | (x+0.5)=50 | x 0.5 + 50 = | x:book 0.5:book +:book 50:book =:book
+EXPR: 0 | POS | FRA | 14 | 25 | 0.01 | 0.5=(50*x) | 0.5 50 x * = | 0.5:Alice 50:book x:Alice *:Alice =:Alice
+EXPR: 0 | POS | FRA | 14 | 25 | 0.01 | (0.5/x)=50 | 0.5 x / 50 = | 0.5:Alice x:book /:Alice 50:Alice =:Alice
+EXPR: 0 | POS | FRA | 14 | 25 | 49.5 | 0.5=(50-x) | 0.5 50 x - = | 0.5:book 50:book x:book -:book =:book
+EXPR: 0 | POS | FRA | 14 | 25 | 50.5 | 0.5=(x-50) | 0.5 x 50 - = | 0.5:book x:book 50:book -:book =:book
+EXPR: 0 | POS | FRA | 14 | 25 | 0.01 | 0.5=(x*50) | 0.5 x 50 * = | 0.5:Alice x:book 50:Alice *:Alice =:Alice
+EXPR: 0 | POS | FRA | 14 | 25 | 50.5 | (x-0.5)=50 | x 0.5 - 50 = | x:book 0.5:book -:book 50:book =:book
+NET 36 unique, non-negative solutions found out of 136 total solutions

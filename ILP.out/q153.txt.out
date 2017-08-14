@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 60 | 40 | x=(25+15) | x 25 15 + = | x:pin 25:pin 15:pin +:pin =:pin
+EXPR: 0 | POS | INT | 10 | 60 | 375 | x=(25*15) | x 25 15 * = | x:UNKNOWN 25:pin 15:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 60 | 10 | (25-15)=x | 25 15 - x = | 25:pin 15:pin -:pin x:pin =:pin
+EXPR: 0 | POS | INT | 10 | 60 | 375 | (25*15)=x | 25 15 * x = | 25:pin 15:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 60 | 10 | x=(25-15) | x 25 15 - = | x:pin 25:pin 15:pin -:pin =:pin
+EXPR: 0 | POS | INT | 10 | 60 | 40 | (25+15)=x | 25 15 + x = | 25:pin 15:pin +:pin x:pin =:pin
+EXPR: 0 | POS | INT | 12 | 60 | 10 | (25-x)=15 | 25 x - 15 = | 25:pin x:pin -:pin 15:pin =:pin
+EXPR: 0 | POS | INT | 12 | 60 | 10 | 25=(15+x) | 25 15 x + = | 25:pin 15:pin x:pin +:pin =:pin
+EXPR: 0 | POS | INT | 12 | 60 | 375 | (x/25)=15 | x 25 / 15 = | x:UNKNOWN 25:pin /:UNKNOWN 15:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 60 | 40 | (x-25)=15 | x 25 - 15 = | x:pin 25:pin -:pin 15:pin =:pin
+EXPR: 0 | POS | INT | 12 | 60 | 40 | 25=(x-15) | 25 x 15 - = | 25:pin x:pin 15:pin -:pin =:pin
+EXPR: 0 | POS | INT | 12 | 60 | 10 | 25=(x+15) | 25 x 15 + = | 25:pin x:pin 15:pin +:pin =:pin
+EXPR: 0 | POS | INT | 12 | 60 | 375 | 25=(x/15) | 25 x 15 / = | 25:UNKNOWN x:UNKNOWN 15:pin /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 40 | (x-15)=25 | x 15 - 25 = | x:pin 15:pin -:pin 25:pin =:pin
+EXPR: 0 | POS | INT | 14 | 60 | 375 | 15=(x/25) | 15 x 25 / = | 15:UNKNOWN x:UNKNOWN 25:pin /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 10 | (x+15)=25 | x 15 + 25 = | x:pin 15:pin +:pin 25:pin =:pin
+EXPR: 0 | POS | INT | 14 | 60 | 375 | (x/15)=25 | x 15 / 25 = | x:UNKNOWN 15:pin /:UNKNOWN 25:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 10 | 15=(25-x) | 15 25 x - = | 15:pin 25:pin x:pin -:pin =:pin
+EXPR: 0 | POS | INT | 14 | 60 | 10 | (15+x)=25 | 15 x + 25 = | 15:pin x:pin +:pin 25:pin =:pin
+EXPR: 0 | POS | INT | 14 | 60 | 40 | 15=(x-25) | 15 x 25 - = | 15:pin x:pin 25:pin -:pin =:pin
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

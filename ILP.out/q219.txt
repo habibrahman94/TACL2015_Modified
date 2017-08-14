@@ -1,0 +1,5 @@
+quantities : 185,550 207,816 x
+types : "minute" "minute" "time"
+operators : + - * / =
+n : 5
+answer : 12.0

@@ -1,0 +1,5 @@
+quantities : 56 0.75 x
+types : "teacher" "meeting" "teacher"
+operators : + - * / =
+n : 5
+answer : 42.0

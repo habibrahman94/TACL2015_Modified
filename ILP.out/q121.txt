@@ -1,0 +1,5 @@
+quantities : 56 0.5 x
+types : "problem" "Beth" "problem"
+operators : + - * / =
+n : 5
+answer : 28.0

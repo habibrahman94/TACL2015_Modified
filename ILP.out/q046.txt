@@ -1,0 +1,5 @@
+quantities : 28 0.75 x
+types : "burger" "restaurant" "burger"
+operators : + - * / =
+n : 5
+answer : 21.0

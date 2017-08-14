@@ -1,0 +1,5 @@
+quantities : 10 3 x
+types : "tea" "tea" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 30.0

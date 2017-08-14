@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 38.6941 | 27.9565 | (0.85*32.89)=x | 0.85 32.89 * x = | 0.85:Pamela 32.89:price *:price x:price =:price
+EXPR: 0 | POS | FRA | 10 | 38.6941 | 0.0258437214958954 | (0.85/32.89)=x | 0.85 32.89 / x = | 0.85:price 32.89:dollar /:price x:price =:price
+EXPR: 0 | POS | FRA | 10 | 38.6941 | 27.9565 | x=(0.85*32.89) | x 0.85 32.89 * = | x:Pamela 0.85:Pamela 32.89:dollar *:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 10 | 38.6941 | 0.0258437214958954 | x=(0.85/32.89) | x 0.85 32.89 / = | x:price 0.85:price 32.89:dollar /:price =:price
+EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | (0.85*x)=32.89 | 0.85 x * 32.89 = | 0.85:Pamela x:dollar *:dollar 32.89:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | x=(32.89/0.85) | x 32.89 0.85 / = | x:dollar 32.89:dollar 0.85:Pamela /:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | 0.85=(32.89/x) | 0.85 32.89 x / = | 0.85:dollar 32.89:dollar x:price /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.6941 | 0.0258437214958954 | 0.85=(32.89*x) | 0.85 32.89 x * = | 0.85:price 32.89:dollar x:price *:price =:price
+EXPR: 0 | POS | FRA | 12 | 38.6941 | 0.0258437214958954 | (0.85/x)=32.89 | 0.85 x / 32.89 = | 0.85:dollar x:price /:dollar 32.89:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.6941 | 0.0258437214958954 | 0.85=(x*32.89) | 0.85 x 32.89 * = | 0.85:price x:price 32.89:dollar *:price =:price
+EXPR: 0 | POS | FRA | 12 | 38.6941 | 27.9565 | 0.85=(x/32.89) | 0.85 x 32.89 / = | 0.85:price x:price 32.89:dollar /:price =:price
+EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | (x*0.85)=32.89 | x 0.85 * 32.89 = | x:price 0.85:dollar *:dollar 32.89:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.6941 | 27.9565 | (x/0.85)=32.89 | x 0.85 / 32.89 = | x:price 0.85:Pamela /:price 32.89:price =:price
+EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | (32.89/0.85)=x | 32.89 0.85 / x = | 32.89:price 0.85:Pamela /:price x:price =:price
+EXPR: 1 | POS | FRA | 14 | 38.6941 | 38.6941176470588 | (32.89/x)=0.85 | 32.89 x / 0.85 = | 32.89:Pamela x:price /:Pamela 0.85:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 14 | 38.6941 | 0.0258437214958954 | (32.89*x)=0.85 | 32.89 x * 0.85 = | 32.89:Pamela x:price *:Pamela 0.85:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 14 | 38.6941 | 27.9565 | (x/32.89)=0.85 | x 32.89 / 0.85 = | x:Pamela 32.89:dollar /:Pamela 0.85:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 14 | 38.6941 | 0.0258437214958954 | (x*32.89)=0.85 | x 32.89 * 0.85 = | x:Pamela 32.89:dollar *:Pamela 0.85:Pamela =:Pamela
+EXPR: 1 | POS | FRA | 14 | 38.6941 | 38.6941176470588 | 32.89=(0.85*x) | 32.89 0.85 x * = | 32.89:dollar 0.85:Pamela x:dollar *:dollar =:dollar
+EXPR: 1 | POS | FRA | 14 | 38.6941 | 38.6941176470588 | 32.89=(x*0.85) | 32.89 x 0.85 * = | 32.89:dollar x:price 0.85:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 38.6941 | 27.9565 | 32.89=(x/0.85) | 32.89 x 0.85 / = | 32.89:price x:price 0.85:Pamela /:price =:price
+EXPR: 0 | POS | FRA | 14 | 38.6941 | 0.0258437214958954 | 32.89=(0.85/x) | 32.89 0.85 x / = | 32.89:Pamela 0.85:Pamela x:price /:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 20 | 38.6941 | 33.74 | x=(0.85+32.89) | x 0.85 32.89 + = | x:Pamela 0.85:Pamela 32.89:Pamela +:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 20 | 38.6941 | 33.74 | (0.85+32.89)=x | 0.85 32.89 + x = | 0.85:Pamela 32.89:Pamela +:Pamela x:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 33.74 | 0.85=(x-32.89) | 0.85 x 32.89 - = | 0.85:Pamela x:Pamela 32.89:Pamela -:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | 0.85=(32.89-x) | 0.85 32.89 x - = | 0.85:dollar 32.89:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | x=(32.89-0.85) | x 32.89 0.85 - = | x:dollar 32.89:dollar 0.85:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | (x+0.85)=32.89 | x 0.85 + 32.89 = | x:dollar 0.85:dollar +:dollar 32.89:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 33.74 | (x-0.85)=32.89 | x 0.85 - 32.89 = | x:dollar 0.85:dollar -:dollar 32.89:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | (0.85+x)=32.89 | 0.85 x + 32.89 = | 0.85:Pamela x:Pamela +:Pamela 32.89:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | (32.89-0.85)=x | 32.89 0.85 - x = | 32.89:price 0.85:price -:price x:price =:price
+EXPR: 0 | POS | FRA | 24 | 38.6941 | 32.04 | 32.89=(x+0.85) | 32.89 x 0.85 + = | 32.89:Pamela x:Pamela 0.85:Pamela +:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 24 | 38.6941 | 32.04 | (32.89-x)=0.85 | 32.89 x - 0.85 = | 32.89:Pamela x:Pamela -:Pamela 0.85:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 24 | 38.6941 | 33.74 | (x-32.89)=0.85 | x 32.89 - 0.85 = | x:Pamela 32.89:Pamela -:Pamela 0.85:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 24 | 38.6941 | 33.74 | 32.89=(x-0.85) | 32.89 x 0.85 - = | 32.89:Pamela x:Pamela 0.85:Pamela -:Pamela =:Pamela
+EXPR: 0 | POS | FRA | 24 | 38.6941 | 32.04 | 32.89=(0.85+x) | 32.89 0.85 x + = | 32.89:price 0.85:price x:price +:price =:price
+NET 36 unique, non-negative solutions found out of 324 total solutions

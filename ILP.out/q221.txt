@@ -1,0 +1,5 @@
+quantities : 240 0.55 x
+types : "gallon" "hotel" "year"
+operators : + - * / =
+n : 5
+answer : 372.0

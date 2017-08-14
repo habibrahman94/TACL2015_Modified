@@ -1,0 +1,5 @@
+quantities : 32 0 x
+types : "student" "person" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 71.875

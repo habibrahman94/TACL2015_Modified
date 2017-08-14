@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 36 | 100 | x=(60/0.6) | x 60 0.6 / = | x:member 60:member 0.6:council /:member =:member
+EXPR: 1 | POS | INT | 0 | 36 | 36 | (60*0.6)=x | 60 0.6 * x = | 60:member 0.6:council *:member x:member =:member
+EXPR: 1 | POS | INT | 0 | 36 | 36 | x=(60*0.6) | x 60 0.6 * = | x:member 60:member 0.6:council *:member =:member
+EXPR: 0 | POS | INT | 0 | 36 | 100 | (60/0.6)=x | 60 0.6 / x = | 60:member 0.6:council /:member x:member =:member
+EXPR: 1 | POS | INT | 2 | 36 | 36 | 60=(x/0.6) | 60 x 0.6 / = | 60:member x:member 0.6:council /:member =:member
+EXPR: 0 | POS | INT | 2 | 36 | 100 | 60=(x*0.6) | 60 x 0.6 * = | 60:member x:member 0.6:council *:member =:member
+EXPR: 0 | POS | INT | 2 | 36 | 100 | 60=(0.6*x) | 60 0.6 x * = | 60:member 0.6:council x:member *:member =:member
+EXPR: 0 | POS | INT | 4 | 36 | 100 | (0.6*x)=60 | 0.6 x * 60 = | 0.6:council x:member *:member 60:member =:member
+EXPR: 0 | POS | INT | 4 | 36 | 100 | (x*0.6)=60 | x 0.6 * 60 = | x:member 0.6:council *:member 60:member =:member
+EXPR: 1 | POS | INT | 4 | 36 | 36 | (x/0.6)=60 | x 0.6 / 60 = | x:member 0.6:council /:member 60:member =:member
+EXPR: 0 | POS | FRA | 10 | 36 | 60.6 | (60+0.6)=x | 60 0.6 + x = | 60:member 0.6:member +:member x:member =:member
+EXPR: 0 | POS | FRA | 10 | 36 | 60.6 | x=(60+0.6) | x 60 0.6 + = | x:member 60:member 0.6:member +:member =:member
+EXPR: 0 | POS | FRA | 10 | 36 | 59.4 | (60-0.6)=x | 60 0.6 - x = | 60:member 0.6:member -:member x:member =:member
+EXPR: 0 | POS | FRA | 10 | 36 | 59.4 | x=(60-0.6) | x 60 0.6 - = | x:member 60:member 0.6:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 36 | 59.4 | 60=(x+0.6) | 60 x 0.6 + = | 60:member x:member 0.6:member +:member =:member
+EXPR: 0 | POS | FRA | 12 | 36 | 0.01 | 60=(0.6/x) | 60 0.6 x / = | 60:council 0.6:council x:member /:council =:council
+EXPR: 0 | POS | FRA | 12 | 36 | 0.01 | (x*60)=0.6 | x 60 * 0.6 = | x:member 60:council *:council 0.6:council =:council
+EXPR: 0 | POS | INT | 12 | 36 | 100 | (60/x)=0.6 | 60 x / 0.6 = | 60:council x:member /:council 0.6:council =:council
+EXPR: 0 | POS | FRA | 12 | 36 | 0.01 | x=(0.6/60) | x 0.6 60 / = | x:council 0.6:council 60:member /:council =:council
+EXPR: 0 | POS | FRA | 12 | 36 | 60.6 | 60=(x-0.6) | 60 x 0.6 - = | 60:member x:member 0.6:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 36 | 0.01 | (0.6/60)=x | 0.6 60 / x = | 0.6:council 60:member /:council x:council =:council
+EXPR: 0 | POS | FRA | 12 | 36 | 0.01 | (60*x)=0.6 | 60 x * 0.6 = | 60:council x:member *:council 0.6:council =:council
+EXPR: 0 | POS | FRA | 12 | 36 | 60.6 | (x-60)=0.6 | x 60 - 0.6 = | x:member 60:member -:member 0.6:member =:member
+EXPR: 0 | POS | FRA | 12 | 36 | 59.4 | (60-x)=0.6 | 60 x - 0.6 = | 60:member x:member -:member 0.6:member =:member
+EXPR: 1 | POS | INT | 12 | 36 | 36 | (x/60)=0.6 | x 60 / 0.6 = | x:council 60:member /:council 0.6:council =:council
+EXPR: 0 | POS | FRA | 12 | 36 | 59.4 | 60=(0.6+x) | 60 0.6 x + = | 60:member 0.6:member x:member +:member =:member
+EXPR: 1 | POS | INT | 14 | 36 | 36 | 0.6=(x/60) | 0.6 x 60 / = | 0.6:council x:council 60:member /:council =:council
+EXPR: 0 | POS | INT | 14 | 36 | 100 | 0.6=(60/x) | 0.6 60 x / = | 0.6:council 60:council x:member /:council =:council
+EXPR: 0 | POS | FRA | 14 | 36 | 59.4 | (0.6+x)=60 | 0.6 x + 60 = | 0.6:member x:member +:member 60:member =:member
+EXPR: 0 | POS | FRA | 14 | 36 | 59.4 | (x+0.6)=60 | x 0.6 + 60 = | x:member 0.6:member +:member 60:member =:member
+EXPR: 0 | POS | FRA | 14 | 36 | 0.01 | 0.6=(60*x) | 0.6 60 x * = | 0.6:council 60:member x:council *:council =:council
+EXPR: 0 | POS | FRA | 14 | 36 | 0.01 | (0.6/x)=60 | 0.6 x / 60 = | 0.6:council x:member /:council 60:council =:council
+EXPR: 0 | POS | FRA | 14 | 36 | 59.4 | 0.6=(60-x) | 0.6 60 x - = | 0.6:member 60:member x:member -:member =:member
+EXPR: 0 | POS | FRA | 14 | 36 | 60.6 | 0.6=(x-60) | 0.6 x 60 - = | 0.6:member x:member 60:member -:member =:member
+EXPR: 0 | POS | FRA | 14 | 36 | 0.01 | 0.6=(x*60) | 0.6 x 60 * = | 0.6:council x:member 60:council *:council =:council
+EXPR: 0 | POS | FRA | 14 | 36 | 60.6 | (x-0.6)=60 | x 0.6 - 60 = | x:member 0.6:member -:member 60:member =:member
+NET 36 unique, non-negative solutions found out of 136 total solutions

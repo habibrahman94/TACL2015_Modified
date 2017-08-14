@@ -1,0 +1,5 @@
+quantities : 40 40 x
+types : "pin" "pin" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 50.0

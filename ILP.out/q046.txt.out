@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 21 | 37.3333333333333 | x=(28/0.75) | x 28 0.75 / = | x:burger 28:burger 0.75:restaurant /:burger =:burger
+EXPR: 1 | POS | INT | 0 | 21 | 21 | (28*0.75)=x | 28 0.75 * x = | 28:burger 0.75:restaurant *:burger x:burger =:burger
+EXPR: 1 | POS | INT | 0 | 21 | 21 | x=(28*0.75) | x 28 0.75 * = | x:burger 28:burger 0.75:restaurant *:burger =:burger
+EXPR: 0 | POS | FRA | 0 | 21 | 37.3333333333333 | (28/0.75)=x | 28 0.75 / x = | 28:burger 0.75:restaurant /:burger x:burger =:burger
+EXPR: 1 | POS | INT | 2 | 21 | 21 | 28=(x/0.75) | 28 x 0.75 / = | 28:burger x:burger 0.75:restaurant /:burger =:burger
+EXPR: 0 | POS | FRA | 2 | 21 | 37.3333333333333 | 28=(x*0.75) | 28 x 0.75 * = | 28:burger x:burger 0.75:restaurant *:burger =:burger
+EXPR: 0 | POS | FRA | 2 | 21 | 37.3333333333333 | 28=(0.75*x) | 28 0.75 x * = | 28:burger 0.75:restaurant x:burger *:burger =:burger
+EXPR: 0 | POS | FRA | 4 | 21 | 37.3333333333333 | (0.75*x)=28 | 0.75 x * 28 = | 0.75:restaurant x:burger *:burger 28:burger =:burger
+EXPR: 0 | POS | FRA | 4 | 21 | 37.3333333333333 | (x*0.75)=28 | x 0.75 * 28 = | x:burger 0.75:restaurant *:burger 28:burger =:burger
+EXPR: 1 | POS | INT | 4 | 21 | 21 | (x/0.75)=28 | x 0.75 / 28 = | x:burger 0.75:restaurant /:burger 28:burger =:burger
+EXPR: 0 | POS | FRA | 10 | 21 | 28.75 | (28+0.75)=x | 28 0.75 + x = | 28:burger 0.75:burger +:burger x:burger =:burger
+EXPR: 0 | POS | FRA | 10 | 21 | 28.75 | x=(28+0.75) | x 28 0.75 + = | x:burger 28:burger 0.75:burger +:burger =:burger
+EXPR: 0 | POS | FRA | 10 | 21 | 27.25 | (28-0.75)=x | 28 0.75 - x = | 28:burger 0.75:burger -:burger x:burger =:burger
+EXPR: 0 | POS | FRA | 10 | 21 | 27.25 | x=(28-0.75) | x 28 0.75 - = | x:burger 28:burger 0.75:burger -:burger =:burger
+EXPR: 0 | POS | FRA | 12 | 21 | 27.25 | 28=(x+0.75) | 28 x 0.75 + = | 28:burger x:burger 0.75:burger +:burger =:burger
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0267857142857143 | 28=(0.75/x) | 28 0.75 x / = | 28:restaurant 0.75:restaurant x:burger /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0267857142857143 | (x*28)=0.75 | x 28 * 0.75 = | x:burger 28:restaurant *:restaurant 0.75:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 37.3333333333333 | (28/x)=0.75 | 28 x / 0.75 = | 28:restaurant x:burger /:restaurant 0.75:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0267857142857143 | x=(0.75/28) | x 0.75 28 / = | x:restaurant 0.75:restaurant 28:burger /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 28.75 | 28=(x-0.75) | 28 x 0.75 - = | 28:burger x:burger 0.75:burger -:burger =:burger
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0267857142857143 | (0.75/28)=x | 0.75 28 / x = | 0.75:restaurant 28:burger /:restaurant x:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0267857142857143 | (28*x)=0.75 | 28 x * 0.75 = | 28:restaurant x:burger *:restaurant 0.75:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 28.75 | (x-28)=0.75 | x 28 - 0.75 = | x:burger 28:burger -:burger 0.75:burger =:burger
+EXPR: 0 | POS | FRA | 12 | 21 | 27.25 | (28-x)=0.75 | 28 x - 0.75 = | 28:burger x:burger -:burger 0.75:burger =:burger
+EXPR: 1 | POS | INT | 12 | 21 | 21 | (x/28)=0.75 | x 28 / 0.75 = | x:restaurant 28:burger /:restaurant 0.75:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 21 | 27.25 | 28=(0.75+x) | 28 0.75 x + = | 28:burger 0.75:burger x:burger +:burger =:burger
+EXPR: 1 | POS | INT | 14 | 21 | 21 | 0.75=(x/28) | 0.75 x 28 / = | 0.75:restaurant x:restaurant 28:burger /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 21 | 37.3333333333333 | 0.75=(28/x) | 0.75 28 x / = | 0.75:restaurant 28:restaurant x:burger /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 21 | 27.25 | (0.75+x)=28 | 0.75 x + 28 = | 0.75:burger x:burger +:burger 28:burger =:burger
+EXPR: 0 | POS | FRA | 14 | 21 | 27.25 | (x+0.75)=28 | x 0.75 + 28 = | x:burger 0.75:burger +:burger 28:burger =:burger
+EXPR: 0 | POS | FRA | 14 | 21 | 0.0267857142857143 | 0.75=(28*x) | 0.75 28 x * = | 0.75:restaurant 28:burger x:restaurant *:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 21 | 0.0267857142857143 | (0.75/x)=28 | 0.75 x / 28 = | 0.75:restaurant x:burger /:restaurant 28:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 21 | 27.25 | 0.75=(28-x) | 0.75 28 x - = | 0.75:burger 28:burger x:burger -:burger =:burger
+EXPR: 0 | POS | FRA | 14 | 21 | 28.75 | 0.75=(x-28) | 0.75 x 28 - = | 0.75:burger x:burger 28:burger -:burger =:burger
+EXPR: 0 | POS | FRA | 14 | 21 | 0.0267857142857143 | 0.75=(x*28) | 0.75 x 28 * = | 0.75:restaurant x:burger 28:restaurant *:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 21 | 28.75 | (x-0.75)=28 | x 0.75 - 28 = | x:burger 0.75:burger -:burger 28:burger =:burger
+NET 36 unique, non-negative solutions found out of 136 total solutions

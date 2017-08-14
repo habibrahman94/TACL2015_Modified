@@ -1,0 +1,5 @@
+quantities : 21 7 x
+types : "button" "button" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 75.0

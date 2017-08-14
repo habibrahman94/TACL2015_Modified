@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 30 | 13362 | x=(7860+5502) | x 7860 5502 + = | x:dollar 7860:dollar 5502:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 30 | 43245720 | x=(7860*5502) | x 7860 5502 * = | x:time 7860:dollar 5502:time *:time =:time
+EXPR: 0 | POS | INT | 10 | 30 | 2358 | (7860-5502)=x | 7860 5502 - x = | 7860:dollar 5502:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 30 | 43245720 | (7860*5502)=x | 7860 5502 * x = | 7860:dollar 5502:time *:time x:time =:time
+EXPR: 0 | POS | INT | 10 | 30 | 2358 | x=(7860-5502) | x 7860 5502 - = | x:dollar 7860:dollar 5502:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 30 | 13362 | (7860+5502)=x | 7860 5502 + x = | 7860:dollar 5502:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 30 | 2358 | (7860-x)=5502 | 7860 x - 5502 = | 7860:dollar x:dollar -:dollar 5502:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 30 | 2358 | 7860=(5502+x) | 7860 5502 x + = | 7860:dollar 5502:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 30 | 43245720 | (x/7860)=5502 | x 7860 / 5502 = | x:time 7860:dollar /:time 5502:time =:time
+EXPR: 0 | POS | INT | 12 | 30 | 13362 | (x-7860)=5502 | x 7860 - 5502 = | x:dollar 7860:dollar -:dollar 5502:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 30 | 13362 | 7860=(x-5502) | 7860 x 5502 - = | 7860:dollar x:dollar 5502:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 30 | 2358 | 7860=(x+5502) | 7860 x 5502 + = | 7860:dollar x:dollar 5502:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 30 | 43245719.9999999 | 7860=(x/5502) | 7860 x 5502 / = | 7860:time x:time 5502:dollar /:time =:time
+EXPR: 0 | POS | INT | 14 | 30 | 13362 | (x-5502)=7860 | x 5502 - 7860 = | x:dollar 5502:dollar -:dollar 7860:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 30 | 43245719.9999999 | 5502=(x/7860) | 5502 x 7860 / = | 5502:time x:time 7860:dollar /:time =:time
+EXPR: 0 | POS | INT | 14 | 30 | 2358 | (x+5502)=7860 | x 5502 + 7860 = | x:dollar 5502:dollar +:dollar 7860:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 30 | 43245720 | (x/5502)=7860 | x 5502 / 7860 = | x:time 5502:dollar /:time 7860:time =:time
+EXPR: 0 | POS | INT | 14 | 30 | 2358 | 5502=(7860-x) | 5502 7860 x - = | 5502:dollar 7860:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 30 | 2358 | (5502+x)=7860 | 5502 x + 7860 = | 5502:dollar x:dollar +:dollar 7860:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 30 | 13362 | 5502=(x-7860) | 5502 x 7860 - = | 5502:dollar x:dollar 7860:dollar -:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

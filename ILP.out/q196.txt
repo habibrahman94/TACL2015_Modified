@@ -1,0 +1,5 @@
+quantities : 0.5 20 x
+types : "time" "ticket" "ticket"
+operators : + - * / =
+n : 5
+answer : 10.0

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 30 | 70 | x=(21+49) | x 21 49 + = | x:mug 21:mug 49:mug +:mug =:mug
+EXPR: 0 | POS | INT | 10 | 30 | 1029 | x=(21*49) | x 21 49 * = | x:UNKNOWN 21:mug 49:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 30 | 1029 | (21*49)=x | 21 49 * x = | 21:mug 49:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 30 | 70 | (21+49)=x | 21 49 + x = | 21:mug 49:mug +:mug x:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 28 | 21=(49-x) | 21 49 x - = | 21:mug 49:mug x:mug -:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 1029 | (x/21)=49 | x 21 / 49 = | x:UNKNOWN 21:mug /:UNKNOWN 49:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 30 | 70 | (x-21)=49 | x 21 - 49 = | x:mug 21:mug -:mug 49:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 70 | 21=(x-49) | 21 x 49 - = | 21:mug x:mug 49:mug -:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 28 | (49-21)=x | 49 21 - x = | 49:mug 21:mug -:mug x:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 28 | x=(49-21) | x 49 21 - = | x:mug 49:mug 21:mug -:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 28 | (x+21)=49 | x 21 + 49 = | x:mug 21:mug +:mug 49:mug =:mug
+EXPR: 0 | POS | INT | 12 | 30 | 1029 | 21=(x/49) | 21 x 49 / = | 21:UNKNOWN x:UNKNOWN 49:mug /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 30 | 28 | (21+x)=49 | 21 x + 49 = | 21:mug x:mug +:mug 49:mug =:mug
+EXPR: 0 | POS | INT | 14 | 30 | 28 | (49-x)=21 | 49 x - 21 = | 49:mug x:mug -:mug 21:mug =:mug
+EXPR: 0 | POS | INT | 14 | 30 | 70 | (x-49)=21 | x 49 - 21 = | x:mug 49:mug -:mug 21:mug =:mug
+EXPR: 0 | POS | INT | 14 | 30 | 1029 | 49=(x/21) | 49 x 21 / = | 49:UNKNOWN x:UNKNOWN 21:mug /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 30 | 1029 | (x/49)=21 | x 49 / 21 = | x:UNKNOWN 49:mug /:UNKNOWN 21:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 30 | 28 | 49=(21+x) | 49 21 x + = | 49:mug 21:mug x:mug +:mug =:mug
+EXPR: 0 | POS | INT | 14 | 30 | 70 | 49=(x-21) | 49 x 21 - = | 49:mug x:mug 21:mug -:mug =:mug
+EXPR: 0 | POS | INT | 14 | 30 | 28 | 49=(x+21) | 49 x 21 + = | 49:mug x:mug 21:mug +:mug =:mug
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

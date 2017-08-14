@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 43.95 | 43.95 | x=(0.15*293.0) | x 0.15 293.0 * = | x:money 0.15:He 293.0:money *:money =:money
+EXPR: 1 | POS | FRA | 0 | 43.95 | 43.95 | (0.15*293.0)=x | 0.15 293.0 * x = | 0.15:He 293.0:money *:money x:money =:money
+EXPR: 0 | POS | FRA | 2 | 43.95 | 1953.33333333333 | (293.0/0.15)=x | 293.0 0.15 / x = | 293.0:money 0.15:He /:money x:money =:money
+EXPR: 0 | POS | FRA | 2 | 43.95 | 1953.33333333333 | (0.15*x)=293.0 | 0.15 x * 293.0 = | 0.15:He x:money *:money 293.0:money =:money
+EXPR: 1 | POS | FRA | 2 | 43.95 | 43.95 | (x/0.15)=293.0 | x 0.15 / 293.0 = | x:money 0.15:He /:money 293.0:money =:money
+EXPR: 0 | POS | FRA | 2 | 43.95 | 1953.33333333333 | (x*0.15)=293.0 | x 0.15 * 293.0 = | x:money 0.15:He *:money 293.0:money =:money
+EXPR: 0 | POS | FRA | 2 | 43.95 | 1953.33333333333 | x=(293.0/0.15) | x 293.0 0.15 / = | x:money 293.0:money 0.15:He /:money =:money
+EXPR: 0 | POS | FRA | 4 | 43.95 | 1953.33333333333 | 293.0=(x*0.15) | 293.0 x 0.15 * = | 293.0:money x:money 0.15:He *:money =:money
+EXPR: 0 | POS | FRA | 4 | 43.95 | 1953.33333333333 | 293.0=(0.15*x) | 293.0 0.15 x * = | 293.0:money 0.15:He x:money *:money =:money
+EXPR: 1 | POS | FRA | 4 | 43.95 | 43.95 | 293.0=(x/0.15) | 293.0 x 0.15 / = | 293.0:money x:money 0.15:He /:money =:money
+EXPR: 0 | POS | FRA | 10 | 43.95 | 0.000511945392491468 | (0.15/293.0)=x | 0.15 293.0 / x = | 0.15:He 293.0:money /:He x:He =:He
+EXPR: 0 | POS | FRA | 10 | 43.95 | 293.15 | (0.15+293.0)=x | 0.15 293.0 + x = | 0.15:money 293.0:money +:money x:money =:money
+EXPR: 0 | POS | FRA | 10 | 43.95 | 293.15 | x=(0.15+293.0) | x 0.15 293.0 + = | x:money 0.15:money 293.0:money +:money =:money
+EXPR: 0 | POS | FRA | 10 | 43.95 | 0.000511945392491468 | x=(0.15/293.0) | x 0.15 293.0 / = | x:He 0.15:He 293.0:money /:He =:He
+EXPR: 0 | POS | FRA | 12 | 43.95 | 0.000511945392491468 | 0.15=(x*293.0) | 0.15 x 293.0 * = | 0.15:He x:He 293.0:money *:He =:He
+EXPR: 0 | POS | FRA | 12 | 43.95 | 1953.33333333333 | 0.15=(293.0/x) | 0.15 293.0 x / = | 0.15:He 293.0:He x:money /:He =:He
+EXPR: 0 | POS | FRA | 12 | 43.95 | 293.15 | (x-0.15)=293.0 | x 0.15 - 293.0 = | x:money 0.15:money -:money 293.0:money =:money
+EXPR: 0 | POS | FRA | 12 | 43.95 | 0.000511945392491468 | (0.15/x)=293.0 | 0.15 x / 293.0 = | 0.15:He x:money /:He 293.0:He =:He
+EXPR: 0 | POS | FRA | 12 | 43.95 | 292.85 | (293.0-0.15)=x | 293.0 0.15 - x = | 293.0:money 0.15:money -:money x:money =:money
+EXPR: 0 | POS | FRA | 12 | 43.95 | 292.85 | (x+0.15)=293.0 | x 0.15 + 293.0 = | x:money 0.15:money +:money 293.0:money =:money
+EXPR: 0 | POS | FRA | 12 | 43.95 | 0.000511945392491468 | 0.15=(293.0*x) | 0.15 293.0 x * = | 0.15:He 293.0:He x:money *:He =:He
+EXPR: 0 | POS | FRA | 12 | 43.95 | 292.85 | (0.15+x)=293.0 | 0.15 x + 293.0 = | 0.15:money x:money +:money 293.0:money =:money
+EXPR: 0 | POS | FRA | 12 | 43.95 | 292.85 | 0.15=(293.0-x) | 0.15 293.0 x - = | 0.15:money 293.0:money x:money -:money =:money
+EXPR: 0 | POS | FRA | 12 | 43.95 | 292.85 | x=(293.0-0.15) | x 293.0 0.15 - = | x:money 293.0:money 0.15:money -:money =:money
+EXPR: 0 | POS | FRA | 12 | 43.95 | 293.15 | 0.15=(x-293.0) | 0.15 x 293.0 - = | 0.15:money x:money 293.0:money -:money =:money
+EXPR: 1 | POS | FRA | 12 | 43.95 | 43.95 | 0.15=(x/293.0) | 0.15 x 293.0 / = | 0.15:He x:He 293.0:money /:He =:He
+EXPR: 0 | POS | FRA | 14 | 43.95 | 1953.33333333333 | (293.0/x)=0.15 | 293.0 x / 0.15 = | 293.0:He x:money /:He 0.15:He =:He
+EXPR: 1 | POS | FRA | 14 | 43.95 | 43.95 | (x/293.0)=0.15 | x 293.0 / 0.15 = | x:He 293.0:money /:He 0.15:He =:He
+EXPR: 0 | POS | FRA | 14 | 43.95 | 0.000511945392491468 | 293.0=(0.15/x) | 293.0 0.15 x / = | 293.0:He 0.15:He x:money /:He =:He
+EXPR: 0 | POS | FRA | 14 | 43.95 | 292.85 | (293.0-x)=0.15 | 293.0 x - 0.15 = | 293.0:money x:money -:money 0.15:money =:money
+EXPR: 0 | POS | FRA | 14 | 43.95 | 0.000511945392491468 | (293.0*x)=0.15 | 293.0 x * 0.15 = | 293.0:He x:money *:He 0.15:He =:He
+EXPR: 0 | POS | FRA | 14 | 43.95 | 292.85 | 293.0=(0.15+x) | 293.0 0.15 x + = | 293.0:money 0.15:money x:money +:money =:money
+EXPR: 0 | POS | FRA | 14 | 43.95 | 0.000511945392491468 | (x*293.0)=0.15 | x 293.0 * 0.15 = | x:money 293.0:He *:He 0.15:He =:He
+EXPR: 0 | POS | FRA | 14 | 43.95 | 293.15 | (x-293.0)=0.15 | x 293.0 - 0.15 = | x:money 293.0:money -:money 0.15:money =:money
+EXPR: 0 | POS | FRA | 14 | 43.95 | 293.15 | 293.0=(x-0.15) | 293.0 x 0.15 - = | 293.0:money x:money 0.15:money -:money =:money
+EXPR: 0 | POS | FRA | 14 | 43.95 | 292.85 | 293.0=(x+0.15) | 293.0 x 0.15 + = | 293.0:money x:money 0.15:money +:money =:money
+NET 36 unique, non-negative solutions found out of 136 total solutions

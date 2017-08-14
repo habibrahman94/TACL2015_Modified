@@ -1,0 +1,5 @@
+quantities : 0.5 74 x
+types : "time" "cupcake" "cupcake"
+operators : + - * / =
+n : 5
+answer : 37.0

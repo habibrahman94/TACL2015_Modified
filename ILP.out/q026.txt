@@ -1,0 +1,5 @@
+quantities : 0.85 32.89 x
+types : "Pamela" "dollar" "price"
+operators : + - * / =
+n : 5
+answer : 38.694117647

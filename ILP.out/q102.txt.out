@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 23 | 92 | x=(46/0.5) | x 46 0.5 / = | x:coffee 46:coffee 0.5:cafe /:coffee =:coffee
+EXPR: 1 | POS | INT | 0 | 23 | 23 | (46*0.5)=x | 46 0.5 * x = | 46:coffee 0.5:cafe *:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 0 | 23 | 23 | x=(46*0.5) | x 46 0.5 * = | x:coffee 46:coffee 0.5:cafe *:coffee =:coffee
+EXPR: 0 | POS | INT | 0 | 23 | 92 | (46/0.5)=x | 46 0.5 / x = | 46:coffee 0.5:cafe /:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 2 | 23 | 23 | 46=(x/0.5) | 46 x 0.5 / = | 46:coffee x:coffee 0.5:cafe /:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 23 | 92 | 46=(x*0.5) | 46 x 0.5 * = | 46:coffee x:coffee 0.5:cafe *:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 23 | 92 | 46=(0.5*x) | 46 0.5 x * = | 46:coffee 0.5:cafe x:coffee *:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 23 | 92 | (0.5*x)=46 | 0.5 x * 46 = | 0.5:cafe x:coffee *:coffee 46:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 23 | 92 | (x*0.5)=46 | x 0.5 * 46 = | x:coffee 0.5:cafe *:coffee 46:coffee =:coffee
+EXPR: 1 | POS | INT | 4 | 23 | 23 | (x/0.5)=46 | x 0.5 / 46 = | x:coffee 0.5:cafe /:coffee 46:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 23 | 46.5 | (46+0.5)=x | 46 0.5 + x = | 46:coffee 0.5:coffee +:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 23 | 46.5 | x=(46+0.5) | x 46 0.5 + = | x:coffee 46:coffee 0.5:coffee +:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 23 | 45.5 | (46-0.5)=x | 46 0.5 - x = | 46:coffee 0.5:coffee -:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 23 | 45.5 | x=(46-0.5) | x 46 0.5 - = | x:coffee 46:coffee 0.5:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 23 | 45.5 | 46=(x+0.5) | 46 x 0.5 + = | 46:coffee x:coffee 0.5:coffee +:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 23 | 0.0108695652173913 | 46=(0.5/x) | 46 0.5 x / = | 46:cafe 0.5:cafe x:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 23 | 0.0108695652173913 | (x*46)=0.5 | x 46 * 0.5 = | x:coffee 46:cafe *:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | INT | 12 | 23 | 92 | (46/x)=0.5 | 46 x / 0.5 = | 46:cafe x:coffee /:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 23 | 0.0108695652173913 | x=(0.5/46) | x 0.5 46 / = | x:cafe 0.5:cafe 46:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 23 | 46.5 | 46=(x-0.5) | 46 x 0.5 - = | 46:coffee x:coffee 0.5:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 23 | 0.0108695652173913 | (0.5/46)=x | 0.5 46 / x = | 0.5:cafe 46:coffee /:cafe x:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 23 | 0.0108695652173913 | (46*x)=0.5 | 46 x * 0.5 = | 46:cafe x:coffee *:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 23 | 46.5 | (x-46)=0.5 | x 46 - 0.5 = | x:coffee 46:coffee -:coffee 0.5:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 23 | 45.5 | (46-x)=0.5 | 46 x - 0.5 = | 46:coffee x:coffee -:coffee 0.5:coffee =:coffee
+EXPR: 1 | POS | INT | 12 | 23 | 23 | (x/46)=0.5 | x 46 / 0.5 = | x:cafe 46:coffee /:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 23 | 45.5 | 46=(0.5+x) | 46 0.5 x + = | 46:coffee 0.5:coffee x:coffee +:coffee =:coffee
+EXPR: 1 | POS | INT | 14 | 23 | 23 | 0.5=(x/46) | 0.5 x 46 / = | 0.5:cafe x:cafe 46:coffee /:cafe =:cafe
+EXPR: 0 | POS | INT | 14 | 23 | 92 | 0.5=(46/x) | 0.5 46 x / = | 0.5:cafe 46:cafe x:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 23 | 45.5 | (0.5+x)=46 | 0.5 x + 46 = | 0.5:coffee x:coffee +:coffee 46:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 23 | 45.5 | (x+0.5)=46 | x 0.5 + 46 = | x:coffee 0.5:coffee +:coffee 46:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 23 | 0.0108695652173913 | 0.5=(46*x) | 0.5 46 x * = | 0.5:cafe 46:coffee x:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 23 | 0.0108695652173913 | (0.5/x)=46 | 0.5 x / 46 = | 0.5:cafe x:coffee /:cafe 46:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 23 | 45.5 | 0.5=(46-x) | 0.5 46 x - = | 0.5:coffee 46:coffee x:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 23 | 46.5 | 0.5=(x-46) | 0.5 x 46 - = | 0.5:coffee x:coffee 46:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 23 | 0.0108695652173913 | 0.5=(x*46) | 0.5 x 46 * = | 0.5:cafe x:coffee 46:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 23 | 46.5 | (x-0.5)=46 | x 0.5 - 46 = | x:coffee 0.5:coffee -:coffee 46:coffee =:coffee
+NET 36 unique, non-negative solutions found out of 136 total solutions

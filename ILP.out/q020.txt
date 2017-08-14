@@ -1,0 +1,5 @@
+quantities : 0.8 20 x
+types : "student" "problem" "problem"
+operators : + - * / =
+n : 5
+answer : 16.0

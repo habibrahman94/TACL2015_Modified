@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 28 | x=(14/0.5) | x 14 0.5 / = | x:coffee 14:coffee 0.5:cafe /:coffee =:coffee
+EXPR: 1 | POS | INT | 0 | 7 | 7 | (14*0.5)=x | 14 0.5 * x = | 14:coffee 0.5:cafe *:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 0 | 7 | 7 | x=(14*0.5) | x 14 0.5 * = | x:coffee 14:coffee 0.5:cafe *:coffee =:coffee
+EXPR: 0 | POS | INT | 0 | 7 | 28 | (14/0.5)=x | 14 0.5 / x = | 14:coffee 0.5:cafe /:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 14=(x/0.5) | 14 x 0.5 / = | 14:coffee x:coffee 0.5:cafe /:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 7 | 28 | 14=(x*0.5) | 14 x 0.5 * = | 14:coffee x:coffee 0.5:cafe *:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 7 | 28 | 14=(0.5*x) | 14 0.5 x * = | 14:coffee 0.5:cafe x:coffee *:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 7 | 28 | (0.5*x)=14 | 0.5 x * 14 = | 0.5:cafe x:coffee *:coffee 14:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 7 | 28 | (x*0.5)=14 | x 0.5 * 14 = | x:coffee 0.5:cafe *:coffee 14:coffee =:coffee
+EXPR: 1 | POS | INT | 4 | 7 | 7 | (x/0.5)=14 | x 0.5 / 14 = | x:coffee 0.5:cafe /:coffee 14:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 7 | 14.5 | (14+0.5)=x | 14 0.5 + x = | 14:coffee 0.5:coffee +:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 7 | 14.5 | x=(14+0.5) | x 14 0.5 + = | x:coffee 14:coffee 0.5:coffee +:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 7 | 13.5 | (14-0.5)=x | 14 0.5 - x = | 14:coffee 0.5:coffee -:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 7 | 13.5 | x=(14-0.5) | x 14 0.5 - = | x:coffee 14:coffee 0.5:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 7 | 13.5 | 14=(x+0.5) | 14 x 0.5 + = | 14:coffee x:coffee 0.5:coffee +:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 7 | 0.0357142857142857 | 14=(0.5/x) | 14 0.5 x / = | 14:cafe 0.5:cafe x:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 7 | 0.0357142857142857 | (x*14)=0.5 | x 14 * 0.5 = | x:coffee 14:cafe *:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | INT | 12 | 7 | 28 | (14/x)=0.5 | 14 x / 0.5 = | 14:cafe x:coffee /:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 7 | 0.0357142857142857 | x=(0.5/14) | x 0.5 14 / = | x:cafe 0.5:cafe 14:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 7 | 14.5 | 14=(x-0.5) | 14 x 0.5 - = | 14:coffee x:coffee 0.5:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 7 | 0.0357142857142857 | (0.5/14)=x | 0.5 14 / x = | 0.5:cafe 14:coffee /:cafe x:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 7 | 0.0357142857142857 | (14*x)=0.5 | 14 x * 0.5 = | 14:cafe x:coffee *:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 7 | 14.5 | (x-14)=0.5 | x 14 - 0.5 = | x:coffee 14:coffee -:coffee 0.5:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 7 | 13.5 | (14-x)=0.5 | 14 x - 0.5 = | 14:coffee x:coffee -:coffee 0.5:coffee =:coffee
+EXPR: 1 | POS | INT | 12 | 7 | 7 | (x/14)=0.5 | x 14 / 0.5 = | x:cafe 14:coffee /:cafe 0.5:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 7 | 13.5 | 14=(0.5+x) | 14 0.5 x + = | 14:coffee 0.5:coffee x:coffee +:coffee =:coffee
+EXPR: 1 | POS | INT | 14 | 7 | 7 | 0.5=(x/14) | 0.5 x 14 / = | 0.5:cafe x:cafe 14:coffee /:cafe =:cafe
+EXPR: 0 | POS | INT | 14 | 7 | 28 | 0.5=(14/x) | 0.5 14 x / = | 0.5:cafe 14:cafe x:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 7 | 13.5 | (0.5+x)=14 | 0.5 x + 14 = | 0.5:coffee x:coffee +:coffee 14:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 7 | 13.5 | (x+0.5)=14 | x 0.5 + 14 = | x:coffee 0.5:coffee +:coffee 14:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 7 | 0.0357142857142857 | 0.5=(14*x) | 0.5 14 x * = | 0.5:cafe 14:coffee x:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 7 | 0.0357142857142857 | (0.5/x)=14 | 0.5 x / 14 = | 0.5:cafe x:coffee /:cafe 14:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 7 | 13.5 | 0.5=(14-x) | 0.5 14 x - = | 0.5:coffee 14:coffee x:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 7 | 14.5 | 0.5=(x-14) | 0.5 x 14 - = | 0.5:coffee x:coffee 14:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 7 | 0.0357142857142857 | 0.5=(x*14) | 0.5 x 14 * = | 0.5:cafe x:coffee 14:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 7 | 14.5 | (x-0.5)=14 | x 0.5 - 14 = | x:coffee 0.5:coffee -:coffee 14:coffee =:coffee
+NET 36 unique, non-negative solutions found out of 136 total solutions

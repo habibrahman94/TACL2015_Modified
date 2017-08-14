@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 25 | 3 | 6=(18/x) | 6 18 x / = | 6:student 18:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (x*6)=18 | x 6 * 18 = | x:UNKNOWN 6:student *:student 18:student =:student
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (6*x)=18 | 6 x * 18 = | 6:student x:UNKNOWN *:student 18:student =:student
+EXPR: 0 | POS | INT | 4 | 25 | 3 | 18=(x*6) | 18 x 6 * = | 18:student x:UNKNOWN 6:student *:student =:student
+EXPR: 0 | POS | INT | 4 | 25 | 3 | (18/x)=6 | 18 x / 6 = | 18:student x:UNKNOWN /:student 6:student =:student
+EXPR: 0 | POS | INT | 4 | 25 | 3 | 18=(6*x) | 18 6 x * = | 18:student 6:student x:UNKNOWN *:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 24 | x=(6+18) | x 6 18 + = | x:student 6:student 18:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 108 | x=(6*18) | x 6 18 * = | x:UNKNOWN 6:student 18:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 108 | (6*18)=x | 6 18 * x = | 6:student 18:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 24 | (6+18)=x | 6 18 + x = | 6:student 18:student +:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 12 | 6=(18-x) | 6 18 x - = | 6:student 18:student x:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 3 | x=(18/6) | x 18 6 / = | x:UNKNOWN 18:UNKNOWN 6:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 108 | (x/6)=18 | x 6 / 18 = | x:UNKNOWN 6:student /:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 24 | (x-6)=18 | x 6 - 18 = | x:student 6:student -:student 18:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 24 | 6=(x-18) | 6 x 18 - = | 6:student x:student 18:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 12 | (18-6)=x | 18 6 - x = | 18:student 6:student -:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 12 | x=(18-6) | x 18 6 - = | x:student 18:student 6:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 12 | (x+6)=18 | x 6 + 18 = | x:student 6:student +:student 18:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 108 | 6=(x/18) | 6 x 18 / = | 6:UNKNOWN x:UNKNOWN 18:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 12 | (6+x)=18 | 6 x + 18 = | 6:student x:student +:student 18:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 3 | (18/6)=x | 18 6 / x = | 18:UNKNOWN 6:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 12 | (18-x)=6 | 18 x - 6 = | 18:student x:student -:student 6:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 24 | (x-18)=6 | x 18 - 6 = | x:student 18:student -:student 6:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 108 | 18=(x/6) | 18 x 6 / = | 18:UNKNOWN x:UNKNOWN 6:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 108 | (x/18)=6 | x 18 / 6 = | x:UNKNOWN 18:student /:UNKNOWN 6:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 12 | 18=(6+x) | 18 6 x + = | 18:student 6:student x:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 24 | 18=(x-6) | 18 x 6 - = | 18:student x:student 6:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 12 | 18=(x+6) | 18 x 6 + = | 18:student x:student 6:student +:student =:student
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

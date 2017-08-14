@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 28 | 112 | x=(56/0.5) | x 56 0.5 / = | x:problem 56:problem 0.5:Beth /:problem =:problem
+EXPR: 1 | POS | INT | 0 | 28 | 28 | (56*0.5)=x | 56 0.5 * x = | 56:problem 0.5:Beth *:problem x:problem =:problem
+EXPR: 1 | POS | INT | 0 | 28 | 28 | x=(56*0.5) | x 56 0.5 * = | x:problem 56:problem 0.5:Beth *:problem =:problem
+EXPR: 0 | POS | INT | 0 | 28 | 112 | (56/0.5)=x | 56 0.5 / x = | 56:problem 0.5:Beth /:problem x:problem =:problem
+EXPR: 1 | POS | INT | 2 | 28 | 28 | 56=(x/0.5) | 56 x 0.5 / = | 56:problem x:problem 0.5:Beth /:problem =:problem
+EXPR: 0 | POS | INT | 2 | 28 | 112 | 56=(x*0.5) | 56 x 0.5 * = | 56:problem x:problem 0.5:Beth *:problem =:problem
+EXPR: 0 | POS | INT | 2 | 28 | 112 | 56=(0.5*x) | 56 0.5 x * = | 56:problem 0.5:Beth x:problem *:problem =:problem
+EXPR: 0 | POS | INT | 4 | 28 | 112 | (0.5*x)=56 | 0.5 x * 56 = | 0.5:Beth x:problem *:problem 56:problem =:problem
+EXPR: 0 | POS | INT | 4 | 28 | 112 | (x*0.5)=56 | x 0.5 * 56 = | x:problem 0.5:Beth *:problem 56:problem =:problem
+EXPR: 1 | POS | INT | 4 | 28 | 28 | (x/0.5)=56 | x 0.5 / 56 = | x:problem 0.5:Beth /:problem 56:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 28 | 56.5 | (56+0.5)=x | 56 0.5 + x = | 56:problem 0.5:problem +:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 28 | 56.5 | x=(56+0.5) | x 56 0.5 + = | x:problem 56:problem 0.5:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 28 | 55.5 | (56-0.5)=x | 56 0.5 - x = | 56:problem 0.5:problem -:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 28 | 55.5 | x=(56-0.5) | x 56 0.5 - = | x:problem 56:problem 0.5:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 28 | 55.5 | 56=(x+0.5) | 56 x 0.5 + = | 56:problem x:problem 0.5:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 28 | 0.00892857142857143 | 56=(0.5/x) | 56 0.5 x / = | 56:Beth 0.5:Beth x:problem /:Beth =:Beth
+EXPR: 0 | POS | FRA | 12 | 28 | 0.00892857142857143 | (x*56)=0.5 | x 56 * 0.5 = | x:problem 56:Beth *:Beth 0.5:Beth =:Beth
+EXPR: 0 | POS | INT | 12 | 28 | 112 | (56/x)=0.5 | 56 x / 0.5 = | 56:Beth x:problem /:Beth 0.5:Beth =:Beth
+EXPR: 0 | POS | FRA | 12 | 28 | 0.00892857142857143 | x=(0.5/56) | x 0.5 56 / = | x:Beth 0.5:Beth 56:problem /:Beth =:Beth
+EXPR: 0 | POS | FRA | 12 | 28 | 56.5 | 56=(x-0.5) | 56 x 0.5 - = | 56:problem x:problem 0.5:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 28 | 0.00892857142857143 | (0.5/56)=x | 0.5 56 / x = | 0.5:Beth 56:problem /:Beth x:Beth =:Beth
+EXPR: 0 | POS | FRA | 12 | 28 | 0.00892857142857143 | (56*x)=0.5 | 56 x * 0.5 = | 56:Beth x:problem *:Beth 0.5:Beth =:Beth
+EXPR: 0 | POS | FRA | 12 | 28 | 56.5 | (x-56)=0.5 | x 56 - 0.5 = | x:problem 56:problem -:problem 0.5:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 28 | 55.5 | (56-x)=0.5 | 56 x - 0.5 = | 56:problem x:problem -:problem 0.5:problem =:problem
+EXPR: 1 | POS | INT | 12 | 28 | 28 | (x/56)=0.5 | x 56 / 0.5 = | x:Beth 56:problem /:Beth 0.5:Beth =:Beth
+EXPR: 0 | POS | FRA | 12 | 28 | 55.5 | 56=(0.5+x) | 56 0.5 x + = | 56:problem 0.5:problem x:problem +:problem =:problem
+EXPR: 1 | POS | INT | 14 | 28 | 28 | 0.5=(x/56) | 0.5 x 56 / = | 0.5:Beth x:Beth 56:problem /:Beth =:Beth
+EXPR: 0 | POS | INT | 14 | 28 | 112 | 0.5=(56/x) | 0.5 56 x / = | 0.5:Beth 56:Beth x:problem /:Beth =:Beth
+EXPR: 0 | POS | FRA | 14 | 28 | 55.5 | (0.5+x)=56 | 0.5 x + 56 = | 0.5:problem x:problem +:problem 56:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 28 | 55.5 | (x+0.5)=56 | x 0.5 + 56 = | x:problem 0.5:problem +:problem 56:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 28 | 0.00892857142857143 | 0.5=(56*x) | 0.5 56 x * = | 0.5:Beth 56:problem x:Beth *:Beth =:Beth
+EXPR: 0 | POS | FRA | 14 | 28 | 0.00892857142857143 | (0.5/x)=56 | 0.5 x / 56 = | 0.5:Beth x:problem /:Beth 56:Beth =:Beth
+EXPR: 0 | POS | FRA | 14 | 28 | 55.5 | 0.5=(56-x) | 0.5 56 x - = | 0.5:problem 56:problem x:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 28 | 56.5 | 0.5=(x-56) | 0.5 x 56 - = | 0.5:problem x:problem 56:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 28 | 0.00892857142857143 | 0.5=(x*56) | 0.5 x 56 * = | 0.5:Beth x:problem 56:Beth *:Beth =:Beth
+EXPR: 0 | POS | FRA | 14 | 28 | 56.5 | (x-0.5)=56 | x 0.5 - 56 = | x:problem 0.5:problem -:problem 56:problem =:problem
+NET 36 unique, non-negative solutions found out of 136 total solutions

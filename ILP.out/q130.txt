@@ -1,0 +1,5 @@
+quantities : 94 0.5 x
+types : "marble" "bag" "marble"
+operators : + - * / =
+n : 5
+answer : 47.0

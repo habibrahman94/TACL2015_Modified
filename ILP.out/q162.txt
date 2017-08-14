@@ -1,0 +1,5 @@
+quantities : 55 33 x
+types : "bead" "bead" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 60.0

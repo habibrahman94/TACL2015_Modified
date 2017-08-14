@@ -1,0 +1,5 @@
+quantities : 100 70 x
+types : "tree" "tree" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 70.0

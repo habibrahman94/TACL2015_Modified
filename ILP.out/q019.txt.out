@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 77.7778 | 45 | x=(35+10) | x 35 10 + = | x:answer 35:answer 10:answer +:answer =:answer
+EXPR: 0 | POS | INT | 10 | 77.7778 | 350 | x=(35*10) | x 35 10 * = | x:Donovan 35:answer 10:Donovan *:Donovan =:Donovan
+EXPR: 0 | POS | INT | 10 | 77.7778 | 25 | (35-10)=x | 35 10 - x = | 35:answer 10:answer -:answer x:answer =:answer
+EXPR: 0 | POS | INT | 10 | 77.7778 | 350 | (35*10)=x | 35 10 * x = | 35:answer 10:Donovan *:Donovan x:Donovan =:Donovan
+EXPR: 0 | POS | INT | 10 | 77.7778 | 25 | x=(35-10) | x 35 10 - = | x:answer 35:answer 10:answer -:answer =:answer
+EXPR: 0 | POS | INT | 10 | 77.7778 | 45 | (35+10)=x | 35 10 + x = | 35:answer 10:answer +:answer x:answer =:answer
+EXPR: 0 | POS | INT | 12 | 77.7778 | 25 | (35-x)=10 | 35 x - 10 = | 35:answer x:answer -:answer 10:answer =:answer
+EXPR: 0 | POS | INT | 12 | 77.7778 | 25 | 35=(10+x) | 35 10 x + = | 35:answer 10:answer x:answer +:answer =:answer
+EXPR: 0 | POS | INT | 12 | 77.7778 | 350 | (x/35)=10 | x 35 / 10 = | x:Donovan 35:answer /:Donovan 10:Donovan =:Donovan
+EXPR: 0 | POS | INT | 12 | 77.7778 | 45 | (x-35)=10 | x 35 - 10 = | x:answer 35:answer -:answer 10:answer =:answer
+EXPR: 0 | POS | INT | 12 | 77.7778 | 45 | 35=(x-10) | 35 x 10 - = | 35:answer x:answer 10:answer -:answer =:answer
+EXPR: 0 | POS | INT | 12 | 77.7778 | 25 | 35=(x+10) | 35 x 10 + = | 35:answer x:answer 10:answer +:answer =:answer
+EXPR: 0 | POS | INT | 12 | 77.7778 | 350 | 35=(x/10) | 35 x 10 / = | 35:Donovan x:Donovan 10:answer /:Donovan =:Donovan
+EXPR: 0 | POS | INT | 14 | 77.7778 | 45 | (x-10)=35 | x 10 - 35 = | x:answer 10:answer -:answer 35:answer =:answer
+EXPR: 0 | POS | INT | 14 | 77.7778 | 350 | 10=(x/35) | 10 x 35 / = | 10:Donovan x:Donovan 35:answer /:Donovan =:Donovan
+EXPR: 0 | POS | INT | 14 | 77.7778 | 25 | (x+10)=35 | x 10 + 35 = | x:answer 10:answer +:answer 35:answer =:answer
+EXPR: 0 | POS | INT | 14 | 77.7778 | 350 | (x/10)=35 | x 10 / 35 = | x:Donovan 10:answer /:Donovan 35:Donovan =:Donovan
+EXPR: 0 | POS | INT | 14 | 77.7778 | 25 | 10=(35-x) | 10 35 x - = | 10:answer 35:answer x:answer -:answer =:answer
+EXPR: 0 | POS | INT | 14 | 77.7778 | 25 | (10+x)=35 | 10 x + 35 = | 10:answer x:answer +:answer 35:answer =:answer
+EXPR: 0 | POS | INT | 14 | 77.7778 | 45 | 10=(x-35) | 10 x 35 - = | 10:answer x:answer 35:answer -:answer =:answer
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

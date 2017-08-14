@@ -5,15 +5,15 @@ import jsonrpclib
 import makesets
 import pickle
 from random import randint
-from train_local import get_k_eqs
-from train_local import read_parse
-from train_local import read_sets
-from train_local import parse_inp
+from train_local_elm import get_k_eqs
+from train_local_elm import read_parse
+from train_local_elm import read_sets
+from train_local_elm import parse_inp
 from functools import reduce
 import numpy as np
 import elm
-sys.path.insert(0, 'libsvm/python')
-from svmutil import *
+#sys.path.insert(0, 'libsvm/python')
+#from svmutil import *
 
 elmLocal = None
 elmGlob = None
@@ -159,7 +159,7 @@ def make_eq(q,a,equations):
 
 
         if len(scores)>0:
-            if scores[0][1]==1:
+            if scores[0][1]==1: # Right if 1
                 right += 1
                 #print k
                 #print equations[k]
@@ -217,7 +217,7 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
         #op_label, op_acc, op_val = svm_predict([-1], [vec], multi ,'-q -b 1')
         te_result = elmLocal.test(test_data)
         te_result.predicted_targets = np.round(te_result.predicted_targets)
-        val = round(te_result.predicted_targets[0])
+        val = te_result.predicted_targets[0] #Round Modified
     
     op_val=[]
     

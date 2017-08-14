@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 90 | 9 | 90=(x*10) | 90 x 10 * = | 90:espresso x:UNKNOWN 10:espresso *:espresso =:espresso
+EXPR: 0 | POS | INT | 2 | 90 | 9 | 90=(10*x) | 90 10 x * = | 90:espresso 10:espresso x:UNKNOWN *:espresso =:espresso
+EXPR: 0 | POS | INT | 2 | 90 | 9 | (90/x)=10 | 90 x / 10 = | 90:espresso x:UNKNOWN /:espresso 10:espresso =:espresso
+EXPR: 0 | POS | INT | 4 | 90 | 9 | (x*10)=90 | x 10 * 90 = | x:UNKNOWN 10:espresso *:espresso 90:espresso =:espresso
+EXPR: 0 | POS | INT | 4 | 90 | 9 | (10*x)=90 | 10 x * 90 = | 10:espresso x:UNKNOWN *:espresso 90:espresso =:espresso
+EXPR: 0 | POS | INT | 4 | 90 | 9 | 10=(90/x) | 10 90 x / = | 10:espresso 90:espresso x:UNKNOWN /:espresso =:espresso
+EXPR: 0 | POS | INT | 10 | 90 | 100 | x=(90+10) | x 90 10 + = | x:espresso 90:espresso 10:espresso +:espresso =:espresso
+EXPR: 0 | POS | INT | 10 | 90 | 900 | x=(90*10) | x 90 10 * = | x:UNKNOWN 90:espresso 10:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 80 | (90-10)=x | 90 10 - x = | 90:espresso 10:espresso -:espresso x:espresso =:espresso
+EXPR: 0 | POS | INT | 10 | 90 | 900 | (90*10)=x | 90 10 * x = | 90:espresso 10:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 80 | x=(90-10) | x 90 10 - = | x:espresso 90:espresso 10:espresso -:espresso =:espresso
+EXPR: 0 | POS | INT | 10 | 90 | 9 | x=(90/10) | x 90 10 / = | x:UNKNOWN 90:UNKNOWN 10:espresso /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 100 | (90+10)=x | 90 10 + x = | 90:espresso 10:espresso +:espresso x:espresso =:espresso
+EXPR: 0 | POS | INT | 10 | 90 | 9 | (90/10)=x | 90 10 / x = | 90:UNKNOWN 10:espresso /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 80 | (90-x)=10 | 90 x - 10 = | 90:espresso x:espresso -:espresso 10:espresso =:espresso
+EXPR: 0 | POS | INT | 12 | 90 | 80 | 90=(10+x) | 90 10 x + = | 90:espresso 10:espresso x:espresso +:espresso =:espresso
+EXPR: 0 | POS | INT | 12 | 90 | 900 | (x/90)=10 | x 90 / 10 = | x:UNKNOWN 90:espresso /:UNKNOWN 10:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 100 | (x-90)=10 | x 90 - 10 = | x:espresso 90:espresso -:espresso 10:espresso =:espresso
+EXPR: 0 | POS | INT | 12 | 90 | 100 | 90=(x-10) | 90 x 10 - = | 90:espresso x:espresso 10:espresso -:espresso =:espresso
+EXPR: 0 | POS | INT | 12 | 90 | 80 | 90=(x+10) | 90 x 10 + = | 90:espresso x:espresso 10:espresso +:espresso =:espresso
+EXPR: 0 | POS | INT | 12 | 90 | 900 | 90=(x/10) | 90 x 10 / = | 90:UNKNOWN x:UNKNOWN 10:espresso /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 100 | (x-10)=90 | x 10 - 90 = | x:espresso 10:espresso -:espresso 90:espresso =:espresso
+EXPR: 0 | POS | INT | 14 | 90 | 900 | 10=(x/90) | 10 x 90 / = | 10:UNKNOWN x:UNKNOWN 90:espresso /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 80 | (x+10)=90 | x 10 + 90 = | x:espresso 10:espresso +:espresso 90:espresso =:espresso
+EXPR: 0 | POS | INT | 14 | 90 | 900 | (x/10)=90 | x 10 / 90 = | x:UNKNOWN 10:espresso /:UNKNOWN 90:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 80 | 10=(90-x) | 10 90 x - = | 10:espresso 90:espresso x:espresso -:espresso =:espresso
+EXPR: 0 | POS | INT | 14 | 90 | 80 | (10+x)=90 | 10 x + 90 = | 10:espresso x:espresso +:espresso 90:espresso =:espresso
+EXPR: 0 | POS | INT | 14 | 90 | 100 | 10=(x-90) | 10 x 90 - = | 10:espresso x:espresso 90:espresso -:espresso =:espresso
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,5 @@
+quantities : 0.1 80 x
+types : "time" "bead" "bead"
+operators : + - * / =
+n : 5
+answer : 8.0

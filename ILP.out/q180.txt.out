@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 90 | 9 | 36=(x*4) | 36 x 4 * = | 36:cookie x:UNKNOWN 4:cookie *:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 90 | 9 | 36=(4*x) | 36 4 x * = | 36:cookie 4:cookie x:UNKNOWN *:cookie =:cookie
+EXPR: 0 | POS | INT | 2 | 90 | 9 | (36/x)=4 | 36 x / 4 = | 36:cookie x:UNKNOWN /:cookie 4:cookie =:cookie
+EXPR: 0 | POS | INT | 4 | 90 | 9 | (x*4)=36 | x 4 * 36 = | x:UNKNOWN 4:cookie *:cookie 36:cookie =:cookie
+EXPR: 0 | POS | INT | 4 | 90 | 9 | (4*x)=36 | 4 x * 36 = | 4:cookie x:UNKNOWN *:cookie 36:cookie =:cookie
+EXPR: 0 | POS | INT | 4 | 90 | 9 | 4=(36/x) | 4 36 x / = | 4:cookie 36:cookie x:UNKNOWN /:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 90 | 40 | x=(36+4) | x 36 4 + = | x:cookie 36:cookie 4:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 90 | 144 | x=(36*4) | x 36 4 * = | x:UNKNOWN 36:cookie 4:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 32 | (36-4)=x | 36 4 - x = | 36:cookie 4:cookie -:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 90 | 144 | (36*4)=x | 36 4 * x = | 36:cookie 4:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 32 | x=(36-4) | x 36 4 - = | x:cookie 36:cookie 4:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 90 | 9 | x=(36/4) | x 36 4 / = | x:UNKNOWN 36:UNKNOWN 4:cookie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 90 | 40 | (36+4)=x | 36 4 + x = | 36:cookie 4:cookie +:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 90 | 9 | (36/4)=x | 36 4 / x = | 36:UNKNOWN 4:cookie /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 32 | (36-x)=4 | 36 x - 4 = | 36:cookie x:cookie -:cookie 4:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 90 | 32 | 36=(4+x) | 36 4 x + = | 36:cookie 4:cookie x:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 90 | 144 | (x/36)=4 | x 36 / 4 = | x:UNKNOWN 36:cookie /:UNKNOWN 4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 90 | 40 | (x-36)=4 | x 36 - 4 = | x:cookie 36:cookie -:cookie 4:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 90 | 40 | 36=(x-4) | 36 x 4 - = | 36:cookie x:cookie 4:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 90 | 32 | 36=(x+4) | 36 x 4 + = | 36:cookie x:cookie 4:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 90 | 144 | 36=(x/4) | 36 x 4 / = | 36:UNKNOWN x:UNKNOWN 4:cookie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 40 | (x-4)=36 | x 4 - 36 = | x:cookie 4:cookie -:cookie 36:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 90 | 144 | 4=(x/36) | 4 x 36 / = | 4:UNKNOWN x:UNKNOWN 36:cookie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 32 | (x+4)=36 | x 4 + 36 = | x:cookie 4:cookie +:cookie 36:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 90 | 144 | (x/4)=36 | x 4 / 36 = | x:UNKNOWN 4:cookie /:UNKNOWN 36:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 90 | 32 | 4=(36-x) | 4 36 x - = | 4:cookie 36:cookie x:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 90 | 32 | (4+x)=36 | 4 x + 36 = | 4:cookie x:cookie +:cookie 36:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 90 | 40 | 4=(x-36) | 4 x 36 - = | 4:cookie x:cookie 36:cookie -:cookie =:cookie
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

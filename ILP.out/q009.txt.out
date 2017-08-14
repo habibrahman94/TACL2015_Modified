@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 38.4 | 9.6 | x=(0.2*48) | x 0.2 48 * = | x:dollar 0.2:they 48:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 38.4 | 9.6 | (0.2*48)=x | 0.2 48 * x = | 0.2:they 48:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 38.4 | 240 | (48/0.2)=x | 48 0.2 / x = | 48:dollar 0.2:they /:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 38.4 | 240 | (0.2*x)=48 | 0.2 x * 48 = | 0.2:they x:dollar *:dollar 48:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 38.4 | 9.6 | (x/0.2)=48 | x 0.2 / 48 = | x:dollar 0.2:they /:dollar 48:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 38.4 | 240 | (x*0.2)=48 | x 0.2 * 48 = | x:dollar 0.2:they *:dollar 48:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 38.4 | 240 | x=(48/0.2) | x 48 0.2 / = | x:dollar 48:dollar 0.2:they /:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 38.4 | 240 | 48=(x*0.2) | 48 x 0.2 * = | 48:dollar x:dollar 0.2:they *:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 38.4 | 240 | 48=(0.2*x) | 48 0.2 x * = | 48:dollar 0.2:they x:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 38.4 | 9.6 | 48=(x/0.2) | 48 x 0.2 / = | 48:dollar x:dollar 0.2:they /:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 38.4 | 0.00416666666666667 | (0.2/48)=x | 0.2 48 / x = | 0.2:they 48:dollar /:they x:they =:they
+EXPR: 0 | POS | FRA | 10 | 38.4 | 48.2 | (0.2+48)=x | 0.2 48 + x = | 0.2:dollar 48:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 38.4 | 48.2 | x=(0.2+48) | x 0.2 48 + = | x:dollar 0.2:dollar 48:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 38.4 | 0.00416666666666667 | x=(0.2/48) | x 0.2 48 / = | x:they 0.2:they 48:dollar /:they =:they
+EXPR: 0 | POS | FRA | 12 | 38.4 | 0.00416666666666667 | 0.2=(x*48) | 0.2 x 48 * = | 0.2:they x:they 48:dollar *:they =:they
+EXPR: 0 | POS | INT | 12 | 38.4 | 240 | 0.2=(48/x) | 0.2 48 x / = | 0.2:they 48:they x:dollar /:they =:they
+EXPR: 0 | POS | FRA | 12 | 38.4 | 48.2 | (x-0.2)=48 | x 0.2 - 48 = | x:dollar 0.2:dollar -:dollar 48:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 0.00416666666666667 | (0.2/x)=48 | 0.2 x / 48 = | 0.2:they x:dollar /:they 48:they =:they
+EXPR: 0 | POS | FRA | 12 | 38.4 | 47.8 | (48-0.2)=x | 48 0.2 - x = | 48:dollar 0.2:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 47.8 | (x+0.2)=48 | x 0.2 + 48 = | x:dollar 0.2:dollar +:dollar 48:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 0.00416666666666667 | 0.2=(48*x) | 0.2 48 x * = | 0.2:they 48:they x:dollar *:they =:they
+EXPR: 0 | POS | FRA | 12 | 38.4 | 47.8 | (0.2+x)=48 | 0.2 x + 48 = | 0.2:dollar x:dollar +:dollar 48:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 47.8 | 0.2=(48-x) | 0.2 48 x - = | 0.2:dollar 48:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 47.8 | x=(48-0.2) | x 48 0.2 - = | x:dollar 48:dollar 0.2:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 48.2 | 0.2=(x-48) | 0.2 x 48 - = | 0.2:dollar x:dollar 48:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 38.4 | 9.6 | 0.2=(x/48) | 0.2 x 48 / = | 0.2:they x:they 48:dollar /:they =:they
+EXPR: 0 | POS | INT | 14 | 38.4 | 240 | (48/x)=0.2 | 48 x / 0.2 = | 48:they x:dollar /:they 0.2:they =:they
+EXPR: 0 | POS | FRA | 14 | 38.4 | 9.6 | (x/48)=0.2 | x 48 / 0.2 = | x:they 48:dollar /:they 0.2:they =:they
+EXPR: 0 | POS | FRA | 14 | 38.4 | 0.00416666666666667 | 48=(0.2/x) | 48 0.2 x / = | 48:they 0.2:they x:dollar /:they =:they
+EXPR: 0 | POS | FRA | 14 | 38.4 | 47.8 | (48-x)=0.2 | 48 x - 0.2 = | 48:dollar x:dollar -:dollar 0.2:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 38.4 | 0.00416666666666667 | (48*x)=0.2 | 48 x * 0.2 = | 48:they x:dollar *:they 0.2:they =:they
+EXPR: 0 | POS | FRA | 14 | 38.4 | 47.8 | 48=(0.2+x) | 48 0.2 x + = | 48:dollar 0.2:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 38.4 | 0.00416666666666667 | (x*48)=0.2 | x 48 * 0.2 = | x:dollar 48:they *:they 0.2:they =:they
+EXPR: 0 | POS | FRA | 14 | 38.4 | 48.2 | (x-48)=0.2 | x 48 - 0.2 = | x:dollar 48:dollar -:dollar 0.2:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 38.4 | 48.2 | 48=(x-0.2) | 48 x 0.2 - = | 48:dollar x:dollar 0.2:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 38.4 | 47.8 | 48=(x+0.2) | 48 x 0.2 + = | 48:dollar x:dollar 0.2:dollar +:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

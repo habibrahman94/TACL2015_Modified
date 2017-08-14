@@ -1,0 +1,5 @@
+quantities : 10 0.3 x
+types : "dollar" "Cody" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 13.0

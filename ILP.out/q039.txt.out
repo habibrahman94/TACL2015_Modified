@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 70 | 153 | x=(90+63) | x 90 63 + = | x:cookie 90:cookie 63:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 70 | 5670 | x=(90*63) | x 90 63 * = | x:UNKNOWN 90:cookie 63:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 70 | 27 | (90-63)=x | 90 63 - x = | 90:cookie 63:cookie -:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 70 | 5670 | (90*63)=x | 90 63 * x = | 90:cookie 63:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 70 | 27 | x=(90-63) | x 90 63 - = | x:cookie 90:cookie 63:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 10 | 70 | 153 | (90+63)=x | 90 63 + x = | 90:cookie 63:cookie +:cookie x:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 70 | 27 | (90-x)=63 | 90 x - 63 = | 90:cookie x:cookie -:cookie 63:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 70 | 27 | 90=(63+x) | 90 63 x + = | 90:cookie 63:cookie x:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 70 | 5670 | (x/90)=63 | x 90 / 63 = | x:UNKNOWN 90:cookie /:UNKNOWN 63:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 70 | 153 | (x-90)=63 | x 90 - 63 = | x:cookie 90:cookie -:cookie 63:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 70 | 153 | 90=(x-63) | 90 x 63 - = | 90:cookie x:cookie 63:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 70 | 27 | 90=(x+63) | 90 x 63 + = | 90:cookie x:cookie 63:cookie +:cookie =:cookie
+EXPR: 0 | POS | INT | 12 | 70 | 5670 | 90=(x/63) | 90 x 63 / = | 90:UNKNOWN x:UNKNOWN 63:cookie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 153 | (x-63)=90 | x 63 - 90 = | x:cookie 63:cookie -:cookie 90:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 70 | 5670 | 63=(x/90) | 63 x 90 / = | 63:UNKNOWN x:UNKNOWN 90:cookie /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 27 | (x+63)=90 | x 63 + 90 = | x:cookie 63:cookie +:cookie 90:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 70 | 5670 | (x/63)=90 | x 63 / 90 = | x:UNKNOWN 63:cookie /:UNKNOWN 90:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 27 | 63=(90-x) | 63 90 x - = | 63:cookie 90:cookie x:cookie -:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 70 | 27 | (63+x)=90 | 63 x + 90 = | 63:cookie x:cookie +:cookie 90:cookie =:cookie
+EXPR: 0 | POS | INT | 14 | 70 | 153 | 63=(x-90) | 63 x 90 - = | 63:cookie x:cookie 90:cookie -:cookie =:cookie
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

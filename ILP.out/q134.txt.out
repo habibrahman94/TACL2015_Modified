@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 42 | 85.7142857142857 | x=(60/0.7) | x 60 0.7 / = | x:tree 60:tree 0.7:time /:tree =:tree
+EXPR: 1 | POS | INT | 0 | 42 | 42 | (60*0.7)=x | 60 0.7 * x = | 60:tree 0.7:time *:tree x:tree =:tree
+EXPR: 1 | POS | INT | 0 | 42 | 42 | x=(60*0.7) | x 60 0.7 * = | x:tree 60:tree 0.7:time *:tree =:tree
+EXPR: 0 | POS | FRA | 0 | 42 | 85.7142857142857 | (60/0.7)=x | 60 0.7 / x = | 60:tree 0.7:time /:tree x:tree =:tree
+EXPR: 1 | POS | INT | 2 | 42 | 42 | 60=(x/0.7) | 60 x 0.7 / = | 60:tree x:tree 0.7:time /:tree =:tree
+EXPR: 0 | POS | FRA | 2 | 42 | 85.7142857142857 | 60=(x*0.7) | 60 x 0.7 * = | 60:tree x:tree 0.7:time *:tree =:tree
+EXPR: 0 | POS | FRA | 2 | 42 | 85.7142857142857 | 60=(0.7*x) | 60 0.7 x * = | 60:tree 0.7:time x:tree *:tree =:tree
+EXPR: 0 | POS | FRA | 4 | 42 | 85.7142857142857 | (0.7*x)=60 | 0.7 x * 60 = | 0.7:time x:tree *:tree 60:tree =:tree
+EXPR: 0 | POS | FRA | 4 | 42 | 85.7142857142857 | (x*0.7)=60 | x 0.7 * 60 = | x:tree 0.7:time *:tree 60:tree =:tree
+EXPR: 1 | POS | INT | 4 | 42 | 42 | (x/0.7)=60 | x 0.7 / 60 = | x:tree 0.7:time /:tree 60:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 42 | 60.7 | (60+0.7)=x | 60 0.7 + x = | 60:tree 0.7:tree +:tree x:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 42 | 60.7 | x=(60+0.7) | x 60 0.7 + = | x:tree 60:tree 0.7:tree +:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 42 | 59.3 | (60-0.7)=x | 60 0.7 - x = | 60:tree 0.7:tree -:tree x:tree =:tree
+EXPR: 0 | POS | FRA | 10 | 42 | 59.3 | x=(60-0.7) | x 60 0.7 - = | x:tree 60:tree 0.7:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 42 | 59.3 | 60=(x+0.7) | 60 x 0.7 + = | 60:tree x:tree 0.7:tree +:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0116666666666667 | 60=(0.7/x) | 60 0.7 x / = | 60:time 0.7:time x:tree /:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0116666666666667 | (x*60)=0.7 | x 60 * 0.7 = | x:tree 60:time *:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 85.7142857142857 | (60/x)=0.7 | 60 x / 0.7 = | 60:time x:tree /:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0116666666666667 | x=(0.7/60) | x 0.7 60 / = | x:time 0.7:time 60:tree /:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 60.7 | 60=(x-0.7) | 60 x 0.7 - = | 60:tree x:tree 0.7:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0116666666666667 | (0.7/60)=x | 0.7 60 / x = | 0.7:time 60:tree /:time x:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 0.0116666666666667 | (60*x)=0.7 | 60 x * 0.7 = | 60:time x:tree *:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 60.7 | (x-60)=0.7 | x 60 - 0.7 = | x:tree 60:tree -:tree 0.7:tree =:tree
+EXPR: 0 | POS | FRA | 12 | 42 | 59.3 | (60-x)=0.7 | 60 x - 0.7 = | 60:tree x:tree -:tree 0.7:tree =:tree
+EXPR: 1 | POS | INT | 12 | 42 | 42 | (x/60)=0.7 | x 60 / 0.7 = | x:time 60:tree /:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 12 | 42 | 59.3 | 60=(0.7+x) | 60 0.7 x + = | 60:tree 0.7:tree x:tree +:tree =:tree
+EXPR: 1 | POS | INT | 14 | 42 | 42 | 0.7=(x/60) | 0.7 x 60 / = | 0.7:time x:time 60:tree /:time =:time
+EXPR: 0 | POS | FRA | 14 | 42 | 85.7142857142857 | 0.7=(60/x) | 0.7 60 x / = | 0.7:time 60:time x:tree /:time =:time
+EXPR: 0 | POS | FRA | 14 | 42 | 59.3 | (0.7+x)=60 | 0.7 x + 60 = | 0.7:tree x:tree +:tree 60:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 42 | 59.3 | (x+0.7)=60 | x 0.7 + 60 = | x:tree 0.7:tree +:tree 60:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 42 | 0.0116666666666667 | 0.7=(60*x) | 0.7 60 x * = | 0.7:time 60:tree x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 42 | 0.0116666666666667 | (0.7/x)=60 | 0.7 x / 60 = | 0.7:time x:tree /:time 60:time =:time
+EXPR: 0 | POS | FRA | 14 | 42 | 59.3 | 0.7=(60-x) | 0.7 60 x - = | 0.7:tree 60:tree x:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 42 | 60.7 | 0.7=(x-60) | 0.7 x 60 - = | 0.7:tree x:tree 60:tree -:tree =:tree
+EXPR: 0 | POS | FRA | 14 | 42 | 0.0116666666666667 | 0.7=(x*60) | 0.7 x 60 * = | 0.7:time x:tree 60:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 42 | 60.7 | (x-0.7)=60 | x 0.7 - 60 = | x:tree 0.7:tree -:tree 60:tree =:tree
+NET 36 unique, non-negative solutions found out of 136 total solutions

@@ -1,0 +1,5 @@
+quantities : 95 76 x
+types : "flower" "flower" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 80.0

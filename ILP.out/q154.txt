@@ -1,0 +1,5 @@
+quantities : 95 19 x
+types : "seat" "seat" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 20.0

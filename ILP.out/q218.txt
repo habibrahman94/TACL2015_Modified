@@ -1,0 +1,5 @@
+quantities : 5,820 0.7 x
+types : "lamp" "supplier" "lamp"
+operators : + - * / =
+n : 5
+answer : 9894.0

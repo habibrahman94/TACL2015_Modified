@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 25 | 3 | 13=(39/x) | 13 39 x / = | 13:coffee 39:coffee x:UNKNOWN /:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (x*13)=39 | x 13 * 39 = | x:UNKNOWN 13:coffee *:coffee 39:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (13*x)=39 | 13 x * 39 = | 13:coffee x:UNKNOWN *:coffee 39:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 25 | 3 | 39=(x*13) | 39 x 13 * = | 39:coffee x:UNKNOWN 13:coffee *:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 25 | 3 | (39/x)=13 | 39 x / 13 = | 39:coffee x:UNKNOWN /:coffee 13:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 25 | 3 | 39=(13*x) | 39 13 x * = | 39:coffee 13:coffee x:UNKNOWN *:coffee =:coffee
+EXPR: 0 | POS | INT | 10 | 25 | 52 | x=(13+39) | x 13 39 + = | x:coffee 13:coffee 39:coffee +:coffee =:coffee
+EXPR: 0 | POS | INT | 10 | 25 | 507 | x=(13*39) | x 13 39 * = | x:UNKNOWN 13:coffee 39:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 507 | (13*39)=x | 13 39 * x = | 13:coffee 39:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 52 | (13+39)=x | 13 39 + x = | 13:coffee 39:coffee +:coffee x:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 26 | 13=(39-x) | 13 39 x - = | 13:coffee 39:coffee x:coffee -:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 3 | x=(39/13) | x 39 13 / = | x:UNKNOWN 39:UNKNOWN 13:coffee /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 507 | (x/13)=39 | x 13 / 39 = | x:UNKNOWN 13:coffee /:UNKNOWN 39:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 52 | (x-13)=39 | x 13 - 39 = | x:coffee 13:coffee -:coffee 39:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 52 | 13=(x-39) | 13 x 39 - = | 13:coffee x:coffee 39:coffee -:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 26 | (39-13)=x | 39 13 - x = | 39:coffee 13:coffee -:coffee x:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 26 | x=(39-13) | x 39 13 - = | x:coffee 39:coffee 13:coffee -:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 26 | (x+13)=39 | x 13 + 39 = | x:coffee 13:coffee +:coffee 39:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 507 | 13=(x/39) | 13 x 39 / = | 13:UNKNOWN x:UNKNOWN 39:coffee /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 26 | (13+x)=39 | 13 x + 39 = | 13:coffee x:coffee +:coffee 39:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 25 | 3 | (39/13)=x | 39 13 / x = | 39:UNKNOWN 13:coffee /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 26 | (39-x)=13 | 39 x - 13 = | 39:coffee x:coffee -:coffee 13:coffee =:coffee
+EXPR: 0 | POS | INT | 14 | 25 | 52 | (x-39)=13 | x 39 - 13 = | x:coffee 39:coffee -:coffee 13:coffee =:coffee
+EXPR: 0 | POS | INT | 14 | 25 | 507 | 39=(x/13) | 39 x 13 / = | 39:UNKNOWN x:UNKNOWN 13:coffee /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 507 | (x/39)=13 | x 39 / 13 = | x:UNKNOWN 39:coffee /:UNKNOWN 13:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 26 | 39=(13+x) | 39 13 x + = | 39:coffee 13:coffee x:coffee +:coffee =:coffee
+EXPR: 0 | POS | INT | 14 | 25 | 52 | 39=(x-13) | 39 x 13 - = | 39:coffee x:coffee 13:coffee -:coffee =:coffee
+EXPR: 0 | POS | INT | 14 | 25 | 26 | 39=(x+13) | 39 x 13 + = | 39:coffee x:coffee 13:coffee +:coffee =:coffee
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 25 | 4 | 72=(x*18) | 72 x 18 * = | 72:vote x:UNKNOWN 18:vote *:vote =:vote
+EXPR: 0 | POS | INT | 2 | 25 | 4 | 72=(18*x) | 72 18 x * = | 72:vote 18:vote x:UNKNOWN *:vote =:vote
+EXPR: 0 | POS | INT | 2 | 25 | 4 | (72/x)=18 | 72 x / 18 = | 72:vote x:UNKNOWN /:vote 18:vote =:vote
+EXPR: 0 | POS | INT | 4 | 25 | 4 | (x*18)=72 | x 18 * 72 = | x:UNKNOWN 18:vote *:vote 72:vote =:vote
+EXPR: 0 | POS | INT | 4 | 25 | 4 | (18*x)=72 | 18 x * 72 = | 18:vote x:UNKNOWN *:vote 72:vote =:vote
+EXPR: 0 | POS | INT | 4 | 25 | 4 | 18=(72/x) | 18 72 x / = | 18:vote 72:vote x:UNKNOWN /:vote =:vote
+EXPR: 0 | POS | INT | 10 | 25 | 90 | x=(72+18) | x 72 18 + = | x:vote 72:vote 18:vote +:vote =:vote
+EXPR: 0 | POS | INT | 10 | 25 | 1296 | x=(72*18) | x 72 18 * = | x:UNKNOWN 72:vote 18:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 54 | (72-18)=x | 72 18 - x = | 72:vote 18:vote -:vote x:vote =:vote
+EXPR: 0 | POS | INT | 10 | 25 | 1296 | (72*18)=x | 72 18 * x = | 72:vote 18:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 54 | x=(72-18) | x 72 18 - = | x:vote 72:vote 18:vote -:vote =:vote
+EXPR: 0 | POS | INT | 10 | 25 | 4 | x=(72/18) | x 72 18 / = | x:UNKNOWN 72:UNKNOWN 18:vote /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 90 | (72+18)=x | 72 18 + x = | 72:vote 18:vote +:vote x:vote =:vote
+EXPR: 0 | POS | INT | 10 | 25 | 4 | (72/18)=x | 72 18 / x = | 72:UNKNOWN 18:vote /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 54 | (72-x)=18 | 72 x - 18 = | 72:vote x:vote -:vote 18:vote =:vote
+EXPR: 0 | POS | INT | 12 | 25 | 54 | 72=(18+x) | 72 18 x + = | 72:vote 18:vote x:vote +:vote =:vote
+EXPR: 0 | POS | INT | 12 | 25 | 1296 | (x/72)=18 | x 72 / 18 = | x:UNKNOWN 72:vote /:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 90 | (x-72)=18 | x 72 - 18 = | x:vote 72:vote -:vote 18:vote =:vote
+EXPR: 0 | POS | INT | 12 | 25 | 90 | 72=(x-18) | 72 x 18 - = | 72:vote x:vote 18:vote -:vote =:vote
+EXPR: 0 | POS | INT | 12 | 25 | 54 | 72=(x+18) | 72 x 18 + = | 72:vote x:vote 18:vote +:vote =:vote
+EXPR: 0 | POS | INT | 12 | 25 | 1296 | 72=(x/18) | 72 x 18 / = | 72:UNKNOWN x:UNKNOWN 18:vote /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 90 | (x-18)=72 | x 18 - 72 = | x:vote 18:vote -:vote 72:vote =:vote
+EXPR: 0 | POS | INT | 14 | 25 | 1296 | 18=(x/72) | 18 x 72 / = | 18:UNKNOWN x:UNKNOWN 72:vote /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 54 | (x+18)=72 | x 18 + 72 = | x:vote 18:vote +:vote 72:vote =:vote
+EXPR: 0 | POS | INT | 14 | 25 | 1296 | (x/18)=72 | x 18 / 72 = | x:UNKNOWN 18:vote /:UNKNOWN 72:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 54 | 18=(72-x) | 18 72 x - = | 18:vote 72:vote x:vote -:vote =:vote
+EXPR: 0 | POS | INT | 14 | 25 | 54 | (18+x)=72 | 18 x + 72 = | 18:vote x:vote +:vote 72:vote =:vote
+EXPR: 0 | POS | INT | 14 | 25 | 90 | 18=(x-72) | 18 x 72 - = | 18:vote x:vote 72:vote -:vote =:vote
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

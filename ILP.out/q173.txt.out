@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 20 | 4 | 18=(72/x) | 18 72 x / = | 18:burger 72:burger x:UNKNOWN /:burger =:burger
+EXPR: 0 | POS | INT | 2 | 20 | 4 | (x*18)=72 | x 18 * 72 = | x:UNKNOWN 18:burger *:burger 72:burger =:burger
+EXPR: 0 | POS | INT | 2 | 20 | 4 | (18*x)=72 | 18 x * 72 = | 18:burger x:UNKNOWN *:burger 72:burger =:burger
+EXPR: 0 | POS | INT | 4 | 20 | 4 | 72=(x*18) | 72 x 18 * = | 72:burger x:UNKNOWN 18:burger *:burger =:burger
+EXPR: 0 | POS | INT | 4 | 20 | 4 | (72/x)=18 | 72 x / 18 = | 72:burger x:UNKNOWN /:burger 18:burger =:burger
+EXPR: 0 | POS | INT | 4 | 20 | 4 | 72=(18*x) | 72 18 x * = | 72:burger 18:burger x:UNKNOWN *:burger =:burger
+EXPR: 0 | POS | INT | 10 | 20 | 90 | x=(18+72) | x 18 72 + = | x:burger 18:burger 72:burger +:burger =:burger
+EXPR: 0 | POS | INT | 10 | 20 | 1296 | x=(18*72) | x 18 72 * = | x:UNKNOWN 18:burger 72:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 1296 | (18*72)=x | 18 72 * x = | 18:burger 72:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 90 | (18+72)=x | 18 72 + x = | 18:burger 72:burger +:burger x:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 54 | 18=(72-x) | 18 72 x - = | 18:burger 72:burger x:burger -:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 4 | x=(72/18) | x 72 18 / = | x:UNKNOWN 72:UNKNOWN 18:burger /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 1296 | (x/18)=72 | x 18 / 72 = | x:UNKNOWN 18:burger /:UNKNOWN 72:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 90 | (x-18)=72 | x 18 - 72 = | x:burger 18:burger -:burger 72:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 90 | 18=(x-72) | 18 x 72 - = | 18:burger x:burger 72:burger -:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 54 | (72-18)=x | 72 18 - x = | 72:burger 18:burger -:burger x:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 54 | x=(72-18) | x 72 18 - = | x:burger 72:burger 18:burger -:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 54 | (x+18)=72 | x 18 + 72 = | x:burger 18:burger +:burger 72:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 1296 | 18=(x/72) | 18 x 72 / = | 18:UNKNOWN x:UNKNOWN 72:burger /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 54 | (18+x)=72 | 18 x + 72 = | 18:burger x:burger +:burger 72:burger =:burger
+EXPR: 0 | POS | INT | 12 | 20 | 4 | (72/18)=x | 72 18 / x = | 72:UNKNOWN 18:burger /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 54 | (72-x)=18 | 72 x - 18 = | 72:burger x:burger -:burger 18:burger =:burger
+EXPR: 0 | POS | INT | 14 | 20 | 90 | (x-72)=18 | x 72 - 18 = | x:burger 72:burger -:burger 18:burger =:burger
+EXPR: 0 | POS | INT | 14 | 20 | 1296 | 72=(x/18) | 72 x 18 / = | 72:UNKNOWN x:UNKNOWN 18:burger /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 1296 | (x/72)=18 | x 72 / 18 = | x:UNKNOWN 72:burger /:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 54 | 72=(18+x) | 72 18 x + = | 72:burger 18:burger x:burger +:burger =:burger
+EXPR: 0 | POS | INT | 14 | 20 | 90 | 72=(x-18) | 72 x 18 - = | 72:burger x:burger 18:burger -:burger =:burger
+EXPR: 0 | POS | INT | 14 | 20 | 54 | 72=(x+18) | 72 x 18 + = | 72:burger x:burger 18:burger +:burger =:burger
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

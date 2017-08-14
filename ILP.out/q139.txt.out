@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 3 | 3 | x=(0.5*6) | x 0.5 6 * = | x:member 0.5:club 6:member *:member =:member
+EXPR: 1 | POS | INT | 0 | 3 | 3 | (0.5*6)=x | 0.5 6 * x = | 0.5:club 6:member *:member x:member =:member
+EXPR: 0 | POS | INT | 2 | 3 | 12 | (6/0.5)=x | 6 0.5 / x = | 6:member 0.5:club /:member x:member =:member
+EXPR: 0 | POS | INT | 2 | 3 | 12 | (0.5*x)=6 | 0.5 x * 6 = | 0.5:club x:member *:member 6:member =:member
+EXPR: 1 | POS | INT | 2 | 3 | 3 | (x/0.5)=6 | x 0.5 / 6 = | x:member 0.5:club /:member 6:member =:member
+EXPR: 0 | POS | INT | 2 | 3 | 12 | (x*0.5)=6 | x 0.5 * 6 = | x:member 0.5:club *:member 6:member =:member
+EXPR: 0 | POS | INT | 2 | 3 | 12 | x=(6/0.5) | x 6 0.5 / = | x:member 6:member 0.5:club /:member =:member
+EXPR: 0 | POS | INT | 4 | 3 | 12 | 6=(x*0.5) | 6 x 0.5 * = | 6:member x:member 0.5:club *:member =:member
+EXPR: 0 | POS | INT | 4 | 3 | 12 | 6=(0.5*x) | 6 0.5 x * = | 6:member 0.5:club x:member *:member =:member
+EXPR: 1 | POS | INT | 4 | 3 | 3 | 6=(x/0.5) | 6 x 0.5 / = | 6:member x:member 0.5:club /:member =:member
+EXPR: 0 | POS | FRA | 10 | 3 | 0.0833333333333333 | (0.5/6)=x | 0.5 6 / x = | 0.5:club 6:member /:club x:club =:club
+EXPR: 0 | POS | FRA | 10 | 3 | 6.5 | (0.5+6)=x | 0.5 6 + x = | 0.5:member 6:member +:member x:member =:member
+EXPR: 0 | POS | FRA | 10 | 3 | 6.5 | x=(0.5+6) | x 0.5 6 + = | x:member 0.5:member 6:member +:member =:member
+EXPR: 0 | POS | FRA | 10 | 3 | 0.0833333333333333 | x=(0.5/6) | x 0.5 6 / = | x:club 0.5:club 6:member /:club =:club
+EXPR: 0 | POS | FRA | 12 | 3 | 0.0833333333333333 | 0.5=(x*6) | 0.5 x 6 * = | 0.5:club x:club 6:member *:club =:club
+EXPR: 0 | POS | INT | 12 | 3 | 12 | 0.5=(6/x) | 0.5 6 x / = | 0.5:club 6:club x:member /:club =:club
+EXPR: 0 | POS | FRA | 12 | 3 | 6.5 | (x-0.5)=6 | x 0.5 - 6 = | x:member 0.5:member -:member 6:member =:member
+EXPR: 0 | POS | FRA | 12 | 3 | 0.0833333333333333 | (0.5/x)=6 | 0.5 x / 6 = | 0.5:club x:member /:club 6:club =:club
+EXPR: 0 | POS | FRA | 12 | 3 | 5.5 | (6-0.5)=x | 6 0.5 - x = | 6:member 0.5:member -:member x:member =:member
+EXPR: 0 | POS | FRA | 12 | 3 | 5.5 | (x+0.5)=6 | x 0.5 + 6 = | x:member 0.5:member +:member 6:member =:member
+EXPR: 0 | POS | FRA | 12 | 3 | 0.0833333333333333 | 0.5=(6*x) | 0.5 6 x * = | 0.5:club 6:club x:member *:club =:club
+EXPR: 0 | POS | FRA | 12 | 3 | 5.5 | (0.5+x)=6 | 0.5 x + 6 = | 0.5:member x:member +:member 6:member =:member
+EXPR: 0 | POS | FRA | 12 | 3 | 5.5 | 0.5=(6-x) | 0.5 6 x - = | 0.5:member 6:member x:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 3 | 5.5 | x=(6-0.5) | x 6 0.5 - = | x:member 6:member 0.5:member -:member =:member
+EXPR: 0 | POS | FRA | 12 | 3 | 6.5 | 0.5=(x-6) | 0.5 x 6 - = | 0.5:member x:member 6:member -:member =:member
+EXPR: 1 | POS | INT | 12 | 3 | 3 | 0.5=(x/6) | 0.5 x 6 / = | 0.5:club x:club 6:member /:club =:club
+EXPR: 0 | POS | INT | 14 | 3 | 12 | (6/x)=0.5 | 6 x / 0.5 = | 6:club x:member /:club 0.5:club =:club
+EXPR: 1 | POS | INT | 14 | 3 | 3 | (x/6)=0.5 | x 6 / 0.5 = | x:club 6:member /:club 0.5:club =:club
+EXPR: 0 | POS | FRA | 14 | 3 | 0.0833333333333333 | 6=(0.5/x) | 6 0.5 x / = | 6:club 0.5:club x:member /:club =:club
+EXPR: 0 | POS | FRA | 14 | 3 | 5.5 | (6-x)=0.5 | 6 x - 0.5 = | 6:member x:member -:member 0.5:member =:member
+EXPR: 0 | POS | FRA | 14 | 3 | 0.0833333333333333 | (6*x)=0.5 | 6 x * 0.5 = | 6:club x:member *:club 0.5:club =:club
+EXPR: 0 | POS | FRA | 14 | 3 | 5.5 | 6=(0.5+x) | 6 0.5 x + = | 6:member 0.5:member x:member +:member =:member
+EXPR: 0 | POS | FRA | 14 | 3 | 0.0833333333333333 | (x*6)=0.5 | x 6 * 0.5 = | x:member 6:club *:club 0.5:club =:club
+EXPR: 0 | POS | FRA | 14 | 3 | 6.5 | (x-6)=0.5 | x 6 - 0.5 = | x:member 6:member -:member 0.5:member =:member
+EXPR: 0 | POS | FRA | 14 | 3 | 6.5 | 6=(x-0.5) | 6 x 0.5 - = | 6:member x:member 0.5:member -:member =:member
+EXPR: 0 | POS | FRA | 14 | 3 | 5.5 | 6=(x+0.5) | 6 x 0.5 + = | 6:member x:member 0.5:member +:member =:member
+NET 36 unique, non-negative solutions found out of 136 total solutions

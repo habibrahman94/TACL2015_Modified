@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 16 | 16 | x=(0.8*20) | x 0.8 20 * = | x:bead 0.8:time 20:bead *:bead =:bead
+EXPR: 1 | POS | INT | 0 | 16 | 16 | (0.8*20)=x | 0.8 20 * x = | 0.8:time 20:bead *:bead x:bead =:bead
+EXPR: 0 | POS | INT | 2 | 16 | 25 | (20/0.8)=x | 20 0.8 / x = | 20:bead 0.8:time /:bead x:bead =:bead
+EXPR: 0 | POS | INT | 2 | 16 | 25 | (0.8*x)=20 | 0.8 x * 20 = | 0.8:time x:bead *:bead 20:bead =:bead
+EXPR: 1 | POS | INT | 2 | 16 | 16 | (x/0.8)=20 | x 0.8 / 20 = | x:bead 0.8:time /:bead 20:bead =:bead
+EXPR: 0 | POS | INT | 2 | 16 | 25 | (x*0.8)=20 | x 0.8 * 20 = | x:bead 0.8:time *:bead 20:bead =:bead
+EXPR: 0 | POS | INT | 2 | 16 | 25 | x=(20/0.8) | x 20 0.8 / = | x:bead 20:bead 0.8:time /:bead =:bead
+EXPR: 0 | POS | INT | 4 | 16 | 25 | 20=(x*0.8) | 20 x 0.8 * = | 20:bead x:bead 0.8:time *:bead =:bead
+EXPR: 0 | POS | INT | 4 | 16 | 25 | 20=(0.8*x) | 20 0.8 x * = | 20:bead 0.8:time x:bead *:bead =:bead
+EXPR: 1 | POS | INT | 4 | 16 | 16 | 20=(x/0.8) | 20 x 0.8 / = | 20:bead x:bead 0.8:time /:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 16 | 0.04 | (0.8/20)=x | 0.8 20 / x = | 0.8:time 20:bead /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 16 | 20.8 | (0.8+20)=x | 0.8 20 + x = | 0.8:bead 20:bead +:bead x:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 16 | 20.8 | x=(0.8+20) | x 0.8 20 + = | x:bead 0.8:bead 20:bead +:bead =:bead
+EXPR: 0 | POS | FRA | 10 | 16 | 0.04 | x=(0.8/20) | x 0.8 20 / = | x:time 0.8:time 20:bead /:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | 0.8=(x*20) | 0.8 x 20 * = | 0.8:time x:time 20:bead *:time =:time
+EXPR: 0 | POS | INT | 12 | 16 | 25 | 0.8=(20/x) | 0.8 20 x / = | 0.8:time 20:time x:bead /:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 20.8 | (x-0.8)=20 | x 0.8 - 20 = | x:bead 0.8:bead -:bead 20:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | (0.8/x)=20 | 0.8 x / 20 = | 0.8:time x:bead /:time 20:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | (20-0.8)=x | 20 0.8 - x = | 20:bead 0.8:bead -:bead x:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | (x+0.8)=20 | x 0.8 + 20 = | x:bead 0.8:bead +:bead 20:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | 0.8=(20*x) | 0.8 20 x * = | 0.8:time 20:time x:bead *:time =:time
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | (0.8+x)=20 | 0.8 x + 20 = | 0.8:bead x:bead +:bead 20:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | 0.8=(20-x) | 0.8 20 x - = | 0.8:bead 20:bead x:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | x=(20-0.8) | x 20 0.8 - = | x:bead 20:bead 0.8:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 12 | 16 | 20.8 | 0.8=(x-20) | 0.8 x 20 - = | 0.8:bead x:bead 20:bead -:bead =:bead
+EXPR: 1 | POS | INT | 12 | 16 | 16 | 0.8=(x/20) | 0.8 x 20 / = | 0.8:time x:time 20:bead /:time =:time
+EXPR: 0 | POS | INT | 14 | 16 | 25 | (20/x)=0.8 | 20 x / 0.8 = | 20:time x:bead /:time 0.8:time =:time
+EXPR: 1 | POS | INT | 14 | 16 | 16 | (x/20)=0.8 | x 20 / 0.8 = | x:time 20:bead /:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | 20=(0.8/x) | 20 0.8 x / = | 20:time 0.8:time x:bead /:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 19.2 | (20-x)=0.8 | 20 x - 0.8 = | 20:bead x:bead -:bead 0.8:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | (20*x)=0.8 | 20 x * 0.8 = | 20:time x:bead *:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 19.2 | 20=(0.8+x) | 20 0.8 x + = | 20:bead 0.8:bead x:bead +:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | (x*20)=0.8 | x 20 * 0.8 = | x:bead 20:time *:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 20.8 | (x-20)=0.8 | x 20 - 0.8 = | x:bead 20:bead -:bead 0.8:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 16 | 20.8 | 20=(x-0.8) | 20 x 0.8 - = | 20:bead x:bead 0.8:bead -:bead =:bead
+EXPR: 0 | POS | FRA | 14 | 16 | 19.2 | 20=(x+0.8) | 20 x 0.8 + = | 20:bead x:bead 0.8:bead +:bead =:bead
+NET 36 unique, non-negative solutions found out of 136 total solutions

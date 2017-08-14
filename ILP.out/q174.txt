@@ -1,0 +1,5 @@
+quantities : 30 45 x
+types : "milkshake" "milkshake" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 40.0

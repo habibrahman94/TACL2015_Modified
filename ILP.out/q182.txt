@@ -1,0 +1,5 @@
+quantities : 22 66 x
+types : "member" "member" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 25.0

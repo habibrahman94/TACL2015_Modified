@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 5=(50/x) | 5 50 x / = | 5:employee 50:employee x:UNKNOWN /:employee =:employee
+EXPR: 1 | POS | INT | 2 | 10 | 10 | (x*5)=50 | x 5 * 50 = | x:UNKNOWN 5:employee *:employee 50:employee =:employee
+EXPR: 1 | POS | INT | 2 | 10 | 10 | (5*x)=50 | 5 x * 50 = | 5:employee x:UNKNOWN *:employee 50:employee =:employee
+EXPR: 1 | POS | INT | 4 | 10 | 10 | 50=(x*5) | 50 x 5 * = | 50:employee x:UNKNOWN 5:employee *:employee =:employee
+EXPR: 1 | POS | INT | 4 | 10 | 10 | (50/x)=5 | 50 x / 5 = | 50:employee x:UNKNOWN /:employee 5:employee =:employee
+EXPR: 1 | POS | INT | 4 | 10 | 10 | 50=(5*x) | 50 5 x * = | 50:employee 5:employee x:UNKNOWN *:employee =:employee
+EXPR: 0 | POS | INT | 10 | 10 | 55 | x=(5+50) | x 5 50 + = | x:employee 5:employee 50:employee +:employee =:employee
+EXPR: 0 | POS | INT | 10 | 10 | 250 | x=(5*50) | x 5 50 * = | x:UNKNOWN 5:employee 50:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 250 | (5*50)=x | 5 50 * x = | 5:employee 50:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 55 | (5+50)=x | 5 50 + x = | 5:employee 50:employee +:employee x:employee =:employee
+EXPR: 0 | POS | INT | 12 | 10 | 45 | 5=(50-x) | 5 50 x - = | 5:employee 50:employee x:employee -:employee =:employee
+EXPR: 1 | POS | INT | 12 | 10 | 10 | x=(50/5) | x 50 5 / = | x:UNKNOWN 50:UNKNOWN 5:employee /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 250 | (x/5)=50 | x 5 / 50 = | x:UNKNOWN 5:employee /:UNKNOWN 50:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 55 | (x-5)=50 | x 5 - 50 = | x:employee 5:employee -:employee 50:employee =:employee
+EXPR: 0 | POS | INT | 12 | 10 | 55 | 5=(x-50) | 5 x 50 - = | 5:employee x:employee 50:employee -:employee =:employee
+EXPR: 0 | POS | INT | 12 | 10 | 45 | (50-5)=x | 50 5 - x = | 50:employee 5:employee -:employee x:employee =:employee
+EXPR: 0 | POS | INT | 12 | 10 | 45 | x=(50-5) | x 50 5 - = | x:employee 50:employee 5:employee -:employee =:employee
+EXPR: 0 | POS | INT | 12 | 10 | 45 | (x+5)=50 | x 5 + 50 = | x:employee 5:employee +:employee 50:employee =:employee
+EXPR: 0 | POS | INT | 12 | 10 | 250 | 5=(x/50) | 5 x 50 / = | 5:UNKNOWN x:UNKNOWN 50:employee /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 45 | (5+x)=50 | 5 x + 50 = | 5:employee x:employee +:employee 50:employee =:employee
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (50/5)=x | 50 5 / x = | 50:UNKNOWN 5:employee /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 45 | (50-x)=5 | 50 x - 5 = | 50:employee x:employee -:employee 5:employee =:employee
+EXPR: 0 | POS | INT | 14 | 10 | 55 | (x-50)=5 | x 50 - 5 = | x:employee 50:employee -:employee 5:employee =:employee
+EXPR: 0 | POS | INT | 14 | 10 | 250 | 50=(x/5) | 50 x 5 / = | 50:UNKNOWN x:UNKNOWN 5:employee /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 250 | (x/50)=5 | x 50 / 5 = | x:UNKNOWN 50:employee /:UNKNOWN 5:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 45 | 50=(5+x) | 50 5 x + = | 50:employee 5:employee x:employee +:employee =:employee
+EXPR: 0 | POS | INT | 14 | 10 | 55 | 50=(x-5) | 50 x 5 - = | 50:employee x:employee 5:employee -:employee =:employee
+EXPR: 0 | POS | INT | 14 | 10 | 45 | 50=(x+5) | 50 x 5 + = | 50:employee x:employee 5:employee +:employee =:employee
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 15 | 3034 | x=(1640+1394) | x 1640 1394 + = | x:kilogram 1640:kilogram 1394:kilogram +:kilogram =:kilogram
+EXPR: 0 | POS | INT | 10 | 15 | 2286160 | x=(1640*1394) | x 1640 1394 * = | x:bakery 1640:kilogram 1394:bakery *:bakery =:bakery
+EXPR: 0 | POS | INT | 10 | 15 | 246 | (1640-1394)=x | 1640 1394 - x = | 1640:kilogram 1394:kilogram -:kilogram x:kilogram =:kilogram
+EXPR: 0 | POS | INT | 10 | 15 | 2286160 | (1640*1394)=x | 1640 1394 * x = | 1640:kilogram 1394:bakery *:bakery x:bakery =:bakery
+EXPR: 0 | POS | INT | 10 | 15 | 246 | x=(1640-1394) | x 1640 1394 - = | x:kilogram 1640:kilogram 1394:kilogram -:kilogram =:kilogram
+EXPR: 0 | POS | INT | 10 | 15 | 3034 | (1640+1394)=x | 1640 1394 + x = | 1640:kilogram 1394:kilogram +:kilogram x:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 15 | 246 | (1640-x)=1394 | 1640 x - 1394 = | 1640:kilogram x:kilogram -:kilogram 1394:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 15 | 246 | 1640=(1394+x) | 1640 1394 x + = | 1640:kilogram 1394:kilogram x:kilogram +:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 15 | 2286160 | (x/1640)=1394 | x 1640 / 1394 = | x:bakery 1640:kilogram /:bakery 1394:bakery =:bakery
+EXPR: 0 | POS | INT | 12 | 15 | 3034 | (x-1640)=1394 | x 1640 - 1394 = | x:kilogram 1640:kilogram -:kilogram 1394:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 15 | 3034 | 1640=(x-1394) | 1640 x 1394 - = | 1640:kilogram x:kilogram 1394:kilogram -:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 15 | 246 | 1640=(x+1394) | 1640 x 1394 + = | 1640:kilogram x:kilogram 1394:kilogram +:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 15 | 2286160 | 1640=(x/1394) | 1640 x 1394 / = | 1640:bakery x:bakery 1394:kilogram /:bakery =:bakery
+EXPR: 0 | POS | INT | 14 | 15 | 3034 | (x-1394)=1640 | x 1394 - 1640 = | x:kilogram 1394:kilogram -:kilogram 1640:kilogram =:kilogram
+EXPR: 0 | POS | INT | 14 | 15 | 2286160 | 1394=(x/1640) | 1394 x 1640 / = | 1394:bakery x:bakery 1640:kilogram /:bakery =:bakery
+EXPR: 0 | POS | INT | 14 | 15 | 246 | (x+1394)=1640 | x 1394 + 1640 = | x:kilogram 1394:kilogram +:kilogram 1640:kilogram =:kilogram
+EXPR: 0 | POS | INT | 14 | 15 | 2286160 | (x/1394)=1640 | x 1394 / 1640 = | x:bakery 1394:kilogram /:bakery 1640:bakery =:bakery
+EXPR: 0 | POS | INT | 14 | 15 | 246 | 1394=(1640-x) | 1394 1640 x - = | 1394:kilogram 1640:kilogram x:kilogram -:kilogram =:kilogram
+EXPR: 0 | POS | INT | 14 | 15 | 246 | (1394+x)=1640 | 1394 x + 1640 = | 1394:kilogram x:kilogram +:kilogram 1640:kilogram =:kilogram
+EXPR: 0 | POS | INT | 14 | 15 | 3034 | 1394=(x-1640) | 1394 x 1640 - = | 1394:kilogram x:kilogram 1640:kilogram -:kilogram =:kilogram
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

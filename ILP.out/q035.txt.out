@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 30 | 13 | x=(10+3) | x 10 3 + = | x:tea 10:tea 3:tea +:tea =:tea
+EXPR: 1 | POS | INT | 10 | 30 | 30 | x=(10*3) | x 10 3 * = | x:UNKNOWN 10:tea 3:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 30 | 7 | (10-3)=x | 10 3 - x = | 10:tea 3:tea -:tea x:tea =:tea
+EXPR: 1 | POS | INT | 10 | 30 | 30 | (10*3)=x | 10 3 * x = | 10:tea 3:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 30 | 7 | x=(10-3) | x 10 3 - = | x:tea 10:tea 3:tea -:tea =:tea
+EXPR: 0 | POS | INT | 10 | 30 | 13 | (10+3)=x | 10 3 + x = | 10:tea 3:tea +:tea x:tea =:tea
+EXPR: 0 | POS | INT | 12 | 30 | 7 | (10-x)=3 | 10 x - 3 = | 10:tea x:tea -:tea 3:tea =:tea
+EXPR: 0 | POS | INT | 12 | 30 | 7 | 10=(3+x) | 10 3 x + = | 10:tea 3:tea x:tea +:tea =:tea
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (x/10)=3 | x 10 / 3 = | x:UNKNOWN 10:tea /:UNKNOWN 3:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 30 | 13 | (x-10)=3 | x 10 - 3 = | x:tea 10:tea -:tea 3:tea =:tea
+EXPR: 0 | POS | INT | 12 | 30 | 13 | 10=(x-3) | 10 x 3 - = | 10:tea x:tea 3:tea -:tea =:tea
+EXPR: 0 | POS | INT | 12 | 30 | 7 | 10=(x+3) | 10 x 3 + = | 10:tea x:tea 3:tea +:tea =:tea
+EXPR: 1 | POS | INT | 12 | 30 | 30 | 10=(x/3) | 10 x 3 / = | 10:UNKNOWN x:UNKNOWN 3:tea /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 30 | 13 | (x-3)=10 | x 3 - 10 = | x:tea 3:tea -:tea 10:tea =:tea
+EXPR: 1 | POS | INT | 14 | 30 | 30 | 3=(x/10) | 3 x 10 / = | 3:UNKNOWN x:UNKNOWN 10:tea /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 30 | 7 | (x+3)=10 | x 3 + 10 = | x:tea 3:tea +:tea 10:tea =:tea
+EXPR: 1 | POS | INT | 14 | 30 | 30 | (x/3)=10 | x 3 / 10 = | x:UNKNOWN 3:tea /:UNKNOWN 10:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 30 | 7 | 3=(10-x) | 3 10 x - = | 3:tea 10:tea x:tea -:tea =:tea
+EXPR: 0 | POS | INT | 14 | 30 | 7 | (3+x)=10 | 3 x + 10 = | 3:tea x:tea +:tea 10:tea =:tea
+EXPR: 0 | POS | INT | 14 | 30 | 13 | 3=(x-10) | 3 x 10 - = | 3:tea x:tea 10:tea -:tea =:tea
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 50 | 25 | x=(10+15) | x 10 15 + = | x:member 10:member 15:member +:member =:member
+EXPR: 0 | POS | INT | 10 | 50 | 150 | x=(10*15) | x 10 15 * = | x:squad 10:member 15:squad *:squad =:squad
+EXPR: 0 | POS | INT | 10 | 50 | 150 | (10*15)=x | 10 15 * x = | 10:member 15:squad *:squad x:squad =:squad
+EXPR: 0 | POS | INT | 10 | 50 | 25 | (10+15)=x | 10 15 + x = | 10:member 15:member +:member x:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 5 | 10=(15-x) | 10 15 x - = | 10:member 15:member x:member -:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 150 | (x/10)=15 | x 10 / 15 = | x:squad 10:member /:squad 15:squad =:squad
+EXPR: 0 | POS | INT | 12 | 50 | 25 | (x-10)=15 | x 10 - 15 = | x:member 10:member -:member 15:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 25 | 10=(x-15) | 10 x 15 - = | 10:member x:member 15:member -:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 5 | (15-10)=x | 15 10 - x = | 15:member 10:member -:member x:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 5 | x=(15-10) | x 15 10 - = | x:member 15:member 10:member -:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 5 | (x+10)=15 | x 10 + 15 = | x:member 10:member +:member 15:member =:member
+EXPR: 0 | POS | INT | 12 | 50 | 150 | 10=(x/15) | 10 x 15 / = | 10:squad x:squad 15:member /:squad =:squad
+EXPR: 0 | POS | INT | 12 | 50 | 5 | (10+x)=15 | 10 x + 15 = | 10:member x:member +:member 15:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 5 | (15-x)=10 | 15 x - 10 = | 15:member x:member -:member 10:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 25 | (x-15)=10 | x 15 - 10 = | x:member 15:member -:member 10:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 150 | 15=(x/10) | 15 x 10 / = | 15:squad x:squad 10:member /:squad =:squad
+EXPR: 0 | POS | INT | 14 | 50 | 150 | (x/15)=10 | x 15 / 10 = | x:squad 15:member /:squad 10:squad =:squad
+EXPR: 0 | POS | INT | 14 | 50 | 5 | 15=(10+x) | 15 10 x + = | 15:member 10:member x:member +:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 25 | 15=(x-10) | 15 x 10 - = | 15:member x:member 10:member -:member =:member
+EXPR: 0 | POS | INT | 14 | 50 | 5 | 15=(x+10) | 15 x 10 + = | 15:member x:member 10:member +:member =:member
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

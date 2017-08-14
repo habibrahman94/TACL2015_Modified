@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 25308 | 396492 | (421800*0.94)=x | 421800 0.94 * x = | 421800:ton 0.94:weight *:weight x:weight =:weight
+EXPR: 0 | POS | FRA | 10 | 25308 | 448723.404255319 | (421800/0.94)=x | 421800 0.94 / x = | 421800:weight 0.94:it /:weight x:weight =:weight
+EXPR: 0 | POS | INT | 10 | 25308 | 396492 | x=(421800*0.94) | x 421800 0.94 * = | x:ton 421800:ton 0.94:it *:ton =:ton
+EXPR: 0 | POS | FRA | 10 | 25308 | 448723.404255319 | x=(421800/0.94) | x 421800 0.94 / = | x:weight 421800:weight 0.94:it /:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 25308 | 2.22854433380749e-6 | (421800*x)=0.94 | 421800 x * 0.94 = | 421800:ton x:it *:it 0.94:it =:it
+EXPR: 0 | POS | FRA | 12 | 25308 | 2.22854433380749e-6 | x=(0.94/421800) | x 0.94 421800 / = | x:it 0.94:it 421800:ton /:it =:it
+EXPR: 0 | POS | FRA | 12 | 25308 | 2.22854433380749e-6 | 421800=(0.94/x) | 421800 0.94 x / = | 421800:it 0.94:it x:weight /:it =:it
+EXPR: 0 | POS | FRA | 12 | 25308 | 448723.404255319 | 421800=(0.94*x) | 421800 0.94 x * = | 421800:weight 0.94:it x:weight *:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 25308 | 448723.404255319 | (421800/x)=0.94 | 421800 x / 0.94 = | 421800:it x:weight /:it 0.94:it =:it
+EXPR: 0 | POS | FRA | 12 | 25308 | 448723.404255319 | 421800=(x*0.94) | 421800 x 0.94 * = | 421800:weight x:weight 0.94:it *:weight =:weight
+EXPR: 0 | POS | INT | 12 | 25308 | 396492 | 421800=(x/0.94) | 421800 x 0.94 / = | 421800:weight x:weight 0.94:it /:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 25308 | 2.22854433380749e-6 | (x*421800)=0.94 | x 421800 * 0.94 = | x:weight 421800:it *:it 0.94:it =:it
+EXPR: 0 | POS | INT | 12 | 25308 | 396492 | (x/421800)=0.94 | x 421800 / 0.94 = | x:weight 421800:ton /:weight 0.94:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 25308 | 2.22854433380749e-6 | (0.94/421800)=x | 0.94 421800 / x = | 0.94:weight 421800:ton /:weight x:weight =:weight
+EXPR: 0 | POS | FRA | 14 | 25308 | 2.22854433380749e-6 | (0.94/x)=421800 | 0.94 x / 421800 = | 0.94:ton x:weight /:ton 421800:ton =:ton
+EXPR: 0 | POS | FRA | 14 | 25308 | 448723.404255319 | (0.94*x)=421800 | 0.94 x * 421800 = | 0.94:ton x:weight *:ton 421800:ton =:ton
+EXPR: 0 | POS | INT | 14 | 25308 | 396492 | (x/0.94)=421800 | x 0.94 / 421800 = | x:ton 0.94:it /:ton 421800:ton =:ton
+EXPR: 0 | POS | FRA | 14 | 25308 | 448723.404255319 | (x*0.94)=421800 | x 0.94 * 421800 = | x:ton 0.94:it *:ton 421800:ton =:ton
+EXPR: 0 | POS | FRA | 14 | 25308 | 2.22854433380749e-6 | 0.94=(421800*x) | 0.94 421800 x * = | 0.94:it 421800:ton x:it *:it =:it
+EXPR: 0 | POS | FRA | 14 | 25308 | 2.22854433380749e-6 | 0.94=(x*421800) | 0.94 x 421800 * = | 0.94:it x:weight 421800:it *:it =:it
+EXPR: 0 | POS | INT | 14 | 25308 | 396492.000000001 | 0.94=(x/421800) | 0.94 x 421800 / = | 0.94:weight x:weight 421800:ton /:weight =:weight
+EXPR: 0 | POS | FRA | 14 | 25308 | 448723.404255319 | 0.94=(421800/x) | 0.94 421800 x / = | 0.94:ton 421800:ton x:weight /:ton =:ton
+EXPR: 0 | POS | FRA | 20 | 25308 | 421800.94 | x=(421800+0.94) | x 421800 0.94 + = | x:ton 421800:ton 0.94:ton +:ton =:ton
+EXPR: 0 | POS | FRA | 20 | 25308 | 421799.06 | x=(421800-0.94) | x 421800 0.94 - = | x:weight 421800:weight 0.94:weight -:weight =:weight
+EXPR: 0 | POS | FRA | 20 | 25308 | 421800.94 | (421800+0.94)=x | 421800 0.94 + x = | 421800:ton 0.94:ton +:ton x:ton =:ton
+EXPR: 0 | POS | FRA | 20 | 25308 | 421799.06 | (421800-0.94)=x | 421800 0.94 - x = | 421800:weight 0.94:weight -:weight x:weight =:weight
+EXPR: 0 | POS | FRA | 22 | 25308 | 421800.94 | 421800=(x-0.94) | 421800 x 0.94 - = | 421800:ton x:ton 0.94:ton -:ton =:ton
+EXPR: 0 | POS | FRA | 22 | 25308 | 421799.06 | 421800=(x+0.94) | 421800 x 0.94 + = | 421800:ton x:ton 0.94:ton +:ton =:ton
+EXPR: 0 | POS | FRA | 22 | 25308 | 421800.94 | (x-421800)=0.94 | x 421800 - 0.94 = | x:it 421800:it -:it 0.94:it =:it
+EXPR: 0 | POS | FRA | 22 | 25308 | 421799.06 | (421800-x)=0.94 | 421800 x - 0.94 = | 421800:ton x:ton -:ton 0.94:ton =:ton
+EXPR: 0 | POS | FRA | 22 | 25308 | 421799.06 | 421800=(0.94+x) | 421800 0.94 x + = | 421800:weight 0.94:weight x:weight +:weight =:weight
+EXPR: 0 | POS | FRA | 24 | 25308 | 421799.06 | (0.94+x)=421800 | 0.94 x + 421800 = | 0.94:weight x:weight +:weight 421800:weight =:weight
+EXPR: 0 | POS | FRA | 24 | 25308 | 421800.94 | (x-0.94)=421800 | x 0.94 - 421800 = | x:ton 0.94:ton -:ton 421800:ton =:ton
+EXPR: 0 | POS | FRA | 24 | 25308 | 421799.06 | (x+0.94)=421800 | x 0.94 + 421800 = | x:weight 0.94:weight +:weight 421800:weight =:weight
+EXPR: 0 | POS | FRA | 24 | 25308 | 421799.06 | 0.94=(421800-x) | 0.94 421800 x - = | 0.94:ton 421800:ton x:ton -:ton =:ton
+EXPR: 0 | POS | FRA | 24 | 25308 | 421800.94 | 0.94=(x-421800) | 0.94 x 421800 - = | 0.94:ton x:ton 421800:ton -:ton =:ton
+NET 36 unique, non-negative solutions found out of 324 total solutions

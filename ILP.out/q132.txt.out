@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 20 | 20 | (100*0.2)=x | 100 0.2 * x = | 100:deer 0.2:juvenile *:juvenile x:juvenile =:juvenile
+EXPR: 0 | POS | INT | 10 | 20 | 500 | (100/0.2)=x | 100 0.2 / x = | 100:juvenile 0.2:scientist /:juvenile x:juvenile =:juvenile
+EXPR: 1 | POS | INT | 10 | 20 | 20 | x=(100*0.2) | x 100 0.2 * = | x:deer 100:deer 0.2:scientist *:deer =:deer
+EXPR: 0 | POS | INT | 10 | 20 | 500 | x=(100/0.2) | x 100 0.2 / = | x:juvenile 100:juvenile 0.2:scientist /:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | (100*x)=0.2 | 100 x * 0.2 = | 100:deer x:scientist *:scientist 0.2:scientist =:scientist
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | x=(0.2/100) | x 0.2 100 / = | x:scientist 0.2:scientist 100:deer /:scientist =:scientist
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | 100=(0.2/x) | 100 0.2 x / = | 100:scientist 0.2:scientist x:juvenile /:scientist =:scientist
+EXPR: 0 | POS | INT | 12 | 20 | 500 | 100=(0.2*x) | 100 0.2 x * = | 100:juvenile 0.2:scientist x:juvenile *:juvenile =:juvenile
+EXPR: 0 | POS | INT | 12 | 20 | 500 | (100/x)=0.2 | 100 x / 0.2 = | 100:scientist x:juvenile /:scientist 0.2:scientist =:scientist
+EXPR: 0 | POS | INT | 12 | 20 | 500 | 100=(x*0.2) | 100 x 0.2 * = | 100:juvenile x:juvenile 0.2:scientist *:juvenile =:juvenile
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 100=(x/0.2) | 100 x 0.2 / = | 100:juvenile x:juvenile 0.2:scientist /:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | (x*100)=0.2 | x 100 * 0.2 = | x:juvenile 100:scientist *:scientist 0.2:scientist =:scientist
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (x/100)=0.2 | x 100 / 0.2 = | x:juvenile 100:deer /:juvenile 0.2:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | (0.2/100)=x | 0.2 100 / x = | 0.2:juvenile 100:deer /:juvenile x:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 14 | 20 | 0.002 | (0.2/x)=100 | 0.2 x / 100 = | 0.2:deer x:juvenile /:deer 100:deer =:deer
+EXPR: 0 | POS | INT | 14 | 20 | 500 | (0.2*x)=100 | 0.2 x * 100 = | 0.2:deer x:juvenile *:deer 100:deer =:deer
+EXPR: 1 | POS | INT | 14 | 20 | 20 | (x/0.2)=100 | x 0.2 / 100 = | x:deer 0.2:scientist /:deer 100:deer =:deer
+EXPR: 0 | POS | INT | 14 | 20 | 500 | (x*0.2)=100 | x 0.2 * 100 = | x:deer 0.2:scientist *:deer 100:deer =:deer
+EXPR: 0 | POS | FRA | 14 | 20 | 0.002 | 0.2=(100*x) | 0.2 100 x * = | 0.2:scientist 100:deer x:scientist *:scientist =:scientist
+EXPR: 0 | POS | FRA | 14 | 20 | 0.002 | 0.2=(x*100) | 0.2 x 100 * = | 0.2:scientist x:juvenile 100:scientist *:scientist =:scientist
+EXPR: 1 | POS | INT | 14 | 20 | 20 | 0.2=(x/100) | 0.2 x 100 / = | 0.2:juvenile x:juvenile 100:deer /:juvenile =:juvenile
+EXPR: 0 | POS | INT | 14 | 20 | 500 | 0.2=(100/x) | 0.2 100 x / = | 0.2:deer 100:deer x:juvenile /:deer =:deer
+EXPR: 0 | POS | FRA | 20 | 20 | 100.2 | x=(100+0.2) | x 100 0.2 + = | x:deer 100:deer 0.2:deer +:deer =:deer
+EXPR: 0 | POS | FRA | 20 | 20 | 99.8 | x=(100-0.2) | x 100 0.2 - = | x:juvenile 100:juvenile 0.2:juvenile -:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 20 | 20 | 100.2 | (100+0.2)=x | 100 0.2 + x = | 100:deer 0.2:deer +:deer x:deer =:deer
+EXPR: 0 | POS | FRA | 20 | 20 | 99.8 | (100-0.2)=x | 100 0.2 - x = | 100:juvenile 0.2:juvenile -:juvenile x:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 22 | 20 | 100.2 | 100=(x-0.2) | 100 x 0.2 - = | 100:deer x:deer 0.2:deer -:deer =:deer
+EXPR: 0 | POS | FRA | 22 | 20 | 99.8 | 100=(x+0.2) | 100 x 0.2 + = | 100:deer x:deer 0.2:deer +:deer =:deer
+EXPR: 0 | POS | FRA | 22 | 20 | 100.2 | (x-100)=0.2 | x 100 - 0.2 = | x:scientist 100:scientist -:scientist 0.2:scientist =:scientist
+EXPR: 0 | POS | FRA | 22 | 20 | 99.8 | (100-x)=0.2 | 100 x - 0.2 = | 100:deer x:deer -:deer 0.2:deer =:deer
+EXPR: 0 | POS | FRA | 22 | 20 | 99.8 | 100=(0.2+x) | 100 0.2 x + = | 100:juvenile 0.2:juvenile x:juvenile +:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 24 | 20 | 99.8 | (0.2+x)=100 | 0.2 x + 100 = | 0.2:juvenile x:juvenile +:juvenile 100:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 24 | 20 | 100.2 | (x-0.2)=100 | x 0.2 - 100 = | x:deer 0.2:deer -:deer 100:deer =:deer
+EXPR: 0 | POS | FRA | 24 | 20 | 99.8 | (x+0.2)=100 | x 0.2 + 100 = | x:juvenile 0.2:juvenile +:juvenile 100:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 24 | 20 | 99.8 | 0.2=(100-x) | 0.2 100 x - = | 0.2:deer 100:deer x:deer -:deer =:deer
+EXPR: 0 | POS | FRA | 24 | 20 | 100.2 | 0.2=(x-100) | 0.2 x 100 - = | 0.2:deer x:deer 100:deer -:deer =:deer
+NET 36 unique, non-negative solutions found out of 324 total solutions

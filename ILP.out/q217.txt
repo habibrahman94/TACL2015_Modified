@@ -1,0 +1,5 @@
+quantities : 90 117 x
+types : "employee" "employee" "they"
+operators : + - * / =
+n : 5
+answer : 30.0

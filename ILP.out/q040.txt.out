@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 50 | 1 | 40=(40/x) | 40 40 x / = | 40:pin 40:pin x:UNKNOWN /:pin =:pin
+EXPR: 0 | POS | INT | 2 | 50 | 1 | 40=(x*40) | 40 x 40 * = | 40:pin x:UNKNOWN 40:pin *:pin =:pin
+EXPR: 0 | POS | INT | 2 | 50 | 1 | 40=(40*x) | 40 40 x * = | 40:pin 40:pin x:UNKNOWN *:pin =:pin
+EXPR: 0 | POS | INT | 2 | 50 | 1 | (x*40)=40 | x 40 * 40 = | x:UNKNOWN 40:pin *:pin 40:pin =:pin
+EXPR: 0 | POS | INT | 2 | 50 | 1 | (40*x)=40 | 40 x * 40 = | 40:pin x:UNKNOWN *:pin 40:pin =:pin
+EXPR: 0 | POS | INT | 2 | 50 | 1 | (40/x)=40 | 40 x / 40 = | 40:pin x:UNKNOWN /:pin 40:pin =:pin
+EXPR: 0 | POS | INT | 10 | 50 | 80 | x=(40+40) | x 40 40 + = | x:pin 40:pin 40:pin +:pin =:pin
+EXPR: 0 | POS | INT | 10 | 50 | 1600 | x=(40*40) | x 40 40 * = | x:UNKNOWN 40:pin 40:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 50 | 0 | (40-40)=x | 40 40 - x = | 40:pin 40:pin -:pin x:pin =:pin
+EXPR: 0 | POS | INT | 10 | 50 | 1600 | (40*40)=x | 40 40 * x = | 40:pin 40:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 50 |  | x=(40-40) | x 40 40 - = | x:pin 40:pin 40:pin -:pin =:pin
+EXPR: 0 | POS | INT | 10 | 50 | 1 | x=(40/40) | x 40 40 / = | x:UNKNOWN 40:UNKNOWN 40:pin /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 50 | 80 | (40+40)=x | 40 40 + x = | 40:pin 40:pin +:pin x:pin =:pin
+EXPR: 0 | POS | INT | 10 | 50 | 1 | (40/40)=x | 40 40 / x = | 40:UNKNOWN 40:pin /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 |  | (40-x)=40 | 40 x - 40 = | 40:pin x:pin -:pin 40:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 40=(40-x) | 40 40 x - = | 40:pin 40:pin x:pin -:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 40=(40+x) | 40 40 x + = | 40:pin 40:pin x:pin +:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 | 1600 | (x/40)=40 | x 40 / 40 = | x:UNKNOWN 40:pin /:UNKNOWN 40:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 80 | (x-40)=40 | x 40 - 40 = | x:pin 40:pin -:pin 40:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 | 80 | 40=(x-40) | 40 x 40 - = | 40:pin x:pin 40:pin -:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 | 0 | 40=(x+40) | 40 x 40 + = | 40:pin x:pin 40:pin +:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 |  | (x+40)=40 | x 40 + 40 = | x:pin 40:pin +:pin 40:pin =:pin
+EXPR: 0 | POS | INT | 12 | 50 | 1600 | 40=(x/40) | 40 x 40 / = | 40:UNKNOWN x:UNKNOWN 40:pin /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 |  | (40+x)=40 | 40 x + 40 = | 40:pin x:pin +:pin 40:pin =:pin
+NET 24 unique, non-negative, integer-valued solutions found out of 136 total solutions

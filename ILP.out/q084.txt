@@ -1,0 +1,5 @@
+quantities : 0.25 68 x
+types : "time" "ticket" "discount"
+operators : + - * / =
+n : 5
+answer : 17.0

@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 29 | 29 | (58*0.5)=x | 58 0.5 * x = | 58:special 0.5:salmon *:salmon x:salmon =:salmon
+EXPR: 0 | POS | INT | 10 | 29 | 116 | (58/0.5)=x | 58 0.5 / x = | 58:salmon 0.5:restaurant /:salmon x:salmon =:salmon
+EXPR: 1 | POS | INT | 10 | 29 | 29 | x=(58*0.5) | x 58 0.5 * = | x:special 58:special 0.5:restaurant *:special =:special
+EXPR: 0 | POS | INT | 10 | 29 | 116 | x=(58/0.5) | x 58 0.5 / = | x:salmon 58:salmon 0.5:restaurant /:salmon =:salmon
+EXPR: 0 | POS | FRA | 12 | 29 | 0.00862068965517241 | (58*x)=0.5 | 58 x * 0.5 = | 58:special x:restaurant *:restaurant 0.5:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 29 | 0.00862068965517241 | x=(0.5/58) | x 0.5 58 / = | x:restaurant 0.5:restaurant 58:special /:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 12 | 29 | 0.00862068965517241 | 58=(0.5/x) | 58 0.5 x / = | 58:restaurant 0.5:restaurant x:salmon /:restaurant =:restaurant
+EXPR: 0 | POS | INT | 12 | 29 | 116 | 58=(0.5*x) | 58 0.5 x * = | 58:salmon 0.5:restaurant x:salmon *:salmon =:salmon
+EXPR: 0 | POS | INT | 12 | 29 | 116 | (58/x)=0.5 | 58 x / 0.5 = | 58:restaurant x:salmon /:restaurant 0.5:restaurant =:restaurant
+EXPR: 0 | POS | INT | 12 | 29 | 116 | 58=(x*0.5) | 58 x 0.5 * = | 58:salmon x:salmon 0.5:restaurant *:salmon =:salmon
+EXPR: 1 | POS | INT | 12 | 29 | 29 | 58=(x/0.5) | 58 x 0.5 / = | 58:salmon x:salmon 0.5:restaurant /:salmon =:salmon
+EXPR: 0 | POS | FRA | 12 | 29 | 0.00862068965517241 | (x*58)=0.5 | x 58 * 0.5 = | x:salmon 58:restaurant *:restaurant 0.5:restaurant =:restaurant
+EXPR: 1 | POS | INT | 12 | 29 | 29 | (x/58)=0.5 | x 58 / 0.5 = | x:salmon 58:special /:salmon 0.5:salmon =:salmon
+EXPR: 0 | POS | FRA | 12 | 29 | 0.00862068965517241 | (0.5/58)=x | 0.5 58 / x = | 0.5:salmon 58:special /:salmon x:salmon =:salmon
+EXPR: 0 | POS | FRA | 14 | 29 | 0.00862068965517241 | (0.5/x)=58 | 0.5 x / 58 = | 0.5:special x:salmon /:special 58:special =:special
+EXPR: 0 | POS | INT | 14 | 29 | 116 | (0.5*x)=58 | 0.5 x * 58 = | 0.5:special x:salmon *:special 58:special =:special
+EXPR: 1 | POS | INT | 14 | 29 | 29 | (x/0.5)=58 | x 0.5 / 58 = | x:special 0.5:restaurant /:special 58:special =:special
+EXPR: 0 | POS | INT | 14 | 29 | 116 | (x*0.5)=58 | x 0.5 * 58 = | x:special 0.5:restaurant *:special 58:special =:special
+EXPR: 0 | POS | FRA | 14 | 29 | 0.00862068965517241 | 0.5=(58*x) | 0.5 58 x * = | 0.5:restaurant 58:special x:restaurant *:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 14 | 29 | 0.00862068965517241 | 0.5=(x*58) | 0.5 x 58 * = | 0.5:restaurant x:salmon 58:restaurant *:restaurant =:restaurant
+EXPR: 1 | POS | INT | 14 | 29 | 29 | 0.5=(x/58) | 0.5 x 58 / = | 0.5:salmon x:salmon 58:special /:salmon =:salmon
+EXPR: 0 | POS | INT | 14 | 29 | 116 | 0.5=(58/x) | 0.5 58 x / = | 0.5:special 58:special x:salmon /:special =:special
+EXPR: 0 | POS | FRA | 20 | 29 | 58.5 | x=(58+0.5) | x 58 0.5 + = | x:special 58:special 0.5:special +:special =:special
+EXPR: 0 | POS | FRA | 20 | 29 | 57.5 | x=(58-0.5) | x 58 0.5 - = | x:salmon 58:salmon 0.5:salmon -:salmon =:salmon
+EXPR: 0 | POS | FRA | 20 | 29 | 58.5 | (58+0.5)=x | 58 0.5 + x = | 58:special 0.5:special +:special x:special =:special
+EXPR: 0 | POS | FRA | 20 | 29 | 57.5 | (58-0.5)=x | 58 0.5 - x = | 58:salmon 0.5:salmon -:salmon x:salmon =:salmon
+EXPR: 0 | POS | FRA | 22 | 29 | 58.5 | 58=(x-0.5) | 58 x 0.5 - = | 58:special x:special 0.5:special -:special =:special
+EXPR: 0 | POS | FRA | 22 | 29 | 57.5 | 58=(x+0.5) | 58 x 0.5 + = | 58:special x:special 0.5:special +:special =:special
+EXPR: 0 | POS | FRA | 22 | 29 | 58.5 | (x-58)=0.5 | x 58 - 0.5 = | x:restaurant 58:restaurant -:restaurant 0.5:restaurant =:restaurant
+EXPR: 0 | POS | FRA | 22 | 29 | 57.5 | (58-x)=0.5 | 58 x - 0.5 = | 58:special x:special -:special 0.5:special =:special
+EXPR: 0 | POS | FRA | 22 | 29 | 57.5 | 58=(0.5+x) | 58 0.5 x + = | 58:salmon 0.5:salmon x:salmon +:salmon =:salmon
+EXPR: 0 | POS | FRA | 24 | 29 | 57.5 | (0.5+x)=58 | 0.5 x + 58 = | 0.5:salmon x:salmon +:salmon 58:salmon =:salmon
+EXPR: 0 | POS | FRA | 24 | 29 | 58.5 | (x-0.5)=58 | x 0.5 - 58 = | x:special 0.5:special -:special 58:special =:special
+EXPR: 0 | POS | FRA | 24 | 29 | 57.5 | (x+0.5)=58 | x 0.5 + 58 = | x:salmon 0.5:salmon +:salmon 58:salmon =:salmon
+EXPR: 0 | POS | FRA | 24 | 29 | 57.5 | 0.5=(58-x) | 0.5 58 x - = | 0.5:special 58:special x:special -:special =:special
+EXPR: 0 | POS | FRA | 24 | 29 | 58.5 | 0.5=(x-58) | 0.5 x 58 - = | 0.5:special x:special 58:special -:special =:special
+NET 36 unique, non-negative solutions found out of 324 total solutions

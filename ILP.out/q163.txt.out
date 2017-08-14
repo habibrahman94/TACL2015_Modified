@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 75 | 2700 | (45*60)=x | 45 60 * x = | 45:park 60:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 75 | 2700 | x=(45*60) | x 45 60 * = | x:park 45:park 60:ticket *:park =:park
+EXPR: 0 | POS | INT | 12 | 75 | 2700 | 45=(x/60) | 45 x 60 / = | 45:UNKNOWN x:UNKNOWN 60:ticket /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 2700 | (x/45)=60 | x 45 / 60 = | x:UNKNOWN 45:park /:UNKNOWN 60:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 75 | 2700 | (x/60)=45 | x 60 / 45 = | x:park 60:ticket /:park 45:park =:park
+EXPR: 0 | POS | INT | 14 | 75 | 2700 | 60=(x/45) | 60 x 45 / = | 60:UNKNOWN x:UNKNOWN 45:park /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 75 | 105 | x=(45+60) | x 45 60 + = | x:park 45:park 60:park +:park =:park
+EXPR: 0 | POS | INT | 20 | 75 | 105 | (45+60)=x | 45 60 + x = | 45:park 60:park +:park x:park =:park
+EXPR: 0 | POS | INT | 22 | 75 | 105 | 45=(x-60) | 45 x 60 - = | 45:park x:park 60:park -:park =:park
+EXPR: 0 | POS | INT | 22 | 75 | 15 | 45=(60-x) | 45 60 x - = | 45:ticket 60:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 75 | 15 | x=(60-45) | x 60 45 - = | x:ticket 60:ticket 45:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 75 | 15 | (x+45)=60 | x 45 + 60 = | x:ticket 45:ticket +:ticket 60:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 75 | 105 | (x-45)=60 | x 45 - 60 = | x:ticket 45:ticket -:ticket 60:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 75 | 15 | (45+x)=60 | 45 x + 60 = | 45:park x:park +:park 60:park =:park
+EXPR: 0 | POS | INT | 22 | 75 | 15 | (60-45)=x | 60 45 - x = | 60:UNKNOWN 45:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 75 | 15 | 60=(x+45) | 60 x 45 + = | 60:park x:park 45:park +:park =:park
+EXPR: 0 | POS | INT | 24 | 75 | 15 | (60-x)=45 | 60 x - 45 = | 60:park x:park -:park 45:park =:park
+EXPR: 0 | POS | INT | 24 | 75 | 105 | (x-60)=45 | x 60 - 45 = | x:park 60:park -:park 45:park =:park
+EXPR: 0 | POS | INT | 24 | 75 | 105 | 60=(x-45) | 60 x 45 - = | 60:park x:park 45:park -:park =:park
+EXPR: 0 | POS | INT | 24 | 75 | 15 | 60=(45+x) | 60 45 x + = | 60:UNKNOWN 45:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

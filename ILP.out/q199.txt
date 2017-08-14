@@ -1,0 +1,5 @@
+quantities : 230 x 276
+types : "minute" "he" "minute"
+operators : + - * / =
+n : 5
+answer : 16.666667

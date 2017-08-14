@@ -1,0 +1,5 @@
+quantities : 5 x 0.4
+types : "minute" "average" "airline"
+operators : + - * / =
+n : 5
+answer : 3.0

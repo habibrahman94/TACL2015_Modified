@@ -1,0 +1,5 @@
+quantities : 92 0.25 x
+types : "student" "time" "people"
+operators : + - * / =
+n : 5
+answer : 23.0

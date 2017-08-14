@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 25 | 3 | 16=(48/x) | 16 48 x / = | 16:student 48:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (x*16)=48 | x 16 * 48 = | x:UNKNOWN 16:student *:student 48:student =:student
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (16*x)=48 | 16 x * 48 = | 16:student x:UNKNOWN *:student 48:student =:student
+EXPR: 0 | POS | INT | 4 | 25 | 3 | 48=(x*16) | 48 x 16 * = | 48:student x:UNKNOWN 16:student *:student =:student
+EXPR: 0 | POS | INT | 4 | 25 | 3 | (48/x)=16 | 48 x / 16 = | 48:student x:UNKNOWN /:student 16:student =:student
+EXPR: 0 | POS | INT | 4 | 25 | 3 | 48=(16*x) | 48 16 x * = | 48:student 16:student x:UNKNOWN *:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 64 | x=(16+48) | x 16 48 + = | x:student 16:student 48:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 768 | x=(16*48) | x 16 48 * = | x:UNKNOWN 16:student 48:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 768 | (16*48)=x | 16 48 * x = | 16:student 48:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 64 | (16+48)=x | 16 48 + x = | 16:student 48:student +:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 32 | 16=(48-x) | 16 48 x - = | 16:student 48:student x:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 3 | x=(48/16) | x 48 16 / = | x:UNKNOWN 48:UNKNOWN 16:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 768 | (x/16)=48 | x 16 / 48 = | x:UNKNOWN 16:student /:UNKNOWN 48:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 64 | (x-16)=48 | x 16 - 48 = | x:student 16:student -:student 48:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 64 | 16=(x-48) | 16 x 48 - = | 16:student x:student 48:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 32 | (48-16)=x | 48 16 - x = | 48:student 16:student -:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 32 | x=(48-16) | x 48 16 - = | x:student 48:student 16:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 32 | (x+16)=48 | x 16 + 48 = | x:student 16:student +:student 48:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 768 | 16=(x/48) | 16 x 48 / = | 16:UNKNOWN x:UNKNOWN 48:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 32 | (16+x)=48 | 16 x + 48 = | 16:student x:student +:student 48:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 3 | (48/16)=x | 48 16 / x = | 48:UNKNOWN 16:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 32 | (48-x)=16 | 48 x - 16 = | 48:student x:student -:student 16:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 64 | (x-48)=16 | x 48 - 16 = | x:student 48:student -:student 16:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 768 | 48=(x/16) | 48 x 16 / = | 48:UNKNOWN x:UNKNOWN 16:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 768 | (x/48)=16 | x 48 / 16 = | x:UNKNOWN 48:student /:UNKNOWN 16:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 32 | 48=(16+x) | 48 16 x + = | 48:student 16:student x:student +:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 64 | 48=(x-16) | 48 x 16 - = | 48:student x:student 16:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 32 | 48=(x+16) | 48 x 16 + = | 48:student x:student 16:student +:student =:student
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

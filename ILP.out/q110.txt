@@ -1,0 +1,5 @@
+quantities : 0.1 30 x
+types : "time" "vote" "vote"
+operators : + - * / =
+n : 5
+answer : 3.0

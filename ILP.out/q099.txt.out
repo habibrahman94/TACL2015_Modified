@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 9 | 9 | (0.25*36)=x | 0.25 36 * x = | 0.25:time 36:discount *:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 10 | 9 | 0.00694444444444444 | (0.25/36)=x | 0.25 36 / x = | 0.25:discount 36:ticket /:discount x:discount =:discount
+EXPR: 1 | POS | INT | 10 | 9 | 9 | x=(0.25*36) | x 0.25 36 * = | x:time 0.25:time 36:ticket *:time =:time
+EXPR: 0 | POS | FRA | 10 | 9 | 0.00694444444444444 | x=(0.25/36) | x 0.25 36 / = | x:discount 0.25:discount 36:ticket /:discount =:discount
+EXPR: 0 | POS | INT | 12 | 9 | 144 | (0.25*x)=36 | 0.25 x * 36 = | 0.25:time x:ticket *:ticket 36:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 9 | 144 | x=(36/0.25) | x 36 0.25 / = | x:ticket 36:ticket 0.25:time /:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 9 | 144 | 0.25=(36/x) | 0.25 36 x / = | 0.25:ticket 36:ticket x:discount /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00694444444444444 | 0.25=(36*x) | 0.25 36 x * = | 0.25:discount 36:ticket x:discount *:discount =:discount
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00694444444444444 | (0.25/x)=36 | 0.25 x / 36 = | 0.25:ticket x:discount /:ticket 36:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00694444444444444 | 0.25=(x*36) | 0.25 x 36 * = | 0.25:discount x:discount 36:ticket *:discount =:discount
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 0.25=(x/36) | 0.25 x 36 / = | 0.25:discount x:discount 36:ticket /:discount =:discount
+EXPR: 0 | POS | INT | 12 | 9 | 144 | (x*0.25)=36 | x 0.25 * 36 = | x:discount 0.25:ticket *:ticket 36:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x/0.25)=36 | x 0.25 / 36 = | x:discount 0.25:time /:discount 36:discount =:discount
+EXPR: 0 | POS | INT | 12 | 9 | 144 | (36/0.25)=x | 36 0.25 / x = | 36:discount 0.25:time /:discount x:discount =:discount
+EXPR: 0 | POS | INT | 14 | 9 | 144 | (36/x)=0.25 | 36 x / 0.25 = | 36:time x:discount /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00694444444444444 | (36*x)=0.25 | 36 x * 0.25 = | 36:time x:discount *:time 0.25:time =:time
+EXPR: 1 | POS | INT | 14 | 9 | 9 | (x/36)=0.25 | x 36 / 0.25 = | x:time 36:ticket /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00694444444444444 | (x*36)=0.25 | x 36 * 0.25 = | x:time 36:ticket *:time 0.25:time =:time
+EXPR: 0 | POS | INT | 14 | 9 | 144 | 36=(0.25*x) | 36 0.25 x * = | 36:ticket 0.25:time x:ticket *:ticket =:ticket
+EXPR: 0 | POS | INT | 14 | 9 | 144 | 36=(x*0.25) | 36 x 0.25 * = | 36:ticket x:discount 0.25:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 14 | 9 | 9 | 36=(x/0.25) | 36 x 0.25 / = | 36:discount x:discount 0.25:time /:discount =:discount
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00694444444444444 | 36=(0.25/x) | 36 0.25 x / = | 36:time 0.25:time x:discount /:time =:time
+EXPR: 0 | POS | FRA | 20 | 9 | 36.25 | x=(0.25+36) | x 0.25 36 + = | x:time 0.25:time 36:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 9 | 36.25 | (0.25+36)=x | 0.25 36 + x = | 0.25:time 36:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 9 | 36.25 | 0.25=(x-36) | 0.25 x 36 - = | 0.25:time x:time 36:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | 0.25=(36-x) | 0.25 36 x - = | 0.25:ticket 36:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | x=(36-0.25) | x 36 0.25 - = | x:ticket 36:ticket 0.25:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | (x+0.25)=36 | x 0.25 + 36 = | x:ticket 0.25:ticket +:ticket 36:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 36.25 | (x-0.25)=36 | x 0.25 - 36 = | x:ticket 0.25:ticket -:ticket 36:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | (0.25+x)=36 | 0.25 x + 36 = | 0.25:time x:time +:time 36:time =:time
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | (36-0.25)=x | 36 0.25 - x = | 36:discount 0.25:discount -:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 24 | 9 | 35.75 | 36=(x+0.25) | 36 x 0.25 + = | 36:time x:time 0.25:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 35.75 | (36-x)=0.25 | 36 x - 0.25 = | 36:time x:time -:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 36.25 | (x-36)=0.25 | x 36 - 0.25 = | x:time 36:time -:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 36.25 | 36=(x-0.25) | 36 x 0.25 - = | 36:time x:time 0.25:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 35.75 | 36=(0.25+x) | 36 0.25 x + = | 36:discount 0.25:discount x:discount +:discount =:discount
+NET 36 unique, non-negative solutions found out of 324 total solutions

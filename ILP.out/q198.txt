@@ -1,0 +1,5 @@
+quantities : 1570 2041 x
+types : "dollar" "dollar" "time"
+operators : + - * / =
+n : 5
+answer : 30.0

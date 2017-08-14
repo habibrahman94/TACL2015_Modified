@@ -1,0 +1,5 @@
+quantities : 90 0.2 x
+types : "bead" "She" "bead"
+operators : + - * / =
+n : 5
+answer : 18.0

@@ -1,0 +1,5 @@
+quantities : 25 0.4 x
+types : "question" "Russell" "question"
+operators : + - * / =
+n : 5
+answer : 10.0

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 19.4444 | 65 | x=(36+29) | x 36 29 + = | x:carpenter 36:carpenter 29:carpenter +:carpenter =:carpenter
+EXPR: 0 | POS | INT | 10 | 19.4444 | 1044 | x=(36*29) | x 36 29 * = | x:UNKNOWN 36:carpenter 29:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 19.4444 | 7 | (36-29)=x | 36 29 - x = | 36:carpenter 29:carpenter -:carpenter x:carpenter =:carpenter
+EXPR: 0 | POS | INT | 10 | 19.4444 | 1044 | (36*29)=x | 36 29 * x = | 36:carpenter 29:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 19.4444 | 7 | x=(36-29) | x 36 29 - = | x:carpenter 36:carpenter 29:carpenter -:carpenter =:carpenter
+EXPR: 0 | POS | INT | 10 | 19.4444 | 65 | (36+29)=x | 36 29 + x = | 36:carpenter 29:carpenter +:carpenter x:carpenter =:carpenter
+EXPR: 0 | POS | INT | 12 | 19.4444 | 7 | (36-x)=29 | 36 x - 29 = | 36:carpenter x:carpenter -:carpenter 29:carpenter =:carpenter
+EXPR: 0 | POS | INT | 12 | 19.4444 | 7 | 36=(29+x) | 36 29 x + = | 36:carpenter 29:carpenter x:carpenter +:carpenter =:carpenter
+EXPR: 0 | POS | INT | 12 | 19.4444 | 1044 | (x/36)=29 | x 36 / 29 = | x:UNKNOWN 36:carpenter /:UNKNOWN 29:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 19.4444 | 65 | (x-36)=29 | x 36 - 29 = | x:carpenter 36:carpenter -:carpenter 29:carpenter =:carpenter
+EXPR: 0 | POS | INT | 12 | 19.4444 | 65 | 36=(x-29) | 36 x 29 - = | 36:carpenter x:carpenter 29:carpenter -:carpenter =:carpenter
+EXPR: 0 | POS | INT | 12 | 19.4444 | 7 | 36=(x+29) | 36 x 29 + = | 36:carpenter x:carpenter 29:carpenter +:carpenter =:carpenter
+EXPR: 0 | POS | INT | 12 | 19.4444 | 1044 | 36=(x/29) | 36 x 29 / = | 36:UNKNOWN x:UNKNOWN 29:carpenter /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 19.4444 | 65 | (x-29)=36 | x 29 - 36 = | x:carpenter 29:carpenter -:carpenter 36:carpenter =:carpenter
+EXPR: 0 | POS | INT | 14 | 19.4444 | 1044 | 29=(x/36) | 29 x 36 / = | 29:UNKNOWN x:UNKNOWN 36:carpenter /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 19.4444 | 7 | (x+29)=36 | x 29 + 36 = | x:carpenter 29:carpenter +:carpenter 36:carpenter =:carpenter
+EXPR: 0 | POS | INT | 14 | 19.4444 | 1044 | (x/29)=36 | x 29 / 36 = | x:UNKNOWN 29:carpenter /:UNKNOWN 36:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 19.4444 | 7 | 29=(36-x) | 29 36 x - = | 29:carpenter 36:carpenter x:carpenter -:carpenter =:carpenter
+EXPR: 0 | POS | INT | 14 | 19.4444 | 7 | (29+x)=36 | 29 x + 36 = | 29:carpenter x:carpenter +:carpenter 36:carpenter =:carpenter
+EXPR: 0 | POS | INT | 14 | 19.4444 | 65 | 29=(x-36) | 29 x 36 - = | 29:carpenter x:carpenter 36:carpenter -:carpenter =:carpenter
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

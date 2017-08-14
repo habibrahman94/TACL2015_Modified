@@ -1,0 +1,5 @@
+quantities : 8 80 x
+types : "park" "ticket" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 10.0

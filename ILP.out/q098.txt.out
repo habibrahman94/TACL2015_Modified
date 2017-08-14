@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 72 | 88.8888888888889 | x=(80/0.9) | x 80 0.9 / = | x:sandwich 80:sandwich 0.9:cafeteria /:sandwich =:sandwich
+EXPR: 1 | POS | INT | 0 | 72 | 72 | (80*0.9)=x | 80 0.9 * x = | 80:sandwich 0.9:cafeteria *:sandwich x:sandwich =:sandwich
+EXPR: 1 | POS | INT | 0 | 72 | 72 | x=(80*0.9) | x 80 0.9 * = | x:sandwich 80:sandwich 0.9:cafeteria *:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 0 | 72 | 88.8888888888889 | (80/0.9)=x | 80 0.9 / x = | 80:sandwich 0.9:cafeteria /:sandwich x:sandwich =:sandwich
+EXPR: 1 | POS | INT | 2 | 72 | 72 | 80=(x/0.9) | 80 x 0.9 / = | 80:sandwich x:sandwich 0.9:cafeteria /:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 2 | 72 | 88.8888888888889 | 80=(x*0.9) | 80 x 0.9 * = | 80:sandwich x:sandwich 0.9:cafeteria *:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 2 | 72 | 88.8888888888889 | 80=(0.9*x) | 80 0.9 x * = | 80:sandwich 0.9:cafeteria x:sandwich *:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 4 | 72 | 88.8888888888889 | (0.9*x)=80 | 0.9 x * 80 = | 0.9:cafeteria x:sandwich *:sandwich 80:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 4 | 72 | 88.8888888888889 | (x*0.9)=80 | x 0.9 * 80 = | x:sandwich 0.9:cafeteria *:sandwich 80:sandwich =:sandwich
+EXPR: 1 | POS | INT | 4 | 72 | 72 | (x/0.9)=80 | x 0.9 / 80 = | x:sandwich 0.9:cafeteria /:sandwich 80:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 10 | 72 | 80.9 | (80+0.9)=x | 80 0.9 + x = | 80:sandwich 0.9:sandwich +:sandwich x:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 10 | 72 | 80.9 | x=(80+0.9) | x 80 0.9 + = | x:sandwich 80:sandwich 0.9:sandwich +:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 10 | 72 | 79.1 | (80-0.9)=x | 80 0.9 - x = | 80:sandwich 0.9:sandwich -:sandwich x:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 10 | 72 | 79.1 | x=(80-0.9) | x 80 0.9 - = | x:sandwich 80:sandwich 0.9:sandwich -:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 12 | 72 | 79.1 | 80=(x+0.9) | 80 x 0.9 + = | 80:sandwich x:sandwich 0.9:sandwich +:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 12 | 72 | 0.01125 | 80=(0.9/x) | 80 0.9 x / = | 80:cafeteria 0.9:cafeteria x:sandwich /:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 0.01125 | (x*80)=0.9 | x 80 * 0.9 = | x:sandwich 80:cafeteria *:cafeteria 0.9:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 88.8888888888889 | (80/x)=0.9 | 80 x / 0.9 = | 80:cafeteria x:sandwich /:cafeteria 0.9:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 0.01125 | x=(0.9/80) | x 0.9 80 / = | x:cafeteria 0.9:cafeteria 80:sandwich /:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 80.9 | 80=(x-0.9) | 80 x 0.9 - = | 80:sandwich x:sandwich 0.9:sandwich -:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 12 | 72 | 0.01125 | (0.9/80)=x | 0.9 80 / x = | 0.9:cafeteria 80:sandwich /:cafeteria x:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 0.01125 | (80*x)=0.9 | 80 x * 0.9 = | 80:cafeteria x:sandwich *:cafeteria 0.9:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 80.9 | (x-80)=0.9 | x 80 - 0.9 = | x:sandwich 80:sandwich -:sandwich 0.9:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 12 | 72 | 79.1 | (80-x)=0.9 | 80 x - 0.9 = | 80:sandwich x:sandwich -:sandwich 0.9:sandwich =:sandwich
+EXPR: 1 | POS | INT | 12 | 72 | 72 | (x/80)=0.9 | x 80 / 0.9 = | x:cafeteria 80:sandwich /:cafeteria 0.9:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 12 | 72 | 79.1 | 80=(0.9+x) | 80 0.9 x + = | 80:sandwich 0.9:sandwich x:sandwich +:sandwich =:sandwich
+EXPR: 1 | POS | INT | 14 | 72 | 72 | 0.9=(x/80) | 0.9 x 80 / = | 0.9:cafeteria x:cafeteria 80:sandwich /:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 14 | 72 | 88.8888888888889 | 0.9=(80/x) | 0.9 80 x / = | 0.9:cafeteria 80:cafeteria x:sandwich /:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 14 | 72 | 79.1 | (0.9+x)=80 | 0.9 x + 80 = | 0.9:sandwich x:sandwich +:sandwich 80:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 14 | 72 | 79.1 | (x+0.9)=80 | x 0.9 + 80 = | x:sandwich 0.9:sandwich +:sandwich 80:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 14 | 72 | 0.01125 | 0.9=(80*x) | 0.9 80 x * = | 0.9:cafeteria 80:sandwich x:cafeteria *:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 14 | 72 | 0.01125 | (0.9/x)=80 | 0.9 x / 80 = | 0.9:cafeteria x:sandwich /:cafeteria 80:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 14 | 72 | 79.1 | 0.9=(80-x) | 0.9 80 x - = | 0.9:sandwich 80:sandwich x:sandwich -:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 14 | 72 | 80.9 | 0.9=(x-80) | 0.9 x 80 - = | 0.9:sandwich x:sandwich 80:sandwich -:sandwich =:sandwich
+EXPR: 0 | POS | FRA | 14 | 72 | 0.01125 | 0.9=(x*80) | 0.9 x 80 * = | 0.9:cafeteria x:sandwich 80:cafeteria *:cafeteria =:cafeteria
+EXPR: 0 | POS | FRA | 14 | 72 | 80.9 | (x-0.9)=80 | x 0.9 - 80 = | x:sandwich 0.9:sandwich -:sandwich 80:sandwich =:sandwich
+NET 36 unique, non-negative solutions found out of 136 total solutions

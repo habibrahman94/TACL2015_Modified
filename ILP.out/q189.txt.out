@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 50 | 338 | (13*26)=x | 13 26 * x = | 13:park 26:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 50 | 338 | x=(13*26) | x 13 26 * = | x:park 13:park 26:ticket *:park =:park
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (13*x)=26 | 13 x * 26 = | 13:park x:ticket *:ticket 26:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 50 | 2 | x=(26/13) | x 26 13 / = | x:ticket 26:ticket 13:park /:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 50 | 2 | 13=(26/x) | 13 26 x / = | 13:ticket 26:ticket x:UNKNOWN /:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 50 | 338 | 13=(x/26) | 13 x 26 / = | 13:UNKNOWN x:UNKNOWN 26:ticket /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (x*13)=26 | x 13 * 26 = | x:UNKNOWN 13:ticket *:ticket 26:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 50 | 338 | (x/13)=26 | x 13 / 26 = | x:UNKNOWN 13:park /:UNKNOWN 26:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (26/13)=x | 26 13 / x = | 26:UNKNOWN 13:park /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 50 | 2 | (26/x)=13 | 26 x / 13 = | 26:park x:UNKNOWN /:park 13:park =:park
+EXPR: 0 | POS | INT | 14 | 50 | 338 | (x/26)=13 | x 26 / 13 = | x:park 26:ticket /:park 13:park =:park
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 26=(13*x) | 26 13 x * = | 26:ticket 13:park x:ticket *:ticket =:ticket
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 26=(x*13) | 26 x 13 * = | 26:ticket x:UNKNOWN 13:ticket *:ticket =:ticket
+EXPR: 0 | POS | INT | 14 | 50 | 338 | 26=(x/13) | 26 x 13 / = | 26:UNKNOWN x:UNKNOWN 13:park /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 50 | 39 | x=(13+26) | x 13 26 + = | x:park 13:park 26:park +:park =:park
+EXPR: 0 | POS | INT | 20 | 50 | 39 | (13+26)=x | 13 26 + x = | 13:park 26:park +:park x:park =:park
+EXPR: 0 | POS | INT | 22 | 50 | 39 | 13=(x-26) | 13 x 26 - = | 13:park x:park 26:park -:park =:park
+EXPR: 0 | POS | INT | 22 | 50 | 13 | 13=(26-x) | 13 26 x - = | 13:ticket 26:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 50 | 13 | x=(26-13) | x 26 13 - = | x:ticket 26:ticket 13:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 50 | 13 | (x+13)=26 | x 13 + 26 = | x:ticket 13:ticket +:ticket 26:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 50 | 39 | (x-13)=26 | x 13 - 26 = | x:ticket 13:ticket -:ticket 26:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 50 | 13 | (13+x)=26 | 13 x + 26 = | 13:park x:park +:park 26:park =:park
+EXPR: 0 | POS | INT | 22 | 50 | 13 | (26-13)=x | 26 13 - x = | 26:UNKNOWN 13:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 50 | 13 | 26=(x+13) | 26 x 13 + = | 26:park x:park 13:park +:park =:park
+EXPR: 0 | POS | INT | 24 | 50 | 13 | (26-x)=13 | 26 x - 13 = | 26:park x:park -:park 13:park =:park
+EXPR: 0 | POS | INT | 24 | 50 | 39 | (x-26)=13 | x 26 - 13 = | x:park 26:park -:park 13:park =:park
+EXPR: 0 | POS | INT | 24 | 50 | 39 | 26=(x-13) | 26 x 13 - = | 26:park x:park 13:park -:park =:park
+EXPR: 0 | POS | INT | 24 | 50 | 13 | 26=(13+x) | 26 13 x + = | 26:UNKNOWN 13:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

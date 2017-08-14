@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 36 | 36 | x=(0.9*40) | x 0.9 40 * = | x:vote 0.9:time 40:vote *:vote =:vote
+EXPR: 1 | POS | INT | 0 | 36 | 36 | (0.9*40)=x | 0.9 40 * x = | 0.9:time 40:vote *:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 36 | 44.4444444444444 | (40/0.9)=x | 40 0.9 / x = | 40:vote 0.9:time /:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 36 | 44.4444444444444 | (0.9*x)=40 | 0.9 x * 40 = | 0.9:time x:vote *:vote 40:vote =:vote
+EXPR: 1 | POS | INT | 2 | 36 | 36 | (x/0.9)=40 | x 0.9 / 40 = | x:vote 0.9:time /:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 36 | 44.4444444444444 | (x*0.9)=40 | x 0.9 * 40 = | x:vote 0.9:time *:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 36 | 44.4444444444444 | x=(40/0.9) | x 40 0.9 / = | x:vote 40:vote 0.9:time /:vote =:vote
+EXPR: 0 | POS | FRA | 4 | 36 | 44.4444444444444 | 40=(x*0.9) | 40 x 0.9 * = | 40:vote x:vote 0.9:time *:vote =:vote
+EXPR: 0 | POS | FRA | 4 | 36 | 44.4444444444444 | 40=(0.9*x) | 40 0.9 x * = | 40:vote 0.9:time x:vote *:vote =:vote
+EXPR: 1 | POS | INT | 4 | 36 | 36 | 40=(x/0.9) | 40 x 0.9 / = | 40:vote x:vote 0.9:time /:vote =:vote
+EXPR: 0 | POS | FRA | 10 | 36 | 0.0225 | (0.9/40)=x | 0.9 40 / x = | 0.9:time 40:vote /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 36 | 40.9 | (0.9+40)=x | 0.9 40 + x = | 0.9:vote 40:vote +:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 10 | 36 | 40.9 | x=(0.9+40) | x 0.9 40 + = | x:vote 0.9:vote 40:vote +:vote =:vote
+EXPR: 0 | POS | FRA | 10 | 36 | 0.0225 | x=(0.9/40) | x 0.9 40 / = | x:time 0.9:time 40:vote /:time =:time
+EXPR: 0 | POS | FRA | 12 | 36 | 0.0225 | 0.9=(x*40) | 0.9 x 40 * = | 0.9:time x:time 40:vote *:time =:time
+EXPR: 0 | POS | FRA | 12 | 36 | 44.4444444444444 | 0.9=(40/x) | 0.9 40 x / = | 0.9:time 40:time x:vote /:time =:time
+EXPR: 0 | POS | FRA | 12 | 36 | 40.9 | (x-0.9)=40 | x 0.9 - 40 = | x:vote 0.9:vote -:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 36 | 0.0225 | (0.9/x)=40 | 0.9 x / 40 = | 0.9:time x:vote /:time 40:time =:time
+EXPR: 0 | POS | FRA | 12 | 36 | 39.1 | (40-0.9)=x | 40 0.9 - x = | 40:vote 0.9:vote -:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 36 | 39.1 | (x+0.9)=40 | x 0.9 + 40 = | x:vote 0.9:vote +:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 36 | 0.0225 | 0.9=(40*x) | 0.9 40 x * = | 0.9:time 40:time x:vote *:time =:time
+EXPR: 0 | POS | FRA | 12 | 36 | 39.1 | (0.9+x)=40 | 0.9 x + 40 = | 0.9:vote x:vote +:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 36 | 39.1 | 0.9=(40-x) | 0.9 40 x - = | 0.9:vote 40:vote x:vote -:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 36 | 39.1 | x=(40-0.9) | x 40 0.9 - = | x:vote 40:vote 0.9:vote -:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 36 | 40.9 | 0.9=(x-40) | 0.9 x 40 - = | 0.9:vote x:vote 40:vote -:vote =:vote
+EXPR: 1 | POS | INT | 12 | 36 | 36 | 0.9=(x/40) | 0.9 x 40 / = | 0.9:time x:time 40:vote /:time =:time
+EXPR: 0 | POS | FRA | 14 | 36 | 44.4444444444444 | (40/x)=0.9 | 40 x / 0.9 = | 40:time x:vote /:time 0.9:time =:time
+EXPR: 1 | POS | INT | 14 | 36 | 36 | (x/40)=0.9 | x 40 / 0.9 = | x:time 40:vote /:time 0.9:time =:time
+EXPR: 0 | POS | FRA | 14 | 36 | 0.0225 | 40=(0.9/x) | 40 0.9 x / = | 40:time 0.9:time x:vote /:time =:time
+EXPR: 0 | POS | FRA | 14 | 36 | 39.1 | (40-x)=0.9 | 40 x - 0.9 = | 40:vote x:vote -:vote 0.9:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 36 | 0.0225 | (40*x)=0.9 | 40 x * 0.9 = | 40:time x:vote *:time 0.9:time =:time
+EXPR: 0 | POS | FRA | 14 | 36 | 39.1 | 40=(0.9+x) | 40 0.9 x + = | 40:vote 0.9:vote x:vote +:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 36 | 0.0225 | (x*40)=0.9 | x 40 * 0.9 = | x:vote 40:time *:time 0.9:time =:time
+EXPR: 0 | POS | FRA | 14 | 36 | 40.9 | (x-40)=0.9 | x 40 - 0.9 = | x:vote 40:vote -:vote 0.9:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 36 | 40.9 | 40=(x-0.9) | 40 x 0.9 - = | 40:vote x:vote 0.9:vote -:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 36 | 39.1 | 40=(x+0.9) | 40 x 0.9 + = | 40:vote x:vote 0.9:vote +:vote =:vote
+NET 36 unique, non-negative solutions found out of 136 total solutions

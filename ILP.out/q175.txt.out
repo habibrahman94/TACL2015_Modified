@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 80 | 4 | 28=(x*7) | 28 x 7 * = | 28:tree x:UNKNOWN 7:tree *:tree =:tree
+EXPR: 0 | POS | INT | 2 | 80 | 4 | 28=(7*x) | 28 7 x * = | 28:tree 7:tree x:UNKNOWN *:tree =:tree
+EXPR: 0 | POS | INT | 2 | 80 | 4 | (28/x)=7 | 28 x / 7 = | 28:tree x:UNKNOWN /:tree 7:tree =:tree
+EXPR: 0 | POS | INT | 4 | 80 | 4 | (x*7)=28 | x 7 * 28 = | x:UNKNOWN 7:tree *:tree 28:tree =:tree
+EXPR: 0 | POS | INT | 4 | 80 | 4 | (7*x)=28 | 7 x * 28 = | 7:tree x:UNKNOWN *:tree 28:tree =:tree
+EXPR: 0 | POS | INT | 4 | 80 | 4 | 7=(28/x) | 7 28 x / = | 7:tree 28:tree x:UNKNOWN /:tree =:tree
+EXPR: 0 | POS | INT | 10 | 80 | 35 | x=(28+7) | x 28 7 + = | x:tree 28:tree 7:tree +:tree =:tree
+EXPR: 0 | POS | INT | 10 | 80 | 196 | x=(28*7) | x 28 7 * = | x:UNKNOWN 28:tree 7:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 21 | (28-7)=x | 28 7 - x = | 28:tree 7:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 10 | 80 | 196 | (28*7)=x | 28 7 * x = | 28:tree 7:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 21 | x=(28-7) | x 28 7 - = | x:tree 28:tree 7:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 80 | 4 | x=(28/7) | x 28 7 / = | x:UNKNOWN 28:UNKNOWN 7:tree /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 80 | 35 | (28+7)=x | 28 7 + x = | 28:tree 7:tree +:tree x:tree =:tree
+EXPR: 0 | POS | INT | 10 | 80 | 4 | (28/7)=x | 28 7 / x = | 28:UNKNOWN 7:tree /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 21 | (28-x)=7 | 28 x - 7 = | 28:tree x:tree -:tree 7:tree =:tree
+EXPR: 0 | POS | INT | 12 | 80 | 21 | 28=(7+x) | 28 7 x + = | 28:tree 7:tree x:tree +:tree =:tree
+EXPR: 0 | POS | INT | 12 | 80 | 196 | (x/28)=7 | x 28 / 7 = | x:UNKNOWN 28:tree /:UNKNOWN 7:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 80 | 35 | (x-28)=7 | x 28 - 7 = | x:tree 28:tree -:tree 7:tree =:tree
+EXPR: 0 | POS | INT | 12 | 80 | 35 | 28=(x-7) | 28 x 7 - = | 28:tree x:tree 7:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 80 | 21 | 28=(x+7) | 28 x 7 + = | 28:tree x:tree 7:tree +:tree =:tree
+EXPR: 0 | POS | INT | 12 | 80 | 196 | 28=(x/7) | 28 x 7 / = | 28:UNKNOWN x:UNKNOWN 7:tree /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 35 | (x-7)=28 | x 7 - 28 = | x:tree 7:tree -:tree 28:tree =:tree
+EXPR: 0 | POS | INT | 14 | 80 | 196 | 7=(x/28) | 7 x 28 / = | 7:UNKNOWN x:UNKNOWN 28:tree /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 21 | (x+7)=28 | x 7 + 28 = | x:tree 7:tree +:tree 28:tree =:tree
+EXPR: 0 | POS | INT | 14 | 80 | 196 | (x/7)=28 | x 7 / 28 = | x:UNKNOWN 7:tree /:UNKNOWN 28:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 80 | 21 | 7=(28-x) | 7 28 x - = | 7:tree 28:tree x:tree -:tree =:tree
+EXPR: 0 | POS | INT | 14 | 80 | 21 | (7+x)=28 | 7 x + 28 = | 7:tree x:tree +:tree 28:tree =:tree
+EXPR: 0 | POS | INT | 14 | 80 | 35 | 7=(x-28) | 7 x 28 - = | 7:tree x:tree 28:tree -:tree =:tree
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

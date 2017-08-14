@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 64 | 16 | (80*0.2)=x | 80 0.2 * x = | 80:score 0.2:Jason *:score x:score =:score
+EXPR: 0 | POS | INT | 10 | 64 | 400 | x=(80/0.2) | x 80 0.2 / = | x:score 80:score 0.2:Jason /:score =:score
+EXPR: 0 | POS | INT | 10 | 64 | 16 | x=(80*0.2) | x 80 0.2 * = | x:score 80:point 0.2:score *:score =:score
+EXPR: 0 | POS | INT | 10 | 64 | 400 | (80/0.2)=x | 80 0.2 / x = | 80:point 0.2:Jason /:point x:point =:point
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | (x*80)=0.2 | x 80 * 0.2 = | x:score 80:point *:score 0.2:score =:score
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | (80*x)=0.2 | 80 x * 0.2 = | 80:point x:Jason *:Jason 0.2:Jason =:Jason
+EXPR: 0 | POS | INT | 12 | 64 | 400 | 80=(0.2*x) | 80 0.2 x * = | 80:point 0.2:Jason x:point *:point =:point
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | (0.2/80)=x | 0.2 80 / x = | 0.2:Jason 80:point /:Jason x:Jason =:Jason
+EXPR: 0 | POS | INT | 12 | 64 | 400 | 80=(x*0.2) | 80 x 0.2 * = | 80:point x:score 0.2:point *:point =:point
+EXPR: 0 | POS | INT | 12 | 64 | 16 | (x/80)=0.2 | x 80 / 0.2 = | x:score 80:point /:score 0.2:score =:score
+EXPR: 0 | POS | INT | 12 | 64 | 400 | (80/x)=0.2 | 80 x / 0.2 = | 80:Jason x:score /:Jason 0.2:Jason =:Jason
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | 80=(0.2/x) | 80 0.2 x / = | 80:point 0.2:point x:score /:point =:point
+EXPR: 0 | POS | INT | 12 | 64 | 16 | 80=(x/0.2) | 80 x 0.2 / = | 80:point x:point 0.2:Jason /:point =:point
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | x=(0.2/80) | x 0.2 80 / = | x:Jason 0.2:Jason 80:point /:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 400 | (x*0.2)=80 | x 0.2 * 80 = | x:score 0.2:Jason *:score 80:score =:score
+EXPR: 0 | POS | INT | 14 | 64 | 16 | (x/0.2)=80 | x 0.2 / 80 = | x:score 0.2:Jason /:score 80:score =:score
+EXPR: 0 | POS | FRA | 14 | 64 | 0.0025 | 0.2=(x*80) | 0.2 x 80 * = | 0.2:Jason x:Jason 80:point *:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 16 | 0.2=(x/80) | 0.2 x 80 / = | 0.2:Jason x:Jason 80:point /:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 400 | (0.2*x)=80 | 0.2 x * 80 = | 0.2:Jason x:score *:Jason 80:Jason =:Jason
+EXPR: 0 | POS | FRA | 14 | 64 | 0.0025 | (0.2/x)=80 | 0.2 x / 80 = | 0.2:Jason x:score /:Jason 80:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 400 | 0.2=(80/x) | 0.2 80 x / = | 0.2:Jason 80:Jason x:score /:Jason =:Jason
+EXPR: 0 | POS | FRA | 14 | 64 | 0.0025 | 0.2=(80*x) | 0.2 80 x * = | 0.2:Jason 80:Jason x:score *:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 79.8 | x=(80-0.2) | x 80 0.2 - = | x:Jason 80:Jason 0.2:Jason -:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 80.2 | x=(80+0.2) | x 80 0.2 + = | x:Jason 80:Jason 0.2:Jason +:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 80.2 | (80+0.2)=x | 80 0.2 + x = | 80:Jason 0.2:Jason +:Jason x:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 79.8 | (80-0.2)=x | 80 0.2 - x = | 80:Jason 0.2:Jason -:Jason x:Jason =:Jason
+EXPR: 0 | POS | FRA | 22 | 64 | 79.8 | 80=(x+0.2) | 80 x 0.2 + = | 80:score x:score 0.2:score +:score =:score
+EXPR: 0 | POS | FRA | 22 | 64 | 79.8 | (80-x)=0.2 | 80 x - 0.2 = | 80:score x:score -:score 0.2:score =:score
+EXPR: 0 | POS | FRA | 22 | 64 | 79.8 | 80=(0.2+x) | 80 0.2 x + = | 80:Jason 0.2:Jason x:Jason +:Jason =:Jason
+EXPR: 0 | POS | FRA | 22 | 64 | 80.2 | 80=(x-0.2) | 80 x 0.2 - = | 80:Jason x:Jason 0.2:Jason -:Jason =:Jason
+EXPR: 0 | POS | FRA | 22 | 64 | 80.2 | (x-80)=0.2 | x 80 - 0.2 = | x:Jason 80:Jason -:Jason 0.2:Jason =:Jason
+EXPR: 0 | POS | FRA | 24 | 64 | 79.8 | (0.2+x)=80 | 0.2 x + 80 = | 0.2:score x:score +:score 80:score =:score
+EXPR: 0 | POS | FRA | 24 | 64 | 79.8 | 0.2=(80-x) | 0.2 80 x - = | 0.2:score 80:score x:score -:score =:score
+EXPR: 0 | POS | FRA | 24 | 64 | 80.2 | 0.2=(x-80) | 0.2 x 80 - = | 0.2:Jason x:Jason 80:Jason -:Jason =:Jason
+EXPR: 0 | POS | FRA | 24 | 64 | 80.2 | (x-0.2)=80 | x 0.2 - 80 = | x:Jason 0.2:Jason -:Jason 80:Jason =:Jason
+EXPR: 0 | POS | FRA | 24 | 64 | 79.8 | (x+0.2)=80 | x 0.2 + 80 = | x:Jason 0.2:Jason +:Jason 80:Jason =:Jason
+NET 36 unique, non-negative solutions found out of 324 total solutions

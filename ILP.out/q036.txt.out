@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 75 | 147 | (21*7)=x | 21 7 * x = | 21:woman 7:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 75 | 3 | (21/7)=x | 21 7 / x = | 21:UNKNOWN 7:magazine /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 75 | 147 | x=(21*7) | x 21 7 * = | x:woman 21:woman 7:magazine *:woman =:woman
+EXPR: 0 | POS | INT | 10 | 75 | 3 | x=(21/7) | x 21 7 / = | x:UNKNOWN 21:UNKNOWN 7:magazine /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 3 | 21=(7*x) | 21 7 x * = | 21:UNKNOWN 7:magazine x:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 3 | (21/x)=7 | 21 x / 7 = | 21:magazine x:UNKNOWN /:magazine 7:magazine =:magazine
+EXPR: 0 | POS | INT | 12 | 75 | 3 | 21=(x*7) | 21 x 7 * = | 21:UNKNOWN x:UNKNOWN 7:magazine *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 147 | 21=(x/7) | 21 x 7 / = | 21:UNKNOWN x:UNKNOWN 7:magazine /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 147 | (x/21)=7 | x 21 / 7 = | x:UNKNOWN 21:woman /:UNKNOWN 7:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 75 | 3 | (7*x)=21 | 7 x * 21 = | 7:woman x:UNKNOWN *:woman 21:woman =:woman
+EXPR: 0 | POS | INT | 14 | 75 | 147 | (x/7)=21 | x 7 / 21 = | x:woman 7:magazine /:woman 21:woman =:woman
+EXPR: 0 | POS | INT | 14 | 75 | 3 | (x*7)=21 | x 7 * 21 = | x:woman 7:magazine *:woman 21:woman =:woman
+EXPR: 0 | POS | INT | 14 | 75 | 147 | 7=(x/21) | 7 x 21 / = | 7:UNKNOWN x:UNKNOWN 21:woman /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 75 | 3 | 7=(21/x) | 7 21 x / = | 7:woman 21:woman x:UNKNOWN /:woman =:woman
+EXPR: 0 | POS | INT | 20 | 75 | 28 | x=(21+7) | x 21 7 + = | x:woman 21:woman 7:woman +:woman =:woman
+EXPR: 0 | POS | INT | 20 | 75 | 14 | x=(21-7) | x 21 7 - = | x:UNKNOWN 21:UNKNOWN 7:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 75 | 28 | (21+7)=x | 21 7 + x = | 21:woman 7:woman +:woman x:woman =:woman
+EXPR: 0 | POS | INT | 20 | 75 | 14 | (21-7)=x | 21 7 - x = | 21:UNKNOWN 7:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 22 | 75 | 28 | 21=(x-7) | 21 x 7 - = | 21:woman x:woman 7:woman -:woman =:woman
+EXPR: 0 | POS | INT | 22 | 75 | 14 | 21=(x+7) | 21 x 7 + = | 21:woman x:woman 7:woman +:woman =:woman
+EXPR: 0 | POS | INT | 22 | 75 | 28 | (x-21)=7 | x 21 - 7 = | x:magazine 21:magazine -:magazine 7:magazine =:magazine
+EXPR: 0 | POS | INT | 22 | 75 | 14 | (21-x)=7 | 21 x - 7 = | 21:woman x:woman -:woman 7:woman =:woman
+EXPR: 0 | POS | INT | 22 | 75 | 14 | 21=(7+x) | 21 7 x + = | 21:UNKNOWN 7:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 75 | 14 | (7+x)=21 | 7 x + 21 = | 7:UNKNOWN x:UNKNOWN +:UNKNOWN 21:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 75 | 28 | (x-7)=21 | x 7 - 21 = | x:woman 7:woman -:woman 21:woman =:woman
+EXPR: 0 | POS | INT | 24 | 75 | 14 | (x+7)=21 | x 7 + 21 = | x:UNKNOWN 7:UNKNOWN +:UNKNOWN 21:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 75 | 14 | 7=(21-x) | 7 21 x - = | 7:woman 21:woman x:woman -:woman =:woman
+EXPR: 0 | POS | INT | 24 | 75 | 28 | 7=(x-21) | 7 x 21 - = | 7:woman x:woman 21:woman -:woman =:woman
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

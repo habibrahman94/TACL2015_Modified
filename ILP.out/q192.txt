@@ -1,0 +1,5 @@
+quantities : 62 31 x
+types : "vote" "vote" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 50.0

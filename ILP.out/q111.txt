@@ -1,0 +1,5 @@
+quantities : 0.2 15 x
+types : "club" "member" "member"
+operators : + - * / =
+n : 5
+answer : 3.0

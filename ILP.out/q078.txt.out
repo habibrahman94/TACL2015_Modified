@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 21 | 58.3333333333333 | x=(35/0.6) | x 35 0.6 / = | x:button 35:button 0.6:bag /:button =:button
+EXPR: 1 | POS | INT | 0 | 21 | 21 | (35*0.6)=x | 35 0.6 * x = | 35:button 0.6:bag *:button x:button =:button
+EXPR: 1 | POS | INT | 0 | 21 | 21 | x=(35*0.6) | x 35 0.6 * = | x:button 35:button 0.6:bag *:button =:button
+EXPR: 0 | POS | FRA | 0 | 21 | 58.3333333333333 | (35/0.6)=x | 35 0.6 / x = | 35:button 0.6:bag /:button x:button =:button
+EXPR: 1 | POS | INT | 2 | 21 | 21 | 35=(x/0.6) | 35 x 0.6 / = | 35:button x:button 0.6:bag /:button =:button
+EXPR: 0 | POS | FRA | 2 | 21 | 58.3333333333333 | 35=(x*0.6) | 35 x 0.6 * = | 35:button x:button 0.6:bag *:button =:button
+EXPR: 0 | POS | FRA | 2 | 21 | 58.3333333333333 | 35=(0.6*x) | 35 0.6 x * = | 35:button 0.6:bag x:button *:button =:button
+EXPR: 0 | POS | FRA | 4 | 21 | 58.3333333333333 | (0.6*x)=35 | 0.6 x * 35 = | 0.6:bag x:button *:button 35:button =:button
+EXPR: 0 | POS | FRA | 4 | 21 | 58.3333333333333 | (x*0.6)=35 | x 0.6 * 35 = | x:button 0.6:bag *:button 35:button =:button
+EXPR: 1 | POS | INT | 4 | 21 | 21 | (x/0.6)=35 | x 0.6 / 35 = | x:button 0.6:bag /:button 35:button =:button
+EXPR: 0 | POS | FRA | 10 | 21 | 35.6 | (35+0.6)=x | 35 0.6 + x = | 35:button 0.6:button +:button x:button =:button
+EXPR: 0 | POS | FRA | 10 | 21 | 35.6 | x=(35+0.6) | x 35 0.6 + = | x:button 35:button 0.6:button +:button =:button
+EXPR: 0 | POS | FRA | 10 | 21 | 34.4 | (35-0.6)=x | 35 0.6 - x = | 35:button 0.6:button -:button x:button =:button
+EXPR: 0 | POS | FRA | 10 | 21 | 34.4 | x=(35-0.6) | x 35 0.6 - = | x:button 35:button 0.6:button -:button =:button
+EXPR: 0 | POS | FRA | 12 | 21 | 34.4 | 35=(x+0.6) | 35 x 0.6 + = | 35:button x:button 0.6:button +:button =:button
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0171428571428571 | 35=(0.6/x) | 35 0.6 x / = | 35:bag 0.6:bag x:button /:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0171428571428571 | (x*35)=0.6 | x 35 * 0.6 = | x:button 35:bag *:bag 0.6:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 58.3333333333333 | (35/x)=0.6 | 35 x / 0.6 = | 35:bag x:button /:bag 0.6:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0171428571428571 | x=(0.6/35) | x 0.6 35 / = | x:bag 0.6:bag 35:button /:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 35.6 | 35=(x-0.6) | 35 x 0.6 - = | 35:button x:button 0.6:button -:button =:button
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0171428571428571 | (0.6/35)=x | 0.6 35 / x = | 0.6:bag 35:button /:bag x:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 0.0171428571428571 | (35*x)=0.6 | 35 x * 0.6 = | 35:bag x:button *:bag 0.6:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 35.6 | (x-35)=0.6 | x 35 - 0.6 = | x:button 35:button -:button 0.6:button =:button
+EXPR: 0 | POS | FRA | 12 | 21 | 34.4 | (35-x)=0.6 | 35 x - 0.6 = | 35:button x:button -:button 0.6:button =:button
+EXPR: 1 | POS | INT | 12 | 21 | 21 | (x/35)=0.6 | x 35 / 0.6 = | x:bag 35:button /:bag 0.6:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 21 | 34.4 | 35=(0.6+x) | 35 0.6 x + = | 35:button 0.6:button x:button +:button =:button
+EXPR: 1 | POS | INT | 14 | 21 | 21 | 0.6=(x/35) | 0.6 x 35 / = | 0.6:bag x:bag 35:button /:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 21 | 58.3333333333333 | 0.6=(35/x) | 0.6 35 x / = | 0.6:bag 35:bag x:button /:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 21 | 34.4 | (0.6+x)=35 | 0.6 x + 35 = | 0.6:button x:button +:button 35:button =:button
+EXPR: 0 | POS | FRA | 14 | 21 | 34.4 | (x+0.6)=35 | x 0.6 + 35 = | x:button 0.6:button +:button 35:button =:button
+EXPR: 0 | POS | FRA | 14 | 21 | 0.0171428571428571 | 0.6=(35*x) | 0.6 35 x * = | 0.6:bag 35:button x:bag *:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 21 | 0.0171428571428571 | (0.6/x)=35 | 0.6 x / 35 = | 0.6:bag x:button /:bag 35:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 21 | 34.4 | 0.6=(35-x) | 0.6 35 x - = | 0.6:button 35:button x:button -:button =:button
+EXPR: 0 | POS | FRA | 14 | 21 | 35.6 | 0.6=(x-35) | 0.6 x 35 - = | 0.6:button x:button 35:button -:button =:button
+EXPR: 0 | POS | FRA | 14 | 21 | 0.0171428571428571 | 0.6=(x*35) | 0.6 x 35 * = | 0.6:bag x:button 35:bag *:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 21 | 35.6 | (x-0.6)=35 | x 0.6 - 35 = | x:button 0.6:button -:button 35:button =:button
+NET 36 unique, non-negative solutions found out of 136 total solutions

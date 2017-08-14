@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 60 | 88 | x=(55+33) | x 55 33 + = | x:bead 55:bead 33:bead +:bead =:bead
+EXPR: 0 | POS | INT | 10 | 60 | 1815 | x=(55*33) | x 55 33 * = | x:UNKNOWN 55:bead 33:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 60 | 22 | (55-33)=x | 55 33 - x = | 55:bead 33:bead -:bead x:bead =:bead
+EXPR: 0 | POS | INT | 10 | 60 | 1815 | (55*33)=x | 55 33 * x = | 55:bead 33:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 60 | 22 | x=(55-33) | x 55 33 - = | x:bead 55:bead 33:bead -:bead =:bead
+EXPR: 0 | POS | INT | 10 | 60 | 88 | (55+33)=x | 55 33 + x = | 55:bead 33:bead +:bead x:bead =:bead
+EXPR: 0 | POS | INT | 12 | 60 | 22 | (55-x)=33 | 55 x - 33 = | 55:bead x:bead -:bead 33:bead =:bead
+EXPR: 0 | POS | INT | 12 | 60 | 22 | 55=(33+x) | 55 33 x + = | 55:bead 33:bead x:bead +:bead =:bead
+EXPR: 0 | POS | INT | 12 | 60 | 1815 | (x/55)=33 | x 55 / 33 = | x:UNKNOWN 55:bead /:UNKNOWN 33:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 60 | 88 | (x-55)=33 | x 55 - 33 = | x:bead 55:bead -:bead 33:bead =:bead
+EXPR: 0 | POS | INT | 12 | 60 | 88 | 55=(x-33) | 55 x 33 - = | 55:bead x:bead 33:bead -:bead =:bead
+EXPR: 0 | POS | INT | 12 | 60 | 22 | 55=(x+33) | 55 x 33 + = | 55:bead x:bead 33:bead +:bead =:bead
+EXPR: 0 | POS | INT | 12 | 60 | 1815 | 55=(x/33) | 55 x 33 / = | 55:UNKNOWN x:UNKNOWN 33:bead /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 88 | (x-33)=55 | x 33 - 55 = | x:bead 33:bead -:bead 55:bead =:bead
+EXPR: 0 | POS | INT | 14 | 60 | 1815 | 33=(x/55) | 33 x 55 / = | 33:UNKNOWN x:UNKNOWN 55:bead /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 22 | (x+33)=55 | x 33 + 55 = | x:bead 33:bead +:bead 55:bead =:bead
+EXPR: 0 | POS | INT | 14 | 60 | 1815 | (x/33)=55 | x 33 / 55 = | x:UNKNOWN 33:bead /:UNKNOWN 55:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 60 | 22 | 33=(55-x) | 33 55 x - = | 33:bead 55:bead x:bead -:bead =:bead
+EXPR: 0 | POS | INT | 14 | 60 | 22 | (33+x)=55 | 33 x + 55 = | 33:bead x:bead +:bead 55:bead =:bead
+EXPR: 0 | POS | INT | 14 | 60 | 88 | 33=(x-55) | 33 x 55 - = | 33:bead x:bead 55:bead -:bead =:bead
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 87.7551 | 87.7551020408163 | x=(86/0.98) | x 86 0.98 / = | x:problem 86:problem 0.98:test /:problem =:problem
+EXPR: 0 | POS | FRA | 0 | 87.7551 | 84.28 | (86*0.98)=x | 86 0.98 * x = | 86:problem 0.98:test *:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 0 | 87.7551 | 84.28 | x=(86*0.98) | x 86 0.98 * = | x:problem 86:problem 0.98:test *:problem =:problem
+EXPR: 1 | POS | FRA | 0 | 87.7551 | 87.7551020408163 | (86/0.98)=x | 86 0.98 / x = | 86:problem 0.98:test /:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 2 | 87.7551 | 84.28 | 86=(x/0.98) | 86 x 0.98 / = | 86:problem x:problem 0.98:test /:problem =:problem
+EXPR: 1 | POS | FRA | 2 | 87.7551 | 87.7551020408163 | 86=(x*0.98) | 86 x 0.98 * = | 86:problem x:problem 0.98:test *:problem =:problem
+EXPR: 1 | POS | FRA | 2 | 87.7551 | 87.7551020408163 | 86=(0.98*x) | 86 0.98 x * = | 86:problem 0.98:test x:problem *:problem =:problem
+EXPR: 1 | POS | FRA | 4 | 87.7551 | 87.7551020408163 | (0.98*x)=86 | 0.98 x * 86 = | 0.98:test x:problem *:problem 86:problem =:problem
+EXPR: 1 | POS | FRA | 4 | 87.7551 | 87.7551020408163 | (x*0.98)=86 | x 0.98 * 86 = | x:problem 0.98:test *:problem 86:problem =:problem
+EXPR: 0 | POS | FRA | 4 | 87.7551 | 84.28 | (x/0.98)=86 | x 0.98 / 86 = | x:problem 0.98:test /:problem 86:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 87.7551 | 86.98 | (86+0.98)=x | 86 0.98 + x = | 86:problem 0.98:problem +:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 87.7551 | 86.98 | x=(86+0.98) | x 86 0.98 + = | x:problem 86:problem 0.98:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 87.7551 | 85.02 | (86-0.98)=x | 86 0.98 - x = | 86:problem 0.98:problem -:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 87.7551 | 85.02 | x=(86-0.98) | x 86 0.98 - = | x:problem 86:problem 0.98:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 85.02 | 86=(x+0.98) | 86 x 0.98 + = | 86:problem x:problem 0.98:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 0.0113953488372093 | 86=(0.98/x) | 86 0.98 x / = | 86:test 0.98:test x:problem /:test =:test
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 0.0113953488372093 | (x*86)=0.98 | x 86 * 0.98 = | x:problem 86:test *:test 0.98:test =:test
+EXPR: 1 | POS | FRA | 12 | 87.7551 | 87.7551020408163 | (86/x)=0.98 | 86 x / 0.98 = | 86:test x:problem /:test 0.98:test =:test
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 0.0113953488372093 | x=(0.98/86) | x 0.98 86 / = | x:test 0.98:test 86:problem /:test =:test
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 86.98 | 86=(x-0.98) | 86 x 0.98 - = | 86:problem x:problem 0.98:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 0.0113953488372093 | (0.98/86)=x | 0.98 86 / x = | 0.98:test 86:problem /:test x:test =:test
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 0.0113953488372093 | (86*x)=0.98 | 86 x * 0.98 = | 86:test x:problem *:test 0.98:test =:test
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 86.98 | (x-86)=0.98 | x 86 - 0.98 = | x:problem 86:problem -:problem 0.98:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 85.02 | (86-x)=0.98 | 86 x - 0.98 = | 86:problem x:problem -:problem 0.98:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 84.28 | (x/86)=0.98 | x 86 / 0.98 = | x:test 86:problem /:test 0.98:test =:test
+EXPR: 0 | POS | FRA | 12 | 87.7551 | 85.02 | 86=(0.98+x) | 86 0.98 x + = | 86:problem 0.98:problem x:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 84.28 | 0.98=(x/86) | 0.98 x 86 / = | 0.98:test x:test 86:problem /:test =:test
+EXPR: 1 | POS | FRA | 14 | 87.7551 | 87.7551020408163 | 0.98=(86/x) | 0.98 86 x / = | 0.98:test 86:test x:problem /:test =:test
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 85.02 | (0.98+x)=86 | 0.98 x + 86 = | 0.98:problem x:problem +:problem 86:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 85.02 | (x+0.98)=86 | x 0.98 + 86 = | x:problem 0.98:problem +:problem 86:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 0.0113953488372093 | 0.98=(86*x) | 0.98 86 x * = | 0.98:test 86:problem x:test *:test =:test
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 0.0113953488372093 | (0.98/x)=86 | 0.98 x / 86 = | 0.98:test x:problem /:test 86:test =:test
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 85.02 | 0.98=(86-x) | 0.98 86 x - = | 0.98:problem 86:problem x:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 86.98 | 0.98=(x-86) | 0.98 x 86 - = | 0.98:problem x:problem 86:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 0.0113953488372093 | 0.98=(x*86) | 0.98 x 86 * = | 0.98:test x:problem 86:test *:test =:test
+EXPR: 0 | POS | FRA | 14 | 87.7551 | 86.98 | (x-0.98)=86 | x 0.98 - 86 = | x:problem 0.98:problem -:problem 86:problem =:problem
+NET 36 unique, non-negative solutions found out of 136 total solutions

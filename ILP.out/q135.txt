@@ -1,0 +1,5 @@
+quantities : 0.25 92 x
+types : "time" "hat" "cap"
+operators : + - * / =
+n : 5
+answer : 23.0

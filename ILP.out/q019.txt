@@ -1,0 +1,5 @@
+quantities : 35 10 x
+types : "answer" "answer" "Donovan"
+operators : + - * / =
+n : 5
+answer : 77.777777778

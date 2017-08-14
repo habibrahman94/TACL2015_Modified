@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 10 | 640 | (8*80)=x | 8 80 * x = | 8:park 80:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 640 | x=(8*80) | x 8 80 * = | x:park 8:park 80:ticket *:park =:park
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (8*x)=80 | 8 x * 80 = | 8:park x:ticket *:ticket 80:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 10 | 10 | x=(80/8) | x 80 8 / = | x:ticket 80:ticket 8:park /:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 10 | 10 | 8=(80/x) | 8 80 x / = | 8:ticket 80:ticket x:UNKNOWN /:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 10 | 640 | 8=(x/80) | 8 x 80 / = | 8:UNKNOWN x:UNKNOWN 80:ticket /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x*8)=80 | x 8 * 80 = | x:UNKNOWN 8:ticket *:ticket 80:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 10 | 640 | (x/8)=80 | x 8 / 80 = | x:UNKNOWN 8:park /:UNKNOWN 80:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (80/8)=x | 80 8 / x = | 80:UNKNOWN 8:park /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | INT | 14 | 10 | 10 | (80/x)=8 | 80 x / 8 = | 80:park x:UNKNOWN /:park 8:park =:park
+EXPR: 0 | POS | INT | 14 | 10 | 640 | (x/80)=8 | x 80 / 8 = | x:park 80:ticket /:park 8:park =:park
+EXPR: 1 | POS | INT | 14 | 10 | 10 | 80=(8*x) | 80 8 x * = | 80:ticket 8:park x:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 14 | 10 | 10 | 80=(x*8) | 80 x 8 * = | 80:ticket x:UNKNOWN 8:ticket *:ticket =:ticket
+EXPR: 0 | POS | INT | 14 | 10 | 640 | 80=(x/8) | 80 x 8 / = | 80:UNKNOWN x:UNKNOWN 8:park /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 10 | 88 | x=(8+80) | x 8 80 + = | x:park 8:park 80:park +:park =:park
+EXPR: 0 | POS | INT | 20 | 10 | 88 | (8+80)=x | 8 80 + x = | 8:park 80:park +:park x:park =:park
+EXPR: 0 | POS | INT | 22 | 10 | 88 | 8=(x-80) | 8 x 80 - = | 8:park x:park 80:park -:park =:park
+EXPR: 0 | POS | INT | 22 | 10 | 72 | 8=(80-x) | 8 80 x - = | 8:ticket 80:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 10 | 72 | x=(80-8) | x 80 8 - = | x:ticket 80:ticket 8:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 10 | 72 | (x+8)=80 | x 8 + 80 = | x:ticket 8:ticket +:ticket 80:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 10 | 88 | (x-8)=80 | x 8 - 80 = | x:ticket 8:ticket -:ticket 80:ticket =:ticket
+EXPR: 0 | POS | INT | 22 | 10 | 72 | (8+x)=80 | 8 x + 80 = | 8:park x:park +:park 80:park =:park
+EXPR: 0 | POS | INT | 22 | 10 | 72 | (80-8)=x | 80 8 - x = | 80:UNKNOWN 8:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 10 | 72 | 80=(x+8) | 80 x 8 + = | 80:park x:park 8:park +:park =:park
+EXPR: 0 | POS | INT | 24 | 10 | 72 | (80-x)=8 | 80 x - 8 = | 80:park x:park -:park 8:park =:park
+EXPR: 0 | POS | INT | 24 | 10 | 88 | (x-80)=8 | x 80 - 8 = | x:park 80:park -:park 8:park =:park
+EXPR: 0 | POS | INT | 24 | 10 | 88 | 80=(x-8) | 80 x 8 - = | 80:park x:park 8:park -:park =:park
+EXPR: 0 | POS | INT | 24 | 10 | 72 | 80=(8+x) | 80 8 x + = | 80:UNKNOWN 8:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

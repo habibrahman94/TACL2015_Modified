@@ -1,0 +1,5 @@
+quantities : 6,510 0.3 x
+types : "subscriber" "Times" "subscriber"
+operators : + - * / =
+n : 5
+answer : 8463.0

@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 75 | 3 | 36=(x*12) | 36 x 12 * = | 36:member x:UNKNOWN 12:member *:member =:member
+EXPR: 0 | POS | INT | 2 | 75 | 3 | 36=(12*x) | 36 12 x * = | 36:member 12:member x:UNKNOWN *:member =:member
+EXPR: 0 | POS | INT | 2 | 75 | 3 | (36/x)=12 | 36 x / 12 = | 36:member x:UNKNOWN /:member 12:member =:member
+EXPR: 0 | POS | INT | 4 | 75 | 3 | (x*12)=36 | x 12 * 36 = | x:UNKNOWN 12:member *:member 36:member =:member
+EXPR: 0 | POS | INT | 4 | 75 | 3 | (12*x)=36 | 12 x * 36 = | 12:member x:UNKNOWN *:member 36:member =:member
+EXPR: 0 | POS | INT | 4 | 75 | 3 | 12=(36/x) | 12 36 x / = | 12:member 36:member x:UNKNOWN /:member =:member
+EXPR: 0 | POS | INT | 10 | 75 | 48 | x=(36+12) | x 36 12 + = | x:member 36:member 12:member +:member =:member
+EXPR: 0 | POS | INT | 10 | 75 | 432 | x=(36*12) | x 36 12 * = | x:UNKNOWN 36:member 12:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 75 | 24 | (36-12)=x | 36 12 - x = | 36:member 12:member -:member x:member =:member
+EXPR: 0 | POS | INT | 10 | 75 | 432 | (36*12)=x | 36 12 * x = | 36:member 12:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 75 | 24 | x=(36-12) | x 36 12 - = | x:member 36:member 12:member -:member =:member
+EXPR: 0 | POS | INT | 10 | 75 | 3 | x=(36/12) | x 36 12 / = | x:UNKNOWN 36:UNKNOWN 12:member /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 75 | 48 | (36+12)=x | 36 12 + x = | 36:member 12:member +:member x:member =:member
+EXPR: 0 | POS | INT | 10 | 75 | 3 | (36/12)=x | 36 12 / x = | 36:UNKNOWN 12:member /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 24 | (36-x)=12 | 36 x - 12 = | 36:member x:member -:member 12:member =:member
+EXPR: 0 | POS | INT | 12 | 75 | 24 | 36=(12+x) | 36 12 x + = | 36:member 12:member x:member +:member =:member
+EXPR: 0 | POS | INT | 12 | 75 | 432 | (x/36)=12 | x 36 / 12 = | x:UNKNOWN 36:member /:UNKNOWN 12:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 75 | 48 | (x-36)=12 | x 36 - 12 = | x:member 36:member -:member 12:member =:member
+EXPR: 0 | POS | INT | 12 | 75 | 48 | 36=(x-12) | 36 x 12 - = | 36:member x:member 12:member -:member =:member
+EXPR: 0 | POS | INT | 12 | 75 | 24 | 36=(x+12) | 36 x 12 + = | 36:member x:member 12:member +:member =:member
+EXPR: 0 | POS | INT | 12 | 75 | 432 | 36=(x/12) | 36 x 12 / = | 36:UNKNOWN x:UNKNOWN 12:member /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 75 | 48 | (x-12)=36 | x 12 - 36 = | x:member 12:member -:member 36:member =:member
+EXPR: 0 | POS | INT | 14 | 75 | 432 | 12=(x/36) | 12 x 36 / = | 12:UNKNOWN x:UNKNOWN 36:member /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 75 | 24 | (x+12)=36 | x 12 + 36 = | x:member 12:member +:member 36:member =:member
+EXPR: 0 | POS | INT | 14 | 75 | 432 | (x/12)=36 | x 12 / 36 = | x:UNKNOWN 12:member /:UNKNOWN 36:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 75 | 24 | 12=(36-x) | 12 36 x - = | 12:member 36:member x:member -:member =:member
+EXPR: 0 | POS | INT | 14 | 75 | 24 | (12+x)=36 | 12 x + 36 = | 12:member x:member +:member 36:member =:member
+EXPR: 0 | POS | INT | 14 | 75 | 48 | 12=(x-36) | 12 x 36 - = | 12:member x:member 36:member -:member =:member
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

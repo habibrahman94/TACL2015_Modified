@@ -1,0 +1,5 @@
+quantities : 5 20 x
+types : "student" "student" "UNKNOWN"
+operators : + - * / =
+n : 5
+answer : 20.0

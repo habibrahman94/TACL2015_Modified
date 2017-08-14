@@ -1,0 +1,5 @@
+quantities : 190,830 0.7 x
+types : "ounce" "restaurant" "cream"
+operators : + - * / =
+n : 5
+answer : 57249.0

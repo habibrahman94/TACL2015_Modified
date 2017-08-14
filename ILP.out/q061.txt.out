@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 54 | 96 | x=(72/0.75) | x 72 0.75 / = | x:problem 72:problem 0.75:Mimi /:problem =:problem
+EXPR: 1 | POS | INT | 0 | 54 | 54 | (72*0.75)=x | 72 0.75 * x = | 72:problem 0.75:Mimi *:problem x:problem =:problem
+EXPR: 1 | POS | INT | 0 | 54 | 54 | x=(72*0.75) | x 72 0.75 * = | x:problem 72:problem 0.75:Mimi *:problem =:problem
+EXPR: 0 | POS | INT | 0 | 54 | 96 | (72/0.75)=x | 72 0.75 / x = | 72:problem 0.75:Mimi /:problem x:problem =:problem
+EXPR: 1 | POS | INT | 2 | 54 | 54 | 72=(x/0.75) | 72 x 0.75 / = | 72:problem x:problem 0.75:Mimi /:problem =:problem
+EXPR: 0 | POS | INT | 2 | 54 | 96 | 72=(x*0.75) | 72 x 0.75 * = | 72:problem x:problem 0.75:Mimi *:problem =:problem
+EXPR: 0 | POS | INT | 2 | 54 | 96 | 72=(0.75*x) | 72 0.75 x * = | 72:problem 0.75:Mimi x:problem *:problem =:problem
+EXPR: 0 | POS | INT | 4 | 54 | 96 | (0.75*x)=72 | 0.75 x * 72 = | 0.75:Mimi x:problem *:problem 72:problem =:problem
+EXPR: 0 | POS | INT | 4 | 54 | 96 | (x*0.75)=72 | x 0.75 * 72 = | x:problem 0.75:Mimi *:problem 72:problem =:problem
+EXPR: 1 | POS | INT | 4 | 54 | 54 | (x/0.75)=72 | x 0.75 / 72 = | x:problem 0.75:Mimi /:problem 72:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 54 | 72.75 | (72+0.75)=x | 72 0.75 + x = | 72:problem 0.75:problem +:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 54 | 72.75 | x=(72+0.75) | x 72 0.75 + = | x:problem 72:problem 0.75:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 54 | 71.25 | (72-0.75)=x | 72 0.75 - x = | 72:problem 0.75:problem -:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 54 | 71.25 | x=(72-0.75) | x 72 0.75 - = | x:problem 72:problem 0.75:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 54 | 71.25 | 72=(x+0.75) | 72 x 0.75 + = | 72:problem x:problem 0.75:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 54 | 0.0104166666666667 | 72=(0.75/x) | 72 0.75 x / = | 72:Mimi 0.75:Mimi x:problem /:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 12 | 54 | 0.0104166666666667 | (x*72)=0.75 | x 72 * 0.75 = | x:problem 72:Mimi *:Mimi 0.75:Mimi =:Mimi
+EXPR: 0 | POS | INT | 12 | 54 | 96 | (72/x)=0.75 | 72 x / 0.75 = | 72:Mimi x:problem /:Mimi 0.75:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 12 | 54 | 0.0104166666666667 | x=(0.75/72) | x 0.75 72 / = | x:Mimi 0.75:Mimi 72:problem /:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 12 | 54 | 72.75 | 72=(x-0.75) | 72 x 0.75 - = | 72:problem x:problem 0.75:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 54 | 0.0104166666666667 | (0.75/72)=x | 0.75 72 / x = | 0.75:Mimi 72:problem /:Mimi x:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 12 | 54 | 0.0104166666666667 | (72*x)=0.75 | 72 x * 0.75 = | 72:Mimi x:problem *:Mimi 0.75:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 12 | 54 | 72.75 | (x-72)=0.75 | x 72 - 0.75 = | x:problem 72:problem -:problem 0.75:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 54 | 71.25 | (72-x)=0.75 | 72 x - 0.75 = | 72:problem x:problem -:problem 0.75:problem =:problem
+EXPR: 1 | POS | INT | 12 | 54 | 54 | (x/72)=0.75 | x 72 / 0.75 = | x:Mimi 72:problem /:Mimi 0.75:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 12 | 54 | 71.25 | 72=(0.75+x) | 72 0.75 x + = | 72:problem 0.75:problem x:problem +:problem =:problem
+EXPR: 1 | POS | INT | 14 | 54 | 54 | 0.75=(x/72) | 0.75 x 72 / = | 0.75:Mimi x:Mimi 72:problem /:Mimi =:Mimi
+EXPR: 0 | POS | INT | 14 | 54 | 96 | 0.75=(72/x) | 0.75 72 x / = | 0.75:Mimi 72:Mimi x:problem /:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 14 | 54 | 71.25 | (0.75+x)=72 | 0.75 x + 72 = | 0.75:problem x:problem +:problem 72:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 54 | 71.25 | (x+0.75)=72 | x 0.75 + 72 = | x:problem 0.75:problem +:problem 72:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 54 | 0.0104166666666667 | 0.75=(72*x) | 0.75 72 x * = | 0.75:Mimi 72:problem x:Mimi *:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 14 | 54 | 0.0104166666666667 | (0.75/x)=72 | 0.75 x / 72 = | 0.75:Mimi x:problem /:Mimi 72:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 14 | 54 | 71.25 | 0.75=(72-x) | 0.75 72 x - = | 0.75:problem 72:problem x:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 54 | 72.75 | 0.75=(x-72) | 0.75 x 72 - = | 0.75:problem x:problem 72:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 54 | 0.0104166666666667 | 0.75=(x*72) | 0.75 x 72 * = | 0.75:Mimi x:problem 72:Mimi *:Mimi =:Mimi
+EXPR: 0 | POS | FRA | 14 | 54 | 72.75 | (x-0.75)=72 | x 0.75 - 72 = | x:problem 0.75:problem -:problem 72:problem =:problem
+NET 36 unique, non-negative solutions found out of 136 total solutions

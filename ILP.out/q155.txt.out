@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 70 | 136 | x=(80+56) | x 80 56 + = | x:special 80:special 56:special +:special =:special
+EXPR: 0 | POS | INT | 10 | 70 | 4480 | x=(80*56) | x 80 56 * = | x:UNKNOWN 80:special 56:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 70 | 24 | (80-56)=x | 80 56 - x = | 80:special 56:special -:special x:special =:special
+EXPR: 0 | POS | INT | 10 | 70 | 4480 | (80*56)=x | 80 56 * x = | 80:special 56:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 70 | 24 | x=(80-56) | x 80 56 - = | x:special 80:special 56:special -:special =:special
+EXPR: 0 | POS | INT | 10 | 70 | 136 | (80+56)=x | 80 56 + x = | 80:special 56:special +:special x:special =:special
+EXPR: 0 | POS | INT | 12 | 70 | 24 | (80-x)=56 | 80 x - 56 = | 80:special x:special -:special 56:special =:special
+EXPR: 0 | POS | INT | 12 | 70 | 24 | 80=(56+x) | 80 56 x + = | 80:special 56:special x:special +:special =:special
+EXPR: 0 | POS | INT | 12 | 70 | 4480 | (x/80)=56 | x 80 / 56 = | x:UNKNOWN 80:special /:UNKNOWN 56:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 70 | 136 | (x-80)=56 | x 80 - 56 = | x:special 80:special -:special 56:special =:special
+EXPR: 0 | POS | INT | 12 | 70 | 136 | 80=(x-56) | 80 x 56 - = | 80:special x:special 56:special -:special =:special
+EXPR: 0 | POS | INT | 12 | 70 | 24 | 80=(x+56) | 80 x 56 + = | 80:special x:special 56:special +:special =:special
+EXPR: 0 | POS | INT | 12 | 70 | 4480 | 80=(x/56) | 80 x 56 / = | 80:UNKNOWN x:UNKNOWN 56:special /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 136 | (x-56)=80 | x 56 - 80 = | x:special 56:special -:special 80:special =:special
+EXPR: 0 | POS | INT | 14 | 70 | 4480 | 56=(x/80) | 56 x 80 / = | 56:UNKNOWN x:UNKNOWN 80:special /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 24 | (x+56)=80 | x 56 + 80 = | x:special 56:special +:special 80:special =:special
+EXPR: 0 | POS | INT | 14 | 70 | 4480 | (x/56)=80 | x 56 / 80 = | x:UNKNOWN 56:special /:UNKNOWN 80:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 70 | 24 | 56=(80-x) | 56 80 x - = | 56:special 80:special x:special -:special =:special
+EXPR: 0 | POS | INT | 14 | 70 | 24 | (56+x)=80 | 56 x + 80 = | 56:special x:special +:special 80:special =:special
+EXPR: 0 | POS | INT | 14 | 70 | 136 | 56=(x-80) | 56 x 80 - = | 56:special x:special 80:special -:special =:special
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

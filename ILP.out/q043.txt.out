@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 18 | 450 | x=(90/0.2) | x 90 0.2 / = | x:employee 90:employee 0.2:slides /:employee =:employee
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (90*0.2)=x | 90 0.2 * x = | 90:employee 0.2:slides *:employee x:employee =:employee
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(90*0.2) | x 90 0.2 * = | x:employee 90:employee 0.2:slides *:employee =:employee
+EXPR: 0 | POS | INT | 0 | 18 | 450 | (90/0.2)=x | 90 0.2 / x = | 90:employee 0.2:slides /:employee x:employee =:employee
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 90=(x/0.2) | 90 x 0.2 / = | 90:employee x:employee 0.2:slides /:employee =:employee
+EXPR: 0 | POS | INT | 2 | 18 | 450 | 90=(x*0.2) | 90 x 0.2 * = | 90:employee x:employee 0.2:slides *:employee =:employee
+EXPR: 0 | POS | INT | 2 | 18 | 450 | 90=(0.2*x) | 90 0.2 x * = | 90:employee 0.2:slides x:employee *:employee =:employee
+EXPR: 0 | POS | INT | 4 | 18 | 450 | (0.2*x)=90 | 0.2 x * 90 = | 0.2:slides x:employee *:employee 90:employee =:employee
+EXPR: 0 | POS | INT | 4 | 18 | 450 | (x*0.2)=90 | x 0.2 * 90 = | x:employee 0.2:slides *:employee 90:employee =:employee
+EXPR: 1 | POS | INT | 4 | 18 | 18 | (x/0.2)=90 | x 0.2 / 90 = | x:employee 0.2:slides /:employee 90:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 90.2 | (90+0.2)=x | 90 0.2 + x = | 90:employee 0.2:employee +:employee x:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 90.2 | x=(90+0.2) | x 90 0.2 + = | x:employee 90:employee 0.2:employee +:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 89.8 | (90-0.2)=x | 90 0.2 - x = | 90:employee 0.2:employee -:employee x:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 89.8 | x=(90-0.2) | x 90 0.2 - = | x:employee 90:employee 0.2:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | 90=(x+0.2) | 90 x 0.2 + = | 90:employee x:employee 0.2:employee +:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | 90=(0.2/x) | 90 0.2 x / = | 90:slides 0.2:slides x:employee /:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (x*90)=0.2 | x 90 * 0.2 = | x:employee 90:slides *:slides 0.2:slides =:slides
+EXPR: 0 | POS | INT | 12 | 18 | 450 | (90/x)=0.2 | 90 x / 0.2 = | 90:slides x:employee /:slides 0.2:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | x=(0.2/90) | x 0.2 90 / = | x:slides 0.2:slides 90:employee /:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 90.2 | 90=(x-0.2) | 90 x 0.2 - = | 90:employee x:employee 0.2:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (0.2/90)=x | 0.2 90 / x = | 0.2:slides 90:employee /:slides x:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (90*x)=0.2 | 90 x * 0.2 = | 90:slides x:employee *:slides 0.2:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 90.2 | (x-90)=0.2 | x 90 - 0.2 = | x:employee 90:employee -:employee 0.2:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | (90-x)=0.2 | 90 x - 0.2 = | 90:employee x:employee -:employee 0.2:employee =:employee
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/90)=0.2 | x 90 / 0.2 = | x:slides 90:employee /:slides 0.2:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | 90=(0.2+x) | 90 0.2 x + = | 90:employee 0.2:employee x:employee +:employee =:employee
+EXPR: 1 | POS | INT | 14 | 18 | 18 | 0.2=(x/90) | 0.2 x 90 / = | 0.2:slides x:slides 90:employee /:slides =:slides
+EXPR: 0 | POS | INT | 14 | 18 | 450 | 0.2=(90/x) | 0.2 90 x / = | 0.2:slides 90:slides x:employee /:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | (0.2+x)=90 | 0.2 x + 90 = | 0.2:employee x:employee +:employee 90:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | (x+0.2)=90 | x 0.2 + 90 = | x:employee 0.2:employee +:employee 90:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | 0.2=(90*x) | 0.2 90 x * = | 0.2:slides 90:employee x:slides *:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | (0.2/x)=90 | 0.2 x / 90 = | 0.2:slides x:employee /:slides 90:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | 0.2=(90-x) | 0.2 90 x - = | 0.2:employee 90:employee x:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 90.2 | 0.2=(x-90) | 0.2 x 90 - = | 0.2:employee x:employee 90:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | 0.2=(x*90) | 0.2 x 90 * = | 0.2:slides x:employee 90:slides *:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 90.2 | (x-0.2)=90 | x 0.2 - 90 = | x:employee 0.2:employee -:employee 90:employee =:employee
+NET 36 unique, non-negative solutions found out of 136 total solutions

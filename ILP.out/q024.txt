@@ -1,0 +1,5 @@
+quantities : 86 0.98 x
+types : "problem" "test" "problem"
+operators : + - * / =
+n : 5
+answer : 87.755102041

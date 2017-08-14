@@ -1,0 +1,5 @@
+quantities : 28 0.75 x
+types : "question" "Bryan" "question"
+operators : + - * / =
+n : 5
+answer : 21.0

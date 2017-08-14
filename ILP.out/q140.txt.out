@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 4 | 400 | x=(40/0.1) | x 40 0.1 / = | x:question 40:question 0.1:Lia /:question =:question
+EXPR: 1 | POS | INT | 0 | 4 | 4 | (40*0.1)=x | 40 0.1 * x = | 40:question 0.1:Lia *:question x:question =:question
+EXPR: 1 | POS | INT | 0 | 4 | 4 | x=(40*0.1) | x 40 0.1 * = | x:question 40:question 0.1:Lia *:question =:question
+EXPR: 0 | POS | INT | 0 | 4 | 400 | (40/0.1)=x | 40 0.1 / x = | 40:question 0.1:Lia /:question x:question =:question
+EXPR: 1 | POS | INT | 2 | 4 | 4 | 40=(x/0.1) | 40 x 0.1 / = | 40:question x:question 0.1:Lia /:question =:question
+EXPR: 0 | POS | INT | 2 | 4 | 400 | 40=(x*0.1) | 40 x 0.1 * = | 40:question x:question 0.1:Lia *:question =:question
+EXPR: 0 | POS | INT | 2 | 4 | 400 | 40=(0.1*x) | 40 0.1 x * = | 40:question 0.1:Lia x:question *:question =:question
+EXPR: 0 | POS | INT | 4 | 4 | 400 | (0.1*x)=40 | 0.1 x * 40 = | 0.1:Lia x:question *:question 40:question =:question
+EXPR: 0 | POS | INT | 4 | 4 | 400 | (x*0.1)=40 | x 0.1 * 40 = | x:question 0.1:Lia *:question 40:question =:question
+EXPR: 1 | POS | INT | 4 | 4 | 4 | (x/0.1)=40 | x 0.1 / 40 = | x:question 0.1:Lia /:question 40:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 40.1 | (40+0.1)=x | 40 0.1 + x = | 40:question 0.1:question +:question x:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 40.1 | x=(40+0.1) | x 40 0.1 + = | x:question 40:question 0.1:question +:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 39.9 | (40-0.1)=x | 40 0.1 - x = | 40:question 0.1:question -:question x:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 39.9 | x=(40-0.1) | x 40 0.1 - = | x:question 40:question 0.1:question -:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 39.9 | 40=(x+0.1) | 40 x 0.1 + = | 40:question x:question 0.1:question +:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | 40=(0.1/x) | 40 0.1 x / = | 40:Lia 0.1:Lia x:question /:Lia =:Lia
+EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | (x*40)=0.1 | x 40 * 0.1 = | x:question 40:Lia *:Lia 0.1:Lia =:Lia
+EXPR: 0 | POS | INT | 12 | 4 | 400 | (40/x)=0.1 | 40 x / 0.1 = | 40:Lia x:question /:Lia 0.1:Lia =:Lia
+EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | x=(0.1/40) | x 0.1 40 / = | x:Lia 0.1:Lia 40:question /:Lia =:Lia
+EXPR: 0 | POS | FRA | 12 | 4 | 40.1 | 40=(x-0.1) | 40 x 0.1 - = | 40:question x:question 0.1:question -:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | (0.1/40)=x | 0.1 40 / x = | 0.1:Lia 40:question /:Lia x:Lia =:Lia
+EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | (40*x)=0.1 | 40 x * 0.1 = | 40:Lia x:question *:Lia 0.1:Lia =:Lia
+EXPR: 0 | POS | FRA | 12 | 4 | 40.1 | (x-40)=0.1 | x 40 - 0.1 = | x:question 40:question -:question 0.1:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 39.9 | (40-x)=0.1 | 40 x - 0.1 = | 40:question x:question -:question 0.1:question =:question
+EXPR: 1 | POS | INT | 12 | 4 | 4 | (x/40)=0.1 | x 40 / 0.1 = | x:Lia 40:question /:Lia 0.1:Lia =:Lia
+EXPR: 0 | POS | FRA | 12 | 4 | 39.9 | 40=(0.1+x) | 40 0.1 x + = | 40:question 0.1:question x:question +:question =:question
+EXPR: 1 | POS | INT | 14 | 4 | 4 | 0.1=(x/40) | 0.1 x 40 / = | 0.1:Lia x:Lia 40:question /:Lia =:Lia
+EXPR: 0 | POS | INT | 14 | 4 | 400 | 0.1=(40/x) | 0.1 40 x / = | 0.1:Lia 40:Lia x:question /:Lia =:Lia
+EXPR: 0 | POS | FRA | 14 | 4 | 39.9 | (0.1+x)=40 | 0.1 x + 40 = | 0.1:question x:question +:question 40:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 39.9 | (x+0.1)=40 | x 0.1 + 40 = | x:question 0.1:question +:question 40:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 0.0025 | 0.1=(40*x) | 0.1 40 x * = | 0.1:Lia 40:question x:Lia *:Lia =:Lia
+EXPR: 0 | POS | FRA | 14 | 4 | 0.0025 | (0.1/x)=40 | 0.1 x / 40 = | 0.1:Lia x:question /:Lia 40:Lia =:Lia
+EXPR: 0 | POS | FRA | 14 | 4 | 39.9 | 0.1=(40-x) | 0.1 40 x - = | 0.1:question 40:question x:question -:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 40.1 | 0.1=(x-40) | 0.1 x 40 - = | 0.1:question x:question 40:question -:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 0.0025 | 0.1=(x*40) | 0.1 x 40 * = | 0.1:Lia x:question 40:Lia *:Lia =:Lia
+EXPR: 0 | POS | FRA | 14 | 4 | 40.1 | (x-0.1)=40 | x 0.1 - 40 = | x:question 0.1:question -:question 40:question =:question
+NET 36 unique, non-negative solutions found out of 136 total solutions

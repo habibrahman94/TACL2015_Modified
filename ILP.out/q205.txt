@@ -1,0 +1,5 @@
+quantities : 70 0.2 x
+types : "dollar" "event" "cost"
+operators : + - * / =
+n : 5
+answer : 84.0

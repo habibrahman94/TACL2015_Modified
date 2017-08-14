@@ -1,0 +1,5 @@
+quantities : 15 0.8 x
+types : "dollar" "sale" "price"
+operators : + - * / =
+n : 5
+answer : 18.75

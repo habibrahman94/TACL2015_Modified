@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 20 | 5 | 10=(x*2) | 10 x 2 * = | 10:vote x:UNKNOWN 2:vote *:vote =:vote
+EXPR: 0 | POS | INT | 2 | 20 | 5 | 10=(2*x) | 10 2 x * = | 10:vote 2:vote x:UNKNOWN *:vote =:vote
+EXPR: 0 | POS | INT | 2 | 20 | 5 | (10/x)=2 | 10 x / 2 = | 10:vote x:UNKNOWN /:vote 2:vote =:vote
+EXPR: 0 | POS | INT | 4 | 20 | 5 | (x*2)=10 | x 2 * 10 = | x:UNKNOWN 2:vote *:vote 10:vote =:vote
+EXPR: 0 | POS | INT | 4 | 20 | 5 | (2*x)=10 | 2 x * 10 = | 2:vote x:UNKNOWN *:vote 10:vote =:vote
+EXPR: 0 | POS | INT | 4 | 20 | 5 | 2=(10/x) | 2 10 x / = | 2:vote 10:vote x:UNKNOWN /:vote =:vote
+EXPR: 0 | POS | INT | 10 | 20 | 12 | x=(10+2) | x 10 2 + = | x:vote 10:vote 2:vote +:vote =:vote
+EXPR: 1 | POS | INT | 10 | 20 | 20 | x=(10*2) | x 10 2 * = | x:UNKNOWN 10:vote 2:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 8 | (10-2)=x | 10 2 - x = | 10:vote 2:vote -:vote x:vote =:vote
+EXPR: 1 | POS | INT | 10 | 20 | 20 | (10*2)=x | 10 2 * x = | 10:vote 2:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 8 | x=(10-2) | x 10 2 - = | x:vote 10:vote 2:vote -:vote =:vote
+EXPR: 0 | POS | INT | 10 | 20 | 5 | x=(10/2) | x 10 2 / = | x:UNKNOWN 10:UNKNOWN 2:vote /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 20 | 12 | (10+2)=x | 10 2 + x = | 10:vote 2:vote +:vote x:vote =:vote
+EXPR: 0 | POS | INT | 10 | 20 | 5 | (10/2)=x | 10 2 / x = | 10:UNKNOWN 2:vote /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 8 | (10-x)=2 | 10 x - 2 = | 10:vote x:vote -:vote 2:vote =:vote
+EXPR: 0 | POS | INT | 12 | 20 | 8 | 10=(2+x) | 10 2 x + = | 10:vote 2:vote x:vote +:vote =:vote
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (x/10)=2 | x 10 / 2 = | x:UNKNOWN 10:vote /:UNKNOWN 2:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 20 | 12 | (x-10)=2 | x 10 - 2 = | x:vote 10:vote -:vote 2:vote =:vote
+EXPR: 0 | POS | INT | 12 | 20 | 12 | 10=(x-2) | 10 x 2 - = | 10:vote x:vote 2:vote -:vote =:vote
+EXPR: 0 | POS | INT | 12 | 20 | 8 | 10=(x+2) | 10 x 2 + = | 10:vote x:vote 2:vote +:vote =:vote
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 10=(x/2) | 10 x 2 / = | 10:UNKNOWN x:UNKNOWN 2:vote /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 12 | (x-2)=10 | x 2 - 10 = | x:vote 2:vote -:vote 10:vote =:vote
+EXPR: 1 | POS | INT | 14 | 20 | 20 | 2=(x/10) | 2 x 10 / = | 2:UNKNOWN x:UNKNOWN 10:vote /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 8 | (x+2)=10 | x 2 + 10 = | x:vote 2:vote +:vote 10:vote =:vote
+EXPR: 1 | POS | INT | 14 | 20 | 20 | (x/2)=10 | x 2 / 10 = | x:UNKNOWN 2:vote /:UNKNOWN 10:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 20 | 8 | 2=(10-x) | 2 10 x - = | 2:vote 10:vote x:vote -:vote =:vote
+EXPR: 0 | POS | INT | 14 | 20 | 8 | (2+x)=10 | 2 x + 10 = | 2:vote x:vote +:vote 10:vote =:vote
+EXPR: 0 | POS | INT | 14 | 20 | 12 | 2=(x-10) | 2 x 10 - = | 2:vote x:vote 10:vote -:vote =:vote
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

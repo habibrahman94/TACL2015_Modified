@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 9 | 900 | x=(90/0.1) | x 90 0.1 / = | x:espresso 90:espresso 0.1:cafe /:espresso =:espresso
+EXPR: 1 | POS | INT | 0 | 9 | 9 | (90*0.1)=x | 90 0.1 * x = | 90:espresso 0.1:cafe *:espresso x:espresso =:espresso
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=(90*0.1) | x 90 0.1 * = | x:espresso 90:espresso 0.1:cafe *:espresso =:espresso
+EXPR: 0 | POS | INT | 0 | 9 | 900 | (90/0.1)=x | 90 0.1 / x = | 90:espresso 0.1:cafe /:espresso x:espresso =:espresso
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 90=(x/0.1) | 90 x 0.1 / = | 90:espresso x:espresso 0.1:cafe /:espresso =:espresso
+EXPR: 0 | POS | INT | 2 | 9 | 900 | 90=(x*0.1) | 90 x 0.1 * = | 90:espresso x:espresso 0.1:cafe *:espresso =:espresso
+EXPR: 0 | POS | INT | 2 | 9 | 900 | 90=(0.1*x) | 90 0.1 x * = | 90:espresso 0.1:cafe x:espresso *:espresso =:espresso
+EXPR: 0 | POS | INT | 4 | 9 | 900 | (0.1*x)=90 | 0.1 x * 90 = | 0.1:cafe x:espresso *:espresso 90:espresso =:espresso
+EXPR: 0 | POS | INT | 4 | 9 | 900 | (x*0.1)=90 | x 0.1 * 90 = | x:espresso 0.1:cafe *:espresso 90:espresso =:espresso
+EXPR: 1 | POS | INT | 4 | 9 | 9 | (x/0.1)=90 | x 0.1 / 90 = | x:espresso 0.1:cafe /:espresso 90:espresso =:espresso
+EXPR: 0 | POS | FRA | 10 | 9 | 90.1 | (90+0.1)=x | 90 0.1 + x = | 90:espresso 0.1:espresso +:espresso x:espresso =:espresso
+EXPR: 0 | POS | FRA | 10 | 9 | 90.1 | x=(90+0.1) | x 90 0.1 + = | x:espresso 90:espresso 0.1:espresso +:espresso =:espresso
+EXPR: 0 | POS | FRA | 10 | 9 | 89.9 | (90-0.1)=x | 90 0.1 - x = | 90:espresso 0.1:espresso -:espresso x:espresso =:espresso
+EXPR: 0 | POS | FRA | 10 | 9 | 89.9 | x=(90-0.1) | x 90 0.1 - = | x:espresso 90:espresso 0.1:espresso -:espresso =:espresso
+EXPR: 0 | POS | FRA | 12 | 9 | 89.9 | 90=(x+0.1) | 90 x 0.1 + = | 90:espresso x:espresso 0.1:espresso +:espresso =:espresso
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00111111111111111 | 90=(0.1/x) | 90 0.1 x / = | 90:cafe 0.1:cafe x:espresso /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00111111111111111 | (x*90)=0.1 | x 90 * 0.1 = | x:espresso 90:cafe *:cafe 0.1:cafe =:cafe
+EXPR: 0 | POS | INT | 12 | 9 | 900 | (90/x)=0.1 | 90 x / 0.1 = | 90:cafe x:espresso /:cafe 0.1:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00111111111111111 | x=(0.1/90) | x 0.1 90 / = | x:cafe 0.1:cafe 90:espresso /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 9 | 90.1 | 90=(x-0.1) | 90 x 0.1 - = | 90:espresso x:espresso 0.1:espresso -:espresso =:espresso
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00111111111111111 | (0.1/90)=x | 0.1 90 / x = | 0.1:cafe 90:espresso /:cafe x:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00111111111111111 | (90*x)=0.1 | 90 x * 0.1 = | 90:cafe x:espresso *:cafe 0.1:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 9 | 90.1 | (x-90)=0.1 | x 90 - 0.1 = | x:espresso 90:espresso -:espresso 0.1:espresso =:espresso
+EXPR: 0 | POS | FRA | 12 | 9 | 89.9 | (90-x)=0.1 | 90 x - 0.1 = | 90:espresso x:espresso -:espresso 0.1:espresso =:espresso
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x/90)=0.1 | x 90 / 0.1 = | x:cafe 90:espresso /:cafe 0.1:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 9 | 89.9 | 90=(0.1+x) | 90 0.1 x + = | 90:espresso 0.1:espresso x:espresso +:espresso =:espresso
+EXPR: 1 | POS | INT | 14 | 9 | 9 | 0.1=(x/90) | 0.1 x 90 / = | 0.1:cafe x:cafe 90:espresso /:cafe =:cafe
+EXPR: 0 | POS | INT | 14 | 9 | 900 | 0.1=(90/x) | 0.1 90 x / = | 0.1:cafe 90:cafe x:espresso /:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 9 | 89.9 | (0.1+x)=90 | 0.1 x + 90 = | 0.1:espresso x:espresso +:espresso 90:espresso =:espresso
+EXPR: 0 | POS | FRA | 14 | 9 | 89.9 | (x+0.1)=90 | x 0.1 + 90 = | x:espresso 0.1:espresso +:espresso 90:espresso =:espresso
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00111111111111111 | 0.1=(90*x) | 0.1 90 x * = | 0.1:cafe 90:espresso x:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00111111111111111 | (0.1/x)=90 | 0.1 x / 90 = | 0.1:cafe x:espresso /:cafe 90:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 9 | 89.9 | 0.1=(90-x) | 0.1 90 x - = | 0.1:espresso 90:espresso x:espresso -:espresso =:espresso
+EXPR: 0 | POS | FRA | 14 | 9 | 90.1 | 0.1=(x-90) | 0.1 x 90 - = | 0.1:espresso x:espresso 90:espresso -:espresso =:espresso
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00111111111111111 | 0.1=(x*90) | 0.1 x 90 * = | 0.1:cafe x:espresso 90:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 9 | 90.1 | (x-0.1)=90 | x 0.1 - 90 = | x:espresso 0.1:espresso -:espresso 90:espresso =:espresso
+NET 36 unique, non-negative solutions found out of 136 total solutions

@@ -1,0 +1,5 @@
+quantities : 421,800 0.94 x
+types : "ton" "it" "weight"
+operators : + - * / =
+n : 5
+answer : 25308.0

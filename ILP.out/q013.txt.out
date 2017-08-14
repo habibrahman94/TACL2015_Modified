@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 135.8 | 38.8 | (97.00*0.4)=x | 97.00 0.4 * x = | 97.00:UNKNOWN 0.4:Store *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 135.8 | 242.5 | x=(97.00/0.4) | x 97.00 0.4 / = | x:UNKNOWN 97.00:UNKNOWN 0.4:Store /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 135.8 | 38.8 | x=(97.00*0.4) | x 97.00 0.4 * = | x:UNKNOWN 97.00:dollar 0.4:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 135.8 | 242.5 | (97.00/0.4)=x | 97.00 0.4 / x = | 97.00:dollar 0.4:Store /:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 135.8 | 0.00412371134020619 | (x*97.00)=0.4 | x 97.00 * 0.4 = | x:UNKNOWN 97.00:dollar *:UNKNOWN 0.4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 135.8 | 0.00412371134020619 | (97.00*x)=0.4 | 97.00 x * 0.4 = | 97.00:dollar x:Store *:Store 0.4:Store =:Store
+EXPR: 0 | POS | FRA | 12 | 135.8 | 242.5 | 97.00=(0.4*x) | 97.00 0.4 x * = | 97.00:dollar 0.4:Store x:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 135.8 | 0.00412371134020619 | (0.4/97.00)=x | 0.4 97.00 / x = | 0.4:Store 97.00:dollar /:Store x:Store =:Store
+EXPR: 0 | POS | FRA | 12 | 135.8 | 242.5 | 97.00=(x*0.4) | 97.00 x 0.4 * = | 97.00:dollar x:UNKNOWN 0.4:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 135.8 | 38.8 | (x/97.00)=0.4 | x 97.00 / 0.4 = | x:UNKNOWN 97.00:dollar /:UNKNOWN 0.4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 135.8 | 242.5 | (97.00/x)=0.4 | 97.00 x / 0.4 = | 97.00:Store x:UNKNOWN /:Store 0.4:Store =:Store
+EXPR: 0 | POS | FRA | 12 | 135.8 | 0.00412371134020619 | 97.00=(0.4/x) | 97.00 0.4 x / = | 97.00:dollar 0.4:dollar x:UNKNOWN /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 135.8 | 38.8 | 97.00=(x/0.4) | 97.00 x 0.4 / = | 97.00:dollar x:dollar 0.4:Store /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 135.8 | 0.00412371134020619 | x=(0.4/97.00) | x 0.4 97.00 / = | x:Store 0.4:Store 97.00:dollar /:Store =:Store
+EXPR: 0 | POS | FRA | 14 | 135.8 | 242.5 | (x*0.4)=97.00 | x 0.4 * 97.00 = | x:UNKNOWN 0.4:Store *:UNKNOWN 97.00:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 135.8 | 38.8 | (x/0.4)=97.00 | x 0.4 / 97.00 = | x:UNKNOWN 0.4:Store /:UNKNOWN 97.00:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 135.8 | 0.00412371134020619 | 0.4=(x*97.00) | 0.4 x 97.00 * = | 0.4:Store x:Store 97.00:dollar *:Store =:Store
+EXPR: 0 | POS | FRA | 14 | 135.8 | 38.8 | 0.4=(x/97.00) | 0.4 x 97.00 / = | 0.4:Store x:Store 97.00:dollar /:Store =:Store
+EXPR: 0 | POS | FRA | 14 | 135.8 | 242.5 | (0.4*x)=97.00 | 0.4 x * 97.00 = | 0.4:Store x:UNKNOWN *:Store 97.00:Store =:Store
+EXPR: 0 | POS | FRA | 14 | 135.8 | 0.00412371134020619 | (0.4/x)=97.00 | 0.4 x / 97.00 = | 0.4:Store x:UNKNOWN /:Store 97.00:Store =:Store
+EXPR: 0 | POS | FRA | 14 | 135.8 | 242.5 | 0.4=(97.00/x) | 0.4 97.00 x / = | 0.4:Store 97.00:Store x:UNKNOWN /:Store =:Store
+EXPR: 0 | POS | FRA | 14 | 135.8 | 0.00412371134020619 | 0.4=(97.00*x) | 0.4 97.00 x * = | 0.4:Store 97.00:Store x:UNKNOWN *:Store =:Store
+EXPR: 0 | POS | FRA | 20 | 135.8 | 96.6 | x=(97.00-0.4) | x 97.00 0.4 - = | x:Store 97.00:Store 0.4:Store -:Store =:Store
+EXPR: 0 | POS | FRA | 20 | 135.8 | 97.4 | x=(97.00+0.4) | x 97.00 0.4 + = | x:Store 97.00:Store 0.4:Store +:Store =:Store
+EXPR: 0 | POS | FRA | 20 | 135.8 | 97.4 | (97.00+0.4)=x | 97.00 0.4 + x = | 97.00:Store 0.4:Store +:Store x:Store =:Store
+EXPR: 0 | POS | FRA | 20 | 135.8 | 96.6 | (97.00-0.4)=x | 97.00 0.4 - x = | 97.00:Store 0.4:Store -:Store x:Store =:Store
+EXPR: 0 | POS | FRA | 22 | 135.8 | 96.6 | 97.00=(x+0.4) | 97.00 x 0.4 + = | 97.00:UNKNOWN x:UNKNOWN 0.4:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 135.8 | 96.6 | (97.00-x)=0.4 | 97.00 x - 0.4 = | 97.00:UNKNOWN x:UNKNOWN -:UNKNOWN 0.4:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 135.8 | 96.6 | 97.00=(0.4+x) | 97.00 0.4 x + = | 97.00:Store 0.4:Store x:Store +:Store =:Store
+EXPR: 0 | POS | FRA | 22 | 135.8 | 97.4 | 97.00=(x-0.4) | 97.00 x 0.4 - = | 97.00:Store x:Store 0.4:Store -:Store =:Store
+EXPR: 0 | POS | FRA | 22 | 135.8 | 97.4 | (x-97.00)=0.4 | x 97.00 - 0.4 = | x:Store 97.00:Store -:Store 0.4:Store =:Store
+EXPR: 0 | POS | FRA | 24 | 135.8 | 96.6 | (0.4+x)=97.00 | 0.4 x + 97.00 = | 0.4:UNKNOWN x:UNKNOWN +:UNKNOWN 97.00:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 135.8 | 96.6 | 0.4=(97.00-x) | 0.4 97.00 x - = | 0.4:UNKNOWN 97.00:UNKNOWN x:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 135.8 | 97.4 | 0.4=(x-97.00) | 0.4 x 97.00 - = | 0.4:Store x:Store 97.00:Store -:Store =:Store
+EXPR: 0 | POS | FRA | 24 | 135.8 | 97.4 | (x-0.4)=97.00 | x 0.4 - 97.00 = | x:Store 0.4:Store -:Store 97.00:Store =:Store
+EXPR: 0 | POS | FRA | 24 | 135.8 | 96.6 | (x+0.4)=97.00 | x 0.4 + 97.00 = | x:Store 0.4:Store +:Store 97.00:Store =:Store
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 15 | 629 | x=(340+289) | x 340 289 + = | x:minute 340:minute 289:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 15 | 98260 | x=(340*289) | x 340 289 * = | x:decrease 340:minute 289:decrease *:decrease =:decrease
+EXPR: 0 | POS | INT | 10 | 15 | 51 | (340-289)=x | 340 289 - x = | 340:minute 289:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 15 | 98260 | (340*289)=x | 340 289 * x = | 340:minute 289:decrease *:decrease x:decrease =:decrease
+EXPR: 0 | POS | INT | 10 | 15 | 51 | x=(340-289) | x 340 289 - = | x:minute 340:minute 289:minute -:minute =:minute
+EXPR: 0 | POS | INT | 10 | 15 | 629 | (340+289)=x | 340 289 + x = | 340:minute 289:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 51 | (340-x)=289 | 340 x - 289 = | 340:minute x:minute -:minute 289:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 51 | 340=(289+x) | 340 289 x + = | 340:minute 289:minute x:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 98260 | (x/340)=289 | x 340 / 289 = | x:decrease 340:minute /:decrease 289:decrease =:decrease
+EXPR: 0 | POS | INT | 12 | 15 | 629 | (x-340)=289 | x 340 - 289 = | x:minute 340:minute -:minute 289:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 629 | 340=(x-289) | 340 x 289 - = | 340:minute x:minute 289:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 51 | 340=(x+289) | 340 x 289 + = | 340:minute x:minute 289:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 98260 | 340=(x/289) | 340 x 289 / = | 340:decrease x:decrease 289:minute /:decrease =:decrease
+EXPR: 0 | POS | INT | 14 | 15 | 629 | (x-289)=340 | x 289 - 340 = | x:minute 289:minute -:minute 340:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 98260 | 289=(x/340) | 289 x 340 / = | 289:decrease x:decrease 340:minute /:decrease =:decrease
+EXPR: 0 | POS | INT | 14 | 15 | 51 | (x+289)=340 | x 289 + 340 = | x:minute 289:minute +:minute 340:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 98260 | (x/289)=340 | x 289 / 340 = | x:decrease 289:minute /:decrease 340:decrease =:decrease
+EXPR: 0 | POS | INT | 14 | 15 | 51 | 289=(340-x) | 289 340 x - = | 289:minute 340:minute x:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 51 | (289+x)=340 | 289 x + 340 = | 289:minute x:minute +:minute 340:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 629 | 289=(x-340) | 289 x 340 - = | 289:minute x:minute 340:minute -:minute =:minute
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

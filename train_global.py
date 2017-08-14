@@ -16,7 +16,7 @@ from random import sample
 
 
 multi=None
-def compute(p,op,e,target,problem,story,order):
+def compute(p,op,e,target,problem,story,order): # Returns the val of probability for the operator 'op'
     vec = makesets.vector(p,e,problem,story,target)
     op_label, op_acc, op_val = svm_predict([-1], [vec], multi ,'-q -b 1')
 

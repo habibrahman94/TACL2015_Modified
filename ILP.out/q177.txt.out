@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 50 | 2312 | (34*68)=x | 34 68 * x = | 34:necklace 68:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 50 | 2312 | x=(34*68) | x 34 68 * = | x:necklace 34:necklace 68:bead *:necklace =:necklace
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (34*x)=68 | 34 x * 68 = | 34:necklace x:bead *:bead 68:bead =:bead
+EXPR: 0 | POS | INT | 12 | 50 | 2 | x=(68/34) | x 68 34 / = | x:bead 68:bead 34:necklace /:bead =:bead
+EXPR: 0 | POS | INT | 12 | 50 | 2 | 34=(68/x) | 34 68 x / = | 34:bead 68:bead x:UNKNOWN /:bead =:bead
+EXPR: 0 | POS | INT | 12 | 50 | 2312 | 34=(x/68) | 34 x 68 / = | 34:UNKNOWN x:UNKNOWN 68:bead /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (x*34)=68 | x 34 * 68 = | x:UNKNOWN 34:bead *:bead 68:bead =:bead
+EXPR: 0 | POS | INT | 12 | 50 | 2312 | (x/34)=68 | x 34 / 68 = | x:UNKNOWN 34:necklace /:UNKNOWN 68:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 50 | 2 | (68/34)=x | 68 34 / x = | 68:UNKNOWN 34:necklace /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 50 | 2 | (68/x)=34 | 68 x / 34 = | 68:necklace x:UNKNOWN /:necklace 34:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 50 | 2312 | (x/68)=34 | x 68 / 34 = | x:necklace 68:bead /:necklace 34:necklace =:necklace
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 68=(34*x) | 68 34 x * = | 68:bead 34:necklace x:bead *:bead =:bead
+EXPR: 0 | POS | INT | 14 | 50 | 2 | 68=(x*34) | 68 x 34 * = | 68:bead x:UNKNOWN 34:bead *:bead =:bead
+EXPR: 0 | POS | INT | 14 | 50 | 2312 | 68=(x/34) | 68 x 34 / = | 68:UNKNOWN x:UNKNOWN 34:necklace /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 20 | 50 | 102 | x=(34+68) | x 34 68 + = | x:necklace 34:necklace 68:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 20 | 50 | 102 | (34+68)=x | 34 68 + x = | 34:necklace 68:necklace +:necklace x:necklace =:necklace
+EXPR: 0 | POS | INT | 22 | 50 | 102 | 34=(x-68) | 34 x 68 - = | 34:necklace x:necklace 68:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 22 | 50 | 34 | 34=(68-x) | 34 68 x - = | 34:bead 68:bead x:bead -:bead =:bead
+EXPR: 0 | POS | INT | 22 | 50 | 34 | x=(68-34) | x 68 34 - = | x:bead 68:bead 34:bead -:bead =:bead
+EXPR: 0 | POS | INT | 22 | 50 | 34 | (x+34)=68 | x 34 + 68 = | x:bead 34:bead +:bead 68:bead =:bead
+EXPR: 0 | POS | INT | 22 | 50 | 102 | (x-34)=68 | x 34 - 68 = | x:bead 34:bead -:bead 68:bead =:bead
+EXPR: 0 | POS | INT | 22 | 50 | 34 | (34+x)=68 | 34 x + 68 = | 34:necklace x:necklace +:necklace 68:necklace =:necklace
+EXPR: 0 | POS | INT | 22 | 50 | 34 | (68-34)=x | 68 34 - x = | 68:UNKNOWN 34:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 24 | 50 | 34 | 68=(x+34) | 68 x 34 + = | 68:necklace x:necklace 34:necklace +:necklace =:necklace
+EXPR: 0 | POS | INT | 24 | 50 | 34 | (68-x)=34 | 68 x - 34 = | 68:necklace x:necklace -:necklace 34:necklace =:necklace
+EXPR: 0 | POS | INT | 24 | 50 | 102 | (x-68)=34 | x 68 - 34 = | x:necklace 68:necklace -:necklace 34:necklace =:necklace
+EXPR: 0 | POS | INT | 24 | 50 | 102 | 68=(x-34) | 68 x 34 - = | 68:necklace x:necklace 34:necklace -:necklace =:necklace
+EXPR: 0 | POS | INT | 24 | 50 | 34 | 68=(34+x) | 68 34 x + = | 68:UNKNOWN 34:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

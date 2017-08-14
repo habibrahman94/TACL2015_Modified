@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 10 | 28 | 28 | (0.8*35)=x | 0.8 35 * x = | 0.8:time 35:game *:game x:game =:game
+EXPR: 0 | POS | FRA | 10 | 28 | 0.0228571428571429 | (0.8/35)=x | 0.8 35 / x = | 0.8:game 35:ballgame /:game x:game =:game
+EXPR: 1 | POS | INT | 10 | 28 | 28 | x=(0.8*35) | x 0.8 35 * = | x:time 0.8:time 35:ballgame *:time =:time
+EXPR: 0 | POS | FRA | 10 | 28 | 0.0228571428571429 | x=(0.8/35) | x 0.8 35 / = | x:game 0.8:game 35:ballgame /:game =:game
+EXPR: 0 | POS | FRA | 12 | 28 | 43.75 | (0.8*x)=35 | 0.8 x * 35 = | 0.8:time x:ballgame *:ballgame 35:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 12 | 28 | 43.75 | x=(35/0.8) | x 35 0.8 / = | x:ballgame 35:ballgame 0.8:time /:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 12 | 28 | 43.75 | 0.8=(35/x) | 0.8 35 x / = | 0.8:ballgame 35:ballgame x:game /:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 12 | 28 | 0.0228571428571429 | 0.8=(35*x) | 0.8 35 x * = | 0.8:game 35:ballgame x:game *:game =:game
+EXPR: 0 | POS | FRA | 12 | 28 | 0.0228571428571429 | (0.8/x)=35 | 0.8 x / 35 = | 0.8:ballgame x:game /:ballgame 35:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 12 | 28 | 0.0228571428571429 | 0.8=(x*35) | 0.8 x 35 * = | 0.8:game x:game 35:ballgame *:game =:game
+EXPR: 1 | POS | INT | 12 | 28 | 28 | 0.8=(x/35) | 0.8 x 35 / = | 0.8:game x:game 35:ballgame /:game =:game
+EXPR: 0 | POS | FRA | 12 | 28 | 43.75 | (x*0.8)=35 | x 0.8 * 35 = | x:game 0.8:ballgame *:ballgame 35:ballgame =:ballgame
+EXPR: 1 | POS | INT | 12 | 28 | 28 | (x/0.8)=35 | x 0.8 / 35 = | x:game 0.8:time /:game 35:game =:game
+EXPR: 0 | POS | FRA | 12 | 28 | 43.75 | (35/0.8)=x | 35 0.8 / x = | 35:game 0.8:time /:game x:game =:game
+EXPR: 0 | POS | FRA | 14 | 28 | 43.75 | (35/x)=0.8 | 35 x / 0.8 = | 35:time x:game /:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 0.0228571428571429 | (35*x)=0.8 | 35 x * 0.8 = | 35:time x:game *:time 0.8:time =:time
+EXPR: 1 | POS | INT | 14 | 28 | 28 | (x/35)=0.8 | x 35 / 0.8 = | x:time 35:ballgame /:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 0.0228571428571429 | (x*35)=0.8 | x 35 * 0.8 = | x:time 35:ballgame *:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 43.75 | 35=(0.8*x) | 35 0.8 x * = | 35:ballgame 0.8:time x:ballgame *:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 14 | 28 | 43.75 | 35=(x*0.8) | 35 x 0.8 * = | 35:ballgame x:game 0.8:ballgame *:ballgame =:ballgame
+EXPR: 1 | POS | INT | 14 | 28 | 28 | 35=(x/0.8) | 35 x 0.8 / = | 35:game x:game 0.8:time /:game =:game
+EXPR: 0 | POS | FRA | 14 | 28 | 0.0228571428571429 | 35=(0.8/x) | 35 0.8 x / = | 35:time 0.8:time x:game /:time =:time
+EXPR: 0 | POS | FRA | 20 | 28 | 35.8 | x=(0.8+35) | x 0.8 35 + = | x:time 0.8:time 35:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 28 | 35.8 | (0.8+35)=x | 0.8 35 + x = | 0.8:time 35:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 28 | 35.8 | 0.8=(x-35) | 0.8 x 35 - = | 0.8:time x:time 35:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 28 | 34.2 | 0.8=(35-x) | 0.8 35 x - = | 0.8:ballgame 35:ballgame x:ballgame -:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 22 | 28 | 34.2 | x=(35-0.8) | x 35 0.8 - = | x:ballgame 35:ballgame 0.8:ballgame -:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 22 | 28 | 34.2 | (x+0.8)=35 | x 0.8 + 35 = | x:ballgame 0.8:ballgame +:ballgame 35:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 22 | 28 | 35.8 | (x-0.8)=35 | x 0.8 - 35 = | x:ballgame 0.8:ballgame -:ballgame 35:ballgame =:ballgame
+EXPR: 0 | POS | FRA | 22 | 28 | 34.2 | (0.8+x)=35 | 0.8 x + 35 = | 0.8:time x:time +:time 35:time =:time
+EXPR: 0 | POS | FRA | 22 | 28 | 34.2 | (35-0.8)=x | 35 0.8 - x = | 35:game 0.8:game -:game x:game =:game
+EXPR: 0 | POS | FRA | 24 | 28 | 34.2 | 35=(x+0.8) | 35 x 0.8 + = | 35:time x:time 0.8:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 28 | 34.2 | (35-x)=0.8 | 35 x - 0.8 = | 35:time x:time -:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 24 | 28 | 35.8 | (x-35)=0.8 | x 35 - 0.8 = | x:time 35:time -:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 24 | 28 | 35.8 | 35=(x-0.8) | 35 x 0.8 - = | 35:time x:time 0.8:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 28 | 34.2 | 35=(0.8+x) | 35 0.8 x + = | 35:game 0.8:game x:game +:game =:game
+NET 36 unique, non-negative solutions found out of 324 total solutions

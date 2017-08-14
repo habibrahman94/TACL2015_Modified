@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=(0.75*12) | x 0.75 12 * = | x:student 0.75:time 12:student *:student =:student
+EXPR: 1 | POS | INT | 0 | 9 | 9 | (0.75*12)=x | 0.75 12 * x = | 0.75:time 12:student *:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 9 | 16 | (12/0.75)=x | 12 0.75 / x = | 12:student 0.75:time /:student x:student =:student
+EXPR: 0 | POS | INT | 2 | 9 | 16 | (0.75*x)=12 | 0.75 x * 12 = | 0.75:time x:student *:student 12:student =:student
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (x/0.75)=12 | x 0.75 / 12 = | x:student 0.75:time /:student 12:student =:student
+EXPR: 0 | POS | INT | 2 | 9 | 16 | (x*0.75)=12 | x 0.75 * 12 = | x:student 0.75:time *:student 12:student =:student
+EXPR: 0 | POS | INT | 2 | 9 | 16 | x=(12/0.75) | x 12 0.75 / = | x:student 12:student 0.75:time /:student =:student
+EXPR: 0 | POS | INT | 4 | 9 | 16 | 12=(x*0.75) | 12 x 0.75 * = | 12:student x:student 0.75:time *:student =:student
+EXPR: 0 | POS | INT | 4 | 9 | 16 | 12=(0.75*x) | 12 0.75 x * = | 12:student 0.75:time x:student *:student =:student
+EXPR: 1 | POS | INT | 4 | 9 | 9 | 12=(x/0.75) | 12 x 0.75 / = | 12:student x:student 0.75:time /:student =:student
+EXPR: 0 | POS | FRA | 10 | 9 | 0.0625 | (0.75/12)=x | 0.75 12 / x = | 0.75:time 12:student /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 9 | 12.75 | (0.75+12)=x | 0.75 12 + x = | 0.75:student 12:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 9 | 12.75 | x=(0.75+12) | x 0.75 12 + = | x:student 0.75:student 12:student +:student =:student
+EXPR: 0 | POS | FRA | 10 | 9 | 0.0625 | x=(0.75/12) | x 0.75 12 / = | x:time 0.75:time 12:student /:time =:time
+EXPR: 0 | POS | FRA | 12 | 9 | 0.0625 | 0.75=(x*12) | 0.75 x 12 * = | 0.75:time x:time 12:student *:time =:time
+EXPR: 0 | POS | INT | 12 | 9 | 16 | 0.75=(12/x) | 0.75 12 x / = | 0.75:time 12:time x:student /:time =:time
+EXPR: 0 | POS | FRA | 12 | 9 | 12.75 | (x-0.75)=12 | x 0.75 - 12 = | x:student 0.75:student -:student 12:student =:student
+EXPR: 0 | POS | FRA | 12 | 9 | 0.0625 | (0.75/x)=12 | 0.75 x / 12 = | 0.75:time x:student /:time 12:time =:time
+EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | (12-0.75)=x | 12 0.75 - x = | 12:student 0.75:student -:student x:student =:student
+EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | (x+0.75)=12 | x 0.75 + 12 = | x:student 0.75:student +:student 12:student =:student
+EXPR: 0 | POS | FRA | 12 | 9 | 0.0625 | 0.75=(12*x) | 0.75 12 x * = | 0.75:time 12:time x:student *:time =:time
+EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | (0.75+x)=12 | 0.75 x + 12 = | 0.75:student x:student +:student 12:student =:student
+EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | 0.75=(12-x) | 0.75 12 x - = | 0.75:student 12:student x:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | x=(12-0.75) | x 12 0.75 - = | x:student 12:student 0.75:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 9 | 12.75 | 0.75=(x-12) | 0.75 x 12 - = | 0.75:student x:student 12:student -:student =:student
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 0.75=(x/12) | 0.75 x 12 / = | 0.75:time x:time 12:student /:time =:time
+EXPR: 0 | POS | INT | 14 | 9 | 16 | (12/x)=0.75 | 12 x / 0.75 = | 12:time x:student /:time 0.75:time =:time
+EXPR: 1 | POS | INT | 14 | 9 | 9 | (x/12)=0.75 | x 12 / 0.75 = | x:time 12:student /:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 0.0625 | 12=(0.75/x) | 12 0.75 x / = | 12:time 0.75:time x:student /:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 11.25 | (12-x)=0.75 | 12 x - 0.75 = | 12:student x:student -:student 0.75:student =:student
+EXPR: 0 | POS | FRA | 14 | 9 | 0.0625 | (12*x)=0.75 | 12 x * 0.75 = | 12:time x:student *:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 11.25 | 12=(0.75+x) | 12 0.75 x + = | 12:student 0.75:student x:student +:student =:student
+EXPR: 0 | POS | FRA | 14 | 9 | 0.0625 | (x*12)=0.75 | x 12 * 0.75 = | x:student 12:time *:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 12.75 | (x-12)=0.75 | x 12 - 0.75 = | x:student 12:student -:student 0.75:student =:student
+EXPR: 0 | POS | FRA | 14 | 9 | 12.75 | 12=(x-0.75) | 12 x 0.75 - = | 12:student x:student 0.75:student -:student =:student
+EXPR: 0 | POS | FRA | 14 | 9 | 11.25 | 12=(x+0.75) | 12 x 0.75 + = | 12:student x:student 0.75:student +:student =:student
+NET 36 unique, non-negative solutions found out of 136 total solutions

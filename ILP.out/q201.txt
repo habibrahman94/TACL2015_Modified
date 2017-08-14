@@ -1,0 +1,5 @@
+quantities : 10 15 x
+types : "member" "member" "squad"
+operators : + - * / =
+n : 5
+answer : 50.0

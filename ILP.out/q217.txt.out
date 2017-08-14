@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 30 | 207 | x=(90+117) | x 90 117 + = | x:employee 90:employee 117:employee +:employee =:employee
+EXPR: 0 | POS | INT | 10 | 30 | 10530 | x=(90*117) | x 90 117 * = | x:they 90:employee 117:they *:they =:they
+EXPR: 0 | POS | INT | 10 | 30 | 10530 | (90*117)=x | 90 117 * x = | 90:employee 117:they *:they x:they =:they
+EXPR: 0 | POS | INT | 10 | 30 | 207 | (90+117)=x | 90 117 + x = | 90:employee 117:employee +:employee x:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 27 | 90=(117-x) | 90 117 x - = | 90:employee 117:employee x:employee -:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 10530 | (x/90)=117 | x 90 / 117 = | x:they 90:employee /:they 117:they =:they
+EXPR: 0 | POS | INT | 12 | 30 | 207 | (x-90)=117 | x 90 - 117 = | x:employee 90:employee -:employee 117:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 207 | 90=(x-117) | 90 x 117 - = | 90:employee x:employee 117:employee -:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 27 | (117-90)=x | 117 90 - x = | 117:employee 90:employee -:employee x:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 27 | x=(117-90) | x 117 90 - = | x:employee 117:employee 90:employee -:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 27 | (x+90)=117 | x 90 + 117 = | x:employee 90:employee +:employee 117:employee =:employee
+EXPR: 0 | POS | INT | 12 | 30 | 10530 | 90=(x/117) | 90 x 117 / = | 90:they x:they 117:employee /:they =:they
+EXPR: 0 | POS | INT | 12 | 30 | 27 | (90+x)=117 | 90 x + 117 = | 90:employee x:employee +:employee 117:employee =:employee
+EXPR: 0 | POS | INT | 14 | 30 | 27 | (117-x)=90 | 117 x - 90 = | 117:employee x:employee -:employee 90:employee =:employee
+EXPR: 0 | POS | INT | 14 | 30 | 207 | (x-117)=90 | x 117 - 90 = | x:employee 117:employee -:employee 90:employee =:employee
+EXPR: 0 | POS | INT | 14 | 30 | 10530 | 117=(x/90) | 117 x 90 / = | 117:they x:they 90:employee /:they =:they
+EXPR: 0 | POS | INT | 14 | 30 | 10530 | (x/117)=90 | x 117 / 90 = | x:they 117:employee /:they 90:they =:they
+EXPR: 0 | POS | INT | 14 | 30 | 27 | 117=(90+x) | 117 90 x + = | 117:employee 90:employee x:employee +:employee =:employee
+EXPR: 0 | POS | INT | 14 | 30 | 207 | 117=(x-90) | 117 x 90 - = | 117:employee x:employee 90:employee -:employee =:employee
+EXPR: 0 | POS | INT | 14 | 30 | 27 | 117=(x+90) | 117 x 90 + = | 117:employee x:employee 90:employee +:employee =:employee
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
