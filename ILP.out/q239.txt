@@ -1,5 +1,5 @@
-quantities : 1,986 5,106 x
-types : "book" "book" "book"
+quantities : 100 0.14 x
+types : "people" "decrease" "employee"
 operators : + - * / =
 n : 5
-answer : 7092.0
+answer : 14.0

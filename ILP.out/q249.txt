@@ -1,5 +1,5 @@
-quantities : 2,041 63,093 x
-types : "employee" "employee" "employee"
+quantities : 68 85 x x
+types : "seconds" "seconds" "time" "LENGTH"
 operators : + - * / =
-n : 5
-answer : 65134.0
+n : 7
+answer : 25.0

@@ -1,18 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 11687 | 1357 | (6522-5165)=x | 6522 5165 - x = | 6522:liter 5165:liter -:liter x:liter =:liter
-EXPR: 0 | POS | INT | 0 | 11687 | 1357 | x=(6522-5165) | x 6522 5165 - = | x:liter 6522:liter 5165:liter -:liter =:liter
-EXPR: 1 | POS | INT | 0 | 11687 | 11687 | (6522+5165)=x | 6522 5165 + x = | 6522:liter 5165:liter +:liter x:liter =:liter
-EXPR: 1 | POS | INT | 0 | 11687 | 11687 | x=(6522+5165) | x 6522 5165 + = | x:liter 6522:liter 5165:liter +:liter =:liter
-EXPR: 1 | POS | INT | 2 | 11687 | 11687 | (x-6522)=5165 | x 6522 - 5165 = | x:liter 6522:liter -:liter 5165:liter =:liter
-EXPR: 0 | POS | INT | 2 | 11687 | 1357 | (6522-x)=5165 | 6522 x - 5165 = | 6522:liter x:liter -:liter 5165:liter =:liter
-EXPR: 0 | POS | INT | 2 | 11687 | 1357 | 6522=(x+5165) | 6522 x 5165 + = | 6522:liter x:liter 5165:liter +:liter =:liter
-EXPR: 1 | POS | INT | 2 | 11687 | 11687 | 6522=(x-5165) | 6522 x 5165 - = | 6522:liter x:liter 5165:liter -:liter =:liter
-EXPR: 0 | POS | INT | 2 | 11687 | 1357 | 6522=(5165+x) | 6522 5165 x + = | 6522:liter 5165:liter x:liter +:liter =:liter
-EXPR: 1 | POS | INT | 4 | 11687 | 11687 | 5165=(x-6522) | 5165 x 6522 - = | 5165:liter x:liter 6522:liter -:liter =:liter
-EXPR: 1 | POS | INT | 4 | 11687 | 11687 | (x-5165)=6522 | x 5165 - 6522 = | x:liter 5165:liter -:liter 6522:liter =:liter
-EXPR: 0 | POS | INT | 4 | 11687 | 1357 | (5165+x)=6522 | 5165 x + 6522 = | 5165:liter x:liter +:liter 6522:liter =:liter
-EXPR: 0 | POS | INT | 4 | 11687 | 1357 | (x+5165)=6522 | x 5165 + 6522 = | x:liter 5165:liter +:liter 6522:liter =:liter
-EXPR: 0 | POS | INT | 4 | 11687 | 1357 | 5165=(6522-x) | 5165 6522 x - = | 5165:liter 6522:liter x:liter -:liter =:liter
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | FRA | 0 | 6019 | 26457.1428571429 | x=(9260/0.35) | x 9260 0.35 / = | x:ticket 9260:ticket 0.35:Theater /:ticket =:ticket
+EXPR: 0 | POS | INT | 0 | 6019 | 3241 | (9260*0.35)=x | 9260 0.35 * x = | 9260:ticket 0.35:Theater *:ticket x:ticket =:ticket
+EXPR: 0 | POS | INT | 0 | 6019 | 3241 | x=(9260*0.35) | x 9260 0.35 * = | x:ticket 9260:ticket 0.35:Theater *:ticket =:ticket
+EXPR: 0 | POS | FRA | 0 | 6019 | 26457.1428571429 | (9260/0.35)=x | 9260 0.35 / x = | 9260:ticket 0.35:Theater /:ticket x:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 6019 | 3241 | 9260=(x/0.35) | 9260 x 0.35 / = | 9260:ticket x:ticket 0.35:Theater /:ticket =:ticket
+EXPR: 0 | POS | FRA | 2 | 6019 | 26457.1428571429 | 9260=(x*0.35) | 9260 x 0.35 * = | 9260:ticket x:ticket 0.35:Theater *:ticket =:ticket
+EXPR: 0 | POS | FRA | 2 | 6019 | 26457.1428571429 | 9260=(0.35*x) | 9260 0.35 x * = | 9260:ticket 0.35:Theater x:ticket *:ticket =:ticket
+EXPR: 0 | POS | FRA | 4 | 6019 | 26457.1428571429 | (0.35*x)=9260 | 0.35 x * 9260 = | 0.35:Theater x:ticket *:ticket 9260:ticket =:ticket
+EXPR: 0 | POS | FRA | 4 | 6019 | 26457.1428571429 | (x*0.35)=9260 | x 0.35 * 9260 = | x:ticket 0.35:Theater *:ticket 9260:ticket =:ticket
+EXPR: 0 | POS | INT | 4 | 6019 | 3241 | (x/0.35)=9260 | x 0.35 / 9260 = | x:ticket 0.35:Theater /:ticket 9260:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 6019 | 9260.35 | (9260+0.35)=x | 9260 0.35 + x = | 9260:ticket 0.35:ticket +:ticket x:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 6019 | 9260.35 | x=(9260+0.35) | x 9260 0.35 + = | x:ticket 9260:ticket 0.35:ticket +:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 6019 | 9259.65 | (9260-0.35)=x | 9260 0.35 - x = | 9260:ticket 0.35:ticket -:ticket x:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 6019 | 9259.65 | x=(9260-0.35) | x 9260 0.35 - = | x:ticket 9260:ticket 0.35:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 6019 | 9259.65 | 9260=(x+0.35) | 9260 x 0.35 + = | 9260:ticket x:ticket 0.35:ticket +:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 6019 | 3.77969762419006e-5 | 9260=(0.35/x) | 9260 0.35 x / = | 9260:Theater 0.35:Theater x:ticket /:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 3.77969762419006e-5 | (x*9260)=0.35 | x 9260 * 0.35 = | x:ticket 9260:Theater *:Theater 0.35:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 26457.1428571429 | (9260/x)=0.35 | 9260 x / 0.35 = | 9260:Theater x:ticket /:Theater 0.35:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 3.77969762419006e-5 | x=(0.35/9260) | x 0.35 9260 / = | x:Theater 0.35:Theater 9260:ticket /:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 9260.35 | 9260=(x-0.35) | 9260 x 0.35 - = | 9260:ticket x:ticket 0.35:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 6019 | 3.77969762419006e-5 | (0.35/9260)=x | 0.35 9260 / x = | 0.35:Theater 9260:ticket /:Theater x:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 3.77969762419006e-5 | (9260*x)=0.35 | 9260 x * 0.35 = | 9260:Theater x:ticket *:Theater 0.35:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 9260.35 | (x-9260)=0.35 | x 9260 - 0.35 = | x:ticket 9260:ticket -:ticket 0.35:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 6019 | 9259.65 | (9260-x)=0.35 | 9260 x - 0.35 = | 9260:ticket x:ticket -:ticket 0.35:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 6019 | 3241 | (x/9260)=0.35 | x 9260 / 0.35 = | x:Theater 9260:ticket /:Theater 0.35:Theater =:Theater
+EXPR: 0 | POS | FRA | 12 | 6019 | 9259.65 | 9260=(0.35+x) | 9260 0.35 x + = | 9260:ticket 0.35:ticket x:ticket +:ticket =:ticket
+EXPR: 0 | POS | INT | 14 | 6019 | 3240.99999999999 | 0.35=(x/9260) | 0.35 x 9260 / = | 0.35:Theater x:Theater 9260:ticket /:Theater =:Theater
+EXPR: 0 | POS | FRA | 14 | 6019 | 26457.1428571429 | 0.35=(9260/x) | 0.35 9260 x / = | 0.35:Theater 9260:Theater x:ticket /:Theater =:Theater
+EXPR: 0 | POS | FRA | 14 | 6019 | 9259.65 | (0.35+x)=9260 | 0.35 x + 9260 = | 0.35:ticket x:ticket +:ticket 9260:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 6019 | 9259.65 | (x+0.35)=9260 | x 0.35 + 9260 = | x:ticket 0.35:ticket +:ticket 9260:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 6019 | 3.77969762419006e-5 | 0.35=(9260*x) | 0.35 9260 x * = | 0.35:Theater 9260:ticket x:Theater *:Theater =:Theater
+EXPR: 0 | POS | FRA | 14 | 6019 | 3.77969762419006e-5 | (0.35/x)=9260 | 0.35 x / 9260 = | 0.35:Theater x:ticket /:Theater 9260:Theater =:Theater
+EXPR: 0 | POS | FRA | 14 | 6019 | 9259.65 | 0.35=(9260-x) | 0.35 9260 x - = | 0.35:ticket 9260:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 6019 | 9260.35 | 0.35=(x-9260) | 0.35 x 9260 - = | 0.35:ticket x:ticket 9260:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 6019 | 3.77969762419006e-5 | 0.35=(x*9260) | 0.35 x 9260 * = | 0.35:Theater x:ticket 9260:Theater *:Theater =:Theater
+EXPR: 0 | POS | FRA | 14 | 6019 | 9260.35 | (x-0.35)=9260 | x 0.35 - 9260 = | x:ticket 0.35:ticket -:ticket 9260:ticket =:ticket
+NET 36 unique, non-negative solutions found out of 136 total solutions

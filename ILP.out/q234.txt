@@ -1,5 +1,5 @@
-quantities : 1,346 6,444 x
-types : "muff" "muff" "muff"
+quantities : 775,570 0.2 x
+types : "resident" "Winchester" "population"
 operators : + - * / =
 n : 5
-answer : 7790.0
+answer : 620456.0

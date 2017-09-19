@@ -1,5 +1,5 @@
-quantities : 64,535 522 x
-types : "acre" "acre" "acre"
+quantities : 410 0.3 x
+types : "student" "time" "student"
 operators : + - * / =
 n : 5
-answer : 65057.0
+answer : 533.0

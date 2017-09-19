@@ -1,5 +1,5 @@
-quantities : 91.0 24.0 6.0 11.0 x
-types : "money" "money" "money" "money" "money"
+quantities : 16 0.25 x
+types : "dollar" "Boutique" "Boutique"
 operators : + - * / =
-n : 9
-answer : 50.0
+n : 5
+answer : 20.0

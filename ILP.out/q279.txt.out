@@ -129,8 +129,8 @@ EXPR: 0 | POS | INT | 12 | 32 | 41 | x=(53-(19-7)) | x 53 19 7 - - = | x:cupcake
 EXPR: 0 | POS | INT | 12 | 32 | 1140 | (53+7)=(x/19) | 53 7 + x 19 / = | 53:cupcake 7:cupcake +:cupcake x:cupcake 19:vanilla /:cupcake =:cupcake
 EXPR: 0 | POS | INT | 12 | 32 | 80 | (x+53)=(7*19) | x 53 + 7 19 * = | x:cupcake 53:cupcake +:cupcake 7:cupcake 19:vanilla *:cupcake =:cupcake
 EXPR: 0 | POS | INT | 12 | 32 | 874 | (53-7)=(x/19) | 53 7 - x 19 / = | 53:cupcake 7:cupcake -:cupcake x:cupcake 19:vanilla /:cupcake =:cupcake
-EXPR: 0 | POS | INT | 12 | 32 | 80 | (53+x)=(7*19) | 53 x + 7 19 * = | 53:cupcake x:cupcake +:cupcake 7:cupcake 19:vanilla *:cupcake =:cupcake
 EXPR: 0 | POS | INT | 12 | 32 | 186 | (x-53)=(7*19) | x 53 - 7 19 * = | x:cupcake 53:cupcake -:cupcake 7:cupcake 19:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 12 | 32 | 80 | (53+x)=(7*19) | 53 x + 7 19 * = | 53:cupcake x:cupcake +:cupcake 7:cupcake 19:vanilla *:cupcake =:cupcake
 EXPR: 0 | POS | INT | 14 | 32 | 65 | ((x+7)-53)=19 | x 7 + 53 - 19 = | x:cupcake 7:cupcake +:cupcake 53:cupcake -:cupcake 19:cupcake =:cupcake
 EXPR: 0 | POS | INT | 14 | 32 | 41 | 53=((19+x)-7) | 53 19 x + 7 - = | 53:cupcake 19:cupcake x:cupcake +:cupcake 7:cupcake -:cupcake =:cupcake
 EXPR: 0 | POS | INT | 14 | 32 | 27 | 7=((53-19)-x) | 7 53 19 - x - = | 7:cupcake 53:cupcake 19:cupcake -:cupcake x:cupcake -:cupcake =:cupcake

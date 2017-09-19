@@ -1,139 +1,24 @@
-parameters: n=9 l=4 k=1 p=5 q=2 m=10
-TOTAL 489 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 74 | 216 | x=((109.0*2)-(13.0-11.0)) | x 109.0 2 * 13.0 11.0 - - = | x:money 109.0:money 2:shirt *:money 13.0:money 11.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 146 | ((109.0+(2*13.0))+11.0)=x | 109.0 2 13.0 * + 11.0 + x = | 109.0:money 2:shirt 13.0:money *:money +:money 11.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 220 | x=((109.0*2)+(13.0-11.0)) | x 109.0 2 * 13.0 11.0 - + = | x:money 109.0:money 2:shirt *:money 13.0:money 11.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 124 | x=((109.0+(2*13.0))-11.0) | x 109.0 2 13.0 * + 11.0 - = | x:money 109.0:money 2:shirt 13.0:money *:money +:money 11.0:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 146 | x=((109.0+(2*13.0))+11.0) | x 109.0 2 13.0 * + 11.0 + = | x:money 109.0:money 2:shirt 13.0:money *:money +:money 11.0:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 124 | (109.0+((2*13.0)-11.0))=x | 109.0 2 13.0 * 11.0 - + x = | 109.0:money 2:shirt 13.0:money *:money 11.0:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 113 | (109.0+(2*(13.0-11.0)))=x | 109.0 2 13.0 11.0 - * + x = | 109.0:money 2:shirt 13.0:money 11.0:money -:money *:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 124 | ((109.0+(2*13.0))-11.0)=x | 109.0 2 13.0 * + 11.0 - x = | 109.0:money 2:shirt 13.0:money *:money +:money 11.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 72 | ((109.0-(2*13.0))-11.0)=x | 109.0 2 13.0 * - 11.0 - x = | 109.0:money 2:shirt 13.0:money *:money -:money 11.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 72 | x=((109.0-(2*13.0))-11.0) | x 109.0 2 13.0 * - 11.0 - = | x:money 109.0:money 2:shirt 13.0:money *:money -:money 11.0:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 157 | (109.0+(2*(13.0+11.0)))=x | 109.0 2 13.0 11.0 + * + x = | 109.0:money 2:shirt 13.0:money 11.0:money +:money *:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 94 | ((109.0-(2*13.0))+11.0)=x | 109.0 2 13.0 * - 11.0 + x = | 109.0:money 2:shirt 13.0:money *:money -:money 11.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 94 | x=((109.0-(2*13.0))+11.0) | x 109.0 2 13.0 * - 11.0 + = | x:money 109.0:money 2:shirt 13.0:money *:money -:money 11.0:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 146 | (109.0+((2*13.0)+11.0))=x | 109.0 2 13.0 * 11.0 + + x = | 109.0:money 2:shirt 13.0:money *:money 11.0:money +:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 242 | x=((109.0*2)+(13.0+11.0)) | x 109.0 2 * 13.0 11.0 + + = | x:money 109.0:money 2:shirt *:money 13.0:money 11.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 194 | x=((109.0*2)-(13.0+11.0)) | x 109.0 2 * 13.0 11.0 + - = | x:money 109.0:money 2:shirt *:money 13.0:money 11.0:money +:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 220 | (((109.0*2)+13.0)-11.0)=x | 109.0 2 * 13.0 + 11.0 - x = | 109.0:money 2:shirt *:money 13.0:money +:money 11.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 436 | ((109.0*2)*(13.0-11.0))=x | 109.0 2 * 13.0 11.0 - * x = | 109.0:money 2:shirt *:shirt 13.0:money 11.0:money -:money *:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 436 | x=((109.0*2)*(13.0-11.0)) | x 109.0 2 * 13.0 11.0 - * = | x:money 109.0:money 2:shirt *:shirt 13.0:money 11.0:money -:money *:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 61 | (109.0-(2*(13.0+11.0)))=x | 109.0 2 13.0 11.0 + * - x = | 109.0:money 2:shirt 13.0:money 11.0:money +:money *:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 220 | ((109.0*2)+(13.0-11.0))=x | 109.0 2 * 13.0 11.0 - + x = | 109.0:money 2:shirt *:money 13.0:money 11.0:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 157 | x=(109.0+(2*(13.0+11.0))) | x 109.0 2 13.0 11.0 + * + = | x:money 109.0:money 2:shirt 13.0:money 11.0:money +:money *:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 194 | (((109.0*2)-13.0)-11.0)=x | 109.0 2 * 13.0 - 11.0 - x = | 109.0:money 2:shirt *:money 13.0:money -:money 11.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 105 | (109.0-(2*(13.0-11.0)))=x | 109.0 2 13.0 11.0 - * - x = | 109.0:money 2:shirt 13.0:money 11.0:money -:money *:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 113 | x=(109.0+(2*(13.0-11.0))) | x 109.0 2 13.0 11.0 - * + = | x:money 109.0:money 2:shirt 13.0:money 11.0:money -:money *:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 72 | (109.0-((2*13.0)+11.0))=x | 109.0 2 13.0 * 11.0 + - x = | 109.0:money 2:shirt 13.0:money *:money 11.0:money +:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 5232 | x=((109.0*2)*(13.0+11.0)) | x 109.0 2 * 13.0 11.0 + * = | x:money 109.0:money 2:shirt *:shirt 13.0:money 11.0:money +:money *:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 105 | x=(109.0-(2*(13.0-11.0))) | x 109.0 2 13.0 11.0 - * - = | x:money 109.0:money 2:shirt 13.0:money 11.0:money -:money *:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 61 | x=(109.0-(2*(13.0+11.0))) | x 109.0 2 13.0 11.0 + * - = | x:money 109.0:money 2:shirt 13.0:money 11.0:money +:money *:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 72 | x=(109.0-((2*13.0)+11.0)) | x 109.0 2 13.0 * 11.0 + - = | x:money 109.0:money 2:shirt 13.0:money *:money 11.0:money +:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 124 | x=(109.0+((2*13.0)-11.0)) | x 109.0 2 13.0 * 11.0 - + = | x:money 109.0:money 2:shirt 13.0:money *:money 11.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 94 | x=(109.0-((2*13.0)-11.0)) | x 109.0 2 13.0 * 11.0 - - = | x:money 109.0:money 2:shirt 13.0:money *:money 11.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 242 | (((109.0*2)+13.0)+11.0)=x | 109.0 2 * 13.0 + 11.0 + x = | 109.0:money 2:shirt *:money 13.0:money +:money 11.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 242 | x=(((109.0*2)+13.0)+11.0) | x 109.0 2 * 13.0 + 11.0 + = | x:money 109.0:money 2:shirt *:money 13.0:money +:money 11.0:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 194 | ((109.0*2)-(13.0+11.0))=x | 109.0 2 * 13.0 11.0 + - x = | 109.0:money 2:shirt *:money 13.0:money 11.0:money +:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 242 | ((109.0*2)+(13.0+11.0))=x | 109.0 2 * 13.0 11.0 + + x = | 109.0:money 2:shirt *:money 13.0:money 11.0:money +:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 216 | x=(((109.0*2)-13.0)+11.0) | x 109.0 2 * 13.0 - 11.0 + = | x:money 109.0:money 2:shirt *:money 13.0:money -:money 11.0:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 194 | x=(((109.0*2)-13.0)-11.0) | x 109.0 2 * 13.0 - 11.0 - = | x:money 109.0:money 2:shirt *:money 13.0:money -:money 11.0:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 74 | 146 | x=(109.0+((2*13.0)+11.0)) | x 109.0 2 13.0 * 11.0 + + = | x:money 109.0:money 2:shirt 13.0:money *:money 11.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 2 | 74 | 105 | (109.0+(2*(11.0-13.0)))=x | 109.0 2 11.0 13.0 - * + x = | 109.0:money 2:shirt 11.0:money 13.0:money -:money *:money +:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 74 | 62 | (109.0+(2*(13.0-x)))=11.0 | 109.0 2 13.0 x - * + 11.0 = | 109.0:money 2:shirt 13.0:money x:money -:money *:money +:money 11.0:money =:money
-EXPR: 0 | POS | INT | 2 | 74 | 194 | (((109.0*2)-11.0)-13.0)=x | 109.0 2 * 11.0 - 13.0 - x = | 109.0:money 2:shirt *:money 11.0:money -:money 13.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 74 | 220 | ((109.0*2)+(13.0-x))=11.0 | 109.0 2 * 13.0 x - + 11.0 = | 109.0:money 2:shirt *:money 13.0:money x:money -:money +:money 11.0:money =:money
-EXPR: 0 | POS | INT | 2 | 74 | 36 | (109.0-(2*(13.0+x)))=11.0 | 109.0 2 13.0 x + * - 11.0 = | 109.0:money 2:shirt 13.0:money x:money +:money *:money -:money 11.0:money =:money
-EXPR: 0 | POS | INT | 2 | 74 | 118 | x=(109.0+((2*11.0)-13.0)) | x 109.0 2 11.0 * 13.0 - + = | x:money 109.0:money 2:shirt 11.0:money *:money 13.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 4 | 74 | 194 | (((109.0*2)-x)-11.0)=13.0 | 109.0 2 * x - 11.0 - 13.0 = | 109.0:money 2:shirt *:money x:money -:money 11.0:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 4 | 74 | 216 | ((109.0*2)+(11.0-x))=13.0 | 109.0 2 * 11.0 x - + 13.0 = | 109.0:money 2:shirt *:money 11.0:money x:money -:money +:money 13.0:money =:money
-EXPR: 0 | POS | INT | 4 | 74 | 157 | (((x-109.0)/2)-11.0)=13.0 | x 109.0 - 2 / 11.0 - 13.0 = | x:money 109.0:money -:money 2:shirt /:money 11.0:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 4 | 74 | 121 | (((x-109.0)*2)-11.0)=13.0 | x 109.0 - 2 * 11.0 - 13.0 = | x:money 109.0:money -:money 2:shirt *:money 11.0:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 4 | 74 | 59 | (109.0-(2*(x-11.0)))=13.0 | 109.0 2 x 11.0 - * - 13.0 = | 109.0:money 2:shirt x:money 11.0:money -:money *:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 4 | 74 | 194 | ((109.0*2)-(x+11.0))=13.0 | 109.0 2 * x 11.0 + - 13.0 = | 109.0:money 2:shirt *:money x:money 11.0:money +:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 7 | 74 | 253 | x=(13.0+(2*(109.0+11.0))) | x 13.0 2 109.0 11.0 + * + = | x:money 13.0:money 2:shirt 109.0:money 11.0:money +:money *:money +:money =:money
-EXPR: 0 | POS | INT | 7 | 74 | 214 | (((x/2)+13.0)-109.0)=11.0 | x 2 / 13.0 + 109.0 - 11.0 = | x:money 2:shirt /:money 13.0:money +:money 109.0:money -:money 11.0:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 83 | ((109.0-2)-(13.0+11.0))=x | 109.0 2 - 13.0 11.0 + - x = | 109.0:money 2:money -:money 13.0:money 11.0:money +:money -:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 1432 | x=(((109.0+2)*13.0)-11.0) | x 109.0 2 + 13.0 * 11.0 - = | x:money 109.0:shirt 2:shirt +:shirt 13.0:money *:money 11.0:money -:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 2541 | x=(((109.0*2)+13.0)*11.0) | x 109.0 2 * 13.0 + 11.0 * = | x:money 109.0:money 2:shirt *:shirt 13.0:shirt +:shirt 11.0:money *:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 2255 | x=(((109.0*2)-13.0)*11.0) | x 109.0 2 * 13.0 - 11.0 * = | x:money 109.0:money 2:shirt *:shirt 13.0:shirt -:shirt 11.0:money *:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 222 | ((x/2)+(11.0-109.0))=13.0 | x 2 / 11.0 109.0 - + 13.0 = | x:money 2:shirt /:money 11.0:money 109.0:money -:money +:money 13.0:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 83 | (((109.0-2)-13.0)-11.0)=x | 109.0 2 - 13.0 - 11.0 - x = | 109.0:money 2:money -:money 13.0:money -:money 11.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 2568 | x=((109.0-2)*(13.0+11.0)) | x 109.0 2 - 13.0 11.0 + * = | x:money 109.0:shirt 2:shirt -:shirt 13.0:money 11.0:money +:money *:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 274 | x=(109.0+((2+13.0)*11.0)) | x 109.0 2 13.0 + 11.0 * + = | x:money 109.0:money 2:shirt 13.0:shirt +:shirt 11.0:money *:money +:money =:money
-EXPR: 0 | POS | INT | 10 | 74 | 21 | x=(((109.0*2)+13.0)/11.0) | x 109.0 2 * 13.0 + 11.0 / = | x:money 109.0:money 2:shirt *:money 13.0:money +:money 11.0:shirt /:money =:money
-EXPR: 0 | POS | INT | 11 | 74 | 214 | ((x/2)+(13.0-11.0))=109.0 | x 2 / 13.0 11.0 - + 109.0 = | x:money 2:shirt /:money 13.0:money 11.0:money -:money +:money 109.0:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 109 | (109.0+(13.0-(2+11.0)))=x | 109.0 13.0 2 11.0 + - + x = | 109.0:money 13.0:money 2:money 11.0:money +:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 110 | (109.0+(13.0/(2+11.0)))=x | 109.0 13.0 2 11.0 + / + x = | 109.0:money 13.0:money 2:shirt 11.0:shirt +:shirt /:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 216 | (109.0*2)=(x+(13.0-11.0)) | 109.0 2 * x 13.0 11.0 - + = | 109.0:money 2:shirt *:money x:money 13.0:money 11.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 87 | (((109.0+2)-11.0)-13.0)=x | 109.0 2 + 11.0 - 13.0 - x = | 109.0:money 2:money +:money 11.0:money -:money 13.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 21 | (((109.0*2)+13.0)/x)=11.0 | 109.0 2 * 13.0 + x / 11.0 = | 109.0:money 2:shirt *:money 13.0:money +:money x:shirt /:money 11.0:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 83 | (((109.0-2)-13.0)-x)=11.0 | 109.0 2 - 13.0 - x - 11.0 = | 109.0:money 2:money -:money 13.0:money -:money x:money -:money 11.0:money =:money
-EXPR: 0 | POS | INT | 12 | 74 | 170 | (2*(109.0-(13.0+11.0)))=x | 2 109.0 13.0 11.0 + - * x = | 2:shirt 109.0:money 13.0:money 11.0:money +:money -:money *:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 12 | 74 | 266 | (2*(109.0+(13.0+11.0)))=x | 2 109.0 13.0 11.0 + + * x = | 2:shirt 109.0:money 13.0:money 11.0:money +:money +:money *:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 14 | 74 | 94 | x=((11.0-(2*13.0))+109.0) | x 11.0 2 13.0 * - 109.0 + = | x:money 11.0:money 2:shirt 13.0:money *:money -:money 109.0:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 74 | 109 | ((x-109.0)+(2+11.0))=13.0 | x 109.0 - 2 11.0 + + 13.0 = | x:money 109.0:money -:money 2:money 11.0:money +:money +:money 13.0:money =:money
-EXPR: 0 | POS | INT | 14 | 74 | 109 | (((109.0-x)+2)+11.0)=13.0 | 109.0 x - 2 + 11.0 + 13.0 = | 109.0:money x:money -:money 2:money +:money 11.0:money +:money 13.0:money =:money
-EXPR: 0 | POS | INT | 15 | 74 | 105 | (((109.0+11.0)-2)-13.0)=x | 109.0 11.0 + 2 - 13.0 - x = | 109.0:money 11.0:money +:money 2:money -:money 13.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 74 | 83 | ((109.0-11.0)-(2+13.0))=x | 109.0 11.0 - 2 13.0 + - x = | 109.0:money 11.0:money -:money 2:money 13.0:money +:money -:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 74 | 1173 | ((109.0*11.0)-(2*13.0))=x | 109.0 11.0 * 2 13.0 * - x = | 109.0:money 11.0:shirt *:money 2:shirt 13.0:money *:money -:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 74 | 113 | x=(109.0-(11.0-(2+13.0))) | x 109.0 11.0 2 13.0 + - - = | x:money 109.0:money 11.0:money 2:money 13.0:money +:money -:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 74 | 135 | ((x-13.0)-(109.0+2))=11.0 | x 13.0 - 109.0 2 + - 11.0 = | x:money 13.0:money -:money 109.0:money 2:money +:money -:money 11.0:money =:money
-EXPR: 0 | POS | INT | 17 | 74 | 87 | ((109.0-11.0)-(x-2))=13.0 | 109.0 11.0 - x 2 - - 13.0 = | 109.0:money 11.0:money -:money x:money 2:money -:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 17 | 74 | 131 | ((x-109.0)-(11.0-2))=13.0 | x 109.0 - 11.0 2 - - 13.0 = | x:money 109.0:money -:money 11.0:money 2:money -:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 18 | 74 | 606 | x=((13.0+(109.0*11.0))/2) | x 13.0 109.0 11.0 * + 2 / = | x:money 13.0:money 109.0:money 11.0:shirt *:money +:money 2:shirt /:money =:money
-EXPR: 0 | POS | INT | 20 | 74 | 1380 | (((109.0-2)*13.0)-11.0)=x | 109.0 2 - 13.0 * 11.0 - x = | 109.0:money 2:money -:money 13.0:shirt *:money 11.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 20 | 74 | 1078 | (((109.0+2)-13.0)*11.0)=x | 109.0 2 + 13.0 - 11.0 * x = | 109.0:money 2:money +:money 13.0:money -:money 11.0:shirt *:money x:money =:money
-EXPR: 0 | POS | INT | 20 | 74 | 1034 | (((109.0-2)-13.0)*11.0)=x | 109.0 2 - 13.0 - 11.0 * x = | 109.0:money 2:money -:money 13.0:money -:money 11.0:shirt *:money x:money =:money
-EXPR: 0 | POS | INT | 20 | 74 | 109 | (((2+11.0)-109.0)+x)=13.0 | 2 11.0 + 109.0 - x + 13.0 = | 2:money 11.0:money +:money 109.0:money -:money x:money +:money 13.0:money =:money
-EXPR: 0 | POS | INT | 20 | 74 | 1364 | x=((109.0+(2+13.0))*11.0) | x 109.0 2 13.0 + + 11.0 * = | x:money 109.0:shirt 2:shirt 13.0:shirt +:shirt +:shirt 11.0:money *:money =:money
-EXPR: 0 | POS | INT | 20 | 74 | 1034 | x=((109.0-(2+13.0))*11.0) | x 109.0 2 13.0 + - 11.0 * = | x:money 109.0:shirt 2:shirt 13.0:shirt +:shirt -:shirt 11.0:money *:money =:money
-EXPR: 0 | POS | INT | 22 | 74 | 124 | (109.0+((2*13.0)-x))=11.0 | 109.0 2 13.0 * x - + 11.0 = | 109.0:money 2:money 13.0:shirt *:money x:money -:money +:money 11.0:money =:money
-EXPR: 0 | POS | INT | 22 | 74 | 0 | ((x*109.0)-(2-13.0))=11.0 | x 109.0 * 2 13.0 - - 11.0 = | x:shirt 109.0:money *:money 2:money 13.0:money -:money -:money 11.0:money =:money
-EXPR: 0 | POS | INT | 22 | 74 | 18421 | x=((109.0*13.0)*(2+11.0)) | x 109.0 13.0 * 2 11.0 + * = | x:money 109.0:money 13.0:shirt *:money 2:shirt 11.0:shirt +:shirt *:money =:money
-EXPR: 0 | POS | INT | 23 | 74 | 135 | ((x-13.0)-(2+11.0))=109.0 | x 13.0 - 2 11.0 + - 109.0 = | x:money 13.0:money -:money 2:money 11.0:money +:money -:money 109.0:money =:money
-EXPR: 0 | POS | INT | 24 | 74 | 1408 | (2+((109.0*13.0)-x))=11.0 | 2 109.0 13.0 * x - + 11.0 = | 2:money 109.0:money 13.0:shirt *:money x:money -:money +:money 11.0:money =:money
-EXPR: 0 | POS | INT | 24 | 74 | 108 | ((11.0/(2-13.0))+109.0)=x | 11.0 2 13.0 - / 109.0 + x = | 11.0:money 2:shirt 13.0:shirt -:shirt /:money 109.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 25 | 74 | 250 | ((109.0+(13.0*11.0))-2)=x | 109.0 13.0 11.0 * + 2 - x = | 109.0:money 13.0:money 11.0:shirt *:money +:money 2:money -:money x:money =:money
-EXPR: 0 | POS | INT | 25 | 74 | 2541 | ((13.0+(109.0*2))*11.0)=x | 13.0 109.0 2 * + 11.0 * x = | 13.0:shirt 109.0:money 2:shirt *:shirt +:shirt 11.0:money *:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 25 | 74 | 1188 | ((109.0*11.0)+(2-13.0))=x | 109.0 11.0 * 2 13.0 - + x = | 109.0:money 11.0:shirt *:money 2:money 13.0:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 26 | 74 | 105 | ((11.0-x)-(13.0-109.0))=2 | 11.0 x - 13.0 109.0 - - 2 = | 11.0:money x:money -:money 13.0:money 109.0:money -:money -:money 2:money =:money
-EXPR: 0 | POS | INT | 27 | 74 | zoo | (109.0/(11.0-(13.0-2)))=x | 109.0 11.0 13.0 2 - - / x = | 109.0:money 11.0:shirt 13.0:shirt 2:shirt -:shirt -:shirt /:money x:money =:money
-EXPR: 0 | POS | INT | 27 | 74 | 1184 | ((109.0*11.0)-(x+2))=13.0 | 109.0 11.0 * x 2 + - 13.0 = | 109.0:shirt 11.0:money *:money x:money 2:money +:money -:money 13.0:money =:money
-EXPR: 0 | POS | INT | 29 | 74 | 36 | ((2+(13.0*11.0))-109.0)=x | 2 13.0 11.0 * + 109.0 - x = | 2:money 13.0:money 11.0:shirt *:money +:money 109.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 29 | 74 | 0 | ((x*109.0)-(11.0-13.0))=2 | x 109.0 * 11.0 13.0 - - 2 = | x:money 109.0:shirt *:money 11.0:money 13.0:money -:money -:money 2:money =:money
-EXPR: 0 | POS | INT | 29 | 74 | 436 | ((x/109.0)+(11.0-13.0))=2 | x 109.0 / 11.0 13.0 - + 2 = | x:money 109.0:shirt /:money 11.0:money 13.0:money -:money +:money 2:money =:money
-EXPR: 0 | POS | INT | 29 | 74 | 254 | x=(2+((13.0*11.0)+109.0)) | x 2 13.0 11.0 * 109.0 + + = | x:money 2:money 13.0:shirt 11.0:money *:money 109.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 29 | 74 | 1184 | (((109.0*11.0)-13.0)-x)=2 | 109.0 11.0 * 13.0 - x - 2 = | 109.0:money 11.0:shirt *:money 13.0:money -:money x:money -:money 2:money =:money
-EXPR: 0 | POS | INT | 30 | 74 | 108 | (109.0+((2-13.0)/11.0))=x | 109.0 2 13.0 - 11.0 / + x = | 109.0:shirt 2:shirt 13.0:shirt -:shirt 11.0:money /:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 30 | 74 | 1308 | x=((109.0/2)*(13.0+11.0)) | x 109.0 2 / 13.0 11.0 + * = | x:shirt 109.0:shirt 2:money /:shirt 13.0:money 11.0:money +:money *:shirt =:shirt
-EXPR: 0 | POS | INT | 31 | 74 | 0 | (((13.0-2)-11.0)*109.0)=x | 13.0 2 - 11.0 - 109.0 * x = | 13.0:money 2:money -:money 11.0:money -:money 109.0:shirt *:money x:money =:money
-EXPR: 0 | POS | INT | 31 | 74 | 0 | (((13.0-2)-11.0)/109.0)=x | 13.0 2 - 11.0 - 109.0 / x = | 13.0:money 2:money -:money 11.0:money -:money 109.0:shirt /:money x:money =:money
-EXPR: 0 | POS | INT | 32 | 74 | 1131 | x=((109.0-(2*11.0))*13.0) | x 109.0 2 11.0 * - 13.0 * = | x:money 109.0:shirt 2:money 11.0:shirt *:shirt -:shirt 13.0:money *:money =:money
-EXPR: 0 | POS | INT | 32 | 74 | 36 | ((13.0*11.0)-(109.0-2))=x | 13.0 11.0 * 109.0 2 - - x = | 13.0:shirt 11.0:money *:money 109.0:money 2:money -:money -:money x:money =:money
-EXPR: 0 | POS | INT | 34 | 74 | 274 | ((11.0*(2+13.0))+109.0)=x | 11.0 2 13.0 + * 109.0 + x = | 11.0:shirt 2:money 13.0:money +:money *:money 109.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 34 | 74 | 1214 | x=(2+((109.0*11.0)+13.0)) | x 2 109.0 11.0 * 13.0 + + = | x:shirt 2:shirt 109.0:money 11.0:shirt *:shirt 13.0:shirt +:shirt +:shirt =:shirt
-EXPR: 0 | POS | INT | 34 | 74 | 17 | ((109.0+(x*2))/11.0)=13.0 | 109.0 x 2 * + 11.0 / 13.0 = | 109.0:money x:shirt 2:money *:money +:money 11.0:shirt /:money 13.0:money =:money
-EXPR: 0 | POS | INT | 35 | 74 | 2614 | x=((109.0*(13.0+11.0))-2) | x 109.0 13.0 11.0 + * 2 - = | x:money 109.0:money 13.0:shirt 11.0:shirt +:shirt *:money 2:money -:money =:money
-EXPR: 0 | POS | INT | 37 | 74 | 2614 | ((109.0*(13.0+11.0))-x)=2 | 109.0 13.0 11.0 + * x - 2 = | 109.0:money 13.0:shirt 11.0:shirt +:shirt *:money x:money -:money 2:money =:money
-EXPR: 0 | POS | INT | 40 | 74 | 105 | ((109.0-(2+13.0))+11.0)=x | 109.0 2 13.0 + - 11.0 + x = | 109.0:shirt 2:shirt 13.0:shirt +:shirt -:shirt 11.0:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 109 | x=((109.0+(2-13.0))+11.0) | x 109.0 2 13.0 - + 11.0 + = | x:shirt 109.0:shirt 2:shirt 13.0:shirt -:shirt +:shirt 11.0:shirt +:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 113 | x=((109.0+(2+13.0))-11.0) | x 109.0 2 13.0 + + 11.0 - = | x:shirt 109.0:shirt 2:shirt 13.0:shirt +:shirt +:shirt 11.0:shirt -:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 109 | ((109.0+(2-13.0))+11.0)=x | 109.0 2 13.0 - + 11.0 + x = | 109.0:shirt 2:shirt 13.0:shirt -:shirt +:shirt 11.0:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 83 | x=((109.0-(2+13.0))-11.0) | x 109.0 2 13.0 + - 11.0 - = | x:shirt 109.0:shirt 2:shirt 13.0:shirt +:shirt -:shirt 11.0:shirt -:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 105 | x=((109.0-2)-(13.0-11.0)) | x 109.0 2 - 13.0 11.0 - - = | x:shirt 109.0:shirt 2:shirt -:shirt 13.0:shirt 11.0:shirt -:shirt -:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 109 | (109.0+(2-(13.0-11.0)))=x | 109.0 2 13.0 11.0 - - + x = | 109.0:shirt 2:shirt 13.0:shirt 11.0:shirt -:shirt -:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 131 | ((109.0-(2-13.0))+11.0)=x | 109.0 2 13.0 - - 11.0 + x = | 109.0:shirt 2:shirt 13.0:shirt -:shirt -:shirt 11.0:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 113 | x=((109.0+2)+(13.0-11.0)) | x 109.0 2 + 13.0 11.0 - + = | x:shirt 109.0:shirt 2:shirt +:shirt 13.0:shirt 11.0:shirt -:shirt +:shirt =:shirt
-EXPR: 0 | POS | INT | 40 | 74 | 109 | x=((109.0+2)-(13.0-11.0)) | x 109.0 2 + 13.0 11.0 - - = | x:shirt 109.0:shirt 2:shirt +:shirt 13.0:shirt 11.0:shirt -:shirt -:shirt =:shirt
-EXPR: 0 | POS | INT | 41 | 74 | 1208 | ((11.0*(109.0+2))-x)=13.0 | 11.0 109.0 2 + * x - 13.0 = | 11.0:money 109.0:shirt 2:shirt +:shirt *:shirt x:shirt -:shirt 13.0:shirt =:shirt
-EXPR: 0 | POS | INT | 42 | 74 | 113 | (109.0+(2-(11.0-13.0)))=x | 109.0 2 11.0 13.0 - - + x = | 109.0:shirt 2:shirt 11.0:shirt 13.0:shirt -:shirt -:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 42 | 74 | 109 | (2+(109.0-(13.0-11.0)))=x | 2 109.0 13.0 11.0 - - + x = | 2:shirt 109.0:shirt 13.0:shirt 11.0:shirt -:shirt -:shirt +:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 46 | 74 | 94 | ((x-11.0)+(2*13.0))=109.0 | x 11.0 - 2 13.0 * + 109.0 = | x:shirt 11.0:shirt -:shirt 2:shirt 13.0:money *:shirt +:shirt 109.0:shirt =:shirt
-EXPR: 0 | POS | INT | 47 | 74 | 1248 | 13.0=(109.0-(x/(2+11.0))) | 13.0 109.0 x 2 11.0 + / - = | 13.0:shirt 109.0:shirt x:shirt 2:money 11.0:money +:money /:shirt -:shirt =:shirt
-EXPR: 0 | POS | INT | 48 | 74 | 105 | (x-((11.0-13.0)*2))=109.0 | x 11.0 13.0 - 2 * - 109.0 = | x:money 11.0:shirt 13.0:shirt -:shirt 2:money *:money -:money 109.0:money =:money
-EXPR: 0 | POS | INT | 51 | 74 | 3815 | (((2*11.0)+13.0)*109.0)=x | 2 11.0 * 13.0 + 109.0 * x = | 2:money 11.0:shirt *:money 13.0:money +:money 109.0:shirt *:shirt x:shirt =:shirt
-EXPR: 0 | POS | INT | 53 | 74 | 1408 | ((x+11.0)-2)=(109.0*13.0) | x 11.0 + 2 - 109.0 13.0 * = | x:shirt 11.0:shirt +:shirt 2:shirt -:shirt 109.0:shirt 13.0:money *:shirt =:shirt
-EXPR: 0 | POS | INT | 53 | 74 | 113 | (((11.0-2)+x)-109.0)=13.0 | 11.0 2 - x + 109.0 - 13.0 = | 11.0:shirt 2:shirt -:shirt x:shirt +:shirt 109.0:shirt -:shirt 13.0:shirt =:shirt
-NET 135 unique, non-negative, integer-valued solutions found out of 489 total solutions
+EXPR: 0 | POS | INT | 10 | 33.3333 | 28000 | x=(12000+16000) | x 12000 16000 + = | x:dollar 12000:dollar 16000:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 33.3333 | 192000000 | x=(12000*16000) | x 12000 16000 * = | x:UNKNOWN 12000:dollar 16000:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 33.3333 | 192000000 | (12000*16000)=x | 12000 16000 * x = | 12000:dollar 16000:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 33.3333 | 28000 | (12000+16000)=x | 12000 16000 + x = | 12000:dollar 16000:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 4000 | 12000=(16000-x) | 12000 16000 x - = | 12000:dollar 16000:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 192000000 | (x/12000)=16000 | x 12000 / 16000 = | x:UNKNOWN 12000:dollar /:UNKNOWN 16000:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 33.3333 | 28000 | (x-12000)=16000 | x 12000 - 16000 = | x:dollar 12000:dollar -:dollar 16000:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 28000 | 12000=(x-16000) | 12000 x 16000 - = | 12000:dollar x:dollar 16000:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 4000 | (16000-12000)=x | 16000 12000 - x = | 16000:dollar 12000:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 4000 | x=(16000-12000) | x 16000 12000 - = | x:dollar 16000:dollar 12000:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 4000 | (x+12000)=16000 | x 12000 + 16000 = | x:dollar 12000:dollar +:dollar 16000:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 33.3333 | 192000000 | 12000=(x/16000) | 12000 x 16000 / = | 12000:UNKNOWN x:UNKNOWN 16000:dollar /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 33.3333 | 4000 | (12000+x)=16000 | 12000 x + 16000 = | 12000:dollar x:dollar +:dollar 16000:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 33.3333 | 4000 | (16000-x)=12000 | 16000 x - 12000 = | 16000:dollar x:dollar -:dollar 12000:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 33.3333 | 28000 | (x-16000)=12000 | x 16000 - 12000 = | x:dollar 16000:dollar -:dollar 12000:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 33.3333 | 192000000 | 16000=(x/12000) | 16000 x 12000 / = | 16000:UNKNOWN x:UNKNOWN 12000:dollar /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 33.3333 | 192000000 | (x/16000)=12000 | x 16000 / 12000 = | x:UNKNOWN 16000:dollar /:UNKNOWN 12000:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 33.3333 | 4000 | 16000=(12000+x) | 16000 12000 x + = | 16000:dollar 12000:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 33.3333 | 28000 | 16000=(x-12000) | 16000 x 12000 - = | 16000:dollar x:dollar 12000:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 33.3333 | 4000 | 16000=(x+12000) | 16000 x 12000 + = | 16000:dollar x:dollar 12000:dollar +:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

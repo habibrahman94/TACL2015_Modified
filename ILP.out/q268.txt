@@ -1,5 +1,5 @@
-quantities : 20 2 1 6 x
-types : "carton" "carton" "dollar" "dollar" "dollar"
+quantities : 24 x 18
+types : "student" "UNKNOWN" "student"
 operators : + - * / =
-n : 9
-answer : 118.0
+n : 5
+answer : 25.0

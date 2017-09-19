@@ -1,5 +1,5 @@
-quantities : 7.0 12.0 4.0 6.0 13.0 x
-types : "money" "money" "money" "money" "money" "money"
+quantities : 50 0.6 x
+types : "question" "test" "question"
 operators : + - * / =
-n : 11
-answer : 4.0
+n : 5
+answer : 30.0

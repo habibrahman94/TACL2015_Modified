@@ -1,5 +1,5 @@
-quantities : 54 15 25 x
-types : "cupcake" "cupcake" "vanilla" "cupcake"
+quantities : 20 15 x
+types : "student" "student" "UNKNOWN"
 operators : + - * / =
-n : 7
-answer : 14.0
+n : 5
+answer : 25.0

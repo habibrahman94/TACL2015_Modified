@@ -1,5 +1,5 @@
-quantities : 6 6 8 18 x
-types : "van" "people" "bus" "people" "people"
+quantities : 5 8 x
+types : "ounce" "ounce" "UNKNOWN"
 operators : + - * / =
-n : 9
-answer : 180.0
+n : 5
+answer : 60.0

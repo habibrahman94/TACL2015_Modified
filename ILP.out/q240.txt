@@ -1,5 +1,5 @@
-quantities : 20,817 97,741 x
-types : "house" "house" "house"
+quantities : 283,560 0.55 x
+types : "song" "customers" "song"
 operators : + - * / =
 n : 5
-answer : 118558.0
+answer : 439518.0

@@ -1,18 +1,32 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 67082 | 67082 | (12170+54912)=x | 12170 54912 + x = | 12170:ladybug 54912:ladybug +:ladybug x:ladybug =:ladybug
-EXPR: 1 | POS | INT | 0 | 67082 | 67082 | x=(12170+54912) | x 12170 54912 + = | x:ladybug 12170:ladybug 54912:ladybug +:ladybug =:ladybug
-EXPR: 1 | POS | INT | 2 | 67082 | 67082 | (x-12170)=54912 | x 12170 - 54912 = | x:ladybug 12170:ladybug -:ladybug 54912:ladybug =:ladybug
-EXPR: 0 | POS | INT | 2 | 67082 | 42742 | 12170=(54912-x) | 12170 54912 x - = | 12170:ladybug 54912:ladybug x:ladybug -:ladybug =:ladybug
-EXPR: 0 | POS | INT | 2 | 67082 | 42742 | x=(54912-12170) | x 54912 12170 - = | x:ladybug 54912:ladybug 12170:ladybug -:ladybug =:ladybug
-EXPR: 0 | POS | INT | 2 | 67082 | 42742 | (12170+x)=54912 | 12170 x + 54912 = | 12170:ladybug x:ladybug +:ladybug 54912:ladybug =:ladybug
-EXPR: 0 | POS | INT | 2 | 67082 | 42742 | (x+12170)=54912 | x 12170 + 54912 = | x:ladybug 12170:ladybug +:ladybug 54912:ladybug =:ladybug
-EXPR: 1 | POS | INT | 2 | 67082 | 67082 | 12170=(x-54912) | 12170 x 54912 - = | 12170:ladybug x:ladybug 54912:ladybug -:ladybug =:ladybug
-EXPR: 0 | POS | INT | 2 | 67082 | 42742 | (54912-12170)=x | 54912 12170 - x = | 54912:ladybug 12170:ladybug -:ladybug x:ladybug =:ladybug
-EXPR: 0 | POS | INT | 4 | 67082 | 42742 | (54912-x)=12170 | 54912 x - 12170 = | 54912:ladybug x:ladybug -:ladybug 12170:ladybug =:ladybug
-EXPR: 1 | POS | INT | 4 | 67082 | 67082 | 54912=(x-12170) | 54912 x 12170 - = | 54912:ladybug x:ladybug 12170:ladybug -:ladybug =:ladybug
-EXPR: 1 | POS | INT | 4 | 67082 | 67082 | (x-54912)=12170 | x 54912 - 12170 = | x:ladybug 54912:ladybug -:ladybug 12170:ladybug =:ladybug
-EXPR: 0 | POS | INT | 4 | 67082 | 42742 | 54912=(x+12170) | 54912 x 12170 + = | 54912:ladybug x:ladybug 12170:ladybug +:ladybug =:ladybug
-EXPR: 0 | POS | INT | 4 | 67082 | 42742 | 54912=(12170+x) | 54912 12170 x + = | 54912:ladybug 12170:ladybug x:ladybug +:ladybug =:ladybug
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | INT | 2 | 75 | 4 | 16=(x*4) | 16 x 4 * = | 16:minute x:provider 4:minute *:minute =:minute
+EXPR: 0 | POS | INT | 2 | 75 | 4 | 16=(4*x) | 16 4 x * = | 16:minute 4:minute x:provider *:minute =:minute
+EXPR: 0 | POS | INT | 2 | 75 | 4 | (16/x)=4 | 16 x / 4 = | 16:minute x:provider /:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 4 | 75 | 4 | (x*4)=16 | x 4 * 16 = | x:provider 4:minute *:minute 16:minute =:minute
+EXPR: 0 | POS | INT | 4 | 75 | 4 | (4*x)=16 | 4 x * 16 = | 4:minute x:provider *:minute 16:minute =:minute
+EXPR: 0 | POS | INT | 4 | 75 | 4 | 4=(16/x) | 4 16 x / = | 4:minute 16:minute x:provider /:minute =:minute
+EXPR: 0 | POS | INT | 10 | 75 | 20 | x=(16+4) | x 16 4 + = | x:minute 16:minute 4:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 75 | 64 | x=(16*4) | x 16 4 * = | x:provider 16:minute 4:provider *:provider =:provider
+EXPR: 0 | POS | INT | 10 | 75 | 12 | (16-4)=x | 16 4 - x = | 16:minute 4:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 75 | 64 | (16*4)=x | 16 4 * x = | 16:minute 4:provider *:provider x:provider =:provider
+EXPR: 0 | POS | INT | 10 | 75 | 12 | x=(16-4) | x 16 4 - = | x:minute 16:minute 4:minute -:minute =:minute
+EXPR: 0 | POS | INT | 10 | 75 | 4 | x=(16/4) | x 16 4 / = | x:provider 16:provider 4:minute /:provider =:provider
+EXPR: 0 | POS | INT | 10 | 75 | 20 | (16+4)=x | 16 4 + x = | 16:minute 4:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 75 | 4 | (16/4)=x | 16 4 / x = | 16:provider 4:minute /:provider x:provider =:provider
+EXPR: 0 | POS | INT | 12 | 75 | 12 | (16-x)=4 | 16 x - 4 = | 16:minute x:minute -:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 12 | 75 | 12 | 16=(4+x) | 16 4 x + = | 16:minute 4:minute x:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 75 | 64 | (x/16)=4 | x 16 / 4 = | x:provider 16:minute /:provider 4:provider =:provider
+EXPR: 0 | POS | INT | 12 | 75 | 20 | (x-16)=4 | x 16 - 4 = | x:minute 16:minute -:minute 4:minute =:minute
+EXPR: 0 | POS | INT | 12 | 75 | 20 | 16=(x-4) | 16 x 4 - = | 16:minute x:minute 4:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 75 | 12 | 16=(x+4) | 16 x 4 + = | 16:minute x:minute 4:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 75 | 64 | 16=(x/4) | 16 x 4 / = | 16:provider x:provider 4:minute /:provider =:provider
+EXPR: 0 | POS | INT | 14 | 75 | 20 | (x-4)=16 | x 4 - 16 = | x:minute 4:minute -:minute 16:minute =:minute
+EXPR: 0 | POS | INT | 14 | 75 | 64 | 4=(x/16) | 4 x 16 / = | 4:provider x:provider 16:minute /:provider =:provider
+EXPR: 0 | POS | INT | 14 | 75 | 12 | (x+4)=16 | x 4 + 16 = | x:minute 4:minute +:minute 16:minute =:minute
+EXPR: 0 | POS | INT | 14 | 75 | 64 | (x/4)=16 | x 4 / 16 = | x:provider 4:minute /:provider 16:provider =:provider
+EXPR: 0 | POS | INT | 14 | 75 | 12 | 4=(16-x) | 4 16 x - = | 4:minute 16:minute x:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 75 | 12 | (4+x)=16 | 4 x + 16 = | 4:minute x:minute +:minute 16:minute =:minute
+EXPR: 0 | POS | INT | 14 | 75 | 20 | 4=(x-16) | 4 x 16 - = | 4:minute x:minute 16:minute -:minute =:minute
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

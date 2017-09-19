@@ -1,5 +1,5 @@
-quantities : 2,479 6,085 x
-types : "pound" "pound" "pound"
+quantities : 2 3 x
+types : "apple" "apple" "UNKNOWN"
 operators : + - * / =
 n : 5
-answer : 8564.0
+answer : 50.0

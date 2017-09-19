@@ -1,5 +1,5 @@
-quantities : 14,797 4,969 x
-types : "suit" "suit" "bathing"
+quantities : 280 196 x
+types : "dollar" "dollar" "company"
 operators : + - * / =
 n : 5
-answer : 19766.0
+answer : 30.0

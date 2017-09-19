@@ -1,18 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 574 | 3426 | (1426+2000)=x | 1426 2000 + x = | 1426:house 2000:house +:house x:house =:house
-EXPR: 0 | POS | INT | 0 | 574 | 3426 | x=(1426+2000) | x 1426 2000 + = | x:house 1426:house 2000:house +:house =:house
-EXPR: 0 | POS | INT | 2 | 574 | 3426 | (x-1426)=2000 | x 1426 - 2000 = | x:house 1426:house -:house 2000:house =:house
-EXPR: 1 | POS | INT | 2 | 574 | 574 | 1426=(2000-x) | 1426 2000 x - = | 1426:house 2000:house x:house -:house =:house
-EXPR: 1 | POS | INT | 2 | 574 | 574 | x=(2000-1426) | x 2000 1426 - = | x:house 2000:house 1426:house -:house =:house
-EXPR: 1 | POS | INT | 2 | 574 | 574 | (1426+x)=2000 | 1426 x + 2000 = | 1426:house x:house +:house 2000:house =:house
-EXPR: 1 | POS | INT | 2 | 574 | 574 | (x+1426)=2000 | x 1426 + 2000 = | x:house 1426:house +:house 2000:house =:house
-EXPR: 0 | POS | INT | 2 | 574 | 3426 | 1426=(x-2000) | 1426 x 2000 - = | 1426:house x:house 2000:house -:house =:house
-EXPR: 1 | POS | INT | 2 | 574 | 574 | (2000-1426)=x | 2000 1426 - x = | 2000:house 1426:house -:house x:house =:house
-EXPR: 1 | POS | INT | 4 | 574 | 574 | (2000-x)=1426 | 2000 x - 1426 = | 2000:house x:house -:house 1426:house =:house
-EXPR: 0 | POS | INT | 4 | 574 | 3426 | 2000=(x-1426) | 2000 x 1426 - = | 2000:house x:house 1426:house -:house =:house
-EXPR: 0 | POS | INT | 4 | 574 | 3426 | (x-2000)=1426 | x 2000 - 1426 = | x:house 2000:house -:house 1426:house =:house
-EXPR: 1 | POS | INT | 4 | 574 | 574 | 2000=(x+1426) | 2000 x 1426 + = | 2000:house x:house 1426:house +:house =:house
-EXPR: 1 | POS | INT | 4 | 574 | 574 | 2000=(1426+x) | 2000 1426 x + = | 2000:house 1426:house x:house +:house =:house
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | INT | 10 | 231 | 81 | (150*0.54)=x | 150 0.54 * x = | 150:student 0.54:size *:size x:size =:size
+EXPR: 0 | POS | FRA | 10 | 231 | 277.777777777778 | (150/0.54)=x | 150 0.54 / x = | 150:size 0.54:time /:size x:size =:size
+EXPR: 0 | POS | INT | 10 | 231 | 81 | x=(150*0.54) | x 150 0.54 * = | x:student 150:student 0.54:time *:student =:student
+EXPR: 0 | POS | FRA | 10 | 231 | 277.777777777778 | x=(150/0.54) | x 150 0.54 / = | x:size 150:size 0.54:time /:size =:size
+EXPR: 0 | POS | FRA | 12 | 231 | 0.0036 | (150*x)=0.54 | 150 x * 0.54 = | 150:student x:time *:time 0.54:time =:time
+EXPR: 0 | POS | FRA | 12 | 231 | 0.0036 | x=(0.54/150) | x 0.54 150 / = | x:time 0.54:time 150:student /:time =:time
+EXPR: 0 | POS | FRA | 12 | 231 | 0.0036 | 150=(0.54/x) | 150 0.54 x / = | 150:time 0.54:time x:size /:time =:time
+EXPR: 0 | POS | FRA | 12 | 231 | 277.777777777778 | 150=(0.54*x) | 150 0.54 x * = | 150:size 0.54:time x:size *:size =:size
+EXPR: 0 | POS | FRA | 12 | 231 | 277.777777777778 | (150/x)=0.54 | 150 x / 0.54 = | 150:time x:size /:time 0.54:time =:time
+EXPR: 0 | POS | FRA | 12 | 231 | 277.777777777778 | 150=(x*0.54) | 150 x 0.54 * = | 150:size x:size 0.54:time *:size =:size
+EXPR: 0 | POS | INT | 12 | 231 | 81 | 150=(x/0.54) | 150 x 0.54 / = | 150:size x:size 0.54:time /:size =:size
+EXPR: 0 | POS | FRA | 12 | 231 | 0.0036 | (x*150)=0.54 | x 150 * 0.54 = | x:size 150:time *:time 0.54:time =:time
+EXPR: 0 | POS | INT | 12 | 231 | 81 | (x/150)=0.54 | x 150 / 0.54 = | x:size 150:student /:size 0.54:size =:size
+EXPR: 0 | POS | FRA | 12 | 231 | 0.0036 | (0.54/150)=x | 0.54 150 / x = | 0.54:size 150:student /:size x:size =:size
+EXPR: 0 | POS | FRA | 14 | 231 | 0.0036 | (0.54/x)=150 | 0.54 x / 150 = | 0.54:student x:size /:student 150:student =:student
+EXPR: 0 | POS | FRA | 14 | 231 | 277.777777777778 | (0.54*x)=150 | 0.54 x * 150 = | 0.54:student x:size *:student 150:student =:student
+EXPR: 0 | POS | INT | 14 | 231 | 81 | (x/0.54)=150 | x 0.54 / 150 = | x:student 0.54:time /:student 150:student =:student
+EXPR: 0 | POS | FRA | 14 | 231 | 277.777777777778 | (x*0.54)=150 | x 0.54 * 150 = | x:student 0.54:time *:student 150:student =:student
+EXPR: 0 | POS | FRA | 14 | 231 | 0.0036 | 0.54=(150*x) | 0.54 150 x * = | 0.54:time 150:student x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 231 | 0.0036 | 0.54=(x*150) | 0.54 x 150 * = | 0.54:time x:size 150:time *:time =:time
+EXPR: 0 | POS | INT | 14 | 231 | 81 | 0.54=(x/150) | 0.54 x 150 / = | 0.54:size x:size 150:student /:size =:size
+EXPR: 0 | POS | FRA | 14 | 231 | 277.777777777778 | 0.54=(150/x) | 0.54 150 x / = | 0.54:student 150:student x:size /:student =:student
+EXPR: 0 | POS | FRA | 20 | 231 | 150.54 | x=(150+0.54) | x 150 0.54 + = | x:student 150:student 0.54:student +:student =:student
+EXPR: 0 | POS | FRA | 20 | 231 | 149.46 | x=(150-0.54) | x 150 0.54 - = | x:size 150:size 0.54:size -:size =:size
+EXPR: 0 | POS | FRA | 20 | 231 | 150.54 | (150+0.54)=x | 150 0.54 + x = | 150:student 0.54:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 20 | 231 | 149.46 | (150-0.54)=x | 150 0.54 - x = | 150:size 0.54:size -:size x:size =:size
+EXPR: 0 | POS | FRA | 22 | 231 | 150.54 | 150=(x-0.54) | 150 x 0.54 - = | 150:student x:student 0.54:student -:student =:student
+EXPR: 0 | POS | FRA | 22 | 231 | 149.46 | 150=(x+0.54) | 150 x 0.54 + = | 150:student x:student 0.54:student +:student =:student
+EXPR: 0 | POS | FRA | 22 | 231 | 150.54 | (x-150)=0.54 | x 150 - 0.54 = | x:time 150:time -:time 0.54:time =:time
+EXPR: 0 | POS | FRA | 22 | 231 | 149.46 | (150-x)=0.54 | 150 x - 0.54 = | 150:student x:student -:student 0.54:student =:student
+EXPR: 0 | POS | FRA | 22 | 231 | 149.46 | 150=(0.54+x) | 150 0.54 x + = | 150:size 0.54:size x:size +:size =:size
+EXPR: 0 | POS | FRA | 24 | 231 | 149.46 | (0.54+x)=150 | 0.54 x + 150 = | 0.54:size x:size +:size 150:size =:size
+EXPR: 0 | POS | FRA | 24 | 231 | 150.54 | (x-0.54)=150 | x 0.54 - 150 = | x:student 0.54:student -:student 150:student =:student
+EXPR: 0 | POS | FRA | 24 | 231 | 149.46 | (x+0.54)=150 | x 0.54 + 150 = | x:size 0.54:size +:size 150:size =:size
+EXPR: 0 | POS | FRA | 24 | 231 | 149.46 | 0.54=(150-x) | 0.54 150 x - = | 0.54:student 150:student x:student -:student =:student
+EXPR: 0 | POS | FRA | 24 | 231 | 150.54 | 0.54=(x-150) | 0.54 x 150 - = | 0.54:student x:student 150:student -:student =:student
+NET 36 unique, non-negative solutions found out of 324 total solutions

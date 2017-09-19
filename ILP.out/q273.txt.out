@@ -1,59 +1,40 @@
-parameters: n=9 l=4 k=1 p=5 q=3 m=10
-TOTAL 163 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 90 | 960 | x=(24*((14*3)-2)) | x 24 14 3 * 2 - * = | x:wheel 24:bicycle 14:tricycle 3:wheel *:wheel 2:wheel -:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 0 | 90 | 1056 | x=(24*((14*3)+2)) | x 24 14 3 * 2 + * = | x:wheel 24:bicycle 14:tricycle 3:wheel *:wheel 2:wheel +:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 2 | 90 | 600 | x=(24*((14*2)-3)) | x 24 14 2 * 3 - * = | x:wheel 24:bicycle 14:tricycle 2:wheel *:wheel 3:wheel -:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 2 | 90 | 744 | x=(24*((14*2)+3)) | x 24 14 2 * 3 + * = | x:wheel 24:bicycle 14:tricycle 2:wheel *:wheel 3:wheel +:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 132 | ((24+(14*3))*2)=x | 24 14 3 * + 2 * x = | 24:bicycle 14:tricycle 3:bicycle *:bicycle +:bicycle 2:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 266 | ((24*(14-3))+2)=x | 24 14 3 - * 2 + x = | 24:bicycle 14:wheel 3:wheel -:wheel *:wheel 2:wheel +:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 38 | x=((24+14)*(3-2)) | x 24 14 + 3 2 - * = | x:wheel 24:tricycle 14:tricycle +:tricycle 3:wheel 2:wheel -:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 335 | x=(((24*14)-3)+2) | x 24 14 * 3 - 2 + = | x:wheel 24:wheel 14:tricycle *:wheel 3:wheel -:wheel 2:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 190 | x=((24+14)*(3+2)) | x 24 14 + 3 2 + * = | x:wheel 24:tricycle 14:tricycle +:tricycle 3:wheel 2:wheel +:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 68 | x=(24+((14*3)+2)) | x 24 14 3 * 2 + + = | x:wheel 24:wheel 14:tricycle 3:wheel *:wheel 2:wheel +:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 64 | x=(24+((14*3)-2)) | x 24 14 3 * 2 - + = | x:wheel 24:wheel 14:tricycle 3:wheel *:wheel 2:wheel -:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 32 | x=(((24-14)*3)+2) | x 24 14 - 3 * 2 + = | x:wheel 24:bicycle 14:bicycle -:bicycle 3:wheel *:wheel 2:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 28 | x=(((24-14)*3)-2) | x 24 14 - 3 * 2 - = | x:wheel 24:bicycle 14:bicycle -:bicycle 3:wheel *:wheel 2:wheel -:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 960 | (24*((14*3)-2))=x | 24 14 3 * 2 - * x = | 24:bicycle 14:bicycle 3:wheel *:wheel 2:wheel -:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 1056 | (24*((14*3)+2))=x | 24 14 3 * 2 + * x = | 24:bicycle 14:bicycle 3:wheel *:wheel 2:wheel +:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 336 | x=((24*14)*(3-2)) | x 24 14 * 3 2 - * = | x:wheel 24:wheel 14:tricycle *:tricycle 3:wheel 2:wheel -:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 10 | 90 | 1680 | x=((24*14)*(3+2)) | x 24 14 * 3 2 + * = | x:wheel 24:wheel 14:tricycle *:tricycle 3:wheel 2:wheel +:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 12 | 90 | 56 | ((24*3)-(14+2))=x | 24 3 * 14 2 + - x = | 24:bicycle 3:wheel *:wheel 14:wheel 2:wheel +:wheel -:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 12 | 90 | 55 | x=(24+((14*2)+3)) | x 24 14 2 * 3 + + = | x:wheel 24:wheel 14:tricycle 2:wheel *:wheel 3:wheel +:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 12 | 90 | 23 | x=(((24-14)*2)+3) | x 24 14 - 2 * 3 + = | x:wheel 24:bicycle 14:bicycle -:bicycle 2:wheel *:wheel 3:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 12 | 90 | 17 | x=(((24-14)*2)-3) | x 24 14 - 2 * 3 - = | x:wheel 24:bicycle 14:bicycle -:bicycle 2:wheel *:wheel 3:wheel -:wheel =:wheel
-EXPR: 0 | POS | INT | 18 | 90 | 100 | ((14*2)+(24*3))=x | 14 2 * 24 3 * + x = | 14:tricycle 2:wheel *:wheel 24:tricycle 3:wheel *:wheel +:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 19 | 90 | 23 | 3=(((14-24)*2)+x) | 3 14 24 - 2 * x + = | 3:wheel 14:bicycle 24:bicycle -:bicycle 2:wheel *:wheel x:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 20 | 90 | 342 | x=((24*14)+(3*2)) | x 24 14 * 3 2 * + = | x:wheel 24:wheel 14:tricycle *:wheel 3:tricycle 2:wheel *:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 20 | 90 | 330 | x=((24*14)-(3*2)) | x 24 14 * 3 2 * - = | x:wheel 24:bicycle 14:wheel *:wheel 3:wheel 2:tricycle *:wheel -:wheel =:wheel
-EXPR: 0 | POS | INT | 20 | 90 | 132 | x=((24+(14*3))*2) | x 24 14 3 * + 2 * = | x:wheel 24:bicycle 14:wheel 3:bicycle *:bicycle +:bicycle 2:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 22 | 90 | 296 | ((14*(24-3))+2)=x | 14 24 3 - * 2 + x = | 14:bicycle 24:wheel 3:wheel -:wheel *:wheel 2:wheel +:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 22 | 90 | 410 | (x-(24*(14+3)))=2 | x 24 14 3 + * - 2 = | x:wheel 24:tricycle 14:wheel 3:wheel +:wheel *:wheel -:wheel 2:wheel =:wheel
-EXPR: 0 | POS | INT | 22 | 90 | 335 | x=(((24*14)+2)-3) | x 24 14 * 2 + 3 - = | x:wheel 24:wheel 14:bicycle *:wheel 2:wheel +:wheel 3:wheel -:wheel =:wheel
-EXPR: 0 | POS | INT | 22 | 90 | 678 | (x/((24*14)+3))=2 | x 24 14 * 3 + / 2 = | x:wheel 24:wheel 14:tricycle *:tricycle 3:tricycle +:tricycle /:wheel 2:wheel =:wheel
-EXPR: 0 | POS | INT | 22 | 90 | 666 | (x/((24*14)-3))=2 | x 24 14 * 3 - / 2 = | x:wheel 24:wheel 14:tricycle *:tricycle 3:tricycle -:tricycle /:wheel 2:wheel =:wheel
-EXPR: 0 | POS | INT | 25 | 90 | 1002 | (3*((24*14)-2))=x | 3 24 14 * 2 - * x = | 3:bicycle 24:wheel 14:tricycle *:wheel 2:wheel -:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 25 | 90 | 1014 | (3*((24*14)+2))=x | 3 24 14 * 2 + * x = | 3:bicycle 24:wheel 14:tricycle *:wheel 2:wheel +:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 27 | 90 | 64 | x=(((24+2)*3)-14) | x 24 2 + 3 * 14 - = | x:wheel 24:bicycle 2:bicycle +:bicycle 3:wheel *:wheel 14:wheel -:wheel =:wheel
-EXPR: 0 | POS | INT | 27 | 90 | 92 | x=(((24+2)*3)+14) | x 24 2 + 3 * 14 + = | x:wheel 24:bicycle 2:bicycle +:bicycle 3:wheel *:wheel 14:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 27 | 90 | 2 | ((24*2)/(14+x))=3 | 24 2 * 14 x + / 3 = | 24:tricycle 2:wheel *:wheel 14:tricycle x:tricycle +:tricycle /:wheel 3:wheel =:wheel
-EXPR: 0 | POS | INT | 27 | 90 | 266 | x=(((24-2)-3)*14) | x 24 2 - 3 - 14 * = | x:wheel 24:wheel 2:wheel -:wheel 3:wheel -:wheel 14:bicycle *:wheel =:wheel
-EXPR: 0 | POS | INT | 28 | 90 | 12 | x=(((14*2)-24)*3) | x 14 2 * 24 - 3 * = | x:wheel 14:tricycle 2:bicycle *:tricycle 24:tricycle -:tricycle 3:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 28 | 90 | 156 | x=(((14*2)+24)*3) | x 14 2 * 24 + 3 * = | x:wheel 14:tricycle 2:bicycle *:tricycle 24:tricycle +:tricycle 3:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 29 | 90 | 64 | x=(((14*3)-2)+24) | x 14 3 * 2 - 24 + = | x:wheel 14:bicycle 3:wheel *:wheel 2:wheel -:wheel 24:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 30 | 90 | 80 | 14=(((2-24)*3)+x) | 14 2 24 - 3 * x + = | 14:wheel 2:bicycle 24:bicycle -:bicycle 3:wheel *:wheel x:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 30 | 90 | 312 | x=(24*((14-3)+2)) | x 24 14 3 - 2 + * = | x:wheel 24:wheel 14:tricycle 3:tricycle -:tricycle 2:tricycle +:tricycle *:wheel =:wheel
-EXPR: 0 | POS | INT | 31 | 90 | 60 | x=(((14-2)*3)+24) | x 14 2 - 3 * 24 + = | x:wheel 14:tricycle 2:tricycle -:tricycle 3:wheel *:wheel 24:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 34 | 90 | 36 | x=(2*((14*3)-24)) | x 2 14 3 * 24 - * = | x:wheel 2:bicycle 14:tricycle 3:wheel *:wheel 24:wheel -:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 34 | 90 | 132 | x=(2*((14*3)+24)) | x 2 14 3 * 24 + * = | x:wheel 2:bicycle 14:tricycle 3:wheel *:wheel 24:wheel +:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 35 | 90 | 44 | x=(24+((3*2)+14)) | x 24 3 2 * 14 + + = | x:wheel 24:wheel 3:tricycle 2:wheel *:wheel 14:wheel +:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 35 | 90 | 4 | x=(24-((3*2)+14)) | x 24 3 2 * 14 + - = | x:wheel 24:wheel 3:tricycle 2:wheel *:wheel 14:wheel +:wheel -:wheel =:wheel
-EXPR: 0 | POS | INT | 35 | 90 | 108 | (3*((24+14)-2))=x | 3 24 14 + 2 - * x = | 3:bicycle 24:wheel 14:wheel +:wheel 2:wheel -:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 35 | 90 | 120 | (3*((24+14)+2))=x | 3 24 14 + 2 + * x = | 3:bicycle 24:wheel 14:wheel +:wheel 2:wheel +:wheel *:wheel x:wheel =:wheel
-EXPR: 0 | POS | INT | 37 | 90 | 23 | x=(((24/2)-3)+14) | x 24 2 / 3 - 14 + = | x:wheel 24:wheel 2:tricycle /:wheel 3:wheel -:wheel 14:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 39 | 90 | 44 | x=(14+((3*2)+24)) | x 14 3 2 * 24 + + = | x:wheel 14:wheel 3:tricycle 2:wheel *:wheel 24:wheel +:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 39 | 90 | 666 | x=(2*((24*14)-3)) | x 2 24 14 * 3 - * = | x:wheel 2:bicycle 24:tricycle 14:wheel *:wheel 3:wheel -:wheel *:wheel =:wheel
-EXPR: 0 | POS | INT | 41 | 90 | 132 | (x/2)=(24+(14*3)) | x 2 / 24 14 3 * + = | x:wheel 2:tricycle /:wheel 24:wheel 14:tricycle 3:wheel *:wheel +:wheel =:wheel
-EXPR: 0 | POS | INT | 46 | 90 | 20 | (3*(x+(2-14)))=24 | 3 x 2 14 - + * 24 = | 3:wheel x:tricycle 2:tricycle 14:tricycle -:tricycle +:tricycle *:wheel 24:wheel =:wheel
-EXPR: 0 | POS | INT | 53 | 90 | 128 | (3*x)=((14+2)*24) | 3 x * 14 2 + 24 * = | 3:tricycle x:wheel *:wheel 14:tricycle 2:tricycle +:tricycle 24:wheel *:wheel =:wheel
-NET 55 unique, non-negative, integer-valued solutions found out of 163 total solutions
+EXPR: 0 | POS | FRA | 10 | 45 | 7.2 | (18*0.4)=x | 18 0.4 * x = | 18:bird 0.4:exhibit *:exhibit x:exhibit =:exhibit
+EXPR: 1 | POS | INT | 10 | 45 | 45 | (18/0.4)=x | 18 0.4 / x = | 18:exhibit 0.4:time /:exhibit x:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 10 | 45 | 7.2 | x=(18*0.4) | x 18 0.4 * = | x:bird 18:bird 0.4:time *:bird =:bird
+EXPR: 1 | POS | INT | 10 | 45 | 45 | x=(18/0.4) | x 18 0.4 / = | x:exhibit 18:exhibit 0.4:time /:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 12 | 45 | 0.0222222222222222 | (18*x)=0.4 | 18 x * 0.4 = | 18:bird x:time *:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 12 | 45 | 0.0222222222222222 | x=(0.4/18) | x 0.4 18 / = | x:time 0.4:time 18:bird /:time =:time
+EXPR: 0 | POS | FRA | 12 | 45 | 0.0222222222222222 | 18=(0.4/x) | 18 0.4 x / = | 18:time 0.4:time x:exhibit /:time =:time
+EXPR: 1 | POS | INT | 12 | 45 | 45 | 18=(0.4*x) | 18 0.4 x * = | 18:exhibit 0.4:time x:exhibit *:exhibit =:exhibit
+EXPR: 1 | POS | INT | 12 | 45 | 45 | (18/x)=0.4 | 18 x / 0.4 = | 18:time x:exhibit /:time 0.4:time =:time
+EXPR: 1 | POS | INT | 12 | 45 | 45 | 18=(x*0.4) | 18 x 0.4 * = | 18:exhibit x:exhibit 0.4:time *:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 12 | 45 | 7.2 | 18=(x/0.4) | 18 x 0.4 / = | 18:exhibit x:exhibit 0.4:time /:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 12 | 45 | 0.0222222222222222 | (x*18)=0.4 | x 18 * 0.4 = | x:exhibit 18:time *:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 12 | 45 | 7.2 | (x/18)=0.4 | x 18 / 0.4 = | x:exhibit 18:bird /:exhibit 0.4:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 12 | 45 | 0.0222222222222222 | (0.4/18)=x | 0.4 18 / x = | 0.4:exhibit 18:bird /:exhibit x:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 14 | 45 | 0.0222222222222222 | (0.4/x)=18 | 0.4 x / 18 = | 0.4:bird x:exhibit /:bird 18:bird =:bird
+EXPR: 1 | POS | INT | 14 | 45 | 45 | (0.4*x)=18 | 0.4 x * 18 = | 0.4:bird x:exhibit *:bird 18:bird =:bird
+EXPR: 0 | POS | FRA | 14 | 45 | 7.2 | (x/0.4)=18 | x 0.4 / 18 = | x:bird 0.4:time /:bird 18:bird =:bird
+EXPR: 1 | POS | INT | 14 | 45 | 45 | (x*0.4)=18 | x 0.4 * 18 = | x:bird 0.4:time *:bird 18:bird =:bird
+EXPR: 0 | POS | FRA | 14 | 45 | 0.0222222222222222 | 0.4=(18*x) | 0.4 18 x * = | 0.4:time 18:bird x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 45 | 0.0222222222222222 | 0.4=(x*18) | 0.4 x 18 * = | 0.4:time x:exhibit 18:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 45 | 7.2 | 0.4=(x/18) | 0.4 x 18 / = | 0.4:exhibit x:exhibit 18:bird /:exhibit =:exhibit
+EXPR: 1 | POS | INT | 14 | 45 | 45 | 0.4=(18/x) | 0.4 18 x / = | 0.4:bird 18:bird x:exhibit /:bird =:bird
+EXPR: 0 | POS | FRA | 20 | 45 | 18.4 | x=(18+0.4) | x 18 0.4 + = | x:bird 18:bird 0.4:bird +:bird =:bird
+EXPR: 0 | POS | FRA | 20 | 45 | 17.6 | x=(18-0.4) | x 18 0.4 - = | x:exhibit 18:exhibit 0.4:exhibit -:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 20 | 45 | 18.4 | (18+0.4)=x | 18 0.4 + x = | 18:bird 0.4:bird +:bird x:bird =:bird
+EXPR: 0 | POS | FRA | 20 | 45 | 17.6 | (18-0.4)=x | 18 0.4 - x = | 18:exhibit 0.4:exhibit -:exhibit x:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 22 | 45 | 18.4 | 18=(x-0.4) | 18 x 0.4 - = | 18:bird x:bird 0.4:bird -:bird =:bird
+EXPR: 0 | POS | FRA | 22 | 45 | 17.6 | 18=(x+0.4) | 18 x 0.4 + = | 18:bird x:bird 0.4:bird +:bird =:bird
+EXPR: 0 | POS | FRA | 22 | 45 | 18.4 | (x-18)=0.4 | x 18 - 0.4 = | x:time 18:time -:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 22 | 45 | 17.6 | (18-x)=0.4 | 18 x - 0.4 = | 18:bird x:bird -:bird 0.4:bird =:bird
+EXPR: 0 | POS | FRA | 22 | 45 | 17.6 | 18=(0.4+x) | 18 0.4 x + = | 18:exhibit 0.4:exhibit x:exhibit +:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 24 | 45 | 17.6 | (0.4+x)=18 | 0.4 x + 18 = | 0.4:exhibit x:exhibit +:exhibit 18:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 24 | 45 | 18.4 | (x-0.4)=18 | x 0.4 - 18 = | x:bird 0.4:bird -:bird 18:bird =:bird
+EXPR: 0 | POS | FRA | 24 | 45 | 17.6 | (x+0.4)=18 | x 0.4 + 18 = | x:exhibit 0.4:exhibit +:exhibit 18:exhibit =:exhibit
+EXPR: 0 | POS | FRA | 24 | 45 | 17.6 | 0.4=(18-x) | 0.4 18 x - = | 0.4:bird 18:bird x:bird -:bird =:bird
+EXPR: 0 | POS | FRA | 24 | 45 | 18.4 | 0.4=(x-18) | 0.4 x 18 - = | 0.4:bird x:bird 18:bird -:bird =:bird
+NET 36 unique, non-negative solutions found out of 324 total solutions

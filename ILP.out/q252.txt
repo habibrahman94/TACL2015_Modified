@@ -1,5 +1,5 @@
-quantities : 1,426 2,000 x
-types : "house" "house" "house"
+quantities : 150 0.54 x
+types : "student" "time" "size"
 operators : + - * / =
 n : 5
-answer : 574.0
+answer : 231.0

@@ -1,5 +1,5 @@
-quantities : 24 14 3 2 x
-types : "bicycle" "tricycle" "wheel" "wheel" "wheel"
+quantities : 18 0.4 x
+types : "bird" "time" "exhibit"
 operators : + - * / =
-n : 9
-answer : 90.0
+n : 5
+answer : 45.0

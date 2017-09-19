@@ -1,5 +1,5 @@
-quantities : 9 10 5 7 x
-types : "package" "can" "can" "package" "can"
+quantities : 25 15 x
+types : "dollar" "dollar" "UNKNOWN"
 operators : + - * / =
-n : 9
-answer : 55.0
+n : 5
+answer : 40.0

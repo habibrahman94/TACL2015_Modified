@@ -1,24 +1,40 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 13 | 36 | x=(9*4) | x 9 4 * = | x:pokemon 9:card 4:pokemon *:pokemon =:pokemon
-EXPR: 0 | POS | INT | 0 | 13 | 36 | (9*4)=x | 9 4 * x = | 9:card 4:pokemon *:pokemon x:pokemon =:pokemon
-EXPR: 0 | POS | INT | 2 | 13 | 36 | (x/9)=4 | x 9 / 4 = | x:pokemon 9:card /:pokemon 4:pokemon =:pokemon
-EXPR: 0 | POS | INT | 4 | 13 | 36 | 4=(x/9) | 4 x 9 / = | 4:pokemon x:pokemon 9:card /:pokemon =:pokemon
-EXPR: 1 | POS | INT | 10 | 13 | 13 | (9+4)=x | 9 4 + x = | 9:pokemon 4:pokemon +:pokemon x:pokemon =:pokemon
-EXPR: 1 | POS | INT | 10 | 13 | 13 | x=(9+4) | x 9 4 + = | x:pokemon 9:pokemon 4:pokemon +:pokemon =:pokemon
-EXPR: 0 | POS | INT | 10 | 13 | 5 | x=(9-4) | x 9 4 - = | x:pokemon 9:pokemon 4:pokemon -:pokemon =:pokemon
-EXPR: 0 | POS | INT | 10 | 13 | 5 | (9-4)=x | 9 4 - x = | 9:pokemon 4:pokemon -:pokemon x:pokemon =:pokemon
-EXPR: 0 | POS | INT | 12 | 13 | 5 | (9-x)=4 | 9 x - 4 = | 9:pokemon x:pokemon -:pokemon 4:pokemon =:pokemon
-EXPR: 0 | POS | INT | 12 | 13 | 5 | 9=(4+x) | 9 4 x + = | 9:pokemon 4:pokemon x:pokemon +:pokemon =:pokemon
-EXPR: 1 | POS | INT | 12 | 13 | 13 | (x-9)=4 | x 9 - 4 = | x:pokemon 9:pokemon -:pokemon 4:pokemon =:pokemon
-EXPR: 0 | POS | INT | 12 | 13 | 5 | 9=(x+4) | 9 x 4 + = | 9:pokemon x:pokemon 4:pokemon +:pokemon =:pokemon
-EXPR: 1 | POS | INT | 12 | 13 | 13 | 9=(x-4) | 9 x 4 - = | 9:pokemon x:pokemon 4:pokemon -:pokemon =:pokemon
-EXPR: 0 | POS | INT | 12 | 13 | 36 | 9=(x/4) | 9 x 4 / = | 9:card x:card 4:pokemon /:card =:card
-EXPR: 0 | POS | INT | 14 | 13 | 36 | (x/4)=9 | x 4 / 9 = | x:card 4:pokemon /:card 9:card =:card
-EXPR: 1 | POS | INT | 14 | 13 | 13 | 4=(x-9) | 4 x 9 - = | 4:pokemon x:pokemon 9:pokemon -:pokemon =:pokemon
-EXPR: 0 | POS | INT | 14 | 13 | 5 | (x+4)=9 | x 4 + 9 = | x:pokemon 4:pokemon +:pokemon 9:pokemon =:pokemon
-EXPR: 0 | POS | INT | 14 | 13 | 5 | 4=(9-x) | 4 9 x - = | 4:pokemon 9:pokemon x:pokemon -:pokemon =:pokemon
-EXPR: 1 | POS | INT | 14 | 13 | 13 | (x-4)=9 | x 4 - 9 = | x:pokemon 4:pokemon -:pokemon 9:pokemon =:pokemon
-EXPR: 0 | POS | INT | 14 | 13 | 5 | (4+x)=9 | 4 x + 9 = | 4:pokemon x:pokemon +:pokemon 9:pokemon =:pokemon
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | FRA | 0 | 36000 | 44444.4444444444 | x=(40000/0.9) | x 40000 0.9 / = | x:dollar 40000:dollar 0.9:Fred /:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 36000 | 36000 | (40000*0.9)=x | 40000 0.9 * x = | 40000:dollar 0.9:Fred *:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 36000 | 36000 | x=(40000*0.9) | x 40000 0.9 * = | x:dollar 40000:dollar 0.9:Fred *:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 36000 | 44444.4444444444 | (40000/0.9)=x | 40000 0.9 / x = | 40000:dollar 0.9:Fred /:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 36000 | 36000 | 40000=(x/0.9) | 40000 x 0.9 / = | 40000:dollar x:dollar 0.9:Fred /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 36000 | 44444.4444444444 | 40000=(x*0.9) | 40000 x 0.9 * = | 40000:dollar x:dollar 0.9:Fred *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 36000 | 44444.4444444444 | 40000=(0.9*x) | 40000 0.9 x * = | 40000:dollar 0.9:Fred x:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 36000 | 44444.4444444444 | (0.9*x)=40000 | 0.9 x * 40000 = | 0.9:Fred x:dollar *:dollar 40000:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 36000 | 44444.4444444444 | (x*0.9)=40000 | x 0.9 * 40000 = | x:dollar 0.9:Fred *:dollar 40000:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 36000 | 36000 | (x/0.9)=40000 | x 0.9 / 40000 = | x:dollar 0.9:Fred /:dollar 40000:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 36000 | 40000.9 | (40000+0.9)=x | 40000 0.9 + x = | 40000:dollar 0.9:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 36000 | 40000.9 | x=(40000+0.9) | x 40000 0.9 + = | x:dollar 40000:dollar 0.9:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 36000 | 39999.1 | (40000-0.9)=x | 40000 0.9 - x = | 40000:dollar 0.9:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 36000 | 39999.1 | x=(40000-0.9) | x 40000 0.9 - = | x:dollar 40000:dollar 0.9:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 36000 | 39999.1 | 40000=(x+0.9) | 40000 x 0.9 + = | 40000:dollar x:dollar 0.9:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 36000 | 2.25000000000000e-5 | 40000=(0.9/x) | 40000 0.9 x / = | 40000:Fred 0.9:Fred x:dollar /:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 2.25000000000000e-5 | (x*40000)=0.9 | x 40000 * 0.9 = | x:dollar 40000:Fred *:Fred 0.9:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 44444.4444444444 | (40000/x)=0.9 | 40000 x / 0.9 = | 40000:Fred x:dollar /:Fred 0.9:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 2.25000000000000e-5 | x=(0.9/40000) | x 0.9 40000 / = | x:Fred 0.9:Fred 40000:dollar /:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 40000.9 | 40000=(x-0.9) | 40000 x 0.9 - = | 40000:dollar x:dollar 0.9:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 36000 | 2.25000000000000e-5 | (0.9/40000)=x | 0.9 40000 / x = | 0.9:Fred 40000:dollar /:Fred x:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 2.25000000000000e-5 | (40000*x)=0.9 | 40000 x * 0.9 = | 40000:Fred x:dollar *:Fred 0.9:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 40000.9 | (x-40000)=0.9 | x 40000 - 0.9 = | x:dollar 40000:dollar -:dollar 0.9:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 36000 | 39999.1 | (40000-x)=0.9 | 40000 x - 0.9 = | 40000:dollar x:dollar -:dollar 0.9:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 36000 | 36000 | (x/40000)=0.9 | x 40000 / 0.9 = | x:Fred 40000:dollar /:Fred 0.9:Fred =:Fred
+EXPR: 0 | POS | FRA | 12 | 36000 | 39999.1 | 40000=(0.9+x) | 40000 0.9 x + = | 40000:dollar 0.9:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 36000 | 36000 | 0.9=(x/40000) | 0.9 x 40000 / = | 0.9:Fred x:Fred 40000:dollar /:Fred =:Fred
+EXPR: 0 | POS | FRA | 14 | 36000 | 44444.4444444444 | 0.9=(40000/x) | 0.9 40000 x / = | 0.9:Fred 40000:Fred x:dollar /:Fred =:Fred
+EXPR: 0 | POS | FRA | 14 | 36000 | 39999.1 | (0.9+x)=40000 | 0.9 x + 40000 = | 0.9:dollar x:dollar +:dollar 40000:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 36000 | 39999.1 | (x+0.9)=40000 | x 0.9 + 40000 = | x:dollar 0.9:dollar +:dollar 40000:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 36000 | 2.25000000000000e-5 | 0.9=(40000*x) | 0.9 40000 x * = | 0.9:Fred 40000:dollar x:Fred *:Fred =:Fred
+EXPR: 0 | POS | FRA | 14 | 36000 | 2.25000000000000e-5 | (0.9/x)=40000 | 0.9 x / 40000 = | 0.9:Fred x:dollar /:Fred 40000:Fred =:Fred
+EXPR: 0 | POS | FRA | 14 | 36000 | 39999.1 | 0.9=(40000-x) | 0.9 40000 x - = | 0.9:dollar 40000:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 36000 | 40000.9 | 0.9=(x-40000) | 0.9 x 40000 - = | 0.9:dollar x:dollar 40000:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 36000 | 2.25000000000000e-5 | 0.9=(x*40000) | 0.9 x 40000 * = | 0.9:Fred x:dollar 40000:Fred *:Fred =:Fred
+EXPR: 0 | POS | FRA | 14 | 36000 | 40000.9 | (x-0.9)=40000 | x 0.9 - 40000 = | x:dollar 0.9:dollar -:dollar 40000:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

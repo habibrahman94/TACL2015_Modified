@@ -1,18 +1,24 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 106491 | 73851 | (90171-16320)=x | 90171 16320 - x = | 90171:people 16320:people -:people x:people =:people
-EXPR: 0 | POS | INT | 0 | 106491 | 73851 | x=(90171-16320) | x 90171 16320 - = | x:people 90171:people 16320:people -:people =:people
-EXPR: 1 | POS | INT | 0 | 106491 | 106491 | (90171+16320)=x | 90171 16320 + x = | 90171:people 16320:people +:people x:people =:people
-EXPR: 1 | POS | INT | 0 | 106491 | 106491 | x=(90171+16320) | x 90171 16320 + = | x:people 90171:people 16320:people +:people =:people
-EXPR: 1 | POS | INT | 2 | 106491 | 106491 | (x-90171)=16320 | x 90171 - 16320 = | x:people 90171:people -:people 16320:people =:people
-EXPR: 0 | POS | INT | 2 | 106491 | 73851 | (90171-x)=16320 | 90171 x - 16320 = | 90171:people x:people -:people 16320:people =:people
-EXPR: 0 | POS | INT | 2 | 106491 | 73851 | 90171=(x+16320) | 90171 x 16320 + = | 90171:people x:people 16320:people +:people =:people
-EXPR: 1 | POS | INT | 2 | 106491 | 106491 | 90171=(x-16320) | 90171 x 16320 - = | 90171:people x:people 16320:people -:people =:people
-EXPR: 0 | POS | INT | 2 | 106491 | 73851 | 90171=(16320+x) | 90171 16320 x + = | 90171:people 16320:people x:people +:people =:people
-EXPR: 1 | POS | INT | 4 | 106491 | 106491 | 16320=(x-90171) | 16320 x 90171 - = | 16320:people x:people 90171:people -:people =:people
-EXPR: 1 | POS | INT | 4 | 106491 | 106491 | (x-16320)=90171 | x 16320 - 90171 = | x:people 16320:people -:people 90171:people =:people
-EXPR: 0 | POS | INT | 4 | 106491 | 73851 | (16320+x)=90171 | 16320 x + 90171 = | 16320:people x:people +:people 90171:people =:people
-EXPR: 0 | POS | INT | 4 | 106491 | 73851 | (x+16320)=90171 | x 16320 + 90171 = | x:people 16320:people +:people 90171:people =:people
-EXPR: 0 | POS | INT | 4 | 106491 | 73851 | 16320=(90171-x) | 16320 90171 x - = | 16320:people 90171:people x:people -:people =:people
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | INT | 10 | 20 | 22 | x=(10+12) | x 10 12 + = | x:page 10:page 12:page +:page =:page
+EXPR: 0 | POS | INT | 10 | 20 | 120 | x=(10*12) | x 10 12 * = | x:he 10:page 12:he *:he =:he
+EXPR: 0 | POS | INT | 10 | 20 | 120 | (10*12)=x | 10 12 * x = | 10:page 12:he *:he x:he =:he
+EXPR: 0 | POS | INT | 10 | 20 | 22 | (10+12)=x | 10 12 + x = | 10:page 12:page +:page x:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 2 | 10=(12-x) | 10 12 x - = | 10:page 12:page x:page -:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 120 | (x/10)=12 | x 10 / 12 = | x:he 10:page /:he 12:he =:he
+EXPR: 0 | POS | INT | 12 | 20 | 22 | (x-10)=12 | x 10 - 12 = | x:page 10:page -:page 12:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 22 | 10=(x-12) | 10 x 12 - = | 10:page x:page 12:page -:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 2 | (12-10)=x | 12 10 - x = | 12:page 10:page -:page x:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 2 | x=(12-10) | x 12 10 - = | x:page 12:page 10:page -:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 2 | (x+10)=12 | x 10 + 12 = | x:page 10:page +:page 12:page =:page
+EXPR: 0 | POS | INT | 12 | 20 | 120 | 10=(x/12) | 10 x 12 / = | 10:he x:he 12:page /:he =:he
+EXPR: 0 | POS | INT | 12 | 20 | 2 | (10+x)=12 | 10 x + 12 = | 10:page x:page +:page 12:page =:page
+EXPR: 0 | POS | INT | 14 | 20 | 2 | (12-x)=10 | 12 x - 10 = | 12:page x:page -:page 10:page =:page
+EXPR: 0 | POS | INT | 14 | 20 | 22 | (x-12)=10 | x 12 - 10 = | x:page 12:page -:page 10:page =:page
+EXPR: 0 | POS | INT | 14 | 20 | 120 | 12=(x/10) | 12 x 10 / = | 12:he x:he 10:page /:he =:he
+EXPR: 0 | POS | INT | 14 | 20 | 120 | (x/12)=10 | x 12 / 10 = | x:he 12:page /:he 10:he =:he
+EXPR: 0 | POS | INT | 14 | 20 | 2 | 12=(10+x) | 12 10 x + = | 12:page 10:page x:page +:page =:page
+EXPR: 0 | POS | INT | 14 | 20 | 22 | 12=(x-10) | 12 x 10 - = | 12:page x:page 10:page -:page =:page
+EXPR: 0 | POS | INT | 14 | 20 | 2 | 12=(x+10) | 12 x 10 + = | 12:page x:page 10:page +:page =:page
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

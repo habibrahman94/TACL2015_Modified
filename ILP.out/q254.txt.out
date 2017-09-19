@@ -1,18 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 6279 | 6279 | (9792-3513)=x | 9792 3513 - x = | 9792:pound 3513:pound -:pound x:pound =:pound
-EXPR: 1 | POS | INT | 0 | 6279 | 6279 | x=(9792-3513) | x 9792 3513 - = | x:pound 9792:pound 3513:pound -:pound =:pound
-EXPR: 0 | POS | INT | 0 | 6279 | 13305 | (9792+3513)=x | 9792 3513 + x = | 9792:pound 3513:pound +:pound x:pound =:pound
-EXPR: 0 | POS | INT | 0 | 6279 | 13305 | x=(9792+3513) | x 9792 3513 + = | x:pound 9792:pound 3513:pound +:pound =:pound
-EXPR: 0 | POS | INT | 2 | 6279 | 13305 | (x-9792)=3513 | x 9792 - 3513 = | x:pound 9792:pound -:pound 3513:pound =:pound
-EXPR: 1 | POS | INT | 2 | 6279 | 6279 | (9792-x)=3513 | 9792 x - 3513 = | 9792:pound x:pound -:pound 3513:pound =:pound
-EXPR: 1 | POS | INT | 2 | 6279 | 6279 | 9792=(x+3513) | 9792 x 3513 + = | 9792:pound x:pound 3513:pound +:pound =:pound
-EXPR: 0 | POS | INT | 2 | 6279 | 13305 | 9792=(x-3513) | 9792 x 3513 - = | 9792:pound x:pound 3513:pound -:pound =:pound
-EXPR: 1 | POS | INT | 2 | 6279 | 6279 | 9792=(3513+x) | 9792 3513 x + = | 9792:pound 3513:pound x:pound +:pound =:pound
-EXPR: 0 | POS | INT | 4 | 6279 | 13305 | 3513=(x-9792) | 3513 x 9792 - = | 3513:pound x:pound 9792:pound -:pound =:pound
-EXPR: 0 | POS | INT | 4 | 6279 | 13305 | (x-3513)=9792 | x 3513 - 9792 = | x:pound 3513:pound -:pound 9792:pound =:pound
-EXPR: 1 | POS | INT | 4 | 6279 | 6279 | (3513+x)=9792 | 3513 x + 9792 = | 3513:pound x:pound +:pound 9792:pound =:pound
-EXPR: 1 | POS | INT | 4 | 6279 | 6279 | (x+3513)=9792 | x 3513 + 9792 = | x:pound 3513:pound +:pound 9792:pound =:pound
-EXPR: 1 | POS | INT | 4 | 6279 | 6279 | 3513=(9792-x) | 3513 9792 x - = | 3513:pound 9792:pound x:pound -:pound =:pound
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | INT | 0 | 15696 | 16350 | x=(9810/0.6) | x 9810 0.6 / = | x:gallon 9810:gallon 0.6:company /:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 15696 | 5886 | (9810*0.6)=x | 9810 0.6 * x = | 9810:gallon 0.6:company *:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 15696 | 5886 | x=(9810*0.6) | x 9810 0.6 * = | x:gallon 9810:gallon 0.6:company *:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 15696 | 16350 | (9810/0.6)=x | 9810 0.6 / x = | 9810:gallon 0.6:company /:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 15696 | 5886 | 9810=(x/0.6) | 9810 x 0.6 / = | 9810:gallon x:gallon 0.6:company /:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 15696 | 16350 | 9810=(x*0.6) | 9810 x 0.6 * = | 9810:gallon x:gallon 0.6:company *:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 15696 | 16350 | 9810=(0.6*x) | 9810 0.6 x * = | 9810:gallon 0.6:company x:gallon *:gallon =:gallon
+EXPR: 0 | POS | INT | 4 | 15696 | 16350 | (0.6*x)=9810 | 0.6 x * 9810 = | 0.6:company x:gallon *:gallon 9810:gallon =:gallon
+EXPR: 0 | POS | INT | 4 | 15696 | 16350 | (x*0.6)=9810 | x 0.6 * 9810 = | x:gallon 0.6:company *:gallon 9810:gallon =:gallon
+EXPR: 0 | POS | INT | 4 | 15696 | 5886 | (x/0.6)=9810 | x 0.6 / 9810 = | x:gallon 0.6:company /:gallon 9810:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 15696 | 9810.6 | (9810+0.6)=x | 9810 0.6 + x = | 9810:gallon 0.6:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 15696 | 9810.6 | x=(9810+0.6) | x 9810 0.6 + = | x:gallon 9810:gallon 0.6:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 15696 | 9809.4 | (9810-0.6)=x | 9810 0.6 - x = | 9810:gallon 0.6:gallon -:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 15696 | 9809.4 | x=(9810-0.6) | x 9810 0.6 - = | x:gallon 9810:gallon 0.6:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 15696 | 9809.4 | 9810=(x+0.6) | 9810 x 0.6 + = | 9810:gallon x:gallon 0.6:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 15696 | 6.11620795107034e-5 | 9810=(0.6/x) | 9810 0.6 x / = | 9810:company 0.6:company x:gallon /:company =:company
+EXPR: 0 | POS | FRA | 12 | 15696 | 6.11620795107034e-5 | (x*9810)=0.6 | x 9810 * 0.6 = | x:gallon 9810:company *:company 0.6:company =:company
+EXPR: 0 | POS | INT | 12 | 15696 | 16350 | (9810/x)=0.6 | 9810 x / 0.6 = | 9810:company x:gallon /:company 0.6:company =:company
+EXPR: 0 | POS | FRA | 12 | 15696 | 6.11620795107034e-5 | x=(0.6/9810) | x 0.6 9810 / = | x:company 0.6:company 9810:gallon /:company =:company
+EXPR: 0 | POS | FRA | 12 | 15696 | 9810.6 | 9810=(x-0.6) | 9810 x 0.6 - = | 9810:gallon x:gallon 0.6:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 15696 | 6.11620795107034e-5 | (0.6/9810)=x | 0.6 9810 / x = | 0.6:company 9810:gallon /:company x:company =:company
+EXPR: 0 | POS | FRA | 12 | 15696 | 6.11620795107034e-5 | (9810*x)=0.6 | 9810 x * 0.6 = | 9810:company x:gallon *:company 0.6:company =:company
+EXPR: 0 | POS | FRA | 12 | 15696 | 9810.6 | (x-9810)=0.6 | x 9810 - 0.6 = | x:gallon 9810:gallon -:gallon 0.6:gallon =:gallon
+EXPR: 0 | POS | FRA | 12 | 15696 | 9809.4 | (9810-x)=0.6 | 9810 x - 0.6 = | 9810:gallon x:gallon -:gallon 0.6:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 15696 | 5886 | (x/9810)=0.6 | x 9810 / 0.6 = | x:company 9810:gallon /:company 0.6:company =:company
+EXPR: 0 | POS | FRA | 12 | 15696 | 9809.4 | 9810=(0.6+x) | 9810 0.6 x + = | 9810:gallon 0.6:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 14 | 15696 | 5885.99999999998 | 0.6=(x/9810) | 0.6 x 9810 / = | 0.6:company x:company 9810:gallon /:company =:company
+EXPR: 0 | POS | INT | 14 | 15696 | 16350 | 0.6=(9810/x) | 0.6 9810 x / = | 0.6:company 9810:company x:gallon /:company =:company
+EXPR: 0 | POS | FRA | 14 | 15696 | 9809.4 | (0.6+x)=9810 | 0.6 x + 9810 = | 0.6:gallon x:gallon +:gallon 9810:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 15696 | 9809.4 | (x+0.6)=9810 | x 0.6 + 9810 = | x:gallon 0.6:gallon +:gallon 9810:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 15696 | 6.11620795107034e-5 | 0.6=(9810*x) | 0.6 9810 x * = | 0.6:company 9810:gallon x:company *:company =:company
+EXPR: 0 | POS | FRA | 14 | 15696 | 6.11620795107034e-5 | (0.6/x)=9810 | 0.6 x / 9810 = | 0.6:company x:gallon /:company 9810:company =:company
+EXPR: 0 | POS | FRA | 14 | 15696 | 9809.4 | 0.6=(9810-x) | 0.6 9810 x - = | 0.6:gallon 9810:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 15696 | 9810.6 | 0.6=(x-9810) | 0.6 x 9810 - = | 0.6:gallon x:gallon 9810:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 15696 | 6.11620795107034e-5 | 0.6=(x*9810) | 0.6 x 9810 * = | 0.6:company x:gallon 9810:company *:company =:company
+EXPR: 0 | POS | FRA | 14 | 15696 | 9810.6 | (x-0.6)=9810 | x 0.6 - 9810 = | x:gallon 0.6:gallon -:gallon 9810:gallon =:gallon
+NET 36 unique, non-negative solutions found out of 136 total solutions

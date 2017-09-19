@@ -1,5 +1,5 @@
-quantities : 20 26 20 6 58 x
-types : "sticker" "sticker" "sticker" "sticker" "sticker" "sticker"
+quantities : 77 70 x
+types : "inch" "inch" "UNKNOWN"
 operators : + - * / =
-n : 11
-answer : 2.0
+n : 5
+answer : 10.0

@@ -1,5 +1,5 @@
-quantities : 21 4 8 x
-types : "carton" "carton" "carton" "carton"
+quantities : 9 0.6 x
+types : "ounce" "that" "weight"
 operators : + - * / =
-n : 7
-answer : 9.0
+n : 5
+answer : 15.0

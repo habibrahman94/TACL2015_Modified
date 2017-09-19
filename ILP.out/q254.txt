@@ -1,5 +1,5 @@
-quantities : 9,792 3,513 x
-types : "pound" "pound" "pound"
+quantities : 9,810 0.6 x
+types : "gallon" "company" "gallon"
 operators : + - * / =
 n : 5
-answer : 6279.0
+answer : 15696.0

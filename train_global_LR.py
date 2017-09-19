@@ -2,7 +2,6 @@ import signal
 import sys
 import json
 import jsonrpclib
-#import makesets
 import makesets 
 import pickle
 from random import randint
@@ -16,13 +15,26 @@ from sklearn.multiclass import OneVsOneClassifier
 from sklearn.multiclass import OneVsRestClassifier
 from random import sample
 import numpy as np
+from sklearn import decomposition
 
 modelNB = None
-
+def pca_function(V):
+    V[V==0] = -1
+    V[V>0 ] = 1
+    #print V
+    v = []
+    v.append(V)
+    print len(v)
+    pca = decomposition.PCA(n_components=45)
+    pca.fit(v)
+    v = pca.transform(v)
+    print v
+    return v
 
 def compute(p,op,e,target,problem,story,order): # Returns the val of probability for the operator 'op'
     vec = makesets.vector(p,e,problem,story,target)
-    op_val = modelNB.predict_proba([vec])
+    vec = pca_function(vec)
+    op_val = modelNB.predict_proba(vec)
     
     #print op_val[0]
     
@@ -232,8 +244,19 @@ if __name__=="__main__":
     
     Local_Features, Local_Label = norm(sys.argv[2], sys.argv[3])
     
+    #print Local_Features
+    
+    pca = decomposition.PCA(n_components=45)
+    #print Local_Features
+    pca.fit(Local_Features)
+    Local_Features = pca.transform(Local_Features)
+    Local_Features = Local_Features.tolist()
+    
+    
     modelNB = OneVsRestClassifier(RandomForestClassifier())
     modelNB.fit(Local_Features, Local_Label)
+    #print modelNB.predict(Local_Features)
+    #print len(Local_Features[0])
     
     inp = sys.argv[1] #train'$1'
     

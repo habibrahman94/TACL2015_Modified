@@ -1,18 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 111421 | 12421 | (61921-49500)=x | 61921 49500 - x = | 61921:yard 49500:yard -:yard x:yard =:yard
-EXPR: 0 | POS | INT | 0 | 111421 | 12421 | x=(61921-49500) | x 61921 49500 - = | x:yard 61921:yard 49500:yard -:yard =:yard
-EXPR: 1 | POS | INT | 0 | 111421 | 111421 | (61921+49500)=x | 61921 49500 + x = | 61921:yard 49500:yard +:yard x:yard =:yard
-EXPR: 1 | POS | INT | 0 | 111421 | 111421 | x=(61921+49500) | x 61921 49500 + = | x:yard 61921:yard 49500:yard +:yard =:yard
-EXPR: 1 | POS | INT | 2 | 111421 | 111421 | (x-61921)=49500 | x 61921 - 49500 = | x:yard 61921:yard -:yard 49500:yard =:yard
-EXPR: 0 | POS | INT | 2 | 111421 | 12421 | (61921-x)=49500 | 61921 x - 49500 = | 61921:yard x:yard -:yard 49500:yard =:yard
-EXPR: 0 | POS | INT | 2 | 111421 | 12421 | 61921=(x+49500) | 61921 x 49500 + = | 61921:yard x:yard 49500:yard +:yard =:yard
-EXPR: 1 | POS | INT | 2 | 111421 | 111421 | 61921=(x-49500) | 61921 x 49500 - = | 61921:yard x:yard 49500:yard -:yard =:yard
-EXPR: 0 | POS | INT | 2 | 111421 | 12421 | 61921=(49500+x) | 61921 49500 x + = | 61921:yard 49500:yard x:yard +:yard =:yard
-EXPR: 1 | POS | INT | 4 | 111421 | 111421 | 49500=(x-61921) | 49500 x 61921 - = | 49500:yard x:yard 61921:yard -:yard =:yard
-EXPR: 1 | POS | INT | 4 | 111421 | 111421 | (x-49500)=61921 | x 49500 - 61921 = | x:yard 49500:yard -:yard 61921:yard =:yard
-EXPR: 0 | POS | INT | 4 | 111421 | 12421 | (49500+x)=61921 | 49500 x + 61921 = | 49500:yard x:yard +:yard 61921:yard =:yard
-EXPR: 0 | POS | INT | 4 | 111421 | 12421 | (x+49500)=61921 | x 49500 + 61921 = | x:yard 49500:yard +:yard 61921:yard =:yard
-EXPR: 0 | POS | INT | 4 | 111421 | 12421 | 49500=(61921-x) | 49500 61921 x - = | 49500:yard 61921:yard x:yard -:yard =:yard
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | INT | 10 | 4125 | 375 | (3750*0.1)=x | 3750 0.1 * x = | 3750:meter 0.1:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 4125 | 37500 | (3750/0.1)=x | 3750 0.1 / x = | 3750:UNKNOWN 0.1:mountain /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 4125 | 375 | x=(3750*0.1) | x 3750 0.1 * = | x:meter 3750:meter 0.1:mountain *:meter =:meter
+EXPR: 0 | POS | INT | 10 | 4125 | 37500 | x=(3750/0.1) | x 3750 0.1 / = | x:UNKNOWN 3750:UNKNOWN 0.1:mountain /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 4125 | 2.66666666666667e-5 | (3750*x)=0.1 | 3750 x * 0.1 = | 3750:meter x:mountain *:mountain 0.1:mountain =:mountain
+EXPR: 0 | POS | FRA | 12 | 4125 | 2.66666666666667e-5 | x=(0.1/3750) | x 0.1 3750 / = | x:mountain 0.1:mountain 3750:meter /:mountain =:mountain
+EXPR: 0 | POS | FRA | 12 | 4125 | 2.66666666666667e-5 | 3750=(0.1/x) | 3750 0.1 x / = | 3750:mountain 0.1:mountain x:UNKNOWN /:mountain =:mountain
+EXPR: 0 | POS | INT | 12 | 4125 | 37500 | 3750=(0.1*x) | 3750 0.1 x * = | 3750:UNKNOWN 0.1:mountain x:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 4125 | 37500 | (3750/x)=0.1 | 3750 x / 0.1 = | 3750:mountain x:UNKNOWN /:mountain 0.1:mountain =:mountain
+EXPR: 0 | POS | INT | 12 | 4125 | 37500 | 3750=(x*0.1) | 3750 x 0.1 * = | 3750:UNKNOWN x:UNKNOWN 0.1:mountain *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 4125 | 375 | 3750=(x/0.1) | 3750 x 0.1 / = | 3750:UNKNOWN x:UNKNOWN 0.1:mountain /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 4125 | 2.66666666666667e-5 | (x*3750)=0.1 | x 3750 * 0.1 = | x:UNKNOWN 3750:mountain *:mountain 0.1:mountain =:mountain
+EXPR: 0 | POS | INT | 12 | 4125 | 375 | (x/3750)=0.1 | x 3750 / 0.1 = | x:UNKNOWN 3750:meter /:UNKNOWN 0.1:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 4125 | 2.66666666666667e-5 | (0.1/3750)=x | 0.1 3750 / x = | 0.1:UNKNOWN 3750:meter /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 4125 | 2.66666666666667e-5 | (0.1/x)=3750 | 0.1 x / 3750 = | 0.1:meter x:UNKNOWN /:meter 3750:meter =:meter
+EXPR: 0 | POS | INT | 14 | 4125 | 37500 | (0.1*x)=3750 | 0.1 x * 3750 = | 0.1:meter x:UNKNOWN *:meter 3750:meter =:meter
+EXPR: 0 | POS | INT | 14 | 4125 | 375 | (x/0.1)=3750 | x 0.1 / 3750 = | x:meter 0.1:mountain /:meter 3750:meter =:meter
+EXPR: 0 | POS | INT | 14 | 4125 | 37500 | (x*0.1)=3750 | x 0.1 * 3750 = | x:meter 0.1:mountain *:meter 3750:meter =:meter
+EXPR: 0 | POS | FRA | 14 | 4125 | 2.66666666666667e-5 | 0.1=(3750*x) | 0.1 3750 x * = | 0.1:mountain 3750:meter x:mountain *:mountain =:mountain
+EXPR: 0 | POS | FRA | 14 | 4125 | 2.66666666666667e-5 | 0.1=(x*3750) | 0.1 x 3750 * = | 0.1:mountain x:UNKNOWN 3750:mountain *:mountain =:mountain
+EXPR: 0 | POS | INT | 14 | 4125 | 375 | 0.1=(x/3750) | 0.1 x 3750 / = | 0.1:UNKNOWN x:UNKNOWN 3750:meter /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 4125 | 37500 | 0.1=(3750/x) | 0.1 3750 x / = | 0.1:meter 3750:meter x:UNKNOWN /:meter =:meter
+EXPR: 0 | POS | FRA | 20 | 4125 | 3750.1 | x=(3750+0.1) | x 3750 0.1 + = | x:meter 3750:meter 0.1:meter +:meter =:meter
+EXPR: 0 | POS | FRA | 20 | 4125 | 3749.9 | x=(3750-0.1) | x 3750 0.1 - = | x:UNKNOWN 3750:UNKNOWN 0.1:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 4125 | 3750.1 | (3750+0.1)=x | 3750 0.1 + x = | 3750:meter 0.1:meter +:meter x:meter =:meter
+EXPR: 0 | POS | FRA | 20 | 4125 | 3749.9 | (3750-0.1)=x | 3750 0.1 - x = | 3750:UNKNOWN 0.1:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 4125 | 3750.1 | 3750=(x-0.1) | 3750 x 0.1 - = | 3750:meter x:meter 0.1:meter -:meter =:meter
+EXPR: 0 | POS | FRA | 22 | 4125 | 3749.9 | 3750=(x+0.1) | 3750 x 0.1 + = | 3750:meter x:meter 0.1:meter +:meter =:meter
+EXPR: 0 | POS | FRA | 22 | 4125 | 3750.1 | (x-3750)=0.1 | x 3750 - 0.1 = | x:mountain 3750:mountain -:mountain 0.1:mountain =:mountain
+EXPR: 0 | POS | FRA | 22 | 4125 | 3749.9 | (3750-x)=0.1 | 3750 x - 0.1 = | 3750:meter x:meter -:meter 0.1:meter =:meter
+EXPR: 0 | POS | FRA | 22 | 4125 | 3749.9 | 3750=(0.1+x) | 3750 0.1 x + = | 3750:UNKNOWN 0.1:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 4125 | 3749.9 | (0.1+x)=3750 | 0.1 x + 3750 = | 0.1:UNKNOWN x:UNKNOWN +:UNKNOWN 3750:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 4125 | 3750.1 | (x-0.1)=3750 | x 0.1 - 3750 = | x:meter 0.1:meter -:meter 3750:meter =:meter
+EXPR: 0 | POS | FRA | 24 | 4125 | 3749.9 | (x+0.1)=3750 | x 0.1 + 3750 = | x:UNKNOWN 0.1:UNKNOWN +:UNKNOWN 3750:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 4125 | 3749.9 | 0.1=(3750-x) | 0.1 3750 x - = | 0.1:meter 3750:meter x:meter -:meter =:meter
+EXPR: 0 | POS | FRA | 24 | 4125 | 3750.1 | 0.1=(x-3750) | 0.1 x 3750 - = | 0.1:meter x:meter 3750:meter -:meter =:meter
+NET 36 unique, non-negative solutions found out of 324 total solutions

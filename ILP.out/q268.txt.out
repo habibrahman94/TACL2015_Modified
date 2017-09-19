@@ -1,186 +1,24 @@
-parameters: n=9 l=4 k=1 p=5 q=2 m=10
-TOTAL 603 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 118 | 132 | x=((20+(2*1))*6) | x 20 2 1 * + 6 * = | x:dollar 20:carton 2:carton 1:dollar *:carton +:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 108 | x=((20-(2*1))*6) | x 20 2 1 * - 6 * = | x:dollar 20:carton 2:carton 1:dollar *:carton -:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 16 | (((20+2)*1)-6)=x | 20 2 + 1 * 6 - x = | 20:carton 2:carton +:carton 1:dollar *:dollar 6:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 12 | (((20-2)*1)-6)=x | 20 2 - 1 * 6 - x = | 20:carton 2:carton -:carton 1:dollar *:dollar 6:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 24 | x=(((20-2)*1)+6) | x 20 2 - 1 * 6 + = | x:dollar 20:carton 2:carton -:carton 1:dollar *:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 154 | x=((20+2)*(1+6)) | x 20 2 + 1 6 + * = | x:dollar 20:carton 2:carton +:carton 1:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 24 | (((20-2)*1)+6)=x | 20 2 - 1 * 6 + x = | 20:carton 2:carton -:carton 1:dollar *:dollar 6:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 28 | (((20+2)*1)+6)=x | 20 2 + 1 * 6 + x = | 20:carton 2:carton +:carton 1:dollar *:dollar 6:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 16 | x=(((20+2)*1)-6) | x 20 2 + 1 * 6 - = | x:dollar 20:carton 2:carton +:carton 1:dollar *:dollar 6:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 28 | x=(((20+2)*1)+6) | x 20 2 + 1 * 6 + = | x:dollar 20:carton 2:carton +:carton 1:dollar *:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 12 | x=(((20-2)*1)-6) | x 20 2 - 1 * 6 - = | x:dollar 20:carton 2:carton -:carton 1:dollar *:dollar 6:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 160 | x=(20*((2*1)+6)) | x 20 2 1 * 6 + * = | x:dollar 20:carton 2:carton 1:dollar *:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 126 | x=((20-2)*(1+6)) | x 20 2 - 1 6 + * = | x:dollar 20:carton 2:carton -:carton 1:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 108 | ((20-(2*1))*6)=x | 20 2 1 * - 6 * x = | 20:carton 2:carton 1:dollar *:carton -:carton 6:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 132 | ((20+(2*1))*6)=x | 20 2 1 * + 6 * x = | 20:carton 2:carton 1:dollar *:carton +:carton 6:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 160 | (20*((2*1)+6))=x | 20 2 1 * 6 + * x = | 20:carton 2:carton 1:dollar *:dollar 6:dollar +:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 154 | ((20+2)*(1+6))=x | 20 2 + 1 6 + * x = | 20:carton 2:carton +:carton 1:dollar 6:dollar +:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 0 | 118 | 126 | ((20-2)*(1+6))=x | 20 2 - 1 6 + * x = | 20:carton 2:carton -:carton 1:dollar 6:dollar +:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 8 | x=((20-(2*6))*1) | x 20 2 6 * - 1 * = | x:dollar 20:carton 2:carton 6:dollar *:carton -:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 32 | x=((20+(2*6))*1) | x 20 2 6 * + 1 * = | x:dollar 20:carton 2:carton 6:dollar *:carton +:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 131 | (((20+2)*6)-1)=x | 20 2 + 6 * 1 - x = | 20:carton 2:carton +:carton 6:dollar *:dollar 1:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 220 | x=(20*((2*6)-1)) | x 20 2 6 * 1 - * = | x:dollar 20:carton 2:carton 6:dollar *:dollar 1:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 109 | (((20-2)*6)+1)=x | 20 2 - 6 * 1 + x = | 20:carton 2:carton -:carton 6:dollar *:dollar 1:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 133 | (((20+2)*6)+1)=x | 20 2 + 6 * 1 + x = | 20:carton 2:carton +:carton 6:dollar *:dollar 1:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 107 | (((20-2)*6)-1)=x | 20 2 - 6 * 1 - x = | 20:carton 2:carton -:carton 6:dollar *:dollar 1:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 90 | x=((2-20)*(1-6)) | x 2 20 - 1 6 - * = | x:dollar 2:carton 20:carton -:carton 1:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 90 | x=((20-2)*(6-1)) | x 20 2 - 6 1 - * = | x:dollar 20:carton 2:carton -:carton 6:dollar 1:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 110 | x=((20+2)*(6-1)) | x 20 2 + 6 1 - * = | x:dollar 20:carton 2:carton +:carton 6:dollar 1:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 260 | x=(20*((2*6)+1)) | x 20 2 6 * 1 + * = | x:dollar 20:carton 2:carton 6:dollar *:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 8 | ((20-(2*6))*1)=x | 20 2 6 * - 1 * x = | 20:carton 2:carton 6:dollar *:carton -:carton 1:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 32 | ((20+(2*6))*1)=x | 20 2 6 * + 1 * x = | 20:carton 2:carton 6:dollar *:carton +:carton 1:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 90 | ((20-2)*(6-1))=x | 20 2 - 6 1 - * x = | 20:carton 2:carton -:carton 6:dollar 1:dollar -:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 110 | ((20+2)*(6-1))=x | 20 2 + 6 1 - * x = | 20:carton 2:carton +:carton 6:dollar 1:dollar -:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 2 | 118 | 132 | x=((2+(20*1))*6) | x 2 20 1 * + 6 * = | x:dollar 2:carton 20:carton 1:dollar *:carton +:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 5 | 118 | 132 | x=(((2*1)+20)*6) | x 2 1 * 20 + 6 * = | x:dollar 2:carton 1:dollar *:carton 20:carton +:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 140 | x=(20*(2-(1-6))) | x 20 2 1 6 - - * = | x:dollar 20:carton 2:dollar 1:dollar 6:dollar -:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 114 | x=(((20-2)+1)*6) | x 20 2 - 1 + 6 * = | x:dollar 20:carton 2:carton -:carton 1:carton +:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 102 | x=(((20-2)-1)*6) | x 20 2 - 1 - 6 * = | x:dollar 20:carton 2:carton -:carton 1:carton -:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 45 | x=(((20*2)-1)+6) | x 20 2 * 1 - 6 + = | x:dollar 20:carton 2:dollar *:dollar 1:dollar -:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 45 | x=((20*2)-(1-6)) | x 20 2 * 1 6 - - = | x:dollar 20:carton 2:dollar *:dollar 1:dollar 6:dollar -:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 47 | x=(((20*2)+1)+6) | x 20 2 * 1 + 6 + = | x:dollar 20:carton 2:dollar *:dollar 1:dollar +:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 138 | ((20+(2+1))*6)=x | 20 2 1 + + 6 * x = | 20:carton 2:carton 1:carton +:carton +:carton 6:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 140 | x=(20*((2-1)+6)) | x 20 2 1 - 6 + * = | x:dollar 20:carton 2:dollar 1:dollar -:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 118 | 35 | x=(((20*2)+1)-6) | x 20 2 * 1 + 6 - = | x:dollar 20:carton 2:dollar *:dollar 1:dollar +:dollar 6:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 11 | 118 | 12 | 6=(((20-2)*1)-x) | 6 20 2 - 1 * x - = | 6:dollar 20:carton 2:carton -:carton 1:dollar *:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 11 | 118 | 16 | 6=(((20+2)*1)-x) | 6 20 2 + 1 * x - = | 6:dollar 20:carton 2:carton +:carton 1:dollar *:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 28 | (2+((20*1)+6))=x | 2 20 1 * 6 + + x = | 2:dollar 20:carton 1:dollar *:dollar 6:dollar +:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 28 | (((20*1)+2)+6)=x | 20 1 * 2 + 6 + x = | 20:carton 1:dollar *:dollar 2:dollar +:dollar 6:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 30 | x=(2*(20+(1-6))) | x 2 20 1 6 - + * = | x:dollar 2:carton 20:dollar 1:dollar 6:dollar -:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 180 | x=(20*(1+(2+6))) | x 20 1 2 6 + + * = | x:dollar 20:carton 1:dollar 2:dollar 6:dollar +:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 100 | x=(20*(1-(2-6))) | x 20 1 2 6 - - * = | x:dollar 20:carton 1:dollar 2:dollar 6:dollar -:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 24 | x=(((20-2)+6)*1) | x 20 2 - 6 + 1 * = | x:dollar 20:carton 2:carton -:carton 6:carton +:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 16 | x=(((20+2)-6)*1) | x 20 2 + 6 - 1 * = | x:dollar 20:carton 2:carton +:carton 6:carton -:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 30 | x=(2*((20+1)-6)) | x 2 20 1 + 6 - * = | x:dollar 2:carton 20:dollar 1:dollar +:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 50 | x=(2*((20-1)+6)) | x 2 20 1 - 6 + * = | x:dollar 2:carton 20:dollar 1:dollar -:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 26 | x=(2*((20-1)-6)) | x 2 20 1 - 6 - * = | x:dollar 2:carton 20:dollar 1:dollar -:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 6 | 20=((2*(1+x))+6) | 20 2 1 x + * 6 + = | 20:dollar 2:carton 1:dollar x:dollar +:dollar *:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 24 | (((20*1)-2)+6)=x | 20 1 * 2 - 6 + x = | 20:carton 1:dollar *:dollar 2:dollar -:dollar 6:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 126 | ((20-(1-2))*6)=x | 20 1 2 - - 6 * x = | 20:carton 1:carton 2:carton -:carton -:carton 6:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 26 | x=(2*(20-(1+6))) | x 2 20 1 6 + - * = | x:dollar 2:carton 20:dollar 1:dollar 6:dollar +:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 48 | x=((2*(20+1))+6) | x 2 20 1 + * 6 + = | x:dollar 2:carton 20:dollar 1:dollar +:dollar *:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 118 | 36 | x=((2*(20+1))-6) | x 2 20 1 + * 6 - = | x:dollar 2:carton 20:dollar 1:dollar +:dollar *:dollar 6:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 118 | 30 | x=(2*((20-6)+1)) | x 2 20 6 - 1 + * = | x:dollar 2:carton 20:dollar 6:dollar -:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 118 | 50 | x=(2*((20+6)-1)) | x 2 20 6 + 1 - * = | x:dollar 2:carton 20:dollar 6:dollar +:dollar 1:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 118 | 2 | (20/x)=(2*(6-1)) | 20 x / 2 6 1 - * = | 20:carton x:dollar /:carton 2:carton 6:dollar 1:dollar -:dollar *:carton =:carton
-EXPR: 0 | POS | INT | 15 | 118 | 126 | x=((2-(1-20))*6) | x 2 1 20 - - 6 * = | x:dollar 2:carton 1:carton 20:carton -:carton -:carton 6:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 15 | 118 | 28 | x=((2*1)*(20-6)) | x 2 1 * 20 6 - * = | x:dollar 2:carton 1:dollar *:carton 20:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 15 | 118 | 24 | ((20+(6-2))*1)=x | 20 6 2 - + 1 * x = | 20:carton 6:carton 2:carton -:carton +:carton 1:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 15 | 118 | 16 | ((20-(6-2))*1)=x | 20 6 2 - - 1 * x = | 20:carton 6:carton 2:carton -:carton -:carton 1:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 15 | 118 | 16 | (((20*1)-6)+2)=x | 20 1 * 6 - 2 + x = | 20:carton 1:dollar *:dollar 6:dollar -:dollar 2:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 16 | 118 | 2 | (2*x)=(20/(6-1)) | 2 x * 20 6 1 - / = | 2:carton x:dollar *:carton 20:carton 6:dollar 1:dollar -:dollar /:carton =:carton
-EXPR: 0 | POS | INT | 17 | 118 | 45 | 1=(((20*2)+6)-x) | 1 20 2 * 6 + x - = | 1:dollar 20:carton 2:dollar *:dollar 6:dollar +:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 17 | 118 | 33 | 1=(((20*2)-6)-x) | 1 20 2 * 6 - x - = | 1:dollar 20:carton 2:dollar *:dollar 6:dollar -:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 17 | 118 | 13 | ((1/2)*(20+6))=x | 1 2 / 20 6 + * x = | 1:dollar 2:carton /:dollar 20:carton 6:carton +:carton *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 18 | 118 | 16 | ((2-(6-20))*1)=x | 2 6 20 - - 1 * x = | 2:carton 6:carton 20:carton -:carton -:carton 1:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 19 | 118 | 28 | 1=((2/x)*(20-6)) | 1 2 x / 20 6 - * = | 1:dollar 2:carton x:dollar /:carton 20:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 19 | 118 | 16 | 1=((2/20)*(x-6)) | 1 2 20 / x 6 - * = | 1:dollar 2:carton 20:dollar /:carton x:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 20 | 118 | 16 | ((20+(2*1))-6)=x | 20 2 1 * + 6 - x = | 20:carton 2:carton 1:dollar *:carton +:carton 6:carton -:carton x:carton =:carton
-EXPR: 0 | POS | INT | 20 | 118 | 234 | x=(((20*2)-1)*6) | x 20 2 * 1 - 6 * = | x:dollar 20:carton 2:dollar *:dollar 1:dollar -:dollar 6:carton *:dollar =:dollar
-EXPR: 0 | POS | INT | 20 | 118 | 79 | 1=((20*(6-2))-x) | 1 20 6 2 - * x - = | 1:dollar 20:carton 6:dollar 2:dollar -:dollar *:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 21 | 118 | 35 | 6=(((20*2)+1)-x) | 6 20 2 * 1 + x - = | 6:dollar 20:carton 2:dollar *:dollar 1:dollar +:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 21 | 118 | 35 | 6=((20*2)+(1-x)) | 6 20 2 * 1 x - + = | 6:dollar 20:carton 2:dollar *:dollar 1:dollar x:dollar -:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 21 | 118 | 63 | ((6/2)*(20+1))=x | 6 2 / 20 1 + * x = | 6:dollar 2:carton /:dollar 20:carton 1:carton +:carton *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 21 | 118 | 33 | 6=(((20*2)-1)-x) | 6 20 2 * 1 - x - = | 6:dollar 20:carton 2:dollar *:dollar 1:dollar -:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 21 | 118 | 57 | ((6/2)*(20-1))=x | 6 2 / 20 1 - * x = | 6:dollar 2:carton /:dollar 20:carton 1:carton -:carton *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 22 | 118 | 52 | x=(2*((20*1)+6)) | x 2 20 1 * 6 + * = | x:dollar 2:carton 20:dollar 1:carton *:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 22 | 118 | 152 | x=((20-1)*(2+6)) | x 20 1 - 2 6 + * = | x:dollar 20:carton 1:carton -:carton 2:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 22 | 118 | 13 | (((20+1)-2)-6)=x | 20 1 + 2 - 6 - x = | 20:dollar 1:dollar +:dollar 2:dollar -:dollar 6:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 22 | 118 | 28 | x=(2*((20*1)-6)) | x 2 20 1 * 6 - * = | x:dollar 2:carton 20:dollar 1:carton *:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 22 | 118 | 116 | (2+((20-1)*6))=x | 2 20 1 - 6 * + x = | 2:dollar 20:carton 1:carton -:carton 6:dollar *:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 22 | 118 | 168 | x=((20+1)*(2+6)) | x 20 1 + 2 6 + * = | x:dollar 20:carton 1:carton +:carton 2:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 23 | 118 | 16 | 6=(((20*1)+2)-x) | 6 20 1 * 2 + x - = | 6:dollar 20:carton 1:dollar *:dollar 2:dollar +:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 23 | 118 | 59 | 6=((2/20)*(x+1)) | 6 2 20 / x 1 + * = | 6:dollar 2:carton 20:dollar /:carton x:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 24 | 118 | 31 | (20+(2*6))=(1+x) | 20 2 6 * + 1 x + = | 20:dollar 2:carton 6:dollar *:dollar +:dollar 1:dollar x:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 24 | (20+(1*(6-2)))=x | 20 1 6 2 - * + x = | 20:carton 1:dollar 6:carton 2:carton -:carton *:carton +:carton x:carton =:carton
-EXPR: 0 | POS | INT | 25 | 118 | 26 | ((2-1)*(20+6))=x | 2 1 - 20 6 + * x = | 2:dollar 1:dollar -:dollar 20:carton 6:carton +:carton *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 29 | (((20+1)+6)+2)=x | 20 1 + 6 + 2 + x = | 20:dollar 1:dollar +:dollar 6:dollar +:dollar 2:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 112 | (((20-1)*6)-2)=x | 20 1 - 6 * 2 - x = | 20:carton 1:carton -:carton 6:dollar *:dollar 2:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 42 | x=((2+1)*(20-6)) | x 2 1 + 20 6 - * = | x:dollar 2:carton 1:carton +:carton 20:dollar 6:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 26 | x=(((2-1)*20)+6) | x 2 1 - 20 * 6 + = | x:dollar 2:carton 1:carton -:carton 20:dollar *:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 26 | x=((2-1)*(20+6)) | x 2 1 - 20 6 + * = | x:dollar 2:carton 1:carton -:carton 20:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 42 | x=((20-6)*(2+1)) | x 20 6 - 2 1 + * = | x:dollar 20:carton 6:carton -:carton 2:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 116 | (((20-1)*6)+2)=x | 20 1 - 6 * 2 + x = | 20:carton 1:carton -:carton 6:dollar *:dollar 2:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 128 | (((20+1)*6)+2)=x | 20 1 + 6 * 2 + x = | 20:carton 1:carton +:carton 6:dollar *:dollar 2:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 28 | ((20-(1*6))*2)=x | 20 1 6 * - 2 * x = | 20:carton 1:carton 6:dollar *:carton -:carton 2:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 52 | ((20+(1*6))*2)=x | 20 1 6 * + 2 * x = | 20:carton 1:carton 6:dollar *:carton +:carton 2:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 84 | ((20+1)*(6-2))=x | 20 1 + 6 2 - * x = | 20:carton 1:carton +:carton 6:dollar 2:dollar -:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 76 | ((20-1)*(6-2))=x | 20 1 - 6 2 - * x = | 20:carton 1:carton -:carton 6:dollar 2:dollar -:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 78 | x=((2+1)*(20+6)) | x 2 1 + 20 6 + * = | x:dollar 2:carton 1:carton +:carton 20:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 13 | (((20-6)-2)+1)=x | 20 6 - 2 - 1 + x = | 20:dollar 6:dollar -:dollar 2:dollar -:dollar 1:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 78 | x=((20+6)*(2+1)) | x 20 6 + 2 1 + * = | x:dollar 20:carton 6:carton +:carton 2:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 25 | 118 | 16 | x=(1*((20/2)+6)) | x 1 20 2 / 6 + * = | x:dollar 1:carton 20:dollar 2:carton /:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 26 | 118 | 110 | ((x/(6-1))-20)=2 | x 6 1 - / 20 - 2 = | x:carton 6:dollar 1:dollar -:dollar /:carton 20:carton -:carton 2:carton =:carton
-EXPR: 0 | POS | INT | 27 | 118 | 13 | (((20-6)+1)-2)=x | 20 6 - 1 + 2 - x = | 20:dollar 6:dollar -:dollar 1:dollar +:dollar 2:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 27 | 118 | 15 | (((20-6)-1)+2)=x | 20 6 - 1 - 2 + x = | 20:dollar 6:dollar -:dollar 1:dollar -:dollar 2:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 27 | 118 | 25 | (((20+6)+1)-2)=x | 20 6 + 1 + 2 - x = | 20:dollar 6:dollar +:dollar 1:dollar +:dollar 2:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 27 | 118 | 34 | (x-20)=((1+6)*2) | x 20 - 1 6 + 2 * = | x:carton 20:carton -:carton 1:dollar 6:dollar +:dollar 2:carton *:carton =:carton
-EXPR: 0 | POS | INT | 27 | 118 | 17 | 1=((x-20)-(2-6)) | 1 x 20 - 2 6 - - = | 1:dollar x:dollar 20:dollar -:dollar 2:dollar 6:dollar -:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 28 | 118 | 168 | x=((2+6)*(20+1)) | x 2 6 + 20 1 + * = | x:dollar 2:carton 6:carton +:carton 20:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 28 | 118 | 24 | (1*((20+6)-2))=x | 1 20 6 + 2 - * x = | 1:dollar 20:carton 6:carton +:carton 2:carton -:carton *:carton x:carton =:carton
-EXPR: 0 | POS | INT | 29 | 118 | 234 | x=(6*((20*2)-1)) | x 6 20 2 * 1 - * = | x:dollar 6:carton 20:carton 2:dollar *:dollar 1:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 29 | 118 | 160 | ((2+(1*6))*20)=x | 2 1 6 * + 20 * x = | 2:carton 1:carton 6:dollar *:carton +:carton 20:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 29 | 118 | 26 | x=(((2-1)*6)+20) | x 2 1 - 6 * 20 + = | x:dollar 2:carton 1:carton -:carton 6:dollar *:dollar 20:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 29 | 118 | 66 | x=(6*((20/2)+1)) | x 6 20 2 / 1 + * = | x:dollar 6:carton 20:dollar 2:carton /:dollar 1:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 30 | 118 | 16 | ((20+2)-(1*6))=x | 20 2 + 1 6 * - x = | 20:dollar 2:dollar +:dollar 1:dollar 6:carton *:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 31 | 118 | 14 | x=(((1-2)*6)+20) | x 1 2 - 6 * 20 + = | x:dollar 1:carton 2:carton -:carton 6:dollar *:dollar 20:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 31 | 118 | 81 | x=(((6-2)*20)+1) | x 6 2 - 20 * 1 + = | x:dollar 6:carton 2:carton -:carton 20:dollar *:dollar 1:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 31 | 118 | 23 | x=(((6/2)+20)*1) | x 6 2 / 20 + 1 * = | x:dollar 6:carton 2:dollar /:carton 20:carton +:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 31 | 118 | 16 | x=(((2-6)*1)+20) | x 2 6 - 1 * 20 + = | x:dollar 2:carton 6:carton -:carton 1:dollar *:dollar 20:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 31 | 118 | 260 | ((1+(2*6))*20)=x | 1 2 6 * + 20 * x = | 1:carton 2:carton 6:dollar *:carton +:carton 20:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 31 | 118 | 28 | (((2+6)*1)+20)=x | 2 6 + 1 * 20 + x = | 2:carton 6:carton +:carton 1:dollar *:carton 20:carton +:carton x:carton =:carton
-EXPR: 0 | POS | INT | 31 | 118 | 52 | x=((6+(20*1))*2) | x 6 20 1 * + 2 * = | x:dollar 6:carton 20:carton 1:dollar *:carton +:carton 2:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 32 | 118 | 17 | ((2+(20+1))-6)=x | 2 20 1 + + 6 - x = | 2:carton 20:carton 1:carton +:carton +:carton 6:carton -:carton x:carton =:carton
-EXPR: 0 | POS | INT | 32 | 118 | 16 | (((20/2)+6)*1)=x | 20 2 / 6 + 1 * x = | 20:carton 2:dollar /:carton 6:carton +:carton 1:dollar *:carton x:carton =:carton
-EXPR: 0 | POS | INT | 32 | 118 | 168 | ((20+1)*(2+6))=x | 20 1 + 2 6 + * x = | 20:carton 1:carton +:carton 2:dollar 6:dollar +:dollar *:carton x:carton =:carton
-EXPR: 0 | POS | INT | 33 | 118 | 80 | (x/(6-2))=(20*1) | x 6 2 - / 20 1 * = | x:dollar 6:carton 2:carton -:carton /:dollar 20:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 33 | 118 | 5 | (x*(6-2))=(20*1) | x 6 2 - * 20 1 * = | x:dollar 6:carton 2:carton -:carton *:dollar 20:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 33 | 118 | 81 | 1=(((2-6)*20)+x) | 1 2 6 - 20 * x + = | 1:dollar 2:carton 6:carton -:carton 20:dollar *:dollar x:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 33 | 118 | 26 | 6=((20-x)*(1-2)) | 6 20 x - 1 2 - * = | 6:dollar 20:carton x:carton -:carton 1:dollar 2:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 34 | 118 | 24 | x=(((6-2)*1)+20) | x 6 2 - 1 * 20 + = | x:dollar 6:carton 2:carton -:carton 1:dollar *:dollar 20:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 35 | 118 | 24 | x=(1*(20-(2-6))) | x 1 20 2 6 - - * = | x:dollar 1:carton 20:dollar 2:dollar 6:dollar -:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 35 | 118 | 160 | (20*((1*6)+2))=x | 20 1 6 * 2 + * x = | 20:carton 1:dollar 6:carton *:dollar 2:dollar +:dollar *:carton x:carton =:carton
-EXPR: 0 | POS | INT | 35 | 118 | 80 | (20*((1*6)-2))=x | 20 1 6 * 2 - * x = | 20:carton 1:dollar 6:carton *:dollar 2:dollar -:dollar *:carton x:carton =:carton
-EXPR: 0 | POS | INT | 35 | 118 | 24 | x=(1*((20-2)+6)) | x 1 20 2 - 6 + * = | x:dollar 1:carton 20:dollar 2:dollar -:dollar 6:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 35 | 118 | 28 | x=((1*(20+2))+6) | x 1 20 2 + * 6 + = | x:dollar 1:carton 20:dollar 2:dollar +:dollar *:dollar 6:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 36 | 118 | 22 | 6=((2+1)*(x-20)) | 6 2 1 + x 20 - * = | 6:dollar 2:carton 1:carton +:carton x:dollar 20:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 36 | 118 | 26 | 6=((2-1)*(x-20)) | 6 2 1 - x 20 - * = | 6:dollar 2:carton 1:carton -:carton x:dollar 20:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 37 | 118 | 18 | ((2+1)*(20-x))=6 | 2 1 + 20 x - * 6 = | 2:dollar 1:dollar +:dollar 20:carton x:carton -:carton *:carton 6:carton =:carton
-EXPR: 0 | POS | INT | 37 | 118 | 50 | x=(((20+6)-1)*2) | x 20 6 + 1 - 2 * = | x:dollar 20:carton 6:carton +:carton 1:carton -:carton 2:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 37 | 118 | 28 | 2=(x-(1*(20+6))) | 2 x 1 20 6 + * - = | 2:dollar x:dollar 1:carton 20:dollar 6:dollar +:dollar *:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 37 | 118 | 42 | (2+1)=(x/(20-6)) | 2 1 + x 20 6 - / = | 2:dollar 1:dollar +:dollar x:dollar 20:carton 6:carton -:carton /:dollar =:dollar
-EXPR: 0 | POS | INT | 38 | 118 | 14 | 6=(((1-2)*x)+20) | 6 1 2 - x * 20 + = | 6:dollar 1:carton 2:carton -:carton x:dollar *:dollar 20:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 38 | 118 | 15 | ((2-6)+(20-1))=x | 2 6 - 20 1 - + x = | 2:carton 6:carton -:carton 20:carton 1:carton -:carton +:carton x:carton =:carton
-EXPR: 0 | POS | INT | 38 | 118 | 28 | x=((1*(20+6))+2) | x 1 20 6 + * 2 + = | x:dollar 1:carton 20:dollar 6:dollar +:dollar *:dollar 2:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 38 | 118 | 24 | x=((1*(20+6))-2) | x 1 20 6 + * 2 - = | x:dollar 1:carton 20:dollar 6:dollar +:dollar *:dollar 2:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 39 | 118 | 180 | x=(((2+1)+6)*20) | x 2 1 + 6 + 20 * = | x:dollar 2:carton 1:carton +:carton 6:carton +:carton 20:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 40 | 118 | 16 | 2=(((6-20)+x)*1) | 2 6 20 - x + 1 * = | 2:dollar 6:carton 20:carton -:carton x:carton +:carton 1:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 41 | 118 | 140 | x=(((2+6)-1)*20) | x 2 6 + 1 - 20 * = | x:dollar 2:carton 6:carton +:carton 1:carton -:carton 20:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 41 | 118 | 128 | x=((6*(20+1))+2) | x 6 20 1 + * 2 + = | x:dollar 6:carton 20:dollar 1:dollar +:dollar *:dollar 2:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 41 | 118 | 124 | x=((6*(20+1))-2) | x 6 20 1 + * 2 - = | x:dollar 6:carton 20:dollar 1:dollar +:dollar *:dollar 2:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 42 | 118 | 3 | x=((1/6)*(20-2)) | x 1 6 / 20 2 - * = | x:dollar 1:carton 6:dollar /:carton 20:dollar 2:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 42 | 118 | 32 | ((x-20)/2)=(1*6) | x 20 - 2 / 1 6 * = | x:carton 20:carton -:carton 2:dollar /:carton 1:dollar 6:carton *:carton =:carton
-EXPR: 0 | POS | INT | 43 | 118 | 128 | (6*(20+1))=(x-2) | 6 20 1 + * x 2 - = | 6:dollar 20:carton 1:carton +:carton *:dollar x:dollar 2:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 43 | 118 | 2 | ((2+x)*(6-1))=20 | 2 x + 6 1 - * 20 = | 2:dollar x:dollar +:dollar 6:carton 1:carton -:carton *:carton 20:carton =:carton
-EXPR: 0 | POS | INT | 44 | 118 | 100 | x=(((6-2)+1)*20) | x 6 2 - 1 + 20 * = | x:dollar 6:carton 2:carton -:carton 1:carton +:carton 20:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 44 | 118 | 60 | x=(((6-2)-1)*20) | x 6 2 - 1 - 20 * = | x:dollar 6:carton 2:carton -:carton 1:carton -:carton 20:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 44 | 118 | 24 | x=(1*((6-2)+20)) | x 1 6 2 - 20 + * = | x:dollar 1:carton 6:dollar 2:dollar -:dollar 20:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 44 | 118 | 100 | ((1+(6-2))*20)=x | 1 6 2 - + 20 * x = | 1:carton 6:carton 2:carton -:carton +:carton 20:dollar *:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 45 | 118 | 35 | ((1+(20*2))-6)=x | 1 20 2 * + 6 - x = | 1:carton 20:carton 2:dollar *:carton +:carton 6:carton -:carton x:carton =:carton
-EXPR: 1 | POS | INT | 46 | 118 | 118 | 6=((1/20)*(x+2)) | 6 1 20 / x 2 + * = | 6:dollar 1:carton 20:dollar /:carton x:dollar 2:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 46 | 118 | 27 | (x-6)=((2-1)+20) | x 6 - 2 1 - 20 + = | x:dollar 6:dollar -:dollar 2:dollar 1:dollar -:dollar 20:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 47 | 118 | 5 | 20=(x*((1*6)-2)) | 20 x 1 6 * 2 - * = | 20:dollar x:carton 1:dollar 6:carton *:dollar 2:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 47 | 118 | 24 | (20+(1*6))=(2+x) | 20 1 6 * + 2 x + = | 20:dollar 1:carton 6:dollar *:dollar +:dollar 2:dollar x:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 48 | 118 | 16 | 6=(1*(2+(20-x))) | 6 1 2 20 x - + * = | 6:dollar 1:carton 2:dollar 20:dollar x:dollar -:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 48 | 118 | 8 | 6=((1/2)*(20-x)) | 6 1 2 / 20 x - * = | 6:dollar 1:carton 2:dollar /:carton 20:dollar x:dollar -:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 52 | 118 | 154 | x=((1+6)*(20+2)) | x 1 6 + 20 2 + * = | x:dollar 1:carton 6:carton +:carton 20:dollar 2:dollar +:dollar *:dollar =:dollar
-EXPR: 0 | POS | INT | 53 | 118 | 161 | (x-1)=((2+6)*20) | x 1 - 2 6 + 20 * = | x:carton 1:carton -:carton 2:dollar 6:dollar +:dollar 20:carton *:carton =:carton
-EXPR: 0 | POS | INT | 53 | 118 | 159 | (x+1)=((2+6)*20) | x 1 + 2 6 + 20 * = | x:carton 1:carton +:carton 2:dollar 6:dollar +:dollar 20:carton *:carton =:carton
-EXPR: 0 | POS | INT | 54 | 118 | 102 | x=(((6-1)*20)+2) | x 6 1 - 20 * 2 + = | x:dollar 6:carton 1:carton -:carton 20:dollar *:dollar 2:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 57 | 118 | 109 | (1-((2-20)*6))=x | 1 2 20 - 6 * - x = | 1:carton 2:dollar 20:dollar -:dollar 6:carton *:carton -:carton x:carton =:carton
-EXPR: 0 | POS | INT | 61 | 118 | 24 | (6-((2-20)*1))=x | 6 2 20 - 1 * - x = | 6:carton 2:dollar 20:dollar -:dollar 1:carton *:carton -:carton x:carton =:carton
-EXPR: 0 | POS | INT | 64 | 118 | 160 | ((6+(2*1))*20)=x | 6 2 1 * + 20 * x = | 6:carton 2:dollar 1:carton *:carton +:carton 20:dollar *:carton x:carton =:carton
-NET 182 unique, non-negative, integer-valued solutions found out of 603 total solutions
+EXPR: 0 | POS | INT | 10 | 25 | 42 | x=(24+18) | x 24 18 + = | x:student 24:student 18:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 432 | x=(24*18) | x 24 18 * = | x:UNKNOWN 24:student 18:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 6 | (24-18)=x | 24 18 - x = | 24:student 18:student -:student x:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 432 | (24*18)=x | 24 18 * x = | 24:student 18:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 25 | 6 | x=(24-18) | x 24 18 - = | x:student 24:student 18:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 25 | 42 | (24+18)=x | 24 18 + x = | 24:student 18:student +:student x:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 6 | (24-x)=18 | 24 x - 18 = | 24:student x:student -:student 18:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 6 | 24=(18+x) | 24 18 x + = | 24:student 18:student x:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 432 | (x/24)=18 | x 24 / 18 = | x:UNKNOWN 24:student /:UNKNOWN 18:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 25 | 42 | (x-24)=18 | x 24 - 18 = | x:student 24:student -:student 18:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 42 | 24=(x-18) | 24 x 18 - = | 24:student x:student 18:student -:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 6 | 24=(x+18) | 24 x 18 + = | 24:student x:student 18:student +:student =:student
+EXPR: 0 | POS | INT | 12 | 25 | 432 | 24=(x/18) | 24 x 18 / = | 24:UNKNOWN x:UNKNOWN 18:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 42 | (x-18)=24 | x 18 - 24 = | x:student 18:student -:student 24:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 432 | 18=(x/24) | 18 x 24 / = | 18:UNKNOWN x:UNKNOWN 24:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 6 | (x+18)=24 | x 18 + 24 = | x:student 18:student +:student 24:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 432 | (x/18)=24 | x 18 / 24 = | x:UNKNOWN 18:student /:UNKNOWN 24:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 25 | 6 | 18=(24-x) | 18 24 x - = | 18:student 24:student x:student -:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 6 | (18+x)=24 | 18 x + 24 = | 18:student x:student +:student 24:student =:student
+EXPR: 0 | POS | INT | 14 | 25 | 42 | 18=(x-24) | 18 x 24 - = | 18:student x:student 24:student -:student =:student
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

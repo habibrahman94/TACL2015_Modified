@@ -1,5 +1,5 @@
-quantities : 7,341 4,221 x
-types : "cell" "cell" "cell"
+quantities : 930 0.1 x
+types : "bookmark" "Books" "bookmark"
 operators : + - * / =
 n : 5
-answer : 3120.0
+answer : 1023.0

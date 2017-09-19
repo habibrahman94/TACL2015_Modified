@@ -1,5 +1,5 @@
-quantities : 61 26 7 x
-types : "plate" "plate" "plate" "plate"
+quantities : 2009 5,900 2010 0.71 x 2010
+types : "time" "dollar" "Gordon" "Gordon" "Gordon" "Gordon"
 operators : + - * / =
-n : 7
-answer : 28.0
+n : 11
+answer : 1711.0

@@ -16,6 +16,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multiclass import OneVsOneClassifier
 from sklearn.multiclass import OneVsRestClassifier
+from sklearn import decomposition
 
 modelLocal = None
 modelGlob = None
@@ -180,11 +181,21 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
     if op == '=':
         vec = [order,score,cons]
         vec.extend(makesets.vector(p,e,problem,story,target))
-        op_val = modelGlobal.predict_proba([vec])
+        vec = [vec]
+        pca = decomposition.PCA(n_components=45)
+        pca.fit(vec)
+        vec = pca.transform(vec)
+        vec = vec.tolist()
+        op_val = modelGlobal.predict_proba(vec)
         
     else:
         vec = makesets.vector(p,e,problem,story,target)
-        op_val = modelLocal.predict_proba([vec])
+        vec = [vec]
+        pca = decomposition.PCA(n_components=45)
+        pca.fit(vec)
+        vec = pca.transform(vec)
+        vec = vec.tolist()
+        op_val = modelLocal.predict_proba(vec)
     
     print op_val[0]
     
@@ -239,6 +250,16 @@ if __name__=="__main__":
     
     Local_Features, Local_Label = norm(Lfile, LLabelFile)
     Global_Features, Global_Label = norm(gfile, gLabelFile)
+    
+    pca = decomposition.PCA(n_components=45)
+    pca.fit(Local_Features)
+    Local_Features = pca.transform(Local_Features)
+    Local_Features = Local_Features.tolist()
+    
+    pca2 = decomposition.PCA(n_components=45)
+    pca2.fit(Global_Features)
+    Global_Features = pca2.transform(Global_Features)
+    Global_Features = Global_Features.tolist()
     
     modelLocal = OneVsRestClassifier(RandomForestClassifier())
     modelGlobal = OneVsRestClassifier(RandomForestClassifier())

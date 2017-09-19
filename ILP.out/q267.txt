@@ -1,5 +1,5 @@
-quantities : 30.0 49.0 46.0 58.0 x
-types : "money" "money" "money" "money" "money"
+quantities : 0.25 50 x
+types : "time" "teacher" "teacher"
 operators : + - * / =
-n : 9
-answer : 67.0
+n : 5
+answer : 200.0

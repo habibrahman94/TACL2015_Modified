@@ -1,5 +1,5 @@
-quantities : 9 3 x
-types : "marble" "marble" "marble"
+quantities : 10 0.5 x
+types : "game" "team" "game"
 operators : + - * / =
 n : 5
-answer : 12.0
+answer : 20.0

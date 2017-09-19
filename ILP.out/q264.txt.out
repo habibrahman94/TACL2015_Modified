@@ -1,359 +1,40 @@
-parameters: n=7 l=3 k=1 p=5 q=2 m=9
-TOTAL 1000 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 35 | 135 | x=(85.0+(10*5.0)) | x 85.0 10 5.0 * + = | x:money 85.0:money 10:book 5.0:money *:money +:money =:money
-EXPR: 0 | POS | INT | 0 | 35 | 855 | ((85.0*10)+5.0)=x | 85.0 10 * 5.0 + x = | 85.0:money 10:book *:money 5.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 35 | 135 | (85.0+(10*5.0))=x | 85.0 10 5.0 * + x = | 85.0:money 10:book 5.0:money *:money +:money x:money =:money
-EXPR: 1 | POS | INT | 0 | 35 | 35 | (85.0-(10*5.0))=x | 85.0 10 5.0 * - x = | 85.0:money 10:book 5.0:money *:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 35 | 845 | ((85.0*10)-5.0)=x | 85.0 10 * 5.0 - x = | 85.0:money 10:book *:money 5.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 0 | 35 | 855 | x=((85.0*10)+5.0) | x 85.0 10 * 5.0 + = | x:money 85.0:money 10:book *:money 5.0:money +:money =:money
-EXPR: 1 | POS | INT | 0 | 35 | 35 | x=(85.0-(10*5.0)) | x 85.0 10 5.0 * - = | x:money 85.0:money 10:book 5.0:money *:money -:money =:money
-EXPR: 0 | POS | INT | 0 | 35 | 845 | x=((85.0*10)-5.0) | x 85.0 10 * 5.0 - = | x:money 85.0:money 10:book *:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 800 | ((85.0-5.0)*10)=x | 85.0 5.0 - 10 * x = | 85.0:money 5.0:money -:money 10:book *:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 8 | 85.0=((x*10)+5.0) | 85.0 x 10 * 5.0 + = | 85.0:money x:money 10:book *:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 800 | 85.0=((x/10)+5.0) | 85.0 x 10 / 5.0 + = | 85.0:money x:money 10:book /:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 800 | x=((85.0-5.0)*10) | x 85.0 5.0 - 10 * = | x:money 85.0:money 5.0:money -:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 8 | x=((85.0-5.0)/10) | x 85.0 5.0 - 10 / = | x:money 85.0:money 5.0:money -:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 8 | (85.0-(10*x))=5.0 | 85.0 10 x * - 5.0 = | 85.0:money 10:book x:money *:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 900 | (10*(85.0+5.0))=x | 10 85.0 5.0 + * x = | 10:book 85.0:money 5.0:money +:money *:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 9 | 85.0=((x*10)-5.0) | 85.0 x 10 * 5.0 - = | 85.0:money x:money 10:book *:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 900 | 85.0=((x/10)-5.0) | 85.0 x 10 / 5.0 - = | 85.0:money x:money 10:book /:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 9 | ((85.0+5.0)/10)=x | 85.0 5.0 + 10 / x = | 85.0:money 5.0:money +:money 10:book /:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 855 | (x-(85.0*10))=5.0 | x 85.0 10 * - 5.0 = | x:money 85.0:money 10:book *:money -:money 5.0:money =:money
-EXPR: 1 | POS | INT | 2 | 35 | 35 | 85.0=((10*5.0)+x) | 85.0 10 5.0 * x + = | 85.0:money 10:book 5.0:money *:money x:money +:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 900 | x=((85.0+5.0)*10) | x 85.0 5.0 + 10 * = | x:money 85.0:money 5.0:money +:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 9 | x=((85.0+5.0)/10) | x 85.0 5.0 + 10 / = | x:money 85.0:money 5.0:money +:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 8 | ((85.0-5.0)/10)=x | 85.0 5.0 - 10 / x = | 85.0:money 5.0:money -:money 10:book /:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 8 | 85.0=((10*x)+5.0) | 85.0 10 x * 5.0 + = | 85.0:money 10:book x:money *:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 9 | 85.0=((10*x)-5.0) | 85.0 10 x * 5.0 - = | 85.0:money 10:book x:money *:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 900 | x=(10*(85.0+5.0)) | x 10 85.0 5.0 + * = | x:money 10:book 85.0:money 5.0:money +:money *:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 800 | x=(10*(85.0-5.0)) | x 10 85.0 5.0 - * = | x:money 10:book 85.0:money 5.0:money -:money *:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 8 | (85.0-(x*10))=5.0 | 85.0 x 10 * - 5.0 = | 85.0:money x:money 10:book *:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 800 | (10*(85.0-5.0))=x | 10 85.0 5.0 - * x = | 10:book 85.0:money 5.0:money -:money *:money x:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 845 | ((85.0*10)-x)=5.0 | 85.0 10 * x - 5.0 = | 85.0:money 10:book *:money x:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 800 | (85.0-(x/10))=5.0 | 85.0 x 10 / - 5.0 = | 85.0:money x:money 10:book /:money -:money 5.0:money =:money
-EXPR: 1 | POS | INT | 2 | 35 | 35 | 85.0=(x+(10*5.0)) | 85.0 x 10 5.0 * + = | 85.0:money x:money 10:book 5.0:money *:money +:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 135 | 85.0=(x-(10*5.0)) | 85.0 x 10 5.0 * - = | 85.0:money x:money 10:book 5.0:money *:money -:money =:money
-EXPR: 1 | POS | INT | 2 | 35 | 35 | ((85.0-x)/10)=5.0 | 85.0 x - 10 / 5.0 = | 85.0:money x:money -:money 10:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 135 | ((x-85.0)/10)=5.0 | x 85.0 - 10 / 5.0 = | x:money 85.0:money -:money 10:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 2 | 35 | 900 | ((85.0+5.0)*10)=x | 85.0 5.0 + 10 * x = | 85.0:money 5.0:money +:money 10:book *:money x:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 900 | ((x/10)-85.0)=5.0 | x 10 / 85.0 - 5.0 = | x:money 10:book /:money 85.0:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 9 | ((x*10)-85.0)=5.0 | x 10 * 85.0 - 5.0 = | x:money 10:book *:money 85.0:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 845 | 85.0=((x+5.0)/10) | 85.0 x 5.0 + 10 / = | 85.0:money x:money 5.0:money +:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 800 | 85.0=(5.0+(x/10)) | 85.0 5.0 x 10 / + = | 85.0:money 5.0:money x:money 10:book /:money +:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 8 | 85.0=(5.0+(x*10)) | 85.0 5.0 x 10 * + = | 85.0:money 5.0:money x:money 10:book *:money +:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 855 | 85.0=((x-5.0)/10) | 85.0 x 5.0 - 10 / = | 85.0:money x:money 5.0:money -:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 845 | 85.0=((5.0+x)/10) | 85.0 5.0 x + 10 / = | 85.0:money 5.0:money x:money +:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 8 | 85.0=(5.0+(10*x)) | 85.0 5.0 10 x * + = | 85.0:money 5.0:money 10:book x:money *:money +:money =:money
-EXPR: 0 | POS | INT | 4 | 35 | 9 | ((10*x)-85.0)=5.0 | 10 x * 85.0 - 5.0 = | 10:book x:money *:money 85.0:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 5 | 35 | 135 | x=((10*5.0)+85.0) | x 10 5.0 * 85.0 + = | x:money 10:book 5.0:money *:money 85.0:money +:money =:money
-EXPR: 0 | POS | INT | 5 | 35 | 855 | x=(5.0+(85.0*10)) | x 5.0 85.0 10 * + = | x:money 5.0:money 85.0:money 10:book *:money +:money =:money
-EXPR: 0 | POS | INT | 5 | 35 | 135 | ((10*5.0)+85.0)=x | 10 5.0 * 85.0 + x = | 10:book 5.0:money *:money 85.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 5 | 35 | 855 | (5.0+(85.0*10))=x | 5.0 85.0 10 * + x = | 5.0:money 85.0:money 10:book *:money +:money x:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 8 | ((x*10)+5.0)=85.0 | x 10 * 5.0 + 85.0 = | x:money 10:book *:money 5.0:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 800 | ((x/10)+5.0)=85.0 | x 10 / 5.0 + 85.0 = | x:money 10:book /:money 5.0:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 900 | ((x/10)-5.0)=85.0 | x 10 / 5.0 - 85.0 = | x:money 10:book /:money 5.0:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 9 | ((x*10)-5.0)=85.0 | x 10 * 5.0 - 85.0 = | x:money 10:book *:money 5.0:money -:money 85.0:money =:money
-EXPR: 1 | POS | INT | 7 | 35 | 35 | 5.0=((85.0-x)/10) | 5.0 85.0 x - 10 / = | 5.0:money 85.0:money x:money -:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 9 | ((10*x)-5.0)=85.0 | 10 x * 5.0 - 85.0 = | 10:book x:money *:money 5.0:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 8 | ((10*x)+5.0)=85.0 | 10 x * 5.0 + 85.0 = | 10:book x:money *:money 5.0:money +:money 85.0:money =:money
-EXPR: 1 | POS | INT | 7 | 35 | 35 | ((10*5.0)+x)=85.0 | 10 5.0 * x + 85.0 = | 10:book 5.0:money *:money x:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 8 | 5.0=(85.0-(10*x)) | 5.0 85.0 10 x * - = | 5.0:money 85.0:money 10:book x:money *:money -:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 855 | 5.0=(x-(85.0*10)) | 5.0 x 85.0 10 * - = | 5.0:money x:money 85.0:money 10:book *:money -:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 135 | 5.0=((x-85.0)/10) | 5.0 x 85.0 - 10 / = | 5.0:money x:money 85.0:money -:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 8 | 5.0=(85.0-(x*10)) | 5.0 85.0 x 10 * - = | 5.0:money 85.0:money x:money 10:book *:money -:money =:money
-EXPR: 1 | POS | INT | 7 | 35 | 35 | (x+(10*5.0))=85.0 | x 10 5.0 * + 85.0 = | x:money 10:book 5.0:money *:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 135 | (x-(10*5.0))=85.0 | x 10 5.0 * - 85.0 = | x:money 10:book 5.0:money *:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 845 | 5.0=((85.0*10)-x) | 5.0 85.0 10 * x - = | 5.0:money 85.0:money 10:book *:money x:money -:money =:money
-EXPR: 0 | POS | INT | 7 | 35 | 800 | 5.0=(85.0-(x/10)) | 5.0 85.0 x 10 / - = | 5.0:money 85.0:money x:money 10:book /:money -:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 9 | 5.0=((x*10)-85.0) | 5.0 x 10 * 85.0 - = | 5.0:money x:money 10:book *:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 800 | (5.0+(x/10))=85.0 | 5.0 x 10 / + 85.0 = | 5.0:money x:money 10:book /:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 8 | (5.0+(x*10))=85.0 | 5.0 x 10 * + 85.0 = | 5.0:money x:money 10:book *:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 900 | 5.0=((x/10)-85.0) | 5.0 x 10 / 85.0 - = | 5.0:money x:money 10:book /:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 8 | (5.0+(10*x))=85.0 | 5.0 10 x * + 85.0 = | 5.0:money 10:book x:money *:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 845 | ((5.0+x)/10)=85.0 | 5.0 x + 10 / 85.0 = | 5.0:money x:money +:money 10:book /:money 85.0:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 855 | ((x-5.0)/10)=85.0 | x 5.0 - 10 / 85.0 = | x:money 5.0:money -:money 10:book /:money 85.0:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 9 | 5.0=((10*x)-85.0) | 5.0 10 x * 85.0 - = | 5.0:money 10:book x:money *:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 9 | 35 | 845 | ((x+5.0)/10)=85.0 | x 5.0 + 10 / 85.0 = | x:money 5.0:money +:money 10:book /:money 85.0:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 1275 | (85.0*(10+5.0))=x | 85.0 10 5.0 + * x = | 85.0:money 10:book 5.0:book +:book *:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 70 | (85.0-(10+5.0))=x | 85.0 10 5.0 + - x = | 85.0:money 10:money 5.0:money +:money -:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 90 | x=(85.0+(10-5.0)) | x 85.0 10 5.0 - + = | x:money 85.0:money 10:money 5.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 90 | (85.0+(10-5.0))=x | 85.0 10 5.0 - + x = | 85.0:money 10:money 5.0:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 375 | x=((85.0-10)*5.0) | x 85.0 10 - 5.0 * = | x:money 85.0:book 10:book -:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 1275 | x=(85.0*(10+5.0)) | x 85.0 10 5.0 + * = | x:money 85.0:money 10:book 5.0:book +:book *:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 17 | x=(85.0/(10-5.0)) | x 85.0 10 5.0 - / = | x:money 85.0:money 10:book 5.0:book -:book /:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 375 | ((85.0-10)*5.0)=x | 85.0 10 - 5.0 * x = | 85.0:book 10:book -:book 5.0:money *:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 100 | x=(85.0+(10+5.0)) | x 85.0 10 5.0 + + = | x:money 85.0:money 10:money 5.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 100 | (85.0+(10+5.0))=x | 85.0 10 5.0 + + x = | 85.0:money 10:money 5.0:money +:money +:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 100 | x=((85.0+10)+5.0) | x 85.0 10 + 5.0 + = | x:money 85.0:money 10:money +:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 475 | x=((85.0+10)*5.0) | x 85.0 10 + 5.0 * = | x:money 85.0:book 10:book +:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 425 | (85.0*(10-5.0))=x | 85.0 10 5.0 - * x = | 85.0:money 10:book 5.0:book -:book *:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 17 | (85.0/(10-5.0))=x | 85.0 10 5.0 - / x = | 85.0:money 10:book 5.0:book -:book /:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 70 | x=(85.0-(10+5.0)) | x 85.0 10 5.0 + - = | x:money 85.0:money 10:money 5.0:money +:money -:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 475 | ((85.0+10)*5.0)=x | 85.0 10 + 5.0 * x = | 85.0:book 10:book +:book 5.0:money *:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 80 | x=(85.0-(10-5.0)) | x 85.0 10 5.0 - - = | x:money 85.0:money 10:money 5.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 80 | (85.0-(10-5.0))=x | 85.0 10 5.0 - - x = | 85.0:money 10:money 5.0:money -:money -:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 425 | x=(85.0*(10-5.0)) | x 85.0 10 5.0 - * = | x:money 85.0:money 10:book 5.0:book -:book *:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 80 | x=((85.0-10)+5.0) | x 85.0 10 - 5.0 + = | x:money 85.0:money 10:money -:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 70 | x=((85.0-10)-5.0) | x 85.0 10 - 5.0 - = | x:money 85.0:money 10:money -:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 80 | ((85.0-10)+5.0)=x | 85.0 10 - 5.0 + x = | 85.0:money 10:money -:money 5.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 100 | ((85.0+10)+5.0)=x | 85.0 10 + 5.0 + x = | 85.0:money 10:money +:money 5.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 70 | ((85.0-10)-5.0)=x | 85.0 10 - 5.0 - x = | 85.0:money 10:money -:money 5.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 90 | ((85.0+10)-5.0)=x | 85.0 10 + 5.0 - x = | 85.0:money 10:money +:money 5.0:money -:money x:money =:money
-EXPR: 0 | POS | INT | 10 | 35 | 90 | x=((85.0+10)-5.0) | x 85.0 10 + 5.0 - = | x:money 85.0:money 10:money +:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 7 | 85.0=((x+10)*5.0) | 85.0 x 10 + 5.0 * = | 85.0:money x:book 10:book +:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | ((85.0+5.0)-10)=x | 85.0 5.0 + 10 - x = | 85.0:money 5.0:money +:money 10:money -:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | (10+(85.0+5.0))=x | 10 85.0 5.0 + + x = | 10:money 85.0:money 5.0:money +:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | (10+(85.0-5.0))=x | 10 85.0 5.0 - + x = | 10:money 85.0:money 5.0:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 7 | (85.0/(10+x))=5.0 | 85.0 10 x + / 5.0 = | 85.0:money 10:book x:book +:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | (85.0-(10+x))=5.0 | 85.0 10 x + - 5.0 = | 85.0:money 10:money x:money +:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | x=((85.0-5.0)+10) | x 85.0 5.0 - 10 + = | x:money 85.0:money 5.0:money -:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 17 | 85.0=((10-5.0)*x) | 85.0 10 5.0 - x * = | 85.0:money 10:book 5.0:book -:book x:money *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | x=((85.0+5.0)+10) | x 85.0 5.0 + 10 + = | x:money 85.0:money 5.0:money +:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | 85.0=((x-10)+5.0) | 85.0 x 10 - 5.0 + = | 85.0:money x:money 10:money -:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | (x-(85.0+10))=5.0 | x 85.0 10 + - 5.0 = | x:money 85.0:money 10:money +:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 475 | (x/(85.0+10))=5.0 | x 85.0 10 + / 5.0 = | x:money 85.0:book 10:book +:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | 85.0=((x-10)-5.0) | 85.0 x 10 - 5.0 - = | 85.0:money x:money 10:money -:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | (85.0+(5.0-10))=x | 85.0 5.0 10 - + x = | 85.0:money 5.0:money 10:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | ((85.0-5.0)+10)=x | 85.0 5.0 - 10 + x = | 85.0:money 5.0:money -:money 10:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | ((85.0-x)+10)=5.0 | 85.0 x - 10 + 5.0 = | 85.0:money x:money -:money 10:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | ((85.0-x)-10)=5.0 | 85.0 x - 10 - 5.0 = | 85.0:money x:money -:money 10:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 27 | 85.0=((x-10)*5.0) | 85.0 x 10 - 5.0 * = | 85.0:money x:book 10:book -:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=((x+10)-5.0) | 85.0 x 10 + 5.0 - = | 85.0:money x:money 10:money +:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | x=((85.0-5.0)-10) | x 85.0 5.0 - 10 - = | x:money 85.0:money 5.0:money -:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | x=(10+(85.0+5.0)) | x 10 85.0 5.0 + + = | x:money 10:money 85.0:money 5.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 7 | 85.0=((10+x)*5.0) | 85.0 10 x + 5.0 * = | 85.0:money 10:book x:book +:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 7 | (85.0/(x+10))=5.0 | 85.0 x 10 + / 5.0 = | 85.0:money x:book 10:book +:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 27 | (85.0/(x-10))=5.0 | 85.0 x 10 - / 5.0 = | 85.0:money x:book 10:book -:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | 85.0=((10+x)+5.0) | 85.0 10 x + 5.0 + = | 85.0:money 10:money x:money +:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=((10+x)-5.0) | 85.0 10 x + 5.0 - = | 85.0:money 10:money x:money +:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | (x-(85.0-10))=5.0 | x 85.0 10 - - 5.0 = | x:money 85.0:money 10:money -:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | (85.0-(x+10))=5.0 | 85.0 x 10 + - 5.0 = | 85.0:money x:money 10:money +:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 845 | (85.0*10)=(5.0+x) | 85.0 10 * 5.0 x + = | 85.0:money 10:book *:money 5.0:money x:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | x=(10+(85.0-5.0)) | x 10 85.0 5.0 - + = | x:money 10:money 85.0:money 5.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | (85.0-(x-10))=5.0 | 85.0 x 10 - - 5.0 = | 85.0:money x:money 10:money -:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 375 | (x/(85.0-10))=5.0 | x 85.0 10 - / 5.0 = | x:money 85.0:book 10:book -:book /:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=((10-5.0)+x) | 85.0 10 5.0 - x + = | 85.0:money 10:money 5.0:money -:money x:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | x=((85.0+5.0)-10) | x 85.0 5.0 + 10 - = | x:money 85.0:money 5.0:money +:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=(x+(10-5.0)) | 85.0 x 10 5.0 - + = | 85.0:money x:money 10:money 5.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 135 | (x-85.0)=(10*5.0) | x 85.0 - 10 5.0 * = | x:money 85.0:money -:money 10:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | 85.0=(x-(10+5.0)) | 85.0 x 10 5.0 + - = | 85.0:money x:money 10:money 5.0:money +:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | ((85.0-5.0)-10)=x | 85.0 5.0 - 10 - x = | 85.0:money 5.0:money -:money 10:money -:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | ((85.0+5.0)+10)=x | 85.0 5.0 + 10 + x = | 85.0:money 5.0:money +:money 10:money +:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 845 | (85.0*10)=(x+5.0) | 85.0 10 * x 5.0 + = | 85.0:money 10:book *:money x:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | x=(85.0+(5.0-10)) | x 85.0 5.0 10 - + = | x:money 85.0:money 5.0:money 10:money -:money +:money =:money
-EXPR: 1 | POS | INT | 12 | 35 | 35 | (85.0-x)=(10*5.0) | 85.0 x - 10 5.0 * = | 85.0:money x:money -:money 10:book 5.0:money *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | 85.0=((10+5.0)+x) | 85.0 10 5.0 + x + = | 85.0:money 10:money 5.0:money +:money x:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 1275 | 85.0=(x/(10+5.0)) | 85.0 x 10 5.0 + / = | 85.0:money x:money 10:book 5.0:book +:book /:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | x=(85.0-(5.0-10)) | x 85.0 5.0 10 - - = | x:money 85.0:money 5.0:money 10:money -:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | 85.0=((x+10)+5.0) | 85.0 x 10 + 5.0 + = | 85.0:money x:money 10:money +:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | (85.0-(5.0-10))=x | 85.0 5.0 10 - - x = | 85.0:money 5.0:money 10:money -:money -:money x:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 17 | 85.0=(x*(10-5.0)) | 85.0 x 10 5.0 - * = | 85.0:money x:money 10:book 5.0:book -:book *:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 425 | 85.0=(x/(10-5.0)) | 85.0 x 10 5.0 - / = | 85.0:money x:money 10:book 5.0:book -:book /:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 855 | (85.0*10)=(x-5.0) | 85.0 10 * x 5.0 - = | 85.0:money 10:book *:money x:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | 85.0=(x+(10+5.0)) | 85.0 x 10 5.0 + + = | 85.0:money x:money 10:money 5.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | (85.0+(10-x))=5.0 | 85.0 10 x - + 5.0 = | 85.0:money 10:money x:money -:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | ((85.0+10)-x)=5.0 | 85.0 10 + x - 5.0 = | 85.0:money 10:money +:money x:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 90 | 85.0=(x-(10-5.0)) | 85.0 x 10 5.0 - - = | 85.0:money x:money 10:money 5.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | 85.0=(10+(x+5.0)) | 85.0 10 x 5.0 + + = | 85.0:money 10:money x:money 5.0:money +:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | 85.0=(10+(5.0+x)) | 85.0 10 5.0 x + + = | 85.0:money 10:money 5.0:money x:money +:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=(10+(x-5.0)) | 85.0 10 x 5.0 - + = | 85.0:money 10:money x:money 5.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | 85.0=(10-(5.0-x)) | 85.0 10 5.0 x - - = | 85.0:money 10:money 5.0:money x:money -:money -:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 100 | ((x-85.0)-10)=5.0 | x 85.0 - 10 - 5.0 = | x:money 85.0:money -:money 10:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 80 | ((x-85.0)+10)=5.0 | x 85.0 - 10 + 5.0 = | x:money 85.0:money -:money 10:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 12 | 35 | 70 | ((85.0-10)-x)=5.0 | 85.0 10 - x - 5.0 = | 85.0:money 10:money -:money x:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 900 | 10=(x/(85.0+5.0)) | 10 x 85.0 5.0 + / = | 10:book x:book 85.0:money 5.0:money +:money /:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 100 | (x-(85.0+5.0))=10 | x 85.0 5.0 + - 10 = | x:money 85.0:money 5.0:money +:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 900 | (x/(85.0+5.0))=10 | x 85.0 5.0 + / 10 = | x:book 85.0:money 5.0:money +:money /:book 10:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 800 | 10=(x/(85.0-5.0)) | 10 x 85.0 5.0 - / = | 10:book x:book 85.0:money 5.0:money -:money /:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 80 | (x+(10-85.0))=5.0 | x 10 85.0 - + 5.0 = | x:money 10:money 85.0:money -:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | (10-(85.0-x))=5.0 | 10 85.0 x - - 5.0 = | 10:money 85.0:money x:money -:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | ((85.0-x)+5.0)=10 | 85.0 x - 5.0 + 10 = | 85.0:money x:money -:money 5.0:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 83 | 10=((85.0-x)*5.0) | 10 85.0 x - 5.0 * = | 10:book 85.0:money x:money -:money 5.0:book *:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 80 | (10+(x-85.0))=5.0 | 10 x 85.0 - + 5.0 = | 10:money x:money 85.0:money -:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | (10+(85.0-x))=5.0 | 10 85.0 x - + 5.0 = | 10:money 85.0:money x:money -:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | 85.0=((x-5.0)+10) | 85.0 x 5.0 - 10 + = | 85.0:money x:money 5.0:money -:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | ((10-x)+85.0)=5.0 | 10 x - 85.0 + 5.0 = | 10:money x:money -:money 85.0:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 87 | 10=((x-85.0)*5.0) | 10 x 85.0 - 5.0 * = | 10:book x:money 85.0:money -:money 5.0:book *:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 90 | (10-(x-85.0))=5.0 | 10 x 85.0 - - 5.0 = | 10:money x:money 85.0:money -:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 85.0=((x+5.0)+10) | 85.0 x 5.0 + 10 + = | 85.0:money x:money 5.0:money +:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | ((10+x)-85.0)=5.0 | 10 x + 85.0 - 5.0 = | 10:money x:money +:money 85.0:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 9 | (x*10)=(85.0+5.0) | x 10 * 85.0 5.0 + = | x:money 10:book *:money 85.0:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 900 | (x/10)=(85.0+5.0) | x 10 / 85.0 5.0 + = | x:money 10:book /:money 85.0:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | (85.0-(x+5.0))=10 | 85.0 x 5.0 + - 10 = | 85.0:money x:money 5.0:money +:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | (x-(85.0-5.0))=10 | x 85.0 5.0 - - 10 = | x:money 85.0:money 5.0:money -:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 800 | (x/10)=(85.0-5.0) | x 10 / 85.0 5.0 - = | x:money 10:book /:money 85.0:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 85.0=((5.0+x)+10) | 85.0 5.0 x + 10 + = | 85.0:money 5.0:money x:money +:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 100 | 85.0=((x-5.0)-10) | 85.0 x 5.0 - 10 - = | 85.0:money x:money 5.0:money -:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 85.0=((5.0+x)-10) | 85.0 5.0 x + 10 - = | 85.0:money 5.0:money x:money +:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | (85.0-(5.0+x))=10 | 85.0 5.0 x + - 10 = | 85.0:money 5.0:money x:money +:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 800 | (x/(85.0-5.0))=10 | x 85.0 5.0 - / 10 = | x:book 85.0:money 5.0:money -:money /:book 10:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 70 | ((85.0-x)-5.0)=10 | 85.0 x - 5.0 - 10 = | 85.0:money x:money -:money 5.0:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | (85.0-(x-5.0))=10 | 85.0 x 5.0 - - 10 = | 85.0:money x:money 5.0:money -:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 85.0=((x+5.0)-10) | 85.0 x 5.0 + 10 - = | 85.0:money x:money 5.0:money +:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 8 | (x*10)=(85.0-5.0) | x 10 * 85.0 5.0 - = | x:money 10:book *:money 85.0:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 10=((85.0-5.0)-x) | 10 85.0 5.0 - x - = | 10:money 85.0:money 5.0:money -:money x:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 10=((x-85.0)+5.0) | 10 x 85.0 - 5.0 + = | 10:money x:money 85.0:money -:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | ((85.0-5.0)-x)=10 | 85.0 5.0 - x - 10 = | 85.0:money 5.0:money -:money x:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 85.0=((5.0-10)+x) | 85.0 5.0 10 - x + = | 85.0:money 5.0:money 10:money -:money x:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 83 | ((85.0-x)*5.0)=10 | 85.0 x - 5.0 * 10 = | 85.0:money x:money -:money 5.0:book *:book 10:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 87 | (10/(x-85.0))=5.0 | 10 x 85.0 - / 5.0 = | 10:book x:money 85.0:money -:money /:book 5.0:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 83 | (10/(85.0-x))=5.0 | 10 85.0 x - / 5.0 = | 10:book 85.0:money x:money -:money /:book 5.0:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 80 | 10=((85.0-x)+5.0) | 10 85.0 x - 5.0 + = | 10:money 85.0:money x:money -:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 8 | (85.0-5.0)=(x*10) | 85.0 5.0 - x 10 * = | 85.0:money 5.0:money -:money x:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 85.0=(x+(5.0-10)) | 85.0 x 5.0 10 - + = | 85.0:money x:money 5.0:money 10:money -:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 85.0=(5.0+(10+x)) | 85.0 5.0 10 x + + = | 85.0:money 5.0:money 10:money x:money +:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 85.0=(5.0-(10-x)) | 85.0 5.0 10 x - - = | 85.0:money 5.0:money 10:money x:money -:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | ((85.0+5.0)-x)=10 | 85.0 5.0 + x - 10 = | 85.0:money 5.0:money +:money x:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 800 | (85.0-5.0)=(x/10) | 85.0 5.0 - x 10 / = | 85.0:money 5.0:money -:money x:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 7 | 85.0=(5.0*(10+x)) | 85.0 5.0 10 x + * = | 85.0:money 5.0:money 10:book x:book +:book *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | (85.0+(5.0-x))=10 | 85.0 5.0 x - + 10 = | 85.0:money 5.0:money x:money -:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 10=((85.0-x)-5.0) | 10 85.0 x - 5.0 - = | 10:money 85.0:money x:money -:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 100 | 10=(x-(85.0+5.0)) | 10 x 85.0 5.0 + - = | 10:money x:money 85.0:money 5.0:money +:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 100 | 10=((x-85.0)-5.0) | 10 x 85.0 - 5.0 - = | 10:money x:money 85.0:money -:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 9 | (85.0+5.0)=(x*10) | 85.0 5.0 + x 10 * = | 85.0:money 5.0:money +:money x:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 900 | (85.0+5.0)=(x/10) | 85.0 5.0 + x 10 / = | 85.0:money 5.0:money +:money x:money 10:book /:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 10=(85.0-(x+5.0)) | 10 85.0 x 5.0 + - = | 10:money 85.0:money x:money 5.0:money +:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | 10=((85.0+5.0)-x) | 10 85.0 5.0 + x - = | 10:money 85.0:money 5.0:money +:money x:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 7 | 85.0=(5.0*(x+10)) | 85.0 5.0 x 10 + * = | 85.0:money 5.0:money x:book 10:book +:book *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 9 | (10*x)=(85.0+5.0) | 10 x * 85.0 5.0 + = | 10:book x:money *:money 85.0:money 5.0:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 10=(x-(85.0-5.0)) | 10 x 85.0 5.0 - - = | 10:money x:money 85.0:money 5.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 8 | (85.0-5.0)=(10*x) | 85.0 5.0 - 10 x * = | 85.0:money 5.0:money -:money 10:book x:money *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 27 | 85.0=(5.0*(x-10)) | 85.0 5.0 x 10 - * = | 85.0:money 5.0:money x:book 10:book -:book *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | 10=(85.0-(x-5.0)) | 10 85.0 x 5.0 - - = | 10:money 85.0:money x:money 5.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 87 | ((x-85.0)*5.0)=10 | x 85.0 - 5.0 * 10 = | x:money 85.0:money -:money 5.0:book *:book 10:book =:book
-EXPR: 0 | POS | INT | 14 | 35 | 80 | ((10-85.0)+x)=5.0 | 10 85.0 - x + 5.0 = | 10:money 85.0:money -:money x:money +:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | 10=(85.0+(5.0-x)) | 10 85.0 5.0 x - + = | 10:money 85.0:money 5.0:money x:money -:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 10=(85.0-(5.0+x)) | 10 85.0 5.0 x + - = | 10:money 85.0:money 5.0:money x:money +:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | 85.0=(x-(5.0-10)) | 85.0 x 5.0 10 - - = | 85.0:money x:money 5.0:money 10:money -:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 9 | (85.0+5.0)=(10*x) | 85.0 5.0 + 10 x * = | 85.0:money 5.0:money +:money 10:book x:money *:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 100 | ((x-10)-85.0)=5.0 | x 10 - 85.0 - 5.0 = | x:money 10:money -:money 85.0:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 100 | ((x-85.0)-5.0)=10 | x 85.0 - 5.0 - 10 = | x:money 85.0:money -:money 5.0:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | 85.0=(5.0+(x-10)) | 85.0 5.0 x 10 - + = | 85.0:money 5.0:money x:money 10:money -:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 8 | (10*x)=(85.0-5.0) | 10 x * 85.0 5.0 - = | 10:book x:money *:money 85.0:money 5.0:money -:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 90 | ((x-85.0)+5.0)=10 | x 85.0 - 5.0 + 10 = | x:money 85.0:money -:money 5.0:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 70 | 85.0=(5.0+(x+10)) | 85.0 5.0 x 10 + + = | 85.0:money 5.0:money x:money 10:money +:money +:money =:money
-EXPR: 0 | POS | INT | 14 | 35 | 80 | ((x+10)-85.0)=5.0 | x 10 + 85.0 - 5.0 = | x:money 10:money +:money 85.0:money -:money 5.0:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 90 | x=(10-(5.0-85.0)) | x 10 5.0 85.0 - - = | x:money 10:money 5.0:money 85.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 475 | (5.0*(85.0+10))=x | 5.0 85.0 10 + * x = | 5.0:money 85.0:book 10:book +:book *:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 90 | ((10-5.0)+85.0)=x | 10 5.0 - 85.0 + x = | 10:money 5.0:money -:money 85.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 80 | (5.0+(85.0-10))=x | 5.0 85.0 10 - + x = | 5.0:money 85.0:money 10:money -:money +:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 100 | x=((10+5.0)+85.0) | x 10 5.0 + 85.0 + = | x:money 10:money 5.0:money +:money 85.0:money +:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 1275 | ((10+5.0)*85.0)=x | 10 5.0 + 85.0 * x = | 10:book 5.0:book +:book 85.0:money *:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 425 | ((10-5.0)*85.0)=x | 10 5.0 - 85.0 * x = | 10:book 5.0:book -:book 85.0:money *:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 475 | x=(5.0*(85.0+10)) | x 5.0 85.0 10 + * = | x:money 5.0:money 85.0:book 10:book +:book *:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 1275 | x=((10+5.0)*85.0) | x 10 5.0 + 85.0 * = | x:money 10:book 5.0:book +:book 85.0:money *:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 90 | x=((10-5.0)+85.0) | x 10 5.0 - 85.0 + = | x:money 10:money 5.0:money -:money 85.0:money +:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 100 | ((10+5.0)+85.0)=x | 10 5.0 + 85.0 + x = | 10:money 5.0:money +:money 85.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 80 | x=(5.0+(85.0-10)) | x 5.0 85.0 10 - + = | x:money 5.0:money 85.0:money 10:money -:money +:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 375 | x=(5.0*(85.0-10)) | x 5.0 85.0 10 - * = | x:money 5.0:money 85.0:book 10:book -:book *:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 90 | (10-(5.0-85.0))=x | 10 5.0 85.0 - - x = | 10:money 5.0:money 85.0:money -:money -:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 375 | (5.0*(85.0-10))=x | 5.0 85.0 10 - * x = | 5.0:money 85.0:book 10:book -:book *:money x:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 100 | x=(5.0+(85.0+10)) | x 5.0 85.0 10 + + = | x:money 5.0:money 85.0:money 10:money +:money +:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 425 | x=((10-5.0)*85.0) | x 10 5.0 - 85.0 * = | x:money 10:book 5.0:book -:book 85.0:money *:money =:money
-EXPR: 0 | POS | INT | 15 | 35 | 100 | (5.0+(85.0+10))=x | 5.0 85.0 10 + + x = | 5.0:money 85.0:money 10:money +:money +:money x:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | (10+(x+5.0))=85.0 | 10 x 5.0 + + 85.0 = | 10:money x:money 5.0:money +:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 100 | (x-(10+5.0))=85.0 | x 10 5.0 + - 85.0 = | x:money 10:money 5.0:money +:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 27 | ((x-10)*5.0)=85.0 | x 10 - 5.0 * 85.0 = | x:book 10:book -:book 5.0:money *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | ((10+x)-5.0)=85.0 | 10 x + 5.0 - 85.0 = | 10:money x:money +:money 5.0:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 7 | ((x+10)*5.0)=85.0 | x 10 + 5.0 * 85.0 = | x:book 10:book +:book 5.0:money *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | ((10+x)+5.0)=85.0 | 10 x + 5.0 + 85.0 = | 10:money x:money +:money 5.0:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | ((5.0+x)-85.0)=10 | 5.0 x + 85.0 - 10 = | 5.0:money x:money +:money 85.0:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | (x+(10+5.0))=85.0 | x 10 5.0 + + 85.0 = | x:money 10:money 5.0:money +:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 17 | (x*(10-5.0))=85.0 | x 10 5.0 - * 85.0 = | x:money 10:book 5.0:book -:book *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 425 | (x/(10-5.0))=85.0 | x 10 5.0 - / 85.0 = | x:money 10:book 5.0:book -:book /:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | ((10+5.0)+x)=85.0 | 10 5.0 + x + 85.0 = | 10:money 5.0:money +:money x:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | (10+(x-5.0))=85.0 | 10 x 5.0 - + 85.0 = | 10:money x:money 5.0:money -:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 17 | ((10-5.0)*x)=85.0 | 10 5.0 - x * 85.0 = | 10:book 5.0:book -:book x:money *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | (10+(5.0+x))=85.0 | 10 5.0 x + + 85.0 = | 10:money 5.0:money x:money +:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 5.0=((85.0-x)+10) | 5.0 85.0 x - 10 + = | 5.0:money 85.0:money x:money -:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | (5.0+(x-85.0))=10 | 5.0 x 85.0 - + 10 = | 5.0:money x:money 85.0:money -:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | (5.0-(x-85.0))=10 | 5.0 x 85.0 - - 10 = | 5.0:money x:money 85.0:money -:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | (x+(10-5.0))=85.0 | x 10 5.0 - + 85.0 = | x:money 10:money 5.0:money -:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | x=((5.0-10)+85.0) | x 5.0 10 - 85.0 + = | x:money 5.0:money 10:money -:money 85.0:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | ((10-5.0)+x)=85.0 | 10 5.0 - x + 85.0 = | 10:money 5.0:money -:money x:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | (x-(10-5.0))=85.0 | x 10 5.0 - - 85.0 = | x:money 10:money 5.0:money -:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 100 | 5.0=((x-85.0)-10) | 5.0 x 85.0 - 10 - = | 5.0:money x:money 85.0:money -:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 855 | (x-5.0)=(85.0*10) | x 5.0 - 85.0 10 * = | x:money 5.0:money -:money 85.0:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | x=(5.0-(10-85.0)) | x 5.0 10 85.0 - - = | x:money 5.0:money 10:money 85.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 1275 | (x/(10+5.0))=85.0 | x 10 5.0 + / 85.0 = | x:money 10:book 5.0:book +:book /:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 100 | ((x-5.0)-85.0)=10 | x 5.0 - 85.0 - 10 = | x:money 5.0:money -:money 85.0:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 845 | (x+5.0)=(85.0*10) | x 5.0 + 85.0 10 * = | x:money 5.0:money +:money 85.0:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 10=((5.0+x)-85.0) | 10 5.0 x + 85.0 - = | 10:money 5.0:money x:money +:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | (5.0+(85.0-x))=10 | 5.0 85.0 x - + 10 = | 5.0:money 85.0:money x:money -:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | (5.0-(10-85.0))=x | 5.0 10 85.0 - - x = | 5.0:money 10:money 85.0:money -:money -:money x:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | 5.0=((x-85.0)+10) | 5.0 x 85.0 - 10 + = | 5.0:money x:money 85.0:money -:money 10:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 10=(x+(5.0-85.0)) | 10 x 5.0 85.0 - + = | 10:money x:money 5.0:money 85.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | (x+(5.0-85.0))=10 | x 5.0 85.0 - + 10 = | x:money 5.0:money 85.0:money -:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 10=((5.0-85.0)+x) | 10 5.0 85.0 - x + = | 10:money 5.0:money 85.0:money -:money x:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 7 | 5.0=(85.0/(10+x)) | 5.0 85.0 10 x + / = | 5.0:money 85.0:money 10:book x:book +:book /:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 845 | (5.0+x)=(85.0*10) | 5.0 x + 85.0 10 * = | 5.0:money x:money +:money 85.0:money 10:book *:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | 10=(5.0+(85.0-x)) | 10 5.0 85.0 x - + = | 10:money 5.0:money 85.0:money x:money -:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 83 | (5.0*(85.0-x))=10 | 5.0 85.0 x - * 10 = | 5.0:book 85.0:money x:money -:money *:book 10:book =:book
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 10=(5.0-(85.0-x)) | 10 5.0 85.0 x - - = | 10:money 5.0:money 85.0:money x:money -:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | (5.0-(85.0-x))=10 | 5.0 85.0 x - - 10 = | 5.0:money 85.0:money x:money -:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 475 | 5.0=(x/(85.0+10)) | 5.0 x 85.0 10 + / = | 5.0:money x:money 85.0:book 10:book +:book /:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | 5.0=((85.0-x)-10) | 5.0 85.0 x - 10 - = | 5.0:money 85.0:money x:money -:money 10:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | ((x+5.0)-85.0)=10 | x 5.0 + 85.0 - 10 = | x:money 5.0:money +:money 85.0:money -:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | 10=((5.0-x)+85.0) | 10 5.0 x - 85.0 + = | 10:money 5.0:money x:money -:money 85.0:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 10=((x+5.0)-85.0) | 10 x 5.0 + 85.0 - = | 10:money x:money 5.0:money +:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 87 | (5.0*(x-85.0))=10 | 5.0 x 85.0 - * 10 = | 5.0:book x:money 85.0:money -:money *:book 10:book =:book
-EXPR: 0 | POS | INT | 17 | 35 | 70 | 5.0=(85.0-(x+10)) | 5.0 85.0 x 10 + - = | 5.0:money 85.0:money x:money 10:money +:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 7 | 5.0=(85.0/(x+10)) | 5.0 85.0 x 10 + / = | 5.0:money 85.0:money x:book 10:book +:book /:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | (10-(5.0-x))=85.0 | 10 5.0 x - - 85.0 = | 10:money 5.0:money x:money -:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 100 | 10=((x-5.0)-85.0) | 10 x 5.0 - 85.0 - = | 10:money x:money 5.0:money -:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | 5.0=((85.0-10)-x) | 5.0 85.0 10 - x - = | 5.0:money 85.0:money 10:money -:money x:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 375 | 5.0=(x/(85.0-10)) | 5.0 x 85.0 10 - / = | 5.0:money x:money 85.0:book 10:book -:book /:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | ((5.0-x)+85.0)=10 | 5.0 x - 85.0 + 10 = | 5.0:money x:money -:money 85.0:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 100 | ((x-10)-5.0)=85.0 | x 10 - 5.0 - 85.0 = | x:money 10:money -:money 5.0:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | ((x+10)+5.0)=85.0 | x 10 + 5.0 + 85.0 = | x:money 10:money +:money 5.0:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 5.0=(85.0-(x-10)) | 5.0 85.0 x 10 - - = | 5.0:money 85.0:money x:money 10:money -:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | 5.0=(x-(85.0-10)) | 5.0 x 85.0 10 - - = | 5.0:money x:money 85.0:money 10:money -:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 100 | 5.0=(x-(85.0+10)) | 5.0 x 85.0 10 + - = | 5.0:money x:money 85.0:money 10:money +:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | 10=(5.0-(x-85.0)) | 10 5.0 x 85.0 - - = | 10:money 5.0:money x:money 85.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | ((x-10)+5.0)=85.0 | x 10 - 5.0 + 85.0 = | x:money 10:money -:money 5.0:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | ((5.0-10)+85.0)=x | 5.0 10 - 85.0 + x = | 5.0:money 10:money -:money 85.0:money +:money x:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 7 | ((10+x)*5.0)=85.0 | 10 x + 5.0 * 85.0 = | 10:book x:book +:book 5.0:money *:money 85.0:money =:money
-EXPR: 1 | POS | INT | 17 | 35 | 35 | (10*5.0)=(85.0-x) | 10 5.0 * 85.0 x - = | 10:book 5.0:money *:money 85.0:money x:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 135 | (10*5.0)=(x-85.0) | 10 5.0 * x 85.0 - = | 10:book 5.0:money *:money x:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 80 | ((x+10)-5.0)=85.0 | x 10 + 5.0 - 85.0 = | x:money 10:money +:money 5.0:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 5.0=(85.0+(10-x)) | 5.0 85.0 10 x - + = | 5.0:money 85.0:money 10:money x:money -:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 70 | 5.0=(85.0-(10+x)) | 5.0 85.0 10 x + - = | 5.0:money 85.0:money 10:money x:money +:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 27 | 5.0=(85.0/(x-10)) | 5.0 85.0 x 10 - / = | 5.0:money 85.0:money x:book 10:book -:book /:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 83 | 10=(5.0*(85.0-x)) | 10 5.0 85.0 x - * = | 10:book 5.0:book 85.0:money x:money -:money *:book =:book
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 10=(5.0+(x-85.0)) | 10 5.0 x 85.0 - + = | 10:money 5.0:money x:money 85.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | ((5.0-85.0)+x)=10 | 5.0 85.0 - x + 10 = | 5.0:money 85.0:money -:money x:money +:money 10:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 90 | 5.0=((85.0+10)-x) | 5.0 85.0 10 + x - = | 5.0:money 85.0:money 10:money +:money x:money -:money =:money
-EXPR: 0 | POS | INT | 17 | 35 | 87 | 10=(5.0*(x-85.0)) | 10 5.0 x 85.0 - * = | 10:book 5.0:book x:money 85.0:money -:money *:book =:book
-EXPR: 0 | POS | INT | 19 | 35 | 70 | (5.0+(10+x))=85.0 | 5.0 10 x + + 85.0 = | 5.0:money 10:money x:money +:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 7 | (5.0*(x+10))=85.0 | 5.0 x 10 + * 85.0 = | 5.0:money x:book 10:book +:book *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | (5.0+(x-10))=85.0 | 5.0 x 10 - + 85.0 = | 5.0:money x:money 10:money -:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 70 | ((x+5.0)+10)=85.0 | x 5.0 + 10 + 85.0 = | x:money 5.0:money +:money 10:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | 5.0=((10-x)+85.0) | 5.0 10 x - 85.0 + = | 5.0:money 10:money x:money -:money 85.0:money +:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 100 | ((x-5.0)-10)=85.0 | x 5.0 - 10 - 85.0 = | x:money 5.0:money -:money 10:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | 5.0=((x+10)-85.0) | 5.0 x 10 + 85.0 - = | 5.0:money x:money 10:money +:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | ((x-5.0)+10)=85.0 | x 5.0 - 10 + 85.0 = | x:money 5.0:money -:money 10:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | (5.0-(10-x))=85.0 | 5.0 10 x - - 85.0 = | 5.0:money 10:money x:money -:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 7 | (5.0*(10+x))=85.0 | 5.0 10 x + * 85.0 = | 5.0:money 10:book x:book +:book *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | ((5.0+x)-10)=85.0 | 5.0 x + 10 - 85.0 = | 5.0:money x:money +:money 10:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | (x+(5.0-10))=85.0 | x 5.0 10 - + 85.0 = | x:money 5.0:money 10:money -:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | (x-(5.0-10))=85.0 | x 5.0 10 - - 85.0 = | x:money 5.0:money 10:money -:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 100 | 5.0=((x-10)-85.0) | 5.0 x 10 - 85.0 - = | 5.0:money x:money 10:money -:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 70 | ((5.0+x)+10)=85.0 | 5.0 x + 10 + 85.0 = | 5.0:money x:money +:money 10:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 70 | (5.0+(x+10))=85.0 | 5.0 x 10 + + 85.0 = | 5.0:money x:money 10:money +:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | 5.0=(x+(10-85.0)) | 5.0 x 10 85.0 - + = | 5.0:money x:money 10:money 85.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 27 | (5.0*(x-10))=85.0 | 5.0 x 10 - * 85.0 = | 5.0:money x:book 10:book -:book *:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | ((x+5.0)-10)=85.0 | x 5.0 + 10 - 85.0 = | x:money 5.0:money +:money 10:money -:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 87 | 5.0=(10/(x-85.0)) | 5.0 10 x 85.0 - / = | 5.0:book 10:book x:money 85.0:money -:money /:book =:book
-EXPR: 0 | POS | INT | 19 | 35 | 83 | 5.0=(10/(85.0-x)) | 5.0 10 85.0 x - / = | 5.0:book 10:book 85.0:money x:money -:money /:book =:book
-EXPR: 0 | POS | INT | 19 | 35 | 80 | 5.0=((10-85.0)+x) | 5.0 10 85.0 - x + = | 5.0:money 10:money 85.0:money -:money x:money +:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | ((5.0-10)+x)=85.0 | 5.0 10 - x + 85.0 = | 5.0:money 10:money -:money x:money +:money 85.0:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | 5.0=(10+(85.0-x)) | 5.0 10 85.0 x - + = | 5.0:money 10:money 85.0:money x:money -:money +:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | 5.0=(10+(x-85.0)) | 5.0 10 x 85.0 - + = | 5.0:money 10:money x:money 85.0:money -:money +:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | 5.0=((10+x)-85.0) | 5.0 10 x + 85.0 - = | 5.0:money 10:money x:money +:money 85.0:money -:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 90 | 5.0=(10-(x-85.0)) | 5.0 10 x 85.0 - - = | 5.0:money 10:money x:money 85.0:money -:money -:money =:money
-EXPR: 0 | POS | INT | 19 | 35 | 80 | 5.0=(10-(85.0-x)) | 5.0 10 85.0 x - - = | 5.0:money 10:money 85.0:money x:money -:money -:money =:money
-EXPR: 0 | POS | INT | 20 | 35 | 87 | (85.0+(10/5.0))=x | 85.0 10 5.0 / + x = | 85.0:money 10:money 5.0:book /:money +:money x:money =:money
-EXPR: 0 | POS | INT | 20 | 35 | 19 | x=((85.0+10)/5.0) | x 85.0 10 + 5.0 / = | x:book 85.0:book 10:book +:book 5.0:money /:book =:book
-EXPR: 0 | POS | INT | 20 | 35 | 83 | (85.0-(10/5.0))=x | 85.0 10 5.0 / - x = | 85.0:money 10:money 5.0:book /:money -:money x:money =:money
-NET 355 unique, non-negative, integer-valued solutions found out of 1000 total solutions
+EXPR: 0 | POS | INT | 10 | 14 | 6 | (8*0.75)=x | 8 0.75 * x = | 8:pig 0.75:Copeland *:pig x:pig =:pig
+EXPR: 0 | POS | FRA | 10 | 14 | 10.6666666666667 | x=(8/0.75) | x 8 0.75 / = | x:pig 8:pig 0.75:Copeland /:pig =:pig
+EXPR: 0 | POS | INT | 10 | 14 | 6 | x=(8*0.75) | x 8 0.75 * = | x:pig 8:kilogram 0.75:pig *:pig =:pig
+EXPR: 0 | POS | FRA | 10 | 14 | 10.6666666666667 | (8/0.75)=x | 8 0.75 / x = | 8:kilogram 0.75:Copeland /:kilogram x:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | (x*8)=0.75 | x 8 * 0.75 = | x:pig 8:kilogram *:pig 0.75:pig =:pig
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | (8*x)=0.75 | 8 x * 0.75 = | 8:kilogram x:Copeland *:Copeland 0.75:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 12 | 14 | 10.6666666666667 | 8=(0.75*x) | 8 0.75 x * = | 8:kilogram 0.75:Copeland x:kilogram *:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | (0.75/8)=x | 0.75 8 / x = | 0.75:Copeland 8:kilogram /:Copeland x:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 12 | 14 | 10.6666666666667 | 8=(x*0.75) | 8 x 0.75 * = | 8:kilogram x:pig 0.75:kilogram *:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 14 | 6 | (x/8)=0.75 | x 8 / 0.75 = | x:pig 8:kilogram /:pig 0.75:pig =:pig
+EXPR: 0 | POS | FRA | 12 | 14 | 10.6666666666667 | (8/x)=0.75 | 8 x / 0.75 = | 8:Copeland x:pig /:Copeland 0.75:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | 8=(0.75/x) | 8 0.75 x / = | 8:kilogram 0.75:kilogram x:pig /:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 14 | 6 | 8=(x/0.75) | 8 x 0.75 / = | 8:kilogram x:kilogram 0.75:Copeland /:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | x=(0.75/8) | x 0.75 8 / = | x:Copeland 0.75:Copeland 8:kilogram /:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 10.6666666666667 | (x*0.75)=8 | x 0.75 * 8 = | x:pig 0.75:Copeland *:pig 8:pig =:pig
+EXPR: 0 | POS | INT | 14 | 14 | 6 | (x/0.75)=8 | x 0.75 / 8 = | x:pig 0.75:Copeland /:pig 8:pig =:pig
+EXPR: 0 | POS | FRA | 14 | 14 | 0.09375 | 0.75=(x*8) | 0.75 x 8 * = | 0.75:Copeland x:Copeland 8:kilogram *:Copeland =:Copeland
+EXPR: 0 | POS | INT | 14 | 14 | 6 | 0.75=(x/8) | 0.75 x 8 / = | 0.75:Copeland x:Copeland 8:kilogram /:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 10.6666666666667 | (0.75*x)=8 | 0.75 x * 8 = | 0.75:Copeland x:pig *:Copeland 8:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 0.09375 | (0.75/x)=8 | 0.75 x / 8 = | 0.75:Copeland x:pig /:Copeland 8:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 10.6666666666667 | 0.75=(8/x) | 0.75 8 x / = | 0.75:Copeland 8:Copeland x:pig /:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 0.09375 | 0.75=(8*x) | 0.75 8 x * = | 0.75:Copeland 8:Copeland x:pig *:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 7.25 | x=(8-0.75) | x 8 0.75 - = | x:Copeland 8:Copeland 0.75:Copeland -:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 8.75 | x=(8+0.75) | x 8 0.75 + = | x:Copeland 8:Copeland 0.75:Copeland +:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 8.75 | (8+0.75)=x | 8 0.75 + x = | 8:Copeland 0.75:Copeland +:Copeland x:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 7.25 | (8-0.75)=x | 8 0.75 - x = | 8:Copeland 0.75:Copeland -:Copeland x:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 22 | 14 | 7.25 | 8=(x+0.75) | 8 x 0.75 + = | 8:pig x:pig 0.75:pig +:pig =:pig
+EXPR: 0 | POS | FRA | 22 | 14 | 7.25 | (8-x)=0.75 | 8 x - 0.75 = | 8:pig x:pig -:pig 0.75:pig =:pig
+EXPR: 0 | POS | FRA | 22 | 14 | 7.25 | 8=(0.75+x) | 8 0.75 x + = | 8:Copeland 0.75:Copeland x:Copeland +:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 22 | 14 | 8.75 | 8=(x-0.75) | 8 x 0.75 - = | 8:Copeland x:Copeland 0.75:Copeland -:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 22 | 14 | 8.75 | (x-8)=0.75 | x 8 - 0.75 = | x:Copeland 8:Copeland -:Copeland 0.75:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 24 | 14 | 7.25 | (0.75+x)=8 | 0.75 x + 8 = | 0.75:pig x:pig +:pig 8:pig =:pig
+EXPR: 0 | POS | FRA | 24 | 14 | 7.25 | 0.75=(8-x) | 0.75 8 x - = | 0.75:pig 8:pig x:pig -:pig =:pig
+EXPR: 0 | POS | FRA | 24 | 14 | 8.75 | 0.75=(x-8) | 0.75 x 8 - = | 0.75:Copeland x:Copeland 8:Copeland -:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 24 | 14 | 8.75 | (x-0.75)=8 | x 0.75 - 8 = | x:Copeland 0.75:Copeland -:Copeland 8:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 24 | 14 | 7.25 | (x+0.75)=8 | x 0.75 + 8 = | x:Copeland 0.75:Copeland +:Copeland 8:Copeland =:Copeland
+NET 36 unique, non-negative solutions found out of 324 total solutions

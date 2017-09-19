@@ -1,5 +1,5 @@
-quantities : 6,359 3,485 x
-types : "yen" "yen" "yen"
+quantities : 1,320 0.6 x
+types : "dollar" "price" "value"
 operators : + - * / =
 n : 5
-answer : 9844.0
+answer : 2112.0

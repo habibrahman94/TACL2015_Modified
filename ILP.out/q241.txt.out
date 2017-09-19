@@ -1,18 +1,24 @@
-parameters: n=5 l=2 k=1 p=5 q=1 m=8
-TOTAL 28 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 48781 | 47413 | (48097-684)=x | 48097 684 - x = | 48097:bushel 684:bushel -:bushel x:bushel =:bushel
-EXPR: 0 | POS | INT | 0 | 48781 | 47413 | x=(48097-684) | x 48097 684 - = | x:bushel 48097:bushel 684:bushel -:bushel =:bushel
-EXPR: 1 | POS | INT | 0 | 48781 | 48781 | (48097+684)=x | 48097 684 + x = | 48097:bushel 684:bushel +:bushel x:bushel =:bushel
-EXPR: 1 | POS | INT | 0 | 48781 | 48781 | x=(48097+684) | x 48097 684 + = | x:bushel 48097:bushel 684:bushel +:bushel =:bushel
-EXPR: 1 | POS | INT | 2 | 48781 | 48781 | (x-48097)=684 | x 48097 - 684 = | x:bushel 48097:bushel -:bushel 684:bushel =:bushel
-EXPR: 0 | POS | INT | 2 | 48781 | 47413 | (48097-x)=684 | 48097 x - 684 = | 48097:bushel x:bushel -:bushel 684:bushel =:bushel
-EXPR: 0 | POS | INT | 2 | 48781 | 47413 | 48097=(x+684) | 48097 x 684 + = | 48097:bushel x:bushel 684:bushel +:bushel =:bushel
-EXPR: 1 | POS | INT | 2 | 48781 | 48781 | 48097=(x-684) | 48097 x 684 - = | 48097:bushel x:bushel 684:bushel -:bushel =:bushel
-EXPR: 0 | POS | INT | 2 | 48781 | 47413 | 48097=(684+x) | 48097 684 x + = | 48097:bushel 684:bushel x:bushel +:bushel =:bushel
-EXPR: 1 | POS | INT | 4 | 48781 | 48781 | 684=(x-48097) | 684 x 48097 - = | 684:bushel x:bushel 48097:bushel -:bushel =:bushel
-EXPR: 1 | POS | INT | 4 | 48781 | 48781 | (x-684)=48097 | x 684 - 48097 = | x:bushel 684:bushel -:bushel 48097:bushel =:bushel
-EXPR: 0 | POS | INT | 4 | 48781 | 47413 | (684+x)=48097 | 684 x + 48097 = | 684:bushel x:bushel +:bushel 48097:bushel =:bushel
-EXPR: 0 | POS | INT | 4 | 48781 | 47413 | (x+684)=48097 | x 684 + 48097 = | x:bushel 684:bushel +:bushel 48097:bushel =:bushel
-EXPR: 0 | POS | INT | 4 | 48781 | 47413 | 684=(48097-x) | 684 48097 x - = | 684:bushel 48097:bushel x:bushel -:bushel =:bushel
-NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions
+EXPR: 0 | POS | INT | 10 | 50 | 67225 | x=(26890+40335) | x 26890 40335 + = | x:people 26890:people 40335:people +:people =:people
+EXPR: 0 | POS | INT | 10 | 50 | 1084608150 | x=(26890*40335) | x 26890 40335 * = | x:team 26890:people 40335:team *:team =:team
+EXPR: 0 | POS | INT | 10 | 50 | 1084608150 | (26890*40335)=x | 26890 40335 * x = | 26890:people 40335:team *:team x:team =:team
+EXPR: 0 | POS | INT | 10 | 50 | 67225 | (26890+40335)=x | 26890 40335 + x = | 26890:people 40335:people +:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 13445 | 26890=(40335-x) | 26890 40335 x - = | 26890:people 40335:people x:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 1084608150 | (x/26890)=40335 | x 26890 / 40335 = | x:team 26890:people /:team 40335:team =:team
+EXPR: 0 | POS | INT | 12 | 50 | 67225 | (x-26890)=40335 | x 26890 - 40335 = | x:people 26890:people -:people 40335:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 67225 | 26890=(x-40335) | 26890 x 40335 - = | 26890:people x:people 40335:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 13445 | (40335-26890)=x | 40335 26890 - x = | 40335:people 26890:people -:people x:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 13445 | x=(40335-26890) | x 40335 26890 - = | x:people 40335:people 26890:people -:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 13445 | (x+26890)=40335 | x 26890 + 40335 = | x:people 26890:people +:people 40335:people =:people
+EXPR: 0 | POS | INT | 12 | 50 | 1084608150 | 26890=(x/40335) | 26890 x 40335 / = | 26890:team x:team 40335:people /:team =:team
+EXPR: 0 | POS | INT | 12 | 50 | 13445 | (26890+x)=40335 | 26890 x + 40335 = | 26890:people x:people +:people 40335:people =:people
+EXPR: 0 | POS | INT | 14 | 50 | 13445 | (40335-x)=26890 | 40335 x - 26890 = | 40335:people x:people -:people 26890:people =:people
+EXPR: 0 | POS | INT | 14 | 50 | 67225 | (x-40335)=26890 | x 40335 - 26890 = | x:people 40335:people -:people 26890:people =:people
+EXPR: 0 | POS | INT | 14 | 50 | 1084608150 | 40335=(x/26890) | 40335 x 26890 / = | 40335:team x:team 26890:people /:team =:team
+EXPR: 0 | POS | INT | 14 | 50 | 1084608150 | (x/40335)=26890 | x 40335 / 26890 = | x:team 40335:people /:team 26890:team =:team
+EXPR: 0 | POS | INT | 14 | 50 | 13445 | 40335=(26890+x) | 40335 26890 x + = | 40335:people 26890:people x:people +:people =:people
+EXPR: 0 | POS | INT | 14 | 50 | 67225 | 40335=(x-26890) | 40335 x 26890 - = | 40335:people x:people 26890:people -:people =:people
+EXPR: 0 | POS | INT | 14 | 50 | 13445 | 40335=(x+26890) | 40335 x 26890 + = | 40335:people x:people 26890:people +:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

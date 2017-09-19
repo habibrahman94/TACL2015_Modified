@@ -1,5 +1,5 @@
-quantities : 85.0 10 5.0 x
-types : "money" "book" "money" "money"
+quantities : x 8 0.75
+types : "pig" "kilogram" "Copeland"
 operators : + - * / =
-n : 7
-answer : 35.0
+n : 5
+answer : 14.0

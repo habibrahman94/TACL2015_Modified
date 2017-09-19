@@ -1,5 +1,5 @@
-quantities : 48,097 684 x
-types : "bushel" "bushel" "bushel"
+quantities : 26,890 40,335 x
+types : "people" "people" "team"
 operators : + - * / =
 n : 5
-answer : 48781.0
+answer : 50.0

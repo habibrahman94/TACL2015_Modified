@@ -1,5 +1,5 @@
-quantities : 10.62 2 1.59 13.95 x
-types : "dollar" "ticket" "dollar" "dollar" "dollar"
+quantities : 74 40 x
+types : "kilogram" "kilogram" "UNKNOWN"
 operators : + - * / =
-n : 9
-answer : 36.78
+n : 5
+answer : 85.0

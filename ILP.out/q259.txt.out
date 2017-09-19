@@ -1,142 +1,24 @@
-parameters: n=11 l=5 k=1 p=5 q=1 m=11
-TOTAL 315 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 2 | 78 | ((20+(26-(20+6)))+58)=x | 20 26 20 6 + - + 58 + x = | 20:sticker 26:sticker 20:sticker 6:sticker +:sticker -:sticker +:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 78 | x=((20-(26-20))+(6+58)) | x 20 26 20 - - 6 58 + + = | x:sticker 20:sticker 26:sticker 20:sticker -:sticker -:sticker 6:sticker 58:sticker +:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 90 | ((20+(26-(20-6)))+58)=x | 20 26 20 6 - - + 58 + x = | 20:sticker 26:sticker 20:sticker 6:sticker -:sticker -:sticker +:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 38 | (((20-(26+20))+6)+58)=x | 20 26 20 + - 6 + 58 + x = | 20:sticker 26:sticker 20:sticker +:sticker -:sticker 6:sticker +:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 78 | (((20-(26-20))+6)+58)=x | 20 26 20 - - 6 + 58 + x = | 20:sticker 26:sticker 20:sticker -:sticker -:sticker 6:sticker +:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 26 | x=(20-(((26+20)+6)-58)) | x 20 26 20 + 6 + 58 - - = | x:sticker 20:sticker 26:sticker 20:sticker +:sticker 6:sticker +:sticker 58:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 130 | ((20+(26+(20+6)))+58)=x | 20 26 20 6 + + + 58 + x = | 20:sticker 26:sticker 20:sticker 6:sticker +:sticker +:sticker +:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 66 | x=((20-(26-20))-(6-58)) | x 20 26 20 - - 6 58 - - = | x:sticker 20:sticker 26:sticker 20:sticker -:sticker -:sticker 6:sticker 58:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 38 | (20-((26+20)-(6+58)))=x | 20 26 20 + 6 58 + - - x = | 20:sticker 26:sticker 20:sticker +:sticker 6:sticker 58:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 78 | x=((20+(26-20))-(6-58)) | x 20 26 20 - + 6 58 - - = | x:sticker 20:sticker 26:sticker 20:sticker -:sticker +:sticker 6:sticker 58:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 66 | (20-(((26-20)+6)-58))=x | 20 26 20 - 6 + 58 - - x = | 20:sticker 26:sticker 20:sticker -:sticker 6:sticker +:sticker 58:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 78 | (20-((26-20)-(6+58)))=x | 20 26 20 - 6 58 + - - x = | 20:sticker 26:sticker 20:sticker -:sticker 6:sticker 58:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 14 | (((20+(26+20))+6)-58)=x | 20 26 20 + + 6 + 58 - x = | 20:sticker 26:sticker 20:sticker +:sticker +:sticker 6:sticker +:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 118 | (20+(26+(20-(6-58))))=x | 20 26 20 6 58 - - + + x = | 20:sticker 26:sticker 20:sticker 6:sticker 58:sticker -:sticker -:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 66 | x=(20-(((26-20)+6)-58)) | x 20 26 20 - 6 + 58 - - = | x:sticker 20:sticker 26:sticker 20:sticker -:sticker 6:sticker +:sticker 58:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 66 | ((20-(26-(20-6)))+58)=x | 20 26 20 6 - - - 58 + x = | 20:sticker 26:sticker 20:sticker 6:sticker -:sticker -:sticker -:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 0 | 2 | 2 | x=((((20+26)+20)-6)-58) | x 20 26 + 20 + 6 - 58 - = | x:sticker 20:sticker 26:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker 58:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 26 | x=((((20-26)-20)-6)+58) | x 20 26 - 20 - 6 - 58 + = | x:sticker 20:sticker 26:sticker -:sticker 20:sticker -:sticker 6:sticker -:sticker 58:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 90 | (20+(26-(20-(6+58))))=x | 20 26 20 6 58 + - - + x = | 20:sticker 26:sticker 20:sticker 6:sticker 58:sticker +:sticker -:sticker -:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 0 | 2 | 2 | ((((20+26)+20)-6)-58)=x | 20 26 + 20 + 6 - 58 - x = | 20:sticker 26:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 78 | x=((20-((26-20)-6))+58) | x 20 26 20 - 6 - - 58 + = | x:sticker 20:sticker 26:sticker 20:sticker -:sticker 6:sticker -:sticker -:sticker 58:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 78 | (20-(26-(20+(6+58))))=x | 20 26 20 6 58 + + - - x = | 20:sticker 26:sticker 20:sticker 6:sticker 58:sticker +:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 0 | 2 | 2 | x=(20+(26+(20-(6+58)))) | x 20 26 20 6 58 + - + + = | x:sticker 20:sticker 26:sticker 20:sticker 6:sticker 58:sticker +:sticker -:sticker +:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 0 | 2 | 14 | x=((((20+26)+20)+6)-58) | x 20 26 + 20 + 6 + 58 - = | x:sticker 20:sticker 26:sticker +:sticker 20:sticker +:sticker 6:sticker +:sticker 58:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 14 | ((26+(20+(20+6)))-58)=x | 26 20 20 6 + + + 58 - x = | 26:sticker 20:sticker 20:sticker 6:sticker +:sticker +:sticker +:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 26 | x=(20-(((26+6)+20)-58)) | x 20 26 6 + 20 + 58 - - = | x:sticker 20:sticker 26:sticker 6:sticker +:sticker 20:sticker +:sticker 58:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 38 | (((20-(26+20))+58)+6)=x | 20 26 20 + - 58 + 6 + x = | 20:sticker 26:sticker 20:sticker +:sticker -:sticker 58:sticker +:sticker 6:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 78 | (((20-(26-20))+58)+6)=x | 20 26 20 - - 58 + 6 + x = | 20:sticker 26:sticker 20:sticker -:sticker -:sticker 58:sticker +:sticker 6:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 14 | (((26+(20+20))+6)-58)=x | 26 20 20 + + 6 + 58 - x = | 26:sticker 20:sticker 20:sticker +:sticker +:sticker 6:sticker +:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 66 | x=((((20-26)+20)+58)-6) | x 20 26 - 20 + 58 + 6 - = | x:sticker 20:sticker 26:sticker -:sticker 20:sticker +:sticker 58:sticker +:sticker 6:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 38 | ((((20-26)+6)-20)+58)=x | 20 26 - 6 + 20 - 58 + x = | 20:sticker 26:sticker -:sticker 6:sticker +:sticker 20:sticker -:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 78 | (20-(((20-26)+6)-58))=x | 20 20 26 - 6 + 58 - - x = | 20:sticker 20:sticker 26:sticker -:sticker 6:sticker +:sticker 58:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 38 | ((20+(26-(20+6)))+x)=58 | 20 26 20 6 + - + x + 58 = | 20:sticker 26:sticker 20:sticker 6:sticker +:sticker -:sticker +:sticker x:sticker +:sticker 58:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 38 | (20-(((26-6)+20)-58))=x | 20 26 6 - 20 + 58 - - x = | 20:sticker 26:sticker 6:sticker -:sticker 20:sticker +:sticker 58:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 14 | x=((((20+26)+20)-58)+6) | x 20 26 + 20 + 58 - 6 + = | x:sticker 20:sticker 26:sticker +:sticker 20:sticker +:sticker 58:sticker -:sticker 6:sticker +:sticker =:sticker
-EXPR: 1 | POS | INT | 2 | 2 | 2 | x=(20+(20+(26-(6+58)))) | x 20 20 26 6 58 + - + + = | x:sticker 20:sticker 20:sticker 26:sticker 6:sticker 58:sticker +:sticker -:sticker +:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 38 | x=(20-(20+(26-(6+58)))) | x 20 20 26 6 58 + - + - = | x:sticker 20:sticker 20:sticker 26:sticker 6:sticker 58:sticker +:sticker -:sticker +:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 14 | (((20+(26+6))+20)-58)=x | 20 26 6 + + 20 + 58 - x = | 20:sticker 26:sticker 6:sticker +:sticker +:sticker 20:sticker +:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 2 | 2 | 90 | ((20+(26-(20-58)))+6)=x | 20 26 20 58 - - + 6 + x = | 20:sticker 26:sticker 20:sticker 58:sticker -:sticker -:sticker +:sticker 6:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 2 | 2 | 2 | ((((20+26)+20)-6)-x)=58 | 20 26 + 20 + 6 - x - 58 = | 20:sticker 26:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker x:sticker -:sticker 58:sticker =:sticker
-EXPR: 0 | POS | INT | 4 | 2 | 78 | ((20+(26-(x+20)))+58)=6 | 20 26 x 20 + - + 58 + 6 = | 20:sticker 26:sticker x:sticker 20:sticker +:sticker -:sticker +:sticker 58:sticker +:sticker 6:sticker =:sticker
-EXPR: 0 | POS | INT | 4 | 2 | 38 | (((26+(20-20))+x)-6)=58 | 26 20 20 - + x + 6 - 58 = | 26:sticker 20:sticker 20:sticker -:sticker +:sticker x:sticker +:sticker 6:sticker -:sticker 58:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 26 | x=((20-(26-58))-(20+6)) | x 20 26 58 - - 20 6 + - = | x:sticker 20:sticker 26:sticker 58:sticker -:sticker -:sticker 20:sticker 6:sticker +:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 78 | (((20-(26-6))+58)+20)=x | 20 26 6 - - 58 + 20 + x = | 20:sticker 26:sticker 6:sticker -:sticker -:sticker 58:sticker +:sticker 20:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 5 | 2 | 2 | x=((20+(26-58))+(20-6)) | x 20 26 58 - + 20 6 - + = | x:sticker 20:sticker 26:sticker 58:sticker -:sticker +:sticker 20:sticker 6:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 78 | x=((20-(26-58))+(20+6)) | x 20 26 58 - - 20 6 + + = | x:sticker 20:sticker 26:sticker 58:sticker -:sticker -:sticker 20:sticker 6:sticker +:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 38 | (20-(((26-58)+20)-6))=x | 20 26 58 - 20 + 6 - - x = | 20:sticker 26:sticker 58:sticker -:sticker 20:sticker +:sticker 6:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 78 | x=(26-(20-((20-6)+58))) | x 26 20 20 6 - 58 + - - = | x:sticker 26:sticker 20:sticker 20:sticker 6:sticker -:sticker 58:sticker +:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 118 | (((20+(26+58))+20)-6)=x | 20 26 58 + + 20 + 6 - x = | 20:sticker 26:sticker 58:sticker +:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 118 | ((20-((6-26)-20))+58)=x | 20 6 26 - 20 - - 58 + x = | 20:sticker 6:sticker 26:sticker -:sticker 20:sticker -:sticker -:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 5 | 2 | 118 | ((((20+26)+58)+20)-6)=x | 20 26 + 58 + 20 + 6 - x = | 20:sticker 26:sticker +:sticker 58:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 6 | 2 | 38 | (x+((26+(20-20))-58))=6 | x 26 20 20 - + 58 - + 6 = | x:sticker 26:sticker 20:sticker 20:sticker -:sticker +:sticker 58:sticker -:sticker +:sticker 6:sticker =:sticker
-EXPR: 0 | POS | INT | 6 | 2 | 26 | ((26-(20-(x+6)))+20)=58 | 26 20 x 6 + - - 20 + 58 = | 26:sticker 20:sticker x:sticker 6:sticker +:sticker -:sticker -:sticker 20:sticker +:sticker 58:sticker =:sticker
-EXPR: 1 | POS | INT | 7 | 2 | 2 | ((20+(26-(58-20)))-x)=6 | 20 26 58 20 - - + x - 6 = | 20:sticker 26:sticker 58:sticker 20:sticker -:sticker -:sticker +:sticker x:sticker -:sticker 6:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 78 | ((20+(26+(58-20)))-x)=6 | 20 26 58 20 - + + x - 6 = | 20:sticker 26:sticker 58:sticker 20:sticker -:sticker +:sticker +:sticker x:sticker -:sticker 6:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 66 | (20-(((6-20)+26)-58))=x | 20 6 20 - 26 + 58 - - x = | 20:sticker 6:sticker 20:sticker -:sticker 26:sticker +:sticker 58:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 66 | x=((20-(26-58))-(6-20)) | x 20 26 58 - - 6 20 - - = | x:sticker 20:sticker 26:sticker 58:sticker -:sticker -:sticker 6:sticker 20:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 78 | x=((((20+6)+20)-26)+58) | x 20 6 + 20 + 26 - 58 + = | x:sticker 20:sticker 6:sticker +:sticker 20:sticker +:sticker 26:sticker -:sticker 58:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 66 | (20-(((26-58)+6)-20))=x | 20 26 58 - 6 + 20 - - x = | 20:sticker 26:sticker 58:sticker -:sticker 6:sticker +:sticker 20:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 90 | (20+(26+(58+(6-20))))=x | 20 26 58 6 20 - + + + x = | 20:sticker 26:sticker 58:sticker 6:sticker 20:sticker -:sticker +:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 66 | ((20-(26-(58-6)))+20)=x | 20 26 58 6 - - - 20 + x = | 20:sticker 26:sticker 58:sticker 6:sticker -:sticker -:sticker -:sticker 20:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 7 | 2 | 78 | ((((26-20)+58)+20)-6)=x | 26 20 - 58 + 20 + 6 - x = | 26:sticker 20:sticker -:sticker 58:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 8 | 2 | 26 | (20-(((20+6)+26)-58))=x | 20 20 6 + 26 + 58 - - x = | 20:sticker 20:sticker 6:sticker +:sticker 26:sticker +:sticker 58:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 8 | 2 | 38 | ((((26-6)-20)-20)+58)=x | 26 6 - 20 - 20 - 58 + x = | 26:sticker 6:sticker -:sticker 20:sticker -:sticker 20:sticker -:sticker 58:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 9 | 2 | 14 | ((26+(20-(58-6)))+20)=x | 26 20 58 6 - - + 20 + x = | 26:sticker 20:sticker 58:sticker 6:sticker -:sticker -:sticker +:sticker 20:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 9 | 2 | 2 | x=((20-58)+((26+20)-6)) | x 20 58 - 26 20 + 6 - + = | x:sticker 20:sticker 58:sticker -:sticker 26:sticker 20:sticker +:sticker 6:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 9 | 2 | 90 | (26+(20+(58+(6-20))))=x | 26 20 58 6 20 - + + + x = | 26:sticker 20:sticker 58:sticker 6:sticker 20:sticker -:sticker +:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 9 | 2 | 90 | x=((6-(20-(26+20)))+58) | x 6 20 26 20 + - - 58 + = | x:sticker 6:sticker 20:sticker 26:sticker 20:sticker +:sticker -:sticker -:sticker 58:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 11 | 2 | 14 | ((6+(26+(20+20)))-58)=x | 6 26 20 20 + + + 58 - x = | 6:sticker 26:sticker 20:sticker 20:sticker +:sticker +:sticker +:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 11 | 2 | 118 | (20+(20+(58+(26-6))))=x | 20 20 58 26 6 - + + + x = | 20:sticker 20:sticker 58:sticker 26:sticker 6:sticker -:sticker +:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 11 | 2 | 90 | x=(6+(26-(20-(20+58)))) | x 6 26 20 20 58 + - - + = | x:sticker 6:sticker 26:sticker 20:sticker 20:sticker 58:sticker +:sticker -:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 11 | 2 | 90 | x=(6+(20-(20-(26+58)))) | x 6 20 20 26 58 + - - + = | x:sticker 6:sticker 20:sticker 20:sticker 26:sticker 58:sticker +:sticker -:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 11 | 2 | 78 | x=(20-(20-((58-6)+26))) | x 20 20 58 6 - 26 + - - = | x:sticker 20:sticker 20:sticker 58:sticker 6:sticker -:sticker 26:sticker +:sticker -:sticker -:sticker =:sticker
-EXPR: 1 | POS | INT | 12 | 2 | 2 | ((((20-6)+20)+26)-58)=x | 20 6 - 20 + 26 + 58 - x = | 20:sticker 6:sticker -:sticker 20:sticker +:sticker 26:sticker +:sticker 58:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 12 | 2 | 118 | ((((26+58)+20)+20)-6)=x | 26 58 + 20 + 20 + 6 - x = | 26:sticker 58:sticker +:sticker 20:sticker +:sticker 20:sticker +:sticker 6:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 12 | 2 | 90 | x=((((26+20)+58)-20)+6) | x 26 20 + 58 + 20 - 6 + = | x:sticker 26:sticker 20:sticker +:sticker 58:sticker +:sticker 20:sticker -:sticker 6:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 12 | 2 | 38 | (26+((58-20)-(20+6)))=x | 26 58 20 - 20 6 + - + x = | 26:sticker 58:sticker 20:sticker -:sticker 20:sticker 6:sticker +:sticker -:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 12 | 2 | 26 | ((20-6)+(58-(26+20)))=x | 20 6 - 58 26 20 + - + x = | 20:sticker 6:sticker -:sticker 58:sticker 26:sticker 20:sticker +:sticker -:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 13 | 2 | 2 | 26=((6+x)-(20+(20-58))) | 26 6 x + 20 20 58 - + - = | 26:sticker 6:sticker x:sticker +:sticker 20:sticker 20:sticker 58:sticker -:sticker +:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 14 | 2 | 50 | 26=((20+(x-58))+(20-6)) | 26 20 x 58 - + 20 6 - + = | 26:sticker 20:sticker x:sticker 58:sticker -:sticker +:sticker 20:sticker 6:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 14 | 2 | 14 | (20-(58-(6+(26+20))))=x | 20 58 6 26 20 + + - - x = | 20:sticker 58:sticker 6:sticker 26:sticker 20:sticker +:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 14 | 2 | 78 | (20-(26-(58+(20+6))))=x | 20 26 58 20 6 + + - - x = | 20:sticker 26:sticker 58:sticker 20:sticker 6:sticker +:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 14 | 2 | 2 | x=((26+((20-6)-58))+20) | x 26 20 6 - 58 - + 20 + = | x:sticker 26:sticker 20:sticker 6:sticker -:sticker 58:sticker -:sticker +:sticker 20:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 14 | 2 | 38 | x=((6-(20-(20-26)))+58) | x 6 20 20 26 - - - 58 + = | x:sticker 6:sticker 20:sticker 20:sticker 26:sticker -:sticker -:sticker -:sticker 58:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 14 | 2 | 38 | x=((((6-26)-20)+20)+58) | x 6 26 - 20 - 20 + 58 + = | x:sticker 6:sticker 26:sticker -:sticker 20:sticker -:sticker 20:sticker +:sticker 58:sticker +:sticker =:sticker
-EXPR: 1 | POS | INT | 14 | 2 | 2 | 20=(((6+58)-26)-(20-x)) | 20 6 58 + 26 - 20 x - - = | 20:sticker 6:sticker 58:sticker +:sticker 26:sticker -:sticker 20:sticker x:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 15 | 2 | 14 | (26-(58-(20+(20+6))))=x | 26 58 20 20 6 + + - - x = | 26:sticker 58:sticker 20:sticker 20:sticker 6:sticker +:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 118 | (20+((58-(6-20))+26))=x | 20 58 6 20 - - 26 + + x = | 20:sticker 58:sticker 6:sticker 20:sticker -:sticker -:sticker 26:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 78 | 26=((20+(6-58))-(20-x)) | 26 20 6 58 - + 20 x - - = | 26:sticker 20:sticker 6:sticker 58:sticker -:sticker +:sticker 20:sticker x:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 14 | (6+(20+(26+(20-58))))=x | 6 20 26 20 58 - + + + x = | 6:sticker 20:sticker 26:sticker 20:sticker 58:sticker -:sticker +:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 1 | POS | INT | 16 | 2 | 2 | ((((20-58)+20)+26)-6)=x | 20 58 - 20 + 26 + 6 - x = | 20:sticker 58:sticker -:sticker 20:sticker +:sticker 26:sticker +:sticker 6:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 38 | x=(6+(20+(58-(26+20)))) | x 6 20 58 26 20 + - + + = | x:sticker 6:sticker 20:sticker 58:sticker 26:sticker 20:sticker +:sticker -:sticker +:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 78 | (20+(58+(6+(20-26))))=x | 20 58 6 20 26 - + + + x = | 20:sticker 58:sticker 6:sticker 20:sticker 26:sticker -:sticker +:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 78 | (((58-20)+(26+20))-x)=6 | 58 20 - 26 20 + + x - 6 = | 58:sticker 20:sticker -:sticker 26:sticker 20:sticker +:sticker +:sticker x:sticker -:sticker 6:sticker =:sticker
-EXPR: 0 | POS | INT | 16 | 2 | 38 | 58=((20-((26-20)-6))+x) | 58 20 26 20 - 6 - - x + = | 58:sticker 20:sticker 26:sticker 20:sticker -:sticker 6:sticker -:sticker -:sticker x:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 17 | 2 | 26 | (20-6)=((26+20)-(58-x)) | 20 6 - 26 20 + 58 x - - = | 20:sticker 6:sticker -:sticker 26:sticker 20:sticker +:sticker 58:sticker x:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 18 | 2 | 38 | (((6-(20-20))+58)-26)=x | 6 20 20 - - 58 + 26 - x = | 6:sticker 20:sticker 20:sticker -:sticker -:sticker 58:sticker +:sticker 26:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 18 | 2 | 50 | x=((6-(20-(58-20)))+26) | x 6 20 58 20 - - - 26 + = | x:sticker 6:sticker 20:sticker 58:sticker 20:sticker -:sticker -:sticker -:sticker 26:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 18 | 2 | 38 | (26+(((58-6)-20)-20))=x | 26 58 6 - 20 - 20 - + x = | 26:sticker 58:sticker 6:sticker -:sticker 20:sticker -:sticker 20:sticker -:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 18 | 2 | 50 | 20=((6-20)+(58-(x-26))) | 20 6 20 - 58 x 26 - - + = | 20:sticker 6:sticker 20:sticker -:sticker 58:sticker x:sticker 26:sticker -:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 19 | 2 | 78 | (((26-6)+58)-(20-20))=x | 26 6 - 58 + 20 20 - - x = | 26:sticker 6:sticker -:sticker 58:sticker +:sticker 20:sticker 20:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 19 | 2 | 78 | x=((((58-20)+20)-6)+26) | x 58 20 - 20 + 6 - 26 + = | x:sticker 58:sticker 20:sticker -:sticker 20:sticker +:sticker 6:sticker -:sticker 26:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 19 | 2 | 78 | (6-(26-(58+(20+20))))=x | 6 26 58 20 20 + + - - x = | 6:sticker 26:sticker 58:sticker 20:sticker 20:sticker +:sticker +:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 19 | 2 | 50 | (26-(20-58))=((20-6)+x) | 26 20 58 - - 20 6 - x + = | 26:sticker 20:sticker 58:sticker -:sticker -:sticker 20:sticker 6:sticker -:sticker x:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 19 | 2 | 38 | (((6-(26-20))+58)-20)=x | 6 26 20 - - 58 + 20 - x = | 6:sticker 26:sticker 20:sticker -:sticker -:sticker 58:sticker +:sticker 20:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 19 | 2 | 90 | (((26+(6+58))+20)-20)=x | 26 6 58 + + 20 + 20 - x = | 26:sticker 6:sticker 58:sticker +:sticker +:sticker 20:sticker +:sticker 20:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 20 | 2 | 90 | (20+(26+(58+(6-x))))=20 | 20 26 58 6 x - + + + 20 = | 20:sticker 26:sticker 58:sticker 6:sticker x:sticker -:sticker +:sticker +:sticker +:sticker 20:sticker =:sticker
-EXPR: 0 | POS | INT | 20 | 2 | 90 | (20-(26+(58+(6-x))))=20 | 20 26 58 6 x - + + - 20 = | 20:sticker 26:sticker 58:sticker 6:sticker x:sticker -:sticker +:sticker +:sticker -:sticker 20:sticker =:sticker
-EXPR: 0 | POS | INT | 20 | 2 | 90 | (26+6)=(20-((20-x)+58)) | 26 6 + 20 20 x - 58 + - = | 26:sticker 6:sticker +:sticker 20:sticker 20:sticker x:sticker -:sticker 58:sticker +:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 21 | 2 | 26 | 58=((x-((20-20)-26))+6) | 58 x 20 20 - 26 - - 6 + = | 58:sticker x:sticker 20:sticker 20:sticker -:sticker 26:sticker -:sticker -:sticker 6:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 21 | 2 | 26 | (20-26)=((20-58)+(6+x)) | 20 26 - 20 58 - 6 x + + = | 20:sticker 26:sticker -:sticker 20:sticker 58:sticker -:sticker 6:sticker x:sticker +:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 21 | 2 | 26 | 58=((26-((20-20)-6))+x) | 58 26 20 20 - 6 - - x + = | 58:sticker 26:sticker 20:sticker 20:sticker -:sticker 6:sticker -:sticker -:sticker x:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 21 | 2 | 14 | x=((6-(58-(20+26)))+20) | x 6 58 20 26 + - - 20 + = | x:sticker 6:sticker 58:sticker 20:sticker 26:sticker +:sticker -:sticker -:sticker 20:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 21 | 2 | 50 | (((58-20)+26)-(20-6))=x | 58 20 - 26 + 20 6 - - x = | 58:sticker 20:sticker -:sticker 26:sticker +:sticker 20:sticker 6:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 22 | 2 | 78 | x=(58-(20-((20-6)+26))) | x 58 20 20 6 - 26 + - - = | x:sticker 58:sticker 20:sticker 20:sticker 6:sticker -:sticker 26:sticker +:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 23 | 2 | 90 | (20+(6+(58+(26-20))))=x | 20 6 58 26 20 - + + + x = | 20:sticker 6:sticker 58:sticker 26:sticker 20:sticker -:sticker +:sticker +:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 23 | 2 | 38 | x=(6+(((58-20)+20)-26)) | x 6 58 20 - 20 + 26 - + = | x:sticker 6:sticker 58:sticker 20:sticker -:sticker 20:sticker +:sticker 26:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 23 | 2 | 66 | (((20-6)+58)-(26-20))=x | 20 6 - 58 + 26 20 - - x = | 20:sticker 6:sticker -:sticker 58:sticker +:sticker 26:sticker 20:sticker -:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 24 | 2 | 118 | (6-(26+(58+(20-x))))=20 | 6 26 58 20 x - + + - 20 = | 6:sticker 26:sticker 58:sticker 20:sticker x:sticker -:sticker +:sticker +:sticker -:sticker 20:sticker =:sticker
-EXPR: 0 | POS | INT | 24 | 2 | 90 | (26+58)=(20-((20-x)+6)) | 26 58 + 20 20 x - 6 + - = | 26:sticker 58:sticker +:sticker 20:sticker 20:sticker x:sticker -:sticker 6:sticker +:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 25 | 2 | 26 | 58=((6-((20-26)-20))+x) | 58 6 20 26 - 20 - - x + = | 58:sticker 6:sticker 20:sticker 26:sticker -:sticker 20:sticker -:sticker -:sticker x:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 25 | 2 | 26 | ((58-((6-20)+20))-26)=x | 58 6 20 - 20 + - 26 - x = | 58:sticker 6:sticker 20:sticker -:sticker 20:sticker +:sticker -:sticker 26:sticker -:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 25 | 2 | 78 | x=((((58-6)+20)-20)+26) | x 58 6 - 20 + 20 - 26 + = | x:sticker 58:sticker 6:sticker -:sticker 20:sticker +:sticker 20:sticker -:sticker 26:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 25 | 2 | 78 | (((x+6)-58)+(20-20))=26 | x 6 + 58 - 20 20 - + 26 = | x:sticker 6:sticker +:sticker 58:sticker -:sticker 20:sticker 20:sticker -:sticker +:sticker 26:sticker =:sticker
-EXPR: 0 | POS | INT | 25 | 2 | 78 | x=(58-(6-((26-20)+20))) | x 58 6 26 20 - 20 + - - = | x:sticker 58:sticker 6:sticker 26:sticker 20:sticker -:sticker 20:sticker +:sticker -:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 25 | 2 | 38 | ((20-(58-(x+6)))+20)=26 | 20 58 x 6 + - - 20 + 26 = | 20:sticker 58:sticker x:sticker 6:sticker +:sticker -:sticker -:sticker 20:sticker +:sticker 26:sticker =:sticker
-EXPR: 0 | POS | INT | 27 | 2 | 90 | 6=((((20+x)-58)-26)-20) | 6 20 x + 58 - 26 - 20 - = | 6:sticker 20:sticker x:sticker +:sticker 58:sticker -:sticker 26:sticker -:sticker 20:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 28 | 2 | 90 | ((26-x)+6)=((20-58)-20) | 26 x - 6 + 20 58 - 20 - = | 26:sticker x:sticker -:sticker 6:sticker +:sticker 20:sticker 58:sticker -:sticker 20:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 28 | 2 | 50 | x=((6+(58-(20-26)))-20) | x 6 58 20 26 - - + 20 - = | x:sticker 6:sticker 58:sticker 20:sticker 26:sticker -:sticker -:sticker +:sticker 20:sticker -:sticker =:sticker
-EXPR: 0 | POS | INT | 28 | 2 | 90 | (20-6)=(20+(58-(x-26))) | 20 6 - 20 58 x 26 - - + = | 20:sticker 6:sticker -:sticker 20:sticker 58:sticker x:sticker 26:sticker -:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 30 | 2 | 26 | 58=((6-((20-20)-26))+x) | 58 6 20 20 - 26 - - x + = | 58:sticker 6:sticker 20:sticker 20:sticker -:sticker 26:sticker -:sticker -:sticker x:sticker +:sticker =:sticker
-EXPR: 1 | POS | INT | 30 | 2 | 2 | (x+((6+(58-20))-26))=20 | x 6 58 20 - + 26 - + 20 = | x:sticker 6:sticker 58:sticker 20:sticker -:sticker +:sticker 26:sticker -:sticker +:sticker 20:sticker =:sticker
-EXPR: 0 | POS | INT | 30 | 2 | 118 | (6-20)=(20+(58-(x-26))) | 6 20 - 20 58 x 26 - - + = | 6:sticker 20:sticker -:sticker 20:sticker 58:sticker x:sticker 26:sticker -:sticker -:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 30 | 2 | 118 | ((58-((6-20)-26))+20)=x | 58 6 20 - 26 - - 20 + x = | 58:sticker 6:sticker 20:sticker -:sticker 26:sticker -:sticker -:sticker 20:sticker +:sticker x:sticker =:sticker
-EXPR: 0 | POS | INT | 30 | 2 | 78 | (x+((6-(58-20))-26))=20 | x 6 58 20 - - 26 - + 20 = | x:sticker 6:sticker 58:sticker 20:sticker -:sticker -:sticker 26:sticker -:sticker +:sticker 20:sticker =:sticker
-EXPR: 0 | POS | INT | 31 | 2 | 26 | ((58-(x-20))-20)=(26+6) | 58 x 20 - - 20 - 26 6 + = | 58:sticker x:sticker 20:sticker -:sticker -:sticker 20:sticker -:sticker 26:sticker 6:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 37 | 2 | 38 | ((58-(6-26))-x)=(20+20) | 58 6 26 - - x - 20 20 + = | 58:sticker 6:sticker 26:sticker -:sticker -:sticker x:sticker -:sticker 20:sticker 20:sticker +:sticker =:sticker
-EXPR: 0 | POS | INT | 38 | 2 | 90 | ((x-6)-58)=((20-20)+26) | x 6 - 58 - 20 20 - 26 + = | x:sticker 6:sticker -:sticker 58:sticker -:sticker 20:sticker 20:sticker -:sticker 26:sticker +:sticker =:sticker
-NET 138 unique, non-negative, integer-valued solutions found out of 315 total solutions
+EXPR: 0 | POS | INT | 10 | 10 | 147 | x=(77+70) | x 77 70 + = | x:inch 77:inch 70:inch +:inch =:inch
+EXPR: 0 | POS | INT | 10 | 10 | 5390 | x=(77*70) | x 77 70 * = | x:UNKNOWN 77:inch 70:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 7 | (77-70)=x | 77 70 - x = | 77:inch 70:inch -:inch x:inch =:inch
+EXPR: 0 | POS | INT | 10 | 10 | 5390 | (77*70)=x | 77 70 * x = | 77:inch 70:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 10 | 7 | x=(77-70) | x 77 70 - = | x:inch 77:inch 70:inch -:inch =:inch
+EXPR: 0 | POS | INT | 10 | 10 | 147 | (77+70)=x | 77 70 + x = | 77:inch 70:inch +:inch x:inch =:inch
+EXPR: 0 | POS | INT | 12 | 10 | 7 | (77-x)=70 | 77 x - 70 = | 77:inch x:inch -:inch 70:inch =:inch
+EXPR: 0 | POS | INT | 12 | 10 | 7 | 77=(70+x) | 77 70 x + = | 77:inch 70:inch x:inch +:inch =:inch
+EXPR: 0 | POS | INT | 12 | 10 | 5390 | (x/77)=70 | x 77 / 70 = | x:UNKNOWN 77:inch /:UNKNOWN 70:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 10 | 147 | (x-77)=70 | x 77 - 70 = | x:inch 77:inch -:inch 70:inch =:inch
+EXPR: 0 | POS | INT | 12 | 10 | 147 | 77=(x-70) | 77 x 70 - = | 77:inch x:inch 70:inch -:inch =:inch
+EXPR: 0 | POS | INT | 12 | 10 | 7 | 77=(x+70) | 77 x 70 + = | 77:inch x:inch 70:inch +:inch =:inch
+EXPR: 0 | POS | INT | 12 | 10 | 5390 | 77=(x/70) | 77 x 70 / = | 77:UNKNOWN x:UNKNOWN 70:inch /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 147 | (x-70)=77 | x 70 - 77 = | x:inch 70:inch -:inch 77:inch =:inch
+EXPR: 0 | POS | INT | 14 | 10 | 5390 | 70=(x/77) | 70 x 77 / = | 70:UNKNOWN x:UNKNOWN 77:inch /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 7 | (x+70)=77 | x 70 + 77 = | x:inch 70:inch +:inch 77:inch =:inch
+EXPR: 0 | POS | INT | 14 | 10 | 5390 | (x/70)=77 | x 70 / 77 = | x:UNKNOWN 70:inch /:UNKNOWN 77:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 14 | 10 | 7 | 70=(77-x) | 70 77 x - = | 70:inch 77:inch x:inch -:inch =:inch
+EXPR: 0 | POS | INT | 14 | 10 | 7 | (70+x)=77 | 70 x + 77 = | 70:inch x:inch +:inch 77:inch =:inch
+EXPR: 0 | POS | INT | 14 | 10 | 147 | 70=(x-77) | 70 x 77 - = | 70:inch x:inch 77:inch -:inch =:inch
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
