@@ -1,32 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 50 | 2 | 62=(x*31) | 62 x 31 * = | 62:vote x:UNKNOWN 31:vote *:vote =:vote
-EXPR: 0 | POS | INT | 2 | 50 | 2 | 62=(31*x) | 62 31 x * = | 62:vote 31:vote x:UNKNOWN *:vote =:vote
-EXPR: 0 | POS | INT | 2 | 50 | 2 | (62/x)=31 | 62 x / 31 = | 62:vote x:UNKNOWN /:vote 31:vote =:vote
-EXPR: 0 | POS | INT | 4 | 50 | 2 | (x*31)=62 | x 31 * 62 = | x:UNKNOWN 31:vote *:vote 62:vote =:vote
-EXPR: 0 | POS | INT | 4 | 50 | 2 | (31*x)=62 | 31 x * 62 = | 31:vote x:UNKNOWN *:vote 62:vote =:vote
-EXPR: 0 | POS | INT | 4 | 50 | 2 | 31=(62/x) | 31 62 x / = | 31:vote 62:vote x:UNKNOWN /:vote =:vote
-EXPR: 0 | POS | INT | 10 | 50 | 93 | x=(62+31) | x 62 31 + = | x:vote 62:vote 31:vote +:vote =:vote
-EXPR: 0 | POS | INT | 10 | 50 | 1922 | x=(62*31) | x 62 31 * = | x:UNKNOWN 62:vote 31:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 | 31 | (62-31)=x | 62 31 - x = | 62:vote 31:vote -:vote x:vote =:vote
-EXPR: 0 | POS | INT | 10 | 50 | 1922 | (62*31)=x | 62 31 * x = | 62:vote 31:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 | 31 | x=(62-31) | x 62 31 - = | x:vote 62:vote 31:vote -:vote =:vote
-EXPR: 0 | POS | INT | 10 | 50 | 2 | x=(62/31) | x 62 31 / = | x:UNKNOWN 62:UNKNOWN 31:vote /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 | 93 | (62+31)=x | 62 31 + x = | 62:vote 31:vote +:vote x:vote =:vote
-EXPR: 0 | POS | INT | 10 | 50 | 2 | (62/31)=x | 62 31 / x = | 62:UNKNOWN 31:vote /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 | 31 | (62-x)=31 | 62 x - 31 = | 62:vote x:vote -:vote 31:vote =:vote
-EXPR: 0 | POS | INT | 12 | 50 | 31 | 62=(31+x) | 62 31 x + = | 62:vote 31:vote x:vote +:vote =:vote
-EXPR: 0 | POS | INT | 12 | 50 | 1922 | (x/62)=31 | x 62 / 31 = | x:UNKNOWN 62:vote /:UNKNOWN 31:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 | 93 | (x-62)=31 | x 62 - 31 = | x:vote 62:vote -:vote 31:vote =:vote
-EXPR: 0 | POS | INT | 12 | 50 | 93 | 62=(x-31) | 62 x 31 - = | 62:vote x:vote 31:vote -:vote =:vote
-EXPR: 0 | POS | INT | 12 | 50 | 31 | 62=(x+31) | 62 x 31 + = | 62:vote x:vote 31:vote +:vote =:vote
-EXPR: 0 | POS | INT | 12 | 50 | 1922 | 62=(x/31) | 62 x 31 / = | 62:UNKNOWN x:UNKNOWN 31:vote /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 50 | 93 | (x-31)=62 | x 31 - 62 = | x:vote 31:vote -:vote 62:vote =:vote
-EXPR: 0 | POS | INT | 14 | 50 | 1922 | 31=(x/62) | 31 x 62 / = | 31:UNKNOWN x:UNKNOWN 62:vote /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 50 | 31 | (x+31)=62 | x 31 + 62 = | x:vote 31:vote +:vote 62:vote =:vote
-EXPR: 0 | POS | INT | 14 | 50 | 1922 | (x/31)=62 | x 31 / 62 = | x:UNKNOWN 31:vote /:UNKNOWN 62:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 50 | 31 | 31=(62-x) | 31 62 x - = | 31:vote 62:vote x:vote -:vote =:vote
-EXPR: 0 | POS | INT | 14 | 50 | 31 | (31+x)=62 | 31 x + 62 = | 31:vote x:vote +:vote 62:vote =:vote
-EXPR: 0 | POS | INT | 14 | 50 | 93 | 31=(x-62) | 31 x 62 - = | 31:vote x:vote 62:vote -:vote =:vote
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.5 | 0.5 | (0.75-0.25)=x | 0.75 0.25 - x = | 0.75:mile 0.25:mile -:mile x:mile =:mile
+EXPR: 1 | POS | FRA | 0 | 0.5 | 0.5 | x=(0.75-0.25) | x 0.75 0.25 - = | x:mile 0.75:mile 0.25:mile -:mile =:mile
+EXPR: 0 | POS | INT | 0 | 0.5 | 1 | (0.75+0.25)=x | 0.75 0.25 + x = | 0.75:mile 0.25:mile +:mile x:mile =:mile
+EXPR: 0 | POS | INT | 0 | 0.5 | 1 | x=(0.75+0.25) | x 0.75 0.25 + = | x:mile 0.75:mile 0.25:mile +:mile =:mile
+EXPR: 0 | POS | INT | 2 | 0.5 | 1 | (x-0.75)=0.25 | x 0.75 - 0.25 = | x:mile 0.75:mile -:mile 0.25:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | (0.75-x)=0.25 | 0.75 x - 0.25 = | 0.75:mile x:mile -:mile 0.25:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | 0.75=(x+0.25) | 0.75 x 0.25 + = | 0.75:mile x:mile 0.25:mile +:mile =:mile
+EXPR: 0 | POS | INT | 2 | 0.5 | 1 | 0.75=(x-0.25) | 0.75 x 0.25 - = | 0.75:mile x:mile 0.25:mile -:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | 0.75=(0.25+x) | 0.75 0.25 x + = | 0.75:mile 0.25:mile x:mile +:mile =:mile
+EXPR: 0 | POS | INT | 4 | 0.5 | 1 | 0.25=(x-0.75) | 0.25 x 0.75 - = | 0.25:mile x:mile 0.75:mile -:mile =:mile
+EXPR: 0 | POS | INT | 4 | 0.5 | 1 | (x-0.25)=0.75 | x 0.25 - 0.75 = | x:mile 0.25:mile -:mile 0.75:mile =:mile
+EXPR: 1 | POS | FRA | 4 | 0.5 | 0.5 | (0.25+x)=0.75 | 0.25 x + 0.75 = | 0.25:mile x:mile +:mile 0.75:mile =:mile
+EXPR: 1 | POS | FRA | 4 | 0.5 | 0.5 | (x+0.25)=0.75 | x 0.25 + 0.75 = | x:mile 0.25:mile +:mile 0.75:mile =:mile
+EXPR: 1 | POS | FRA | 4 | 0.5 | 0.5 | 0.25=(0.75-x) | 0.25 0.75 x - = | 0.25:mile 0.75:mile x:mile -:mile =:mile
+NET 14 unique, non-negative solutions found out of 28 total solutions

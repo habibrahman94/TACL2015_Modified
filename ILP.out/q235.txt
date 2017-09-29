@@ -1,5 +1,0 @@
-quantities : 2 3 x
-types : "apple" "apple" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 50.0

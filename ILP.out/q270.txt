@@ -1,5 +1,0 @@
-quantities : 12 x 40
-types : "family" "UNKNOWN" "family"
-operators : + - * / =
-n : 5
-answer : 30.0

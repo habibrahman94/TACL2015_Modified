@@ -1,32 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 50 | 2312 | (34*68)=x | 34 68 * x = | 34:necklace 68:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 | 2312 | x=(34*68) | x 34 68 * = | x:necklace 34:necklace 68:bead *:necklace =:necklace
-EXPR: 0 | POS | INT | 12 | 50 | 2 | (34*x)=68 | 34 x * 68 = | 34:necklace x:bead *:bead 68:bead =:bead
-EXPR: 0 | POS | INT | 12 | 50 | 2 | x=(68/34) | x 68 34 / = | x:bead 68:bead 34:necklace /:bead =:bead
-EXPR: 0 | POS | INT | 12 | 50 | 2 | 34=(68/x) | 34 68 x / = | 34:bead 68:bead x:UNKNOWN /:bead =:bead
-EXPR: 0 | POS | INT | 12 | 50 | 2312 | 34=(x/68) | 34 x 68 / = | 34:UNKNOWN x:UNKNOWN 68:bead /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 | 2 | (x*34)=68 | x 34 * 68 = | x:UNKNOWN 34:bead *:bead 68:bead =:bead
-EXPR: 0 | POS | INT | 12 | 50 | 2312 | (x/34)=68 | x 34 / 68 = | x:UNKNOWN 34:necklace /:UNKNOWN 68:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 | 2 | (68/34)=x | 68 34 / x = | 68:UNKNOWN 34:necklace /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 50 | 2 | (68/x)=34 | 68 x / 34 = | 68:necklace x:UNKNOWN /:necklace 34:necklace =:necklace
-EXPR: 0 | POS | INT | 14 | 50 | 2312 | (x/68)=34 | x 68 / 34 = | x:necklace 68:bead /:necklace 34:necklace =:necklace
-EXPR: 0 | POS | INT | 14 | 50 | 2 | 68=(34*x) | 68 34 x * = | 68:bead 34:necklace x:bead *:bead =:bead
-EXPR: 0 | POS | INT | 14 | 50 | 2 | 68=(x*34) | 68 x 34 * = | 68:bead x:UNKNOWN 34:bead *:bead =:bead
-EXPR: 0 | POS | INT | 14 | 50 | 2312 | 68=(x/34) | 68 x 34 / = | 68:UNKNOWN x:UNKNOWN 34:necklace /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 20 | 50 | 102 | x=(34+68) | x 34 68 + = | x:necklace 34:necklace 68:necklace +:necklace =:necklace
-EXPR: 0 | POS | INT | 20 | 50 | 102 | (34+68)=x | 34 68 + x = | 34:necklace 68:necklace +:necklace x:necklace =:necklace
-EXPR: 0 | POS | INT | 22 | 50 | 102 | 34=(x-68) | 34 x 68 - = | 34:necklace x:necklace 68:necklace -:necklace =:necklace
-EXPR: 0 | POS | INT | 22 | 50 | 34 | 34=(68-x) | 34 68 x - = | 34:bead 68:bead x:bead -:bead =:bead
-EXPR: 0 | POS | INT | 22 | 50 | 34 | x=(68-34) | x 68 34 - = | x:bead 68:bead 34:bead -:bead =:bead
-EXPR: 0 | POS | INT | 22 | 50 | 34 | (x+34)=68 | x 34 + 68 = | x:bead 34:bead +:bead 68:bead =:bead
-EXPR: 0 | POS | INT | 22 | 50 | 102 | (x-34)=68 | x 34 - 68 = | x:bead 34:bead -:bead 68:bead =:bead
-EXPR: 0 | POS | INT | 22 | 50 | 34 | (34+x)=68 | 34 x + 68 = | 34:necklace x:necklace +:necklace 68:necklace =:necklace
-EXPR: 0 | POS | INT | 22 | 50 | 34 | (68-34)=x | 68 34 - x = | 68:UNKNOWN 34:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 24 | 50 | 34 | 68=(x+34) | 68 x 34 + = | 68:necklace x:necklace 34:necklace +:necklace =:necklace
-EXPR: 0 | POS | INT | 24 | 50 | 34 | (68-x)=34 | 68 x - 34 = | 68:necklace x:necklace -:necklace 34:necklace =:necklace
-EXPR: 0 | POS | INT | 24 | 50 | 102 | (x-68)=34 | x 68 - 34 = | x:necklace 68:necklace -:necklace 34:necklace =:necklace
-EXPR: 0 | POS | INT | 24 | 50 | 102 | 68=(x-34) | 68 x 34 - = | 68:necklace x:necklace 34:necklace -:necklace =:necklace
-EXPR: 0 | POS | INT | 24 | 50 | 34 | 68=(34+x) | 68 34 x + = | 68:UNKNOWN 34:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
-NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 4 | 25 | x=(20/0.8) | x 20 0.8 / = | x:question 20:question 0.8:test /:question =:question
+EXPR: 0 | POS | INT | 0 | 4 | 16 | (20*0.8)=x | 20 0.8 * x = | 20:question 0.8:test *:question x:question =:question
+EXPR: 0 | POS | INT | 0 | 4 | 16 | x=(20*0.8) | x 20 0.8 * = | x:question 20:question 0.8:test *:question =:question
+EXPR: 0 | POS | INT | 0 | 4 | 25 | (20/0.8)=x | 20 0.8 / x = | 20:question 0.8:test /:question x:question =:question
+EXPR: 0 | POS | INT | 2 | 4 | 16 | 20=(x/0.8) | 20 x 0.8 / = | 20:question x:question 0.8:test /:question =:question
+EXPR: 0 | POS | INT | 2 | 4 | 25 | 20=(x*0.8) | 20 x 0.8 * = | 20:question x:question 0.8:test *:question =:question
+EXPR: 0 | POS | INT | 2 | 4 | 25 | 20=(0.8*x) | 20 0.8 x * = | 20:question 0.8:test x:question *:question =:question
+EXPR: 0 | POS | INT | 4 | 4 | 25 | (0.8*x)=20 | 0.8 x * 20 = | 0.8:test x:question *:question 20:question =:question
+EXPR: 0 | POS | INT | 4 | 4 | 25 | (x*0.8)=20 | x 0.8 * 20 = | x:question 0.8:test *:question 20:question =:question
+EXPR: 0 | POS | INT | 4 | 4 | 16 | (x/0.8)=20 | x 0.8 / 20 = | x:question 0.8:test /:question 20:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 20.8 | (20+0.8)=x | 20 0.8 + x = | 20:question 0.8:question +:question x:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 20.8 | x=(20+0.8) | x 20 0.8 + = | x:question 20:question 0.8:question +:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 19.2 | (20-0.8)=x | 20 0.8 - x = | 20:question 0.8:question -:question x:question =:question
+EXPR: 0 | POS | FRA | 10 | 4 | 19.2 | x=(20-0.8) | x 20 0.8 - = | x:question 20:question 0.8:question -:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 19.2 | 20=(x+0.8) | 20 x 0.8 + = | 20:question x:question 0.8:question +:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 0.04 | 20=(0.8/x) | 20 0.8 x / = | 20:test 0.8:test x:question /:test =:test
+EXPR: 0 | POS | FRA | 12 | 4 | 0.04 | (x*20)=0.8 | x 20 * 0.8 = | x:question 20:test *:test 0.8:test =:test
+EXPR: 0 | POS | INT | 12 | 4 | 25 | (20/x)=0.8 | 20 x / 0.8 = | 20:test x:question /:test 0.8:test =:test
+EXPR: 0 | POS | FRA | 12 | 4 | 0.04 | x=(0.8/20) | x 0.8 20 / = | x:test 0.8:test 20:question /:test =:test
+EXPR: 0 | POS | FRA | 12 | 4 | 20.8 | 20=(x-0.8) | 20 x 0.8 - = | 20:question x:question 0.8:question -:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 0.04 | (0.8/20)=x | 0.8 20 / x = | 0.8:test 20:question /:test x:test =:test
+EXPR: 0 | POS | FRA | 12 | 4 | 0.04 | (20*x)=0.8 | 20 x * 0.8 = | 20:test x:question *:test 0.8:test =:test
+EXPR: 0 | POS | FRA | 12 | 4 | 20.8 | (x-20)=0.8 | x 20 - 0.8 = | x:question 20:question -:question 0.8:question =:question
+EXPR: 0 | POS | FRA | 12 | 4 | 19.2 | (20-x)=0.8 | 20 x - 0.8 = | 20:question x:question -:question 0.8:question =:question
+EXPR: 0 | POS | INT | 12 | 4 | 16 | (x/20)=0.8 | x 20 / 0.8 = | x:test 20:question /:test 0.8:test =:test
+EXPR: 0 | POS | FRA | 12 | 4 | 19.2 | 20=(0.8+x) | 20 0.8 x + = | 20:question 0.8:question x:question +:question =:question
+EXPR: 0 | POS | INT | 14 | 4 | 16 | 0.8=(x/20) | 0.8 x 20 / = | 0.8:test x:test 20:question /:test =:test
+EXPR: 0 | POS | INT | 14 | 4 | 25 | 0.8=(20/x) | 0.8 20 x / = | 0.8:test 20:test x:question /:test =:test
+EXPR: 0 | POS | FRA | 14 | 4 | 19.2 | (0.8+x)=20 | 0.8 x + 20 = | 0.8:question x:question +:question 20:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 19.2 | (x+0.8)=20 | x 0.8 + 20 = | x:question 0.8:question +:question 20:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 0.04 | 0.8=(20*x) | 0.8 20 x * = | 0.8:test 20:question x:test *:test =:test
+EXPR: 0 | POS | FRA | 14 | 4 | 0.04 | (0.8/x)=20 | 0.8 x / 20 = | 0.8:test x:question /:test 20:test =:test
+EXPR: 0 | POS | FRA | 14 | 4 | 19.2 | 0.8=(20-x) | 0.8 20 x - = | 0.8:question 20:question x:question -:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 20.8 | 0.8=(x-20) | 0.8 x 20 - = | 0.8:question x:question 20:question -:question =:question
+EXPR: 0 | POS | FRA | 14 | 4 | 0.04 | 0.8=(x*20) | 0.8 x 20 * = | 0.8:test x:question 20:test *:test =:test
+EXPR: 0 | POS | FRA | 14 | 4 | 20.8 | (x-0.8)=20 | x 0.8 - 20 = | x:question 0.8:question -:question 20:question =:question
+NET 36 unique, non-negative solutions found out of 136 total solutions

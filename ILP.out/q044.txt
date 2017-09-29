@@ -1,5 +1,5 @@
-quantities : 10 0.4 x
-types : "people" "time" "people"
+quantities : 72 0.75 x
+types : "problem" "Mimi" "problem"
 operators : + - * / =
 n : 5
-answer : 4.0
+answer : 54.0

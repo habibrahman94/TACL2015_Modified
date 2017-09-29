@@ -1,5 +1,5 @@
-quantities : 28 0 x
-types : "student" "person" "UNKNOWN"
+quantities : 8.15 0.93 x
+types : "ounce" "bar" "ounce"
 operators : + - * / =
 n : 5
-answer : 42.857142857
+answer : 7.5795

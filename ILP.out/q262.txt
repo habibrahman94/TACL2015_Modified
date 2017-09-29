@@ -1,5 +1,0 @@
-quantities : 40 0.2 x
-types : "dollar" "Repair" "mechanic"
-operators : + - * / =
-n : 5
-answer : 48.0

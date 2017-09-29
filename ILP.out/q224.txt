@@ -1,5 +1,5 @@
-quantities : 123,260 0.35 x
-types : "dollar" "event" "event"
+quantities : 0.25 0.5 x
+types : "nail" "nail" "UNKNOWN"
 operators : + - * / =
 n : 5
-answer : 166401.0
+answer : 0.75

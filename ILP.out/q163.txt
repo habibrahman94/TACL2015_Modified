@@ -1,5 +1,5 @@
-quantities : 45 60 x
-types : "park" "ticket" "UNKNOWN"
+quantities : 9,410 0.1 x
+types : "dollar" "time" "she"
 operators : + - * / =
 n : 5
-answer : 75.0
+answer : 8469.0

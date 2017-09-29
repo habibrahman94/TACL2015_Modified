@@ -1,5 +1,5 @@
-quantities : 580 0.065 x
-types : "dollar" "dollar" "dollar"
+quantities : 8 0.05 x
+types : "man" "time" "people"
 operators : + - * / =
 n : 5
-answer : 37.7
+answer : 160.0

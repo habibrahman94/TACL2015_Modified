@@ -1,5 +1,5 @@
-quantities : 13 39 x
-types : "coffee" "coffee" "UNKNOWN"
+quantities : 25 0.6 x
+types : "soda" "diner" "soda"
 operators : + - * / =
 n : 5
-answer : 25.0
+answer : 15.0

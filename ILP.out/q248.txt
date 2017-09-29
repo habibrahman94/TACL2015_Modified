@@ -1,5 +1,0 @@
-quantities : 3,750 0.1 x
-types : "meter" "mountain" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 4125.0

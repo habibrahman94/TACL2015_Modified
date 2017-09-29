@@ -1,24 +1,40 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 40 | 56 | x=(16+40) | x 16 40 + = | x:student 16:student 40:student +:student =:student
-EXPR: 0 | POS | INT | 10 | 40 | 640 | x=(16*40) | x 16 40 * = | x:UNKNOWN 16:student 40:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 40 | 640 | (16*40)=x | 16 40 * x = | 16:student 40:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 40 | 56 | (16+40)=x | 16 40 + x = | 16:student 40:student +:student x:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 24 | 16=(40-x) | 16 40 x - = | 16:student 40:student x:student -:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 640 | (x/16)=40 | x 16 / 40 = | x:UNKNOWN 16:student /:UNKNOWN 40:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 40 | 56 | (x-16)=40 | x 16 - 40 = | x:student 16:student -:student 40:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 56 | 16=(x-40) | 16 x 40 - = | 16:student x:student 40:student -:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 24 | (40-16)=x | 40 16 - x = | 40:student 16:student -:student x:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 24 | x=(40-16) | x 40 16 - = | x:student 40:student 16:student -:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 24 | (x+16)=40 | x 16 + 40 = | x:student 16:student +:student 40:student =:student
-EXPR: 0 | POS | INT | 12 | 40 | 640 | 16=(x/40) | 16 x 40 / = | 16:UNKNOWN x:UNKNOWN 40:student /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 40 | 24 | (16+x)=40 | 16 x + 40 = | 16:student x:student +:student 40:student =:student
-EXPR: 0 | POS | INT | 14 | 40 | 24 | (40-x)=16 | 40 x - 16 = | 40:student x:student -:student 16:student =:student
-EXPR: 0 | POS | INT | 14 | 40 | 56 | (x-40)=16 | x 40 - 16 = | x:student 40:student -:student 16:student =:student
-EXPR: 0 | POS | INT | 14 | 40 | 640 | 40=(x/16) | 40 x 16 / = | 40:UNKNOWN x:UNKNOWN 16:student /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 40 | 640 | (x/40)=16 | x 40 / 16 = | x:UNKNOWN 40:student /:UNKNOWN 16:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 40 | 24 | 40=(16+x) | 40 16 x + = | 40:student 16:student x:student +:student =:student
-EXPR: 0 | POS | INT | 14 | 40 | 56 | 40=(x-16) | 40 x 16 - = | 40:student x:student 16:student -:student =:student
-EXPR: 0 | POS | INT | 14 | 40 | 24 | 40=(x+16) | 40 x 16 + = | 40:student x:student 16:student +:student =:student
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | FRA | 0 | 439518 | 515563.636363636 | x=(283560/0.55) | x 283560 0.55 / = | x:song 283560:song 0.55:customers /:song =:song
+EXPR: 0 | POS | INT | 0 | 439518 | 155958 | (283560*0.55)=x | 283560 0.55 * x = | 283560:song 0.55:customers *:song x:song =:song
+EXPR: 0 | POS | INT | 0 | 439518 | 155958 | x=(283560*0.55) | x 283560 0.55 * = | x:song 283560:song 0.55:customers *:song =:song
+EXPR: 0 | POS | FRA | 0 | 439518 | 515563.636363636 | (283560/0.55)=x | 283560 0.55 / x = | 283560:song 0.55:customers /:song x:song =:song
+EXPR: 0 | POS | INT | 2 | 439518 | 155958 | 283560=(x/0.55) | 283560 x 0.55 / = | 283560:song x:song 0.55:customers /:song =:song
+EXPR: 0 | POS | FRA | 2 | 439518 | 515563.636363636 | 283560=(x*0.55) | 283560 x 0.55 * = | 283560:song x:song 0.55:customers *:song =:song
+EXPR: 0 | POS | FRA | 2 | 439518 | 515563.636363636 | 283560=(0.55*x) | 283560 0.55 x * = | 283560:song 0.55:customers x:song *:song =:song
+EXPR: 0 | POS | FRA | 4 | 439518 | 515563.636363636 | (0.55*x)=283560 | 0.55 x * 283560 = | 0.55:customers x:song *:song 283560:song =:song
+EXPR: 0 | POS | FRA | 4 | 439518 | 515563.636363636 | (x*0.55)=283560 | x 0.55 * 283560 = | x:song 0.55:customers *:song 283560:song =:song
+EXPR: 0 | POS | INT | 4 | 439518 | 155958 | (x/0.55)=283560 | x 0.55 / 283560 = | x:song 0.55:customers /:song 283560:song =:song
+EXPR: 0 | POS | FRA | 10 | 439518 | 283560.55 | (283560+0.55)=x | 283560 0.55 + x = | 283560:song 0.55:song +:song x:song =:song
+EXPR: 0 | POS | FRA | 10 | 439518 | 283560.55 | x=(283560+0.55) | x 283560 0.55 + = | x:song 283560:song 0.55:song +:song =:song
+EXPR: 0 | POS | FRA | 10 | 439518 | 283559.45 | (283560-0.55)=x | 283560 0.55 - x = | 283560:song 0.55:song -:song x:song =:song
+EXPR: 0 | POS | FRA | 10 | 439518 | 283559.45 | x=(283560-0.55) | x 283560 0.55 - = | x:song 283560:song 0.55:song -:song =:song
+EXPR: 0 | POS | FRA | 12 | 439518 | 283559.45 | 283560=(x+0.55) | 283560 x 0.55 + = | 283560:song x:song 0.55:song +:song =:song
+EXPR: 0 | POS | FRA | 12 | 439518 | 1.93962477077162e-6 | 283560=(0.55/x) | 283560 0.55 x / = | 283560:customers 0.55:customers x:song /:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 1.93962477077162e-6 | (x*283560)=0.55 | x 283560 * 0.55 = | x:song 283560:customers *:customers 0.55:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 515563.636363636 | (283560/x)=0.55 | 283560 x / 0.55 = | 283560:customers x:song /:customers 0.55:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 1.93962477077162e-6 | x=(0.55/283560) | x 0.55 283560 / = | x:customers 0.55:customers 283560:song /:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 283560.55 | 283560=(x-0.55) | 283560 x 0.55 - = | 283560:song x:song 0.55:song -:song =:song
+EXPR: 0 | POS | FRA | 12 | 439518 | 1.93962477077162e-6 | (0.55/283560)=x | 0.55 283560 / x = | 0.55:customers 283560:song /:customers x:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 1.93962477077162e-6 | (283560*x)=0.55 | 283560 x * 0.55 = | 283560:customers x:song *:customers 0.55:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 283560.55 | (x-283560)=0.55 | x 283560 - 0.55 = | x:song 283560:song -:song 0.55:song =:song
+EXPR: 0 | POS | FRA | 12 | 439518 | 283559.45 | (283560-x)=0.55 | 283560 x - 0.55 = | 283560:song x:song -:song 0.55:song =:song
+EXPR: 0 | POS | INT | 12 | 439518 | 155958 | (x/283560)=0.55 | x 283560 / 0.55 = | x:customers 283560:song /:customers 0.55:customers =:customers
+EXPR: 0 | POS | FRA | 12 | 439518 | 283559.45 | 283560=(0.55+x) | 283560 0.55 x + = | 283560:song 0.55:song x:song +:song =:song
+EXPR: 0 | POS | INT | 14 | 439518 | 155958 | 0.55=(x/283560) | 0.55 x 283560 / = | 0.55:customers x:customers 283560:song /:customers =:customers
+EXPR: 0 | POS | FRA | 14 | 439518 | 515563.636363636 | 0.55=(283560/x) | 0.55 283560 x / = | 0.55:customers 283560:customers x:song /:customers =:customers
+EXPR: 0 | POS | FRA | 14 | 439518 | 283559.45 | (0.55+x)=283560 | 0.55 x + 283560 = | 0.55:song x:song +:song 283560:song =:song
+EXPR: 0 | POS | FRA | 14 | 439518 | 283559.45 | (x+0.55)=283560 | x 0.55 + 283560 = | x:song 0.55:song +:song 283560:song =:song
+EXPR: 0 | POS | FRA | 14 | 439518 | 1.93962477077162e-6 | 0.55=(283560*x) | 0.55 283560 x * = | 0.55:customers 283560:song x:customers *:customers =:customers
+EXPR: 0 | POS | FRA | 14 | 439518 | 1.93962477077162e-6 | (0.55/x)=283560 | 0.55 x / 283560 = | 0.55:customers x:song /:customers 283560:customers =:customers
+EXPR: 0 | POS | FRA | 14 | 439518 | 283559.45 | 0.55=(283560-x) | 0.55 283560 x - = | 0.55:song 283560:song x:song -:song =:song
+EXPR: 0 | POS | FRA | 14 | 439518 | 283560.55 | 0.55=(x-283560) | 0.55 x 283560 - = | 0.55:song x:song 283560:song -:song =:song
+EXPR: 0 | POS | FRA | 14 | 439518 | 1.93962477077162e-6 | 0.55=(x*283560) | 0.55 x 283560 * = | 0.55:customers x:song 283560:customers *:customers =:customers
+EXPR: 0 | POS | FRA | 14 | 439518 | 283560.55 | (x-0.55)=283560 | x 0.55 - 283560 = | x:song 0.55:song -:song 283560:song =:song
+NET 36 unique, non-negative solutions found out of 136 total solutions

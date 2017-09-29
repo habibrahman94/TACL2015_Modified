@@ -1,5 +1,5 @@
-quantities : 0.6 25 x
-types : "time" "student" "student"
+quantities : 0.2 15 x
+types : "club" "member" "member"
 operators : + - * / =
 n : 5
-answer : 15.0
+answer : 3.0

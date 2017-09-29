@@ -1,5 +1,0 @@
-quantities : 12000 x 16000
-types : "dollar" "UNKNOWN" "dollar"
-operators : + - * / =
-n : 5
-answer : 33.333333

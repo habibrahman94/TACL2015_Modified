@@ -1,5 +1,5 @@
-quantities : 68 0.5 x
-types : "people" "time" "manager"
+quantities : 421,800 0.94 x
+types : "ton" "it" "weight"
 operators : + - * / =
 n : 5
-answer : 34.0
+answer : 25308.0

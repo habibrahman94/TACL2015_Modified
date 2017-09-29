@@ -1,5 +1,5 @@
-quantities : 0.85 32.89 x
-types : "Pamela" "dollar" "price"
+quantities : 90 0.2 x
+types : "employee" "slides" "employee"
 operators : + - * / =
 n : 5
-answer : 38.694117647
+answer : 18.0

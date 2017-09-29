@@ -1,5 +1,5 @@
-quantities : 30 0.8 x
-types : "magazine" "bookstore" "magazine"
+quantities : 5,820 0.7 x
+types : "lamp" "supplier" "lamp"
 operators : + - * / =
 n : 5
-answer : 24.0
+answer : 9894.0

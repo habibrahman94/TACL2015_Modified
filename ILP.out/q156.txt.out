@@ -1,32 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 75 | 3 | 69=(x*23) | 69 x 23 * = | 69:bead x:UNKNOWN 23:bead *:bead =:bead
-EXPR: 0 | POS | INT | 2 | 75 | 3 | 69=(23*x) | 69 23 x * = | 69:bead 23:bead x:UNKNOWN *:bead =:bead
-EXPR: 0 | POS | INT | 2 | 75 | 3 | (69/x)=23 | 69 x / 23 = | 69:bead x:UNKNOWN /:bead 23:bead =:bead
-EXPR: 0 | POS | INT | 4 | 75 | 3 | (x*23)=69 | x 23 * 69 = | x:UNKNOWN 23:bead *:bead 69:bead =:bead
-EXPR: 0 | POS | INT | 4 | 75 | 3 | (23*x)=69 | 23 x * 69 = | 23:bead x:UNKNOWN *:bead 69:bead =:bead
-EXPR: 0 | POS | INT | 4 | 75 | 3 | 23=(69/x) | 23 69 x / = | 23:bead 69:bead x:UNKNOWN /:bead =:bead
-EXPR: 0 | POS | INT | 10 | 75 | 92 | x=(69+23) | x 69 23 + = | x:bead 69:bead 23:bead +:bead =:bead
-EXPR: 0 | POS | INT | 10 | 75 | 1587 | x=(69*23) | x 69 23 * = | x:UNKNOWN 69:bead 23:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 75 | 46 | (69-23)=x | 69 23 - x = | 69:bead 23:bead -:bead x:bead =:bead
-EXPR: 0 | POS | INT | 10 | 75 | 1587 | (69*23)=x | 69 23 * x = | 69:bead 23:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 75 | 46 | x=(69-23) | x 69 23 - = | x:bead 69:bead 23:bead -:bead =:bead
-EXPR: 0 | POS | INT | 10 | 75 | 3 | x=(69/23) | x 69 23 / = | x:UNKNOWN 69:UNKNOWN 23:bead /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 75 | 92 | (69+23)=x | 69 23 + x = | 69:bead 23:bead +:bead x:bead =:bead
-EXPR: 0 | POS | INT | 10 | 75 | 3 | (69/23)=x | 69 23 / x = | 69:UNKNOWN 23:bead /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 75 | 46 | (69-x)=23 | 69 x - 23 = | 69:bead x:bead -:bead 23:bead =:bead
-EXPR: 0 | POS | INT | 12 | 75 | 46 | 69=(23+x) | 69 23 x + = | 69:bead 23:bead x:bead +:bead =:bead
-EXPR: 0 | POS | INT | 12 | 75 | 1587 | (x/69)=23 | x 69 / 23 = | x:UNKNOWN 69:bead /:UNKNOWN 23:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 75 | 92 | (x-69)=23 | x 69 - 23 = | x:bead 69:bead -:bead 23:bead =:bead
-EXPR: 0 | POS | INT | 12 | 75 | 92 | 69=(x-23) | 69 x 23 - = | 69:bead x:bead 23:bead -:bead =:bead
-EXPR: 0 | POS | INT | 12 | 75 | 46 | 69=(x+23) | 69 x 23 + = | 69:bead x:bead 23:bead +:bead =:bead
-EXPR: 0 | POS | INT | 12 | 75 | 1587 | 69=(x/23) | 69 x 23 / = | 69:UNKNOWN x:UNKNOWN 23:bead /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 75 | 92 | (x-23)=69 | x 23 - 69 = | x:bead 23:bead -:bead 69:bead =:bead
-EXPR: 0 | POS | INT | 14 | 75 | 1587 | 23=(x/69) | 23 x 69 / = | 23:UNKNOWN x:UNKNOWN 69:bead /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 75 | 46 | (x+23)=69 | x 23 + 69 = | x:bead 23:bead +:bead 69:bead =:bead
-EXPR: 0 | POS | INT | 14 | 75 | 1587 | (x/23)=69 | x 23 / 69 = | x:UNKNOWN 23:bead /:UNKNOWN 69:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 75 | 46 | 23=(69-x) | 23 69 x - = | 23:bead 69:bead x:bead -:bead =:bead
-EXPR: 0 | POS | INT | 14 | 75 | 46 | (23+x)=69 | 23 x + 69 = | 23:bead x:bead +:bead 69:bead =:bead
-EXPR: 0 | POS | INT | 14 | 75 | 92 | 23=(x-69) | 23 x 69 - = | 23:bead x:bead 69:bead -:bead =:bead
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 64 | 16 | (80*0.2)=x | 80 0.2 * x = | 80:score 0.2:Jason *:score x:score =:score
+EXPR: 0 | POS | INT | 10 | 64 | 400 | x=(80/0.2) | x 80 0.2 / = | x:score 80:score 0.2:Jason /:score =:score
+EXPR: 0 | POS | INT | 10 | 64 | 16 | x=(80*0.2) | x 80 0.2 * = | x:score 80:point 0.2:score *:score =:score
+EXPR: 0 | POS | INT | 10 | 64 | 400 | (80/0.2)=x | 80 0.2 / x = | 80:point 0.2:Jason /:point x:point =:point
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | (x*80)=0.2 | x 80 * 0.2 = | x:score 80:point *:score 0.2:score =:score
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | (80*x)=0.2 | 80 x * 0.2 = | 80:point x:Jason *:Jason 0.2:Jason =:Jason
+EXPR: 0 | POS | INT | 12 | 64 | 400 | 80=(0.2*x) | 80 0.2 x * = | 80:point 0.2:Jason x:point *:point =:point
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | (0.2/80)=x | 0.2 80 / x = | 0.2:Jason 80:point /:Jason x:Jason =:Jason
+EXPR: 0 | POS | INT | 12 | 64 | 400 | 80=(x*0.2) | 80 x 0.2 * = | 80:point x:score 0.2:point *:point =:point
+EXPR: 0 | POS | INT | 12 | 64 | 16 | (x/80)=0.2 | x 80 / 0.2 = | x:score 80:point /:score 0.2:score =:score
+EXPR: 0 | POS | INT | 12 | 64 | 400 | (80/x)=0.2 | 80 x / 0.2 = | 80:Jason x:score /:Jason 0.2:Jason =:Jason
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | 80=(0.2/x) | 80 0.2 x / = | 80:point 0.2:point x:score /:point =:point
+EXPR: 0 | POS | INT | 12 | 64 | 16 | 80=(x/0.2) | 80 x 0.2 / = | 80:point x:point 0.2:Jason /:point =:point
+EXPR: 0 | POS | FRA | 12 | 64 | 0.0025 | x=(0.2/80) | x 0.2 80 / = | x:Jason 0.2:Jason 80:point /:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 400 | (x*0.2)=80 | x 0.2 * 80 = | x:score 0.2:Jason *:score 80:score =:score
+EXPR: 0 | POS | INT | 14 | 64 | 16 | (x/0.2)=80 | x 0.2 / 80 = | x:score 0.2:Jason /:score 80:score =:score
+EXPR: 0 | POS | FRA | 14 | 64 | 0.0025 | 0.2=(x*80) | 0.2 x 80 * = | 0.2:Jason x:Jason 80:point *:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 16 | 0.2=(x/80) | 0.2 x 80 / = | 0.2:Jason x:Jason 80:point /:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 400 | (0.2*x)=80 | 0.2 x * 80 = | 0.2:Jason x:score *:Jason 80:Jason =:Jason
+EXPR: 0 | POS | FRA | 14 | 64 | 0.0025 | (0.2/x)=80 | 0.2 x / 80 = | 0.2:Jason x:score /:Jason 80:Jason =:Jason
+EXPR: 0 | POS | INT | 14 | 64 | 400 | 0.2=(80/x) | 0.2 80 x / = | 0.2:Jason 80:Jason x:score /:Jason =:Jason
+EXPR: 0 | POS | FRA | 14 | 64 | 0.0025 | 0.2=(80*x) | 0.2 80 x * = | 0.2:Jason 80:Jason x:score *:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 79.8 | x=(80-0.2) | x 80 0.2 - = | x:Jason 80:Jason 0.2:Jason -:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 80.2 | x=(80+0.2) | x 80 0.2 + = | x:Jason 80:Jason 0.2:Jason +:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 80.2 | (80+0.2)=x | 80 0.2 + x = | 80:Jason 0.2:Jason +:Jason x:Jason =:Jason
+EXPR: 0 | POS | FRA | 20 | 64 | 79.8 | (80-0.2)=x | 80 0.2 - x = | 80:Jason 0.2:Jason -:Jason x:Jason =:Jason
+EXPR: 0 | POS | FRA | 22 | 64 | 79.8 | 80=(x+0.2) | 80 x 0.2 + = | 80:score x:score 0.2:score +:score =:score
+EXPR: 0 | POS | FRA | 22 | 64 | 79.8 | (80-x)=0.2 | 80 x - 0.2 = | 80:score x:score -:score 0.2:score =:score
+EXPR: 0 | POS | FRA | 22 | 64 | 79.8 | 80=(0.2+x) | 80 0.2 x + = | 80:Jason 0.2:Jason x:Jason +:Jason =:Jason
+EXPR: 0 | POS | FRA | 22 | 64 | 80.2 | 80=(x-0.2) | 80 x 0.2 - = | 80:Jason x:Jason 0.2:Jason -:Jason =:Jason
+EXPR: 0 | POS | FRA | 22 | 64 | 80.2 | (x-80)=0.2 | x 80 - 0.2 = | x:Jason 80:Jason -:Jason 0.2:Jason =:Jason
+EXPR: 0 | POS | FRA | 24 | 64 | 79.8 | (0.2+x)=80 | 0.2 x + 80 = | 0.2:score x:score +:score 80:score =:score
+EXPR: 0 | POS | FRA | 24 | 64 | 79.8 | 0.2=(80-x) | 0.2 80 x - = | 0.2:score 80:score x:score -:score =:score
+EXPR: 0 | POS | FRA | 24 | 64 | 80.2 | 0.2=(x-80) | 0.2 x 80 - = | 0.2:Jason x:Jason 80:Jason -:Jason =:Jason
+EXPR: 0 | POS | FRA | 24 | 64 | 80.2 | (x-0.2)=80 | x 0.2 - 80 = | x:Jason 0.2:Jason -:Jason 80:Jason =:Jason
+EXPR: 0 | POS | FRA | 24 | 64 | 79.8 | (x+0.2)=80 | x 0.2 + 80 = | x:Jason 0.2:Jason +:Jason 80:Jason =:Jason
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,5 +1,5 @@
-quantities : 25 15 x
-types : "pin" "pin" "UNKNOWN"
+quantities : 110 0.8 x
+types : "member" "club" "member"
 operators : + - * / =
 n : 5
-answer : 60.0
+answer : 198.0

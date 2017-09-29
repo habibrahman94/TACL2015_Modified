@@ -1,5 +1,0 @@
-quantities : 68 85 x x
-types : "seconds" "seconds" "time" "LENGTH"
-operators : + - * / =
-n : 7
-answer : 25.0

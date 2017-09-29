@@ -1,5 +1,5 @@
-quantities : 44 0.25 x
-types : "magazine" "bookstore" "magazine"
+quantities : 0.3 60 x
+types : "time" "mug" "coffee"
 operators : + - * / =
 n : 5
-answer : 11.0
+answer : 18.0

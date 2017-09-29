@@ -1,5 +1,5 @@
-quantities : 13 39 x
-types : "soda" "soda" "UNKNOWN"
+quantities : 80 0.05 x
+types : "point" "Arjun" "average"
 operators : + - * / =
 n : 5
-answer : 25.0
+answer : 84.0

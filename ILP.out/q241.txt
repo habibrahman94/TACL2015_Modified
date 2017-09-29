@@ -1,5 +1,0 @@
-quantities : 26,890 40,335 x
-types : "people" "people" "team"
-operators : + - * / =
-n : 5
-answer : 50.0

@@ -1,5 +1,5 @@
-quantities : 1,370 685 x
-types : "patient" "patient" "UNKNOWN"
+quantities : 0.625 0.25 x
+types : "scoop" "scoop" "scoop"
 operators : + - * / =
 n : 5
-answer : 50.0
+answer : 0.375

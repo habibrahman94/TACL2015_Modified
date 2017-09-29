@@ -1,5 +1,5 @@
-quantities : 50 0.3 x
-types : "cookie" "box" "cookie"
+quantities : 0.8 45 x
+types : "club" "member" "member"
 operators : + - * / =
 n : 5
-answer : 15.0
+answer : 36.0

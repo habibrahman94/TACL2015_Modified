@@ -1,5 +1,0 @@
-quantities : 18 0.4 x
-types : "bird" "time" "exhibit"
-operators : + - * / =
-n : 5
-answer : 45.0

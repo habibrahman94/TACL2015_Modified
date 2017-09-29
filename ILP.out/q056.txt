@@ -1,5 +1,5 @@
-quantities : 84 0.25 x
-types : "special" "restaurant" "salmon"
+quantities : 76 0.75 x
+types : "student" "assembly" "first-grader"
 operators : + - * / =
 n : 5
-answer : 21.0
+answer : 57.0

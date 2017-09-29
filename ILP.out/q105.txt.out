@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 17 | 17 | (85*0.2)=x | 85 0.2 * x = | 85:brownie 0.2:caramel *:caramel x:caramel =:caramel
-EXPR: 0 | POS | INT | 10 | 17 | 425 | (85/0.2)=x | 85 0.2 / x = | 85:caramel 0.2:tray /:caramel x:caramel =:caramel
-EXPR: 1 | POS | INT | 10 | 17 | 17 | x=(85*0.2) | x 85 0.2 * = | x:brownie 85:brownie 0.2:tray *:brownie =:brownie
-EXPR: 0 | POS | INT | 10 | 17 | 425 | x=(85/0.2) | x 85 0.2 / = | x:caramel 85:caramel 0.2:tray /:caramel =:caramel
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | (85*x)=0.2 | 85 x * 0.2 = | 85:brownie x:tray *:tray 0.2:tray =:tray
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | x=(0.2/85) | x 0.2 85 / = | x:tray 0.2:tray 85:brownie /:tray =:tray
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | 85=(0.2/x) | 85 0.2 x / = | 85:tray 0.2:tray x:caramel /:tray =:tray
-EXPR: 0 | POS | INT | 12 | 17 | 425 | 85=(0.2*x) | 85 0.2 x * = | 85:caramel 0.2:tray x:caramel *:caramel =:caramel
-EXPR: 0 | POS | INT | 12 | 17 | 425 | (85/x)=0.2 | 85 x / 0.2 = | 85:tray x:caramel /:tray 0.2:tray =:tray
-EXPR: 0 | POS | INT | 12 | 17 | 425 | 85=(x*0.2) | 85 x 0.2 * = | 85:caramel x:caramel 0.2:tray *:caramel =:caramel
-EXPR: 1 | POS | INT | 12 | 17 | 17 | 85=(x/0.2) | 85 x 0.2 / = | 85:caramel x:caramel 0.2:tray /:caramel =:caramel
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | (x*85)=0.2 | x 85 * 0.2 = | x:caramel 85:tray *:tray 0.2:tray =:tray
-EXPR: 1 | POS | INT | 12 | 17 | 17 | (x/85)=0.2 | x 85 / 0.2 = | x:caramel 85:brownie /:caramel 0.2:caramel =:caramel
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00235294117647059 | (0.2/85)=x | 0.2 85 / x = | 0.2:caramel 85:brownie /:caramel x:caramel =:caramel
-EXPR: 0 | POS | FRA | 14 | 17 | 0.00235294117647059 | (0.2/x)=85 | 0.2 x / 85 = | 0.2:brownie x:caramel /:brownie 85:brownie =:brownie
-EXPR: 0 | POS | INT | 14 | 17 | 425 | (0.2*x)=85 | 0.2 x * 85 = | 0.2:brownie x:caramel *:brownie 85:brownie =:brownie
-EXPR: 1 | POS | INT | 14 | 17 | 17 | (x/0.2)=85 | x 0.2 / 85 = | x:brownie 0.2:tray /:brownie 85:brownie =:brownie
-EXPR: 0 | POS | INT | 14 | 17 | 425 | (x*0.2)=85 | x 0.2 * 85 = | x:brownie 0.2:tray *:brownie 85:brownie =:brownie
-EXPR: 0 | POS | FRA | 14 | 17 | 0.00235294117647059 | 0.2=(85*x) | 0.2 85 x * = | 0.2:tray 85:brownie x:tray *:tray =:tray
-EXPR: 0 | POS | FRA | 14 | 17 | 0.00235294117647059 | 0.2=(x*85) | 0.2 x 85 * = | 0.2:tray x:caramel 85:tray *:tray =:tray
-EXPR: 1 | POS | INT | 14 | 17 | 17 | 0.2=(x/85) | 0.2 x 85 / = | 0.2:caramel x:caramel 85:brownie /:caramel =:caramel
-EXPR: 0 | POS | INT | 14 | 17 | 425 | 0.2=(85/x) | 0.2 85 x / = | 0.2:brownie 85:brownie x:caramel /:brownie =:brownie
-EXPR: 0 | POS | FRA | 20 | 17 | 85.2 | x=(85+0.2) | x 85 0.2 + = | x:brownie 85:brownie 0.2:brownie +:brownie =:brownie
-EXPR: 0 | POS | FRA | 20 | 17 | 84.8 | x=(85-0.2) | x 85 0.2 - = | x:caramel 85:caramel 0.2:caramel -:caramel =:caramel
-EXPR: 0 | POS | FRA | 20 | 17 | 85.2 | (85+0.2)=x | 85 0.2 + x = | 85:brownie 0.2:brownie +:brownie x:brownie =:brownie
-EXPR: 0 | POS | FRA | 20 | 17 | 84.8 | (85-0.2)=x | 85 0.2 - x = | 85:caramel 0.2:caramel -:caramel x:caramel =:caramel
-EXPR: 0 | POS | FRA | 22 | 17 | 85.2 | 85=(x-0.2) | 85 x 0.2 - = | 85:brownie x:brownie 0.2:brownie -:brownie =:brownie
-EXPR: 0 | POS | FRA | 22 | 17 | 84.8 | 85=(x+0.2) | 85 x 0.2 + = | 85:brownie x:brownie 0.2:brownie +:brownie =:brownie
-EXPR: 0 | POS | FRA | 22 | 17 | 85.2 | (x-85)=0.2 | x 85 - 0.2 = | x:tray 85:tray -:tray 0.2:tray =:tray
-EXPR: 0 | POS | FRA | 22 | 17 | 84.8 | (85-x)=0.2 | 85 x - 0.2 = | 85:brownie x:brownie -:brownie 0.2:brownie =:brownie
-EXPR: 0 | POS | FRA | 22 | 17 | 84.8 | 85=(0.2+x) | 85 0.2 x + = | 85:caramel 0.2:caramel x:caramel +:caramel =:caramel
-EXPR: 0 | POS | FRA | 24 | 17 | 84.8 | (0.2+x)=85 | 0.2 x + 85 = | 0.2:caramel x:caramel +:caramel 85:caramel =:caramel
-EXPR: 0 | POS | FRA | 24 | 17 | 85.2 | (x-0.2)=85 | x 0.2 - 85 = | x:brownie 0.2:brownie -:brownie 85:brownie =:brownie
-EXPR: 0 | POS | FRA | 24 | 17 | 84.8 | (x+0.2)=85 | x 0.2 + 85 = | x:caramel 0.2:caramel +:caramel 85:caramel =:caramel
-EXPR: 0 | POS | FRA | 24 | 17 | 84.8 | 0.2=(85-x) | 0.2 85 x - = | 0.2:brownie 85:brownie x:brownie -:brownie =:brownie
-EXPR: 0 | POS | FRA | 24 | 17 | 85.2 | 0.2=(x-85) | 0.2 x 85 - = | 0.2:brownie x:brownie 85:brownie -:brownie =:brownie
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 1 | POS | INT | 0 | 28 | 28 | x=(0.7*40) | x 0.7 40 * = | x:vote 0.7:time 40:vote *:vote =:vote
+EXPR: 1 | POS | INT | 0 | 28 | 28 | (0.7*40)=x | 0.7 40 * x = | 0.7:time 40:vote *:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 28 | 57.1428571428571 | (40/0.7)=x | 40 0.7 / x = | 40:vote 0.7:time /:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 28 | 57.1428571428571 | (0.7*x)=40 | 0.7 x * 40 = | 0.7:time x:vote *:vote 40:vote =:vote
+EXPR: 1 | POS | INT | 2 | 28 | 28 | (x/0.7)=40 | x 0.7 / 40 = | x:vote 0.7:time /:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 28 | 57.1428571428571 | (x*0.7)=40 | x 0.7 * 40 = | x:vote 0.7:time *:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 2 | 28 | 57.1428571428571 | x=(40/0.7) | x 40 0.7 / = | x:vote 40:vote 0.7:time /:vote =:vote
+EXPR: 0 | POS | FRA | 4 | 28 | 57.1428571428571 | 40=(x*0.7) | 40 x 0.7 * = | 40:vote x:vote 0.7:time *:vote =:vote
+EXPR: 0 | POS | FRA | 4 | 28 | 57.1428571428571 | 40=(0.7*x) | 40 0.7 x * = | 40:vote 0.7:time x:vote *:vote =:vote
+EXPR: 1 | POS | INT | 4 | 28 | 28 | 40=(x/0.7) | 40 x 0.7 / = | 40:vote x:vote 0.7:time /:vote =:vote
+EXPR: 0 | POS | FRA | 10 | 28 | 0.0175 | (0.7/40)=x | 0.7 40 / x = | 0.7:time 40:vote /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 28 | 40.7 | (0.7+40)=x | 0.7 40 + x = | 0.7:vote 40:vote +:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 10 | 28 | 40.7 | x=(0.7+40) | x 0.7 40 + = | x:vote 0.7:vote 40:vote +:vote =:vote
+EXPR: 0 | POS | FRA | 10 | 28 | 0.0175 | x=(0.7/40) | x 0.7 40 / = | x:time 0.7:time 40:vote /:time =:time
+EXPR: 0 | POS | FRA | 12 | 28 | 0.0175 | 0.7=(x*40) | 0.7 x 40 * = | 0.7:time x:time 40:vote *:time =:time
+EXPR: 0 | POS | FRA | 12 | 28 | 57.1428571428571 | 0.7=(40/x) | 0.7 40 x / = | 0.7:time 40:time x:vote /:time =:time
+EXPR: 0 | POS | FRA | 12 | 28 | 40.7 | (x-0.7)=40 | x 0.7 - 40 = | x:vote 0.7:vote -:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 28 | 0.0175 | (0.7/x)=40 | 0.7 x / 40 = | 0.7:time x:vote /:time 40:time =:time
+EXPR: 0 | POS | FRA | 12 | 28 | 39.3 | (40-0.7)=x | 40 0.7 - x = | 40:vote 0.7:vote -:vote x:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 28 | 39.3 | (x+0.7)=40 | x 0.7 + 40 = | x:vote 0.7:vote +:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 28 | 0.0175 | 0.7=(40*x) | 0.7 40 x * = | 0.7:time 40:time x:vote *:time =:time
+EXPR: 0 | POS | FRA | 12 | 28 | 39.3 | (0.7+x)=40 | 0.7 x + 40 = | 0.7:vote x:vote +:vote 40:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 28 | 39.3 | 0.7=(40-x) | 0.7 40 x - = | 0.7:vote 40:vote x:vote -:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 28 | 39.3 | x=(40-0.7) | x 40 0.7 - = | x:vote 40:vote 0.7:vote -:vote =:vote
+EXPR: 0 | POS | FRA | 12 | 28 | 40.7 | 0.7=(x-40) | 0.7 x 40 - = | 0.7:vote x:vote 40:vote -:vote =:vote
+EXPR: 1 | POS | INT | 12 | 28 | 28 | 0.7=(x/40) | 0.7 x 40 / = | 0.7:time x:time 40:vote /:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 57.1428571428571 | (40/x)=0.7 | 40 x / 0.7 = | 40:time x:vote /:time 0.7:time =:time
+EXPR: 1 | POS | INT | 14 | 28 | 28 | (x/40)=0.7 | x 40 / 0.7 = | x:time 40:vote /:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 0.0175 | 40=(0.7/x) | 40 0.7 x / = | 40:time 0.7:time x:vote /:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 39.3 | (40-x)=0.7 | 40 x - 0.7 = | 40:vote x:vote -:vote 0.7:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 28 | 0.0175 | (40*x)=0.7 | 40 x * 0.7 = | 40:time x:vote *:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 39.3 | 40=(0.7+x) | 40 0.7 x + = | 40:vote 0.7:vote x:vote +:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 28 | 0.0175 | (x*40)=0.7 | x 40 * 0.7 = | x:vote 40:time *:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 14 | 28 | 40.7 | (x-40)=0.7 | x 40 - 0.7 = | x:vote 40:vote -:vote 0.7:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 28 | 40.7 | 40=(x-0.7) | 40 x 0.7 - = | 40:vote x:vote 0.7:vote -:vote =:vote
+EXPR: 0 | POS | FRA | 14 | 28 | 39.3 | 40=(x+0.7) | 40 x 0.7 + = | 40:vote x:vote 0.7:vote +:vote =:vote
+NET 36 unique, non-negative solutions found out of 136 total solutions

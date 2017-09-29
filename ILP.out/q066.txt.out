@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 1 | 25 | x=(5/0.2) | x 5 0.2 / = | x:coffee 5:coffee 0.2:cafe /:coffee =:coffee
-EXPR: 1 | POS | INT | 0 | 1 | 1 | (5*0.2)=x | 5 0.2 * x = | 5:coffee 0.2:cafe *:coffee x:coffee =:coffee
-EXPR: 1 | POS | INT | 0 | 1 | 1 | x=(5*0.2) | x 5 0.2 * = | x:coffee 5:coffee 0.2:cafe *:coffee =:coffee
-EXPR: 0 | POS | INT | 0 | 1 | 25 | (5/0.2)=x | 5 0.2 / x = | 5:coffee 0.2:cafe /:coffee x:coffee =:coffee
-EXPR: 1 | POS | INT | 2 | 1 | 1 | 5=(x/0.2) | 5 x 0.2 / = | 5:coffee x:coffee 0.2:cafe /:coffee =:coffee
-EXPR: 0 | POS | INT | 2 | 1 | 25 | 5=(x*0.2) | 5 x 0.2 * = | 5:coffee x:coffee 0.2:cafe *:coffee =:coffee
-EXPR: 0 | POS | INT | 2 | 1 | 25 | 5=(0.2*x) | 5 0.2 x * = | 5:coffee 0.2:cafe x:coffee *:coffee =:coffee
-EXPR: 0 | POS | INT | 4 | 1 | 25 | (0.2*x)=5 | 0.2 x * 5 = | 0.2:cafe x:coffee *:coffee 5:coffee =:coffee
-EXPR: 0 | POS | INT | 4 | 1 | 25 | (x*0.2)=5 | x 0.2 * 5 = | x:coffee 0.2:cafe *:coffee 5:coffee =:coffee
-EXPR: 1 | POS | INT | 4 | 1 | 1 | (x/0.2)=5 | x 0.2 / 5 = | x:coffee 0.2:cafe /:coffee 5:coffee =:coffee
-EXPR: 0 | POS | FRA | 10 | 1 | 5.2 | (5+0.2)=x | 5 0.2 + x = | 5:coffee 0.2:coffee +:coffee x:coffee =:coffee
-EXPR: 0 | POS | FRA | 10 | 1 | 5.2 | x=(5+0.2) | x 5 0.2 + = | x:coffee 5:coffee 0.2:coffee +:coffee =:coffee
-EXPR: 0 | POS | FRA | 10 | 1 | 4.8 | (5-0.2)=x | 5 0.2 - x = | 5:coffee 0.2:coffee -:coffee x:coffee =:coffee
-EXPR: 0 | POS | FRA | 10 | 1 | 4.8 | x=(5-0.2) | x 5 0.2 - = | x:coffee 5:coffee 0.2:coffee -:coffee =:coffee
-EXPR: 0 | POS | FRA | 12 | 1 | 4.8 | 5=(x+0.2) | 5 x 0.2 + = | 5:coffee x:coffee 0.2:coffee +:coffee =:coffee
-EXPR: 0 | POS | FRA | 12 | 1 | 0.04 | 5=(0.2/x) | 5 0.2 x / = | 5:cafe 0.2:cafe x:coffee /:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 1 | 0.04 | (x*5)=0.2 | x 5 * 0.2 = | x:coffee 5:cafe *:cafe 0.2:cafe =:cafe
-EXPR: 0 | POS | INT | 12 | 1 | 25 | (5/x)=0.2 | 5 x / 0.2 = | 5:cafe x:coffee /:cafe 0.2:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 1 | 0.04 | x=(0.2/5) | x 0.2 5 / = | x:cafe 0.2:cafe 5:coffee /:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 1 | 5.2 | 5=(x-0.2) | 5 x 0.2 - = | 5:coffee x:coffee 0.2:coffee -:coffee =:coffee
-EXPR: 0 | POS | FRA | 12 | 1 | 0.04 | (0.2/5)=x | 0.2 5 / x = | 0.2:cafe 5:coffee /:cafe x:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 1 | 0.04 | (5*x)=0.2 | 5 x * 0.2 = | 5:cafe x:coffee *:cafe 0.2:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 1 | 5.2 | (x-5)=0.2 | x 5 - 0.2 = | x:coffee 5:coffee -:coffee 0.2:coffee =:coffee
-EXPR: 0 | POS | FRA | 12 | 1 | 4.8 | (5-x)=0.2 | 5 x - 0.2 = | 5:coffee x:coffee -:coffee 0.2:coffee =:coffee
-EXPR: 1 | POS | INT | 12 | 1 | 1 | (x/5)=0.2 | x 5 / 0.2 = | x:cafe 5:coffee /:cafe 0.2:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 1 | 4.8 | 5=(0.2+x) | 5 0.2 x + = | 5:coffee 0.2:coffee x:coffee +:coffee =:coffee
-EXPR: 1 | POS | INT | 14 | 1 | 1 | 0.2=(x/5) | 0.2 x 5 / = | 0.2:cafe x:cafe 5:coffee /:cafe =:cafe
-EXPR: 0 | POS | INT | 14 | 1 | 25 | 0.2=(5/x) | 0.2 5 x / = | 0.2:cafe 5:cafe x:coffee /:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 1 | 4.8 | (0.2+x)=5 | 0.2 x + 5 = | 0.2:coffee x:coffee +:coffee 5:coffee =:coffee
-EXPR: 0 | POS | FRA | 14 | 1 | 4.8 | (x+0.2)=5 | x 0.2 + 5 = | x:coffee 0.2:coffee +:coffee 5:coffee =:coffee
-EXPR: 0 | POS | FRA | 14 | 1 | 0.04 | 0.2=(5*x) | 0.2 5 x * = | 0.2:cafe 5:coffee x:cafe *:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 1 | 0.04 | (0.2/x)=5 | 0.2 x / 5 = | 0.2:cafe x:coffee /:cafe 5:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 1 | 4.8 | 0.2=(5-x) | 0.2 5 x - = | 0.2:coffee 5:coffee x:coffee -:coffee =:coffee
-EXPR: 0 | POS | FRA | 14 | 1 | 5.2 | 0.2=(x-5) | 0.2 x 5 - = | 0.2:coffee x:coffee 5:coffee -:coffee =:coffee
-EXPR: 0 | POS | FRA | 14 | 1 | 0.04 | 0.2=(x*5) | 0.2 x 5 * = | 0.2:cafe x:coffee 5:cafe *:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 1 | 5.2 | (x-0.2)=5 | x 0.2 - 5 = | x:coffee 0.2:coffee -:coffee 5:coffee =:coffee
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 16 | 16 | (0.8*20)=x | 0.8 20 * x = | 0.8:time 20:bikini *:bikini x:bikini =:bikini
+EXPR: 0 | POS | FRA | 10 | 16 | 0.04 | (0.8/20)=x | 0.8 20 / x = | 0.8:bikini 20:style /:bikini x:bikini =:bikini
+EXPR: 1 | POS | INT | 10 | 16 | 16 | x=(0.8*20) | x 0.8 20 * = | x:time 0.8:time 20:style *:time =:time
+EXPR: 0 | POS | FRA | 10 | 16 | 0.04 | x=(0.8/20) | x 0.8 20 / = | x:bikini 0.8:bikini 20:style /:bikini =:bikini
+EXPR: 0 | POS | INT | 12 | 16 | 25 | (0.8*x)=20 | 0.8 x * 20 = | 0.8:time x:style *:style 20:style =:style
+EXPR: 0 | POS | INT | 12 | 16 | 25 | x=(20/0.8) | x 20 0.8 / = | x:style 20:style 0.8:time /:style =:style
+EXPR: 0 | POS | INT | 12 | 16 | 25 | 0.8=(20/x) | 0.8 20 x / = | 0.8:style 20:style x:bikini /:style =:style
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | 0.8=(20*x) | 0.8 20 x * = | 0.8:bikini 20:style x:bikini *:bikini =:bikini
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | (0.8/x)=20 | 0.8 x / 20 = | 0.8:style x:bikini /:style 20:style =:style
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | 0.8=(x*20) | 0.8 x 20 * = | 0.8:bikini x:bikini 20:style *:bikini =:bikini
+EXPR: 1 | POS | INT | 12 | 16 | 16 | 0.8=(x/20) | 0.8 x 20 / = | 0.8:bikini x:bikini 20:style /:bikini =:bikini
+EXPR: 0 | POS | INT | 12 | 16 | 25 | (x*0.8)=20 | x 0.8 * 20 = | x:bikini 0.8:style *:style 20:style =:style
+EXPR: 1 | POS | INT | 12 | 16 | 16 | (x/0.8)=20 | x 0.8 / 20 = | x:bikini 0.8:time /:bikini 20:bikini =:bikini
+EXPR: 0 | POS | INT | 12 | 16 | 25 | (20/0.8)=x | 20 0.8 / x = | 20:bikini 0.8:time /:bikini x:bikini =:bikini
+EXPR: 0 | POS | INT | 14 | 16 | 25 | (20/x)=0.8 | 20 x / 0.8 = | 20:time x:bikini /:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | (20*x)=0.8 | 20 x * 0.8 = | 20:time x:bikini *:time 0.8:time =:time
+EXPR: 1 | POS | INT | 14 | 16 | 16 | (x/20)=0.8 | x 20 / 0.8 = | x:time 20:style /:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | (x*20)=0.8 | x 20 * 0.8 = | x:time 20:style *:time 0.8:time =:time
+EXPR: 0 | POS | INT | 14 | 16 | 25 | 20=(0.8*x) | 20 0.8 x * = | 20:style 0.8:time x:style *:style =:style
+EXPR: 0 | POS | INT | 14 | 16 | 25 | 20=(x*0.8) | 20 x 0.8 * = | 20:style x:bikini 0.8:style *:style =:style
+EXPR: 1 | POS | INT | 14 | 16 | 16 | 20=(x/0.8) | 20 x 0.8 / = | 20:bikini x:bikini 0.8:time /:bikini =:bikini
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | 20=(0.8/x) | 20 0.8 x / = | 20:time 0.8:time x:bikini /:time =:time
+EXPR: 0 | POS | FRA | 20 | 16 | 20.8 | x=(0.8+20) | x 0.8 20 + = | x:time 0.8:time 20:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 16 | 20.8 | (0.8+20)=x | 0.8 20 + x = | 0.8:time 20:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 16 | 20.8 | 0.8=(x-20) | 0.8 x 20 - = | 0.8:time x:time 20:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 16 | 19.2 | 0.8=(20-x) | 0.8 20 x - = | 0.8:style 20:style x:style -:style =:style
+EXPR: 0 | POS | FRA | 22 | 16 | 19.2 | x=(20-0.8) | x 20 0.8 - = | x:style 20:style 0.8:style -:style =:style
+EXPR: 0 | POS | FRA | 22 | 16 | 19.2 | (x+0.8)=20 | x 0.8 + 20 = | x:style 0.8:style +:style 20:style =:style
+EXPR: 0 | POS | FRA | 22 | 16 | 20.8 | (x-0.8)=20 | x 0.8 - 20 = | x:style 0.8:style -:style 20:style =:style
+EXPR: 0 | POS | FRA | 22 | 16 | 19.2 | (0.8+x)=20 | 0.8 x + 20 = | 0.8:time x:time +:time 20:time =:time
+EXPR: 0 | POS | FRA | 22 | 16 | 19.2 | (20-0.8)=x | 20 0.8 - x = | 20:bikini 0.8:bikini -:bikini x:bikini =:bikini
+EXPR: 0 | POS | FRA | 24 | 16 | 19.2 | 20=(x+0.8) | 20 x 0.8 + = | 20:time x:time 0.8:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 16 | 19.2 | (20-x)=0.8 | 20 x - 0.8 = | 20:time x:time -:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 24 | 16 | 20.8 | (x-20)=0.8 | x 20 - 0.8 = | x:time 20:time -:time 0.8:time =:time
+EXPR: 0 | POS | FRA | 24 | 16 | 20.8 | 20=(x-0.8) | 20 x 0.8 - = | 20:time x:time 0.8:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 16 | 19.2 | 20=(0.8+x) | 20 0.8 x + = | 20:bikini 0.8:bikini x:bikini +:bikini =:bikini
+NET 36 unique, non-negative solutions found out of 324 total solutions

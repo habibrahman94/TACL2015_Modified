@@ -1,40 +1,24 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 48 | 48 | (0.6*80)=x | 0.6 80 * x = | 0.6:time 80:child *:child x:child =:child
-EXPR: 0 | POS | FRA | 10 | 48 | 0.0075 | (0.6/80)=x | 0.6 80 / x = | 0.6:child 80:ticket /:child x:child =:child
-EXPR: 1 | POS | INT | 10 | 48 | 48 | x=(0.6*80) | x 0.6 80 * = | x:time 0.6:time 80:ticket *:time =:time
-EXPR: 0 | POS | FRA | 10 | 48 | 0.0075 | x=(0.6/80) | x 0.6 80 / = | x:child 0.6:child 80:ticket /:child =:child
-EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | (0.6*x)=80 | 0.6 x * 80 = | 0.6:time x:ticket *:ticket 80:ticket =:ticket
-EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | x=(80/0.6) | x 80 0.6 / = | x:ticket 80:ticket 0.6:time /:ticket =:ticket
-EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | 0.6=(80/x) | 0.6 80 x / = | 0.6:ticket 80:ticket x:child /:ticket =:ticket
-EXPR: 0 | POS | FRA | 12 | 48 | 0.0075 | 0.6=(80*x) | 0.6 80 x * = | 0.6:child 80:ticket x:child *:child =:child
-EXPR: 0 | POS | FRA | 12 | 48 | 0.0075 | (0.6/x)=80 | 0.6 x / 80 = | 0.6:ticket x:child /:ticket 80:ticket =:ticket
-EXPR: 0 | POS | FRA | 12 | 48 | 0.0075 | 0.6=(x*80) | 0.6 x 80 * = | 0.6:child x:child 80:ticket *:child =:child
-EXPR: 1 | POS | INT | 12 | 48 | 48 | 0.6=(x/80) | 0.6 x 80 / = | 0.6:child x:child 80:ticket /:child =:child
-EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | (x*0.6)=80 | x 0.6 * 80 = | x:child 0.6:ticket *:ticket 80:ticket =:ticket
-EXPR: 1 | POS | INT | 12 | 48 | 48 | (x/0.6)=80 | x 0.6 / 80 = | x:child 0.6:time /:child 80:child =:child
-EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | (80/0.6)=x | 80 0.6 / x = | 80:child 0.6:time /:child x:child =:child
-EXPR: 0 | POS | FRA | 14 | 48 | 133.333333333333 | (80/x)=0.6 | 80 x / 0.6 = | 80:time x:child /:time 0.6:time =:time
-EXPR: 0 | POS | FRA | 14 | 48 | 0.0075 | (80*x)=0.6 | 80 x * 0.6 = | 80:time x:child *:time 0.6:time =:time
-EXPR: 1 | POS | INT | 14 | 48 | 48 | (x/80)=0.6 | x 80 / 0.6 = | x:time 80:ticket /:time 0.6:time =:time
-EXPR: 0 | POS | FRA | 14 | 48 | 0.0075 | (x*80)=0.6 | x 80 * 0.6 = | x:time 80:ticket *:time 0.6:time =:time
-EXPR: 0 | POS | FRA | 14 | 48 | 133.333333333333 | 80=(0.6*x) | 80 0.6 x * = | 80:ticket 0.6:time x:ticket *:ticket =:ticket
-EXPR: 0 | POS | FRA | 14 | 48 | 133.333333333333 | 80=(x*0.6) | 80 x 0.6 * = | 80:ticket x:child 0.6:ticket *:ticket =:ticket
-EXPR: 1 | POS | INT | 14 | 48 | 48 | 80=(x/0.6) | 80 x 0.6 / = | 80:child x:child 0.6:time /:child =:child
-EXPR: 0 | POS | FRA | 14 | 48 | 0.0075 | 80=(0.6/x) | 80 0.6 x / = | 80:time 0.6:time x:child /:time =:time
-EXPR: 0 | POS | FRA | 20 | 48 | 80.6 | x=(0.6+80) | x 0.6 80 + = | x:time 0.6:time 80:time +:time =:time
-EXPR: 0 | POS | FRA | 20 | 48 | 80.6 | (0.6+80)=x | 0.6 80 + x = | 0.6:time 80:time +:time x:time =:time
-EXPR: 0 | POS | FRA | 22 | 48 | 80.6 | 0.6=(x-80) | 0.6 x 80 - = | 0.6:time x:time 80:time -:time =:time
-EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | 0.6=(80-x) | 0.6 80 x - = | 0.6:ticket 80:ticket x:ticket -:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | x=(80-0.6) | x 80 0.6 - = | x:ticket 80:ticket 0.6:ticket -:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | (x+0.6)=80 | x 0.6 + 80 = | x:ticket 0.6:ticket +:ticket 80:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 48 | 80.6 | (x-0.6)=80 | x 0.6 - 80 = | x:ticket 0.6:ticket -:ticket 80:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | (0.6+x)=80 | 0.6 x + 80 = | 0.6:time x:time +:time 80:time =:time
-EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | (80-0.6)=x | 80 0.6 - x = | 80:child 0.6:child -:child x:child =:child
-EXPR: 0 | POS | FRA | 24 | 48 | 79.4 | 80=(x+0.6) | 80 x 0.6 + = | 80:time x:time 0.6:time +:time =:time
-EXPR: 0 | POS | FRA | 24 | 48 | 79.4 | (80-x)=0.6 | 80 x - 0.6 = | 80:time x:time -:time 0.6:time =:time
-EXPR: 0 | POS | FRA | 24 | 48 | 80.6 | (x-80)=0.6 | x 80 - 0.6 = | x:time 80:time -:time 0.6:time =:time
-EXPR: 0 | POS | FRA | 24 | 48 | 80.6 | 80=(x-0.6) | 80 x 0.6 - = | 80:time x:time 0.6:time -:time =:time
-EXPR: 0 | POS | FRA | 24 | 48 | 79.4 | 80=(0.6+x) | 80 0.6 x + = | 80:child 0.6:child x:child +:child =:child
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 10 | 15 | 37 | x=(20+17) | x 20 17 + = | x:temperature 20:temperature 17:temperature +:temperature =:temperature
+EXPR: 0 | POS | INT | 10 | 15 | 340 | x=(20*17) | x 20 17 * = | x:time 20:temperature 17:time *:time =:time
+EXPR: 0 | POS | INT | 10 | 15 | 3 | (20-17)=x | 20 17 - x = | 20:temperature 17:temperature -:temperature x:temperature =:temperature
+EXPR: 0 | POS | INT | 10 | 15 | 340 | (20*17)=x | 20 17 * x = | 20:temperature 17:time *:time x:time =:time
+EXPR: 0 | POS | INT | 10 | 15 | 3 | x=(20-17) | x 20 17 - = | x:temperature 20:temperature 17:temperature -:temperature =:temperature
+EXPR: 0 | POS | INT | 10 | 15 | 37 | (20+17)=x | 20 17 + x = | 20:temperature 17:temperature +:temperature x:temperature =:temperature
+EXPR: 0 | POS | INT | 12 | 15 | 3 | (20-x)=17 | 20 x - 17 = | 20:temperature x:temperature -:temperature 17:temperature =:temperature
+EXPR: 0 | POS | INT | 12 | 15 | 3 | 20=(17+x) | 20 17 x + = | 20:temperature 17:temperature x:temperature +:temperature =:temperature
+EXPR: 0 | POS | INT | 12 | 15 | 340 | (x/20)=17 | x 20 / 17 = | x:time 20:temperature /:time 17:time =:time
+EXPR: 0 | POS | INT | 12 | 15 | 37 | (x-20)=17 | x 20 - 17 = | x:temperature 20:temperature -:temperature 17:temperature =:temperature
+EXPR: 0 | POS | INT | 12 | 15 | 37 | 20=(x-17) | 20 x 17 - = | 20:temperature x:temperature 17:temperature -:temperature =:temperature
+EXPR: 0 | POS | INT | 12 | 15 | 3 | 20=(x+17) | 20 x 17 + = | 20:temperature x:temperature 17:temperature +:temperature =:temperature
+EXPR: 0 | POS | INT | 12 | 15 | 340 | 20=(x/17) | 20 x 17 / = | 20:time x:time 17:temperature /:time =:time
+EXPR: 0 | POS | INT | 14 | 15 | 37 | (x-17)=20 | x 17 - 20 = | x:temperature 17:temperature -:temperature 20:temperature =:temperature
+EXPR: 0 | POS | INT | 14 | 15 | 340 | 17=(x/20) | 17 x 20 / = | 17:time x:time 20:temperature /:time =:time
+EXPR: 0 | POS | INT | 14 | 15 | 3 | (x+17)=20 | x 17 + 20 = | x:temperature 17:temperature +:temperature 20:temperature =:temperature
+EXPR: 0 | POS | INT | 14 | 15 | 340 | (x/17)=20 | x 17 / 20 = | x:time 17:temperature /:time 20:time =:time
+EXPR: 0 | POS | INT | 14 | 15 | 3 | 17=(20-x) | 17 20 x - = | 17:temperature 20:temperature x:temperature -:temperature =:temperature
+EXPR: 0 | POS | INT | 14 | 15 | 3 | (17+x)=20 | 17 x + 20 = | 17:temperature x:temperature +:temperature 20:temperature =:temperature
+EXPR: 0 | POS | INT | 14 | 15 | 37 | 17=(x-20) | 17 x 20 - = | 17:temperature x:temperature 20:temperature -:temperature =:temperature
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

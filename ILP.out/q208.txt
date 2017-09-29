@@ -1,5 +1,5 @@
-quantities : 8,670 16,473 x
-types : "kilogram" "kilogram" "UNKNOWN"
+quantities : 0.4 0.2 x
+types : "mile" "mile" "mile"
 operators : + - * / =
 n : 5
-answer : 90.0
+answer : 0.2

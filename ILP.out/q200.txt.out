@@ -1,40 +1,16 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 56 | 14 | (70*0.2)=x | 70 0.2 * x = | 70:ounce 0.2:he *:he x:he =:he
-EXPR: 0 | POS | INT | 10 | 56 | 350 | (70/0.2)=x | 70 0.2 / x = | 70:he 0.2:Hanson /:he x:he =:he
-EXPR: 0 | POS | INT | 10 | 56 | 14 | x=(70*0.2) | x 70 0.2 * = | x:ounce 70:ounce 0.2:Hanson *:ounce =:ounce
-EXPR: 0 | POS | INT | 10 | 56 | 350 | x=(70/0.2) | x 70 0.2 / = | x:he 70:he 0.2:Hanson /:he =:he
-EXPR: 0 | POS | FRA | 12 | 56 | 0.00285714285714286 | (70*x)=0.2 | 70 x * 0.2 = | 70:ounce x:Hanson *:Hanson 0.2:Hanson =:Hanson
-EXPR: 0 | POS | FRA | 12 | 56 | 0.00285714285714286 | x=(0.2/70) | x 0.2 70 / = | x:Hanson 0.2:Hanson 70:ounce /:Hanson =:Hanson
-EXPR: 0 | POS | FRA | 12 | 56 | 0.00285714285714286 | 70=(0.2/x) | 70 0.2 x / = | 70:Hanson 0.2:Hanson x:he /:Hanson =:Hanson
-EXPR: 0 | POS | INT | 12 | 56 | 350 | 70=(0.2*x) | 70 0.2 x * = | 70:he 0.2:Hanson x:he *:he =:he
-EXPR: 0 | POS | INT | 12 | 56 | 350 | (70/x)=0.2 | 70 x / 0.2 = | 70:Hanson x:he /:Hanson 0.2:Hanson =:Hanson
-EXPR: 0 | POS | INT | 12 | 56 | 350 | 70=(x*0.2) | 70 x 0.2 * = | 70:he x:he 0.2:Hanson *:he =:he
-EXPR: 0 | POS | INT | 12 | 56 | 14 | 70=(x/0.2) | 70 x 0.2 / = | 70:he x:he 0.2:Hanson /:he =:he
-EXPR: 0 | POS | FRA | 12 | 56 | 0.00285714285714286 | (x*70)=0.2 | x 70 * 0.2 = | x:he 70:Hanson *:Hanson 0.2:Hanson =:Hanson
-EXPR: 0 | POS | INT | 12 | 56 | 14 | (x/70)=0.2 | x 70 / 0.2 = | x:he 70:ounce /:he 0.2:he =:he
-EXPR: 0 | POS | FRA | 12 | 56 | 0.00285714285714286 | (0.2/70)=x | 0.2 70 / x = | 0.2:he 70:ounce /:he x:he =:he
-EXPR: 0 | POS | FRA | 14 | 56 | 0.00285714285714286 | (0.2/x)=70 | 0.2 x / 70 = | 0.2:ounce x:he /:ounce 70:ounce =:ounce
-EXPR: 0 | POS | INT | 14 | 56 | 350 | (0.2*x)=70 | 0.2 x * 70 = | 0.2:ounce x:he *:ounce 70:ounce =:ounce
-EXPR: 0 | POS | INT | 14 | 56 | 14 | (x/0.2)=70 | x 0.2 / 70 = | x:ounce 0.2:Hanson /:ounce 70:ounce =:ounce
-EXPR: 0 | POS | INT | 14 | 56 | 350 | (x*0.2)=70 | x 0.2 * 70 = | x:ounce 0.2:Hanson *:ounce 70:ounce =:ounce
-EXPR: 0 | POS | FRA | 14 | 56 | 0.00285714285714286 | 0.2=(70*x) | 0.2 70 x * = | 0.2:Hanson 70:ounce x:Hanson *:Hanson =:Hanson
-EXPR: 0 | POS | FRA | 14 | 56 | 0.00285714285714286 | 0.2=(x*70) | 0.2 x 70 * = | 0.2:Hanson x:he 70:Hanson *:Hanson =:Hanson
-EXPR: 0 | POS | INT | 14 | 56 | 14 | 0.2=(x/70) | 0.2 x 70 / = | 0.2:he x:he 70:ounce /:he =:he
-EXPR: 0 | POS | INT | 14 | 56 | 350 | 0.2=(70/x) | 0.2 70 x / = | 0.2:ounce 70:ounce x:he /:ounce =:ounce
-EXPR: 0 | POS | FRA | 20 | 56 | 70.2 | x=(70+0.2) | x 70 0.2 + = | x:ounce 70:ounce 0.2:ounce +:ounce =:ounce
-EXPR: 0 | POS | FRA | 20 | 56 | 69.8 | x=(70-0.2) | x 70 0.2 - = | x:he 70:he 0.2:he -:he =:he
-EXPR: 0 | POS | FRA | 20 | 56 | 70.2 | (70+0.2)=x | 70 0.2 + x = | 70:ounce 0.2:ounce +:ounce x:ounce =:ounce
-EXPR: 0 | POS | FRA | 20 | 56 | 69.8 | (70-0.2)=x | 70 0.2 - x = | 70:he 0.2:he -:he x:he =:he
-EXPR: 0 | POS | FRA | 22 | 56 | 70.2 | 70=(x-0.2) | 70 x 0.2 - = | 70:ounce x:ounce 0.2:ounce -:ounce =:ounce
-EXPR: 0 | POS | FRA | 22 | 56 | 69.8 | 70=(x+0.2) | 70 x 0.2 + = | 70:ounce x:ounce 0.2:ounce +:ounce =:ounce
-EXPR: 0 | POS | FRA | 22 | 56 | 70.2 | (x-70)=0.2 | x 70 - 0.2 = | x:Hanson 70:Hanson -:Hanson 0.2:Hanson =:Hanson
-EXPR: 0 | POS | FRA | 22 | 56 | 69.8 | (70-x)=0.2 | 70 x - 0.2 = | 70:ounce x:ounce -:ounce 0.2:ounce =:ounce
-EXPR: 0 | POS | FRA | 22 | 56 | 69.8 | 70=(0.2+x) | 70 0.2 x + = | 70:he 0.2:he x:he +:he =:he
-EXPR: 0 | POS | FRA | 24 | 56 | 69.8 | (0.2+x)=70 | 0.2 x + 70 = | 0.2:he x:he +:he 70:he =:he
-EXPR: 0 | POS | FRA | 24 | 56 | 70.2 | (x-0.2)=70 | x 0.2 - 70 = | x:ounce 0.2:ounce -:ounce 70:ounce =:ounce
-EXPR: 0 | POS | FRA | 24 | 56 | 69.8 | (x+0.2)=70 | x 0.2 + 70 = | x:he 0.2:he +:he 70:he =:he
-EXPR: 0 | POS | FRA | 24 | 56 | 69.8 | 0.2=(70-x) | 0.2 70 x - = | 0.2:ounce 70:ounce x:ounce -:ounce =:ounce
-EXPR: 0 | POS | FRA | 24 | 56 | 70.2 | 0.2=(x-70) | 0.2 x 70 - = | 0.2:ounce x:ounce 70:ounce -:ounce =:ounce
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 0.666667 | 0 | (0.3333333333333333-0.3333333333333333)=x | 0.3333333333333333 0.3333333333333333 - x = | 0.3333333333333333:pound 0.3333333333333333:pound -:pound x:pound =:pound
+EXPR: 0 | POS | INT | 0 | 0.666667 |  | x=(0.3333333333333333-0.3333333333333333) | x 0.3333333333333333 0.3333333333333333 - = | x:pound 0.3333333333333333:pound 0.3333333333333333:pound -:pound =:pound
+EXPR: 1 | POS | FRA | 0 | 0.666667 | 0.666666666666667 | (0.3333333333333333+0.3333333333333333)=x | 0.3333333333333333 0.3333333333333333 + x = | 0.3333333333333333:pound 0.3333333333333333:pound +:pound x:pound =:pound
+EXPR: 1 | POS | FRA | 0 | 0.666667 | 0.666666666666667 | x=(0.3333333333333333+0.3333333333333333) | x 0.3333333333333333 0.3333333333333333 + = | x:pound 0.3333333333333333:pound 0.3333333333333333:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 0.666667 | 0.666666666666667 | (x-0.3333333333333333)=0.3333333333333333 | x 0.3333333333333333 - 0.3333333333333333 = | x:pound 0.3333333333333333:pound -:pound 0.3333333333333333:pound =:pound
+EXPR: 0 | POS | INT | 2 | 0.666667 | 0 | 0.3333333333333333=(0.3333333333333333-x) | 0.3333333333333333 0.3333333333333333 x - = | 0.3333333333333333:pound 0.3333333333333333:pound x:pound -:pound =:pound
+EXPR: 0 | POS | INT | 2 | 0.666667 |  | (0.3333333333333333-x)=0.3333333333333333 | 0.3333333333333333 x - 0.3333333333333333 = | 0.3333333333333333:pound x:pound -:pound 0.3333333333333333:pound =:pound
+EXPR: 0 | POS | INT | 2 | 0.666667 |  | (0.3333333333333333+x)=0.3333333333333333 | 0.3333333333333333 x + 0.3333333333333333 = | 0.3333333333333333:pound x:pound +:pound 0.3333333333333333:pound =:pound
+EXPR: 0 | POS | INT | 2 | 0.666667 |  | (x+0.3333333333333333)=0.3333333333333333 | x 0.3333333333333333 + 0.3333333333333333 = | x:pound 0.3333333333333333:pound +:pound 0.3333333333333333:pound =:pound
+EXPR: 0 | POS | INT | 2 | 0.666667 | 0 | 0.3333333333333333=(x+0.3333333333333333) | 0.3333333333333333 x 0.3333333333333333 + = | 0.3333333333333333:pound x:pound 0.3333333333333333:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 0.666667 | 0.666666666666667 | 0.3333333333333333=(x-0.3333333333333333) | 0.3333333333333333 x 0.3333333333333333 - = | 0.3333333333333333:pound x:pound 0.3333333333333333:pound -:pound =:pound
+EXPR: 0 | POS | INT | 2 | 0.666667 | 0 | 0.3333333333333333=(0.3333333333333333+x) | 0.3333333333333333 0.3333333333333333 x + = | 0.3333333333333333:pound 0.3333333333333333:pound x:pound +:pound =:pound
+NET 12 unique, non-negative solutions found out of 28 total solutions

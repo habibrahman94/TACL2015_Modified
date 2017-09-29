@@ -1,5 +1,5 @@
-quantities : 18 2 x
-types : "manager" "non-manager" "UNKNOWN"
+quantities : 410 0.3 x
+types : "student" "time" "student"
 operators : + - * / =
 n : 5
-answer : 90.0
+answer : 533.0

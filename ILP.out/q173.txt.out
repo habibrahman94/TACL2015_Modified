@@ -1,32 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 20 | 4 | 18=(72/x) | 18 72 x / = | 18:burger 72:burger x:UNKNOWN /:burger =:burger
-EXPR: 0 | POS | INT | 2 | 20 | 4 | (x*18)=72 | x 18 * 72 = | x:UNKNOWN 18:burger *:burger 72:burger =:burger
-EXPR: 0 | POS | INT | 2 | 20 | 4 | (18*x)=72 | 18 x * 72 = | 18:burger x:UNKNOWN *:burger 72:burger =:burger
-EXPR: 0 | POS | INT | 4 | 20 | 4 | 72=(x*18) | 72 x 18 * = | 72:burger x:UNKNOWN 18:burger *:burger =:burger
-EXPR: 0 | POS | INT | 4 | 20 | 4 | (72/x)=18 | 72 x / 18 = | 72:burger x:UNKNOWN /:burger 18:burger =:burger
-EXPR: 0 | POS | INT | 4 | 20 | 4 | 72=(18*x) | 72 18 x * = | 72:burger 18:burger x:UNKNOWN *:burger =:burger
-EXPR: 0 | POS | INT | 10 | 20 | 90 | x=(18+72) | x 18 72 + = | x:burger 18:burger 72:burger +:burger =:burger
-EXPR: 0 | POS | INT | 10 | 20 | 1296 | x=(18*72) | x 18 72 * = | x:UNKNOWN 18:burger 72:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 1296 | (18*72)=x | 18 72 * x = | 18:burger 72:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 90 | (18+72)=x | 18 72 + x = | 18:burger 72:burger +:burger x:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 54 | 18=(72-x) | 18 72 x - = | 18:burger 72:burger x:burger -:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 4 | x=(72/18) | x 72 18 / = | x:UNKNOWN 72:UNKNOWN 18:burger /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 1296 | (x/18)=72 | x 18 / 72 = | x:UNKNOWN 18:burger /:UNKNOWN 72:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 90 | (x-18)=72 | x 18 - 72 = | x:burger 18:burger -:burger 72:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 90 | 18=(x-72) | 18 x 72 - = | 18:burger x:burger 72:burger -:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 54 | (72-18)=x | 72 18 - x = | 72:burger 18:burger -:burger x:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 54 | x=(72-18) | x 72 18 - = | x:burger 72:burger 18:burger -:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 54 | (x+18)=72 | x 18 + 72 = | x:burger 18:burger +:burger 72:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 1296 | 18=(x/72) | 18 x 72 / = | 18:UNKNOWN x:UNKNOWN 72:burger /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 54 | (18+x)=72 | 18 x + 72 = | 18:burger x:burger +:burger 72:burger =:burger
-EXPR: 0 | POS | INT | 12 | 20 | 4 | (72/18)=x | 72 18 / x = | 72:UNKNOWN 18:burger /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 54 | (72-x)=18 | 72 x - 18 = | 72:burger x:burger -:burger 18:burger =:burger
-EXPR: 0 | POS | INT | 14 | 20 | 90 | (x-72)=18 | x 72 - 18 = | x:burger 72:burger -:burger 18:burger =:burger
-EXPR: 0 | POS | INT | 14 | 20 | 1296 | 72=(x/18) | 72 x 18 / = | 72:UNKNOWN x:UNKNOWN 18:burger /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 1296 | (x/72)=18 | x 72 / 18 = | x:UNKNOWN 72:burger /:UNKNOWN 18:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 54 | 72=(18+x) | 72 18 x + = | 72:burger 18:burger x:burger +:burger =:burger
-EXPR: 0 | POS | INT | 14 | 20 | 90 | 72=(x-18) | 72 x 18 - = | 72:burger x:burger 18:burger -:burger =:burger
-EXPR: 0 | POS | INT | 14 | 20 | 54 | 72=(x+18) | 72 x 18 + = | 72:burger x:burger 18:burger +:burger =:burger
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 48 | 8 | (40*0.2)=x | 40 0.2 * x = | 40:dollar 0.2:mechanic *:mechanic x:mechanic =:mechanic
+EXPR: 0 | POS | INT | 10 | 48 | 200 | (40/0.2)=x | 40 0.2 / x = | 40:mechanic 0.2:Repair /:mechanic x:mechanic =:mechanic
+EXPR: 0 | POS | INT | 10 | 48 | 8 | x=(40*0.2) | x 40 0.2 * = | x:dollar 40:dollar 0.2:Repair *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 48 | 200 | x=(40/0.2) | x 40 0.2 / = | x:mechanic 40:mechanic 0.2:Repair /:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 12 | 48 | 0.005 | (40*x)=0.2 | 40 x * 0.2 = | 40:dollar x:Repair *:Repair 0.2:Repair =:Repair
+EXPR: 0 | POS | FRA | 12 | 48 | 0.005 | x=(0.2/40) | x 0.2 40 / = | x:Repair 0.2:Repair 40:dollar /:Repair =:Repair
+EXPR: 0 | POS | FRA | 12 | 48 | 0.005 | 40=(0.2/x) | 40 0.2 x / = | 40:Repair 0.2:Repair x:mechanic /:Repair =:Repair
+EXPR: 0 | POS | INT | 12 | 48 | 200 | 40=(0.2*x) | 40 0.2 x * = | 40:mechanic 0.2:Repair x:mechanic *:mechanic =:mechanic
+EXPR: 0 | POS | INT | 12 | 48 | 200 | (40/x)=0.2 | 40 x / 0.2 = | 40:Repair x:mechanic /:Repair 0.2:Repair =:Repair
+EXPR: 0 | POS | INT | 12 | 48 | 200 | 40=(x*0.2) | 40 x 0.2 * = | 40:mechanic x:mechanic 0.2:Repair *:mechanic =:mechanic
+EXPR: 0 | POS | INT | 12 | 48 | 8 | 40=(x/0.2) | 40 x 0.2 / = | 40:mechanic x:mechanic 0.2:Repair /:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 12 | 48 | 0.005 | (x*40)=0.2 | x 40 * 0.2 = | x:mechanic 40:Repair *:Repair 0.2:Repair =:Repair
+EXPR: 0 | POS | INT | 12 | 48 | 8 | (x/40)=0.2 | x 40 / 0.2 = | x:mechanic 40:dollar /:mechanic 0.2:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 12 | 48 | 0.005 | (0.2/40)=x | 0.2 40 / x = | 0.2:mechanic 40:dollar /:mechanic x:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 14 | 48 | 0.005 | (0.2/x)=40 | 0.2 x / 40 = | 0.2:dollar x:mechanic /:dollar 40:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 48 | 200 | (0.2*x)=40 | 0.2 x * 40 = | 0.2:dollar x:mechanic *:dollar 40:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 48 | 8 | (x/0.2)=40 | x 0.2 / 40 = | x:dollar 0.2:Repair /:dollar 40:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 48 | 200 | (x*0.2)=40 | x 0.2 * 40 = | x:dollar 0.2:Repair *:dollar 40:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 48 | 0.005 | 0.2=(40*x) | 0.2 40 x * = | 0.2:Repair 40:dollar x:Repair *:Repair =:Repair
+EXPR: 0 | POS | FRA | 14 | 48 | 0.005 | 0.2=(x*40) | 0.2 x 40 * = | 0.2:Repair x:mechanic 40:Repair *:Repair =:Repair
+EXPR: 0 | POS | INT | 14 | 48 | 8 | 0.2=(x/40) | 0.2 x 40 / = | 0.2:mechanic x:mechanic 40:dollar /:mechanic =:mechanic
+EXPR: 0 | POS | INT | 14 | 48 | 200 | 0.2=(40/x) | 0.2 40 x / = | 0.2:dollar 40:dollar x:mechanic /:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 48 | 40.2 | x=(40+0.2) | x 40 0.2 + = | x:dollar 40:dollar 0.2:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 48 | 39.8 | x=(40-0.2) | x 40 0.2 - = | x:mechanic 40:mechanic 0.2:mechanic -:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 20 | 48 | 40.2 | (40+0.2)=x | 40 0.2 + x = | 40:dollar 0.2:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 48 | 39.8 | (40-0.2)=x | 40 0.2 - x = | 40:mechanic 0.2:mechanic -:mechanic x:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 22 | 48 | 40.2 | 40=(x-0.2) | 40 x 0.2 - = | 40:dollar x:dollar 0.2:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 48 | 39.8 | 40=(x+0.2) | 40 x 0.2 + = | 40:dollar x:dollar 0.2:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 48 | 40.2 | (x-40)=0.2 | x 40 - 0.2 = | x:Repair 40:Repair -:Repair 0.2:Repair =:Repair
+EXPR: 0 | POS | FRA | 22 | 48 | 39.8 | (40-x)=0.2 | 40 x - 0.2 = | 40:dollar x:dollar -:dollar 0.2:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 48 | 39.8 | 40=(0.2+x) | 40 0.2 x + = | 40:mechanic 0.2:mechanic x:mechanic +:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 24 | 48 | 39.8 | (0.2+x)=40 | 0.2 x + 40 = | 0.2:mechanic x:mechanic +:mechanic 40:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 24 | 48 | 40.2 | (x-0.2)=40 | x 0.2 - 40 = | x:dollar 0.2:dollar -:dollar 40:dollar =:dollar
+EXPR: 0 | POS | FRA | 24 | 48 | 39.8 | (x+0.2)=40 | x 0.2 + 40 = | x:mechanic 0.2:mechanic +:mechanic 40:mechanic =:mechanic
+EXPR: 0 | POS | FRA | 24 | 48 | 39.8 | 0.2=(40-x) | 0.2 40 x - = | 0.2:dollar 40:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 24 | 48 | 40.2 | 0.2=(x-40) | 0.2 x 40 - = | 0.2:dollar x:dollar 40:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 4 | 400 | x=(40/0.1) | x 40 0.1 / = | x:question 40:question 0.1:Lia /:question =:question
-EXPR: 1 | POS | INT | 0 | 4 | 4 | (40*0.1)=x | 40 0.1 * x = | 40:question 0.1:Lia *:question x:question =:question
-EXPR: 1 | POS | INT | 0 | 4 | 4 | x=(40*0.1) | x 40 0.1 * = | x:question 40:question 0.1:Lia *:question =:question
-EXPR: 0 | POS | INT | 0 | 4 | 400 | (40/0.1)=x | 40 0.1 / x = | 40:question 0.1:Lia /:question x:question =:question
-EXPR: 1 | POS | INT | 2 | 4 | 4 | 40=(x/0.1) | 40 x 0.1 / = | 40:question x:question 0.1:Lia /:question =:question
-EXPR: 0 | POS | INT | 2 | 4 | 400 | 40=(x*0.1) | 40 x 0.1 * = | 40:question x:question 0.1:Lia *:question =:question
-EXPR: 0 | POS | INT | 2 | 4 | 400 | 40=(0.1*x) | 40 0.1 x * = | 40:question 0.1:Lia x:question *:question =:question
-EXPR: 0 | POS | INT | 4 | 4 | 400 | (0.1*x)=40 | 0.1 x * 40 = | 0.1:Lia x:question *:question 40:question =:question
-EXPR: 0 | POS | INT | 4 | 4 | 400 | (x*0.1)=40 | x 0.1 * 40 = | x:question 0.1:Lia *:question 40:question =:question
-EXPR: 1 | POS | INT | 4 | 4 | 4 | (x/0.1)=40 | x 0.1 / 40 = | x:question 0.1:Lia /:question 40:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 40.1 | (40+0.1)=x | 40 0.1 + x = | 40:question 0.1:question +:question x:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 40.1 | x=(40+0.1) | x 40 0.1 + = | x:question 40:question 0.1:question +:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 39.9 | (40-0.1)=x | 40 0.1 - x = | 40:question 0.1:question -:question x:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 39.9 | x=(40-0.1) | x 40 0.1 - = | x:question 40:question 0.1:question -:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 39.9 | 40=(x+0.1) | 40 x 0.1 + = | 40:question x:question 0.1:question +:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | 40=(0.1/x) | 40 0.1 x / = | 40:Lia 0.1:Lia x:question /:Lia =:Lia
-EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | (x*40)=0.1 | x 40 * 0.1 = | x:question 40:Lia *:Lia 0.1:Lia =:Lia
-EXPR: 0 | POS | INT | 12 | 4 | 400 | (40/x)=0.1 | 40 x / 0.1 = | 40:Lia x:question /:Lia 0.1:Lia =:Lia
-EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | x=(0.1/40) | x 0.1 40 / = | x:Lia 0.1:Lia 40:question /:Lia =:Lia
-EXPR: 0 | POS | FRA | 12 | 4 | 40.1 | 40=(x-0.1) | 40 x 0.1 - = | 40:question x:question 0.1:question -:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | (0.1/40)=x | 0.1 40 / x = | 0.1:Lia 40:question /:Lia x:Lia =:Lia
-EXPR: 0 | POS | FRA | 12 | 4 | 0.0025 | (40*x)=0.1 | 40 x * 0.1 = | 40:Lia x:question *:Lia 0.1:Lia =:Lia
-EXPR: 0 | POS | FRA | 12 | 4 | 40.1 | (x-40)=0.1 | x 40 - 0.1 = | x:question 40:question -:question 0.1:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 39.9 | (40-x)=0.1 | 40 x - 0.1 = | 40:question x:question -:question 0.1:question =:question
-EXPR: 1 | POS | INT | 12 | 4 | 4 | (x/40)=0.1 | x 40 / 0.1 = | x:Lia 40:question /:Lia 0.1:Lia =:Lia
-EXPR: 0 | POS | FRA | 12 | 4 | 39.9 | 40=(0.1+x) | 40 0.1 x + = | 40:question 0.1:question x:question +:question =:question
-EXPR: 1 | POS | INT | 14 | 4 | 4 | 0.1=(x/40) | 0.1 x 40 / = | 0.1:Lia x:Lia 40:question /:Lia =:Lia
-EXPR: 0 | POS | INT | 14 | 4 | 400 | 0.1=(40/x) | 0.1 40 x / = | 0.1:Lia 40:Lia x:question /:Lia =:Lia
-EXPR: 0 | POS | FRA | 14 | 4 | 39.9 | (0.1+x)=40 | 0.1 x + 40 = | 0.1:question x:question +:question 40:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 39.9 | (x+0.1)=40 | x 0.1 + 40 = | x:question 0.1:question +:question 40:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 0.0025 | 0.1=(40*x) | 0.1 40 x * = | 0.1:Lia 40:question x:Lia *:Lia =:Lia
-EXPR: 0 | POS | FRA | 14 | 4 | 0.0025 | (0.1/x)=40 | 0.1 x / 40 = | 0.1:Lia x:question /:Lia 40:Lia =:Lia
-EXPR: 0 | POS | FRA | 14 | 4 | 39.9 | 0.1=(40-x) | 0.1 40 x - = | 0.1:question 40:question x:question -:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 40.1 | 0.1=(x-40) | 0.1 x 40 - = | 0.1:question x:question 40:question -:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 0.0025 | 0.1=(x*40) | 0.1 x 40 * = | 0.1:Lia x:question 40:Lia *:Lia =:Lia
-EXPR: 0 | POS | FRA | 14 | 4 | 40.1 | (x-0.1)=40 | x 0.1 - 40 = | x:question 0.1:question -:question 40:question =:question
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 3 | 2 | (5*0.4)=x | 5 0.4 * x = | 5:average 0.4:airline *:average x:average =:average
+EXPR: 0 | POS | INT | 10 | 3 | 2 | x=(5*0.4) | x 5 0.4 * = | x:minute 5:minute 0.4:airline *:minute =:minute
+EXPR: 0 | POS | FRA | 10 | 3 | 12.5 | x=(5/0.4) | x 5 0.4 / = | x:minute 5:minute 0.4:airline /:minute =:minute
+EXPR: 0 | POS | FRA | 10 | 3 | 12.5 | (5/0.4)=x | 5 0.4 / x = | 5:minute 0.4:airline /:minute x:minute =:minute
+EXPR: 0 | POS | FRA | 12 | 3 | 12.5 | 5=(x*0.4) | 5 x 0.4 * = | 5:minute x:minute 0.4:airline *:minute =:minute
+EXPR: 0 | POS | FRA | 12 | 3 | 0.08 | (5*x)=0.4 | 5 x * 0.4 = | 5:airline x:average *:airline 0.4:airline =:airline
+EXPR: 0 | POS | FRA | 12 | 3 | 12.5 | (5/x)=0.4 | 5 x / 0.4 = | 5:airline x:average /:airline 0.4:airline =:airline
+EXPR: 0 | POS | FRA | 12 | 3 | 0.08 | (x*5)=0.4 | x 5 * 0.4 = | x:airline 5:minute *:airline 0.4:airline =:airline
+EXPR: 0 | POS | INT | 12 | 3 | 2 | 5=(x/0.4) | 5 x 0.4 / = | 5:minute x:minute 0.4:airline /:minute =:minute
+EXPR: 0 | POS | FRA | 12 | 3 | 0.08 | (0.4/5)=x | 0.4 5 / x = | 0.4:average 5:minute /:average x:average =:average
+EXPR: 0 | POS | FRA | 12 | 3 | 12.5 | 5=(0.4*x) | 5 0.4 x * = | 5:airline 0.4:airline x:average *:airline =:airline
+EXPR: 0 | POS | INT | 12 | 3 | 2 | (x/5)=0.4 | x 5 / 0.4 = | x:average 5:minute /:average 0.4:average =:average
+EXPR: 0 | POS | FRA | 12 | 3 | 0.08 | 5=(0.4/x) | 5 0.4 x / = | 5:airline 0.4:airline x:average /:airline =:airline
+EXPR: 0 | POS | FRA | 12 | 3 | 0.08 | x=(0.4/5) | x 0.4 5 / = | x:average 0.4:average 5:minute /:average =:average
+EXPR: 0 | POS | FRA | 14 | 3 | 0.08 | 0.4=(5*x) | 0.4 5 x * = | 0.4:airline 5:minute x:airline *:airline =:airline
+EXPR: 0 | POS | INT | 14 | 3 | 2 | (x/0.4)=5 | x 0.4 / 5 = | x:minute 0.4:airline /:minute 5:minute =:minute
+EXPR: 0 | POS | FRA | 14 | 3 | 0.08 | (0.4/x)=5 | 0.4 x / 5 = | 0.4:minute x:average /:minute 5:minute =:minute
+EXPR: 0 | POS | FRA | 14 | 3 | 12.5 | (0.4*x)=5 | 0.4 x * 5 = | 0.4:airline x:minute *:minute 5:minute =:minute
+EXPR: 0 | POS | FRA | 14 | 3 | 12.5 | (x*0.4)=5 | x 0.4 * 5 = | x:average 0.4:airline *:airline 5:airline =:airline
+EXPR: 0 | POS | FRA | 14 | 3 | 0.08 | 0.4=(x*5) | 0.4 x 5 * = | 0.4:airline x:airline 5:minute *:airline =:airline
+EXPR: 0 | POS | INT | 14 | 3 | 2 | 0.4=(x/5) | 0.4 x 5 / = | 0.4:airline x:airline 5:minute /:airline =:airline
+EXPR: 0 | POS | FRA | 14 | 3 | 12.5 | 0.4=(5/x) | 0.4 5 x / = | 0.4:minute 5:minute x:average /:minute =:minute
+EXPR: 0 | POS | FRA | 20 | 3 | 5.4 | x=(5+0.4) | x 5 0.4 + = | x:minute 5:minute 0.4:minute +:minute =:minute
+EXPR: 0 | POS | FRA | 20 | 3 | 4.6 | (5-0.4)=x | 5 0.4 - x = | 5:airline 0.4:airline -:airline x:airline =:airline
+EXPR: 0 | POS | FRA | 20 | 3 | 4.6 | x=(5-0.4) | x 5 0.4 - = | x:airline 5:airline 0.4:airline -:airline =:airline
+EXPR: 0 | POS | FRA | 20 | 3 | 5.4 | (5+0.4)=x | 5 0.4 + x = | 5:minute 0.4:minute +:minute x:minute =:minute
+EXPR: 0 | POS | FRA | 22 | 3 | 4.6 | (5-x)=0.4 | 5 x - 0.4 = | 5:airline x:airline -:airline 0.4:airline =:airline
+EXPR: 0 | POS | FRA | 22 | 3 | 5.4 | 5=(x-0.4) | 5 x 0.4 - = | 5:minute x:minute 0.4:minute -:minute =:minute
+EXPR: 0 | POS | FRA | 22 | 3 | 5.4 | (x-5)=0.4 | x 5 - 0.4 = | x:average 5:average -:average 0.4:average =:average
+EXPR: 0 | POS | FRA | 22 | 3 | 4.6 | 5=(0.4+x) | 5 0.4 x + = | 5:average 0.4:average x:average +:average =:average
+EXPR: 0 | POS | FRA | 22 | 3 | 4.6 | 5=(x+0.4) | 5 x 0.4 + = | 5:minute x:minute 0.4:minute +:minute =:minute
+EXPR: 0 | POS | FRA | 24 | 3 | 4.6 | 0.4=(5-x) | 0.4 5 x - = | 0.4:minute 5:minute x:minute -:minute =:minute
+EXPR: 0 | POS | FRA | 24 | 3 | 4.6 | (0.4+x)=5 | 0.4 x + 5 = | 0.4:minute x:minute +:minute 5:minute =:minute
+EXPR: 0 | POS | FRA | 24 | 3 | 4.6 | (x+0.4)=5 | x 0.4 + 5 = | x:airline 0.4:airline +:airline 5:airline =:airline
+EXPR: 0 | POS | FRA | 24 | 3 | 5.4 | 0.4=(x-5) | 0.4 x 5 - = | 0.4:average x:average 5:average -:average =:average
+EXPR: 0 | POS | FRA | 24 | 3 | 5.4 | (x-0.4)=5 | x 0.4 - 5 = | x:average 0.4:average -:average 5:average =:average
+NET 36 unique, non-negative solutions found out of 324 total solutions

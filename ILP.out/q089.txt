@@ -1,5 +1,5 @@
-quantities : 70 0.8 x
+quantities : 78 0.5 x
 types : "seat" "train" "seat"
 operators : + - * / =
 n : 5
-answer : 56.0
+answer : 39.0

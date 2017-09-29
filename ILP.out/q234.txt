@@ -1,5 +1,0 @@
-quantities : 775,570 0.2 x
-types : "resident" "Winchester" "population"
-operators : + - * / =
-n : 5
-answer : 620456.0

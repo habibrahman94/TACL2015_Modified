@@ -1,5 +1,5 @@
-quantities : 62 31 x
-types : "vote" "vote" "UNKNOWN"
+quantities : 0.75 0.25 x
+types : "mile" "mile" "mile"
 operators : + - * / =
 n : 5
-answer : 50.0
+answer : 0.5

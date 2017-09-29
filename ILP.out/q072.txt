@@ -1,5 +1,5 @@
-quantities : 92 0.25 x
-types : "student" "time" "people"
+quantities : 70 0.8 x
+types : "seat" "train" "seat"
 operators : + - * / =
 n : 5
-answer : 23.0
+answer : 56.0

@@ -1,5 +1,5 @@
-quantities : 85 0.2 x
-types : "brownie" "tray" "caramel"
+quantities : 0.7 40 x
+types : "time" "vote" "vote"
 operators : + - * / =
 n : 5
-answer : 17.0
+answer : 28.0

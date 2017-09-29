@@ -1,26 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 228 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 71.875 |  | x=(32*0) | x 32 0 * = | x:UNKNOWN 32:UNKNOWN 0:person *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 71.875 | 0 | (32*0)=x | 32 0 * x = | 32:student 0:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 71.875 | - | 32=(0*x) | 32 0 x * = | 32:person 0:person x:UNKNOWN *:person =:person
-EXPR: 0 | POS | INT | 12 | 71.875 | 0 | (0/32)=x | 0 32 / x = | 0:UNKNOWN 32:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 71.875 |  | x=(0/32) | x 0 32 / = | x:person 0:person 32:student /:person =:person
-EXPR: 0 | POS | INT | 12 | 71.875 |  | (32*x)=0 | 32 x * 0 = | 32:person x:UNKNOWN *:person 0:person =:person
-EXPR: 0 | POS | INT | 12 | 71.875 | - | 32=(x*0) | 32 x 0 * = | 32:UNKNOWN x:UNKNOWN 0:person *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 71.875 |  | (x*32)=0 | x 32 * 0 = | x:UNKNOWN 32:student *:student 0:student =:student
-EXPR: 0 | POS | INT | 12 | 71.875 | - | (32/x)=0 | 32 x / 0 = | 32:person x:UNKNOWN /:person 0:person =:person
-EXPR: 0 | POS | INT | 12 | 71.875 |  | (x/32)=0 | x 32 / 0 = | x:person 32:student /:person 0:person =:person
-EXPR: 0 | POS | INT | 12 | 71.875 | - | 32=(0/x) | 32 0 x / = | 32:student 0:student x:UNKNOWN /:student =:student
-EXPR: 0 | POS | INT | 14 | 71.875 | - | (x*0)=32 | x 0 * 32 = | x:student 0:person *:student 32:student =:student
-EXPR: 0 | POS | INT | 14 | 71.875 | - | (0*x)=32 | 0 x * 32 = | 0:person x:student *:student 32:student =:student
-EXPR: 0 | POS | INT | 14 | 71.875 | 0 | 0=(x/32) | 0 x 32 / = | 0:UNKNOWN x:UNKNOWN 32:student /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 71.875 | 0 | 0=(32*x) | 0 32 x * = | 0:student 32:student x:UNKNOWN *:student =:student
-EXPR: 0 | POS | INT | 14 | 71.875 | - | 0=(32/x) | 0 32 x / = | 0:student 32:student x:UNKNOWN /:student =:student
-EXPR: 0 | POS | INT | 14 | 71.875 | 0 | 0=(x*32) | 0 x 32 * = | 0:person x:person 32:student *:person =:person
-EXPR: 0 | POS | INT | 14 | 71.875 | - | (0/x)=32 | 0 x / 32 = | 0:student x:UNKNOWN /:student 32:student =:student
-EXPR: 0 | POS | INT | 22 | 71.875 | 32 | (32-x)=0 | 32 x - 0 = | 32:UNKNOWN x:UNKNOWN -:UNKNOWN 0:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 22 | 71.875 | 32 | (x-32)=0 | x 32 - 0 = | x:person 32:person -:person 0:person =:person
-EXPR: 0 | POS | INT | 24 | 71.875 | 32 | 0=(32-x) | 0 32 x - = | 0:student 32:student x:student -:student =:student
-EXPR: 0 | POS | INT | 24 | 71.875 | 32 | 0=(x-32) | 0 x 32 - = | 0:UNKNOWN x:UNKNOWN 32:UNKNOWN -:UNKNOWN =:UNKNOWN
-NET 22 unique, non-negative, integer-valued solutions found out of 228 total solutions
+EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(0.1*80) | x 0.1 80 * = | x:sixth-grader 0.1:time 80:sixth-grader *:sixth-grader =:sixth-grader
+EXPR: 1 | POS | INT | 0 | 8 | 8 | (0.1*80)=x | 0.1 80 * x = | 0.1:time 80:sixth-grader *:sixth-grader x:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 2 | 8 | 800 | (80/0.1)=x | 80 0.1 / x = | 80:sixth-grader 0.1:time /:sixth-grader x:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 2 | 8 | 800 | (0.1*x)=80 | 0.1 x * 80 = | 0.1:time x:sixth-grader *:sixth-grader 80:sixth-grader =:sixth-grader
+EXPR: 1 | POS | INT | 2 | 8 | 8 | (x/0.1)=80 | x 0.1 / 80 = | x:sixth-grader 0.1:time /:sixth-grader 80:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 2 | 8 | 800 | (x*0.1)=80 | x 0.1 * 80 = | x:sixth-grader 0.1:time *:sixth-grader 80:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 2 | 8 | 800 | x=(80/0.1) | x 80 0.1 / = | x:sixth-grader 80:sixth-grader 0.1:time /:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 4 | 8 | 800 | 80=(x*0.1) | 80 x 0.1 * = | 80:sixth-grader x:sixth-grader 0.1:time *:sixth-grader =:sixth-grader
+EXPR: 0 | POS | INT | 4 | 8 | 800 | 80=(0.1*x) | 80 0.1 x * = | 80:sixth-grader 0.1:time x:sixth-grader *:sixth-grader =:sixth-grader
+EXPR: 1 | POS | INT | 4 | 8 | 8 | 80=(x/0.1) | 80 x 0.1 / = | 80:sixth-grader x:sixth-grader 0.1:time /:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 10 | 8 | 0.00125 | (0.1/80)=x | 0.1 80 / x = | 0.1:time 80:sixth-grader /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 8 | 80.1 | (0.1+80)=x | 0.1 80 + x = | 0.1:sixth-grader 80:sixth-grader +:sixth-grader x:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 10 | 8 | 80.1 | x=(0.1+80) | x 0.1 80 + = | x:sixth-grader 0.1:sixth-grader 80:sixth-grader +:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 10 | 8 | 0.00125 | x=(0.1/80) | x 0.1 80 / = | x:time 0.1:time 80:sixth-grader /:time =:time
+EXPR: 0 | POS | FRA | 12 | 8 | 0.00125 | 0.1=(x*80) | 0.1 x 80 * = | 0.1:time x:time 80:sixth-grader *:time =:time
+EXPR: 0 | POS | INT | 12 | 8 | 800 | 0.1=(80/x) | 0.1 80 x / = | 0.1:time 80:time x:sixth-grader /:time =:time
+EXPR: 0 | POS | FRA | 12 | 8 | 80.1 | (x-0.1)=80 | x 0.1 - 80 = | x:sixth-grader 0.1:sixth-grader -:sixth-grader 80:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 12 | 8 | 0.00125 | (0.1/x)=80 | 0.1 x / 80 = | 0.1:time x:sixth-grader /:time 80:time =:time
+EXPR: 0 | POS | FRA | 12 | 8 | 79.9 | (80-0.1)=x | 80 0.1 - x = | 80:sixth-grader 0.1:sixth-grader -:sixth-grader x:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 12 | 8 | 79.9 | (x+0.1)=80 | x 0.1 + 80 = | x:sixth-grader 0.1:sixth-grader +:sixth-grader 80:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 12 | 8 | 0.00125 | 0.1=(80*x) | 0.1 80 x * = | 0.1:time 80:time x:sixth-grader *:time =:time
+EXPR: 0 | POS | FRA | 12 | 8 | 79.9 | (0.1+x)=80 | 0.1 x + 80 = | 0.1:sixth-grader x:sixth-grader +:sixth-grader 80:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 12 | 8 | 79.9 | 0.1=(80-x) | 0.1 80 x - = | 0.1:sixth-grader 80:sixth-grader x:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 12 | 8 | 79.9 | x=(80-0.1) | x 80 0.1 - = | x:sixth-grader 80:sixth-grader 0.1:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 12 | 8 | 80.1 | 0.1=(x-80) | 0.1 x 80 - = | 0.1:sixth-grader x:sixth-grader 80:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 0.1=(x/80) | 0.1 x 80 / = | 0.1:time x:time 80:sixth-grader /:time =:time
+EXPR: 0 | POS | INT | 14 | 8 | 800 | (80/x)=0.1 | 80 x / 0.1 = | 80:time x:sixth-grader /:time 0.1:time =:time
+EXPR: 1 | POS | INT | 14 | 8 | 8 | (x/80)=0.1 | x 80 / 0.1 = | x:time 80:sixth-grader /:time 0.1:time =:time
+EXPR: 0 | POS | FRA | 14 | 8 | 0.00125 | 80=(0.1/x) | 80 0.1 x / = | 80:time 0.1:time x:sixth-grader /:time =:time
+EXPR: 0 | POS | FRA | 14 | 8 | 79.9 | (80-x)=0.1 | 80 x - 0.1 = | 80:sixth-grader x:sixth-grader -:sixth-grader 0.1:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 14 | 8 | 0.00125 | (80*x)=0.1 | 80 x * 0.1 = | 80:time x:sixth-grader *:time 0.1:time =:time
+EXPR: 0 | POS | FRA | 14 | 8 | 79.9 | 80=(0.1+x) | 80 0.1 x + = | 80:sixth-grader 0.1:sixth-grader x:sixth-grader +:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 14 | 8 | 0.00125 | (x*80)=0.1 | x 80 * 0.1 = | x:sixth-grader 80:time *:time 0.1:time =:time
+EXPR: 0 | POS | FRA | 14 | 8 | 80.1 | (x-80)=0.1 | x 80 - 0.1 = | x:sixth-grader 80:sixth-grader -:sixth-grader 0.1:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 14 | 8 | 80.1 | 80=(x-0.1) | 80 x 0.1 - = | 80:sixth-grader x:sixth-grader 0.1:sixth-grader -:sixth-grader =:sixth-grader
+EXPR: 0 | POS | FRA | 14 | 8 | 79.9 | 80=(x+0.1) | 80 x 0.1 + = | 80:sixth-grader x:sixth-grader 0.1:sixth-grader +:sixth-grader =:sixth-grader
+NET 36 unique, non-negative solutions found out of 136 total solutions

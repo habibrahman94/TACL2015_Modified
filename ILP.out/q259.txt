@@ -1,5 +1,0 @@
-quantities : 77 70 x
-types : "inch" "inch" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 10.0

@@ -1,5 +1,5 @@
-quantities : 0.5 18 x
-types : "class" "student" "student"
+quantities : 4,600 0.63 x
+types : "subscriber" "company" "subscriber"
 operators : + - * / =
 n : 5
-answer : 9.0
+answer : 1702.0

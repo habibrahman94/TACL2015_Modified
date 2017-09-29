@@ -1,5 +1,5 @@
-quantities : 15 0.4 x
-types : "special" "restaurant" "salmon"
+quantities : 25 0.4 x
+types : "button" "bag" "button"
 operators : + - * / =
 n : 5
-answer : 6.0
+answer : 10.0

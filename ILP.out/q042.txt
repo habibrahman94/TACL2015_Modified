@@ -1,5 +1,5 @@
-quantities : 44 11 x
-types : "mug" "mug" "UNKNOWN"
+quantities : 0.6 15 x
+types : "class" "student" "student"
 operators : + - * / =
 n : 5
-answer : 80.0
+answer : 9.0

@@ -1,5 +1,5 @@
-quantities : 21 7 x
-types : "woman" "magazine" "UNKNOWN"
+quantities : 0.2 65 x
+types : "Tara" "bead" "bead"
 operators : + - * / =
 n : 5
-answer : 75.0
+answer : 13.0

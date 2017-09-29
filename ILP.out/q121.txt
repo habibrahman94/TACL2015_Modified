@@ -1,5 +1,5 @@
-quantities : 56 0.5 x
-types : "problem" "Beth" "problem"
+quantities : 65 0.8 x
+types : "tea" "shop" "tea"
 operators : + - * / =
 n : 5
-answer : 28.0
+answer : 52.0

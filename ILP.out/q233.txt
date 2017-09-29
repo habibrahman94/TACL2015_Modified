@@ -1,5 +1,0 @@
-quantities : x 80 0.2
-types : "score" "point" "Jason"
-operators : + - * / =
-n : 5
-answer : 64.0

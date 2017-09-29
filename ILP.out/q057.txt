@@ -1,5 +1,5 @@
-quantities : 0.4 95 x
-types : "time" "ticket" "child"
+quantities : 100 0.25 x
+types : "snack" "tray" "carrot"
 operators : + - * / =
 n : 5
-answer : 38.0
+answer : 25.0

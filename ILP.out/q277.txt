@@ -1,5 +1,0 @@
-quantities : 25 15 x
-types : "dollar" "dollar" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 40.0

@@ -1,5 +1,5 @@
-quantities : 185,550 207,816 x
-types : "minute" "minute" "time"
+quantities : 0.8333333333333334 0.5 x
+types : "foot" "foot" "sandcastle"
 operators : + - * / =
 n : 5
-answer : 12.0
+answer : 0.333333333333

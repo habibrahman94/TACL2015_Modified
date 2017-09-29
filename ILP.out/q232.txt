@@ -1,5 +1,0 @@
-quantities : 65 0.2 x
-types : "dollar" "time" "time"
-operators : + - * / =
-n : 5
-answer : 78.0

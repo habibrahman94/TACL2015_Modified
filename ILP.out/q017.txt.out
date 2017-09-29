@@ -1,28 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 288 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 58.3333 | 7 | (7*1)=x | 7 1 * x = | 7:month 1:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 58.3333 | 7 | x=(7*1) | x 7 1 * = | x:UNKNOWN 7:UNKNOWN 1:person *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | 7=(x*1) | 7 x 1 * = | 7:month x:UNKNOWN 1:month *:month =:month
-EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | (x/7)=1 | x 7 / 1 = | x:UNKNOWN 7:month /:UNKNOWN 1:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | 7=(1*x) | 7 1 x * = | 7:month 1:month x:UNKNOWN *:month =:month
-EXPR: 0 | POS | INT | 12 | 58.3333 | 7 | (7/x)=1 | 7 x / 1 = | 7:person x:UNKNOWN /:person 1:person =:person
-EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | 1=(7/x) | 1 7 x / = | 1:person 7:person x:UNKNOWN /:person =:person
-EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | (1*x)=7 | 1 x * 7 = | 1:person x:UNKNOWN *:person 7:person =:person
-EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | (x*1)=7 | x 1 * 7 = | x:UNKNOWN 1:person *:person 7:person =:person
-EXPR: 0 | POS | INT | 14 | 58.3333 | 7 | 1=(x/7) | 1 x 7 / = | 1:person x:person 7:month /:person =:person
-EXPR: 0 | POS | INT | 20 | 58.3333 | 6 | (7-1)=x | 7 1 - x = | 7:month 1:month -:month x:month =:month
-EXPR: 0 | POS | INT | 20 | 58.3333 | 8 | (7+1)=x | 7 1 + x = | 7:month 1:month +:month x:month =:month
-EXPR: 0 | POS | INT | 20 | 58.3333 | 8 | x=(7+1) | x 7 1 + = | x:UNKNOWN 7:UNKNOWN 1:UNKNOWN +:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 20 | 58.3333 | 6 | x=(7-1) | x 7 1 - = | x:month 7:month 1:month -:month =:month
-EXPR: 0 | POS | INT | 22 | 58.3333 | 6 | 7=(x+1) | 7 x 1 + = | 7:month x:month 1:month +:month =:month
-EXPR: 0 | POS | INT | 22 | 58.3333 | 8 | (x-7)=1 | x 7 - 1 = | x:person 7:person -:person 1:person =:person
-EXPR: 0 | POS | INT | 22 | 58.3333 | 6 | 7=(1+x) | 7 1 x + = | 7:UNKNOWN 1:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 22 | 58.3333 | 8 | 7=(x-1) | 7 x 1 - = | 7:month x:month 1:month -:month =:month
-EXPR: 0 | POS | INT | 22 | 58.3333 | 6 | (7-x)=1 | 7 x - 1 = | 7:UNKNOWN x:UNKNOWN -:UNKNOWN 1:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 24 | 58.3333 | 6 | (x+1)=7 | x 1 + 7 = | x:person 1:person +:person 7:person =:person
-EXPR: 0 | POS | INT | 24 | 58.3333 | 6 | 1=(7-x) | 1 7 x - = | 1:month 7:month x:month -:month =:month
-EXPR: 0 | POS | INT | 24 | 58.3333 | 8 | (x-1)=7 | x 1 - 7 = | x:UNKNOWN 1:UNKNOWN -:UNKNOWN 7:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 24 | 58.3333 | 8 | 1=(x-7) | 1 x 7 - = | 1:month x:month 7:month -:month =:month
-EXPR: 0 | POS | INT | 24 | 58.3333 | 6 | (1+x)=7 | 1 x + 7 = | 1:UNKNOWN x:UNKNOWN +:UNKNOWN 7:UNKNOWN =:UNKNOWN
-NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions
+EXPR: 1 | POS | INT | 0 | 16 | 16 | x=(0.8*20) | x 0.8 20 * = | x:problem 0.8:student 20:problem *:problem =:problem
+EXPR: 1 | POS | INT | 0 | 16 | 16 | (0.8*20)=x | 0.8 20 * x = | 0.8:student 20:problem *:problem x:problem =:problem
+EXPR: 0 | POS | INT | 2 | 16 | 25 | (20/0.8)=x | 20 0.8 / x = | 20:problem 0.8:student /:problem x:problem =:problem
+EXPR: 0 | POS | INT | 2 | 16 | 25 | (0.8*x)=20 | 0.8 x * 20 = | 0.8:student x:problem *:problem 20:problem =:problem
+EXPR: 1 | POS | INT | 2 | 16 | 16 | (x/0.8)=20 | x 0.8 / 20 = | x:problem 0.8:student /:problem 20:problem =:problem
+EXPR: 0 | POS | INT | 2 | 16 | 25 | (x*0.8)=20 | x 0.8 * 20 = | x:problem 0.8:student *:problem 20:problem =:problem
+EXPR: 0 | POS | INT | 2 | 16 | 25 | x=(20/0.8) | x 20 0.8 / = | x:problem 20:problem 0.8:student /:problem =:problem
+EXPR: 0 | POS | INT | 4 | 16 | 25 | 20=(x*0.8) | 20 x 0.8 * = | 20:problem x:problem 0.8:student *:problem =:problem
+EXPR: 0 | POS | INT | 4 | 16 | 25 | 20=(0.8*x) | 20 0.8 x * = | 20:problem 0.8:student x:problem *:problem =:problem
+EXPR: 1 | POS | INT | 4 | 16 | 16 | 20=(x/0.8) | 20 x 0.8 / = | 20:problem x:problem 0.8:student /:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 16 | 0.04 | (0.8/20)=x | 0.8 20 / x = | 0.8:student 20:problem /:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 16 | 20.8 | (0.8+20)=x | 0.8 20 + x = | 0.8:problem 20:problem +:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 16 | 20.8 | x=(0.8+20) | x 0.8 20 + = | x:problem 0.8:problem 20:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 16 | 0.04 | x=(0.8/20) | x 0.8 20 / = | x:student 0.8:student 20:problem /:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | 0.8=(x*20) | 0.8 x 20 * = | 0.8:student x:student 20:problem *:student =:student
+EXPR: 0 | POS | INT | 12 | 16 | 25 | 0.8=(20/x) | 0.8 20 x / = | 0.8:student 20:student x:problem /:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 20.8 | (x-0.8)=20 | x 0.8 - 20 = | x:problem 0.8:problem -:problem 20:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | (0.8/x)=20 | 0.8 x / 20 = | 0.8:student x:problem /:student 20:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | (20-0.8)=x | 20 0.8 - x = | 20:problem 0.8:problem -:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | (x+0.8)=20 | x 0.8 + 20 = | x:problem 0.8:problem +:problem 20:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 16 | 0.04 | 0.8=(20*x) | 0.8 20 x * = | 0.8:student 20:student x:problem *:student =:student
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | (0.8+x)=20 | 0.8 x + 20 = | 0.8:problem x:problem +:problem 20:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | 0.8=(20-x) | 0.8 20 x - = | 0.8:problem 20:problem x:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 16 | 19.2 | x=(20-0.8) | x 20 0.8 - = | x:problem 20:problem 0.8:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 16 | 20.8 | 0.8=(x-20) | 0.8 x 20 - = | 0.8:problem x:problem 20:problem -:problem =:problem
+EXPR: 1 | POS | INT | 12 | 16 | 16 | 0.8=(x/20) | 0.8 x 20 / = | 0.8:student x:student 20:problem /:student =:student
+EXPR: 0 | POS | INT | 14 | 16 | 25 | (20/x)=0.8 | 20 x / 0.8 = | 20:student x:problem /:student 0.8:student =:student
+EXPR: 1 | POS | INT | 14 | 16 | 16 | (x/20)=0.8 | x 20 / 0.8 = | x:student 20:problem /:student 0.8:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | 20=(0.8/x) | 20 0.8 x / = | 20:student 0.8:student x:problem /:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 19.2 | (20-x)=0.8 | 20 x - 0.8 = | 20:problem x:problem -:problem 0.8:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | (20*x)=0.8 | 20 x * 0.8 = | 20:student x:problem *:student 0.8:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 19.2 | 20=(0.8+x) | 20 0.8 x + = | 20:problem 0.8:problem x:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 16 | 0.04 | (x*20)=0.8 | x 20 * 0.8 = | x:problem 20:student *:student 0.8:student =:student
+EXPR: 0 | POS | FRA | 14 | 16 | 20.8 | (x-20)=0.8 | x 20 - 0.8 = | x:problem 20:problem -:problem 0.8:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 16 | 20.8 | 20=(x-0.8) | 20 x 0.8 - = | 20:problem x:problem 0.8:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 16 | 19.2 | 20=(x+0.8) | 20 x 0.8 + = | 20:problem x:problem 0.8:problem +:problem =:problem
+NET 36 unique, non-negative solutions found out of 136 total solutions

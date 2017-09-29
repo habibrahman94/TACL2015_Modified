@@ -1,5 +1,5 @@
-quantities : 2,200 1,782 x
-types : "acre" "acre" "he"
+quantities : 0.6 0.2 x
+types : "budget" "budget" "UNKNOWN"
 operators : + - * / =
 n : 5
-answer : 19.0
+answer : 0.8

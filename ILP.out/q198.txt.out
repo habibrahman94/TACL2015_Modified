@@ -1,24 +1,40 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 30 | 3611 | x=(1570+2041) | x 1570 2041 + = | x:dollar 1570:dollar 2041:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 30 | 3204370 | x=(1570*2041) | x 1570 2041 * = | x:time 1570:dollar 2041:time *:time =:time
-EXPR: 0 | POS | INT | 10 | 30 | 3204370 | (1570*2041)=x | 1570 2041 * x = | 1570:dollar 2041:time *:time x:time =:time
-EXPR: 0 | POS | INT | 10 | 30 | 3611 | (1570+2041)=x | 1570 2041 + x = | 1570:dollar 2041:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 471 | 1570=(2041-x) | 1570 2041 x - = | 1570:dollar 2041:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 3204370 | (x/1570)=2041 | x 1570 / 2041 = | x:time 1570:dollar /:time 2041:time =:time
-EXPR: 0 | POS | INT | 12 | 30 | 3611 | (x-1570)=2041 | x 1570 - 2041 = | x:dollar 1570:dollar -:dollar 2041:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 3611 | 1570=(x-2041) | 1570 x 2041 - = | 1570:dollar x:dollar 2041:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 471 | (2041-1570)=x | 2041 1570 - x = | 2041:dollar 1570:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 471 | x=(2041-1570) | x 2041 1570 - = | x:dollar 2041:dollar 1570:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 471 | (x+1570)=2041 | x 1570 + 2041 = | x:dollar 1570:dollar +:dollar 2041:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 30 | 3204370 | 1570=(x/2041) | 1570 x 2041 / = | 1570:time x:time 2041:dollar /:time =:time
-EXPR: 0 | POS | INT | 12 | 30 | 471 | (1570+x)=2041 | 1570 x + 2041 = | 1570:dollar x:dollar +:dollar 2041:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 30 | 471 | (2041-x)=1570 | 2041 x - 1570 = | 2041:dollar x:dollar -:dollar 1570:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 30 | 3611 | (x-2041)=1570 | x 2041 - 1570 = | x:dollar 2041:dollar -:dollar 1570:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 30 | 3204370 | 2041=(x/1570) | 2041 x 1570 / = | 2041:time x:time 1570:dollar /:time =:time
-EXPR: 0 | POS | INT | 14 | 30 | 3204370 | (x/2041)=1570 | x 2041 / 1570 = | x:time 2041:dollar /:time 1570:time =:time
-EXPR: 0 | POS | INT | 14 | 30 | 471 | 2041=(1570+x) | 2041 1570 x + = | 2041:dollar 1570:dollar x:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 30 | 3611 | 2041=(x-1570) | 2041 x 1570 - = | 2041:dollar x:dollar 1570:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 30 | 471 | 2041=(x+1570) | 2041 x 1570 + = | 2041:dollar x:dollar 1570:dollar +:dollar =:dollar
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | FRA | 0 | 0.125 | 1.16666666666667 | x=(0.875/0.75) | x 0.875 0.75 / = | x:lap 0.875:lap 0.75:jogging /:lap =:lap
+EXPR: 0 | POS | FRA | 0 | 0.125 | 0.65625 | (0.875*0.75)=x | 0.875 0.75 * x = | 0.875:lap 0.75:jogging *:lap x:lap =:lap
+EXPR: 0 | POS | FRA | 0 | 0.125 | 0.65625 | x=(0.875*0.75) | x 0.875 0.75 * = | x:lap 0.875:lap 0.75:jogging *:lap =:lap
+EXPR: 0 | POS | FRA | 0 | 0.125 | 1.16666666666667 | (0.875/0.75)=x | 0.875 0.75 / x = | 0.875:lap 0.75:jogging /:lap x:lap =:lap
+EXPR: 0 | POS | FRA | 2 | 0.125 | 0.65625 | 0.875=(x/0.75) | 0.875 x 0.75 / = | 0.875:lap x:lap 0.75:jogging /:lap =:lap
+EXPR: 0 | POS | FRA | 2 | 0.125 | 1.16666666666667 | 0.875=(x*0.75) | 0.875 x 0.75 * = | 0.875:lap x:lap 0.75:jogging *:lap =:lap
+EXPR: 0 | POS | FRA | 2 | 0.125 | 1.16666666666667 | 0.875=(0.75*x) | 0.875 0.75 x * = | 0.875:lap 0.75:jogging x:lap *:lap =:lap
+EXPR: 0 | POS | FRA | 4 | 0.125 | 1.16666666666667 | (0.75*x)=0.875 | 0.75 x * 0.875 = | 0.75:jogging x:lap *:lap 0.875:lap =:lap
+EXPR: 0 | POS | FRA | 4 | 0.125 | 1.16666666666667 | (x*0.75)=0.875 | x 0.75 * 0.875 = | x:lap 0.75:jogging *:lap 0.875:lap =:lap
+EXPR: 0 | POS | FRA | 4 | 0.125 | 0.65625 | (x/0.75)=0.875 | x 0.75 / 0.875 = | x:lap 0.75:jogging /:lap 0.875:lap =:lap
+EXPR: 0 | POS | FRA | 10 | 0.125 | 1.625 | (0.875+0.75)=x | 0.875 0.75 + x = | 0.875:lap 0.75:lap +:lap x:lap =:lap
+EXPR: 0 | POS | FRA | 10 | 0.125 | 1.625 | x=(0.875+0.75) | x 0.875 0.75 + = | x:lap 0.875:lap 0.75:lap +:lap =:lap
+EXPR: 1 | POS | FRA | 10 | 0.125 | 0.125 | (0.875-0.75)=x | 0.875 0.75 - x = | 0.875:lap 0.75:lap -:lap x:lap =:lap
+EXPR: 1 | POS | FRA | 10 | 0.125 | 0.125 | x=(0.875-0.75) | x 0.875 0.75 - = | x:lap 0.875:lap 0.75:lap -:lap =:lap
+EXPR: 1 | POS | FRA | 12 | 0.125 | 0.125 | 0.875=(x+0.75) | 0.875 x 0.75 + = | 0.875:lap x:lap 0.75:lap +:lap =:lap
+EXPR: 0 | POS | FRA | 12 | 0.125 | 0.857142857142857 | 0.875=(0.75/x) | 0.875 0.75 x / = | 0.875:jogging 0.75:jogging x:lap /:jogging =:jogging
+EXPR: 0 | POS | FRA | 12 | 0.125 | 0.857142857142857 | (x*0.875)=0.75 | x 0.875 * 0.75 = | x:lap 0.875:jogging *:jogging 0.75:jogging =:jogging
+EXPR: 0 | POS | FRA | 12 | 0.125 | 1.16666666666667 | (0.875/x)=0.75 | 0.875 x / 0.75 = | 0.875:jogging x:lap /:jogging 0.75:jogging =:jogging
+EXPR: 0 | POS | FRA | 12 | 0.125 | 0.857142857142857 | x=(0.75/0.875) | x 0.75 0.875 / = | x:jogging 0.75:jogging 0.875:lap /:jogging =:jogging
+EXPR: 0 | POS | FRA | 12 | 0.125 | 1.625 | 0.875=(x-0.75) | 0.875 x 0.75 - = | 0.875:lap x:lap 0.75:lap -:lap =:lap
+EXPR: 0 | POS | FRA | 12 | 0.125 | 0.857142857142857 | (0.75/0.875)=x | 0.75 0.875 / x = | 0.75:jogging 0.875:lap /:jogging x:jogging =:jogging
+EXPR: 0 | POS | FRA | 12 | 0.125 | 0.857142857142857 | (0.875*x)=0.75 | 0.875 x * 0.75 = | 0.875:jogging x:lap *:jogging 0.75:jogging =:jogging
+EXPR: 0 | POS | FRA | 12 | 0.125 | 1.625 | (x-0.875)=0.75 | x 0.875 - 0.75 = | x:lap 0.875:lap -:lap 0.75:lap =:lap
+EXPR: 1 | POS | FRA | 12 | 0.125 | 0.125 | (0.875-x)=0.75 | 0.875 x - 0.75 = | 0.875:lap x:lap -:lap 0.75:lap =:lap
+EXPR: 0 | POS | FRA | 12 | 0.125 | 0.65625 | (x/0.875)=0.75 | x 0.875 / 0.75 = | x:jogging 0.875:lap /:jogging 0.75:jogging =:jogging
+EXPR: 1 | POS | FRA | 12 | 0.125 | 0.125 | 0.875=(0.75+x) | 0.875 0.75 x + = | 0.875:lap 0.75:lap x:lap +:lap =:lap
+EXPR: 0 | POS | FRA | 14 | 0.125 | 0.65625 | 0.75=(x/0.875) | 0.75 x 0.875 / = | 0.75:jogging x:jogging 0.875:lap /:jogging =:jogging
+EXPR: 0 | POS | FRA | 14 | 0.125 | 1.16666666666667 | 0.75=(0.875/x) | 0.75 0.875 x / = | 0.75:jogging 0.875:jogging x:lap /:jogging =:jogging
+EXPR: 1 | POS | FRA | 14 | 0.125 | 0.125 | (0.75+x)=0.875 | 0.75 x + 0.875 = | 0.75:lap x:lap +:lap 0.875:lap =:lap
+EXPR: 1 | POS | FRA | 14 | 0.125 | 0.125 | (x+0.75)=0.875 | x 0.75 + 0.875 = | x:lap 0.75:lap +:lap 0.875:lap =:lap
+EXPR: 0 | POS | FRA | 14 | 0.125 | 0.857142857142857 | 0.75=(0.875*x) | 0.75 0.875 x * = | 0.75:jogging 0.875:lap x:jogging *:jogging =:jogging
+EXPR: 0 | POS | FRA | 14 | 0.125 | 0.857142857142857 | (0.75/x)=0.875 | 0.75 x / 0.875 = | 0.75:jogging x:lap /:jogging 0.875:jogging =:jogging
+EXPR: 1 | POS | FRA | 14 | 0.125 | 0.125 | 0.75=(0.875-x) | 0.75 0.875 x - = | 0.75:lap 0.875:lap x:lap -:lap =:lap
+EXPR: 0 | POS | FRA | 14 | 0.125 | 1.625 | 0.75=(x-0.875) | 0.75 x 0.875 - = | 0.75:lap x:lap 0.875:lap -:lap =:lap
+EXPR: 0 | POS | FRA | 14 | 0.125 | 0.857142857142857 | 0.75=(x*0.875) | 0.75 x 0.875 * = | 0.75:jogging x:lap 0.875:jogging *:jogging =:jogging
+EXPR: 0 | POS | FRA | 14 | 0.125 | 1.625 | (x-0.75)=0.875 | x 0.75 - 0.875 = | x:lap 0.75:lap -:lap 0.875:lap =:lap
+NET 36 unique, non-negative solutions found out of 136 total solutions

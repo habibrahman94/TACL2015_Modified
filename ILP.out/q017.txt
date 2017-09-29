@@ -1,5 +1,5 @@
-quantities : 7 1 x
-types : "month" "person" "UNKNOWN"
+quantities : 0.8 20 x
+types : "student" "problem" "problem"
 operators : + - * / =
 n : 5
-answer : 58.33333333
+answer : 16.0

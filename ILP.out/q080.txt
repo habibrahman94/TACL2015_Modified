@@ -1,5 +1,5 @@
-quantities : 0.3 60 x
-types : "time" "mug" "coffee"
+quantities : 50 0.2 x
+types : "soda" "diner" "soda"
 operators : + - * / =
 n : 5
-answer : 18.0
+answer : 10.0

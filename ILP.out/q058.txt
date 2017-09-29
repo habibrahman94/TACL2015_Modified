@@ -1,5 +1,5 @@
-quantities : 56 0.5 x
-types : "teacher" "meeting" "teacher"
+quantities : 80 0.8 x
+types : "pin" "She" "pin"
 operators : + - * / =
 n : 5
-answer : 28.0
+answer : 64.0

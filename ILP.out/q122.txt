@@ -1,5 +1,5 @@
-quantities : 0.7 40 x
-types : "time" "vote" "vote"
+quantities : 0.5 6 x
+types : "club" "member" "member"
 operators : + - * / =
 n : 5
-answer : 28.0
+answer : 3.0

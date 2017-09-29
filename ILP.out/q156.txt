@@ -1,5 +1,5 @@
-quantities : 69 23 x
-types : "bead" "bead" "UNKNOWN"
+quantities : x 80 0.2
+types : "score" "point" "Jason"
 operators : + - * / =
 n : 5
-answer : 75.0
+answer : 64.0

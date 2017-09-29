@@ -1,5 +1,5 @@
-quantities : 14 0.5 x
-types : "coffee" "cafe" "coffee"
+quantities : 0.8 5 x
+types : "Fredda" "bead" "bead"
 operators : + - * / =
 n : 5
-answer : 7.0
+answer : 4.0

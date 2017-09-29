@@ -1,5 +1,0 @@
-quantities : 9,810 0.6 x
-types : "gallon" "company" "gallon"
-operators : + - * / =
-n : 5
-answer : 15696.0

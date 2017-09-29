@@ -1,5 +1,5 @@
-quantities : 84 0.75 x
-types : "soda" "diner" "soda"
+quantities : 68 0.5 x
+types : "people" "time" "manager"
 operators : + - * / =
 n : 5
-answer : 63.0
+answer : 34.0

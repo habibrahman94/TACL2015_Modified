@@ -1,40 +1,16 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 27 | 27 | x=(0.9*30) | x 0.9 30 * = | x:vote 0.9:time 30:vote *:vote =:vote
-EXPR: 1 | POS | INT | 0 | 27 | 27 | (0.9*30)=x | 0.9 30 * x = | 0.9:time 30:vote *:vote x:vote =:vote
-EXPR: 0 | POS | FRA | 2 | 27 | 33.3333333333333 | (30/0.9)=x | 30 0.9 / x = | 30:vote 0.9:time /:vote x:vote =:vote
-EXPR: 0 | POS | FRA | 2 | 27 | 33.3333333333333 | (0.9*x)=30 | 0.9 x * 30 = | 0.9:time x:vote *:vote 30:vote =:vote
-EXPR: 1 | POS | INT | 2 | 27 | 27 | (x/0.9)=30 | x 0.9 / 30 = | x:vote 0.9:time /:vote 30:vote =:vote
-EXPR: 0 | POS | FRA | 2 | 27 | 33.3333333333333 | (x*0.9)=30 | x 0.9 * 30 = | x:vote 0.9:time *:vote 30:vote =:vote
-EXPR: 0 | POS | FRA | 2 | 27 | 33.3333333333333 | x=(30/0.9) | x 30 0.9 / = | x:vote 30:vote 0.9:time /:vote =:vote
-EXPR: 0 | POS | FRA | 4 | 27 | 33.3333333333333 | 30=(x*0.9) | 30 x 0.9 * = | 30:vote x:vote 0.9:time *:vote =:vote
-EXPR: 0 | POS | FRA | 4 | 27 | 33.3333333333333 | 30=(0.9*x) | 30 0.9 x * = | 30:vote 0.9:time x:vote *:vote =:vote
-EXPR: 1 | POS | INT | 4 | 27 | 27 | 30=(x/0.9) | 30 x 0.9 / = | 30:vote x:vote 0.9:time /:vote =:vote
-EXPR: 0 | POS | FRA | 10 | 27 | 0.03 | (0.9/30)=x | 0.9 30 / x = | 0.9:time 30:vote /:time x:time =:time
-EXPR: 0 | POS | FRA | 10 | 27 | 30.9 | (0.9+30)=x | 0.9 30 + x = | 0.9:vote 30:vote +:vote x:vote =:vote
-EXPR: 0 | POS | FRA | 10 | 27 | 30.9 | x=(0.9+30) | x 0.9 30 + = | x:vote 0.9:vote 30:vote +:vote =:vote
-EXPR: 0 | POS | FRA | 10 | 27 | 0.03 | x=(0.9/30) | x 0.9 30 / = | x:time 0.9:time 30:vote /:time =:time
-EXPR: 0 | POS | FRA | 12 | 27 | 0.03 | 0.9=(x*30) | 0.9 x 30 * = | 0.9:time x:time 30:vote *:time =:time
-EXPR: 0 | POS | FRA | 12 | 27 | 33.3333333333333 | 0.9=(30/x) | 0.9 30 x / = | 0.9:time 30:time x:vote /:time =:time
-EXPR: 0 | POS | FRA | 12 | 27 | 30.9 | (x-0.9)=30 | x 0.9 - 30 = | x:vote 0.9:vote -:vote 30:vote =:vote
-EXPR: 0 | POS | FRA | 12 | 27 | 0.03 | (0.9/x)=30 | 0.9 x / 30 = | 0.9:time x:vote /:time 30:time =:time
-EXPR: 0 | POS | FRA | 12 | 27 | 29.1 | (30-0.9)=x | 30 0.9 - x = | 30:vote 0.9:vote -:vote x:vote =:vote
-EXPR: 0 | POS | FRA | 12 | 27 | 29.1 | (x+0.9)=30 | x 0.9 + 30 = | x:vote 0.9:vote +:vote 30:vote =:vote
-EXPR: 0 | POS | FRA | 12 | 27 | 0.03 | 0.9=(30*x) | 0.9 30 x * = | 0.9:time 30:time x:vote *:time =:time
-EXPR: 0 | POS | FRA | 12 | 27 | 29.1 | (0.9+x)=30 | 0.9 x + 30 = | 0.9:vote x:vote +:vote 30:vote =:vote
-EXPR: 0 | POS | FRA | 12 | 27 | 29.1 | 0.9=(30-x) | 0.9 30 x - = | 0.9:vote 30:vote x:vote -:vote =:vote
-EXPR: 0 | POS | FRA | 12 | 27 | 29.1 | x=(30-0.9) | x 30 0.9 - = | x:vote 30:vote 0.9:vote -:vote =:vote
-EXPR: 0 | POS | FRA | 12 | 27 | 30.9 | 0.9=(x-30) | 0.9 x 30 - = | 0.9:vote x:vote 30:vote -:vote =:vote
-EXPR: 1 | POS | INT | 12 | 27 | 27 | 0.9=(x/30) | 0.9 x 30 / = | 0.9:time x:time 30:vote /:time =:time
-EXPR: 0 | POS | FRA | 14 | 27 | 33.3333333333333 | (30/x)=0.9 | 30 x / 0.9 = | 30:time x:vote /:time 0.9:time =:time
-EXPR: 1 | POS | INT | 14 | 27 | 27 | (x/30)=0.9 | x 30 / 0.9 = | x:time 30:vote /:time 0.9:time =:time
-EXPR: 0 | POS | FRA | 14 | 27 | 0.03 | 30=(0.9/x) | 30 0.9 x / = | 30:time 0.9:time x:vote /:time =:time
-EXPR: 0 | POS | FRA | 14 | 27 | 29.1 | (30-x)=0.9 | 30 x - 0.9 = | 30:vote x:vote -:vote 0.9:vote =:vote
-EXPR: 0 | POS | FRA | 14 | 27 | 0.03 | (30*x)=0.9 | 30 x * 0.9 = | 30:time x:vote *:time 0.9:time =:time
-EXPR: 0 | POS | FRA | 14 | 27 | 29.1 | 30=(0.9+x) | 30 0.9 x + = | 30:vote 0.9:vote x:vote +:vote =:vote
-EXPR: 0 | POS | FRA | 14 | 27 | 0.03 | (x*30)=0.9 | x 30 * 0.9 = | x:vote 30:time *:time 0.9:time =:time
-EXPR: 0 | POS | FRA | 14 | 27 | 30.9 | (x-30)=0.9 | x 30 - 0.9 = | x:vote 30:vote -:vote 0.9:vote =:vote
-EXPR: 0 | POS | FRA | 14 | 27 | 30.9 | 30=(x-0.9) | 30 x 0.9 - = | 30:vote x:vote 0.9:vote -:vote =:vote
-EXPR: 0 | POS | FRA | 14 | 27 | 29.1 | 30=(x+0.9) | 30 x 0.9 + = | 30:vote x:vote 0.9:vote +:vote =:vote
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 0 | 0.5 | 0 | (0.25-0.25)=x | 0.25 0.25 - x = | 0.25:cup 0.25:cup -:cup x:cup =:cup
+EXPR: 0 | POS | INT | 0 | 0.5 |  | x=(0.25-0.25) | x 0.25 0.25 - = | x:cup 0.25:cup 0.25:cup -:cup =:cup
+EXPR: 1 | POS | FRA | 0 | 0.5 | 0.5 | (0.25+0.25)=x | 0.25 0.25 + x = | 0.25:cup 0.25:cup +:cup x:cup =:cup
+EXPR: 1 | POS | FRA | 0 | 0.5 | 0.5 | x=(0.25+0.25) | x 0.25 0.25 + = | x:cup 0.25:cup 0.25:cup +:cup =:cup
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | (x-0.25)=0.25 | x 0.25 - 0.25 = | x:cup 0.25:cup -:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 | 0 | 0.25=(0.25-x) | 0.25 0.25 x - = | 0.25:cup 0.25:cup x:cup -:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 |  | (0.25-x)=0.25 | 0.25 x - 0.25 = | 0.25:cup x:cup -:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 |  | (0.25+x)=0.25 | 0.25 x + 0.25 = | 0.25:cup x:cup +:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 |  | (x+0.25)=0.25 | x 0.25 + 0.25 = | x:cup 0.25:cup +:cup 0.25:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 | 0 | 0.25=(x+0.25) | 0.25 x 0.25 + = | 0.25:cup x:cup 0.25:cup +:cup =:cup
+EXPR: 1 | POS | FRA | 2 | 0.5 | 0.5 | 0.25=(x-0.25) | 0.25 x 0.25 - = | 0.25:cup x:cup 0.25:cup -:cup =:cup
+EXPR: 0 | POS | INT | 2 | 0.5 | 0 | 0.25=(0.25+x) | 0.25 0.25 x + = | 0.25:cup 0.25:cup x:cup +:cup =:cup
+NET 12 unique, non-negative solutions found out of 28 total solutions

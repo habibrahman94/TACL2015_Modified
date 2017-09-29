@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 23 | 23 | (92*0.25)=x | 92 0.25 * x = | 92:student 0.25:people *:people x:people =:people
-EXPR: 0 | POS | INT | 10 | 23 | 368 | (92/0.25)=x | 92 0.25 / x = | 92:people 0.25:time /:people x:people =:people
-EXPR: 1 | POS | INT | 10 | 23 | 23 | x=(92*0.25) | x 92 0.25 * = | x:student 92:student 0.25:time *:student =:student
-EXPR: 0 | POS | INT | 10 | 23 | 368 | x=(92/0.25) | x 92 0.25 / = | x:people 92:people 0.25:time /:people =:people
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | (92*x)=0.25 | 92 x * 0.25 = | 92:student x:time *:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | x=(0.25/92) | x 0.25 92 / = | x:time 0.25:time 92:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | 92=(0.25/x) | 92 0.25 x / = | 92:time 0.25:time x:people /:time =:time
-EXPR: 0 | POS | INT | 12 | 23 | 368 | 92=(0.25*x) | 92 0.25 x * = | 92:people 0.25:time x:people *:people =:people
-EXPR: 0 | POS | INT | 12 | 23 | 368 | (92/x)=0.25 | 92 x / 0.25 = | 92:time x:people /:time 0.25:time =:time
-EXPR: 0 | POS | INT | 12 | 23 | 368 | 92=(x*0.25) | 92 x 0.25 * = | 92:people x:people 0.25:time *:people =:people
-EXPR: 1 | POS | INT | 12 | 23 | 23 | 92=(x/0.25) | 92 x 0.25 / = | 92:people x:people 0.25:time /:people =:people
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | (x*92)=0.25 | x 92 * 0.25 = | x:people 92:time *:time 0.25:time =:time
-EXPR: 1 | POS | INT | 12 | 23 | 23 | (x/92)=0.25 | x 92 / 0.25 = | x:people 92:student /:people 0.25:people =:people
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | (0.25/92)=x | 0.25 92 / x = | 0.25:people 92:student /:people x:people =:people
-EXPR: 0 | POS | FRA | 14 | 23 | 0.00271739130434783 | (0.25/x)=92 | 0.25 x / 92 = | 0.25:student x:people /:student 92:student =:student
-EXPR: 0 | POS | INT | 14 | 23 | 368 | (0.25*x)=92 | 0.25 x * 92 = | 0.25:student x:people *:student 92:student =:student
-EXPR: 1 | POS | INT | 14 | 23 | 23 | (x/0.25)=92 | x 0.25 / 92 = | x:student 0.25:time /:student 92:student =:student
-EXPR: 0 | POS | INT | 14 | 23 | 368 | (x*0.25)=92 | x 0.25 * 92 = | x:student 0.25:time *:student 92:student =:student
-EXPR: 0 | POS | FRA | 14 | 23 | 0.00271739130434783 | 0.25=(92*x) | 0.25 92 x * = | 0.25:time 92:student x:time *:time =:time
-EXPR: 0 | POS | FRA | 14 | 23 | 0.00271739130434783 | 0.25=(x*92) | 0.25 x 92 * = | 0.25:time x:people 92:time *:time =:time
-EXPR: 1 | POS | INT | 14 | 23 | 23 | 0.25=(x/92) | 0.25 x 92 / = | 0.25:people x:people 92:student /:people =:people
-EXPR: 0 | POS | INT | 14 | 23 | 368 | 0.25=(92/x) | 0.25 92 x / = | 0.25:student 92:student x:people /:student =:student
-EXPR: 0 | POS | FRA | 20 | 23 | 92.25 | x=(92+0.25) | x 92 0.25 + = | x:student 92:student 0.25:student +:student =:student
-EXPR: 0 | POS | FRA | 20 | 23 | 91.75 | x=(92-0.25) | x 92 0.25 - = | x:people 92:people 0.25:people -:people =:people
-EXPR: 0 | POS | FRA | 20 | 23 | 92.25 | (92+0.25)=x | 92 0.25 + x = | 92:student 0.25:student +:student x:student =:student
-EXPR: 0 | POS | FRA | 20 | 23 | 91.75 | (92-0.25)=x | 92 0.25 - x = | 92:people 0.25:people -:people x:people =:people
-EXPR: 0 | POS | FRA | 22 | 23 | 92.25 | 92=(x-0.25) | 92 x 0.25 - = | 92:student x:student 0.25:student -:student =:student
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | 92=(x+0.25) | 92 x 0.25 + = | 92:student x:student 0.25:student +:student =:student
-EXPR: 0 | POS | FRA | 22 | 23 | 92.25 | (x-92)=0.25 | x 92 - 0.25 = | x:time 92:time -:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | (92-x)=0.25 | 92 x - 0.25 = | 92:student x:student -:student 0.25:student =:student
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | 92=(0.25+x) | 92 0.25 x + = | 92:people 0.25:people x:people +:people =:people
-EXPR: 0 | POS | FRA | 24 | 23 | 91.75 | (0.25+x)=92 | 0.25 x + 92 = | 0.25:people x:people +:people 92:people =:people
-EXPR: 0 | POS | FRA | 24 | 23 | 92.25 | (x-0.25)=92 | x 0.25 - 92 = | x:student 0.25:student -:student 92:student =:student
-EXPR: 0 | POS | FRA | 24 | 23 | 91.75 | (x+0.25)=92 | x 0.25 + 92 = | x:people 0.25:people +:people 92:people =:people
-EXPR: 0 | POS | FRA | 24 | 23 | 91.75 | 0.25=(92-x) | 0.25 92 x - = | 0.25:student 92:student x:student -:student =:student
-EXPR: 0 | POS | FRA | 24 | 23 | 92.25 | 0.25=(x-92) | 0.25 x 92 - = | 0.25:student x:student 92:student -:student =:student
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | FRA | 0 | 56 | 87.5 | x=(70/0.8) | x 70 0.8 / = | x:seat 70:seat 0.8:train /:seat =:seat
+EXPR: 1 | POS | INT | 0 | 56 | 56 | (70*0.8)=x | 70 0.8 * x = | 70:seat 0.8:train *:seat x:seat =:seat
+EXPR: 1 | POS | INT | 0 | 56 | 56 | x=(70*0.8) | x 70 0.8 * = | x:seat 70:seat 0.8:train *:seat =:seat
+EXPR: 0 | POS | FRA | 0 | 56 | 87.5 | (70/0.8)=x | 70 0.8 / x = | 70:seat 0.8:train /:seat x:seat =:seat
+EXPR: 1 | POS | INT | 2 | 56 | 56 | 70=(x/0.8) | 70 x 0.8 / = | 70:seat x:seat 0.8:train /:seat =:seat
+EXPR: 0 | POS | FRA | 2 | 56 | 87.5 | 70=(x*0.8) | 70 x 0.8 * = | 70:seat x:seat 0.8:train *:seat =:seat
+EXPR: 0 | POS | FRA | 2 | 56 | 87.5 | 70=(0.8*x) | 70 0.8 x * = | 70:seat 0.8:train x:seat *:seat =:seat
+EXPR: 0 | POS | FRA | 4 | 56 | 87.5 | (0.8*x)=70 | 0.8 x * 70 = | 0.8:train x:seat *:seat 70:seat =:seat
+EXPR: 0 | POS | FRA | 4 | 56 | 87.5 | (x*0.8)=70 | x 0.8 * 70 = | x:seat 0.8:train *:seat 70:seat =:seat
+EXPR: 1 | POS | INT | 4 | 56 | 56 | (x/0.8)=70 | x 0.8 / 70 = | x:seat 0.8:train /:seat 70:seat =:seat
+EXPR: 0 | POS | FRA | 10 | 56 | 70.8 | (70+0.8)=x | 70 0.8 + x = | 70:seat 0.8:seat +:seat x:seat =:seat
+EXPR: 0 | POS | FRA | 10 | 56 | 70.8 | x=(70+0.8) | x 70 0.8 + = | x:seat 70:seat 0.8:seat +:seat =:seat
+EXPR: 0 | POS | FRA | 10 | 56 | 69.2 | (70-0.8)=x | 70 0.8 - x = | 70:seat 0.8:seat -:seat x:seat =:seat
+EXPR: 0 | POS | FRA | 10 | 56 | 69.2 | x=(70-0.8) | x 70 0.8 - = | x:seat 70:seat 0.8:seat -:seat =:seat
+EXPR: 0 | POS | FRA | 12 | 56 | 69.2 | 70=(x+0.8) | 70 x 0.8 + = | 70:seat x:seat 0.8:seat +:seat =:seat
+EXPR: 0 | POS | FRA | 12 | 56 | 0.0114285714285714 | 70=(0.8/x) | 70 0.8 x / = | 70:train 0.8:train x:seat /:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 0.0114285714285714 | (x*70)=0.8 | x 70 * 0.8 = | x:seat 70:train *:train 0.8:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 87.5 | (70/x)=0.8 | 70 x / 0.8 = | 70:train x:seat /:train 0.8:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 0.0114285714285714 | x=(0.8/70) | x 0.8 70 / = | x:train 0.8:train 70:seat /:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 70.8 | 70=(x-0.8) | 70 x 0.8 - = | 70:seat x:seat 0.8:seat -:seat =:seat
+EXPR: 0 | POS | FRA | 12 | 56 | 0.0114285714285714 | (0.8/70)=x | 0.8 70 / x = | 0.8:train 70:seat /:train x:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 0.0114285714285714 | (70*x)=0.8 | 70 x * 0.8 = | 70:train x:seat *:train 0.8:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 70.8 | (x-70)=0.8 | x 70 - 0.8 = | x:seat 70:seat -:seat 0.8:seat =:seat
+EXPR: 0 | POS | FRA | 12 | 56 | 69.2 | (70-x)=0.8 | 70 x - 0.8 = | 70:seat x:seat -:seat 0.8:seat =:seat
+EXPR: 1 | POS | INT | 12 | 56 | 56 | (x/70)=0.8 | x 70 / 0.8 = | x:train 70:seat /:train 0.8:train =:train
+EXPR: 0 | POS | FRA | 12 | 56 | 69.2 | 70=(0.8+x) | 70 0.8 x + = | 70:seat 0.8:seat x:seat +:seat =:seat
+EXPR: 1 | POS | INT | 14 | 56 | 56 | 0.8=(x/70) | 0.8 x 70 / = | 0.8:train x:train 70:seat /:train =:train
+EXPR: 0 | POS | FRA | 14 | 56 | 87.5 | 0.8=(70/x) | 0.8 70 x / = | 0.8:train 70:train x:seat /:train =:train
+EXPR: 0 | POS | FRA | 14 | 56 | 69.2 | (0.8+x)=70 | 0.8 x + 70 = | 0.8:seat x:seat +:seat 70:seat =:seat
+EXPR: 0 | POS | FRA | 14 | 56 | 69.2 | (x+0.8)=70 | x 0.8 + 70 = | x:seat 0.8:seat +:seat 70:seat =:seat
+EXPR: 0 | POS | FRA | 14 | 56 | 0.0114285714285714 | 0.8=(70*x) | 0.8 70 x * = | 0.8:train 70:seat x:train *:train =:train
+EXPR: 0 | POS | FRA | 14 | 56 | 0.0114285714285714 | (0.8/x)=70 | 0.8 x / 70 = | 0.8:train x:seat /:train 70:train =:train
+EXPR: 0 | POS | FRA | 14 | 56 | 69.2 | 0.8=(70-x) | 0.8 70 x - = | 0.8:seat 70:seat x:seat -:seat =:seat
+EXPR: 0 | POS | FRA | 14 | 56 | 70.8 | 0.8=(x-70) | 0.8 x 70 - = | 0.8:seat x:seat 70:seat -:seat =:seat
+EXPR: 0 | POS | FRA | 14 | 56 | 0.0114285714285714 | 0.8=(x*70) | 0.8 x 70 * = | 0.8:train x:seat 70:train *:train =:train
+EXPR: 0 | POS | FRA | 14 | 56 | 70.8 | (x-0.8)=70 | x 0.8 - 70 = | x:seat 0.8:seat -:seat 70:seat =:seat
+NET 36 unique, non-negative solutions found out of 136 total solutions

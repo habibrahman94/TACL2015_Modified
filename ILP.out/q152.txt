@@ -1,5 +1,5 @@
-quantities : 5 50 x
-types : "employee" "employee" "UNKNOWN"
+quantities : 4,940 0.65 x
+types : "dollar" "library" "library"
 operators : + - * / =
 n : 5
-answer : 10.0
+answer : 8151.0

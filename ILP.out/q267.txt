@@ -1,5 +1,0 @@
-quantities : 0.25 50 x
-types : "time" "teacher" "teacher"
-operators : + - * / =
-n : 5
-answer : 200.0

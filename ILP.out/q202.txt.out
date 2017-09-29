@@ -1,24 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 20 | 66 | x=(30+36) | x 30 36 + = | x:inch 30:inch 36:inch +:inch =:inch
-EXPR: 0 | POS | INT | 10 | 20 | 1080 | x=(30*36) | x 30 36 * = | x:UNKNOWN 30:inch 36:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 1080 | (30*36)=x | 30 36 * x = | 30:inch 36:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 66 | (30+36)=x | 30 36 + x = | 30:inch 36:inch +:inch x:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 6 | 30=(36-x) | 30 36 x - = | 30:inch 36:inch x:inch -:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 1080 | (x/30)=36 | x 30 / 36 = | x:UNKNOWN 30:inch /:UNKNOWN 36:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 66 | (x-30)=36 | x 30 - 36 = | x:inch 30:inch -:inch 36:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 66 | 30=(x-36) | 30 x 36 - = | 30:inch x:inch 36:inch -:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 6 | (36-30)=x | 36 30 - x = | 36:inch 30:inch -:inch x:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 6 | x=(36-30) | x 36 30 - = | x:inch 36:inch 30:inch -:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 6 | (x+30)=36 | x 30 + 36 = | x:inch 30:inch +:inch 36:inch =:inch
-EXPR: 0 | POS | INT | 12 | 20 | 1080 | 30=(x/36) | 30 x 36 / = | 30:UNKNOWN x:UNKNOWN 36:inch /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 6 | (30+x)=36 | 30 x + 36 = | 30:inch x:inch +:inch 36:inch =:inch
-EXPR: 0 | POS | INT | 14 | 20 | 6 | (36-x)=30 | 36 x - 30 = | 36:inch x:inch -:inch 30:inch =:inch
-EXPR: 0 | POS | INT | 14 | 20 | 66 | (x-36)=30 | x 36 - 30 = | x:inch 36:inch -:inch 30:inch =:inch
-EXPR: 0 | POS | INT | 14 | 20 | 1080 | 36=(x/30) | 36 x 30 / = | 36:UNKNOWN x:UNKNOWN 30:inch /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 1080 | (x/36)=30 | x 36 / 30 = | x:UNKNOWN 36:inch /:UNKNOWN 30:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 6 | 36=(30+x) | 36 30 x + = | 36:inch 30:inch x:inch +:inch =:inch
-EXPR: 0 | POS | INT | 14 | 20 | 66 | 36=(x-30) | 36 x 30 - = | 36:inch x:inch 30:inch -:inch =:inch
-EXPR: 0 | POS | INT | 14 | 20 | 6 | 36=(x+30) | 36 x 30 + = | 36:inch x:inch 30:inch +:inch =:inch
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.6 | 0.6 | (0.8-0.2)=x | 0.8 0.2 - x = | 0.8:gallon 0.2:gallon -:gallon x:gallon =:gallon
+EXPR: 1 | POS | FRA | 0 | 0.6 | 0.6 | x=(0.8-0.2) | x 0.8 0.2 - = | x:gallon 0.8:gallon 0.2:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 0.6 | 1 | (0.8+0.2)=x | 0.8 0.2 + x = | 0.8:gallon 0.2:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | INT | 0 | 0.6 | 1 | x=(0.8+0.2) | x 0.8 0.2 + = | x:gallon 0.8:gallon 0.2:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.6 | 1 | (x-0.8)=0.2 | x 0.8 - 0.2 = | x:gallon 0.8:gallon -:gallon 0.2:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | (0.8-x)=0.2 | 0.8 x - 0.2 = | 0.8:gallon x:gallon -:gallon 0.2:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | 0.8=(x+0.2) | 0.8 x 0.2 + = | 0.8:gallon x:gallon 0.2:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 0.6 | 1 | 0.8=(x-0.2) | 0.8 x 0.2 - = | 0.8:gallon x:gallon 0.2:gallon -:gallon =:gallon
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | 0.8=(0.2+x) | 0.8 0.2 x + = | 0.8:gallon 0.2:gallon x:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 4 | 0.6 | 1 | 0.2=(x-0.8) | 0.2 x 0.8 - = | 0.2:gallon x:gallon 0.8:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 4 | 0.6 | 1 | (x-0.2)=0.8 | x 0.2 - 0.8 = | x:gallon 0.2:gallon -:gallon 0.8:gallon =:gallon
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | (0.2+x)=0.8 | 0.2 x + 0.8 = | 0.2:gallon x:gallon +:gallon 0.8:gallon =:gallon
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | (x+0.2)=0.8 | x 0.2 + 0.8 = | x:gallon 0.2:gallon +:gallon 0.8:gallon =:gallon
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | 0.2=(0.8-x) | 0.2 0.8 x - = | 0.2:gallon 0.8:gallon x:gallon -:gallon =:gallon
+NET 14 unique, non-negative solutions found out of 28 total solutions

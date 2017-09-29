@@ -1,5 +1,0 @@
-quantities : 0.4 0.3 x
-types : "box" "box" "box"
-operators : + - * / =
-n : 5
-answer : 0.1

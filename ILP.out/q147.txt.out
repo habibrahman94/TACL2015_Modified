@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 24 | 24 | x=(0.25*96) | x 0.25 96 * = | x:member 0.25:club 96:member *:member =:member
-EXPR: 1 | POS | INT | 0 | 24 | 24 | (0.25*96)=x | 0.25 96 * x = | 0.25:club 96:member *:member x:member =:member
-EXPR: 0 | POS | INT | 2 | 24 | 384 | (96/0.25)=x | 96 0.25 / x = | 96:member 0.25:club /:member x:member =:member
-EXPR: 0 | POS | INT | 2 | 24 | 384 | (0.25*x)=96 | 0.25 x * 96 = | 0.25:club x:member *:member 96:member =:member
-EXPR: 1 | POS | INT | 2 | 24 | 24 | (x/0.25)=96 | x 0.25 / 96 = | x:member 0.25:club /:member 96:member =:member
-EXPR: 0 | POS | INT | 2 | 24 | 384 | (x*0.25)=96 | x 0.25 * 96 = | x:member 0.25:club *:member 96:member =:member
-EXPR: 0 | POS | INT | 2 | 24 | 384 | x=(96/0.25) | x 96 0.25 / = | x:member 96:member 0.25:club /:member =:member
-EXPR: 0 | POS | INT | 4 | 24 | 384 | 96=(x*0.25) | 96 x 0.25 * = | 96:member x:member 0.25:club *:member =:member
-EXPR: 0 | POS | INT | 4 | 24 | 384 | 96=(0.25*x) | 96 0.25 x * = | 96:member 0.25:club x:member *:member =:member
-EXPR: 1 | POS | INT | 4 | 24 | 24 | 96=(x/0.25) | 96 x 0.25 / = | 96:member x:member 0.25:club /:member =:member
-EXPR: 0 | POS | FRA | 10 | 24 | 0.00260416666666667 | (0.25/96)=x | 0.25 96 / x = | 0.25:club 96:member /:club x:club =:club
-EXPR: 0 | POS | FRA | 10 | 24 | 96.25 | (0.25+96)=x | 0.25 96 + x = | 0.25:member 96:member +:member x:member =:member
-EXPR: 0 | POS | FRA | 10 | 24 | 96.25 | x=(0.25+96) | x 0.25 96 + = | x:member 0.25:member 96:member +:member =:member
-EXPR: 0 | POS | FRA | 10 | 24 | 0.00260416666666667 | x=(0.25/96) | x 0.25 96 / = | x:club 0.25:club 96:member /:club =:club
-EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | 0.25=(x*96) | 0.25 x 96 * = | 0.25:club x:club 96:member *:club =:club
-EXPR: 0 | POS | INT | 12 | 24 | 384 | 0.25=(96/x) | 0.25 96 x / = | 0.25:club 96:club x:member /:club =:club
-EXPR: 0 | POS | FRA | 12 | 24 | 96.25 | (x-0.25)=96 | x 0.25 - 96 = | x:member 0.25:member -:member 96:member =:member
-EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | (0.25/x)=96 | 0.25 x / 96 = | 0.25:club x:member /:club 96:club =:club
-EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (96-0.25)=x | 96 0.25 - x = | 96:member 0.25:member -:member x:member =:member
-EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (x+0.25)=96 | x 0.25 + 96 = | x:member 0.25:member +:member 96:member =:member
-EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | 0.25=(96*x) | 0.25 96 x * = | 0.25:club 96:club x:member *:club =:club
-EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (0.25+x)=96 | 0.25 x + 96 = | 0.25:member x:member +:member 96:member =:member
-EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | 0.25=(96-x) | 0.25 96 x - = | 0.25:member 96:member x:member -:member =:member
-EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | x=(96-0.25) | x 96 0.25 - = | x:member 96:member 0.25:member -:member =:member
-EXPR: 0 | POS | FRA | 12 | 24 | 96.25 | 0.25=(x-96) | 0.25 x 96 - = | 0.25:member x:member 96:member -:member =:member
-EXPR: 1 | POS | INT | 12 | 24 | 24 | 0.25=(x/96) | 0.25 x 96 / = | 0.25:club x:club 96:member /:club =:club
-EXPR: 0 | POS | INT | 14 | 24 | 384 | (96/x)=0.25 | 96 x / 0.25 = | 96:club x:member /:club 0.25:club =:club
-EXPR: 1 | POS | INT | 14 | 24 | 24 | (x/96)=0.25 | x 96 / 0.25 = | x:club 96:member /:club 0.25:club =:club
-EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | 96=(0.25/x) | 96 0.25 x / = | 96:club 0.25:club x:member /:club =:club
-EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | (96-x)=0.25 | 96 x - 0.25 = | 96:member x:member -:member 0.25:member =:member
-EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | (96*x)=0.25 | 96 x * 0.25 = | 96:club x:member *:club 0.25:club =:club
-EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | 96=(0.25+x) | 96 0.25 x + = | 96:member 0.25:member x:member +:member =:member
-EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | (x*96)=0.25 | x 96 * 0.25 = | x:member 96:club *:club 0.25:club =:club
-EXPR: 0 | POS | FRA | 14 | 24 | 96.25 | (x-96)=0.25 | x 96 - 0.25 = | x:member 96:member -:member 0.25:member =:member
-EXPR: 0 | POS | FRA | 14 | 24 | 96.25 | 96=(x-0.25) | 96 x 0.25 - = | 96:member x:member 0.25:member -:member =:member
-EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | 96=(x+0.25) | 96 x 0.25 + = | 96:member x:member 0.25:member +:member =:member
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 372 | 132 | (240*0.55)=x | 240 0.55 * x = | 240:gallon 0.55:year *:year x:year =:year
+EXPR: 0 | POS | FRA | 10 | 372 | 436.363636363636 | (240/0.55)=x | 240 0.55 / x = | 240:year 0.55:hotel /:year x:year =:year
+EXPR: 0 | POS | INT | 10 | 372 | 132 | x=(240*0.55) | x 240 0.55 * = | x:gallon 240:gallon 0.55:hotel *:gallon =:gallon
+EXPR: 0 | POS | FRA | 10 | 372 | 436.363636363636 | x=(240/0.55) | x 240 0.55 / = | x:year 240:year 0.55:hotel /:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | (240*x)=0.55 | 240 x * 0.55 = | 240:gallon x:hotel *:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | x=(0.55/240) | x 0.55 240 / = | x:hotel 0.55:hotel 240:gallon /:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | 240=(0.55/x) | 240 0.55 x / = | 240:hotel 0.55:hotel x:year /:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 436.363636363636 | 240=(0.55*x) | 240 0.55 x * = | 240:year 0.55:hotel x:year *:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 436.363636363636 | (240/x)=0.55 | 240 x / 0.55 = | 240:hotel x:year /:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | FRA | 12 | 372 | 436.363636363636 | 240=(x*0.55) | 240 x 0.55 * = | 240:year x:year 0.55:hotel *:year =:year
+EXPR: 0 | POS | INT | 12 | 372 | 132 | 240=(x/0.55) | 240 x 0.55 / = | 240:year x:year 0.55:hotel /:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | (x*240)=0.55 | x 240 * 0.55 = | x:year 240:hotel *:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | INT | 12 | 372 | 132 | (x/240)=0.55 | x 240 / 0.55 = | x:year 240:gallon /:year 0.55:year =:year
+EXPR: 0 | POS | FRA | 12 | 372 | 0.00229166666666667 | (0.55/240)=x | 0.55 240 / x = | 0.55:year 240:gallon /:year x:year =:year
+EXPR: 0 | POS | FRA | 14 | 372 | 0.00229166666666667 | (0.55/x)=240 | 0.55 x / 240 = | 0.55:gallon x:year /:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 372 | 436.363636363636 | (0.55*x)=240 | 0.55 x * 240 = | 0.55:gallon x:year *:gallon 240:gallon =:gallon
+EXPR: 0 | POS | INT | 14 | 372 | 132 | (x/0.55)=240 | x 0.55 / 240 = | x:gallon 0.55:hotel /:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 372 | 436.363636363636 | (x*0.55)=240 | x 0.55 * 240 = | x:gallon 0.55:hotel *:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 14 | 372 | 0.00229166666666667 | 0.55=(240*x) | 0.55 240 x * = | 0.55:hotel 240:gallon x:hotel *:hotel =:hotel
+EXPR: 0 | POS | FRA | 14 | 372 | 0.00229166666666667 | 0.55=(x*240) | 0.55 x 240 * = | 0.55:hotel x:year 240:hotel *:hotel =:hotel
+EXPR: 0 | POS | INT | 14 | 372 | 132 | 0.55=(x/240) | 0.55 x 240 / = | 0.55:year x:year 240:gallon /:year =:year
+EXPR: 0 | POS | FRA | 14 | 372 | 436.363636363636 | 0.55=(240/x) | 0.55 240 x / = | 0.55:gallon 240:gallon x:year /:gallon =:gallon
+EXPR: 0 | POS | FRA | 20 | 372 | 240.55 | x=(240+0.55) | x 240 0.55 + = | x:gallon 240:gallon 0.55:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 20 | 372 | 239.45 | x=(240-0.55) | x 240 0.55 - = | x:year 240:year 0.55:year -:year =:year
+EXPR: 0 | POS | FRA | 20 | 372 | 240.55 | (240+0.55)=x | 240 0.55 + x = | 240:gallon 0.55:gallon +:gallon x:gallon =:gallon
+EXPR: 0 | POS | FRA | 20 | 372 | 239.45 | (240-0.55)=x | 240 0.55 - x = | 240:year 0.55:year -:year x:year =:year
+EXPR: 0 | POS | FRA | 22 | 372 | 240.55 | 240=(x-0.55) | 240 x 0.55 - = | 240:gallon x:gallon 0.55:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 372 | 239.45 | 240=(x+0.55) | 240 x 0.55 + = | 240:gallon x:gallon 0.55:gallon +:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 372 | 240.55 | (x-240)=0.55 | x 240 - 0.55 = | x:hotel 240:hotel -:hotel 0.55:hotel =:hotel
+EXPR: 0 | POS | FRA | 22 | 372 | 239.45 | (240-x)=0.55 | 240 x - 0.55 = | 240:gallon x:gallon -:gallon 0.55:gallon =:gallon
+EXPR: 0 | POS | FRA | 22 | 372 | 239.45 | 240=(0.55+x) | 240 0.55 x + = | 240:year 0.55:year x:year +:year =:year
+EXPR: 0 | POS | FRA | 24 | 372 | 239.45 | (0.55+x)=240 | 0.55 x + 240 = | 0.55:year x:year +:year 240:year =:year
+EXPR: 0 | POS | FRA | 24 | 372 | 240.55 | (x-0.55)=240 | x 0.55 - 240 = | x:gallon 0.55:gallon -:gallon 240:gallon =:gallon
+EXPR: 0 | POS | FRA | 24 | 372 | 239.45 | (x+0.55)=240 | x 0.55 + 240 = | x:year 0.55:year +:year 240:year =:year
+EXPR: 0 | POS | FRA | 24 | 372 | 239.45 | 0.55=(240-x) | 0.55 240 x - = | 0.55:gallon 240:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | FRA | 24 | 372 | 240.55 | 0.55=(x-240) | 0.55 x 240 - = | 0.55:gallon x:gallon 240:gallon -:gallon =:gallon
+NET 36 unique, non-negative solutions found out of 324 total solutions

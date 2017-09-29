@@ -1,5 +1,5 @@
-quantities : 100 0.6 x
-types : "domino" "time" "domino"
+quantities : 52 0.75 x
+types : "problem" "Andy" "problem"
 operators : + - * / =
 n : 5
-answer : 60.0
+answer : 39.0

@@ -1,5 +1,5 @@
-quantities : 0.8 5 x
-types : "Fredda" "bead" "bead"
+quantities : 0.16666666666666666 0.5 x
+types : "mile" "mile" "DISTANCE"
 operators : + - * / =
 n : 5
-answer : 4.0
+answer : 0.666666666667

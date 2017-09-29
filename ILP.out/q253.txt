@@ -1,5 +1,0 @@
-quantities : 930 0.1 x
-types : "bookmark" "Books" "bookmark"
-operators : + - * / =
-n : 5
-answer : 1023.0

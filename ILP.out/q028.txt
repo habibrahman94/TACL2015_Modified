@@ -1,5 +1,5 @@
-quantities : 12800 0.15 x
-types : "dollar" "dollar" "dollar"
+quantities : 36 0.5 x
+types : "tea" "shop" "tea"
 operators : + - * / =
 n : 5
-answer : 1920.0
+answer : 18.0

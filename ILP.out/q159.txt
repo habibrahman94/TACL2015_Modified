@@ -1,5 +1,5 @@
-quantities : 65 52 13 x
-types : "problem" "problem" "problem" "UNKNOWN"
+quantities : 1,320 0.6 x
+types : "dollar" "price" "value"
 operators : + - * / =
-n : 7
-answer : 80.0
+n : 5
+answer : 2112.0

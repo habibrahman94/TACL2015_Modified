@@ -1,5 +1,5 @@
-quantities : 8490 0.2 x
-types : "picture" "Frames" "picture"
+quantities : 0.6666666666666666 0.5 x
+types : "tablespoon" "tablespoon" "tablespoon"
 operators : + - * / =
 n : 5
-answer : 6792.0
+answer : 0.166666666667

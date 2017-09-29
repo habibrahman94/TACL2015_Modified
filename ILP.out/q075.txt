@@ -1,5 +1,5 @@
-quantities : 80 0.8 x
-types : "pin" "She" "pin"
+quantities : 100 0.7 x
+types : "people" "company" "people"
 operators : + - * / =
 n : 5
-answer : 64.0
+answer : 70.0

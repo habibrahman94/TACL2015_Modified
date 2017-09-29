@@ -1,5 +1,5 @@
-quantities : 94 47 94 x
-types : "problem" "problem" "problem" "UNKNOWN"
+quantities : 20 0.55 x
+types : "painter" "time" "painter"
 operators : + - * / =
-n : 7
-answer : 50.0
+n : 5
+answer : 11.0

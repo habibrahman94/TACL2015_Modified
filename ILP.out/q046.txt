@@ -1,5 +1,5 @@
-quantities : 28 0.75 x
-types : "burger" "restaurant" "burger"
+quantities : 44 0.25 x
+types : "magazine" "bookstore" "magazine"
 operators : + - * / =
 n : 5
-answer : 21.0
+answer : 11.0

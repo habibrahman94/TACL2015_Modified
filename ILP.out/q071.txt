@@ -1,5 +1,5 @@
-quantities : 25 0.4 x
-types : "question" "Russell" "question"
+quantities : 0.2 35 x
+types : "Rita" "bead" "bead"
 operators : + - * / =
 n : 5
-answer : 10.0
+answer : 7.0

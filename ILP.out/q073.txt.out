@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 57 | 57 | (76*0.75)=x | 76 0.75 * x = | 76:student 0.75:first-grader *:first-grader x:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 10 | 57 | 101.333333333333 | (76/0.75)=x | 76 0.75 / x = | 76:first-grader 0.75:assembly /:first-grader x:first-grader =:first-grader
-EXPR: 1 | POS | INT | 10 | 57 | 57 | x=(76*0.75) | x 76 0.75 * = | x:student 76:student 0.75:assembly *:student =:student
-EXPR: 0 | POS | FRA | 10 | 57 | 101.333333333333 | x=(76/0.75) | x 76 0.75 / = | x:first-grader 76:first-grader 0.75:assembly /:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 12 | 57 | 0.00986842105263158 | (76*x)=0.75 | 76 x * 0.75 = | 76:student x:assembly *:assembly 0.75:assembly =:assembly
-EXPR: 0 | POS | FRA | 12 | 57 | 0.00986842105263158 | x=(0.75/76) | x 0.75 76 / = | x:assembly 0.75:assembly 76:student /:assembly =:assembly
-EXPR: 0 | POS | FRA | 12 | 57 | 0.00986842105263158 | 76=(0.75/x) | 76 0.75 x / = | 76:assembly 0.75:assembly x:first-grader /:assembly =:assembly
-EXPR: 0 | POS | FRA | 12 | 57 | 101.333333333333 | 76=(0.75*x) | 76 0.75 x * = | 76:first-grader 0.75:assembly x:first-grader *:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 12 | 57 | 101.333333333333 | (76/x)=0.75 | 76 x / 0.75 = | 76:assembly x:first-grader /:assembly 0.75:assembly =:assembly
-EXPR: 0 | POS | FRA | 12 | 57 | 101.333333333333 | 76=(x*0.75) | 76 x 0.75 * = | 76:first-grader x:first-grader 0.75:assembly *:first-grader =:first-grader
-EXPR: 1 | POS | INT | 12 | 57 | 57 | 76=(x/0.75) | 76 x 0.75 / = | 76:first-grader x:first-grader 0.75:assembly /:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 12 | 57 | 0.00986842105263158 | (x*76)=0.75 | x 76 * 0.75 = | x:first-grader 76:assembly *:assembly 0.75:assembly =:assembly
-EXPR: 1 | POS | INT | 12 | 57 | 57 | (x/76)=0.75 | x 76 / 0.75 = | x:first-grader 76:student /:first-grader 0.75:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 12 | 57 | 0.00986842105263158 | (0.75/76)=x | 0.75 76 / x = | 0.75:first-grader 76:student /:first-grader x:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 14 | 57 | 0.00986842105263158 | (0.75/x)=76 | 0.75 x / 76 = | 0.75:student x:first-grader /:student 76:student =:student
-EXPR: 0 | POS | FRA | 14 | 57 | 101.333333333333 | (0.75*x)=76 | 0.75 x * 76 = | 0.75:student x:first-grader *:student 76:student =:student
-EXPR: 1 | POS | INT | 14 | 57 | 57 | (x/0.75)=76 | x 0.75 / 76 = | x:student 0.75:assembly /:student 76:student =:student
-EXPR: 0 | POS | FRA | 14 | 57 | 101.333333333333 | (x*0.75)=76 | x 0.75 * 76 = | x:student 0.75:assembly *:student 76:student =:student
-EXPR: 0 | POS | FRA | 14 | 57 | 0.00986842105263158 | 0.75=(76*x) | 0.75 76 x * = | 0.75:assembly 76:student x:assembly *:assembly =:assembly
-EXPR: 0 | POS | FRA | 14 | 57 | 0.00986842105263158 | 0.75=(x*76) | 0.75 x 76 * = | 0.75:assembly x:first-grader 76:assembly *:assembly =:assembly
-EXPR: 1 | POS | INT | 14 | 57 | 57 | 0.75=(x/76) | 0.75 x 76 / = | 0.75:first-grader x:first-grader 76:student /:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 14 | 57 | 101.333333333333 | 0.75=(76/x) | 0.75 76 x / = | 0.75:student 76:student x:first-grader /:student =:student
-EXPR: 0 | POS | FRA | 20 | 57 | 76.75 | x=(76+0.75) | x 76 0.75 + = | x:student 76:student 0.75:student +:student =:student
-EXPR: 0 | POS | FRA | 20 | 57 | 75.25 | x=(76-0.75) | x 76 0.75 - = | x:first-grader 76:first-grader 0.75:first-grader -:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 20 | 57 | 76.75 | (76+0.75)=x | 76 0.75 + x = | 76:student 0.75:student +:student x:student =:student
-EXPR: 0 | POS | FRA | 20 | 57 | 75.25 | (76-0.75)=x | 76 0.75 - x = | 76:first-grader 0.75:first-grader -:first-grader x:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 22 | 57 | 76.75 | 76=(x-0.75) | 76 x 0.75 - = | 76:student x:student 0.75:student -:student =:student
-EXPR: 0 | POS | FRA | 22 | 57 | 75.25 | 76=(x+0.75) | 76 x 0.75 + = | 76:student x:student 0.75:student +:student =:student
-EXPR: 0 | POS | FRA | 22 | 57 | 76.75 | (x-76)=0.75 | x 76 - 0.75 = | x:assembly 76:assembly -:assembly 0.75:assembly =:assembly
-EXPR: 0 | POS | FRA | 22 | 57 | 75.25 | (76-x)=0.75 | 76 x - 0.75 = | 76:student x:student -:student 0.75:student =:student
-EXPR: 0 | POS | FRA | 22 | 57 | 75.25 | 76=(0.75+x) | 76 0.75 x + = | 76:first-grader 0.75:first-grader x:first-grader +:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 24 | 57 | 75.25 | (0.75+x)=76 | 0.75 x + 76 = | 0.75:first-grader x:first-grader +:first-grader 76:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 24 | 57 | 76.75 | (x-0.75)=76 | x 0.75 - 76 = | x:student 0.75:student -:student 76:student =:student
-EXPR: 0 | POS | FRA | 24 | 57 | 75.25 | (x+0.75)=76 | x 0.75 + 76 = | x:first-grader 0.75:first-grader +:first-grader 76:first-grader =:first-grader
-EXPR: 0 | POS | FRA | 24 | 57 | 75.25 | 0.75=(76-x) | 0.75 76 x - = | 0.75:student 76:student x:student -:student =:student
-EXPR: 0 | POS | FRA | 24 | 57 | 76.75 | 0.75=(x-76) | 0.75 x 76 - = | 0.75:student x:student 76:student -:student =:student
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 24 | 384 | x=(96/0.25) | x 96 0.25 / = | x:coffee 96:coffee 0.25:cafe /:coffee =:coffee
+EXPR: 1 | POS | INT | 0 | 24 | 24 | (96*0.25)=x | 96 0.25 * x = | 96:coffee 0.25:cafe *:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 0 | 24 | 24 | x=(96*0.25) | x 96 0.25 * = | x:coffee 96:coffee 0.25:cafe *:coffee =:coffee
+EXPR: 0 | POS | INT | 0 | 24 | 384 | (96/0.25)=x | 96 0.25 / x = | 96:coffee 0.25:cafe /:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 2 | 24 | 24 | 96=(x/0.25) | 96 x 0.25 / = | 96:coffee x:coffee 0.25:cafe /:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 24 | 384 | 96=(x*0.25) | 96 x 0.25 * = | 96:coffee x:coffee 0.25:cafe *:coffee =:coffee
+EXPR: 0 | POS | INT | 2 | 24 | 384 | 96=(0.25*x) | 96 0.25 x * = | 96:coffee 0.25:cafe x:coffee *:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 24 | 384 | (0.25*x)=96 | 0.25 x * 96 = | 0.25:cafe x:coffee *:coffee 96:coffee =:coffee
+EXPR: 0 | POS | INT | 4 | 24 | 384 | (x*0.25)=96 | x 0.25 * 96 = | x:coffee 0.25:cafe *:coffee 96:coffee =:coffee
+EXPR: 1 | POS | INT | 4 | 24 | 24 | (x/0.25)=96 | x 0.25 / 96 = | x:coffee 0.25:cafe /:coffee 96:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 24 | 96.25 | (96+0.25)=x | 96 0.25 + x = | 96:coffee 0.25:coffee +:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 24 | 96.25 | x=(96+0.25) | x 96 0.25 + = | x:coffee 96:coffee 0.25:coffee +:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 24 | 95.75 | (96-0.25)=x | 96 0.25 - x = | 96:coffee 0.25:coffee -:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 24 | 95.75 | x=(96-0.25) | x 96 0.25 - = | x:coffee 96:coffee 0.25:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | 96=(x+0.25) | 96 x 0.25 + = | 96:coffee x:coffee 0.25:coffee +:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | 96=(0.25/x) | 96 0.25 x / = | 96:cafe 0.25:cafe x:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | (x*96)=0.25 | x 96 * 0.25 = | x:coffee 96:cafe *:cafe 0.25:cafe =:cafe
+EXPR: 0 | POS | INT | 12 | 24 | 384 | (96/x)=0.25 | 96 x / 0.25 = | 96:cafe x:coffee /:cafe 0.25:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | x=(0.25/96) | x 0.25 96 / = | x:cafe 0.25:cafe 96:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 24 | 96.25 | 96=(x-0.25) | 96 x 0.25 - = | 96:coffee x:coffee 0.25:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | (0.25/96)=x | 0.25 96 / x = | 0.25:cafe 96:coffee /:cafe x:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 24 | 0.00260416666666667 | (96*x)=0.25 | 96 x * 0.25 = | 96:cafe x:coffee *:cafe 0.25:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 24 | 96.25 | (x-96)=0.25 | x 96 - 0.25 = | x:coffee 96:coffee -:coffee 0.25:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | (96-x)=0.25 | 96 x - 0.25 = | 96:coffee x:coffee -:coffee 0.25:coffee =:coffee
+EXPR: 1 | POS | INT | 12 | 24 | 24 | (x/96)=0.25 | x 96 / 0.25 = | x:cafe 96:coffee /:cafe 0.25:cafe =:cafe
+EXPR: 0 | POS | FRA | 12 | 24 | 95.75 | 96=(0.25+x) | 96 0.25 x + = | 96:coffee 0.25:coffee x:coffee +:coffee =:coffee
+EXPR: 1 | POS | INT | 14 | 24 | 24 | 0.25=(x/96) | 0.25 x 96 / = | 0.25:cafe x:cafe 96:coffee /:cafe =:cafe
+EXPR: 0 | POS | INT | 14 | 24 | 384 | 0.25=(96/x) | 0.25 96 x / = | 0.25:cafe 96:cafe x:coffee /:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | (0.25+x)=96 | 0.25 x + 96 = | 0.25:coffee x:coffee +:coffee 96:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | (x+0.25)=96 | x 0.25 + 96 = | x:coffee 0.25:coffee +:coffee 96:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | 0.25=(96*x) | 0.25 96 x * = | 0.25:cafe 96:coffee x:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | (0.25/x)=96 | 0.25 x / 96 = | 0.25:cafe x:coffee /:cafe 96:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 24 | 95.75 | 0.25=(96-x) | 0.25 96 x - = | 0.25:coffee 96:coffee x:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 24 | 96.25 | 0.25=(x-96) | 0.25 x 96 - = | 0.25:coffee x:coffee 96:coffee -:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 24 | 0.00260416666666667 | 0.25=(x*96) | 0.25 x 96 * = | 0.25:cafe x:coffee 96:cafe *:cafe =:cafe
+EXPR: 0 | POS | FRA | 14 | 24 | 96.25 | (x-0.25)=96 | x 0.25 - 96 = | x:coffee 0.25:coffee -:coffee 96:coffee =:coffee
+NET 36 unique, non-negative solutions found out of 136 total solutions

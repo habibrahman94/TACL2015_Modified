@@ -1,5 +1,5 @@
-quantities : 8.15 0.93 x
-types : "ounce" "bar" "ounce"
+quantities : 0.85 32.89 x
+types : "Pamela" "dollar" "price"
 operators : + - * / =
 n : 5
-answer : 7.5795
+answer : 38.694117647

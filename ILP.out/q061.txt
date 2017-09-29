@@ -1,5 +1,5 @@
-quantities : 72 0.75 x
-types : "problem" "Mimi" "problem"
+quantities : 35 0.6 x
+types : "button" "bag" "button"
 operators : + - * / =
 n : 5
-answer : 54.0
+answer : 21.0

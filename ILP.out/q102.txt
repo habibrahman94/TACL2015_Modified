@@ -1,5 +1,5 @@
-quantities : 46 0.5 x
-types : "coffee" "cafe" "coffee"
+quantities : 60 0.9 x
+types : "seat" "train" "seat"
 operators : + - * / =
 n : 5
-answer : 23.0
+answer : 54.0

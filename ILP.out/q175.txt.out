@@ -1,32 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 80 | 4 | 28=(x*7) | 28 x 7 * = | 28:tree x:UNKNOWN 7:tree *:tree =:tree
-EXPR: 0 | POS | INT | 2 | 80 | 4 | 28=(7*x) | 28 7 x * = | 28:tree 7:tree x:UNKNOWN *:tree =:tree
-EXPR: 0 | POS | INT | 2 | 80 | 4 | (28/x)=7 | 28 x / 7 = | 28:tree x:UNKNOWN /:tree 7:tree =:tree
-EXPR: 0 | POS | INT | 4 | 80 | 4 | (x*7)=28 | x 7 * 28 = | x:UNKNOWN 7:tree *:tree 28:tree =:tree
-EXPR: 0 | POS | INT | 4 | 80 | 4 | (7*x)=28 | 7 x * 28 = | 7:tree x:UNKNOWN *:tree 28:tree =:tree
-EXPR: 0 | POS | INT | 4 | 80 | 4 | 7=(28/x) | 7 28 x / = | 7:tree 28:tree x:UNKNOWN /:tree =:tree
-EXPR: 0 | POS | INT | 10 | 80 | 35 | x=(28+7) | x 28 7 + = | x:tree 28:tree 7:tree +:tree =:tree
-EXPR: 0 | POS | INT | 10 | 80 | 196 | x=(28*7) | x 28 7 * = | x:UNKNOWN 28:tree 7:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 80 | 21 | (28-7)=x | 28 7 - x = | 28:tree 7:tree -:tree x:tree =:tree
-EXPR: 0 | POS | INT | 10 | 80 | 196 | (28*7)=x | 28 7 * x = | 28:tree 7:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 80 | 21 | x=(28-7) | x 28 7 - = | x:tree 28:tree 7:tree -:tree =:tree
-EXPR: 0 | POS | INT | 10 | 80 | 4 | x=(28/7) | x 28 7 / = | x:UNKNOWN 28:UNKNOWN 7:tree /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 80 | 35 | (28+7)=x | 28 7 + x = | 28:tree 7:tree +:tree x:tree =:tree
-EXPR: 0 | POS | INT | 10 | 80 | 4 | (28/7)=x | 28 7 / x = | 28:UNKNOWN 7:tree /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 80 | 21 | (28-x)=7 | 28 x - 7 = | 28:tree x:tree -:tree 7:tree =:tree
-EXPR: 0 | POS | INT | 12 | 80 | 21 | 28=(7+x) | 28 7 x + = | 28:tree 7:tree x:tree +:tree =:tree
-EXPR: 0 | POS | INT | 12 | 80 | 196 | (x/28)=7 | x 28 / 7 = | x:UNKNOWN 28:tree /:UNKNOWN 7:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 80 | 35 | (x-28)=7 | x 28 - 7 = | x:tree 28:tree -:tree 7:tree =:tree
-EXPR: 0 | POS | INT | 12 | 80 | 35 | 28=(x-7) | 28 x 7 - = | 28:tree x:tree 7:tree -:tree =:tree
-EXPR: 0 | POS | INT | 12 | 80 | 21 | 28=(x+7) | 28 x 7 + = | 28:tree x:tree 7:tree +:tree =:tree
-EXPR: 0 | POS | INT | 12 | 80 | 196 | 28=(x/7) | 28 x 7 / = | 28:UNKNOWN x:UNKNOWN 7:tree /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 80 | 35 | (x-7)=28 | x 7 - 28 = | x:tree 7:tree -:tree 28:tree =:tree
-EXPR: 0 | POS | INT | 14 | 80 | 196 | 7=(x/28) | 7 x 28 / = | 7:UNKNOWN x:UNKNOWN 28:tree /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 80 | 21 | (x+7)=28 | x 7 + 28 = | x:tree 7:tree +:tree 28:tree =:tree
-EXPR: 0 | POS | INT | 14 | 80 | 196 | (x/7)=28 | x 7 / 28 = | x:UNKNOWN 7:tree /:UNKNOWN 28:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 80 | 21 | 7=(28-x) | 7 28 x - = | 7:tree 28:tree x:tree -:tree =:tree
-EXPR: 0 | POS | INT | 14 | 80 | 21 | (7+x)=28 | 7 x + 28 = | 7:tree x:tree +:tree 28:tree =:tree
-EXPR: 0 | POS | INT | 14 | 80 | 35 | 7=(x-28) | 7 x 28 - = | 7:tree x:tree 28:tree -:tree =:tree
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 14 | 6 | (8*0.75)=x | 8 0.75 * x = | 8:pig 0.75:Copeland *:pig x:pig =:pig
+EXPR: 0 | POS | FRA | 10 | 14 | 10.6666666666667 | x=(8/0.75) | x 8 0.75 / = | x:pig 8:pig 0.75:Copeland /:pig =:pig
+EXPR: 0 | POS | INT | 10 | 14 | 6 | x=(8*0.75) | x 8 0.75 * = | x:pig 8:kilogram 0.75:pig *:pig =:pig
+EXPR: 0 | POS | FRA | 10 | 14 | 10.6666666666667 | (8/0.75)=x | 8 0.75 / x = | 8:kilogram 0.75:Copeland /:kilogram x:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | (x*8)=0.75 | x 8 * 0.75 = | x:pig 8:kilogram *:pig 0.75:pig =:pig
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | (8*x)=0.75 | 8 x * 0.75 = | 8:kilogram x:Copeland *:Copeland 0.75:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 12 | 14 | 10.6666666666667 | 8=(0.75*x) | 8 0.75 x * = | 8:kilogram 0.75:Copeland x:kilogram *:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | (0.75/8)=x | 0.75 8 / x = | 0.75:Copeland 8:kilogram /:Copeland x:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 12 | 14 | 10.6666666666667 | 8=(x*0.75) | 8 x 0.75 * = | 8:kilogram x:pig 0.75:kilogram *:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 14 | 6 | (x/8)=0.75 | x 8 / 0.75 = | x:pig 8:kilogram /:pig 0.75:pig =:pig
+EXPR: 0 | POS | FRA | 12 | 14 | 10.6666666666667 | (8/x)=0.75 | 8 x / 0.75 = | 8:Copeland x:pig /:Copeland 0.75:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | 8=(0.75/x) | 8 0.75 x / = | 8:kilogram 0.75:kilogram x:pig /:kilogram =:kilogram
+EXPR: 0 | POS | INT | 12 | 14 | 6 | 8=(x/0.75) | 8 x 0.75 / = | 8:kilogram x:kilogram 0.75:Copeland /:kilogram =:kilogram
+EXPR: 0 | POS | FRA | 12 | 14 | 0.09375 | x=(0.75/8) | x 0.75 8 / = | x:Copeland 0.75:Copeland 8:kilogram /:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 10.6666666666667 | (x*0.75)=8 | x 0.75 * 8 = | x:pig 0.75:Copeland *:pig 8:pig =:pig
+EXPR: 0 | POS | INT | 14 | 14 | 6 | (x/0.75)=8 | x 0.75 / 8 = | x:pig 0.75:Copeland /:pig 8:pig =:pig
+EXPR: 0 | POS | FRA | 14 | 14 | 0.09375 | 0.75=(x*8) | 0.75 x 8 * = | 0.75:Copeland x:Copeland 8:kilogram *:Copeland =:Copeland
+EXPR: 0 | POS | INT | 14 | 14 | 6 | 0.75=(x/8) | 0.75 x 8 / = | 0.75:Copeland x:Copeland 8:kilogram /:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 10.6666666666667 | (0.75*x)=8 | 0.75 x * 8 = | 0.75:Copeland x:pig *:Copeland 8:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 0.09375 | (0.75/x)=8 | 0.75 x / 8 = | 0.75:Copeland x:pig /:Copeland 8:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 10.6666666666667 | 0.75=(8/x) | 0.75 8 x / = | 0.75:Copeland 8:Copeland x:pig /:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 14 | 14 | 0.09375 | 0.75=(8*x) | 0.75 8 x * = | 0.75:Copeland 8:Copeland x:pig *:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 7.25 | x=(8-0.75) | x 8 0.75 - = | x:Copeland 8:Copeland 0.75:Copeland -:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 8.75 | x=(8+0.75) | x 8 0.75 + = | x:Copeland 8:Copeland 0.75:Copeland +:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 8.75 | (8+0.75)=x | 8 0.75 + x = | 8:Copeland 0.75:Copeland +:Copeland x:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 20 | 14 | 7.25 | (8-0.75)=x | 8 0.75 - x = | 8:Copeland 0.75:Copeland -:Copeland x:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 22 | 14 | 7.25 | 8=(x+0.75) | 8 x 0.75 + = | 8:pig x:pig 0.75:pig +:pig =:pig
+EXPR: 0 | POS | FRA | 22 | 14 | 7.25 | (8-x)=0.75 | 8 x - 0.75 = | 8:pig x:pig -:pig 0.75:pig =:pig
+EXPR: 0 | POS | FRA | 22 | 14 | 7.25 | 8=(0.75+x) | 8 0.75 x + = | 8:Copeland 0.75:Copeland x:Copeland +:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 22 | 14 | 8.75 | 8=(x-0.75) | 8 x 0.75 - = | 8:Copeland x:Copeland 0.75:Copeland -:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 22 | 14 | 8.75 | (x-8)=0.75 | x 8 - 0.75 = | x:Copeland 8:Copeland -:Copeland 0.75:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 24 | 14 | 7.25 | (0.75+x)=8 | 0.75 x + 8 = | 0.75:pig x:pig +:pig 8:pig =:pig
+EXPR: 0 | POS | FRA | 24 | 14 | 7.25 | 0.75=(8-x) | 0.75 8 x - = | 0.75:pig 8:pig x:pig -:pig =:pig
+EXPR: 0 | POS | FRA | 24 | 14 | 8.75 | 0.75=(x-8) | 0.75 x 8 - = | 0.75:Copeland x:Copeland 8:Copeland -:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 24 | 14 | 8.75 | (x-0.75)=8 | x 0.75 - 8 = | x:Copeland 0.75:Copeland -:Copeland 8:Copeland =:Copeland
+EXPR: 0 | POS | FRA | 24 | 14 | 7.25 | (x+0.75)=8 | x 0.75 + 8 = | x:Copeland 0.75:Copeland +:Copeland 8:Copeland =:Copeland
+NET 36 unique, non-negative solutions found out of 324 total solutions

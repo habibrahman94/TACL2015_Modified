@@ -1,40 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 10 | 1000 | x=(100/0.1) | x 100 0.1 / = | x:student 100:student 0.1:time /:student =:student
-EXPR: 1 | POS | INT | 0 | 10 | 10 | (100*0.1)=x | 100 0.1 * x = | 100:student 0.1:time *:student x:student =:student
-EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(100*0.1) | x 100 0.1 * = | x:student 100:student 0.1:time *:student =:student
-EXPR: 0 | POS | INT | 0 | 10 | 1000 | (100/0.1)=x | 100 0.1 / x = | 100:student 0.1:time /:student x:student =:student
-EXPR: 1 | POS | INT | 2 | 10 | 10 | 100=(x/0.1) | 100 x 0.1 / = | 100:student x:student 0.1:time /:student =:student
-EXPR: 0 | POS | INT | 2 | 10 | 1000 | 100=(x*0.1) | 100 x 0.1 * = | 100:student x:student 0.1:time *:student =:student
-EXPR: 0 | POS | INT | 2 | 10 | 1000 | 100=(0.1*x) | 100 0.1 x * = | 100:student 0.1:time x:student *:student =:student
-EXPR: 0 | POS | INT | 4 | 10 | 1000 | (0.1*x)=100 | 0.1 x * 100 = | 0.1:time x:student *:student 100:student =:student
-EXPR: 0 | POS | INT | 4 | 10 | 1000 | (x*0.1)=100 | x 0.1 * 100 = | x:student 0.1:time *:student 100:student =:student
-EXPR: 1 | POS | INT | 4 | 10 | 10 | (x/0.1)=100 | x 0.1 / 100 = | x:student 0.1:time /:student 100:student =:student
-EXPR: 0 | POS | FRA | 10 | 10 | 100.1 | (100+0.1)=x | 100 0.1 + x = | 100:student 0.1:student +:student x:student =:student
-EXPR: 0 | POS | FRA | 10 | 10 | 100.1 | x=(100+0.1) | x 100 0.1 + = | x:student 100:student 0.1:student +:student =:student
-EXPR: 0 | POS | FRA | 10 | 10 | 99.9 | (100-0.1)=x | 100 0.1 - x = | 100:student 0.1:student -:student x:student =:student
-EXPR: 0 | POS | FRA | 10 | 10 | 99.9 | x=(100-0.1) | x 100 0.1 - = | x:student 100:student 0.1:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 10 | 99.9 | 100=(x+0.1) | 100 x 0.1 + = | 100:student x:student 0.1:student +:student =:student
-EXPR: 0 | POS | FRA | 12 | 10 | 0.001 | 100=(0.1/x) | 100 0.1 x / = | 100:time 0.1:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 10 | 0.001 | (x*100)=0.1 | x 100 * 0.1 = | x:student 100:time *:time 0.1:time =:time
-EXPR: 0 | POS | INT | 12 | 10 | 1000 | (100/x)=0.1 | 100 x / 0.1 = | 100:time x:student /:time 0.1:time =:time
-EXPR: 0 | POS | FRA | 12 | 10 | 0.001 | x=(0.1/100) | x 0.1 100 / = | x:time 0.1:time 100:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 10 | 100.1 | 100=(x-0.1) | 100 x 0.1 - = | 100:student x:student 0.1:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 10 | 0.001 | (0.1/100)=x | 0.1 100 / x = | 0.1:time 100:student /:time x:time =:time
-EXPR: 0 | POS | FRA | 12 | 10 | 0.001 | (100*x)=0.1 | 100 x * 0.1 = | 100:time x:student *:time 0.1:time =:time
-EXPR: 0 | POS | FRA | 12 | 10 | 100.1 | (x-100)=0.1 | x 100 - 0.1 = | x:student 100:student -:student 0.1:student =:student
-EXPR: 0 | POS | FRA | 12 | 10 | 99.9 | (100-x)=0.1 | 100 x - 0.1 = | 100:student x:student -:student 0.1:student =:student
-EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/100)=0.1 | x 100 / 0.1 = | x:time 100:student /:time 0.1:time =:time
-EXPR: 0 | POS | FRA | 12 | 10 | 99.9 | 100=(0.1+x) | 100 0.1 x + = | 100:student 0.1:student x:student +:student =:student
-EXPR: 1 | POS | INT | 14 | 10 | 10 | 0.1=(x/100) | 0.1 x 100 / = | 0.1:time x:time 100:student /:time =:time
-EXPR: 0 | POS | INT | 14 | 10 | 1000 | 0.1=(100/x) | 0.1 100 x / = | 0.1:time 100:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 14 | 10 | 99.9 | (0.1+x)=100 | 0.1 x + 100 = | 0.1:student x:student +:student 100:student =:student
-EXPR: 0 | POS | FRA | 14 | 10 | 99.9 | (x+0.1)=100 | x 0.1 + 100 = | x:student 0.1:student +:student 100:student =:student
-EXPR: 0 | POS | FRA | 14 | 10 | 0.001 | 0.1=(100*x) | 0.1 100 x * = | 0.1:time 100:student x:time *:time =:time
-EXPR: 0 | POS | FRA | 14 | 10 | 0.001 | (0.1/x)=100 | 0.1 x / 100 = | 0.1:time x:student /:time 100:time =:time
-EXPR: 0 | POS | FRA | 14 | 10 | 99.9 | 0.1=(100-x) | 0.1 100 x - = | 0.1:student 100:student x:student -:student =:student
-EXPR: 0 | POS | FRA | 14 | 10 | 100.1 | 0.1=(x-100) | 0.1 x 100 - = | 0.1:student x:student 100:student -:student =:student
-EXPR: 0 | POS | FRA | 14 | 10 | 0.001 | 0.1=(x*100) | 0.1 x 100 * = | 0.1:time x:student 100:time *:time =:time
-EXPR: 0 | POS | FRA | 14 | 10 | 100.1 | (x-0.1)=100 | x 0.1 - 100 = | x:student 0.1:student -:student 100:student =:student
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.333333 | 0.333333333333333 | (0.6666666666666666-0.3333333333333333)=x | 0.6666666666666666 0.3333333333333333 - x = | 0.6666666666666666:pie 0.3333333333333333:pie -:pie x:pie =:pie
+EXPR: 1 | POS | FRA | 0 | 0.333333 | 0.333333333333333 | x=(0.6666666666666666-0.3333333333333333) | x 0.6666666666666666 0.3333333333333333 - = | x:pie 0.6666666666666666:pie 0.3333333333333333:pie -:pie =:pie
+EXPR: 0 | POS | INT | 0 | 0.333333 | 1 | (0.6666666666666666+0.3333333333333333)=x | 0.6666666666666666 0.3333333333333333 + x = | 0.6666666666666666:pie 0.3333333333333333:pie +:pie x:pie =:pie
+EXPR: 0 | POS | INT | 0 | 0.333333 | 1 | x=(0.6666666666666666+0.3333333333333333) | x 0.6666666666666666 0.3333333333333333 + = | x:pie 0.6666666666666666:pie 0.3333333333333333:pie +:pie =:pie
+EXPR: 0 | POS | INT | 2 | 0.333333 | 1 | (x-0.6666666666666666)=0.3333333333333333 | x 0.6666666666666666 - 0.3333333333333333 = | x:pie 0.6666666666666666:pie -:pie 0.3333333333333333:pie =:pie
+EXPR: 1 | POS | FRA | 2 | 0.333333 | 0.333333333333333 | (0.6666666666666666-x)=0.3333333333333333 | 0.6666666666666666 x - 0.3333333333333333 = | 0.6666666666666666:pie x:pie -:pie 0.3333333333333333:pie =:pie
+EXPR: 1 | POS | FRA | 2 | 0.333333 | 0.333333333333333 | 0.6666666666666666=(x+0.3333333333333333) | 0.6666666666666666 x 0.3333333333333333 + = | 0.6666666666666666:pie x:pie 0.3333333333333333:pie +:pie =:pie
+EXPR: 0 | POS | INT | 2 | 0.333333 | 1 | 0.6666666666666666=(x-0.3333333333333333) | 0.6666666666666666 x 0.3333333333333333 - = | 0.6666666666666666:pie x:pie 0.3333333333333333:pie -:pie =:pie
+EXPR: 1 | POS | FRA | 2 | 0.333333 | 0.333333333333333 | 0.6666666666666666=(0.3333333333333333+x) | 0.6666666666666666 0.3333333333333333 x + = | 0.6666666666666666:pie 0.3333333333333333:pie x:pie +:pie =:pie
+EXPR: 0 | POS | INT | 4 | 0.333333 | 1 | 0.3333333333333333=(x-0.6666666666666666) | 0.3333333333333333 x 0.6666666666666666 - = | 0.3333333333333333:pie x:pie 0.6666666666666666:pie -:pie =:pie
+EXPR: 0 | POS | INT | 4 | 0.333333 | 1 | (x-0.3333333333333333)=0.6666666666666666 | x 0.3333333333333333 - 0.6666666666666666 = | x:pie 0.3333333333333333:pie -:pie 0.6666666666666666:pie =:pie
+EXPR: 1 | POS | FRA | 4 | 0.333333 | 0.333333333333333 | (0.3333333333333333+x)=0.6666666666666666 | 0.3333333333333333 x + 0.6666666666666666 = | 0.3333333333333333:pie x:pie +:pie 0.6666666666666666:pie =:pie
+EXPR: 1 | POS | FRA | 4 | 0.333333 | 0.333333333333333 | (x+0.3333333333333333)=0.6666666666666666 | x 0.3333333333333333 + 0.6666666666666666 = | x:pie 0.3333333333333333:pie +:pie 0.6666666666666666:pie =:pie
+EXPR: 1 | POS | FRA | 4 | 0.333333 | 0.333333333333333 | 0.3333333333333333=(0.6666666666666666-x) | 0.3333333333333333 0.6666666666666666 x - = | 0.3333333333333333:pie 0.6666666666666666:pie x:pie -:pie =:pie
+NET 14 unique, non-negative solutions found out of 28 total solutions

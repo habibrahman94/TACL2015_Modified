@@ -1,5 +1,5 @@
-quantities : 22 66 x
-types : "member" "member" "UNKNOWN"
+quantities : 10 0.5 x
+types : "game" "team" "game"
 operators : + - * / =
 n : 5
-answer : 25.0
+answer : 20.0

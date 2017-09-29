@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 6 | 6 | (15*0.4)=x | 15 0.4 * x = | 15:special 0.4:salmon *:salmon x:salmon =:salmon
-EXPR: 0 | POS | FRA | 10 | 6 | 37.5 | (15/0.4)=x | 15 0.4 / x = | 15:salmon 0.4:restaurant /:salmon x:salmon =:salmon
-EXPR: 1 | POS | INT | 10 | 6 | 6 | x=(15*0.4) | x 15 0.4 * = | x:special 15:special 0.4:restaurant *:special =:special
-EXPR: 0 | POS | FRA | 10 | 6 | 37.5 | x=(15/0.4) | x 15 0.4 / = | x:salmon 15:salmon 0.4:restaurant /:salmon =:salmon
-EXPR: 0 | POS | FRA | 12 | 6 | 0.0266666666666667 | (15*x)=0.4 | 15 x * 0.4 = | 15:special x:restaurant *:restaurant 0.4:restaurant =:restaurant
-EXPR: 0 | POS | FRA | 12 | 6 | 0.0266666666666667 | x=(0.4/15) | x 0.4 15 / = | x:restaurant 0.4:restaurant 15:special /:restaurant =:restaurant
-EXPR: 0 | POS | FRA | 12 | 6 | 0.0266666666666667 | 15=(0.4/x) | 15 0.4 x / = | 15:restaurant 0.4:restaurant x:salmon /:restaurant =:restaurant
-EXPR: 0 | POS | FRA | 12 | 6 | 37.5 | 15=(0.4*x) | 15 0.4 x * = | 15:salmon 0.4:restaurant x:salmon *:salmon =:salmon
-EXPR: 0 | POS | FRA | 12 | 6 | 37.5 | (15/x)=0.4 | 15 x / 0.4 = | 15:restaurant x:salmon /:restaurant 0.4:restaurant =:restaurant
-EXPR: 0 | POS | FRA | 12 | 6 | 37.5 | 15=(x*0.4) | 15 x 0.4 * = | 15:salmon x:salmon 0.4:restaurant *:salmon =:salmon
-EXPR: 1 | POS | INT | 12 | 6 | 6 | 15=(x/0.4) | 15 x 0.4 / = | 15:salmon x:salmon 0.4:restaurant /:salmon =:salmon
-EXPR: 0 | POS | FRA | 12 | 6 | 0.0266666666666667 | (x*15)=0.4 | x 15 * 0.4 = | x:salmon 15:restaurant *:restaurant 0.4:restaurant =:restaurant
-EXPR: 1 | POS | INT | 12 | 6 | 6 | (x/15)=0.4 | x 15 / 0.4 = | x:salmon 15:special /:salmon 0.4:salmon =:salmon
-EXPR: 0 | POS | FRA | 12 | 6 | 0.0266666666666667 | (0.4/15)=x | 0.4 15 / x = | 0.4:salmon 15:special /:salmon x:salmon =:salmon
-EXPR: 0 | POS | FRA | 14 | 6 | 0.0266666666666667 | (0.4/x)=15 | 0.4 x / 15 = | 0.4:special x:salmon /:special 15:special =:special
-EXPR: 0 | POS | FRA | 14 | 6 | 37.5 | (0.4*x)=15 | 0.4 x * 15 = | 0.4:special x:salmon *:special 15:special =:special
-EXPR: 1 | POS | INT | 14 | 6 | 6 | (x/0.4)=15 | x 0.4 / 15 = | x:special 0.4:restaurant /:special 15:special =:special
-EXPR: 0 | POS | FRA | 14 | 6 | 37.5 | (x*0.4)=15 | x 0.4 * 15 = | x:special 0.4:restaurant *:special 15:special =:special
-EXPR: 0 | POS | FRA | 14 | 6 | 0.0266666666666667 | 0.4=(15*x) | 0.4 15 x * = | 0.4:restaurant 15:special x:restaurant *:restaurant =:restaurant
-EXPR: 0 | POS | FRA | 14 | 6 | 0.0266666666666667 | 0.4=(x*15) | 0.4 x 15 * = | 0.4:restaurant x:salmon 15:restaurant *:restaurant =:restaurant
-EXPR: 1 | POS | INT | 14 | 6 | 6 | 0.4=(x/15) | 0.4 x 15 / = | 0.4:salmon x:salmon 15:special /:salmon =:salmon
-EXPR: 0 | POS | FRA | 14 | 6 | 37.5 | 0.4=(15/x) | 0.4 15 x / = | 0.4:special 15:special x:salmon /:special =:special
-EXPR: 0 | POS | FRA | 20 | 6 | 15.4 | x=(15+0.4) | x 15 0.4 + = | x:special 15:special 0.4:special +:special =:special
-EXPR: 0 | POS | FRA | 20 | 6 | 14.6 | x=(15-0.4) | x 15 0.4 - = | x:salmon 15:salmon 0.4:salmon -:salmon =:salmon
-EXPR: 0 | POS | FRA | 20 | 6 | 15.4 | (15+0.4)=x | 15 0.4 + x = | 15:special 0.4:special +:special x:special =:special
-EXPR: 0 | POS | FRA | 20 | 6 | 14.6 | (15-0.4)=x | 15 0.4 - x = | 15:salmon 0.4:salmon -:salmon x:salmon =:salmon
-EXPR: 0 | POS | FRA | 22 | 6 | 15.4 | 15=(x-0.4) | 15 x 0.4 - = | 15:special x:special 0.4:special -:special =:special
-EXPR: 0 | POS | FRA | 22 | 6 | 14.6 | 15=(x+0.4) | 15 x 0.4 + = | 15:special x:special 0.4:special +:special =:special
-EXPR: 0 | POS | FRA | 22 | 6 | 15.4 | (x-15)=0.4 | x 15 - 0.4 = | x:restaurant 15:restaurant -:restaurant 0.4:restaurant =:restaurant
-EXPR: 0 | POS | FRA | 22 | 6 | 14.6 | (15-x)=0.4 | 15 x - 0.4 = | 15:special x:special -:special 0.4:special =:special
-EXPR: 0 | POS | FRA | 22 | 6 | 14.6 | 15=(0.4+x) | 15 0.4 x + = | 15:salmon 0.4:salmon x:salmon +:salmon =:salmon
-EXPR: 0 | POS | FRA | 24 | 6 | 14.6 | (0.4+x)=15 | 0.4 x + 15 = | 0.4:salmon x:salmon +:salmon 15:salmon =:salmon
-EXPR: 0 | POS | FRA | 24 | 6 | 15.4 | (x-0.4)=15 | x 0.4 - 15 = | x:special 0.4:special -:special 15:special =:special
-EXPR: 0 | POS | FRA | 24 | 6 | 14.6 | (x+0.4)=15 | x 0.4 + 15 = | x:salmon 0.4:salmon +:salmon 15:salmon =:salmon
-EXPR: 0 | POS | FRA | 24 | 6 | 14.6 | 0.4=(15-x) | 0.4 15 x - = | 0.4:special 15:special x:special -:special =:special
-EXPR: 0 | POS | FRA | 24 | 6 | 15.4 | 0.4=(x-15) | 0.4 x 15 - = | 0.4:special x:special 15:special -:special =:special
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | FRA | 0 | 10 | 62.5 | x=(25/0.4) | x 25 0.4 / = | x:button 25:button 0.4:bag /:button =:button
+EXPR: 1 | POS | INT | 0 | 10 | 10 | (25*0.4)=x | 25 0.4 * x = | 25:button 0.4:bag *:button x:button =:button
+EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(25*0.4) | x 25 0.4 * = | x:button 25:button 0.4:bag *:button =:button
+EXPR: 0 | POS | FRA | 0 | 10 | 62.5 | (25/0.4)=x | 25 0.4 / x = | 25:button 0.4:bag /:button x:button =:button
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 25=(x/0.4) | 25 x 0.4 / = | 25:button x:button 0.4:bag /:button =:button
+EXPR: 0 | POS | FRA | 2 | 10 | 62.5 | 25=(x*0.4) | 25 x 0.4 * = | 25:button x:button 0.4:bag *:button =:button
+EXPR: 0 | POS | FRA | 2 | 10 | 62.5 | 25=(0.4*x) | 25 0.4 x * = | 25:button 0.4:bag x:button *:button =:button
+EXPR: 0 | POS | FRA | 4 | 10 | 62.5 | (0.4*x)=25 | 0.4 x * 25 = | 0.4:bag x:button *:button 25:button =:button
+EXPR: 0 | POS | FRA | 4 | 10 | 62.5 | (x*0.4)=25 | x 0.4 * 25 = | x:button 0.4:bag *:button 25:button =:button
+EXPR: 1 | POS | INT | 4 | 10 | 10 | (x/0.4)=25 | x 0.4 / 25 = | x:button 0.4:bag /:button 25:button =:button
+EXPR: 0 | POS | FRA | 10 | 10 | 25.4 | (25+0.4)=x | 25 0.4 + x = | 25:button 0.4:button +:button x:button =:button
+EXPR: 0 | POS | FRA | 10 | 10 | 25.4 | x=(25+0.4) | x 25 0.4 + = | x:button 25:button 0.4:button +:button =:button
+EXPR: 0 | POS | FRA | 10 | 10 | 24.6 | (25-0.4)=x | 25 0.4 - x = | 25:button 0.4:button -:button x:button =:button
+EXPR: 0 | POS | FRA | 10 | 10 | 24.6 | x=(25-0.4) | x 25 0.4 - = | x:button 25:button 0.4:button -:button =:button
+EXPR: 0 | POS | FRA | 12 | 10 | 24.6 | 25=(x+0.4) | 25 x 0.4 + = | 25:button x:button 0.4:button +:button =:button
+EXPR: 0 | POS | FRA | 12 | 10 | 0.016 | 25=(0.4/x) | 25 0.4 x / = | 25:bag 0.4:bag x:button /:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 0.016 | (x*25)=0.4 | x 25 * 0.4 = | x:button 25:bag *:bag 0.4:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 62.5 | (25/x)=0.4 | 25 x / 0.4 = | 25:bag x:button /:bag 0.4:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 0.016 | x=(0.4/25) | x 0.4 25 / = | x:bag 0.4:bag 25:button /:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 25.4 | 25=(x-0.4) | 25 x 0.4 - = | 25:button x:button 0.4:button -:button =:button
+EXPR: 0 | POS | FRA | 12 | 10 | 0.016 | (0.4/25)=x | 0.4 25 / x = | 0.4:bag 25:button /:bag x:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 0.016 | (25*x)=0.4 | 25 x * 0.4 = | 25:bag x:button *:bag 0.4:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 25.4 | (x-25)=0.4 | x 25 - 0.4 = | x:button 25:button -:button 0.4:button =:button
+EXPR: 0 | POS | FRA | 12 | 10 | 24.6 | (25-x)=0.4 | 25 x - 0.4 = | 25:button x:button -:button 0.4:button =:button
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/25)=0.4 | x 25 / 0.4 = | x:bag 25:button /:bag 0.4:bag =:bag
+EXPR: 0 | POS | FRA | 12 | 10 | 24.6 | 25=(0.4+x) | 25 0.4 x + = | 25:button 0.4:button x:button +:button =:button
+EXPR: 1 | POS | INT | 14 | 10 | 10 | 0.4=(x/25) | 0.4 x 25 / = | 0.4:bag x:bag 25:button /:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 10 | 62.5 | 0.4=(25/x) | 0.4 25 x / = | 0.4:bag 25:bag x:button /:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 10 | 24.6 | (0.4+x)=25 | 0.4 x + 25 = | 0.4:button x:button +:button 25:button =:button
+EXPR: 0 | POS | FRA | 14 | 10 | 24.6 | (x+0.4)=25 | x 0.4 + 25 = | x:button 0.4:button +:button 25:button =:button
+EXPR: 0 | POS | FRA | 14 | 10 | 0.016 | 0.4=(25*x) | 0.4 25 x * = | 0.4:bag 25:button x:bag *:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 10 | 0.016 | (0.4/x)=25 | 0.4 x / 25 = | 0.4:bag x:button /:bag 25:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 10 | 24.6 | 0.4=(25-x) | 0.4 25 x - = | 0.4:button 25:button x:button -:button =:button
+EXPR: 0 | POS | FRA | 14 | 10 | 25.4 | 0.4=(x-25) | 0.4 x 25 - = | 0.4:button x:button 25:button -:button =:button
+EXPR: 0 | POS | FRA | 14 | 10 | 0.016 | 0.4=(x*25) | 0.4 x 25 * = | 0.4:bag x:button 25:bag *:bag =:bag
+EXPR: 0 | POS | FRA | 14 | 10 | 25.4 | (x-0.4)=25 | x 0.4 - 25 = | x:button 0.4:button -:button 25:button =:button
+NET 36 unique, non-negative solutions found out of 136 total solutions

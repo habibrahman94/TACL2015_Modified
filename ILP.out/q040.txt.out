@@ -1,28 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 50 | 1 | 40=(40/x) | 40 40 x / = | 40:pin 40:pin x:UNKNOWN /:pin =:pin
-EXPR: 0 | POS | INT | 2 | 50 | 1 | 40=(x*40) | 40 x 40 * = | 40:pin x:UNKNOWN 40:pin *:pin =:pin
-EXPR: 0 | POS | INT | 2 | 50 | 1 | 40=(40*x) | 40 40 x * = | 40:pin 40:pin x:UNKNOWN *:pin =:pin
-EXPR: 0 | POS | INT | 2 | 50 | 1 | (x*40)=40 | x 40 * 40 = | x:UNKNOWN 40:pin *:pin 40:pin =:pin
-EXPR: 0 | POS | INT | 2 | 50 | 1 | (40*x)=40 | 40 x * 40 = | 40:pin x:UNKNOWN *:pin 40:pin =:pin
-EXPR: 0 | POS | INT | 2 | 50 | 1 | (40/x)=40 | 40 x / 40 = | 40:pin x:UNKNOWN /:pin 40:pin =:pin
-EXPR: 0 | POS | INT | 10 | 50 | 80 | x=(40+40) | x 40 40 + = | x:pin 40:pin 40:pin +:pin =:pin
-EXPR: 0 | POS | INT | 10 | 50 | 1600 | x=(40*40) | x 40 40 * = | x:UNKNOWN 40:pin 40:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 | 0 | (40-40)=x | 40 40 - x = | 40:pin 40:pin -:pin x:pin =:pin
-EXPR: 0 | POS | INT | 10 | 50 | 1600 | (40*40)=x | 40 40 * x = | 40:pin 40:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 |  | x=(40-40) | x 40 40 - = | x:pin 40:pin 40:pin -:pin =:pin
-EXPR: 0 | POS | INT | 10 | 50 | 1 | x=(40/40) | x 40 40 / = | x:UNKNOWN 40:UNKNOWN 40:pin /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 50 | 80 | (40+40)=x | 40 40 + x = | 40:pin 40:pin +:pin x:pin =:pin
-EXPR: 0 | POS | INT | 10 | 50 | 1 | (40/40)=x | 40 40 / x = | 40:UNKNOWN 40:pin /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 |  | (40-x)=40 | 40 x - 40 = | 40:pin x:pin -:pin 40:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 | 0 | 40=(40-x) | 40 40 x - = | 40:pin 40:pin x:pin -:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 | 0 | 40=(40+x) | 40 40 x + = | 40:pin 40:pin x:pin +:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 | 1600 | (x/40)=40 | x 40 / 40 = | x:UNKNOWN 40:pin /:UNKNOWN 40:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 | 80 | (x-40)=40 | x 40 - 40 = | x:pin 40:pin -:pin 40:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 | 80 | 40=(x-40) | 40 x 40 - = | 40:pin x:pin 40:pin -:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 | 0 | 40=(x+40) | 40 x 40 + = | 40:pin x:pin 40:pin +:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 |  | (x+40)=40 | x 40 + 40 = | x:pin 40:pin +:pin 40:pin =:pin
-EXPR: 0 | POS | INT | 12 | 50 | 1600 | 40=(x/40) | 40 x 40 / = | 40:UNKNOWN x:UNKNOWN 40:pin /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 50 |  | (40+x)=40 | 40 x + 40 = | 40:pin x:pin +:pin 40:pin =:pin
-NET 24 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 38 | 38 | (0.4*95)=x | 0.4 95 * x = | 0.4:time 95:child *:child x:child =:child
+EXPR: 0 | POS | FRA | 10 | 38 | 0.00421052631578947 | (0.4/95)=x | 0.4 95 / x = | 0.4:child 95:ticket /:child x:child =:child
+EXPR: 1 | POS | INT | 10 | 38 | 38 | x=(0.4*95) | x 0.4 95 * = | x:time 0.4:time 95:ticket *:time =:time
+EXPR: 0 | POS | FRA | 10 | 38 | 0.00421052631578947 | x=(0.4/95) | x 0.4 95 / = | x:child 0.4:child 95:ticket /:child =:child
+EXPR: 0 | POS | FRA | 12 | 38 | 237.5 | (0.4*x)=95 | 0.4 x * 95 = | 0.4:time x:ticket *:ticket 95:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 38 | 237.5 | x=(95/0.4) | x 95 0.4 / = | x:ticket 95:ticket 0.4:time /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 38 | 237.5 | 0.4=(95/x) | 0.4 95 x / = | 0.4:ticket 95:ticket x:child /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 38 | 0.00421052631578947 | 0.4=(95*x) | 0.4 95 x * = | 0.4:child 95:ticket x:child *:child =:child
+EXPR: 0 | POS | FRA | 12 | 38 | 0.00421052631578947 | (0.4/x)=95 | 0.4 x / 95 = | 0.4:ticket x:child /:ticket 95:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 38 | 0.00421052631578947 | 0.4=(x*95) | 0.4 x 95 * = | 0.4:child x:child 95:ticket *:child =:child
+EXPR: 1 | POS | INT | 12 | 38 | 38 | 0.4=(x/95) | 0.4 x 95 / = | 0.4:child x:child 95:ticket /:child =:child
+EXPR: 0 | POS | FRA | 12 | 38 | 237.5 | (x*0.4)=95 | x 0.4 * 95 = | x:child 0.4:ticket *:ticket 95:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 38 | 38 | (x/0.4)=95 | x 0.4 / 95 = | x:child 0.4:time /:child 95:child =:child
+EXPR: 0 | POS | FRA | 12 | 38 | 237.5 | (95/0.4)=x | 95 0.4 / x = | 95:child 0.4:time /:child x:child =:child
+EXPR: 0 | POS | FRA | 14 | 38 | 237.5 | (95/x)=0.4 | 95 x / 0.4 = | 95:time x:child /:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 14 | 38 | 0.00421052631578947 | (95*x)=0.4 | 95 x * 0.4 = | 95:time x:child *:time 0.4:time =:time
+EXPR: 1 | POS | INT | 14 | 38 | 38 | (x/95)=0.4 | x 95 / 0.4 = | x:time 95:ticket /:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 14 | 38 | 0.00421052631578947 | (x*95)=0.4 | x 95 * 0.4 = | x:time 95:ticket *:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 14 | 38 | 237.5 | 95=(0.4*x) | 95 0.4 x * = | 95:ticket 0.4:time x:ticket *:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 38 | 237.5 | 95=(x*0.4) | 95 x 0.4 * = | 95:ticket x:child 0.4:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 14 | 38 | 38 | 95=(x/0.4) | 95 x 0.4 / = | 95:child x:child 0.4:time /:child =:child
+EXPR: 0 | POS | FRA | 14 | 38 | 0.00421052631578947 | 95=(0.4/x) | 95 0.4 x / = | 95:time 0.4:time x:child /:time =:time
+EXPR: 0 | POS | FRA | 20 | 38 | 95.4 | x=(0.4+95) | x 0.4 95 + = | x:time 0.4:time 95:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 38 | 95.4 | (0.4+95)=x | 0.4 95 + x = | 0.4:time 95:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 38 | 95.4 | 0.4=(x-95) | 0.4 x 95 - = | 0.4:time x:time 95:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 38 | 94.6 | 0.4=(95-x) | 0.4 95 x - = | 0.4:ticket 95:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 38 | 94.6 | x=(95-0.4) | x 95 0.4 - = | x:ticket 95:ticket 0.4:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 38 | 94.6 | (x+0.4)=95 | x 0.4 + 95 = | x:ticket 0.4:ticket +:ticket 95:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 38 | 95.4 | (x-0.4)=95 | x 0.4 - 95 = | x:ticket 0.4:ticket -:ticket 95:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 38 | 94.6 | (0.4+x)=95 | 0.4 x + 95 = | 0.4:time x:time +:time 95:time =:time
+EXPR: 0 | POS | FRA | 22 | 38 | 94.6 | (95-0.4)=x | 95 0.4 - x = | 95:child 0.4:child -:child x:child =:child
+EXPR: 0 | POS | FRA | 24 | 38 | 94.6 | 95=(x+0.4) | 95 x 0.4 + = | 95:time x:time 0.4:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 38 | 94.6 | (95-x)=0.4 | 95 x - 0.4 = | 95:time x:time -:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 24 | 38 | 95.4 | (x-95)=0.4 | x 95 - 0.4 = | x:time 95:time -:time 0.4:time =:time
+EXPR: 0 | POS | FRA | 24 | 38 | 95.4 | 95=(x-0.4) | 95 x 0.4 - = | 95:time x:time 0.4:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 38 | 94.6 | 95=(0.4+x) | 95 0.4 x + = | 95:child 0.4:child x:child +:child =:child
+NET 36 unique, non-negative solutions found out of 324 total solutions

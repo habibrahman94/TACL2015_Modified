@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 13 | 13 | x=(0.2*65) | x 0.2 65 * = | x:bead 0.2:Tara 65:bead *:bead =:bead
-EXPR: 1 | POS | INT | 0 | 13 | 13 | (0.2*65)=x | 0.2 65 * x = | 0.2:Tara 65:bead *:bead x:bead =:bead
-EXPR: 0 | POS | INT | 2 | 13 | 325 | (65/0.2)=x | 65 0.2 / x = | 65:bead 0.2:Tara /:bead x:bead =:bead
-EXPR: 0 | POS | INT | 2 | 13 | 325 | (0.2*x)=65 | 0.2 x * 65 = | 0.2:Tara x:bead *:bead 65:bead =:bead
-EXPR: 1 | POS | INT | 2 | 13 | 13 | (x/0.2)=65 | x 0.2 / 65 = | x:bead 0.2:Tara /:bead 65:bead =:bead
-EXPR: 0 | POS | INT | 2 | 13 | 325 | (x*0.2)=65 | x 0.2 * 65 = | x:bead 0.2:Tara *:bead 65:bead =:bead
-EXPR: 0 | POS | INT | 2 | 13 | 325 | x=(65/0.2) | x 65 0.2 / = | x:bead 65:bead 0.2:Tara /:bead =:bead
-EXPR: 0 | POS | INT | 4 | 13 | 325 | 65=(x*0.2) | 65 x 0.2 * = | 65:bead x:bead 0.2:Tara *:bead =:bead
-EXPR: 0 | POS | INT | 4 | 13 | 325 | 65=(0.2*x) | 65 0.2 x * = | 65:bead 0.2:Tara x:bead *:bead =:bead
-EXPR: 1 | POS | INT | 4 | 13 | 13 | 65=(x/0.2) | 65 x 0.2 / = | 65:bead x:bead 0.2:Tara /:bead =:bead
-EXPR: 0 | POS | FRA | 10 | 13 | 0.00307692307692308 | (0.2/65)=x | 0.2 65 / x = | 0.2:Tara 65:bead /:Tara x:Tara =:Tara
-EXPR: 0 | POS | FRA | 10 | 13 | 65.2 | (0.2+65)=x | 0.2 65 + x = | 0.2:bead 65:bead +:bead x:bead =:bead
-EXPR: 0 | POS | FRA | 10 | 13 | 65.2 | x=(0.2+65) | x 0.2 65 + = | x:bead 0.2:bead 65:bead +:bead =:bead
-EXPR: 0 | POS | FRA | 10 | 13 | 0.00307692307692308 | x=(0.2/65) | x 0.2 65 / = | x:Tara 0.2:Tara 65:bead /:Tara =:Tara
-EXPR: 0 | POS | FRA | 12 | 13 | 0.00307692307692308 | 0.2=(x*65) | 0.2 x 65 * = | 0.2:Tara x:Tara 65:bead *:Tara =:Tara
-EXPR: 0 | POS | INT | 12 | 13 | 325 | 0.2=(65/x) | 0.2 65 x / = | 0.2:Tara 65:Tara x:bead /:Tara =:Tara
-EXPR: 0 | POS | FRA | 12 | 13 | 65.2 | (x-0.2)=65 | x 0.2 - 65 = | x:bead 0.2:bead -:bead 65:bead =:bead
-EXPR: 0 | POS | FRA | 12 | 13 | 0.00307692307692308 | (0.2/x)=65 | 0.2 x / 65 = | 0.2:Tara x:bead /:Tara 65:Tara =:Tara
-EXPR: 0 | POS | FRA | 12 | 13 | 64.8 | (65-0.2)=x | 65 0.2 - x = | 65:bead 0.2:bead -:bead x:bead =:bead
-EXPR: 0 | POS | FRA | 12 | 13 | 64.8 | (x+0.2)=65 | x 0.2 + 65 = | x:bead 0.2:bead +:bead 65:bead =:bead
-EXPR: 0 | POS | FRA | 12 | 13 | 0.00307692307692308 | 0.2=(65*x) | 0.2 65 x * = | 0.2:Tara 65:Tara x:bead *:Tara =:Tara
-EXPR: 0 | POS | FRA | 12 | 13 | 64.8 | (0.2+x)=65 | 0.2 x + 65 = | 0.2:bead x:bead +:bead 65:bead =:bead
-EXPR: 0 | POS | FRA | 12 | 13 | 64.8 | 0.2=(65-x) | 0.2 65 x - = | 0.2:bead 65:bead x:bead -:bead =:bead
-EXPR: 0 | POS | FRA | 12 | 13 | 64.8 | x=(65-0.2) | x 65 0.2 - = | x:bead 65:bead 0.2:bead -:bead =:bead
-EXPR: 0 | POS | FRA | 12 | 13 | 65.2 | 0.2=(x-65) | 0.2 x 65 - = | 0.2:bead x:bead 65:bead -:bead =:bead
-EXPR: 1 | POS | INT | 12 | 13 | 13 | 0.2=(x/65) | 0.2 x 65 / = | 0.2:Tara x:Tara 65:bead /:Tara =:Tara
-EXPR: 0 | POS | INT | 14 | 13 | 325 | (65/x)=0.2 | 65 x / 0.2 = | 65:Tara x:bead /:Tara 0.2:Tara =:Tara
-EXPR: 1 | POS | INT | 14 | 13 | 13 | (x/65)=0.2 | x 65 / 0.2 = | x:Tara 65:bead /:Tara 0.2:Tara =:Tara
-EXPR: 0 | POS | FRA | 14 | 13 | 0.00307692307692308 | 65=(0.2/x) | 65 0.2 x / = | 65:Tara 0.2:Tara x:bead /:Tara =:Tara
-EXPR: 0 | POS | FRA | 14 | 13 | 64.8 | (65-x)=0.2 | 65 x - 0.2 = | 65:bead x:bead -:bead 0.2:bead =:bead
-EXPR: 0 | POS | FRA | 14 | 13 | 0.00307692307692308 | (65*x)=0.2 | 65 x * 0.2 = | 65:Tara x:bead *:Tara 0.2:Tara =:Tara
-EXPR: 0 | POS | FRA | 14 | 13 | 64.8 | 65=(0.2+x) | 65 0.2 x + = | 65:bead 0.2:bead x:bead +:bead =:bead
-EXPR: 0 | POS | FRA | 14 | 13 | 0.00307692307692308 | (x*65)=0.2 | x 65 * 0.2 = | x:bead 65:Tara *:Tara 0.2:Tara =:Tara
-EXPR: 0 | POS | FRA | 14 | 13 | 65.2 | (x-65)=0.2 | x 65 - 0.2 = | x:bead 65:bead -:bead 0.2:bead =:bead
-EXPR: 0 | POS | FRA | 14 | 13 | 65.2 | 65=(x-0.2) | 65 x 0.2 - = | 65:bead x:bead 0.2:bead -:bead =:bead
-EXPR: 0 | POS | FRA | 14 | 13 | 64.8 | 65=(x+0.2) | 65 x 0.2 + = | 65:bead x:bead 0.2:bead +:bead =:bead
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 49 | 49 | (0.5*98)=x | 0.5 98 * x = | 0.5:time 98:cap *:cap x:cap =:cap
+EXPR: 0 | POS | FRA | 10 | 49 | 0.00510204081632653 | (0.5/98)=x | 0.5 98 / x = | 0.5:cap 98:hat /:cap x:cap =:cap
+EXPR: 1 | POS | INT | 10 | 49 | 49 | x=(0.5*98) | x 0.5 98 * = | x:time 0.5:time 98:hat *:time =:time
+EXPR: 0 | POS | FRA | 10 | 49 | 0.00510204081632653 | x=(0.5/98) | x 0.5 98 / = | x:cap 0.5:cap 98:hat /:cap =:cap
+EXPR: 0 | POS | INT | 12 | 49 | 196 | (0.5*x)=98 | 0.5 x * 98 = | 0.5:time x:hat *:hat 98:hat =:hat
+EXPR: 0 | POS | INT | 12 | 49 | 196 | x=(98/0.5) | x 98 0.5 / = | x:hat 98:hat 0.5:time /:hat =:hat
+EXPR: 0 | POS | INT | 12 | 49 | 196 | 0.5=(98/x) | 0.5 98 x / = | 0.5:hat 98:hat x:cap /:hat =:hat
+EXPR: 0 | POS | FRA | 12 | 49 | 0.00510204081632653 | 0.5=(98*x) | 0.5 98 x * = | 0.5:cap 98:hat x:cap *:cap =:cap
+EXPR: 0 | POS | FRA | 12 | 49 | 0.00510204081632653 | (0.5/x)=98 | 0.5 x / 98 = | 0.5:hat x:cap /:hat 98:hat =:hat
+EXPR: 0 | POS | FRA | 12 | 49 | 0.00510204081632653 | 0.5=(x*98) | 0.5 x 98 * = | 0.5:cap x:cap 98:hat *:cap =:cap
+EXPR: 1 | POS | INT | 12 | 49 | 49 | 0.5=(x/98) | 0.5 x 98 / = | 0.5:cap x:cap 98:hat /:cap =:cap
+EXPR: 0 | POS | INT | 12 | 49 | 196 | (x*0.5)=98 | x 0.5 * 98 = | x:cap 0.5:hat *:hat 98:hat =:hat
+EXPR: 1 | POS | INT | 12 | 49 | 49 | (x/0.5)=98 | x 0.5 / 98 = | x:cap 0.5:time /:cap 98:cap =:cap
+EXPR: 0 | POS | INT | 12 | 49 | 196 | (98/0.5)=x | 98 0.5 / x = | 98:cap 0.5:time /:cap x:cap =:cap
+EXPR: 0 | POS | INT | 14 | 49 | 196 | (98/x)=0.5 | 98 x / 0.5 = | 98:time x:cap /:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 49 | 0.00510204081632653 | (98*x)=0.5 | 98 x * 0.5 = | 98:time x:cap *:time 0.5:time =:time
+EXPR: 1 | POS | INT | 14 | 49 | 49 | (x/98)=0.5 | x 98 / 0.5 = | x:time 98:hat /:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 49 | 0.00510204081632653 | (x*98)=0.5 | x 98 * 0.5 = | x:time 98:hat *:time 0.5:time =:time
+EXPR: 0 | POS | INT | 14 | 49 | 196 | 98=(0.5*x) | 98 0.5 x * = | 98:hat 0.5:time x:hat *:hat =:hat
+EXPR: 0 | POS | INT | 14 | 49 | 196 | 98=(x*0.5) | 98 x 0.5 * = | 98:hat x:cap 0.5:hat *:hat =:hat
+EXPR: 1 | POS | INT | 14 | 49 | 49 | 98=(x/0.5) | 98 x 0.5 / = | 98:cap x:cap 0.5:time /:cap =:cap
+EXPR: 0 | POS | FRA | 14 | 49 | 0.00510204081632653 | 98=(0.5/x) | 98 0.5 x / = | 98:time 0.5:time x:cap /:time =:time
+EXPR: 0 | POS | FRA | 20 | 49 | 98.5 | x=(0.5+98) | x 0.5 98 + = | x:time 0.5:time 98:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 49 | 98.5 | (0.5+98)=x | 0.5 98 + x = | 0.5:time 98:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 49 | 98.5 | 0.5=(x-98) | 0.5 x 98 - = | 0.5:time x:time 98:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | 0.5=(98-x) | 0.5 98 x - = | 0.5:hat 98:hat x:hat -:hat =:hat
+EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | x=(98-0.5) | x 98 0.5 - = | x:hat 98:hat 0.5:hat -:hat =:hat
+EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | (x+0.5)=98 | x 0.5 + 98 = | x:hat 0.5:hat +:hat 98:hat =:hat
+EXPR: 0 | POS | FRA | 22 | 49 | 98.5 | (x-0.5)=98 | x 0.5 - 98 = | x:hat 0.5:hat -:hat 98:hat =:hat
+EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | (0.5+x)=98 | 0.5 x + 98 = | 0.5:time x:time +:time 98:time =:time
+EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | (98-0.5)=x | 98 0.5 - x = | 98:cap 0.5:cap -:cap x:cap =:cap
+EXPR: 0 | POS | FRA | 24 | 49 | 97.5 | 98=(x+0.5) | 98 x 0.5 + = | 98:time x:time 0.5:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 49 | 97.5 | (98-x)=0.5 | 98 x - 0.5 = | 98:time x:time -:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 24 | 49 | 98.5 | (x-98)=0.5 | x 98 - 0.5 = | x:time 98:time -:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 24 | 49 | 98.5 | 98=(x-0.5) | 98 x 0.5 - = | 98:time x:time 0.5:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 49 | 97.5 | 98=(0.5+x) | 98 0.5 x + = | 98:cap 0.5:cap x:cap +:cap =:cap
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,5 +1,5 @@
-quantities : 34 68 x
-types : "necklace" "bead" "UNKNOWN"
+quantities : 20 0.8 x
+types : "question" "test" "question"
 operators : + - * / =
 n : 5
-answer : 50.0
+answer : 4.0

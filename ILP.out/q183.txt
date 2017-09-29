@@ -1,5 +1,5 @@
-quantities : 18 x 45
-types : "sixth-grader" "UNKNOWN" "sixth-grader"
+quantities : 40000 0.9 x
+types : "dollar" "Fred" "dollar"
 operators : + - * / =
 n : 5
-answer : 40.0
+answer : 36000.0

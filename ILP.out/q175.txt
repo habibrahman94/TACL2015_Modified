@@ -1,5 +1,5 @@
-quantities : 28 7 x
-types : "tree" "tree" "UNKNOWN"
+quantities : x 8 0.75
+types : "pig" "kilogram" "Copeland"
 operators : + - * / =
 n : 5
-answer : 80.0
+answer : 14.0

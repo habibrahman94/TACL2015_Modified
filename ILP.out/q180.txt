@@ -1,5 +1,5 @@
-quantities : 36 4 x
-types : "cookie" "cookie" "UNKNOWN"
+quantities : 9 0.6 x
+types : "ounce" "that" "weight"
 operators : + - * / =
 n : 5
-answer : 90.0
+answer : 15.0

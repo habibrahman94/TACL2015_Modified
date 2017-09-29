@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 49 | 49 | (0.5*98)=x | 0.5 98 * x = | 0.5:time 98:cap *:cap x:cap =:cap
-EXPR: 0 | POS | FRA | 10 | 49 | 0.00510204081632653 | (0.5/98)=x | 0.5 98 / x = | 0.5:cap 98:hat /:cap x:cap =:cap
-EXPR: 1 | POS | INT | 10 | 49 | 49 | x=(0.5*98) | x 0.5 98 * = | x:time 0.5:time 98:hat *:time =:time
-EXPR: 0 | POS | FRA | 10 | 49 | 0.00510204081632653 | x=(0.5/98) | x 0.5 98 / = | x:cap 0.5:cap 98:hat /:cap =:cap
-EXPR: 0 | POS | INT | 12 | 49 | 196 | (0.5*x)=98 | 0.5 x * 98 = | 0.5:time x:hat *:hat 98:hat =:hat
-EXPR: 0 | POS | INT | 12 | 49 | 196 | x=(98/0.5) | x 98 0.5 / = | x:hat 98:hat 0.5:time /:hat =:hat
-EXPR: 0 | POS | INT | 12 | 49 | 196 | 0.5=(98/x) | 0.5 98 x / = | 0.5:hat 98:hat x:cap /:hat =:hat
-EXPR: 0 | POS | FRA | 12 | 49 | 0.00510204081632653 | 0.5=(98*x) | 0.5 98 x * = | 0.5:cap 98:hat x:cap *:cap =:cap
-EXPR: 0 | POS | FRA | 12 | 49 | 0.00510204081632653 | (0.5/x)=98 | 0.5 x / 98 = | 0.5:hat x:cap /:hat 98:hat =:hat
-EXPR: 0 | POS | FRA | 12 | 49 | 0.00510204081632653 | 0.5=(x*98) | 0.5 x 98 * = | 0.5:cap x:cap 98:hat *:cap =:cap
-EXPR: 1 | POS | INT | 12 | 49 | 49 | 0.5=(x/98) | 0.5 x 98 / = | 0.5:cap x:cap 98:hat /:cap =:cap
-EXPR: 0 | POS | INT | 12 | 49 | 196 | (x*0.5)=98 | x 0.5 * 98 = | x:cap 0.5:hat *:hat 98:hat =:hat
-EXPR: 1 | POS | INT | 12 | 49 | 49 | (x/0.5)=98 | x 0.5 / 98 = | x:cap 0.5:time /:cap 98:cap =:cap
-EXPR: 0 | POS | INT | 12 | 49 | 196 | (98/0.5)=x | 98 0.5 / x = | 98:cap 0.5:time /:cap x:cap =:cap
-EXPR: 0 | POS | INT | 14 | 49 | 196 | (98/x)=0.5 | 98 x / 0.5 = | 98:time x:cap /:time 0.5:time =:time
-EXPR: 0 | POS | FRA | 14 | 49 | 0.00510204081632653 | (98*x)=0.5 | 98 x * 0.5 = | 98:time x:cap *:time 0.5:time =:time
-EXPR: 1 | POS | INT | 14 | 49 | 49 | (x/98)=0.5 | x 98 / 0.5 = | x:time 98:hat /:time 0.5:time =:time
-EXPR: 0 | POS | FRA | 14 | 49 | 0.00510204081632653 | (x*98)=0.5 | x 98 * 0.5 = | x:time 98:hat *:time 0.5:time =:time
-EXPR: 0 | POS | INT | 14 | 49 | 196 | 98=(0.5*x) | 98 0.5 x * = | 98:hat 0.5:time x:hat *:hat =:hat
-EXPR: 0 | POS | INT | 14 | 49 | 196 | 98=(x*0.5) | 98 x 0.5 * = | 98:hat x:cap 0.5:hat *:hat =:hat
-EXPR: 1 | POS | INT | 14 | 49 | 49 | 98=(x/0.5) | 98 x 0.5 / = | 98:cap x:cap 0.5:time /:cap =:cap
-EXPR: 0 | POS | FRA | 14 | 49 | 0.00510204081632653 | 98=(0.5/x) | 98 0.5 x / = | 98:time 0.5:time x:cap /:time =:time
-EXPR: 0 | POS | FRA | 20 | 49 | 98.5 | x=(0.5+98) | x 0.5 98 + = | x:time 0.5:time 98:time +:time =:time
-EXPR: 0 | POS | FRA | 20 | 49 | 98.5 | (0.5+98)=x | 0.5 98 + x = | 0.5:time 98:time +:time x:time =:time
-EXPR: 0 | POS | FRA | 22 | 49 | 98.5 | 0.5=(x-98) | 0.5 x 98 - = | 0.5:time x:time 98:time -:time =:time
-EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | 0.5=(98-x) | 0.5 98 x - = | 0.5:hat 98:hat x:hat -:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | x=(98-0.5) | x 98 0.5 - = | x:hat 98:hat 0.5:hat -:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | (x+0.5)=98 | x 0.5 + 98 = | x:hat 0.5:hat +:hat 98:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 49 | 98.5 | (x-0.5)=98 | x 0.5 - 98 = | x:hat 0.5:hat -:hat 98:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | (0.5+x)=98 | 0.5 x + 98 = | 0.5:time x:time +:time 98:time =:time
-EXPR: 0 | POS | FRA | 22 | 49 | 97.5 | (98-0.5)=x | 98 0.5 - x = | 98:cap 0.5:cap -:cap x:cap =:cap
-EXPR: 0 | POS | FRA | 24 | 49 | 97.5 | 98=(x+0.5) | 98 x 0.5 + = | 98:time x:time 0.5:time +:time =:time
-EXPR: 0 | POS | FRA | 24 | 49 | 97.5 | (98-x)=0.5 | 98 x - 0.5 = | 98:time x:time -:time 0.5:time =:time
-EXPR: 0 | POS | FRA | 24 | 49 | 98.5 | (x-98)=0.5 | x 98 - 0.5 = | x:time 98:time -:time 0.5:time =:time
-EXPR: 0 | POS | FRA | 24 | 49 | 98.5 | 98=(x-0.5) | 98 x 0.5 - = | 98:time x:time 0.5:time -:time =:time
-EXPR: 0 | POS | FRA | 24 | 49 | 97.5 | 98=(0.5+x) | 98 0.5 x + = | 98:cap 0.5:cap x:cap +:cap =:cap
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 8 | 128 | x=(32/0.25) | x 32 0.25 / = | x:problem 32:problem 0.25:Christina /:problem =:problem
+EXPR: 1 | POS | INT | 0 | 8 | 8 | (32*0.25)=x | 32 0.25 * x = | 32:problem 0.25:Christina *:problem x:problem =:problem
+EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(32*0.25) | x 32 0.25 * = | x:problem 32:problem 0.25:Christina *:problem =:problem
+EXPR: 0 | POS | INT | 0 | 8 | 128 | (32/0.25)=x | 32 0.25 / x = | 32:problem 0.25:Christina /:problem x:problem =:problem
+EXPR: 1 | POS | INT | 2 | 8 | 8 | 32=(x/0.25) | 32 x 0.25 / = | 32:problem x:problem 0.25:Christina /:problem =:problem
+EXPR: 0 | POS | INT | 2 | 8 | 128 | 32=(x*0.25) | 32 x 0.25 * = | 32:problem x:problem 0.25:Christina *:problem =:problem
+EXPR: 0 | POS | INT | 2 | 8 | 128 | 32=(0.25*x) | 32 0.25 x * = | 32:problem 0.25:Christina x:problem *:problem =:problem
+EXPR: 0 | POS | INT | 4 | 8 | 128 | (0.25*x)=32 | 0.25 x * 32 = | 0.25:Christina x:problem *:problem 32:problem =:problem
+EXPR: 0 | POS | INT | 4 | 8 | 128 | (x*0.25)=32 | x 0.25 * 32 = | x:problem 0.25:Christina *:problem 32:problem =:problem
+EXPR: 1 | POS | INT | 4 | 8 | 8 | (x/0.25)=32 | x 0.25 / 32 = | x:problem 0.25:Christina /:problem 32:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 8 | 32.25 | (32+0.25)=x | 32 0.25 + x = | 32:problem 0.25:problem +:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 8 | 32.25 | x=(32+0.25) | x 32 0.25 + = | x:problem 32:problem 0.25:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 8 | 31.75 | (32-0.25)=x | 32 0.25 - x = | 32:problem 0.25:problem -:problem x:problem =:problem
+EXPR: 0 | POS | FRA | 10 | 8 | 31.75 | x=(32-0.25) | x 32 0.25 - = | x:problem 32:problem 0.25:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 8 | 31.75 | 32=(x+0.25) | 32 x 0.25 + = | 32:problem x:problem 0.25:problem +:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | 32=(0.25/x) | 32 0.25 x / = | 32:Christina 0.25:Christina x:problem /:Christina =:Christina
+EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | (x*32)=0.25 | x 32 * 0.25 = | x:problem 32:Christina *:Christina 0.25:Christina =:Christina
+EXPR: 0 | POS | INT | 12 | 8 | 128 | (32/x)=0.25 | 32 x / 0.25 = | 32:Christina x:problem /:Christina 0.25:Christina =:Christina
+EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | x=(0.25/32) | x 0.25 32 / = | x:Christina 0.25:Christina 32:problem /:Christina =:Christina
+EXPR: 0 | POS | FRA | 12 | 8 | 32.25 | 32=(x-0.25) | 32 x 0.25 - = | 32:problem x:problem 0.25:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | (0.25/32)=x | 0.25 32 / x = | 0.25:Christina 32:problem /:Christina x:Christina =:Christina
+EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | (32*x)=0.25 | 32 x * 0.25 = | 32:Christina x:problem *:Christina 0.25:Christina =:Christina
+EXPR: 0 | POS | FRA | 12 | 8 | 32.25 | (x-32)=0.25 | x 32 - 0.25 = | x:problem 32:problem -:problem 0.25:problem =:problem
+EXPR: 0 | POS | FRA | 12 | 8 | 31.75 | (32-x)=0.25 | 32 x - 0.25 = | 32:problem x:problem -:problem 0.25:problem =:problem
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (x/32)=0.25 | x 32 / 0.25 = | x:Christina 32:problem /:Christina 0.25:Christina =:Christina
+EXPR: 0 | POS | FRA | 12 | 8 | 31.75 | 32=(0.25+x) | 32 0.25 x + = | 32:problem 0.25:problem x:problem +:problem =:problem
+EXPR: 1 | POS | INT | 14 | 8 | 8 | 0.25=(x/32) | 0.25 x 32 / = | 0.25:Christina x:Christina 32:problem /:Christina =:Christina
+EXPR: 0 | POS | INT | 14 | 8 | 128 | 0.25=(32/x) | 0.25 32 x / = | 0.25:Christina 32:Christina x:problem /:Christina =:Christina
+EXPR: 0 | POS | FRA | 14 | 8 | 31.75 | (0.25+x)=32 | 0.25 x + 32 = | 0.25:problem x:problem +:problem 32:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 8 | 31.75 | (x+0.25)=32 | x 0.25 + 32 = | x:problem 0.25:problem +:problem 32:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 8 | 0.0078125 | 0.25=(32*x) | 0.25 32 x * = | 0.25:Christina 32:problem x:Christina *:Christina =:Christina
+EXPR: 0 | POS | FRA | 14 | 8 | 0.0078125 | (0.25/x)=32 | 0.25 x / 32 = | 0.25:Christina x:problem /:Christina 32:Christina =:Christina
+EXPR: 0 | POS | FRA | 14 | 8 | 31.75 | 0.25=(32-x) | 0.25 32 x - = | 0.25:problem 32:problem x:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 8 | 32.25 | 0.25=(x-32) | 0.25 x 32 - = | 0.25:problem x:problem 32:problem -:problem =:problem
+EXPR: 0 | POS | FRA | 14 | 8 | 0.0078125 | 0.25=(x*32) | 0.25 x 32 * = | 0.25:Christina x:problem 32:Christina *:Christina =:Christina
+EXPR: 0 | POS | FRA | 14 | 8 | 32.25 | (x-0.25)=32 | x 0.25 - 32 = | x:problem 0.25:problem -:problem 32:problem =:problem
+NET 36 unique, non-negative solutions found out of 136 total solutions

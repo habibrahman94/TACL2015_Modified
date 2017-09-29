@@ -1,5 +1,0 @@
-quantities : 10 0.5 x
-types : "game" "team" "game"
-operators : + - * / =
-n : 5
-answer : 20.0

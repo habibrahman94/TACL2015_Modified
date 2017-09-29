@@ -1,5 +1,5 @@
-quantities : 65 0.8 x
-types : "tea" "shop" "tea"
+quantities : 8490 0.2 x
+types : "picture" "Frames" "picture"
 operators : + - * / =
 n : 5
-answer : 52.0
+answer : 6792.0

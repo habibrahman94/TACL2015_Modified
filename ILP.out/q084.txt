@@ -1,5 +1,5 @@
-quantities : 0.25 68 x
-types : "time" "ticket" "discount"
+quantities : 88 0.25 x
+types : "milkshake" "Diner" "milkshake"
 operators : + - * / =
 n : 5
-answer : 17.0
+answer : 22.0

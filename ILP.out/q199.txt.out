@@ -1,24 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 16.6667 | 506 | x=(230+276) | x 230 276 + = | x:minute 230:minute 276:minute +:minute =:minute
-EXPR: 0 | POS | INT | 10 | 16.6667 | 63480 | x=(230*276) | x 230 276 * = | x:he 230:minute 276:he *:he =:he
-EXPR: 0 | POS | INT | 10 | 16.6667 | 63480 | (230*276)=x | 230 276 * x = | 230:minute 276:he *:he x:he =:he
-EXPR: 0 | POS | INT | 10 | 16.6667 | 506 | (230+276)=x | 230 276 + x = | 230:minute 276:minute +:minute x:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 46 | 230=(276-x) | 230 276 x - = | 230:minute 276:minute x:minute -:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 63480 | (x/230)=276 | x 230 / 276 = | x:he 230:minute /:he 276:he =:he
-EXPR: 0 | POS | INT | 12 | 16.6667 | 506 | (x-230)=276 | x 230 - 276 = | x:minute 230:minute -:minute 276:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 506 | 230=(x-276) | 230 x 276 - = | 230:minute x:minute 276:minute -:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 46 | (276-230)=x | 276 230 - x = | 276:minute 230:minute -:minute x:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 46 | x=(276-230) | x 276 230 - = | x:minute 276:minute 230:minute -:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 46 | (x+230)=276 | x 230 + 276 = | x:minute 230:minute +:minute 276:minute =:minute
-EXPR: 0 | POS | INT | 12 | 16.6667 | 63480 | 230=(x/276) | 230 x 276 / = | 230:he x:he 276:minute /:he =:he
-EXPR: 0 | POS | INT | 12 | 16.6667 | 46 | (230+x)=276 | 230 x + 276 = | 230:minute x:minute +:minute 276:minute =:minute
-EXPR: 0 | POS | INT | 14 | 16.6667 | 46 | (276-x)=230 | 276 x - 230 = | 276:minute x:minute -:minute 230:minute =:minute
-EXPR: 0 | POS | INT | 14 | 16.6667 | 506 | (x-276)=230 | x 276 - 230 = | x:minute 276:minute -:minute 230:minute =:minute
-EXPR: 0 | POS | INT | 14 | 16.6667 | 63480 | 276=(x/230) | 276 x 230 / = | 276:he x:he 230:minute /:he =:he
-EXPR: 0 | POS | INT | 14 | 16.6667 | 63480 | (x/276)=230 | x 276 / 230 = | x:he 276:minute /:he 230:he =:he
-EXPR: 0 | POS | INT | 14 | 16.6667 | 46 | 276=(230+x) | 276 230 x + = | 276:minute 230:minute x:minute +:minute =:minute
-EXPR: 0 | POS | INT | 14 | 16.6667 | 506 | 276=(x-230) | 276 x 230 - = | 276:minute x:minute 230:minute -:minute =:minute
-EXPR: 0 | POS | INT | 14 | 16.6667 | 46 | 276=(x+230) | 276 x 230 + = | 276:minute x:minute 230:minute +:minute =:minute
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.1 | 0.1 | (0.3-0.2)=x | 0.3 0.2 - x = | 0.3:foot 0.2:foot -:foot x:foot =:foot
+EXPR: 1 | POS | FRA | 0 | 0.1 | 0.1 | x=(0.3-0.2) | x 0.3 0.2 - = | x:foot 0.3:foot 0.2:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 0 | 0.1 | 0.5 | (0.3+0.2)=x | 0.3 0.2 + x = | 0.3:foot 0.2:foot +:foot x:foot =:foot
+EXPR: 0 | POS | FRA | 0 | 0.1 | 0.5 | x=(0.3+0.2) | x 0.3 0.2 + = | x:foot 0.3:foot 0.2:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.5 | (x-0.3)=0.2 | x 0.3 - 0.2 = | x:foot 0.3:foot -:foot 0.2:foot =:foot
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | (0.3-x)=0.2 | 0.3 x - 0.2 = | 0.3:foot x:foot -:foot 0.2:foot =:foot
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | 0.3=(x+0.2) | 0.3 x 0.2 + = | 0.3:foot x:foot 0.2:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 2 | 0.1 | 0.5 | 0.3=(x-0.2) | 0.3 x 0.2 - = | 0.3:foot x:foot 0.2:foot -:foot =:foot
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | 0.3=(0.2+x) | 0.3 0.2 x + = | 0.3:foot 0.2:foot x:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 4 | 0.1 | 0.5 | 0.2=(x-0.3) | 0.2 x 0.3 - = | 0.2:foot x:foot 0.3:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 4 | 0.1 | 0.5 | (x-0.2)=0.3 | x 0.2 - 0.3 = | x:foot 0.2:foot -:foot 0.3:foot =:foot
+EXPR: 1 | POS | FRA | 4 | 0.1 | 0.1 | (0.2+x)=0.3 | 0.2 x + 0.3 = | 0.2:foot x:foot +:foot 0.3:foot =:foot
+EXPR: 1 | POS | FRA | 4 | 0.1 | 0.1 | (x+0.2)=0.3 | x 0.2 + 0.3 = | x:foot 0.2:foot +:foot 0.3:foot =:foot
+EXPR: 1 | POS | FRA | 4 | 0.1 | 0.1 | 0.2=(0.3-x) | 0.2 0.3 x - = | 0.2:foot 0.3:foot x:foot -:foot =:foot
+NET 14 unique, non-negative solutions found out of 28 total solutions

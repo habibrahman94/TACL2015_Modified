@@ -1,5 +1,5 @@
-quantities : 0.75 52 x
-types : "time" "hat" "cap"
+quantities : 28 0.75 x
+types : "question" "Bryan" "question"
 operators : + - * / =
 n : 5
-answer : 39.0
+answer : 21.0

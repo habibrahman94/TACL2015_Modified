@@ -1,5 +1,5 @@
-quantities : 340 289 x
-types : "minute" "minute" "decrease"
+quantities : 0.3 0.4 x
+types : "cup" "cup" "cup"
 operators : + - * / =
 n : 5
-answer : 15.0
+answer : 0.7

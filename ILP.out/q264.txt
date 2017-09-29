@@ -1,5 +1,0 @@
-quantities : x 8 0.75
-types : "pig" "kilogram" "Copeland"
-operators : + - * / =
-n : 5
-answer : 14.0

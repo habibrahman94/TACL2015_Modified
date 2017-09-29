@@ -1,5 +1,5 @@
-quantities : 63 21 x
-types : "problem" "problem" "UNKNOWN"
+quantities : 5 4 x
+types : "pizza" "slice" "slice"
 operators : + - * / =
 n : 5
-answer : 75.0
+answer : 20.0

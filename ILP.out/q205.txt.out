@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 84 | 14 | (70*0.2)=x | 70 0.2 * x = | 70:dollar 0.2:cost *:cost x:cost =:cost
-EXPR: 0 | POS | INT | 10 | 84 | 350 | (70/0.2)=x | 70 0.2 / x = | 70:cost 0.2:event /:cost x:cost =:cost
-EXPR: 0 | POS | INT | 10 | 84 | 14 | x=(70*0.2) | x 70 0.2 * = | x:dollar 70:dollar 0.2:event *:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 84 | 350 | x=(70/0.2) | x 70 0.2 / = | x:cost 70:cost 0.2:event /:cost =:cost
-EXPR: 0 | POS | FRA | 12 | 84 | 0.00285714285714286 | (70*x)=0.2 | 70 x * 0.2 = | 70:dollar x:event *:event 0.2:event =:event
-EXPR: 0 | POS | FRA | 12 | 84 | 0.00285714285714286 | x=(0.2/70) | x 0.2 70 / = | x:event 0.2:event 70:dollar /:event =:event
-EXPR: 0 | POS | FRA | 12 | 84 | 0.00285714285714286 | 70=(0.2/x) | 70 0.2 x / = | 70:event 0.2:event x:cost /:event =:event
-EXPR: 0 | POS | INT | 12 | 84 | 350 | 70=(0.2*x) | 70 0.2 x * = | 70:cost 0.2:event x:cost *:cost =:cost
-EXPR: 0 | POS | INT | 12 | 84 | 350 | (70/x)=0.2 | 70 x / 0.2 = | 70:event x:cost /:event 0.2:event =:event
-EXPR: 0 | POS | INT | 12 | 84 | 350 | 70=(x*0.2) | 70 x 0.2 * = | 70:cost x:cost 0.2:event *:cost =:cost
-EXPR: 0 | POS | INT | 12 | 84 | 14 | 70=(x/0.2) | 70 x 0.2 / = | 70:cost x:cost 0.2:event /:cost =:cost
-EXPR: 0 | POS | FRA | 12 | 84 | 0.00285714285714286 | (x*70)=0.2 | x 70 * 0.2 = | x:cost 70:event *:event 0.2:event =:event
-EXPR: 0 | POS | INT | 12 | 84 | 14 | (x/70)=0.2 | x 70 / 0.2 = | x:cost 70:dollar /:cost 0.2:cost =:cost
-EXPR: 0 | POS | FRA | 12 | 84 | 0.00285714285714286 | (0.2/70)=x | 0.2 70 / x = | 0.2:cost 70:dollar /:cost x:cost =:cost
-EXPR: 0 | POS | FRA | 14 | 84 | 0.00285714285714286 | (0.2/x)=70 | 0.2 x / 70 = | 0.2:dollar x:cost /:dollar 70:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 84 | 350 | (0.2*x)=70 | 0.2 x * 70 = | 0.2:dollar x:cost *:dollar 70:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 84 | 14 | (x/0.2)=70 | x 0.2 / 70 = | x:dollar 0.2:event /:dollar 70:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 84 | 350 | (x*0.2)=70 | x 0.2 * 70 = | x:dollar 0.2:event *:dollar 70:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 84 | 0.00285714285714286 | 0.2=(70*x) | 0.2 70 x * = | 0.2:event 70:dollar x:event *:event =:event
-EXPR: 0 | POS | FRA | 14 | 84 | 0.00285714285714286 | 0.2=(x*70) | 0.2 x 70 * = | 0.2:event x:cost 70:event *:event =:event
-EXPR: 0 | POS | INT | 14 | 84 | 14 | 0.2=(x/70) | 0.2 x 70 / = | 0.2:cost x:cost 70:dollar /:cost =:cost
-EXPR: 0 | POS | INT | 14 | 84 | 350 | 0.2=(70/x) | 0.2 70 x / = | 0.2:dollar 70:dollar x:cost /:dollar =:dollar
-EXPR: 0 | POS | FRA | 20 | 84 | 70.2 | x=(70+0.2) | x 70 0.2 + = | x:dollar 70:dollar 0.2:dollar +:dollar =:dollar
-EXPR: 0 | POS | FRA | 20 | 84 | 69.8 | x=(70-0.2) | x 70 0.2 - = | x:cost 70:cost 0.2:cost -:cost =:cost
-EXPR: 0 | POS | FRA | 20 | 84 | 70.2 | (70+0.2)=x | 70 0.2 + x = | 70:dollar 0.2:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | FRA | 20 | 84 | 69.8 | (70-0.2)=x | 70 0.2 - x = | 70:cost 0.2:cost -:cost x:cost =:cost
-EXPR: 0 | POS | FRA | 22 | 84 | 70.2 | 70=(x-0.2) | 70 x 0.2 - = | 70:dollar x:dollar 0.2:dollar -:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 84 | 69.8 | 70=(x+0.2) | 70 x 0.2 + = | 70:dollar x:dollar 0.2:dollar +:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 84 | 70.2 | (x-70)=0.2 | x 70 - 0.2 = | x:event 70:event -:event 0.2:event =:event
-EXPR: 0 | POS | FRA | 22 | 84 | 69.8 | (70-x)=0.2 | 70 x - 0.2 = | 70:dollar x:dollar -:dollar 0.2:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 84 | 69.8 | 70=(0.2+x) | 70 0.2 x + = | 70:cost 0.2:cost x:cost +:cost =:cost
-EXPR: 0 | POS | FRA | 24 | 84 | 69.8 | (0.2+x)=70 | 0.2 x + 70 = | 0.2:cost x:cost +:cost 70:cost =:cost
-EXPR: 0 | POS | FRA | 24 | 84 | 70.2 | (x-0.2)=70 | x 0.2 - 70 = | x:dollar 0.2:dollar -:dollar 70:dollar =:dollar
-EXPR: 0 | POS | FRA | 24 | 84 | 69.8 | (x+0.2)=70 | x 0.2 + 70 = | x:cost 0.2:cost +:cost 70:cost =:cost
-EXPR: 0 | POS | FRA | 24 | 84 | 69.8 | 0.2=(70-x) | 0.2 70 x - = | 0.2:dollar 70:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | FRA | 24 | 84 | 70.2 | 0.2=(x-70) | 0.2 x 70 - = | 0.2:dollar x:dollar 70:dollar -:dollar =:dollar
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.285714285714286 | 0.7=(0.2/x) | 0.7 0.2 x / = | 0.7:student 0.2:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 3.5 | 0.7=(x*0.2) | 0.7 x 0.2 * = | 0.7:student x:UNKNOWN 0.2:student *:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 3.5 | 0.7=(0.2*x) | 0.7 0.2 x * = | 0.7:student 0.2:student x:UNKNOWN *:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.285714285714286 | (x*0.7)=0.2 | x 0.7 * 0.2 = | x:UNKNOWN 0.7:student *:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 0.285714285714286 | (0.7*x)=0.2 | 0.7 x * 0.2 = | 0.7:student x:UNKNOWN *:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 2 | 0.9 | 3.5 | (0.7/x)=0.2 | 0.7 x / 0.2 = | 0.7:student x:UNKNOWN /:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 4 | 0.9 | 3.5 | (x*0.2)=0.7 | x 0.2 * 0.7 = | x:UNKNOWN 0.2:student *:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 4 | 0.9 | 3.5 | (0.2*x)=0.7 | 0.2 x * 0.7 = | 0.2:student x:UNKNOWN *:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 4 | 0.9 | 0.285714285714286 | 0.2=(x*0.7) | 0.2 x 0.7 * = | 0.2:student x:UNKNOWN 0.7:student *:student =:student
+EXPR: 0 | POS | FRA | 4 | 0.9 | 0.285714285714286 | (0.2/x)=0.7 | 0.2 x / 0.7 = | 0.2:student x:UNKNOWN /:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 4 | 0.9 | 3.5 | 0.2=(0.7/x) | 0.2 0.7 x / = | 0.2:student 0.7:student x:UNKNOWN /:student =:student
+EXPR: 0 | POS | FRA | 4 | 0.9 | 0.285714285714286 | 0.2=(0.7*x) | 0.2 0.7 x * = | 0.2:student 0.7:student x:UNKNOWN *:student =:student
+EXPR: 1 | POS | FRA | 10 | 0.9 | 0.9 | x=(0.7+0.2) | x 0.7 0.2 + = | x:student 0.7:student 0.2:student +:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.14 | x=(0.7*0.2) | x 0.7 0.2 * = | x:UNKNOWN 0.7:student 0.2:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.5 | (0.7-0.2)=x | 0.7 0.2 - x = | 0.7:student 0.2:student -:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.14 | (0.7*0.2)=x | 0.7 0.2 * x = | 0.7:student 0.2:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 0.9 | 0.5 | x=(0.7-0.2) | x 0.7 0.2 - = | x:student 0.7:student 0.2:student -:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 3.5 | x=(0.7/0.2) | x 0.7 0.2 / = | x:UNKNOWN 0.7:UNKNOWN 0.2:student /:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 10 | 0.9 | 0.9 | (0.7+0.2)=x | 0.7 0.2 + x = | 0.7:student 0.2:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 10 | 0.9 | 3.5 | (0.7/0.2)=x | 0.7 0.2 / x = | 0.7:UNKNOWN 0.2:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | (0.7-x)=0.2 | 0.7 x - 0.2 = | 0.7:student x:student -:student 0.2:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | 0.7=(0.2+x) | 0.7 0.2 x + = | 0.7:student 0.2:student x:student +:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.285714285714286 | x=(0.2/0.7) | x 0.2 0.7 / = | x:UNKNOWN 0.2:UNKNOWN 0.7:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.14 | (x/0.7)=0.2 | x 0.7 / 0.2 = | x:UNKNOWN 0.7:student /:UNKNOWN 0.2:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 12 | 0.9 | 0.9 | (x-0.7)=0.2 | x 0.7 - 0.2 = | x:student 0.7:student -:student 0.2:student =:student
+EXPR: 1 | POS | FRA | 12 | 0.9 | 0.9 | 0.7=(x-0.2) | 0.7 x 0.2 - = | 0.7:student x:student 0.2:student -:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.5 | 0.7=(x+0.2) | 0.7 x 0.2 + = | 0.7:student x:student 0.2:student +:student =:student
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.14 | 0.7=(x/0.2) | 0.7 x 0.2 / = | 0.7:UNKNOWN x:UNKNOWN 0.2:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 0.9 | 0.285714285714286 | (0.2/0.7)=x | 0.2 0.7 / x = | 0.2:UNKNOWN 0.7:student /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 1 | POS | FRA | 14 | 0.9 | 0.9 | (x-0.2)=0.7 | x 0.2 - 0.7 = | x:student 0.2:student -:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 14 | 0.9 | 0.14 | 0.2=(x/0.7) | 0.2 x 0.7 / = | 0.2:UNKNOWN x:UNKNOWN 0.7:student /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 0.9 | 0.5 | (x+0.2)=0.7 | x 0.2 + 0.7 = | x:student 0.2:student +:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 14 | 0.9 | 0.14 | (x/0.2)=0.7 | x 0.2 / 0.7 = | x:UNKNOWN 0.2:student /:UNKNOWN 0.7:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 0.9 | 0.5 | 0.2=(0.7-x) | 0.2 0.7 x - = | 0.2:student 0.7:student x:student -:student =:student
+EXPR: 0 | POS | FRA | 14 | 0.9 | 0.5 | (0.2+x)=0.7 | 0.2 x + 0.7 = | 0.2:student x:student +:student 0.7:student =:student
+EXPR: 1 | POS | FRA | 14 | 0.9 | 0.9 | 0.2=(x-0.7) | 0.2 x 0.7 - = | 0.2:student x:student 0.7:student -:student =:student
+NET 36 unique, non-negative solutions found out of 136 total solutions

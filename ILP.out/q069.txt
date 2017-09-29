@@ -1,5 +1,5 @@
-quantities : 60 0.7 x
-types : "student" "time" "student"
+quantities : 0.5 82 x
+types : "time" "cupcake" "cupcake"
 operators : + - * / =
 n : 5
-answer : 42.0
+answer : 41.0

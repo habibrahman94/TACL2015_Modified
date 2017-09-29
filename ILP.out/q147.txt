@@ -1,5 +1,5 @@
-quantities : 0.25 96 x
-types : "club" "member" "member"
+quantities : 240 0.55 x
+types : "gallon" "hotel" "year"
 operators : + - * / =
 n : 5
-answer : 24.0
+answer : 372.0

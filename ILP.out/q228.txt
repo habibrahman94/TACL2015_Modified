@@ -1,5 +1,0 @@
-quantities : 560 868 x
-types : "performance" "performance" "time"
-operators : + - * / =
-n : 5
-answer : 55.0

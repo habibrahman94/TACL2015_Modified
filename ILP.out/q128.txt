@@ -1,5 +1,5 @@
-quantities : 20 0.3 x
-types : "espresso" "cafe" "espresso"
+quantities : 20 0.7 x
+types : "student" "time" "people"
 operators : + - * / =
 n : 5
-answer : 6.0
+answer : 14.0

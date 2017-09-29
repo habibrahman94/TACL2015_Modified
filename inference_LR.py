@@ -20,7 +20,8 @@ from sklearn import decomposition
 
 modelLocal = None
 modelGlob = None
-
+Lb = None
+Gb = None
 class StanfordNLP:
     def __init__(self, port_number=8080):
         self.server = jsonrpclib.Server("http://localhost:%d" % port_number)
@@ -66,9 +67,14 @@ def make_eq(q,a,equations):
                 problem[i] = x[:-1]+" "+x[-1]
         problem = ' '.join(problem)
         problem = " " + problem + " "
+        Cmp = int(equations[k])
         #print(equations[k])
         #print(problem)
-        if len(answers)==0:print("0 Answers \n"+str(equations[k])+" INCORRECT"); wrong += 1; continue
+        if len(answers)==0:
+            print("0 Answers \n"+str(equations[k])+" INCORRECT")
+            if Cmp<=278:
+                wrong += 1
+            continue
 
 
         #make story
@@ -82,7 +88,10 @@ def make_eq(q,a,equations):
 
         xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
         if not xidx:
-            print(str(equations[k])+" INCORRECT NO X WHY");wrong += 1; continue
+            print(str(equations[k])+" INCORRECT NO X WHY")
+            if Cmp<=278:
+                wrong += 1
+            continue
 
         xidx = xidx[0]
         
@@ -94,8 +103,17 @@ def make_eq(q,a,equations):
         #print(objs.items())
         consts = [x for x in answers[0][1].split(" ") if x not in ['(',')','+','-','/','*','=',]]
         present = [x for x in consts if x in objs]
-        if consts!=present: print(present,consts);print(str(equations[k])+" INCORRECT missing thing");wrong += 1; continue
-        if len([x for x in objs if x not in consts])>0: print(str(equations[k])+" INCORRECT missing thing");wrong +=1;continue
+        if consts!=present:
+            print(present,consts)
+            print(str(equations[k])+" INCORRECT missing thing")
+            if Cmp<=278:
+                wrong += 1
+            continue
+        if len([x for x in objs if x not in consts])>0:
+            print(str(equations[k])+" INCORRECT missing thing")
+            if Cmp<=278:
+                wrong +=1
+            continue
         scores = []
 
 
@@ -139,7 +157,7 @@ def make_eq(q,a,equations):
                     objs[substr]=pute
                     if pute == -1:
                         exit()
-                    score,c,vals = pute
+                    score,c,vals = pute                    
                     thisscore.append(score)
                     #print(subeq,score)
                 sides.append(objs[compound[0]])
@@ -148,13 +166,18 @@ def make_eq(q,a,equations):
             for s in thisscore: score *= s
             gscore = compute(p,'=',e,target,problem,story,order,score,cons)[0]
             #print("gscore ",gscore)
+            #score has the Local Model Score
+            #gscore is the Global Model Score
+            #Gb = 1.0 - Lb
+            #proposed_score = (Lb*score+Gb*gscore)
             score *= gscore
             scores.append((score,j,eq,guess))
         scores = sorted(scores,reverse=True)
         righties = [x for x in scores if x[1]==1]
         #print(scores[:3])
         if not righties:
-            wrong+=1
+            if Cmp<=278:
+                wrong+=1
             print("TOP SCORING NO CORRECT SOLUTION ,"+str(equations[k])+" INCORRECT")
             continue
         else:
@@ -163,15 +186,18 @@ def make_eq(q,a,equations):
 
         if len(scores)>0:
             if scores[0][1]==1: # Right if 1
-                right += 1
+                if Cmp<=278:
+                    right += 1
                 #print k
                 #print equations[k]
                 print(str(equations[k])+" CORRECT")
             else:
-                wrong += 1
+                if Cmp<=278:
+                    wrong += 1
                 print(str(equations[k])+" INCORRECT")
         else:
-            wrong += 1
+            if Cmp<=278:
+                wrong += 1
             print(str(equations[k])+" INCORRECT")
 
     return (right,wrong)
@@ -182,19 +208,19 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
         vec = [order,score,cons]
         vec.extend(makesets.vector(p,e,problem,story,target))
         vec = [vec]
-        pca = decomposition.PCA(n_components=45)
-        pca.fit(vec)
-        vec = pca.transform(vec)
-        vec = vec.tolist()
+        #pca = decomposition.PCA(n_components=45)
+        #pca.fit(vec)
+        #vec = pca.transform(vec)
+        #vec = vec.tolist()
         op_val = modelGlobal.predict_proba(vec)
         
     else:
         vec = makesets.vector(p,e,problem,story,target)
         vec = [vec]
-        pca = decomposition.PCA(n_components=45)
-        pca.fit(vec)
-        vec = pca.transform(vec)
-        vec = vec.tolist()
+        #pca = decomposition.PCA(n_components=45)
+        #pca.fit(vec)
+        #vec = pca.transform(vec)
+        #vec = vec.tolist()
         op_val = modelLocal.predict_proba(vec)
     
     print op_val[0]
@@ -248,18 +274,24 @@ def norm(Features, Label):
 if __name__=="__main__":
     inp, Lfile, LLabelFile, gfile, gLabelFile= sys.argv[1:6]
     
+    Lb = float(0.1 * float(sys.argv[6]))
+    
     Local_Features, Local_Label = norm(Lfile, LLabelFile)
     Global_Features, Global_Label = norm(gfile, gLabelFile)
     
-    pca = decomposition.PCA(n_components=45)
-    pca.fit(Local_Features)
-    Local_Features = pca.transform(Local_Features)
-    Local_Features = Local_Features.tolist()
+    '''
+    PCA 
+    #pca = decomposition.PCA(n_components=45)
+    #pca.fit(Local_Features)
+    #Local_Features = pca.transform(Local_Features)
+    #Local_Features = Local_Features.tolist()
     
-    pca2 = decomposition.PCA(n_components=45)
-    pca2.fit(Global_Features)
-    Global_Features = pca2.transform(Global_Features)
-    Global_Features = Global_Features.tolist()
+    #pca2 = decomposition.PCA(n_components=45)
+    #pca2.fit(Global_Features)
+    #Global_Features = pca2.transform(Global_Features)
+    #Global_Features = Global_Features.tolist()
+    
+    '''
     
     modelLocal = OneVsRestClassifier(RandomForestClassifier())
     modelGlobal = OneVsRestClassifier(RandomForestClassifier())

@@ -1,5 +1,5 @@
-quantities : 0.2 25 x
-types : "time" "student" "student"
+quantities : 10 0.3 x
+types : "dollar" "Cody" "UNKNOWN"
 operators : + - * / =
 n : 5
-answer : 5.0
+answer : 13.0

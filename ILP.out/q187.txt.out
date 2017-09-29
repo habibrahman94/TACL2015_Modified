@@ -1,32 +1,24 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 75 | 3 | 63=(x*21) | 63 x 21 * = | 63:problem x:UNKNOWN 21:problem *:problem =:problem
-EXPR: 0 | POS | INT | 2 | 75 | 3 | 63=(21*x) | 63 21 x * = | 63:problem 21:problem x:UNKNOWN *:problem =:problem
-EXPR: 0 | POS | INT | 2 | 75 | 3 | (63/x)=21 | 63 x / 21 = | 63:problem x:UNKNOWN /:problem 21:problem =:problem
-EXPR: 0 | POS | INT | 4 | 75 | 3 | (x*21)=63 | x 21 * 63 = | x:UNKNOWN 21:problem *:problem 63:problem =:problem
-EXPR: 0 | POS | INT | 4 | 75 | 3 | (21*x)=63 | 21 x * 63 = | 21:problem x:UNKNOWN *:problem 63:problem =:problem
-EXPR: 0 | POS | INT | 4 | 75 | 3 | 21=(63/x) | 21 63 x / = | 21:problem 63:problem x:UNKNOWN /:problem =:problem
-EXPR: 0 | POS | INT | 10 | 75 | 84 | x=(63+21) | x 63 21 + = | x:problem 63:problem 21:problem +:problem =:problem
-EXPR: 0 | POS | INT | 10 | 75 | 1323 | x=(63*21) | x 63 21 * = | x:UNKNOWN 63:problem 21:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 75 | 42 | (63-21)=x | 63 21 - x = | 63:problem 21:problem -:problem x:problem =:problem
-EXPR: 0 | POS | INT | 10 | 75 | 1323 | (63*21)=x | 63 21 * x = | 63:problem 21:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 75 | 42 | x=(63-21) | x 63 21 - = | x:problem 63:problem 21:problem -:problem =:problem
-EXPR: 0 | POS | INT | 10 | 75 | 3 | x=(63/21) | x 63 21 / = | x:UNKNOWN 63:UNKNOWN 21:problem /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 75 | 84 | (63+21)=x | 63 21 + x = | 63:problem 21:problem +:problem x:problem =:problem
-EXPR: 0 | POS | INT | 10 | 75 | 3 | (63/21)=x | 63 21 / x = | 63:UNKNOWN 21:problem /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 75 | 42 | (63-x)=21 | 63 x - 21 = | 63:problem x:problem -:problem 21:problem =:problem
-EXPR: 0 | POS | INT | 12 | 75 | 42 | 63=(21+x) | 63 21 x + = | 63:problem 21:problem x:problem +:problem =:problem
-EXPR: 0 | POS | INT | 12 | 75 | 1323 | (x/63)=21 | x 63 / 21 = | x:UNKNOWN 63:problem /:UNKNOWN 21:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 75 | 84 | (x-63)=21 | x 63 - 21 = | x:problem 63:problem -:problem 21:problem =:problem
-EXPR: 0 | POS | INT | 12 | 75 | 84 | 63=(x-21) | 63 x 21 - = | 63:problem x:problem 21:problem -:problem =:problem
-EXPR: 0 | POS | INT | 12 | 75 | 42 | 63=(x+21) | 63 x 21 + = | 63:problem x:problem 21:problem +:problem =:problem
-EXPR: 0 | POS | INT | 12 | 75 | 1323 | 63=(x/21) | 63 x 21 / = | 63:UNKNOWN x:UNKNOWN 21:problem /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 75 | 84 | (x-21)=63 | x 21 - 63 = | x:problem 21:problem -:problem 63:problem =:problem
-EXPR: 0 | POS | INT | 14 | 75 | 1323 | 21=(x/63) | 21 x 63 / = | 21:UNKNOWN x:UNKNOWN 63:problem /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 75 | 42 | (x+21)=63 | x 21 + 63 = | x:problem 21:problem +:problem 63:problem =:problem
-EXPR: 0 | POS | INT | 14 | 75 | 1323 | (x/21)=63 | x 21 / 63 = | x:UNKNOWN 21:problem /:UNKNOWN 63:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 75 | 42 | 21=(63-x) | 21 63 x - = | 21:problem 63:problem x:problem -:problem =:problem
-EXPR: 0 | POS | INT | 14 | 75 | 42 | (21+x)=63 | 21 x + 63 = | 21:problem x:problem +:problem 63:problem =:problem
-EXPR: 0 | POS | INT | 14 | 75 | 84 | 21=(x-63) | 21 x 63 - = | 21:problem x:problem 63:problem -:problem =:problem
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 0 | 20 | 20 | x=(5*4) | x 5 4 * = | x:slice 5:pizza 4:slice *:slice =:slice
+EXPR: 1 | POS | INT | 0 | 20 | 20 | (5*4)=x | 5 4 * x = | 5:pizza 4:slice *:slice x:slice =:slice
+EXPR: 1 | POS | INT | 2 | 20 | 20 | (x/5)=4 | x 5 / 4 = | x:slice 5:pizza /:slice 4:slice =:slice
+EXPR: 1 | POS | INT | 4 | 20 | 20 | 4=(x/5) | 4 x 5 / = | 4:slice x:slice 5:pizza /:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 1 | (5-4)=x | 5 4 - x = | 5:slice 4:slice -:slice x:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 9 | (5+4)=x | 5 4 + x = | 5:slice 4:slice +:slice x:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 9 | x=(5+4) | x 5 4 + = | x:slice 5:slice 4:slice +:slice =:slice
+EXPR: 0 | POS | INT | 10 | 20 | 1 | x=(5-4) | x 5 4 - = | x:slice 5:slice 4:slice -:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 9 | (x-5)=4 | x 5 - 4 = | x:slice 5:slice -:slice 4:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 1 | 5=(x+4) | 5 x 4 + = | 5:slice x:slice 4:slice +:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 1 | (5-x)=4 | 5 x - 4 = | 5:slice x:slice -:slice 4:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 1 | 5=(4+x) | 5 4 x + = | 5:slice 4:slice x:slice +:slice =:slice
+EXPR: 0 | POS | INT | 12 | 20 | 9 | 5=(x-4) | 5 x 4 - = | 5:slice x:slice 4:slice -:slice =:slice
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 5=(x/4) | 5 x 4 / = | 5:pizza x:pizza 4:slice /:pizza =:pizza
+EXPR: 1 | POS | INT | 14 | 20 | 20 | (x/4)=5 | x 4 / 5 = | x:pizza 4:slice /:pizza 5:pizza =:pizza
+EXPR: 0 | POS | INT | 14 | 20 | 1 | (4+x)=5 | 4 x + 5 = | 4:slice x:slice +:slice 5:slice =:slice
+EXPR: 0 | POS | INT | 14 | 20 | 1 | 4=(5-x) | 4 5 x - = | 4:slice 5:slice x:slice -:slice =:slice
+EXPR: 0 | POS | INT | 14 | 20 | 9 | (x-4)=5 | x 4 - 5 = | x:slice 4:slice -:slice 5:slice =:slice
+EXPR: 0 | POS | INT | 14 | 20 | 1 | (x+4)=5 | x 4 + 5 = | x:slice 4:slice +:slice 5:slice =:slice
+EXPR: 0 | POS | INT | 14 | 20 | 9 | 4=(x-5) | 4 x 5 - = | 4:slice x:slice 5:slice -:slice =:slice
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

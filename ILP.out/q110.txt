@@ -1,5 +1,5 @@
-quantities : 0.1 30 x
-types : "time" "vote" "vote"
+quantities : 55 0.2 x
+types : "question" "Brenda" "question"
 operators : + - * / =
 n : 5
-answer : 3.0
+answer : 11.0

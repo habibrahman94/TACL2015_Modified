@@ -1,5 +1,0 @@
-quantities : 283,560 0.55 x
-types : "song" "customers" "song"
-operators : + - * / =
-n : 5
-answer : 439518.0

@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 5 | 5 | x=(0.2*25) | x 0.2 25 * = | x:student 0.2:time 25:student *:student =:student
-EXPR: 1 | POS | INT | 0 | 5 | 5 | (0.2*25)=x | 0.2 25 * x = | 0.2:time 25:student *:student x:student =:student
-EXPR: 0 | POS | INT | 2 | 5 | 125 | (25/0.2)=x | 25 0.2 / x = | 25:student 0.2:time /:student x:student =:student
-EXPR: 0 | POS | INT | 2 | 5 | 125 | (0.2*x)=25 | 0.2 x * 25 = | 0.2:time x:student *:student 25:student =:student
-EXPR: 1 | POS | INT | 2 | 5 | 5 | (x/0.2)=25 | x 0.2 / 25 = | x:student 0.2:time /:student 25:student =:student
-EXPR: 0 | POS | INT | 2 | 5 | 125 | (x*0.2)=25 | x 0.2 * 25 = | x:student 0.2:time *:student 25:student =:student
-EXPR: 0 | POS | INT | 2 | 5 | 125 | x=(25/0.2) | x 25 0.2 / = | x:student 25:student 0.2:time /:student =:student
-EXPR: 0 | POS | INT | 4 | 5 | 125 | 25=(x*0.2) | 25 x 0.2 * = | 25:student x:student 0.2:time *:student =:student
-EXPR: 0 | POS | INT | 4 | 5 | 125 | 25=(0.2*x) | 25 0.2 x * = | 25:student 0.2:time x:student *:student =:student
-EXPR: 1 | POS | INT | 4 | 5 | 5 | 25=(x/0.2) | 25 x 0.2 / = | 25:student x:student 0.2:time /:student =:student
-EXPR: 0 | POS | FRA | 10 | 5 | 0.008 | (0.2/25)=x | 0.2 25 / x = | 0.2:time 25:student /:time x:time =:time
-EXPR: 0 | POS | FRA | 10 | 5 | 25.2 | (0.2+25)=x | 0.2 25 + x = | 0.2:student 25:student +:student x:student =:student
-EXPR: 0 | POS | FRA | 10 | 5 | 25.2 | x=(0.2+25) | x 0.2 25 + = | x:student 0.2:student 25:student +:student =:student
-EXPR: 0 | POS | FRA | 10 | 5 | 0.008 | x=(0.2/25) | x 0.2 25 / = | x:time 0.2:time 25:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 5 | 0.008 | 0.2=(x*25) | 0.2 x 25 * = | 0.2:time x:time 25:student *:time =:time
-EXPR: 0 | POS | INT | 12 | 5 | 125 | 0.2=(25/x) | 0.2 25 x / = | 0.2:time 25:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 5 | 25.2 | (x-0.2)=25 | x 0.2 - 25 = | x:student 0.2:student -:student 25:student =:student
-EXPR: 0 | POS | FRA | 12 | 5 | 0.008 | (0.2/x)=25 | 0.2 x / 25 = | 0.2:time x:student /:time 25:time =:time
-EXPR: 0 | POS | FRA | 12 | 5 | 24.8 | (25-0.2)=x | 25 0.2 - x = | 25:student 0.2:student -:student x:student =:student
-EXPR: 0 | POS | FRA | 12 | 5 | 24.8 | (x+0.2)=25 | x 0.2 + 25 = | x:student 0.2:student +:student 25:student =:student
-EXPR: 0 | POS | FRA | 12 | 5 | 0.008 | 0.2=(25*x) | 0.2 25 x * = | 0.2:time 25:time x:student *:time =:time
-EXPR: 0 | POS | FRA | 12 | 5 | 24.8 | (0.2+x)=25 | 0.2 x + 25 = | 0.2:student x:student +:student 25:student =:student
-EXPR: 0 | POS | FRA | 12 | 5 | 24.8 | 0.2=(25-x) | 0.2 25 x - = | 0.2:student 25:student x:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 5 | 24.8 | x=(25-0.2) | x 25 0.2 - = | x:student 25:student 0.2:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 5 | 25.2 | 0.2=(x-25) | 0.2 x 25 - = | 0.2:student x:student 25:student -:student =:student
-EXPR: 1 | POS | INT | 12 | 5 | 5 | 0.2=(x/25) | 0.2 x 25 / = | 0.2:time x:time 25:student /:time =:time
-EXPR: 0 | POS | INT | 14 | 5 | 125 | (25/x)=0.2 | 25 x / 0.2 = | 25:time x:student /:time 0.2:time =:time
-EXPR: 1 | POS | INT | 14 | 5 | 5 | (x/25)=0.2 | x 25 / 0.2 = | x:time 25:student /:time 0.2:time =:time
-EXPR: 0 | POS | FRA | 14 | 5 | 0.008 | 25=(0.2/x) | 25 0.2 x / = | 25:time 0.2:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 14 | 5 | 24.8 | (25-x)=0.2 | 25 x - 0.2 = | 25:student x:student -:student 0.2:student =:student
-EXPR: 0 | POS | FRA | 14 | 5 | 0.008 | (25*x)=0.2 | 25 x * 0.2 = | 25:time x:student *:time 0.2:time =:time
-EXPR: 0 | POS | FRA | 14 | 5 | 24.8 | 25=(0.2+x) | 25 0.2 x + = | 25:student 0.2:student x:student +:student =:student
-EXPR: 0 | POS | FRA | 14 | 5 | 0.008 | (x*25)=0.2 | x 25 * 0.2 = | x:student 25:time *:time 0.2:time =:time
-EXPR: 0 | POS | FRA | 14 | 5 | 25.2 | (x-25)=0.2 | x 25 - 0.2 = | x:student 25:student -:student 0.2:student =:student
-EXPR: 0 | POS | FRA | 14 | 5 | 25.2 | 25=(x-0.2) | 25 x 0.2 - = | 25:student x:student 0.2:student -:student =:student
-EXPR: 0 | POS | FRA | 14 | 5 | 24.8 | 25=(x+0.2) | 25 x 0.2 + = | 25:student x:student 0.2:student +:student =:student
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 13 | 3 | (10*0.3)=x | 10 0.3 * x = | 10:dollar 0.3:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 10 | 13 | 33.3333333333333 | (10/0.3)=x | 10 0.3 / x = | 10:UNKNOWN 0.3:Cody /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 10 | 13 | 3 | x=(10*0.3) | x 10 0.3 * = | x:dollar 10:dollar 0.3:Cody *:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 13 | 33.3333333333333 | x=(10/0.3) | x 10 0.3 / = | x:UNKNOWN 10:UNKNOWN 0.3:Cody /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 13 | 0.03 | (10*x)=0.3 | 10 x * 0.3 = | 10:dollar x:Cody *:Cody 0.3:Cody =:Cody
+EXPR: 0 | POS | FRA | 12 | 13 | 0.03 | x=(0.3/10) | x 0.3 10 / = | x:Cody 0.3:Cody 10:dollar /:Cody =:Cody
+EXPR: 0 | POS | FRA | 12 | 13 | 0.03 | 10=(0.3/x) | 10 0.3 x / = | 10:Cody 0.3:Cody x:UNKNOWN /:Cody =:Cody
+EXPR: 0 | POS | FRA | 12 | 13 | 33.3333333333333 | 10=(0.3*x) | 10 0.3 x * = | 10:UNKNOWN 0.3:Cody x:UNKNOWN *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 13 | 33.3333333333333 | (10/x)=0.3 | 10 x / 0.3 = | 10:Cody x:UNKNOWN /:Cody 0.3:Cody =:Cody
+EXPR: 0 | POS | FRA | 12 | 13 | 33.3333333333333 | 10=(x*0.3) | 10 x 0.3 * = | 10:UNKNOWN x:UNKNOWN 0.3:Cody *:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | INT | 12 | 13 | 3 | 10=(x/0.3) | 10 x 0.3 / = | 10:UNKNOWN x:UNKNOWN 0.3:Cody /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 13 | 0.03 | (x*10)=0.3 | x 10 * 0.3 = | x:UNKNOWN 10:Cody *:Cody 0.3:Cody =:Cody
+EXPR: 0 | POS | INT | 12 | 13 | 3 | (x/10)=0.3 | x 10 / 0.3 = | x:UNKNOWN 10:dollar /:UNKNOWN 0.3:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 12 | 13 | 0.03 | (0.3/10)=x | 0.3 10 / x = | 0.3:UNKNOWN 10:dollar /:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 13 | 0.03 | (0.3/x)=10 | 0.3 x / 10 = | 0.3:dollar x:UNKNOWN /:dollar 10:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 13 | 33.3333333333333 | (0.3*x)=10 | 0.3 x * 10 = | 0.3:dollar x:UNKNOWN *:dollar 10:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 13 | 3 | (x/0.3)=10 | x 0.3 / 10 = | x:dollar 0.3:Cody /:dollar 10:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 13 | 33.3333333333333 | (x*0.3)=10 | x 0.3 * 10 = | x:dollar 0.3:Cody *:dollar 10:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 13 | 0.03 | 0.3=(10*x) | 0.3 10 x * = | 0.3:Cody 10:dollar x:Cody *:Cody =:Cody
+EXPR: 0 | POS | FRA | 14 | 13 | 0.03 | 0.3=(x*10) | 0.3 x 10 * = | 0.3:Cody x:UNKNOWN 10:Cody *:Cody =:Cody
+EXPR: 0 | POS | INT | 14 | 13 | 3 | 0.3=(x/10) | 0.3 x 10 / = | 0.3:UNKNOWN x:UNKNOWN 10:dollar /:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 14 | 13 | 33.3333333333333 | 0.3=(10/x) | 0.3 10 x / = | 0.3:dollar 10:dollar x:UNKNOWN /:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 13 | 10.3 | x=(10+0.3) | x 10 0.3 + = | x:dollar 10:dollar 0.3:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 13 | 9.7 | x=(10-0.3) | x 10 0.3 - = | x:UNKNOWN 10:UNKNOWN 0.3:UNKNOWN -:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 20 | 13 | 10.3 | (10+0.3)=x | 10 0.3 + x = | 10:dollar 0.3:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 20 | 13 | 9.7 | (10-0.3)=x | 10 0.3 - x = | 10:UNKNOWN 0.3:UNKNOWN -:UNKNOWN x:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 22 | 13 | 10.3 | 10=(x-0.3) | 10 x 0.3 - = | 10:dollar x:dollar 0.3:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 13 | 9.7 | 10=(x+0.3) | 10 x 0.3 + = | 10:dollar x:dollar 0.3:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 13 | 10.3 | (x-10)=0.3 | x 10 - 0.3 = | x:Cody 10:Cody -:Cody 0.3:Cody =:Cody
+EXPR: 0 | POS | FRA | 22 | 13 | 9.7 | (10-x)=0.3 | 10 x - 0.3 = | 10:dollar x:dollar -:dollar 0.3:dollar =:dollar
+EXPR: 0 | POS | FRA | 22 | 13 | 9.7 | 10=(0.3+x) | 10 0.3 x + = | 10:UNKNOWN 0.3:UNKNOWN x:UNKNOWN +:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 13 | 9.7 | (0.3+x)=10 | 0.3 x + 10 = | 0.3:UNKNOWN x:UNKNOWN +:UNKNOWN 10:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 13 | 10.3 | (x-0.3)=10 | x 0.3 - 10 = | x:dollar 0.3:dollar -:dollar 10:dollar =:dollar
+EXPR: 0 | POS | FRA | 24 | 13 | 9.7 | (x+0.3)=10 | x 0.3 + 10 = | x:UNKNOWN 0.3:UNKNOWN +:UNKNOWN 10:UNKNOWN =:UNKNOWN
+EXPR: 0 | POS | FRA | 24 | 13 | 9.7 | 0.3=(10-x) | 0.3 10 x - = | 0.3:dollar 10:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 24 | 13 | 10.3 | 0.3=(x-10) | 0.3 x 10 - = | 0.3:dollar x:dollar 10:dollar -:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 324 total solutions

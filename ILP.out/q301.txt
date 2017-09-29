@@ -1,5 +1,0 @@
-quantities : 0.2 0.4 x
-types : "total" "loaf" "loaf"
-operators : + - * / =
-n : 5
-answer : 0.6

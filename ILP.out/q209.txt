@@ -1,5 +1,5 @@
-quantities : 20 17 x
-types : "temperature" "temperature" "time"
+quantities : 0.625 0.25 x
+types : "cup" "cup" "flour"
 operators : + - * / =
 n : 5
-answer : 15.0
+answer : 0.375

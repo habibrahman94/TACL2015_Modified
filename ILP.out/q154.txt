@@ -1,5 +1,5 @@
-quantities : 95 19 x
-types : "seat" "seat" "UNKNOWN"
+quantities : 68 0.25 x
+types : "foot" "lake" "depth"
 operators : + - * / =
 n : 5
-answer : 20.0
+answer : 85.0

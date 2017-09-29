@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 63 | 112 | x=(84/0.75) | x 84 0.75 / = | x:soda 84:soda 0.75:diner /:soda =:soda
-EXPR: 1 | POS | INT | 0 | 63 | 63 | (84*0.75)=x | 84 0.75 * x = | 84:soda 0.75:diner *:soda x:soda =:soda
-EXPR: 1 | POS | INT | 0 | 63 | 63 | x=(84*0.75) | x 84 0.75 * = | x:soda 84:soda 0.75:diner *:soda =:soda
-EXPR: 0 | POS | INT | 0 | 63 | 112 | (84/0.75)=x | 84 0.75 / x = | 84:soda 0.75:diner /:soda x:soda =:soda
-EXPR: 1 | POS | INT | 2 | 63 | 63 | 84=(x/0.75) | 84 x 0.75 / = | 84:soda x:soda 0.75:diner /:soda =:soda
-EXPR: 0 | POS | INT | 2 | 63 | 112 | 84=(x*0.75) | 84 x 0.75 * = | 84:soda x:soda 0.75:diner *:soda =:soda
-EXPR: 0 | POS | INT | 2 | 63 | 112 | 84=(0.75*x) | 84 0.75 x * = | 84:soda 0.75:diner x:soda *:soda =:soda
-EXPR: 0 | POS | INT | 4 | 63 | 112 | (0.75*x)=84 | 0.75 x * 84 = | 0.75:diner x:soda *:soda 84:soda =:soda
-EXPR: 0 | POS | INT | 4 | 63 | 112 | (x*0.75)=84 | x 0.75 * 84 = | x:soda 0.75:diner *:soda 84:soda =:soda
-EXPR: 1 | POS | INT | 4 | 63 | 63 | (x/0.75)=84 | x 0.75 / 84 = | x:soda 0.75:diner /:soda 84:soda =:soda
-EXPR: 0 | POS | FRA | 10 | 63 | 84.75 | (84+0.75)=x | 84 0.75 + x = | 84:soda 0.75:soda +:soda x:soda =:soda
-EXPR: 0 | POS | FRA | 10 | 63 | 84.75 | x=(84+0.75) | x 84 0.75 + = | x:soda 84:soda 0.75:soda +:soda =:soda
-EXPR: 0 | POS | FRA | 10 | 63 | 83.25 | (84-0.75)=x | 84 0.75 - x = | 84:soda 0.75:soda -:soda x:soda =:soda
-EXPR: 0 | POS | FRA | 10 | 63 | 83.25 | x=(84-0.75) | x 84 0.75 - = | x:soda 84:soda 0.75:soda -:soda =:soda
-EXPR: 0 | POS | FRA | 12 | 63 | 83.25 | 84=(x+0.75) | 84 x 0.75 + = | 84:soda x:soda 0.75:soda +:soda =:soda
-EXPR: 0 | POS | FRA | 12 | 63 | 0.00892857142857143 | 84=(0.75/x) | 84 0.75 x / = | 84:diner 0.75:diner x:soda /:diner =:diner
-EXPR: 0 | POS | FRA | 12 | 63 | 0.00892857142857143 | (x*84)=0.75 | x 84 * 0.75 = | x:soda 84:diner *:diner 0.75:diner =:diner
-EXPR: 0 | POS | INT | 12 | 63 | 112 | (84/x)=0.75 | 84 x / 0.75 = | 84:diner x:soda /:diner 0.75:diner =:diner
-EXPR: 0 | POS | FRA | 12 | 63 | 0.00892857142857143 | x=(0.75/84) | x 0.75 84 / = | x:diner 0.75:diner 84:soda /:diner =:diner
-EXPR: 0 | POS | FRA | 12 | 63 | 84.75 | 84=(x-0.75) | 84 x 0.75 - = | 84:soda x:soda 0.75:soda -:soda =:soda
-EXPR: 0 | POS | FRA | 12 | 63 | 0.00892857142857143 | (0.75/84)=x | 0.75 84 / x = | 0.75:diner 84:soda /:diner x:diner =:diner
-EXPR: 0 | POS | FRA | 12 | 63 | 0.00892857142857143 | (84*x)=0.75 | 84 x * 0.75 = | 84:diner x:soda *:diner 0.75:diner =:diner
-EXPR: 0 | POS | FRA | 12 | 63 | 84.75 | (x-84)=0.75 | x 84 - 0.75 = | x:soda 84:soda -:soda 0.75:soda =:soda
-EXPR: 0 | POS | FRA | 12 | 63 | 83.25 | (84-x)=0.75 | 84 x - 0.75 = | 84:soda x:soda -:soda 0.75:soda =:soda
-EXPR: 1 | POS | INT | 12 | 63 | 63 | (x/84)=0.75 | x 84 / 0.75 = | x:diner 84:soda /:diner 0.75:diner =:diner
-EXPR: 0 | POS | FRA | 12 | 63 | 83.25 | 84=(0.75+x) | 84 0.75 x + = | 84:soda 0.75:soda x:soda +:soda =:soda
-EXPR: 1 | POS | INT | 14 | 63 | 63 | 0.75=(x/84) | 0.75 x 84 / = | 0.75:diner x:diner 84:soda /:diner =:diner
-EXPR: 0 | POS | INT | 14 | 63 | 112 | 0.75=(84/x) | 0.75 84 x / = | 0.75:diner 84:diner x:soda /:diner =:diner
-EXPR: 0 | POS | FRA | 14 | 63 | 83.25 | (0.75+x)=84 | 0.75 x + 84 = | 0.75:soda x:soda +:soda 84:soda =:soda
-EXPR: 0 | POS | FRA | 14 | 63 | 83.25 | (x+0.75)=84 | x 0.75 + 84 = | x:soda 0.75:soda +:soda 84:soda =:soda
-EXPR: 0 | POS | FRA | 14 | 63 | 0.00892857142857143 | 0.75=(84*x) | 0.75 84 x * = | 0.75:diner 84:soda x:diner *:diner =:diner
-EXPR: 0 | POS | FRA | 14 | 63 | 0.00892857142857143 | (0.75/x)=84 | 0.75 x / 84 = | 0.75:diner x:soda /:diner 84:diner =:diner
-EXPR: 0 | POS | FRA | 14 | 63 | 83.25 | 0.75=(84-x) | 0.75 84 x - = | 0.75:soda 84:soda x:soda -:soda =:soda
-EXPR: 0 | POS | FRA | 14 | 63 | 84.75 | 0.75=(x-84) | 0.75 x 84 - = | 0.75:soda x:soda 84:soda -:soda =:soda
-EXPR: 0 | POS | FRA | 14 | 63 | 0.00892857142857143 | 0.75=(x*84) | 0.75 x 84 * = | 0.75:diner x:soda 84:diner *:diner =:diner
-EXPR: 0 | POS | FRA | 14 | 63 | 84.75 | (x-0.75)=84 | x 0.75 - 84 = | x:soda 0.75:soda -:soda 84:soda =:soda
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 34 | 34 | (68*0.5)=x | 68 0.5 * x = | 68:people 0.5:manager *:manager x:manager =:manager
+EXPR: 0 | POS | INT | 10 | 34 | 136 | (68/0.5)=x | 68 0.5 / x = | 68:manager 0.5:time /:manager x:manager =:manager
+EXPR: 1 | POS | INT | 10 | 34 | 34 | x=(68*0.5) | x 68 0.5 * = | x:people 68:people 0.5:time *:people =:people
+EXPR: 0 | POS | INT | 10 | 34 | 136 | x=(68/0.5) | x 68 0.5 / = | x:manager 68:manager 0.5:time /:manager =:manager
+EXPR: 0 | POS | FRA | 12 | 34 | 0.00735294117647059 | (68*x)=0.5 | 68 x * 0.5 = | 68:people x:time *:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 12 | 34 | 0.00735294117647059 | x=(0.5/68) | x 0.5 68 / = | x:time 0.5:time 68:people /:time =:time
+EXPR: 0 | POS | FRA | 12 | 34 | 0.00735294117647059 | 68=(0.5/x) | 68 0.5 x / = | 68:time 0.5:time x:manager /:time =:time
+EXPR: 0 | POS | INT | 12 | 34 | 136 | 68=(0.5*x) | 68 0.5 x * = | 68:manager 0.5:time x:manager *:manager =:manager
+EXPR: 0 | POS | INT | 12 | 34 | 136 | (68/x)=0.5 | 68 x / 0.5 = | 68:time x:manager /:time 0.5:time =:time
+EXPR: 0 | POS | INT | 12 | 34 | 136 | 68=(x*0.5) | 68 x 0.5 * = | 68:manager x:manager 0.5:time *:manager =:manager
+EXPR: 1 | POS | INT | 12 | 34 | 34 | 68=(x/0.5) | 68 x 0.5 / = | 68:manager x:manager 0.5:time /:manager =:manager
+EXPR: 0 | POS | FRA | 12 | 34 | 0.00735294117647059 | (x*68)=0.5 | x 68 * 0.5 = | x:manager 68:time *:time 0.5:time =:time
+EXPR: 1 | POS | INT | 12 | 34 | 34 | (x/68)=0.5 | x 68 / 0.5 = | x:manager 68:people /:manager 0.5:manager =:manager
+EXPR: 0 | POS | FRA | 12 | 34 | 0.00735294117647059 | (0.5/68)=x | 0.5 68 / x = | 0.5:manager 68:people /:manager x:manager =:manager
+EXPR: 0 | POS | FRA | 14 | 34 | 0.00735294117647059 | (0.5/x)=68 | 0.5 x / 68 = | 0.5:people x:manager /:people 68:people =:people
+EXPR: 0 | POS | INT | 14 | 34 | 136 | (0.5*x)=68 | 0.5 x * 68 = | 0.5:people x:manager *:people 68:people =:people
+EXPR: 1 | POS | INT | 14 | 34 | 34 | (x/0.5)=68 | x 0.5 / 68 = | x:people 0.5:time /:people 68:people =:people
+EXPR: 0 | POS | INT | 14 | 34 | 136 | (x*0.5)=68 | x 0.5 * 68 = | x:people 0.5:time *:people 68:people =:people
+EXPR: 0 | POS | FRA | 14 | 34 | 0.00735294117647059 | 0.5=(68*x) | 0.5 68 x * = | 0.5:time 68:people x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 34 | 0.00735294117647059 | 0.5=(x*68) | 0.5 x 68 * = | 0.5:time x:manager 68:time *:time =:time
+EXPR: 1 | POS | INT | 14 | 34 | 34 | 0.5=(x/68) | 0.5 x 68 / = | 0.5:manager x:manager 68:people /:manager =:manager
+EXPR: 0 | POS | INT | 14 | 34 | 136 | 0.5=(68/x) | 0.5 68 x / = | 0.5:people 68:people x:manager /:people =:people
+EXPR: 0 | POS | FRA | 20 | 34 | 68.5 | x=(68+0.5) | x 68 0.5 + = | x:people 68:people 0.5:people +:people =:people
+EXPR: 0 | POS | FRA | 20 | 34 | 67.5 | x=(68-0.5) | x 68 0.5 - = | x:manager 68:manager 0.5:manager -:manager =:manager
+EXPR: 0 | POS | FRA | 20 | 34 | 68.5 | (68+0.5)=x | 68 0.5 + x = | 68:people 0.5:people +:people x:people =:people
+EXPR: 0 | POS | FRA | 20 | 34 | 67.5 | (68-0.5)=x | 68 0.5 - x = | 68:manager 0.5:manager -:manager x:manager =:manager
+EXPR: 0 | POS | FRA | 22 | 34 | 68.5 | 68=(x-0.5) | 68 x 0.5 - = | 68:people x:people 0.5:people -:people =:people
+EXPR: 0 | POS | FRA | 22 | 34 | 67.5 | 68=(x+0.5) | 68 x 0.5 + = | 68:people x:people 0.5:people +:people =:people
+EXPR: 0 | POS | FRA | 22 | 34 | 68.5 | (x-68)=0.5 | x 68 - 0.5 = | x:time 68:time -:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 22 | 34 | 67.5 | (68-x)=0.5 | 68 x - 0.5 = | 68:people x:people -:people 0.5:people =:people
+EXPR: 0 | POS | FRA | 22 | 34 | 67.5 | 68=(0.5+x) | 68 0.5 x + = | 68:manager 0.5:manager x:manager +:manager =:manager
+EXPR: 0 | POS | FRA | 24 | 34 | 67.5 | (0.5+x)=68 | 0.5 x + 68 = | 0.5:manager x:manager +:manager 68:manager =:manager
+EXPR: 0 | POS | FRA | 24 | 34 | 68.5 | (x-0.5)=68 | x 0.5 - 68 = | x:people 0.5:people -:people 68:people =:people
+EXPR: 0 | POS | FRA | 24 | 34 | 67.5 | (x+0.5)=68 | x 0.5 + 68 = | x:manager 0.5:manager +:manager 68:manager =:manager
+EXPR: 0 | POS | FRA | 24 | 34 | 67.5 | 0.5=(68-x) | 0.5 68 x - = | 0.5:people 68:people x:people -:people =:people
+EXPR: 0 | POS | FRA | 24 | 34 | 68.5 | 0.5=(x-68) | 0.5 x 68 - = | 0.5:people x:people 68:people -:people =:people
+NET 36 unique, non-negative solutions found out of 324 total solutions

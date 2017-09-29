@@ -1,5 +1,5 @@
-quantities : 38 76 x
-types : "worksheet" "question" "UNKNOWN"
+quantities : 9,810 0.6 x
+types : "gallon" "company" "gallon"
 operators : + - * / =
 n : 5
-answer : 50.0
+answer : 15696.0

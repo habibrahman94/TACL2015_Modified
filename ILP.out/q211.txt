@@ -1,5 +1,5 @@
-quantities : 4,600 0.63 x
-types : "subscriber" "company" "subscriber"
+quantities : 0.6 0.4 x
+types : "mile" "mile" "mile"
 operators : + - * / =
 n : 5
-answer : 1702.0
+answer : 0.2

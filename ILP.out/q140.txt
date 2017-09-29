@@ -1,5 +1,5 @@
-quantities : 40 0.1 x
-types : "question" "Lia" "question"
+quantities : 5 x 0.4
+types : "minute" "average" "airline"
 operators : + - * / =
 n : 5
-answer : 4.0
+answer : 3.0

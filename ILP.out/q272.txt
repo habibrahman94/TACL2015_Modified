@@ -1,5 +1,0 @@
-quantities : 9 0.6 x
-types : "ounce" "that" "weight"
-operators : + - * / =
-n : 5
-answer : 15.0

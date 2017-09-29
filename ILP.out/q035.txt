@@ -1,5 +1,5 @@
-quantities : 10 3 x
-types : "tea" "tea" "UNKNOWN"
+quantities : 0.9 60 x
+types : "time" "cupcake" "cupcake"
 operators : + - * / =
 n : 5
-answer : 30.0
+answer : 54.0

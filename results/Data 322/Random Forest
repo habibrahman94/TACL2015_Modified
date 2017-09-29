@@ -13,3 +13,26 @@ OneVsRest:
 (34, 29, 0)
 (29, 37, 0)
 Accuracy: 48.598130841%
+
+
+//Proposed Equation
+Lb = 0.0, Gb = 1.0 >> Accuracy: 3.115264797507788
+Lb = 0.1, Gb = 0.9 >> Accuracy: 3.4267912772585665
+Lb = 0.2, Gb = 0.8 >> Accuracy: 5.29595015576324
+Lb = 0.3, Gb = 0.7 >> Accuracy: 3.115264797507788
+Lb = 0.4, Gb = 0.6 >> Accuracy: 5.29595015576324
+Lb = 0.5, Gb = 0.5 >> Accuracy: 46.538385%
+Lb = 0.6, Gb = 0.4 >> Accuracy: 46.538385%
+Lb = 0.7, Gb = 0.3 >> Accuracy: 48.136645%
+Lb = 0.8, Gb = 0.2 >> Accuracy: 46.894409%
+Lb = 0.9, Gb = 0.1 >> Accuracy: 46.538385%
+Lb = 1.0, Gb = 0.0 >> Accuracy: 46.538385%
+
+//Another 
+Scores = Lb*LocalScore + Gb *GlobaScore
+
+Lb = 0.3, Gb = 0.7 >> Accuracy: 49.532710280373834
+Lb = 0.49, Gb = 0.52 >> Accuracy: 48.28660436137071
+
+
+

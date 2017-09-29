@@ -1,5 +1,5 @@
-quantities : 100 0.3 x
-types : "student" "time" "student"
+quantities : 100 0.2 x
+types : "deer" "scientist" "juvenile"
 operators : + - * / =
 n : 5
-answer : 30.0
+answer : 20.0

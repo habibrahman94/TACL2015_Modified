@@ -1,5 +1,0 @@
-quantities : 0.6 0.2 x
-types : "budget" "budget" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 0.8

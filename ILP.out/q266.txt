@@ -1,5 +1,0 @@
-quantities : 20 0.8 x
-types : "question" "test" "question"
-operators : + - * / =
-n : 5
-answer : 4.0

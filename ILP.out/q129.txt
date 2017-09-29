@@ -1,5 +1,5 @@
-quantities : 76 0.25 x
-types : "bead" "He" "bead"
+quantities : 30 0.8 x
+types : "magazine" "bookstore" "magazine"
 operators : + - * / =
 n : 5
-answer : 19.0
+answer : 24.0

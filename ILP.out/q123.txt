@@ -1,5 +1,5 @@
-quantities : 0.5 74 x
-types : "time" "cupcake" "cupcake"
+quantities : 40 0.1 x
+types : "question" "Lia" "question"
 operators : + - * / =
 n : 5
-answer : 37.0
+answer : 4.0

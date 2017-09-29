@@ -1,24 +1,40 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 70 | 170 | x=(100+70) | x 100 70 + = | x:tree 100:tree 70:tree +:tree =:tree
-EXPR: 0 | POS | INT | 10 | 70 | 7000 | x=(100*70) | x 100 70 * = | x:UNKNOWN 100:tree 70:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 70 | 30 | (100-70)=x | 100 70 - x = | 100:tree 70:tree -:tree x:tree =:tree
-EXPR: 0 | POS | INT | 10 | 70 | 7000 | (100*70)=x | 100 70 * x = | 100:tree 70:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 70 | 30 | x=(100-70) | x 100 70 - = | x:tree 100:tree 70:tree -:tree =:tree
-EXPR: 0 | POS | INT | 10 | 70 | 170 | (100+70)=x | 100 70 + x = | 100:tree 70:tree +:tree x:tree =:tree
-EXPR: 0 | POS | INT | 12 | 70 | 30 | (100-x)=70 | 100 x - 70 = | 100:tree x:tree -:tree 70:tree =:tree
-EXPR: 0 | POS | INT | 12 | 70 | 30 | 100=(70+x) | 100 70 x + = | 100:tree 70:tree x:tree +:tree =:tree
-EXPR: 0 | POS | INT | 12 | 70 | 7000 | (x/100)=70 | x 100 / 70 = | x:UNKNOWN 100:tree /:UNKNOWN 70:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 70 | 170 | (x-100)=70 | x 100 - 70 = | x:tree 100:tree -:tree 70:tree =:tree
-EXPR: 0 | POS | INT | 12 | 70 | 170 | 100=(x-70) | 100 x 70 - = | 100:tree x:tree 70:tree -:tree =:tree
-EXPR: 0 | POS | INT | 12 | 70 | 30 | 100=(x+70) | 100 x 70 + = | 100:tree x:tree 70:tree +:tree =:tree
-EXPR: 0 | POS | INT | 12 | 70 | 7000 | 100=(x/70) | 100 x 70 / = | 100:UNKNOWN x:UNKNOWN 70:tree /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 70 | 170 | (x-70)=100 | x 70 - 100 = | x:tree 70:tree -:tree 100:tree =:tree
-EXPR: 0 | POS | INT | 14 | 70 | 7000 | 70=(x/100) | 70 x 100 / = | 70:UNKNOWN x:UNKNOWN 100:tree /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 70 | 30 | (x+70)=100 | x 70 + 100 = | x:tree 70:tree +:tree 100:tree =:tree
-EXPR: 0 | POS | INT | 14 | 70 | 7000 | (x/70)=100 | x 70 / 100 = | x:UNKNOWN 70:tree /:UNKNOWN 100:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 70 | 30 | 70=(100-x) | 70 100 x - = | 70:tree 100:tree x:tree -:tree =:tree
-EXPR: 0 | POS | INT | 14 | 70 | 30 | (70+x)=100 | 70 x + 100 = | 70:tree x:tree +:tree 100:tree =:tree
-EXPR: 0 | POS | INT | 14 | 70 | 170 | 70=(x-100) | 70 x 100 - = | 70:tree x:tree 100:tree -:tree =:tree
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | FRA | 0 | 30 | 83.3333333333333 | x=(50/0.6) | x 50 0.6 / = | x:question 50:question 0.6:test /:question =:question
+EXPR: 1 | POS | INT | 0 | 30 | 30 | (50*0.6)=x | 50 0.6 * x = | 50:question 0.6:test *:question x:question =:question
+EXPR: 1 | POS | INT | 0 | 30 | 30 | x=(50*0.6) | x 50 0.6 * = | x:question 50:question 0.6:test *:question =:question
+EXPR: 0 | POS | FRA | 0 | 30 | 83.3333333333333 | (50/0.6)=x | 50 0.6 / x = | 50:question 0.6:test /:question x:question =:question
+EXPR: 1 | POS | INT | 2 | 30 | 30 | 50=(x/0.6) | 50 x 0.6 / = | 50:question x:question 0.6:test /:question =:question
+EXPR: 0 | POS | FRA | 2 | 30 | 83.3333333333333 | 50=(x*0.6) | 50 x 0.6 * = | 50:question x:question 0.6:test *:question =:question
+EXPR: 0 | POS | FRA | 2 | 30 | 83.3333333333333 | 50=(0.6*x) | 50 0.6 x * = | 50:question 0.6:test x:question *:question =:question
+EXPR: 0 | POS | FRA | 4 | 30 | 83.3333333333333 | (0.6*x)=50 | 0.6 x * 50 = | 0.6:test x:question *:question 50:question =:question
+EXPR: 0 | POS | FRA | 4 | 30 | 83.3333333333333 | (x*0.6)=50 | x 0.6 * 50 = | x:question 0.6:test *:question 50:question =:question
+EXPR: 1 | POS | INT | 4 | 30 | 30 | (x/0.6)=50 | x 0.6 / 50 = | x:question 0.6:test /:question 50:question =:question
+EXPR: 0 | POS | FRA | 10 | 30 | 50.6 | (50+0.6)=x | 50 0.6 + x = | 50:question 0.6:question +:question x:question =:question
+EXPR: 0 | POS | FRA | 10 | 30 | 50.6 | x=(50+0.6) | x 50 0.6 + = | x:question 50:question 0.6:question +:question =:question
+EXPR: 0 | POS | FRA | 10 | 30 | 49.4 | (50-0.6)=x | 50 0.6 - x = | 50:question 0.6:question -:question x:question =:question
+EXPR: 0 | POS | FRA | 10 | 30 | 49.4 | x=(50-0.6) | x 50 0.6 - = | x:question 50:question 0.6:question -:question =:question
+EXPR: 0 | POS | FRA | 12 | 30 | 49.4 | 50=(x+0.6) | 50 x 0.6 + = | 50:question x:question 0.6:question +:question =:question
+EXPR: 0 | POS | FRA | 12 | 30 | 0.012 | 50=(0.6/x) | 50 0.6 x / = | 50:test 0.6:test x:question /:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 0.012 | (x*50)=0.6 | x 50 * 0.6 = | x:question 50:test *:test 0.6:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 83.3333333333333 | (50/x)=0.6 | 50 x / 0.6 = | 50:test x:question /:test 0.6:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 0.012 | x=(0.6/50) | x 0.6 50 / = | x:test 0.6:test 50:question /:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 50.6 | 50=(x-0.6) | 50 x 0.6 - = | 50:question x:question 0.6:question -:question =:question
+EXPR: 0 | POS | FRA | 12 | 30 | 0.012 | (0.6/50)=x | 0.6 50 / x = | 0.6:test 50:question /:test x:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 0.012 | (50*x)=0.6 | 50 x * 0.6 = | 50:test x:question *:test 0.6:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 50.6 | (x-50)=0.6 | x 50 - 0.6 = | x:question 50:question -:question 0.6:question =:question
+EXPR: 0 | POS | FRA | 12 | 30 | 49.4 | (50-x)=0.6 | 50 x - 0.6 = | 50:question x:question -:question 0.6:question =:question
+EXPR: 1 | POS | INT | 12 | 30 | 30 | (x/50)=0.6 | x 50 / 0.6 = | x:test 50:question /:test 0.6:test =:test
+EXPR: 0 | POS | FRA | 12 | 30 | 49.4 | 50=(0.6+x) | 50 0.6 x + = | 50:question 0.6:question x:question +:question =:question
+EXPR: 1 | POS | INT | 14 | 30 | 30 | 0.6=(x/50) | 0.6 x 50 / = | 0.6:test x:test 50:question /:test =:test
+EXPR: 0 | POS | FRA | 14 | 30 | 83.3333333333333 | 0.6=(50/x) | 0.6 50 x / = | 0.6:test 50:test x:question /:test =:test
+EXPR: 0 | POS | FRA | 14 | 30 | 49.4 | (0.6+x)=50 | 0.6 x + 50 = | 0.6:question x:question +:question 50:question =:question
+EXPR: 0 | POS | FRA | 14 | 30 | 49.4 | (x+0.6)=50 | x 0.6 + 50 = | x:question 0.6:question +:question 50:question =:question
+EXPR: 0 | POS | FRA | 14 | 30 | 0.012 | 0.6=(50*x) | 0.6 50 x * = | 0.6:test 50:question x:test *:test =:test
+EXPR: 0 | POS | FRA | 14 | 30 | 0.012 | (0.6/x)=50 | 0.6 x / 50 = | 0.6:test x:question /:test 50:test =:test
+EXPR: 0 | POS | FRA | 14 | 30 | 49.4 | 0.6=(50-x) | 0.6 50 x - = | 0.6:question 50:question x:question -:question =:question
+EXPR: 0 | POS | FRA | 14 | 30 | 50.6 | 0.6=(x-50) | 0.6 x 50 - = | 0.6:question x:question 50:question -:question =:question
+EXPR: 0 | POS | FRA | 14 | 30 | 0.012 | 0.6=(x*50) | 0.6 x 50 * = | 0.6:test x:question 50:test *:test =:test
+EXPR: 0 | POS | FRA | 14 | 30 | 50.6 | (x-0.6)=50 | x 0.6 - 50 = | x:question 0.6:question -:question 50:question =:question
+NET 36 unique, non-negative solutions found out of 136 total solutions

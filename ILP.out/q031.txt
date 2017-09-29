@@ -1,5 +1,5 @@
-quantities : 75 55 x
-types : "game" "game" "UNKNOWN"
+quantities : 100 0.7 x
+types : "student" "time" "student"
 operators : + - * / =
 n : 5
-answer : 26.666666667
+answer : 70.0

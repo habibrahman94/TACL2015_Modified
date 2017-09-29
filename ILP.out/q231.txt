@@ -1,5 +1,0 @@
-quantities : 68 0.25 x
-types : "foot" "lake" "depth"
-operators : + - * / =
-n : 5
-answer : 85.0

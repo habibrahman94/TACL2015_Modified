@@ -1,5 +1,5 @@
-quantities : 0.5 82 x
-types : "time" "cupcake" "cupcake"
+quantities : 60 0.6 x
+types : "member" "council" "member"
 operators : + - * / =
 n : 5
-answer : 41.0
+answer : 36.0

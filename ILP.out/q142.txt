@@ -1,5 +1,5 @@
-quantities : 0.6 80 x
-types : "time" "ticket" "child"
+quantities : 20 17 x
+types : "temperature" "temperature" "time"
 operators : + - * / =
 n : 5
-answer : 48.0
+answer : 15.0

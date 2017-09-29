@@ -1,5 +1,5 @@
-quantities : 36 29 x
-types : "carpenter" "carpenter" "UNKNOWN"
+quantities : 0.65 7200 x
+types : "He" "dollar" "UNKNOWN"
 operators : + - * / =
 n : 5
-answer : 19.444444444
+answer : 4680.0

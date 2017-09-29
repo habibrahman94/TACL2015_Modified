@@ -1,5 +1,0 @@
-quantities : 18 0.5 x
-types : "hour" "family" "hour"
-operators : + - * / =
-n : 5
-answer : 9.0

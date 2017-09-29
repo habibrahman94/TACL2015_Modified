@@ -1,5 +1,0 @@
-quantities : 9,410 0.1 x
-types : "dollar" "time" "she"
-operators : + - * / =
-n : 5
-answer : 8469.0

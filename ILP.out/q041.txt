@@ -1,5 +1,5 @@
-quantities : 75 30 x
-types : "burger" "burger" "UNKNOWN"
+quantities : 56 0.5 x
+types : "teacher" "meeting" "teacher"
 operators : + - * / =
 n : 5
-answer : 40.0
+answer : 28.0

@@ -1,5 +1,5 @@
-quantities : 28 0.75 x
-types : "question" "Bryan" "question"
+quantities : 94 0.5 x
+types : "marble" "bag" "marble"
 operators : + - * / =
 n : 5
-answer : 21.0
+answer : 47.0

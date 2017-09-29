@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 18 | 18 | (0.3*60)=x | 0.3 60 * x = | 0.3:time 60:coffee *:coffee x:coffee =:coffee
-EXPR: 0 | POS | FRA | 10 | 18 | 0.005 | (0.3/60)=x | 0.3 60 / x = | 0.3:coffee 60:mug /:coffee x:coffee =:coffee
-EXPR: 1 | POS | INT | 10 | 18 | 18 | x=(0.3*60) | x 0.3 60 * = | x:time 0.3:time 60:mug *:time =:time
-EXPR: 0 | POS | FRA | 10 | 18 | 0.005 | x=(0.3/60) | x 0.3 60 / = | x:coffee 0.3:coffee 60:mug /:coffee =:coffee
-EXPR: 0 | POS | INT | 12 | 18 | 200 | (0.3*x)=60 | 0.3 x * 60 = | 0.3:time x:mug *:mug 60:mug =:mug
-EXPR: 0 | POS | INT | 12 | 18 | 200 | x=(60/0.3) | x 60 0.3 / = | x:mug 60:mug 0.3:time /:mug =:mug
-EXPR: 0 | POS | INT | 12 | 18 | 200 | 0.3=(60/x) | 0.3 60 x / = | 0.3:mug 60:mug x:coffee /:mug =:mug
-EXPR: 0 | POS | FRA | 12 | 18 | 0.005 | 0.3=(60*x) | 0.3 60 x * = | 0.3:coffee 60:mug x:coffee *:coffee =:coffee
-EXPR: 0 | POS | FRA | 12 | 18 | 0.005 | (0.3/x)=60 | 0.3 x / 60 = | 0.3:mug x:coffee /:mug 60:mug =:mug
-EXPR: 0 | POS | FRA | 12 | 18 | 0.005 | 0.3=(x*60) | 0.3 x 60 * = | 0.3:coffee x:coffee 60:mug *:coffee =:coffee
-EXPR: 1 | POS | INT | 12 | 18 | 18 | 0.3=(x/60) | 0.3 x 60 / = | 0.3:coffee x:coffee 60:mug /:coffee =:coffee
-EXPR: 0 | POS | INT | 12 | 18 | 200 | (x*0.3)=60 | x 0.3 * 60 = | x:coffee 0.3:mug *:mug 60:mug =:mug
-EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/0.3)=60 | x 0.3 / 60 = | x:coffee 0.3:time /:coffee 60:coffee =:coffee
-EXPR: 0 | POS | INT | 12 | 18 | 200 | (60/0.3)=x | 60 0.3 / x = | 60:coffee 0.3:time /:coffee x:coffee =:coffee
-EXPR: 0 | POS | INT | 14 | 18 | 200 | (60/x)=0.3 | 60 x / 0.3 = | 60:time x:coffee /:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 14 | 18 | 0.005 | (60*x)=0.3 | 60 x * 0.3 = | 60:time x:coffee *:time 0.3:time =:time
-EXPR: 1 | POS | INT | 14 | 18 | 18 | (x/60)=0.3 | x 60 / 0.3 = | x:time 60:mug /:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 14 | 18 | 0.005 | (x*60)=0.3 | x 60 * 0.3 = | x:time 60:mug *:time 0.3:time =:time
-EXPR: 0 | POS | INT | 14 | 18 | 200 | 60=(0.3*x) | 60 0.3 x * = | 60:mug 0.3:time x:mug *:mug =:mug
-EXPR: 0 | POS | INT | 14 | 18 | 200 | 60=(x*0.3) | 60 x 0.3 * = | 60:mug x:coffee 0.3:mug *:mug =:mug
-EXPR: 1 | POS | INT | 14 | 18 | 18 | 60=(x/0.3) | 60 x 0.3 / = | 60:coffee x:coffee 0.3:time /:coffee =:coffee
-EXPR: 0 | POS | FRA | 14 | 18 | 0.005 | 60=(0.3/x) | 60 0.3 x / = | 60:time 0.3:time x:coffee /:time =:time
-EXPR: 0 | POS | FRA | 20 | 18 | 60.3 | x=(0.3+60) | x 0.3 60 + = | x:time 0.3:time 60:time +:time =:time
-EXPR: 0 | POS | FRA | 20 | 18 | 60.3 | (0.3+60)=x | 0.3 60 + x = | 0.3:time 60:time +:time x:time =:time
-EXPR: 0 | POS | FRA | 22 | 18 | 60.3 | 0.3=(x-60) | 0.3 x 60 - = | 0.3:time x:time 60:time -:time =:time
-EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | 0.3=(60-x) | 0.3 60 x - = | 0.3:mug 60:mug x:mug -:mug =:mug
-EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | x=(60-0.3) | x 60 0.3 - = | x:mug 60:mug 0.3:mug -:mug =:mug
-EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | (x+0.3)=60 | x 0.3 + 60 = | x:mug 0.3:mug +:mug 60:mug =:mug
-EXPR: 0 | POS | FRA | 22 | 18 | 60.3 | (x-0.3)=60 | x 0.3 - 60 = | x:mug 0.3:mug -:mug 60:mug =:mug
-EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | (0.3+x)=60 | 0.3 x + 60 = | 0.3:time x:time +:time 60:time =:time
-EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | (60-0.3)=x | 60 0.3 - x = | 60:coffee 0.3:coffee -:coffee x:coffee =:coffee
-EXPR: 0 | POS | FRA | 24 | 18 | 59.7 | 60=(x+0.3) | 60 x 0.3 + = | 60:time x:time 0.3:time +:time =:time
-EXPR: 0 | POS | FRA | 24 | 18 | 59.7 | (60-x)=0.3 | 60 x - 0.3 = | 60:time x:time -:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 24 | 18 | 60.3 | (x-60)=0.3 | x 60 - 0.3 = | x:time 60:time -:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 24 | 18 | 60.3 | 60=(x-0.3) | 60 x 0.3 - = | 60:time x:time 0.3:time -:time =:time
-EXPR: 0 | POS | FRA | 24 | 18 | 59.7 | 60=(0.3+x) | 60 0.3 x + = | 60:coffee 0.3:coffee x:coffee +:coffee =:coffee
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 10 | 250 | x=(50/0.2) | x 50 0.2 / = | x:soda 50:soda 0.2:diner /:soda =:soda
+EXPR: 1 | POS | INT | 0 | 10 | 10 | (50*0.2)=x | 50 0.2 * x = | 50:soda 0.2:diner *:soda x:soda =:soda
+EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(50*0.2) | x 50 0.2 * = | x:soda 50:soda 0.2:diner *:soda =:soda
+EXPR: 0 | POS | INT | 0 | 10 | 250 | (50/0.2)=x | 50 0.2 / x = | 50:soda 0.2:diner /:soda x:soda =:soda
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 50=(x/0.2) | 50 x 0.2 / = | 50:soda x:soda 0.2:diner /:soda =:soda
+EXPR: 0 | POS | INT | 2 | 10 | 250 | 50=(x*0.2) | 50 x 0.2 * = | 50:soda x:soda 0.2:diner *:soda =:soda
+EXPR: 0 | POS | INT | 2 | 10 | 250 | 50=(0.2*x) | 50 0.2 x * = | 50:soda 0.2:diner x:soda *:soda =:soda
+EXPR: 0 | POS | INT | 4 | 10 | 250 | (0.2*x)=50 | 0.2 x * 50 = | 0.2:diner x:soda *:soda 50:soda =:soda
+EXPR: 0 | POS | INT | 4 | 10 | 250 | (x*0.2)=50 | x 0.2 * 50 = | x:soda 0.2:diner *:soda 50:soda =:soda
+EXPR: 1 | POS | INT | 4 | 10 | 10 | (x/0.2)=50 | x 0.2 / 50 = | x:soda 0.2:diner /:soda 50:soda =:soda
+EXPR: 0 | POS | FRA | 10 | 10 | 50.2 | (50+0.2)=x | 50 0.2 + x = | 50:soda 0.2:soda +:soda x:soda =:soda
+EXPR: 0 | POS | FRA | 10 | 10 | 50.2 | x=(50+0.2) | x 50 0.2 + = | x:soda 50:soda 0.2:soda +:soda =:soda
+EXPR: 0 | POS | FRA | 10 | 10 | 49.8 | (50-0.2)=x | 50 0.2 - x = | 50:soda 0.2:soda -:soda x:soda =:soda
+EXPR: 0 | POS | FRA | 10 | 10 | 49.8 | x=(50-0.2) | x 50 0.2 - = | x:soda 50:soda 0.2:soda -:soda =:soda
+EXPR: 0 | POS | FRA | 12 | 10 | 49.8 | 50=(x+0.2) | 50 x 0.2 + = | 50:soda x:soda 0.2:soda +:soda =:soda
+EXPR: 0 | POS | FRA | 12 | 10 | 0.004 | 50=(0.2/x) | 50 0.2 x / = | 50:diner 0.2:diner x:soda /:diner =:diner
+EXPR: 0 | POS | FRA | 12 | 10 | 0.004 | (x*50)=0.2 | x 50 * 0.2 = | x:soda 50:diner *:diner 0.2:diner =:diner
+EXPR: 0 | POS | INT | 12 | 10 | 250 | (50/x)=0.2 | 50 x / 0.2 = | 50:diner x:soda /:diner 0.2:diner =:diner
+EXPR: 0 | POS | FRA | 12 | 10 | 0.004 | x=(0.2/50) | x 0.2 50 / = | x:diner 0.2:diner 50:soda /:diner =:diner
+EXPR: 0 | POS | FRA | 12 | 10 | 50.2 | 50=(x-0.2) | 50 x 0.2 - = | 50:soda x:soda 0.2:soda -:soda =:soda
+EXPR: 0 | POS | FRA | 12 | 10 | 0.004 | (0.2/50)=x | 0.2 50 / x = | 0.2:diner 50:soda /:diner x:diner =:diner
+EXPR: 0 | POS | FRA | 12 | 10 | 0.004 | (50*x)=0.2 | 50 x * 0.2 = | 50:diner x:soda *:diner 0.2:diner =:diner
+EXPR: 0 | POS | FRA | 12 | 10 | 50.2 | (x-50)=0.2 | x 50 - 0.2 = | x:soda 50:soda -:soda 0.2:soda =:soda
+EXPR: 0 | POS | FRA | 12 | 10 | 49.8 | (50-x)=0.2 | 50 x - 0.2 = | 50:soda x:soda -:soda 0.2:soda =:soda
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/50)=0.2 | x 50 / 0.2 = | x:diner 50:soda /:diner 0.2:diner =:diner
+EXPR: 0 | POS | FRA | 12 | 10 | 49.8 | 50=(0.2+x) | 50 0.2 x + = | 50:soda 0.2:soda x:soda +:soda =:soda
+EXPR: 1 | POS | INT | 14 | 10 | 10 | 0.2=(x/50) | 0.2 x 50 / = | 0.2:diner x:diner 50:soda /:diner =:diner
+EXPR: 0 | POS | INT | 14 | 10 | 250 | 0.2=(50/x) | 0.2 50 x / = | 0.2:diner 50:diner x:soda /:diner =:diner
+EXPR: 0 | POS | FRA | 14 | 10 | 49.8 | (0.2+x)=50 | 0.2 x + 50 = | 0.2:soda x:soda +:soda 50:soda =:soda
+EXPR: 0 | POS | FRA | 14 | 10 | 49.8 | (x+0.2)=50 | x 0.2 + 50 = | x:soda 0.2:soda +:soda 50:soda =:soda
+EXPR: 0 | POS | FRA | 14 | 10 | 0.004 | 0.2=(50*x) | 0.2 50 x * = | 0.2:diner 50:soda x:diner *:diner =:diner
+EXPR: 0 | POS | FRA | 14 | 10 | 0.004 | (0.2/x)=50 | 0.2 x / 50 = | 0.2:diner x:soda /:diner 50:diner =:diner
+EXPR: 0 | POS | FRA | 14 | 10 | 49.8 | 0.2=(50-x) | 0.2 50 x - = | 0.2:soda 50:soda x:soda -:soda =:soda
+EXPR: 0 | POS | FRA | 14 | 10 | 50.2 | 0.2=(x-50) | 0.2 x 50 - = | 0.2:soda x:soda 50:soda -:soda =:soda
+EXPR: 0 | POS | FRA | 14 | 10 | 0.004 | 0.2=(x*50) | 0.2 x 50 * = | 0.2:diner x:soda 50:diner *:diner =:diner
+EXPR: 0 | POS | FRA | 14 | 10 | 50.2 | (x-0.2)=50 | x 0.2 - 50 = | x:soda 0.2:soda -:soda 50:soda =:soda
+NET 36 unique, non-negative solutions found out of 136 total solutions

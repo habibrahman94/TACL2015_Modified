@@ -1,5 +1,5 @@
-quantities : 90 117 x
-types : "employee" "employee" "they"
+quantities : 0.375 0.5 x
+types : "inch" "inch" "hair"
 operators : + - * / =
 n : 5
-answer : 30.0
+answer : 0.875

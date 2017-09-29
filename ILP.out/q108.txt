@@ -1,5 +1,5 @@
-quantities : 0.3 100 x
-types : "time" "student" "student"
+quantities : 10 0.1 x
+types : "employee" "slides" "employee"
 operators : + - * / =
 n : 5
-answer : 30.0
+answer : 1.0

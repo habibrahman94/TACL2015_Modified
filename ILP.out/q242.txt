@@ -1,5 +1,0 @@
-quantities : 98,700 108,570 x
-types : "dollar" "dollar" "family"
-operators : + - * / =
-n : 5
-answer : 10.0

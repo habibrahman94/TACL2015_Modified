@@ -1,5 +1,5 @@
-quantities : 100 0.7 x
-types : "people" "company" "people"
+quantities : 64 0.25 x
+types : "student" "time" "student"
 operators : + - * / =
 n : 5
-answer : 70.0
+answer : 16.0

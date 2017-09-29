@@ -1,5 +1,5 @@
-quantities : 70 0.9 x
-types : "button" "bag" "button"
+quantities : 70 0.1 x
+types : "tree" "time" "tree"
 operators : + - * / =
 n : 5
-answer : 63.0
+answer : 7.0

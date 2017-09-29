@@ -1,5 +1,5 @@
-quantities : 0.5 6 x
-types : "club" "member" "member"
+quantities : 70 0.2 x
+types : "dollar" "event" "cost"
 operators : + - * / =
 n : 5
-answer : 3.0
+answer : 84.0

@@ -1,5 +1,5 @@
-quantities : 43 86 x
-types : "magazine" "magazine" "UNKNOWN"
+quantities : 100 0.14 x
+types : "people" "decrease" "employee"
 operators : + - * / =
 n : 5
-answer : 50.0
+answer : 14.0

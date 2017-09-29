@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 0 | 9 | 9 | x=(0.75*12) | x 0.75 12 * = | x:student 0.75:time 12:student *:student =:student
-EXPR: 1 | POS | INT | 0 | 9 | 9 | (0.75*12)=x | 0.75 12 * x = | 0.75:time 12:student *:student x:student =:student
-EXPR: 0 | POS | INT | 2 | 9 | 16 | (12/0.75)=x | 12 0.75 / x = | 12:student 0.75:time /:student x:student =:student
-EXPR: 0 | POS | INT | 2 | 9 | 16 | (0.75*x)=12 | 0.75 x * 12 = | 0.75:time x:student *:student 12:student =:student
-EXPR: 1 | POS | INT | 2 | 9 | 9 | (x/0.75)=12 | x 0.75 / 12 = | x:student 0.75:time /:student 12:student =:student
-EXPR: 0 | POS | INT | 2 | 9 | 16 | (x*0.75)=12 | x 0.75 * 12 = | x:student 0.75:time *:student 12:student =:student
-EXPR: 0 | POS | INT | 2 | 9 | 16 | x=(12/0.75) | x 12 0.75 / = | x:student 12:student 0.75:time /:student =:student
-EXPR: 0 | POS | INT | 4 | 9 | 16 | 12=(x*0.75) | 12 x 0.75 * = | 12:student x:student 0.75:time *:student =:student
-EXPR: 0 | POS | INT | 4 | 9 | 16 | 12=(0.75*x) | 12 0.75 x * = | 12:student 0.75:time x:student *:student =:student
-EXPR: 1 | POS | INT | 4 | 9 | 9 | 12=(x/0.75) | 12 x 0.75 / = | 12:student x:student 0.75:time /:student =:student
-EXPR: 0 | POS | FRA | 10 | 9 | 0.0625 | (0.75/12)=x | 0.75 12 / x = | 0.75:time 12:student /:time x:time =:time
-EXPR: 0 | POS | FRA | 10 | 9 | 12.75 | (0.75+12)=x | 0.75 12 + x = | 0.75:student 12:student +:student x:student =:student
-EXPR: 0 | POS | FRA | 10 | 9 | 12.75 | x=(0.75+12) | x 0.75 12 + = | x:student 0.75:student 12:student +:student =:student
-EXPR: 0 | POS | FRA | 10 | 9 | 0.0625 | x=(0.75/12) | x 0.75 12 / = | x:time 0.75:time 12:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 9 | 0.0625 | 0.75=(x*12) | 0.75 x 12 * = | 0.75:time x:time 12:student *:time =:time
-EXPR: 0 | POS | INT | 12 | 9 | 16 | 0.75=(12/x) | 0.75 12 x / = | 0.75:time 12:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 9 | 12.75 | (x-0.75)=12 | x 0.75 - 12 = | x:student 0.75:student -:student 12:student =:student
-EXPR: 0 | POS | FRA | 12 | 9 | 0.0625 | (0.75/x)=12 | 0.75 x / 12 = | 0.75:time x:student /:time 12:time =:time
-EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | (12-0.75)=x | 12 0.75 - x = | 12:student 0.75:student -:student x:student =:student
-EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | (x+0.75)=12 | x 0.75 + 12 = | x:student 0.75:student +:student 12:student =:student
-EXPR: 0 | POS | FRA | 12 | 9 | 0.0625 | 0.75=(12*x) | 0.75 12 x * = | 0.75:time 12:time x:student *:time =:time
-EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | (0.75+x)=12 | 0.75 x + 12 = | 0.75:student x:student +:student 12:student =:student
-EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | 0.75=(12-x) | 0.75 12 x - = | 0.75:student 12:student x:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 9 | 11.25 | x=(12-0.75) | x 12 0.75 - = | x:student 12:student 0.75:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 9 | 12.75 | 0.75=(x-12) | 0.75 x 12 - = | 0.75:student x:student 12:student -:student =:student
-EXPR: 1 | POS | INT | 12 | 9 | 9 | 0.75=(x/12) | 0.75 x 12 / = | 0.75:time x:time 12:student /:time =:time
-EXPR: 0 | POS | INT | 14 | 9 | 16 | (12/x)=0.75 | 12 x / 0.75 = | 12:time x:student /:time 0.75:time =:time
-EXPR: 1 | POS | INT | 14 | 9 | 9 | (x/12)=0.75 | x 12 / 0.75 = | x:time 12:student /:time 0.75:time =:time
-EXPR: 0 | POS | FRA | 14 | 9 | 0.0625 | 12=(0.75/x) | 12 0.75 x / = | 12:time 0.75:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 14 | 9 | 11.25 | (12-x)=0.75 | 12 x - 0.75 = | 12:student x:student -:student 0.75:student =:student
-EXPR: 0 | POS | FRA | 14 | 9 | 0.0625 | (12*x)=0.75 | 12 x * 0.75 = | 12:time x:student *:time 0.75:time =:time
-EXPR: 0 | POS | FRA | 14 | 9 | 11.25 | 12=(0.75+x) | 12 0.75 x + = | 12:student 0.75:student x:student +:student =:student
-EXPR: 0 | POS | FRA | 14 | 9 | 0.0625 | (x*12)=0.75 | x 12 * 0.75 = | x:student 12:time *:time 0.75:time =:time
-EXPR: 0 | POS | FRA | 14 | 9 | 12.75 | (x-12)=0.75 | x 12 - 0.75 = | x:student 12:student -:student 0.75:student =:student
-EXPR: 0 | POS | FRA | 14 | 9 | 12.75 | 12=(x-0.75) | 12 x 0.75 - = | 12:student x:student 0.75:student -:student =:student
-EXPR: 0 | POS | FRA | 14 | 9 | 11.25 | 12=(x+0.75) | 12 x 0.75 + = | 12:student x:student 0.75:student +:student =:student
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 2 | 2 | (0.25*8)=x | 0.25 8 * x = | 0.25:time 8:bikini *:bikini x:bikini =:bikini
+EXPR: 0 | POS | FRA | 10 | 2 | 0.03125 | (0.25/8)=x | 0.25 8 / x = | 0.25:bikini 8:style /:bikini x:bikini =:bikini
+EXPR: 1 | POS | INT | 10 | 2 | 2 | x=(0.25*8) | x 0.25 8 * = | x:time 0.25:time 8:style *:time =:time
+EXPR: 0 | POS | FRA | 10 | 2 | 0.03125 | x=(0.25/8) | x 0.25 8 / = | x:bikini 0.25:bikini 8:style /:bikini =:bikini
+EXPR: 0 | POS | INT | 12 | 2 | 32 | (0.25*x)=8 | 0.25 x * 8 = | 0.25:time x:style *:style 8:style =:style
+EXPR: 0 | POS | INT | 12 | 2 | 32 | x=(8/0.25) | x 8 0.25 / = | x:style 8:style 0.25:time /:style =:style
+EXPR: 0 | POS | INT | 12 | 2 | 32 | 0.25=(8/x) | 0.25 8 x / = | 0.25:style 8:style x:bikini /:style =:style
+EXPR: 0 | POS | FRA | 12 | 2 | 0.03125 | 0.25=(8*x) | 0.25 8 x * = | 0.25:bikini 8:style x:bikini *:bikini =:bikini
+EXPR: 0 | POS | FRA | 12 | 2 | 0.03125 | (0.25/x)=8 | 0.25 x / 8 = | 0.25:style x:bikini /:style 8:style =:style
+EXPR: 0 | POS | FRA | 12 | 2 | 0.03125 | 0.25=(x*8) | 0.25 x 8 * = | 0.25:bikini x:bikini 8:style *:bikini =:bikini
+EXPR: 1 | POS | INT | 12 | 2 | 2 | 0.25=(x/8) | 0.25 x 8 / = | 0.25:bikini x:bikini 8:style /:bikini =:bikini
+EXPR: 0 | POS | INT | 12 | 2 | 32 | (x*0.25)=8 | x 0.25 * 8 = | x:bikini 0.25:style *:style 8:style =:style
+EXPR: 1 | POS | INT | 12 | 2 | 2 | (x/0.25)=8 | x 0.25 / 8 = | x:bikini 0.25:time /:bikini 8:bikini =:bikini
+EXPR: 0 | POS | INT | 12 | 2 | 32 | (8/0.25)=x | 8 0.25 / x = | 8:bikini 0.25:time /:bikini x:bikini =:bikini
+EXPR: 0 | POS | INT | 14 | 2 | 32 | (8/x)=0.25 | 8 x / 0.25 = | 8:time x:bikini /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 14 | 2 | 0.03125 | (8*x)=0.25 | 8 x * 0.25 = | 8:time x:bikini *:time 0.25:time =:time
+EXPR: 1 | POS | INT | 14 | 2 | 2 | (x/8)=0.25 | x 8 / 0.25 = | x:time 8:style /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 14 | 2 | 0.03125 | (x*8)=0.25 | x 8 * 0.25 = | x:time 8:style *:time 0.25:time =:time
+EXPR: 0 | POS | INT | 14 | 2 | 32 | 8=(0.25*x) | 8 0.25 x * = | 8:style 0.25:time x:style *:style =:style
+EXPR: 0 | POS | INT | 14 | 2 | 32 | 8=(x*0.25) | 8 x 0.25 * = | 8:style x:bikini 0.25:style *:style =:style
+EXPR: 1 | POS | INT | 14 | 2 | 2 | 8=(x/0.25) | 8 x 0.25 / = | 8:bikini x:bikini 0.25:time /:bikini =:bikini
+EXPR: 0 | POS | FRA | 14 | 2 | 0.03125 | 8=(0.25/x) | 8 0.25 x / = | 8:time 0.25:time x:bikini /:time =:time
+EXPR: 0 | POS | FRA | 20 | 2 | 8.25 | x=(0.25+8) | x 0.25 8 + = | x:time 0.25:time 8:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 2 | 8.25 | (0.25+8)=x | 0.25 8 + x = | 0.25:time 8:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 2 | 8.25 | 0.25=(x-8) | 0.25 x 8 - = | 0.25:time x:time 8:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 2 | 7.75 | 0.25=(8-x) | 0.25 8 x - = | 0.25:style 8:style x:style -:style =:style
+EXPR: 0 | POS | FRA | 22 | 2 | 7.75 | x=(8-0.25) | x 8 0.25 - = | x:style 8:style 0.25:style -:style =:style
+EXPR: 0 | POS | FRA | 22 | 2 | 7.75 | (x+0.25)=8 | x 0.25 + 8 = | x:style 0.25:style +:style 8:style =:style
+EXPR: 0 | POS | FRA | 22 | 2 | 8.25 | (x-0.25)=8 | x 0.25 - 8 = | x:style 0.25:style -:style 8:style =:style
+EXPR: 0 | POS | FRA | 22 | 2 | 7.75 | (0.25+x)=8 | 0.25 x + 8 = | 0.25:time x:time +:time 8:time =:time
+EXPR: 0 | POS | FRA | 22 | 2 | 7.75 | (8-0.25)=x | 8 0.25 - x = | 8:bikini 0.25:bikini -:bikini x:bikini =:bikini
+EXPR: 0 | POS | FRA | 24 | 2 | 7.75 | 8=(x+0.25) | 8 x 0.25 + = | 8:time x:time 0.25:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 2 | 7.75 | (8-x)=0.25 | 8 x - 0.25 = | 8:time x:time -:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 24 | 2 | 8.25 | (x-8)=0.25 | x 8 - 0.25 = | x:time 8:time -:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 24 | 2 | 8.25 | 8=(x-0.25) | 8 x 0.25 - = | 8:time x:time 0.25:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 2 | 7.75 | 8=(0.25+x) | 8 0.25 x + = | 8:bikini 0.25:bikini x:bikini +:bikini =:bikini
+NET 36 unique, non-negative solutions found out of 324 total solutions

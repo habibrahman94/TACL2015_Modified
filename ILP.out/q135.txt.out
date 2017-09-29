@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 23 | 23 | (0.25*92)=x | 0.25 92 * x = | 0.25:time 92:cap *:cap x:cap =:cap
-EXPR: 0 | POS | FRA | 10 | 23 | 0.00271739130434783 | (0.25/92)=x | 0.25 92 / x = | 0.25:cap 92:hat /:cap x:cap =:cap
-EXPR: 1 | POS | INT | 10 | 23 | 23 | x=(0.25*92) | x 0.25 92 * = | x:time 0.25:time 92:hat *:time =:time
-EXPR: 0 | POS | FRA | 10 | 23 | 0.00271739130434783 | x=(0.25/92) | x 0.25 92 / = | x:cap 0.25:cap 92:hat /:cap =:cap
-EXPR: 0 | POS | INT | 12 | 23 | 368 | (0.25*x)=92 | 0.25 x * 92 = | 0.25:time x:hat *:hat 92:hat =:hat
-EXPR: 0 | POS | INT | 12 | 23 | 368 | x=(92/0.25) | x 92 0.25 / = | x:hat 92:hat 0.25:time /:hat =:hat
-EXPR: 0 | POS | INT | 12 | 23 | 368 | 0.25=(92/x) | 0.25 92 x / = | 0.25:hat 92:hat x:cap /:hat =:hat
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | 0.25=(92*x) | 0.25 92 x * = | 0.25:cap 92:hat x:cap *:cap =:cap
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | (0.25/x)=92 | 0.25 x / 92 = | 0.25:hat x:cap /:hat 92:hat =:hat
-EXPR: 0 | POS | FRA | 12 | 23 | 0.00271739130434783 | 0.25=(x*92) | 0.25 x 92 * = | 0.25:cap x:cap 92:hat *:cap =:cap
-EXPR: 1 | POS | INT | 12 | 23 | 23 | 0.25=(x/92) | 0.25 x 92 / = | 0.25:cap x:cap 92:hat /:cap =:cap
-EXPR: 0 | POS | INT | 12 | 23 | 368 | (x*0.25)=92 | x 0.25 * 92 = | x:cap 0.25:hat *:hat 92:hat =:hat
-EXPR: 1 | POS | INT | 12 | 23 | 23 | (x/0.25)=92 | x 0.25 / 92 = | x:cap 0.25:time /:cap 92:cap =:cap
-EXPR: 0 | POS | INT | 12 | 23 | 368 | (92/0.25)=x | 92 0.25 / x = | 92:cap 0.25:time /:cap x:cap =:cap
-EXPR: 0 | POS | INT | 14 | 23 | 368 | (92/x)=0.25 | 92 x / 0.25 = | 92:time x:cap /:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 14 | 23 | 0.00271739130434783 | (92*x)=0.25 | 92 x * 0.25 = | 92:time x:cap *:time 0.25:time =:time
-EXPR: 1 | POS | INT | 14 | 23 | 23 | (x/92)=0.25 | x 92 / 0.25 = | x:time 92:hat /:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 14 | 23 | 0.00271739130434783 | (x*92)=0.25 | x 92 * 0.25 = | x:time 92:hat *:time 0.25:time =:time
-EXPR: 0 | POS | INT | 14 | 23 | 368 | 92=(0.25*x) | 92 0.25 x * = | 92:hat 0.25:time x:hat *:hat =:hat
-EXPR: 0 | POS | INT | 14 | 23 | 368 | 92=(x*0.25) | 92 x 0.25 * = | 92:hat x:cap 0.25:hat *:hat =:hat
-EXPR: 1 | POS | INT | 14 | 23 | 23 | 92=(x/0.25) | 92 x 0.25 / = | 92:cap x:cap 0.25:time /:cap =:cap
-EXPR: 0 | POS | FRA | 14 | 23 | 0.00271739130434783 | 92=(0.25/x) | 92 0.25 x / = | 92:time 0.25:time x:cap /:time =:time
-EXPR: 0 | POS | FRA | 20 | 23 | 92.25 | x=(0.25+92) | x 0.25 92 + = | x:time 0.25:time 92:time +:time =:time
-EXPR: 0 | POS | FRA | 20 | 23 | 92.25 | (0.25+92)=x | 0.25 92 + x = | 0.25:time 92:time +:time x:time =:time
-EXPR: 0 | POS | FRA | 22 | 23 | 92.25 | 0.25=(x-92) | 0.25 x 92 - = | 0.25:time x:time 92:time -:time =:time
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | 0.25=(92-x) | 0.25 92 x - = | 0.25:hat 92:hat x:hat -:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | x=(92-0.25) | x 92 0.25 - = | x:hat 92:hat 0.25:hat -:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | (x+0.25)=92 | x 0.25 + 92 = | x:hat 0.25:hat +:hat 92:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 23 | 92.25 | (x-0.25)=92 | x 0.25 - 92 = | x:hat 0.25:hat -:hat 92:hat =:hat
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | (0.25+x)=92 | 0.25 x + 92 = | 0.25:time x:time +:time 92:time =:time
-EXPR: 0 | POS | FRA | 22 | 23 | 91.75 | (92-0.25)=x | 92 0.25 - x = | 92:cap 0.25:cap -:cap x:cap =:cap
-EXPR: 0 | POS | FRA | 24 | 23 | 91.75 | 92=(x+0.25) | 92 x 0.25 + = | 92:time x:time 0.25:time +:time =:time
-EXPR: 0 | POS | FRA | 24 | 23 | 91.75 | (92-x)=0.25 | 92 x - 0.25 = | 92:time x:time -:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 24 | 23 | 92.25 | (x-92)=0.25 | x 92 - 0.25 = | x:time 92:time -:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 24 | 23 | 92.25 | 92=(x-0.25) | 92 x 0.25 - = | 92:time x:time 0.25:time -:time =:time
-EXPR: 0 | POS | FRA | 24 | 23 | 91.75 | 92=(0.25+x) | 92 0.25 x + = | 92:cap 0.25:cap x:cap +:cap =:cap
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(0.5*20) | x 0.5 20 * = | x:ticket 0.5:time 20:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 0 | 10 | 10 | (0.5*20)=x | 0.5 20 * x = | 0.5:time 20:ticket *:ticket x:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 10 | 40 | (20/0.5)=x | 20 0.5 / x = | 20:ticket 0.5:time /:ticket x:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 10 | 40 | (0.5*x)=20 | 0.5 x * 20 = | 0.5:time x:ticket *:ticket 20:ticket =:ticket
+EXPR: 1 | POS | INT | 2 | 10 | 10 | (x/0.5)=20 | x 0.5 / 20 = | x:ticket 0.5:time /:ticket 20:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 10 | 40 | (x*0.5)=20 | x 0.5 * 20 = | x:ticket 0.5:time *:ticket 20:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 10 | 40 | x=(20/0.5) | x 20 0.5 / = | x:ticket 20:ticket 0.5:time /:ticket =:ticket
+EXPR: 0 | POS | INT | 4 | 10 | 40 | 20=(x*0.5) | 20 x 0.5 * = | 20:ticket x:ticket 0.5:time *:ticket =:ticket
+EXPR: 0 | POS | INT | 4 | 10 | 40 | 20=(0.5*x) | 20 0.5 x * = | 20:ticket 0.5:time x:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 4 | 10 | 10 | 20=(x/0.5) | 20 x 0.5 / = | 20:ticket x:ticket 0.5:time /:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 10 | 0.025 | (0.5/20)=x | 0.5 20 / x = | 0.5:time 20:ticket /:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 10 | 20.5 | (0.5+20)=x | 0.5 20 + x = | 0.5:ticket 20:ticket +:ticket x:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 10 | 20.5 | x=(0.5+20) | x 0.5 20 + = | x:ticket 0.5:ticket 20:ticket +:ticket =:ticket
+EXPR: 0 | POS | FRA | 10 | 10 | 0.025 | x=(0.5/20) | x 0.5 20 / = | x:time 0.5:time 20:ticket /:time =:time
+EXPR: 0 | POS | FRA | 12 | 10 | 0.025 | 0.5=(x*20) | 0.5 x 20 * = | 0.5:time x:time 20:ticket *:time =:time
+EXPR: 0 | POS | INT | 12 | 10 | 40 | 0.5=(20/x) | 0.5 20 x / = | 0.5:time 20:time x:ticket /:time =:time
+EXPR: 0 | POS | FRA | 12 | 10 | 20.5 | (x-0.5)=20 | x 0.5 - 20 = | x:ticket 0.5:ticket -:ticket 20:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 10 | 0.025 | (0.5/x)=20 | 0.5 x / 20 = | 0.5:time x:ticket /:time 20:time =:time
+EXPR: 0 | POS | FRA | 12 | 10 | 19.5 | (20-0.5)=x | 20 0.5 - x = | 20:ticket 0.5:ticket -:ticket x:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 10 | 19.5 | (x+0.5)=20 | x 0.5 + 20 = | x:ticket 0.5:ticket +:ticket 20:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 10 | 0.025 | 0.5=(20*x) | 0.5 20 x * = | 0.5:time 20:time x:ticket *:time =:time
+EXPR: 0 | POS | FRA | 12 | 10 | 19.5 | (0.5+x)=20 | 0.5 x + 20 = | 0.5:ticket x:ticket +:ticket 20:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 10 | 19.5 | 0.5=(20-x) | 0.5 20 x - = | 0.5:ticket 20:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 10 | 19.5 | x=(20-0.5) | x 20 0.5 - = | x:ticket 20:ticket 0.5:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 10 | 20.5 | 0.5=(x-20) | 0.5 x 20 - = | 0.5:ticket x:ticket 20:ticket -:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 10 | 10 | 0.5=(x/20) | 0.5 x 20 / = | 0.5:time x:time 20:ticket /:time =:time
+EXPR: 0 | POS | INT | 14 | 10 | 40 | (20/x)=0.5 | 20 x / 0.5 = | 20:time x:ticket /:time 0.5:time =:time
+EXPR: 1 | POS | INT | 14 | 10 | 10 | (x/20)=0.5 | x 20 / 0.5 = | x:time 20:ticket /:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 10 | 0.025 | 20=(0.5/x) | 20 0.5 x / = | 20:time 0.5:time x:ticket /:time =:time
+EXPR: 0 | POS | FRA | 14 | 10 | 19.5 | (20-x)=0.5 | 20 x - 0.5 = | 20:ticket x:ticket -:ticket 0.5:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 10 | 0.025 | (20*x)=0.5 | 20 x * 0.5 = | 20:time x:ticket *:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 10 | 19.5 | 20=(0.5+x) | 20 0.5 x + = | 20:ticket 0.5:ticket x:ticket +:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 10 | 0.025 | (x*20)=0.5 | x 20 * 0.5 = | x:ticket 20:time *:time 0.5:time =:time
+EXPR: 0 | POS | FRA | 14 | 10 | 20.5 | (x-20)=0.5 | x 20 - 0.5 = | x:ticket 20:ticket -:ticket 0.5:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 10 | 20.5 | 20=(x-0.5) | 20 x 0.5 - = | 20:ticket x:ticket 0.5:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 10 | 19.5 | 20=(x+0.5) | 20 x 0.5 + = | 20:ticket x:ticket 0.5:ticket +:ticket =:ticket
+NET 36 unique, non-negative solutions found out of 136 total solutions

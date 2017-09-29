@@ -1,24 +1,6 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=11 l=5 k=1 p=5 q=3 m=11
+TOTAL 4 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 40 | 75 | x=(30+45) | x 30 45 + = | x:milkshake 30:milkshake 45:milkshake +:milkshake =:milkshake
-EXPR: 0 | POS | INT | 10 | 40 | 1350 | x=(30*45) | x 30 45 * = | x:UNKNOWN 30:milkshake 45:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 40 | 1350 | (30*45)=x | 30 45 * x = | 30:milkshake 45:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 40 | 75 | (30+45)=x | 30 45 + x = | 30:milkshake 45:milkshake +:milkshake x:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 15 | 30=(45-x) | 30 45 x - = | 30:milkshake 45:milkshake x:milkshake -:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 1350 | (x/30)=45 | x 30 / 45 = | x:UNKNOWN 30:milkshake /:UNKNOWN 45:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 40 | 75 | (x-30)=45 | x 30 - 45 = | x:milkshake 30:milkshake -:milkshake 45:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 75 | 30=(x-45) | 30 x 45 - = | 30:milkshake x:milkshake 45:milkshake -:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 15 | (45-30)=x | 45 30 - x = | 45:milkshake 30:milkshake -:milkshake x:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 15 | x=(45-30) | x 45 30 - = | x:milkshake 45:milkshake 30:milkshake -:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 15 | (x+30)=45 | x 30 + 45 = | x:milkshake 30:milkshake +:milkshake 45:milkshake =:milkshake
-EXPR: 0 | POS | INT | 12 | 40 | 1350 | 30=(x/45) | 30 x 45 / = | 30:UNKNOWN x:UNKNOWN 45:milkshake /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 40 | 15 | (30+x)=45 | 30 x + 45 = | 30:milkshake x:milkshake +:milkshake 45:milkshake =:milkshake
-EXPR: 0 | POS | INT | 14 | 40 | 15 | (45-x)=30 | 45 x - 30 = | 45:milkshake x:milkshake -:milkshake 30:milkshake =:milkshake
-EXPR: 0 | POS | INT | 14 | 40 | 75 | (x-45)=30 | x 45 - 30 = | x:milkshake 45:milkshake -:milkshake 30:milkshake =:milkshake
-EXPR: 0 | POS | INT | 14 | 40 | 1350 | 45=(x/30) | 45 x 30 / = | 45:UNKNOWN x:UNKNOWN 30:milkshake /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 40 | 1350 | (x/45)=30 | x 45 / 30 = | x:UNKNOWN 45:milkshake /:UNKNOWN 30:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 40 | 15 | 45=(30+x) | 45 30 x + = | 45:milkshake 30:milkshake x:milkshake +:milkshake =:milkshake
-EXPR: 0 | POS | INT | 14 | 40 | 75 | 45=(x-30) | 45 x 30 - = | 45:milkshake x:milkshake 30:milkshake -:milkshake =:milkshake
-EXPR: 0 | POS | INT | 14 | 40 | 15 | 45=(x+30) | 45 x 30 + = | 45:milkshake x:milkshake 30:milkshake +:milkshake =:milkshake
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 0 | 1711 | 23816317309 | (((2009*5900)*(2010-0.71))+2010)=x | 2009 5900 * 2010 0.71 - * 2010 + x = | 2009:time 5900:dollar *:time 2010:Gordon 0.71:Gordon -:Gordon *:Gordon 2010:Gordon +:Gordon x:Gordon =:Gordon
+EXPR: 0 | POS | FRA | 21 | 1711 | 0.923116949152542 | ((((2009*0.71)+2010)+2010)/5900)=x | 2009 0.71 * 2010 + 2010 + 5900 / x = | 2009:time 0.71:Gordon *:Gordon 2010:Gordon +:Gordon 2010:Gordon +:Gordon 5900:time /:Gordon x:Gordon =:Gordon
+NET 2 unique, non-negative solutions found out of 4 total solutions

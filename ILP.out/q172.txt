@@ -1,5 +1,5 @@
-quantities : 27 54 x
-types : "election" "member" "UNKNOWN"
+quantities : 16 0.25 x
+types : "dollar" "Boutique" "Boutique"
 operators : + - * / =
 n : 5
-answer : 50.0
+answer : 20.0

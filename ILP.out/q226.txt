@@ -1,5 +1,5 @@
-quantities : 40 0.15 x
-types : "farenhite" "time" "low"
+quantities : 0.7 0.6 x
+types : "mile" "mile" "mile"
 operators : + - * / =
 n : 5
-answer : 46.0
+answer : 0.1

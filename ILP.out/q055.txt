@@ -1,5 +1,5 @@
-quantities : 64 0.75 x
-types : "pizza" "cafeteria" "mushroom"
+quantities : 92 0.25 x
+types : "student" "time" "people"
 operators : + - * / =
 n : 5
-answer : 48.0
+answer : 23.0

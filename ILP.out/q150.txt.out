@@ -1,24 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 30 | 70 | x=(21+49) | x 21 49 + = | x:mug 21:mug 49:mug +:mug =:mug
-EXPR: 0 | POS | INT | 10 | 30 | 1029 | x=(21*49) | x 21 49 * = | x:UNKNOWN 21:mug 49:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 30 | 1029 | (21*49)=x | 21 49 * x = | 21:mug 49:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 30 | 70 | (21+49)=x | 21 49 + x = | 21:mug 49:mug +:mug x:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 28 | 21=(49-x) | 21 49 x - = | 21:mug 49:mug x:mug -:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 1029 | (x/21)=49 | x 21 / 49 = | x:UNKNOWN 21:mug /:UNKNOWN 49:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 30 | 70 | (x-21)=49 | x 21 - 49 = | x:mug 21:mug -:mug 49:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 70 | 21=(x-49) | 21 x 49 - = | 21:mug x:mug 49:mug -:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 28 | (49-21)=x | 49 21 - x = | 49:mug 21:mug -:mug x:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 28 | x=(49-21) | x 49 21 - = | x:mug 49:mug 21:mug -:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 28 | (x+21)=49 | x 21 + 49 = | x:mug 21:mug +:mug 49:mug =:mug
-EXPR: 0 | POS | INT | 12 | 30 | 1029 | 21=(x/49) | 21 x 49 / = | 21:UNKNOWN x:UNKNOWN 49:mug /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 30 | 28 | (21+x)=49 | 21 x + 49 = | 21:mug x:mug +:mug 49:mug =:mug
-EXPR: 0 | POS | INT | 14 | 30 | 28 | (49-x)=21 | 49 x - 21 = | 49:mug x:mug -:mug 21:mug =:mug
-EXPR: 0 | POS | INT | 14 | 30 | 70 | (x-49)=21 | x 49 - 21 = | x:mug 49:mug -:mug 21:mug =:mug
-EXPR: 0 | POS | INT | 14 | 30 | 1029 | 49=(x/21) | 49 x 21 / = | 49:UNKNOWN x:UNKNOWN 21:mug /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 30 | 1029 | (x/49)=21 | x 49 / 21 = | x:UNKNOWN 49:mug /:UNKNOWN 21:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 30 | 28 | 49=(21+x) | 49 21 x + = | 49:mug 21:mug x:mug +:mug =:mug
-EXPR: 0 | POS | INT | 14 | 30 | 70 | 49=(x-21) | 49 x 21 - = | 49:mug x:mug 21:mug -:mug =:mug
-EXPR: 0 | POS | INT | 14 | 30 | 28 | 49=(x+21) | 49 x 21 + = | 49:mug x:mug 21:mug +:mug =:mug
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 46 | 6 | (40*0.15)=x | 40 0.15 * x = | 40:farenhite 0.15:low *:low x:low =:low
+EXPR: 0 | POS | FRA | 10 | 46 | 266.666666666667 | (40/0.15)=x | 40 0.15 / x = | 40:low 0.15:time /:low x:low =:low
+EXPR: 0 | POS | INT | 10 | 46 | 6 | x=(40*0.15) | x 40 0.15 * = | x:farenhite 40:farenhite 0.15:time *:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 10 | 46 | 266.666666666667 | x=(40/0.15) | x 40 0.15 / = | x:low 40:low 0.15:time /:low =:low
+EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | (40*x)=0.15 | 40 x * 0.15 = | 40:farenhite x:time *:time 0.15:time =:time
+EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | x=(0.15/40) | x 0.15 40 / = | x:time 0.15:time 40:farenhite /:time =:time
+EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | 40=(0.15/x) | 40 0.15 x / = | 40:time 0.15:time x:low /:time =:time
+EXPR: 0 | POS | FRA | 12 | 46 | 266.666666666667 | 40=(0.15*x) | 40 0.15 x * = | 40:low 0.15:time x:low *:low =:low
+EXPR: 0 | POS | FRA | 12 | 46 | 266.666666666667 | (40/x)=0.15 | 40 x / 0.15 = | 40:time x:low /:time 0.15:time =:time
+EXPR: 0 | POS | FRA | 12 | 46 | 266.666666666667 | 40=(x*0.15) | 40 x 0.15 * = | 40:low x:low 0.15:time *:low =:low
+EXPR: 0 | POS | INT | 12 | 46 | 6 | 40=(x/0.15) | 40 x 0.15 / = | 40:low x:low 0.15:time /:low =:low
+EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | (x*40)=0.15 | x 40 * 0.15 = | x:low 40:time *:time 0.15:time =:time
+EXPR: 0 | POS | INT | 12 | 46 | 6 | (x/40)=0.15 | x 40 / 0.15 = | x:low 40:farenhite /:low 0.15:low =:low
+EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | (0.15/40)=x | 0.15 40 / x = | 0.15:low 40:farenhite /:low x:low =:low
+EXPR: 0 | POS | FRA | 14 | 46 | 0.00375 | (0.15/x)=40 | 0.15 x / 40 = | 0.15:farenhite x:low /:farenhite 40:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 14 | 46 | 266.666666666667 | (0.15*x)=40 | 0.15 x * 40 = | 0.15:farenhite x:low *:farenhite 40:farenhite =:farenhite
+EXPR: 0 | POS | INT | 14 | 46 | 6 | (x/0.15)=40 | x 0.15 / 40 = | x:farenhite 0.15:time /:farenhite 40:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 14 | 46 | 266.666666666667 | (x*0.15)=40 | x 0.15 * 40 = | x:farenhite 0.15:time *:farenhite 40:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 14 | 46 | 0.00375 | 0.15=(40*x) | 0.15 40 x * = | 0.15:time 40:farenhite x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 46 | 0.00375 | 0.15=(x*40) | 0.15 x 40 * = | 0.15:time x:low 40:time *:time =:time
+EXPR: 0 | POS | INT | 14 | 46 | 6 | 0.15=(x/40) | 0.15 x 40 / = | 0.15:low x:low 40:farenhite /:low =:low
+EXPR: 0 | POS | FRA | 14 | 46 | 266.666666666667 | 0.15=(40/x) | 0.15 40 x / = | 0.15:farenhite 40:farenhite x:low /:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 20 | 46 | 40.15 | x=(40+0.15) | x 40 0.15 + = | x:farenhite 40:farenhite 0.15:farenhite +:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 20 | 46 | 39.85 | x=(40-0.15) | x 40 0.15 - = | x:low 40:low 0.15:low -:low =:low
+EXPR: 0 | POS | FRA | 20 | 46 | 40.15 | (40+0.15)=x | 40 0.15 + x = | 40:farenhite 0.15:farenhite +:farenhite x:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 20 | 46 | 39.85 | (40-0.15)=x | 40 0.15 - x = | 40:low 0.15:low -:low x:low =:low
+EXPR: 0 | POS | FRA | 22 | 46 | 40.15 | 40=(x-0.15) | 40 x 0.15 - = | 40:farenhite x:farenhite 0.15:farenhite -:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 22 | 46 | 39.85 | 40=(x+0.15) | 40 x 0.15 + = | 40:farenhite x:farenhite 0.15:farenhite +:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 22 | 46 | 40.15 | (x-40)=0.15 | x 40 - 0.15 = | x:time 40:time -:time 0.15:time =:time
+EXPR: 0 | POS | FRA | 22 | 46 | 39.85 | (40-x)=0.15 | 40 x - 0.15 = | 40:farenhite x:farenhite -:farenhite 0.15:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 22 | 46 | 39.85 | 40=(0.15+x) | 40 0.15 x + = | 40:low 0.15:low x:low +:low =:low
+EXPR: 0 | POS | FRA | 24 | 46 | 39.85 | (0.15+x)=40 | 0.15 x + 40 = | 0.15:low x:low +:low 40:low =:low
+EXPR: 0 | POS | FRA | 24 | 46 | 40.15 | (x-0.15)=40 | x 0.15 - 40 = | x:farenhite 0.15:farenhite -:farenhite 40:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 24 | 46 | 39.85 | (x+0.15)=40 | x 0.15 + 40 = | x:low 0.15:low +:low 40:low =:low
+EXPR: 0 | POS | FRA | 24 | 46 | 39.85 | 0.15=(40-x) | 0.15 40 x - = | 0.15:farenhite 40:farenhite x:farenhite -:farenhite =:farenhite
+EXPR: 0 | POS | FRA | 24 | 46 | 40.15 | 0.15=(x-40) | 0.15 x 40 - = | 0.15:farenhite x:farenhite 40:farenhite -:farenhite =:farenhite
+NET 36 unique, non-negative solutions found out of 324 total solutions

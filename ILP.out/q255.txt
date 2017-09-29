@@ -1,5 +1,0 @@
-quantities : 74 40 x
-types : "kilogram" "kilogram" "UNKNOWN"
-operators : + - * / =
-n : 5
-answer : 85.0

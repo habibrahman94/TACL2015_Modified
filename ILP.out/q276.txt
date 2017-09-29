@@ -1,5 +1,0 @@
-quantities : 40000 0.9 x
-types : "dollar" "Fred" "dollar"
-operators : + - * / =
-n : 5
-answer : 36000.0

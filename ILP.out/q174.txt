@@ -1,5 +1,5 @@
-quantities : 30 45 x
-types : "milkshake" "milkshake" "UNKNOWN"
+quantities : 2009 5,900 2010 0.71 x 2010
+types : "time" "dollar" "Gordon" "Gordon" "Gordon" "Gordon"
 operators : + - * / =
-n : 5
-answer : 40.0
+n : 11
+answer : 1711.0

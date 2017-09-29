@@ -1,6 +1,0 @@
-parameters: n=11 l=5 k=1 p=5 q=3 m=11
-TOTAL 4 solutions found
-SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 1711 | 23816317309 | (((2009*5900)*(2010-0.71))+2010)=x | 2009 5900 * 2010 0.71 - * 2010 + x = | 2009:time 5900:dollar *:time 2010:Gordon 0.71:Gordon -:Gordon *:Gordon 2010:Gordon +:Gordon x:Gordon =:Gordon
-EXPR: 0 | POS | FRA | 21 | 1711 | 0.923116949152542 | ((((2009*0.71)+2010)+2010)/5900)=x | 2009 0.71 * 2010 + 2010 + 5900 / x = | 2009:time 0.71:Gordon *:Gordon 2010:Gordon +:Gordon 2010:Gordon +:Gordon 5900:time /:Gordon x:Gordon =:Gordon
-NET 2 unique, non-negative solutions found out of 4 total solutions

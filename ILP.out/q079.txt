@@ -1,5 +1,5 @@
-quantities : 24 0.25 x
-types : "aisle" "supermarket" "aisle"
+quantities : 0.75 52 x
+types : "time" "hat" "cap"
 operators : + - * / =
 n : 5
-answer : 6.0
+answer : 39.0

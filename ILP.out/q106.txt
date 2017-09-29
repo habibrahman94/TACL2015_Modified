@@ -1,5 +1,5 @@
-quantities : 78 0.5 x
-types : "seat" "train" "seat"
+quantities : 0.5 74 x
+types : "time" "cupcake" "cupcake"
 operators : + - * / =
 n : 5
-answer : 39.0
+answer : 37.0

@@ -1,24 +1,24 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 40 | 5 | x=(2+3) | x 2 3 + = | x:employee 2:employee 3:employee +:employee =:employee
-EXPR: 0 | POS | INT | 10 | 40 | 6 | x=(2*3) | x 2 3 * = | x:UNKNOWN 2:employee 3:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 40 | 6 | (2*3)=x | 2 3 * x = | 2:employee 3:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 40 | 5 | (2+3)=x | 2 3 + x = | 2:employee 3:employee +:employee x:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 1 | 2=(3-x) | 2 3 x - = | 2:employee 3:employee x:employee -:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 6 | (x/2)=3 | x 2 / 3 = | x:UNKNOWN 2:employee /:UNKNOWN 3:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 40 | 5 | (x-2)=3 | x 2 - 3 = | x:employee 2:employee -:employee 3:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 5 | 2=(x-3) | 2 x 3 - = | 2:employee x:employee 3:employee -:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 1 | (3-2)=x | 3 2 - x = | 3:employee 2:employee -:employee x:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 1 | x=(3-2) | x 3 2 - = | x:employee 3:employee 2:employee -:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 1 | (x+2)=3 | x 2 + 3 = | x:employee 2:employee +:employee 3:employee =:employee
-EXPR: 0 | POS | INT | 12 | 40 | 6 | 2=(x/3) | 2 x 3 / = | 2:UNKNOWN x:UNKNOWN 3:employee /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 40 | 1 | (2+x)=3 | 2 x + 3 = | 2:employee x:employee +:employee 3:employee =:employee
-EXPR: 0 | POS | INT | 14 | 40 | 1 | (3-x)=2 | 3 x - 2 = | 3:employee x:employee -:employee 2:employee =:employee
-EXPR: 0 | POS | INT | 14 | 40 | 5 | (x-3)=2 | x 3 - 2 = | x:employee 3:employee -:employee 2:employee =:employee
-EXPR: 0 | POS | INT | 14 | 40 | 6 | 3=(x/2) | 3 x 2 / = | 3:UNKNOWN x:UNKNOWN 2:employee /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 40 | 6 | (x/3)=2 | x 3 / 2 = | x:UNKNOWN 3:employee /:UNKNOWN 2:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 40 | 1 | 3=(2+x) | 3 2 x + = | 3:employee 2:employee x:employee +:employee =:employee
-EXPR: 0 | POS | INT | 14 | 40 | 5 | 3=(x-2) | 3 x 2 - = | 3:employee x:employee 2:employee -:employee =:employee
-EXPR: 0 | POS | INT | 14 | 40 | 1 | 3=(x+2) | 3 x 2 + = | 3:employee x:employee 2:employee +:employee =:employee
+EXPR: 0 | POS | INT | 10 | 15 | 629 | x=(340+289) | x 340 289 + = | x:minute 340:minute 289:minute +:minute =:minute
+EXPR: 0 | POS | INT | 10 | 15 | 98260 | x=(340*289) | x 340 289 * = | x:decrease 340:minute 289:decrease *:decrease =:decrease
+EXPR: 0 | POS | INT | 10 | 15 | 51 | (340-289)=x | 340 289 - x = | 340:minute 289:minute -:minute x:minute =:minute
+EXPR: 0 | POS | INT | 10 | 15 | 98260 | (340*289)=x | 340 289 * x = | 340:minute 289:decrease *:decrease x:decrease =:decrease
+EXPR: 0 | POS | INT | 10 | 15 | 51 | x=(340-289) | x 340 289 - = | x:minute 340:minute 289:minute -:minute =:minute
+EXPR: 0 | POS | INT | 10 | 15 | 629 | (340+289)=x | 340 289 + x = | 340:minute 289:minute +:minute x:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 51 | (340-x)=289 | 340 x - 289 = | 340:minute x:minute -:minute 289:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 51 | 340=(289+x) | 340 289 x + = | 340:minute 289:minute x:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 98260 | (x/340)=289 | x 340 / 289 = | x:decrease 340:minute /:decrease 289:decrease =:decrease
+EXPR: 0 | POS | INT | 12 | 15 | 629 | (x-340)=289 | x 340 - 289 = | x:minute 340:minute -:minute 289:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 629 | 340=(x-289) | 340 x 289 - = | 340:minute x:minute 289:minute -:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 51 | 340=(x+289) | 340 x 289 + = | 340:minute x:minute 289:minute +:minute =:minute
+EXPR: 0 | POS | INT | 12 | 15 | 98260 | 340=(x/289) | 340 x 289 / = | 340:decrease x:decrease 289:minute /:decrease =:decrease
+EXPR: 0 | POS | INT | 14 | 15 | 629 | (x-289)=340 | x 289 - 340 = | x:minute 289:minute -:minute 340:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 98260 | 289=(x/340) | 289 x 340 / = | 289:decrease x:decrease 340:minute /:decrease =:decrease
+EXPR: 0 | POS | INT | 14 | 15 | 51 | (x+289)=340 | x 289 + 340 = | x:minute 289:minute +:minute 340:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 98260 | (x/289)=340 | x 289 / 340 = | x:decrease 289:minute /:decrease 340:decrease =:decrease
+EXPR: 0 | POS | INT | 14 | 15 | 51 | 289=(340-x) | 289 340 x - = | 289:minute 340:minute x:minute -:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 51 | (289+x)=340 | 289 x + 340 = | 289:minute x:minute +:minute 340:minute =:minute
+EXPR: 0 | POS | INT | 14 | 15 | 629 | 289=(x-340) | 289 x 340 - = | 289:minute x:minute 340:minute -:minute =:minute
 NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

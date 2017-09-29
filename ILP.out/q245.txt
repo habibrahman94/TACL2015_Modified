@@ -1,5 +1,0 @@
-quantities : 16 4 x
-types : "minute" "minute" "provider"
-operators : + - * / =
-n : 5
-answer : 75.0

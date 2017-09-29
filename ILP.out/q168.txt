@@ -1,5 +1,5 @@
-quantities : 36 12 x
-types : "member" "member" "UNKNOWN"
+quantities : 930 0.1 x
+types : "bookmark" "Books" "bookmark"
 operators : + - * / =
 n : 5
-answer : 75.0
+answer : 1023.0

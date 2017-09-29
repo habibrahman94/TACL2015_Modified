@@ -1,5 +1,5 @@
-quantities : 18 72 x
-types : "burger" "burger" "UNKNOWN"
+quantities : 40 0.2 x
+types : "dollar" "Repair" "mechanic"
 operators : + - * / =
 n : 5
-answer : 20.0
+answer : 48.0

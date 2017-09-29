@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 1 | 100 | x=(10/0.1) | x 10 0.1 / = | x:employee 10:employee 0.1:slides /:employee =:employee
-EXPR: 1 | POS | INT | 0 | 1 | 1 | (10*0.1)=x | 10 0.1 * x = | 10:employee 0.1:slides *:employee x:employee =:employee
-EXPR: 1 | POS | INT | 0 | 1 | 1 | x=(10*0.1) | x 10 0.1 * = | x:employee 10:employee 0.1:slides *:employee =:employee
-EXPR: 0 | POS | INT | 0 | 1 | 100 | (10/0.1)=x | 10 0.1 / x = | 10:employee 0.1:slides /:employee x:employee =:employee
-EXPR: 1 | POS | INT | 2 | 1 | 1 | 10=(x/0.1) | 10 x 0.1 / = | 10:employee x:employee 0.1:slides /:employee =:employee
-EXPR: 0 | POS | INT | 2 | 1 | 100 | 10=(x*0.1) | 10 x 0.1 * = | 10:employee x:employee 0.1:slides *:employee =:employee
-EXPR: 0 | POS | INT | 2 | 1 | 100 | 10=(0.1*x) | 10 0.1 x * = | 10:employee 0.1:slides x:employee *:employee =:employee
-EXPR: 0 | POS | INT | 4 | 1 | 100 | (0.1*x)=10 | 0.1 x * 10 = | 0.1:slides x:employee *:employee 10:employee =:employee
-EXPR: 0 | POS | INT | 4 | 1 | 100 | (x*0.1)=10 | x 0.1 * 10 = | x:employee 0.1:slides *:employee 10:employee =:employee
-EXPR: 1 | POS | INT | 4 | 1 | 1 | (x/0.1)=10 | x 0.1 / 10 = | x:employee 0.1:slides /:employee 10:employee =:employee
-EXPR: 0 | POS | FRA | 10 | 1 | 10.1 | (10+0.1)=x | 10 0.1 + x = | 10:employee 0.1:employee +:employee x:employee =:employee
-EXPR: 0 | POS | FRA | 10 | 1 | 10.1 | x=(10+0.1) | x 10 0.1 + = | x:employee 10:employee 0.1:employee +:employee =:employee
-EXPR: 0 | POS | FRA | 10 | 1 | 9.9 | (10-0.1)=x | 10 0.1 - x = | 10:employee 0.1:employee -:employee x:employee =:employee
-EXPR: 0 | POS | FRA | 10 | 1 | 9.9 | x=(10-0.1) | x 10 0.1 - = | x:employee 10:employee 0.1:employee -:employee =:employee
-EXPR: 0 | POS | FRA | 12 | 1 | 9.9 | 10=(x+0.1) | 10 x 0.1 + = | 10:employee x:employee 0.1:employee +:employee =:employee
-EXPR: 0 | POS | FRA | 12 | 1 | 0.01 | 10=(0.1/x) | 10 0.1 x / = | 10:slides 0.1:slides x:employee /:slides =:slides
-EXPR: 0 | POS | FRA | 12 | 1 | 0.01 | (x*10)=0.1 | x 10 * 0.1 = | x:employee 10:slides *:slides 0.1:slides =:slides
-EXPR: 0 | POS | INT | 12 | 1 | 100 | (10/x)=0.1 | 10 x / 0.1 = | 10:slides x:employee /:slides 0.1:slides =:slides
-EXPR: 0 | POS | FRA | 12 | 1 | 0.01 | x=(0.1/10) | x 0.1 10 / = | x:slides 0.1:slides 10:employee /:slides =:slides
-EXPR: 0 | POS | FRA | 12 | 1 | 10.1 | 10=(x-0.1) | 10 x 0.1 - = | 10:employee x:employee 0.1:employee -:employee =:employee
-EXPR: 0 | POS | FRA | 12 | 1 | 0.01 | (0.1/10)=x | 0.1 10 / x = | 0.1:slides 10:employee /:slides x:slides =:slides
-EXPR: 0 | POS | FRA | 12 | 1 | 0.01 | (10*x)=0.1 | 10 x * 0.1 = | 10:slides x:employee *:slides 0.1:slides =:slides
-EXPR: 0 | POS | FRA | 12 | 1 | 10.1 | (x-10)=0.1 | x 10 - 0.1 = | x:employee 10:employee -:employee 0.1:employee =:employee
-EXPR: 0 | POS | FRA | 12 | 1 | 9.9 | (10-x)=0.1 | 10 x - 0.1 = | 10:employee x:employee -:employee 0.1:employee =:employee
-EXPR: 1 | POS | INT | 12 | 1 | 1 | (x/10)=0.1 | x 10 / 0.1 = | x:slides 10:employee /:slides 0.1:slides =:slides
-EXPR: 0 | POS | FRA | 12 | 1 | 9.9 | 10=(0.1+x) | 10 0.1 x + = | 10:employee 0.1:employee x:employee +:employee =:employee
-EXPR: 1 | POS | INT | 14 | 1 | 1 | 0.1=(x/10) | 0.1 x 10 / = | 0.1:slides x:slides 10:employee /:slides =:slides
-EXPR: 0 | POS | INT | 14 | 1 | 100 | 0.1=(10/x) | 0.1 10 x / = | 0.1:slides 10:slides x:employee /:slides =:slides
-EXPR: 0 | POS | FRA | 14 | 1 | 9.9 | (0.1+x)=10 | 0.1 x + 10 = | 0.1:employee x:employee +:employee 10:employee =:employee
-EXPR: 0 | POS | FRA | 14 | 1 | 9.9 | (x+0.1)=10 | x 0.1 + 10 = | x:employee 0.1:employee +:employee 10:employee =:employee
-EXPR: 0 | POS | FRA | 14 | 1 | 0.01 | 0.1=(10*x) | 0.1 10 x * = | 0.1:slides 10:employee x:slides *:slides =:slides
-EXPR: 0 | POS | FRA | 14 | 1 | 0.01 | (0.1/x)=10 | 0.1 x / 10 = | 0.1:slides x:employee /:slides 10:slides =:slides
-EXPR: 0 | POS | FRA | 14 | 1 | 9.9 | 0.1=(10-x) | 0.1 10 x - = | 0.1:employee 10:employee x:employee -:employee =:employee
-EXPR: 0 | POS | FRA | 14 | 1 | 10.1 | 0.1=(x-10) | 0.1 x 10 - = | 0.1:employee x:employee 10:employee -:employee =:employee
-EXPR: 0 | POS | FRA | 14 | 1 | 0.01 | 0.1=(x*10) | 0.1 x 10 * = | 0.1:slides x:employee 10:slides *:slides =:slides
-EXPR: 0 | POS | FRA | 14 | 1 | 10.1 | (x-0.1)=10 | x 0.1 - 10 = | x:employee 0.1:employee -:employee 10:employee =:employee
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 48 | 48 | (0.6*80)=x | 0.6 80 * x = | 0.6:time 80:child *:child x:child =:child
+EXPR: 0 | POS | FRA | 10 | 48 | 0.0075 | (0.6/80)=x | 0.6 80 / x = | 0.6:child 80:ticket /:child x:child =:child
+EXPR: 1 | POS | INT | 10 | 48 | 48 | x=(0.6*80) | x 0.6 80 * = | x:time 0.6:time 80:ticket *:time =:time
+EXPR: 0 | POS | FRA | 10 | 48 | 0.0075 | x=(0.6/80) | x 0.6 80 / = | x:child 0.6:child 80:ticket /:child =:child
+EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | (0.6*x)=80 | 0.6 x * 80 = | 0.6:time x:ticket *:ticket 80:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | x=(80/0.6) | x 80 0.6 / = | x:ticket 80:ticket 0.6:time /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | 0.6=(80/x) | 0.6 80 x / = | 0.6:ticket 80:ticket x:child /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 48 | 0.0075 | 0.6=(80*x) | 0.6 80 x * = | 0.6:child 80:ticket x:child *:child =:child
+EXPR: 0 | POS | FRA | 12 | 48 | 0.0075 | (0.6/x)=80 | 0.6 x / 80 = | 0.6:ticket x:child /:ticket 80:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 48 | 0.0075 | 0.6=(x*80) | 0.6 x 80 * = | 0.6:child x:child 80:ticket *:child =:child
+EXPR: 1 | POS | INT | 12 | 48 | 48 | 0.6=(x/80) | 0.6 x 80 / = | 0.6:child x:child 80:ticket /:child =:child
+EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | (x*0.6)=80 | x 0.6 * 80 = | x:child 0.6:ticket *:ticket 80:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 48 | 48 | (x/0.6)=80 | x 0.6 / 80 = | x:child 0.6:time /:child 80:child =:child
+EXPR: 0 | POS | FRA | 12 | 48 | 133.333333333333 | (80/0.6)=x | 80 0.6 / x = | 80:child 0.6:time /:child x:child =:child
+EXPR: 0 | POS | FRA | 14 | 48 | 133.333333333333 | (80/x)=0.6 | 80 x / 0.6 = | 80:time x:child /:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 14 | 48 | 0.0075 | (80*x)=0.6 | 80 x * 0.6 = | 80:time x:child *:time 0.6:time =:time
+EXPR: 1 | POS | INT | 14 | 48 | 48 | (x/80)=0.6 | x 80 / 0.6 = | x:time 80:ticket /:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 14 | 48 | 0.0075 | (x*80)=0.6 | x 80 * 0.6 = | x:time 80:ticket *:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 14 | 48 | 133.333333333333 | 80=(0.6*x) | 80 0.6 x * = | 80:ticket 0.6:time x:ticket *:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 48 | 133.333333333333 | 80=(x*0.6) | 80 x 0.6 * = | 80:ticket x:child 0.6:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 14 | 48 | 48 | 80=(x/0.6) | 80 x 0.6 / = | 80:child x:child 0.6:time /:child =:child
+EXPR: 0 | POS | FRA | 14 | 48 | 0.0075 | 80=(0.6/x) | 80 0.6 x / = | 80:time 0.6:time x:child /:time =:time
+EXPR: 0 | POS | FRA | 20 | 48 | 80.6 | x=(0.6+80) | x 0.6 80 + = | x:time 0.6:time 80:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 48 | 80.6 | (0.6+80)=x | 0.6 80 + x = | 0.6:time 80:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 48 | 80.6 | 0.6=(x-80) | 0.6 x 80 - = | 0.6:time x:time 80:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | 0.6=(80-x) | 0.6 80 x - = | 0.6:ticket 80:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | x=(80-0.6) | x 80 0.6 - = | x:ticket 80:ticket 0.6:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | (x+0.6)=80 | x 0.6 + 80 = | x:ticket 0.6:ticket +:ticket 80:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 48 | 80.6 | (x-0.6)=80 | x 0.6 - 80 = | x:ticket 0.6:ticket -:ticket 80:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | (0.6+x)=80 | 0.6 x + 80 = | 0.6:time x:time +:time 80:time =:time
+EXPR: 0 | POS | FRA | 22 | 48 | 79.4 | (80-0.6)=x | 80 0.6 - x = | 80:child 0.6:child -:child x:child =:child
+EXPR: 0 | POS | FRA | 24 | 48 | 79.4 | 80=(x+0.6) | 80 x 0.6 + = | 80:time x:time 0.6:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 48 | 79.4 | (80-x)=0.6 | 80 x - 0.6 = | 80:time x:time -:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 24 | 48 | 80.6 | (x-80)=0.6 | x 80 - 0.6 = | x:time 80:time -:time 0.6:time =:time
+EXPR: 0 | POS | FRA | 24 | 48 | 80.6 | 80=(x-0.6) | 80 x 0.6 - = | 80:time x:time 0.6:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 48 | 79.4 | 80=(0.6+x) | 80 0.6 x + = | 80:child 0.6:child x:child +:child =:child
+NET 36 unique, non-negative solutions found out of 324 total solutions

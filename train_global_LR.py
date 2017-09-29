@@ -33,8 +33,8 @@ def pca_function(V):
 
 def compute(p,op,e,target,problem,story,order): # Returns the val of probability for the operator 'op'
     vec = makesets.vector(p,e,problem,story,target)
-    vec = pca_function(vec)
-    op_val = modelNB.predict_proba(vec)
+    #vec = pca_function(vec)
+    op_val = modelNB.predict_proba([vec])
     
     #print op_val[0]
     
@@ -244,14 +244,17 @@ if __name__=="__main__":
     
     Local_Features, Local_Label = norm(sys.argv[2], sys.argv[3])
     
+    '''
+    PCA
+    
     #print Local_Features
     
-    pca = decomposition.PCA(n_components=45)
+    #pca = decomposition.PCA(n_components=45)
     #print Local_Features
-    pca.fit(Local_Features)
-    Local_Features = pca.transform(Local_Features)
-    Local_Features = Local_Features.tolist()
-    
+    #pca.fit(Local_Features)
+    #Local_Features = pca.transform(Local_Features)
+    #Local_Features = Local_Features.tolist()
+    '''
     
     modelNB = OneVsRestClassifier(RandomForestClassifier())
     modelNB.fit(Local_Features, Local_Label)

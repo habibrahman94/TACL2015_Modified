@@ -1,5 +1,0 @@
-quantities : 9,260 0.35 x
-types : "ticket" "Theater" "ticket"
-operators : + - * / =
-n : 5
-answer : 6019.0

@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 11 | 176 | x=(44/0.25) | x 44 0.25 / = | x:magazine 44:magazine 0.25:bookstore /:magazine =:magazine
-EXPR: 1 | POS | INT | 0 | 11 | 11 | (44*0.25)=x | 44 0.25 * x = | 44:magazine 0.25:bookstore *:magazine x:magazine =:magazine
-EXPR: 1 | POS | INT | 0 | 11 | 11 | x=(44*0.25) | x 44 0.25 * = | x:magazine 44:magazine 0.25:bookstore *:magazine =:magazine
-EXPR: 0 | POS | INT | 0 | 11 | 176 | (44/0.25)=x | 44 0.25 / x = | 44:magazine 0.25:bookstore /:magazine x:magazine =:magazine
-EXPR: 1 | POS | INT | 2 | 11 | 11 | 44=(x/0.25) | 44 x 0.25 / = | 44:magazine x:magazine 0.25:bookstore /:magazine =:magazine
-EXPR: 0 | POS | INT | 2 | 11 | 176 | 44=(x*0.25) | 44 x 0.25 * = | 44:magazine x:magazine 0.25:bookstore *:magazine =:magazine
-EXPR: 0 | POS | INT | 2 | 11 | 176 | 44=(0.25*x) | 44 0.25 x * = | 44:magazine 0.25:bookstore x:magazine *:magazine =:magazine
-EXPR: 0 | POS | INT | 4 | 11 | 176 | (0.25*x)=44 | 0.25 x * 44 = | 0.25:bookstore x:magazine *:magazine 44:magazine =:magazine
-EXPR: 0 | POS | INT | 4 | 11 | 176 | (x*0.25)=44 | x 0.25 * 44 = | x:magazine 0.25:bookstore *:magazine 44:magazine =:magazine
-EXPR: 1 | POS | INT | 4 | 11 | 11 | (x/0.25)=44 | x 0.25 / 44 = | x:magazine 0.25:bookstore /:magazine 44:magazine =:magazine
-EXPR: 0 | POS | FRA | 10 | 11 | 44.25 | (44+0.25)=x | 44 0.25 + x = | 44:magazine 0.25:magazine +:magazine x:magazine =:magazine
-EXPR: 0 | POS | FRA | 10 | 11 | 44.25 | x=(44+0.25) | x 44 0.25 + = | x:magazine 44:magazine 0.25:magazine +:magazine =:magazine
-EXPR: 0 | POS | FRA | 10 | 11 | 43.75 | (44-0.25)=x | 44 0.25 - x = | 44:magazine 0.25:magazine -:magazine x:magazine =:magazine
-EXPR: 0 | POS | FRA | 10 | 11 | 43.75 | x=(44-0.25) | x 44 0.25 - = | x:magazine 44:magazine 0.25:magazine -:magazine =:magazine
-EXPR: 0 | POS | FRA | 12 | 11 | 43.75 | 44=(x+0.25) | 44 x 0.25 + = | 44:magazine x:magazine 0.25:magazine +:magazine =:magazine
-EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | 44=(0.25/x) | 44 0.25 x / = | 44:bookstore 0.25:bookstore x:magazine /:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | (x*44)=0.25 | x 44 * 0.25 = | x:magazine 44:bookstore *:bookstore 0.25:bookstore =:bookstore
-EXPR: 0 | POS | INT | 12 | 11 | 176 | (44/x)=0.25 | 44 x / 0.25 = | 44:bookstore x:magazine /:bookstore 0.25:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | x=(0.25/44) | x 0.25 44 / = | x:bookstore 0.25:bookstore 44:magazine /:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 12 | 11 | 44.25 | 44=(x-0.25) | 44 x 0.25 - = | 44:magazine x:magazine 0.25:magazine -:magazine =:magazine
-EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | (0.25/44)=x | 0.25 44 / x = | 0.25:bookstore 44:magazine /:bookstore x:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 12 | 11 | 0.00568181818181818 | (44*x)=0.25 | 44 x * 0.25 = | 44:bookstore x:magazine *:bookstore 0.25:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 12 | 11 | 44.25 | (x-44)=0.25 | x 44 - 0.25 = | x:magazine 44:magazine -:magazine 0.25:magazine =:magazine
-EXPR: 0 | POS | FRA | 12 | 11 | 43.75 | (44-x)=0.25 | 44 x - 0.25 = | 44:magazine x:magazine -:magazine 0.25:magazine =:magazine
-EXPR: 1 | POS | INT | 12 | 11 | 11 | (x/44)=0.25 | x 44 / 0.25 = | x:bookstore 44:magazine /:bookstore 0.25:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 12 | 11 | 43.75 | 44=(0.25+x) | 44 0.25 x + = | 44:magazine 0.25:magazine x:magazine +:magazine =:magazine
-EXPR: 1 | POS | INT | 14 | 11 | 11 | 0.25=(x/44) | 0.25 x 44 / = | 0.25:bookstore x:bookstore 44:magazine /:bookstore =:bookstore
-EXPR: 0 | POS | INT | 14 | 11 | 176 | 0.25=(44/x) | 0.25 44 x / = | 0.25:bookstore 44:bookstore x:magazine /:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 14 | 11 | 43.75 | (0.25+x)=44 | 0.25 x + 44 = | 0.25:magazine x:magazine +:magazine 44:magazine =:magazine
-EXPR: 0 | POS | FRA | 14 | 11 | 43.75 | (x+0.25)=44 | x 0.25 + 44 = | x:magazine 0.25:magazine +:magazine 44:magazine =:magazine
-EXPR: 0 | POS | FRA | 14 | 11 | 0.00568181818181818 | 0.25=(44*x) | 0.25 44 x * = | 0.25:bookstore 44:magazine x:bookstore *:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 14 | 11 | 0.00568181818181818 | (0.25/x)=44 | 0.25 x / 44 = | 0.25:bookstore x:magazine /:bookstore 44:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 14 | 11 | 43.75 | 0.25=(44-x) | 0.25 44 x - = | 0.25:magazine 44:magazine x:magazine -:magazine =:magazine
-EXPR: 0 | POS | FRA | 14 | 11 | 44.25 | 0.25=(x-44) | 0.25 x 44 - = | 0.25:magazine x:magazine 44:magazine -:magazine =:magazine
-EXPR: 0 | POS | FRA | 14 | 11 | 0.00568181818181818 | 0.25=(x*44) | 0.25 x 44 * = | 0.25:bookstore x:magazine 44:bookstore *:bookstore =:bookstore
-EXPR: 0 | POS | FRA | 14 | 11 | 44.25 | (x-0.25)=44 | x 0.25 - 44 = | x:magazine 0.25:magazine -:magazine 44:magazine =:magazine
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 18 | 18 | (0.3*60)=x | 0.3 60 * x = | 0.3:time 60:coffee *:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 10 | 18 | 0.005 | (0.3/60)=x | 0.3 60 / x = | 0.3:coffee 60:mug /:coffee x:coffee =:coffee
+EXPR: 1 | POS | INT | 10 | 18 | 18 | x=(0.3*60) | x 0.3 60 * = | x:time 0.3:time 60:mug *:time =:time
+EXPR: 0 | POS | FRA | 10 | 18 | 0.005 | x=(0.3/60) | x 0.3 60 / = | x:coffee 0.3:coffee 60:mug /:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 18 | 200 | (0.3*x)=60 | 0.3 x * 60 = | 0.3:time x:mug *:mug 60:mug =:mug
+EXPR: 0 | POS | INT | 12 | 18 | 200 | x=(60/0.3) | x 60 0.3 / = | x:mug 60:mug 0.3:time /:mug =:mug
+EXPR: 0 | POS | INT | 12 | 18 | 200 | 0.3=(60/x) | 0.3 60 x / = | 0.3:mug 60:mug x:coffee /:mug =:mug
+EXPR: 0 | POS | FRA | 12 | 18 | 0.005 | 0.3=(60*x) | 0.3 60 x * = | 0.3:coffee 60:mug x:coffee *:coffee =:coffee
+EXPR: 0 | POS | FRA | 12 | 18 | 0.005 | (0.3/x)=60 | 0.3 x / 60 = | 0.3:mug x:coffee /:mug 60:mug =:mug
+EXPR: 0 | POS | FRA | 12 | 18 | 0.005 | 0.3=(x*60) | 0.3 x 60 * = | 0.3:coffee x:coffee 60:mug *:coffee =:coffee
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 0.3=(x/60) | 0.3 x 60 / = | 0.3:coffee x:coffee 60:mug /:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 18 | 200 | (x*0.3)=60 | x 0.3 * 60 = | x:coffee 0.3:mug *:mug 60:mug =:mug
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/0.3)=60 | x 0.3 / 60 = | x:coffee 0.3:time /:coffee 60:coffee =:coffee
+EXPR: 0 | POS | INT | 12 | 18 | 200 | (60/0.3)=x | 60 0.3 / x = | 60:coffee 0.3:time /:coffee x:coffee =:coffee
+EXPR: 0 | POS | INT | 14 | 18 | 200 | (60/x)=0.3 | 60 x / 0.3 = | 60:time x:coffee /:time 0.3:time =:time
+EXPR: 0 | POS | FRA | 14 | 18 | 0.005 | (60*x)=0.3 | 60 x * 0.3 = | 60:time x:coffee *:time 0.3:time =:time
+EXPR: 1 | POS | INT | 14 | 18 | 18 | (x/60)=0.3 | x 60 / 0.3 = | x:time 60:mug /:time 0.3:time =:time
+EXPR: 0 | POS | FRA | 14 | 18 | 0.005 | (x*60)=0.3 | x 60 * 0.3 = | x:time 60:mug *:time 0.3:time =:time
+EXPR: 0 | POS | INT | 14 | 18 | 200 | 60=(0.3*x) | 60 0.3 x * = | 60:mug 0.3:time x:mug *:mug =:mug
+EXPR: 0 | POS | INT | 14 | 18 | 200 | 60=(x*0.3) | 60 x 0.3 * = | 60:mug x:coffee 0.3:mug *:mug =:mug
+EXPR: 1 | POS | INT | 14 | 18 | 18 | 60=(x/0.3) | 60 x 0.3 / = | 60:coffee x:coffee 0.3:time /:coffee =:coffee
+EXPR: 0 | POS | FRA | 14 | 18 | 0.005 | 60=(0.3/x) | 60 0.3 x / = | 60:time 0.3:time x:coffee /:time =:time
+EXPR: 0 | POS | FRA | 20 | 18 | 60.3 | x=(0.3+60) | x 0.3 60 + = | x:time 0.3:time 60:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 18 | 60.3 | (0.3+60)=x | 0.3 60 + x = | 0.3:time 60:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 18 | 60.3 | 0.3=(x-60) | 0.3 x 60 - = | 0.3:time x:time 60:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | 0.3=(60-x) | 0.3 60 x - = | 0.3:mug 60:mug x:mug -:mug =:mug
+EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | x=(60-0.3) | x 60 0.3 - = | x:mug 60:mug 0.3:mug -:mug =:mug
+EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | (x+0.3)=60 | x 0.3 + 60 = | x:mug 0.3:mug +:mug 60:mug =:mug
+EXPR: 0 | POS | FRA | 22 | 18 | 60.3 | (x-0.3)=60 | x 0.3 - 60 = | x:mug 0.3:mug -:mug 60:mug =:mug
+EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | (0.3+x)=60 | 0.3 x + 60 = | 0.3:time x:time +:time 60:time =:time
+EXPR: 0 | POS | FRA | 22 | 18 | 59.7 | (60-0.3)=x | 60 0.3 - x = | 60:coffee 0.3:coffee -:coffee x:coffee =:coffee
+EXPR: 0 | POS | FRA | 24 | 18 | 59.7 | 60=(x+0.3) | 60 x 0.3 + = | 60:time x:time 0.3:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 18 | 59.7 | (60-x)=0.3 | 60 x - 0.3 = | 60:time x:time -:time 0.3:time =:time
+EXPR: 0 | POS | FRA | 24 | 18 | 60.3 | (x-60)=0.3 | x 60 - 0.3 = | x:time 60:time -:time 0.3:time =:time
+EXPR: 0 | POS | FRA | 24 | 18 | 60.3 | 60=(x-0.3) | 60 x 0.3 - = | 60:time x:time 0.3:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 18 | 59.7 | 60=(0.3+x) | 60 0.3 x + = | 60:coffee 0.3:coffee x:coffee +:coffee =:coffee
+NET 36 unique, non-negative solutions found out of 324 total solutions

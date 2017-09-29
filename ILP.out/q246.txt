@@ -1,5 +1,0 @@
-quantities : 10 12 x
-types : "page" "page" "he"
-operators : + - * / =
-n : 5
-answer : 20.0

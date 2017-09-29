@@ -1,40 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 2359 | 1011 | x=(3370*0.3) | x 3370 0.3 * = | x:time 3370:dollar 0.3:time *:time =:time
-EXPR: 0 | POS | INT | 0 | 2359 | 1011 | (3370*0.3)=x | 3370 0.3 * x = | 3370:dollar 0.3:time *:time x:time =:time
-EXPR: 0 | POS | FRA | 2 | 2359 | 8.90207715133531e-5 | (0.3/3370)=x | 0.3 3370 / x = | 0.3:time 3370:dollar /:time x:time =:time
-EXPR: 0 | POS | FRA | 2 | 2359 | 8.90207715133531e-5 | (3370*x)=0.3 | 3370 x * 0.3 = | 3370:dollar x:time *:time 0.3:time =:time
-EXPR: 0 | POS | INT | 2 | 2359 | 1011 | (x/3370)=0.3 | x 3370 / 0.3 = | x:time 3370:dollar /:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 2 | 2359 | 8.90207715133531e-5 | (x*3370)=0.3 | x 3370 * 0.3 = | x:time 3370:dollar *:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 2 | 2359 | 8.90207715133531e-5 | x=(0.3/3370) | x 0.3 3370 / = | x:time 0.3:time 3370:dollar /:time =:time
-EXPR: 0 | POS | FRA | 4 | 2359 | 8.90207715133531e-5 | 0.3=(x*3370) | 0.3 x 3370 * = | 0.3:time x:time 3370:dollar *:time =:time
-EXPR: 0 | POS | FRA | 4 | 2359 | 8.90207715133531e-5 | 0.3=(3370*x) | 0.3 3370 x * = | 0.3:time 3370:dollar x:time *:time =:time
-EXPR: 0 | POS | INT | 4 | 2359 | 1011 | 0.3=(x/3370) | 0.3 x 3370 / = | 0.3:time x:time 3370:dollar /:time =:time
-EXPR: 0 | POS | FRA | 10 | 2359 | 11233.3333333333 | (3370/0.3)=x | 3370 0.3 / x = | 3370:dollar 0.3:time /:dollar x:dollar =:dollar
-EXPR: 0 | POS | FRA | 10 | 2359 | 3369.7 | (3370-0.3)=x | 3370 0.3 - x = | 3370:time 0.3:time -:time x:time =:time
-EXPR: 0 | POS | FRA | 10 | 2359 | 3370.3 | (3370+0.3)=x | 3370 0.3 + x = | 3370:time 0.3:time +:time x:time =:time
-EXPR: 0 | POS | FRA | 10 | 2359 | 3370.3 | x=(3370+0.3) | x 3370 0.3 + = | x:time 3370:time 0.3:time +:time =:time
-EXPR: 0 | POS | FRA | 10 | 2359 | 11233.3333333333 | x=(3370/0.3) | x 3370 0.3 / = | x:dollar 3370:dollar 0.3:time /:dollar =:dollar
-EXPR: 0 | POS | FRA | 10 | 2359 | 3369.7 | x=(3370-0.3) | x 3370 0.3 - = | x:time 3370:time 0.3:time -:time =:time
-EXPR: 0 | POS | FRA | 12 | 2359 | 11233.3333333333 | 3370=(x*0.3) | 3370 x 0.3 * = | 3370:dollar x:dollar 0.3:time *:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 2359 | 8.90207715133531e-5 | 3370=(0.3/x) | 3370 0.3 x / = | 3370:dollar 0.3:dollar x:time /:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 2359 | 3370.3 | (x-3370)=0.3 | x 3370 - 0.3 = | x:time 3370:time -:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 12 | 2359 | 11233.3333333333 | (3370/x)=0.3 | 3370 x / 0.3 = | 3370:dollar x:time /:dollar 0.3:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 2359 | 11233.3333333333 | 3370=(0.3*x) | 3370 0.3 x * = | 3370:dollar 0.3:dollar x:time *:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 2359 | 3369.7 | 3370=(x+0.3) | 3370 x 0.3 + = | 3370:time x:time 0.3:time +:time =:time
-EXPR: 0 | POS | FRA | 12 | 2359 | 3369.7 | (3370-x)=0.3 | 3370 x - 0.3 = | 3370:time x:time -:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 12 | 2359 | 3369.7 | 3370=(0.3+x) | 3370 0.3 x + = | 3370:time 0.3:time x:time +:time =:time
-EXPR: 0 | POS | FRA | 12 | 2359 | 3370.3 | 3370=(x-0.3) | 3370 x 0.3 - = | 3370:time x:time 0.3:time -:time =:time
-EXPR: 0 | POS | INT | 12 | 2359 | 1011 | 3370=(x/0.3) | 3370 x 0.3 / = | 3370:dollar x:dollar 0.3:time /:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 2359 | 8.90207715133531e-5 | (0.3/x)=3370 | 0.3 x / 3370 = | 0.3:dollar x:time /:dollar 3370:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 2359 | 1011 | (x/0.3)=3370 | x 0.3 / 3370 = | x:dollar 0.3:time /:dollar 3370:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 2359 | 11233.3333333333 | 0.3=(3370/x) | 0.3 3370 x / = | 0.3:dollar 3370:dollar x:time /:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 2359 | 3369.7 | (0.3+x)=3370 | 0.3 x + 3370 = | 0.3:time x:time +:time 3370:time =:time
-EXPR: 0 | POS | FRA | 14 | 2359 | 11233.3333333333 | (0.3*x)=3370 | 0.3 x * 3370 = | 0.3:dollar x:time *:dollar 3370:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 2359 | 3369.7 | 0.3=(3370-x) | 0.3 3370 x - = | 0.3:time 3370:time x:time -:time =:time
-EXPR: 0 | POS | FRA | 14 | 2359 | 11233.3333333333 | (x*0.3)=3370 | x 0.3 * 3370 = | x:time 0.3:dollar *:dollar 3370:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 2359 | 3370.3 | (x-0.3)=3370 | x 0.3 - 3370 = | x:time 0.3:time -:time 3370:time =:time
-EXPR: 0 | POS | FRA | 14 | 2359 | 3369.7 | (x+0.3)=3370 | x 0.3 + 3370 = | x:time 0.3:time +:time 3370:time =:time
-EXPR: 0 | POS | FRA | 14 | 2359 | 3370.3 | 0.3=(x-3370) | 0.3 x 3370 - = | 0.3:time x:time 3370:time -:time =:time
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.6 | 0.6 | (0.2+0.4)=x | 0.2 0.4 + x = | 0.2:bucket 0.4:bucket +:bucket x:bucket =:bucket
+EXPR: 1 | POS | FRA | 0 | 0.6 | 0.6 | x=(0.2+0.4) | x 0.2 0.4 + = | x:bucket 0.2:bucket 0.4:bucket +:bucket =:bucket
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | (x-0.2)=0.4 | x 0.2 - 0.4 = | x:bucket 0.2:bucket -:bucket 0.4:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | 0.2=(0.4-x) | 0.2 0.4 x - = | 0.2:bucket 0.4:bucket x:bucket -:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | x=(0.4-0.2) | x 0.4 0.2 - = | x:bucket 0.4:bucket 0.2:bucket -:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (0.2+x)=0.4 | 0.2 x + 0.4 = | 0.2:bucket x:bucket +:bucket 0.4:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (x+0.2)=0.4 | x 0.2 + 0.4 = | x:bucket 0.2:bucket +:bucket 0.4:bucket =:bucket
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | 0.2=(x-0.4) | 0.2 x 0.4 - = | 0.2:bucket x:bucket 0.4:bucket -:bucket =:bucket
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (0.4-0.2)=x | 0.4 0.2 - x = | 0.4:bucket 0.2:bucket -:bucket x:bucket =:bucket
+EXPR: 0 | POS | FRA | 4 | 0.6 | 0.2 | (0.4-x)=0.2 | 0.4 x - 0.2 = | 0.4:bucket x:bucket -:bucket 0.2:bucket =:bucket
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | 0.4=(x-0.2) | 0.4 x 0.2 - = | 0.4:bucket x:bucket 0.2:bucket -:bucket =:bucket
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | (x-0.4)=0.2 | x 0.4 - 0.2 = | x:bucket 0.4:bucket -:bucket 0.2:bucket =:bucket
+EXPR: 0 | POS | FRA | 4 | 0.6 | 0.2 | 0.4=(x+0.2) | 0.4 x 0.2 + = | 0.4:bucket x:bucket 0.2:bucket +:bucket =:bucket
+EXPR: 0 | POS | FRA | 4 | 0.6 | 0.2 | 0.4=(0.2+x) | 0.4 0.2 x + = | 0.4:bucket 0.2:bucket x:bucket +:bucket =:bucket
+NET 14 unique, non-negative solutions found out of 28 total solutions

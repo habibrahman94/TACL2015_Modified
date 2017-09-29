@@ -1,5 +1,5 @@
-quantities : 1,640 1,394 x
-types : "kilogram" "kilogram" "bakery"
+quantities : 0.625 0.5 x
+types : "mile" "mile" "mile"
 operators : + - * / =
 n : 5
-answer : 15.0
+answer : 0.125

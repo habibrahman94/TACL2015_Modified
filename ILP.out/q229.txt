@@ -1,5 +1,0 @@
-quantities : 4,940 0.65 x
-types : "dollar" "library" "library"
-operators : + - * / =
-n : 5
-answer : 8151.0

@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | FRA | 0 | 6 | 66.6666666666667 | x=(20/0.3) | x 20 0.3 / = | x:espresso 20:espresso 0.3:cafe /:espresso =:espresso
-EXPR: 1 | POS | INT | 0 | 6 | 6 | (20*0.3)=x | 20 0.3 * x = | 20:espresso 0.3:cafe *:espresso x:espresso =:espresso
-EXPR: 1 | POS | INT | 0 | 6 | 6 | x=(20*0.3) | x 20 0.3 * = | x:espresso 20:espresso 0.3:cafe *:espresso =:espresso
-EXPR: 0 | POS | FRA | 0 | 6 | 66.6666666666667 | (20/0.3)=x | 20 0.3 / x = | 20:espresso 0.3:cafe /:espresso x:espresso =:espresso
-EXPR: 1 | POS | INT | 2 | 6 | 6 | 20=(x/0.3) | 20 x 0.3 / = | 20:espresso x:espresso 0.3:cafe /:espresso =:espresso
-EXPR: 0 | POS | FRA | 2 | 6 | 66.6666666666667 | 20=(x*0.3) | 20 x 0.3 * = | 20:espresso x:espresso 0.3:cafe *:espresso =:espresso
-EXPR: 0 | POS | FRA | 2 | 6 | 66.6666666666667 | 20=(0.3*x) | 20 0.3 x * = | 20:espresso 0.3:cafe x:espresso *:espresso =:espresso
-EXPR: 0 | POS | FRA | 4 | 6 | 66.6666666666667 | (0.3*x)=20 | 0.3 x * 20 = | 0.3:cafe x:espresso *:espresso 20:espresso =:espresso
-EXPR: 0 | POS | FRA | 4 | 6 | 66.6666666666667 | (x*0.3)=20 | x 0.3 * 20 = | x:espresso 0.3:cafe *:espresso 20:espresso =:espresso
-EXPR: 1 | POS | INT | 4 | 6 | 6 | (x/0.3)=20 | x 0.3 / 20 = | x:espresso 0.3:cafe /:espresso 20:espresso =:espresso
-EXPR: 0 | POS | FRA | 10 | 6 | 20.3 | (20+0.3)=x | 20 0.3 + x = | 20:espresso 0.3:espresso +:espresso x:espresso =:espresso
-EXPR: 0 | POS | FRA | 10 | 6 | 20.3 | x=(20+0.3) | x 20 0.3 + = | x:espresso 20:espresso 0.3:espresso +:espresso =:espresso
-EXPR: 0 | POS | FRA | 10 | 6 | 19.7 | (20-0.3)=x | 20 0.3 - x = | 20:espresso 0.3:espresso -:espresso x:espresso =:espresso
-EXPR: 0 | POS | FRA | 10 | 6 | 19.7 | x=(20-0.3) | x 20 0.3 - = | x:espresso 20:espresso 0.3:espresso -:espresso =:espresso
-EXPR: 0 | POS | FRA | 12 | 6 | 19.7 | 20=(x+0.3) | 20 x 0.3 + = | 20:espresso x:espresso 0.3:espresso +:espresso =:espresso
-EXPR: 0 | POS | FRA | 12 | 6 | 0.015 | 20=(0.3/x) | 20 0.3 x / = | 20:cafe 0.3:cafe x:espresso /:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 0.015 | (x*20)=0.3 | x 20 * 0.3 = | x:espresso 20:cafe *:cafe 0.3:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 66.6666666666667 | (20/x)=0.3 | 20 x / 0.3 = | 20:cafe x:espresso /:cafe 0.3:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 0.015 | x=(0.3/20) | x 0.3 20 / = | x:cafe 0.3:cafe 20:espresso /:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 20.3 | 20=(x-0.3) | 20 x 0.3 - = | 20:espresso x:espresso 0.3:espresso -:espresso =:espresso
-EXPR: 0 | POS | FRA | 12 | 6 | 0.015 | (0.3/20)=x | 0.3 20 / x = | 0.3:cafe 20:espresso /:cafe x:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 0.015 | (20*x)=0.3 | 20 x * 0.3 = | 20:cafe x:espresso *:cafe 0.3:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 20.3 | (x-20)=0.3 | x 20 - 0.3 = | x:espresso 20:espresso -:espresso 0.3:espresso =:espresso
-EXPR: 0 | POS | FRA | 12 | 6 | 19.7 | (20-x)=0.3 | 20 x - 0.3 = | 20:espresso x:espresso -:espresso 0.3:espresso =:espresso
-EXPR: 1 | POS | INT | 12 | 6 | 6 | (x/20)=0.3 | x 20 / 0.3 = | x:cafe 20:espresso /:cafe 0.3:cafe =:cafe
-EXPR: 0 | POS | FRA | 12 | 6 | 19.7 | 20=(0.3+x) | 20 0.3 x + = | 20:espresso 0.3:espresso x:espresso +:espresso =:espresso
-EXPR: 1 | POS | INT | 14 | 6 | 6 | 0.3=(x/20) | 0.3 x 20 / = | 0.3:cafe x:cafe 20:espresso /:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 6 | 66.6666666666667 | 0.3=(20/x) | 0.3 20 x / = | 0.3:cafe 20:cafe x:espresso /:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 6 | 19.7 | (0.3+x)=20 | 0.3 x + 20 = | 0.3:espresso x:espresso +:espresso 20:espresso =:espresso
-EXPR: 0 | POS | FRA | 14 | 6 | 19.7 | (x+0.3)=20 | x 0.3 + 20 = | x:espresso 0.3:espresso +:espresso 20:espresso =:espresso
-EXPR: 0 | POS | FRA | 14 | 6 | 0.015 | 0.3=(20*x) | 0.3 20 x * = | 0.3:cafe 20:espresso x:cafe *:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 6 | 0.015 | (0.3/x)=20 | 0.3 x / 20 = | 0.3:cafe x:espresso /:cafe 20:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 6 | 19.7 | 0.3=(20-x) | 0.3 20 x - = | 0.3:espresso 20:espresso x:espresso -:espresso =:espresso
-EXPR: 0 | POS | FRA | 14 | 6 | 20.3 | 0.3=(x-20) | 0.3 x 20 - = | 0.3:espresso x:espresso 20:espresso -:espresso =:espresso
-EXPR: 0 | POS | FRA | 14 | 6 | 0.015 | 0.3=(x*20) | 0.3 x 20 * = | 0.3:cafe x:espresso 20:cafe *:cafe =:cafe
-EXPR: 0 | POS | FRA | 14 | 6 | 20.3 | (x-0.3)=20 | x 0.3 - 20 = | x:espresso 0.3:espresso -:espresso 20:espresso =:espresso
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 14 | 14 | (20*0.7)=x | 20 0.7 * x = | 20:student 0.7:people *:people x:people =:people
+EXPR: 0 | POS | FRA | 10 | 14 | 28.5714285714286 | (20/0.7)=x | 20 0.7 / x = | 20:people 0.7:time /:people x:people =:people
+EXPR: 1 | POS | INT | 10 | 14 | 14 | x=(20*0.7) | x 20 0.7 * = | x:student 20:student 0.7:time *:student =:student
+EXPR: 0 | POS | FRA | 10 | 14 | 28.5714285714286 | x=(20/0.7) | x 20 0.7 / = | x:people 20:people 0.7:time /:people =:people
+EXPR: 0 | POS | FRA | 12 | 14 | 0.035 | (20*x)=0.7 | 20 x * 0.7 = | 20:student x:time *:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 12 | 14 | 0.035 | x=(0.7/20) | x 0.7 20 / = | x:time 0.7:time 20:student /:time =:time
+EXPR: 0 | POS | FRA | 12 | 14 | 0.035 | 20=(0.7/x) | 20 0.7 x / = | 20:time 0.7:time x:people /:time =:time
+EXPR: 0 | POS | FRA | 12 | 14 | 28.5714285714286 | 20=(0.7*x) | 20 0.7 x * = | 20:people 0.7:time x:people *:people =:people
+EXPR: 0 | POS | FRA | 12 | 14 | 28.5714285714286 | (20/x)=0.7 | 20 x / 0.7 = | 20:time x:people /:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 12 | 14 | 28.5714285714286 | 20=(x*0.7) | 20 x 0.7 * = | 20:people x:people 0.7:time *:people =:people
+EXPR: 1 | POS | INT | 12 | 14 | 14 | 20=(x/0.7) | 20 x 0.7 / = | 20:people x:people 0.7:time /:people =:people
+EXPR: 0 | POS | FRA | 12 | 14 | 0.035 | (x*20)=0.7 | x 20 * 0.7 = | x:people 20:time *:time 0.7:time =:time
+EXPR: 1 | POS | INT | 12 | 14 | 14 | (x/20)=0.7 | x 20 / 0.7 = | x:people 20:student /:people 0.7:people =:people
+EXPR: 0 | POS | FRA | 12 | 14 | 0.035 | (0.7/20)=x | 0.7 20 / x = | 0.7:people 20:student /:people x:people =:people
+EXPR: 0 | POS | FRA | 14 | 14 | 0.035 | (0.7/x)=20 | 0.7 x / 20 = | 0.7:student x:people /:student 20:student =:student
+EXPR: 0 | POS | FRA | 14 | 14 | 28.5714285714286 | (0.7*x)=20 | 0.7 x * 20 = | 0.7:student x:people *:student 20:student =:student
+EXPR: 1 | POS | INT | 14 | 14 | 14 | (x/0.7)=20 | x 0.7 / 20 = | x:student 0.7:time /:student 20:student =:student
+EXPR: 0 | POS | FRA | 14 | 14 | 28.5714285714286 | (x*0.7)=20 | x 0.7 * 20 = | x:student 0.7:time *:student 20:student =:student
+EXPR: 0 | POS | FRA | 14 | 14 | 0.035 | 0.7=(20*x) | 0.7 20 x * = | 0.7:time 20:student x:time *:time =:time
+EXPR: 0 | POS | FRA | 14 | 14 | 0.035 | 0.7=(x*20) | 0.7 x 20 * = | 0.7:time x:people 20:time *:time =:time
+EXPR: 1 | POS | INT | 14 | 14 | 14 | 0.7=(x/20) | 0.7 x 20 / = | 0.7:people x:people 20:student /:people =:people
+EXPR: 0 | POS | FRA | 14 | 14 | 28.5714285714286 | 0.7=(20/x) | 0.7 20 x / = | 0.7:student 20:student x:people /:student =:student
+EXPR: 0 | POS | FRA | 20 | 14 | 20.7 | x=(20+0.7) | x 20 0.7 + = | x:student 20:student 0.7:student +:student =:student
+EXPR: 0 | POS | FRA | 20 | 14 | 19.3 | x=(20-0.7) | x 20 0.7 - = | x:people 20:people 0.7:people -:people =:people
+EXPR: 0 | POS | FRA | 20 | 14 | 20.7 | (20+0.7)=x | 20 0.7 + x = | 20:student 0.7:student +:student x:student =:student
+EXPR: 0 | POS | FRA | 20 | 14 | 19.3 | (20-0.7)=x | 20 0.7 - x = | 20:people 0.7:people -:people x:people =:people
+EXPR: 0 | POS | FRA | 22 | 14 | 20.7 | 20=(x-0.7) | 20 x 0.7 - = | 20:student x:student 0.7:student -:student =:student
+EXPR: 0 | POS | FRA | 22 | 14 | 19.3 | 20=(x+0.7) | 20 x 0.7 + = | 20:student x:student 0.7:student +:student =:student
+EXPR: 0 | POS | FRA | 22 | 14 | 20.7 | (x-20)=0.7 | x 20 - 0.7 = | x:time 20:time -:time 0.7:time =:time
+EXPR: 0 | POS | FRA | 22 | 14 | 19.3 | (20-x)=0.7 | 20 x - 0.7 = | 20:student x:student -:student 0.7:student =:student
+EXPR: 0 | POS | FRA | 22 | 14 | 19.3 | 20=(0.7+x) | 20 0.7 x + = | 20:people 0.7:people x:people +:people =:people
+EXPR: 0 | POS | FRA | 24 | 14 | 19.3 | (0.7+x)=20 | 0.7 x + 20 = | 0.7:people x:people +:people 20:people =:people
+EXPR: 0 | POS | FRA | 24 | 14 | 20.7 | (x-0.7)=20 | x 0.7 - 20 = | x:student 0.7:student -:student 20:student =:student
+EXPR: 0 | POS | FRA | 24 | 14 | 19.3 | (x+0.7)=20 | x 0.7 + 20 = | x:people 0.7:people +:people 20:people =:people
+EXPR: 0 | POS | FRA | 24 | 14 | 19.3 | 0.7=(20-x) | 0.7 20 x - = | 0.7:student 20:student x:student -:student =:student
+EXPR: 0 | POS | FRA | 24 | 14 | 20.7 | 0.7=(x-20) | 0.7 x 20 - = | 0.7:student x:student 20:student -:student =:student
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,5 +1,5 @@
-quantities : 21 7 x
-types : "button" "button" "UNKNOWN"
+quantities : 3,750 0.1 x
+types : "meter" "mountain" "UNKNOWN"
 operators : + - * / =
 n : 5
-answer : 75.0
+answer : 4125.0

@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 8 | 128 | x=(32/0.25) | x 32 0.25 / = | x:problem 32:problem 0.25:Christina /:problem =:problem
-EXPR: 1 | POS | INT | 0 | 8 | 8 | (32*0.25)=x | 32 0.25 * x = | 32:problem 0.25:Christina *:problem x:problem =:problem
-EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(32*0.25) | x 32 0.25 * = | x:problem 32:problem 0.25:Christina *:problem =:problem
-EXPR: 0 | POS | INT | 0 | 8 | 128 | (32/0.25)=x | 32 0.25 / x = | 32:problem 0.25:Christina /:problem x:problem =:problem
-EXPR: 1 | POS | INT | 2 | 8 | 8 | 32=(x/0.25) | 32 x 0.25 / = | 32:problem x:problem 0.25:Christina /:problem =:problem
-EXPR: 0 | POS | INT | 2 | 8 | 128 | 32=(x*0.25) | 32 x 0.25 * = | 32:problem x:problem 0.25:Christina *:problem =:problem
-EXPR: 0 | POS | INT | 2 | 8 | 128 | 32=(0.25*x) | 32 0.25 x * = | 32:problem 0.25:Christina x:problem *:problem =:problem
-EXPR: 0 | POS | INT | 4 | 8 | 128 | (0.25*x)=32 | 0.25 x * 32 = | 0.25:Christina x:problem *:problem 32:problem =:problem
-EXPR: 0 | POS | INT | 4 | 8 | 128 | (x*0.25)=32 | x 0.25 * 32 = | x:problem 0.25:Christina *:problem 32:problem =:problem
-EXPR: 1 | POS | INT | 4 | 8 | 8 | (x/0.25)=32 | x 0.25 / 32 = | x:problem 0.25:Christina /:problem 32:problem =:problem
-EXPR: 0 | POS | FRA | 10 | 8 | 32.25 | (32+0.25)=x | 32 0.25 + x = | 32:problem 0.25:problem +:problem x:problem =:problem
-EXPR: 0 | POS | FRA | 10 | 8 | 32.25 | x=(32+0.25) | x 32 0.25 + = | x:problem 32:problem 0.25:problem +:problem =:problem
-EXPR: 0 | POS | FRA | 10 | 8 | 31.75 | (32-0.25)=x | 32 0.25 - x = | 32:problem 0.25:problem -:problem x:problem =:problem
-EXPR: 0 | POS | FRA | 10 | 8 | 31.75 | x=(32-0.25) | x 32 0.25 - = | x:problem 32:problem 0.25:problem -:problem =:problem
-EXPR: 0 | POS | FRA | 12 | 8 | 31.75 | 32=(x+0.25) | 32 x 0.25 + = | 32:problem x:problem 0.25:problem +:problem =:problem
-EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | 32=(0.25/x) | 32 0.25 x / = | 32:Christina 0.25:Christina x:problem /:Christina =:Christina
-EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | (x*32)=0.25 | x 32 * 0.25 = | x:problem 32:Christina *:Christina 0.25:Christina =:Christina
-EXPR: 0 | POS | INT | 12 | 8 | 128 | (32/x)=0.25 | 32 x / 0.25 = | 32:Christina x:problem /:Christina 0.25:Christina =:Christina
-EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | x=(0.25/32) | x 0.25 32 / = | x:Christina 0.25:Christina 32:problem /:Christina =:Christina
-EXPR: 0 | POS | FRA | 12 | 8 | 32.25 | 32=(x-0.25) | 32 x 0.25 - = | 32:problem x:problem 0.25:problem -:problem =:problem
-EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | (0.25/32)=x | 0.25 32 / x = | 0.25:Christina 32:problem /:Christina x:Christina =:Christina
-EXPR: 0 | POS | FRA | 12 | 8 | 0.0078125 | (32*x)=0.25 | 32 x * 0.25 = | 32:Christina x:problem *:Christina 0.25:Christina =:Christina
-EXPR: 0 | POS | FRA | 12 | 8 | 32.25 | (x-32)=0.25 | x 32 - 0.25 = | x:problem 32:problem -:problem 0.25:problem =:problem
-EXPR: 0 | POS | FRA | 12 | 8 | 31.75 | (32-x)=0.25 | 32 x - 0.25 = | 32:problem x:problem -:problem 0.25:problem =:problem
-EXPR: 1 | POS | INT | 12 | 8 | 8 | (x/32)=0.25 | x 32 / 0.25 = | x:Christina 32:problem /:Christina 0.25:Christina =:Christina
-EXPR: 0 | POS | FRA | 12 | 8 | 31.75 | 32=(0.25+x) | 32 0.25 x + = | 32:problem 0.25:problem x:problem +:problem =:problem
-EXPR: 1 | POS | INT | 14 | 8 | 8 | 0.25=(x/32) | 0.25 x 32 / = | 0.25:Christina x:Christina 32:problem /:Christina =:Christina
-EXPR: 0 | POS | INT | 14 | 8 | 128 | 0.25=(32/x) | 0.25 32 x / = | 0.25:Christina 32:Christina x:problem /:Christina =:Christina
-EXPR: 0 | POS | FRA | 14 | 8 | 31.75 | (0.25+x)=32 | 0.25 x + 32 = | 0.25:problem x:problem +:problem 32:problem =:problem
-EXPR: 0 | POS | FRA | 14 | 8 | 31.75 | (x+0.25)=32 | x 0.25 + 32 = | x:problem 0.25:problem +:problem 32:problem =:problem
-EXPR: 0 | POS | FRA | 14 | 8 | 0.0078125 | 0.25=(32*x) | 0.25 32 x * = | 0.25:Christina 32:problem x:Christina *:Christina =:Christina
-EXPR: 0 | POS | FRA | 14 | 8 | 0.0078125 | (0.25/x)=32 | 0.25 x / 32 = | 0.25:Christina x:problem /:Christina 32:Christina =:Christina
-EXPR: 0 | POS | FRA | 14 | 8 | 31.75 | 0.25=(32-x) | 0.25 32 x - = | 0.25:problem 32:problem x:problem -:problem =:problem
-EXPR: 0 | POS | FRA | 14 | 8 | 32.25 | 0.25=(x-32) | 0.25 x 32 - = | 0.25:problem x:problem 32:problem -:problem =:problem
-EXPR: 0 | POS | FRA | 14 | 8 | 0.0078125 | 0.25=(x*32) | 0.25 x 32 * = | 0.25:Christina x:problem 32:Christina *:Christina =:Christina
-EXPR: 0 | POS | FRA | 14 | 8 | 32.25 | (x-0.25)=32 | x 0.25 - 32 = | x:problem 0.25:problem -:problem 32:problem =:problem
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 51 | 51 | (0.75*68)=x | 0.75 68 * x = | 0.75:time 68:discount *:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 10 | 51 | 0.0110294117647059 | (0.75/68)=x | 0.75 68 / x = | 0.75:discount 68:ticket /:discount x:discount =:discount
+EXPR: 1 | POS | INT | 10 | 51 | 51 | x=(0.75*68) | x 0.75 68 * = | x:time 0.75:time 68:ticket *:time =:time
+EXPR: 0 | POS | FRA | 10 | 51 | 0.0110294117647059 | x=(0.75/68) | x 0.75 68 / = | x:discount 0.75:discount 68:ticket /:discount =:discount
+EXPR: 0 | POS | FRA | 12 | 51 | 90.6666666666667 | (0.75*x)=68 | 0.75 x * 68 = | 0.75:time x:ticket *:ticket 68:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 51 | 90.6666666666667 | x=(68/0.75) | x 68 0.75 / = | x:ticket 68:ticket 0.75:time /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 51 | 90.6666666666667 | 0.75=(68/x) | 0.75 68 x / = | 0.75:ticket 68:ticket x:discount /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 51 | 0.0110294117647059 | 0.75=(68*x) | 0.75 68 x * = | 0.75:discount 68:ticket x:discount *:discount =:discount
+EXPR: 0 | POS | FRA | 12 | 51 | 0.0110294117647059 | (0.75/x)=68 | 0.75 x / 68 = | 0.75:ticket x:discount /:ticket 68:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 51 | 0.0110294117647059 | 0.75=(x*68) | 0.75 x 68 * = | 0.75:discount x:discount 68:ticket *:discount =:discount
+EXPR: 1 | POS | INT | 12 | 51 | 51 | 0.75=(x/68) | 0.75 x 68 / = | 0.75:discount x:discount 68:ticket /:discount =:discount
+EXPR: 0 | POS | FRA | 12 | 51 | 90.6666666666667 | (x*0.75)=68 | x 0.75 * 68 = | x:discount 0.75:ticket *:ticket 68:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 51 | 51 | (x/0.75)=68 | x 0.75 / 68 = | x:discount 0.75:time /:discount 68:discount =:discount
+EXPR: 0 | POS | FRA | 12 | 51 | 90.6666666666667 | (68/0.75)=x | 68 0.75 / x = | 68:discount 0.75:time /:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 14 | 51 | 90.6666666666667 | (68/x)=0.75 | 68 x / 0.75 = | 68:time x:discount /:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 14 | 51 | 0.0110294117647059 | (68*x)=0.75 | 68 x * 0.75 = | 68:time x:discount *:time 0.75:time =:time
+EXPR: 1 | POS | INT | 14 | 51 | 51 | (x/68)=0.75 | x 68 / 0.75 = | x:time 68:ticket /:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 14 | 51 | 0.0110294117647059 | (x*68)=0.75 | x 68 * 0.75 = | x:time 68:ticket *:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 14 | 51 | 90.6666666666667 | 68=(0.75*x) | 68 0.75 x * = | 68:ticket 0.75:time x:ticket *:ticket =:ticket
+EXPR: 0 | POS | FRA | 14 | 51 | 90.6666666666667 | 68=(x*0.75) | 68 x 0.75 * = | 68:ticket x:discount 0.75:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 14 | 51 | 51 | 68=(x/0.75) | 68 x 0.75 / = | 68:discount x:discount 0.75:time /:discount =:discount
+EXPR: 0 | POS | FRA | 14 | 51 | 0.0110294117647059 | 68=(0.75/x) | 68 0.75 x / = | 68:time 0.75:time x:discount /:time =:time
+EXPR: 0 | POS | FRA | 20 | 51 | 68.75 | x=(0.75+68) | x 0.75 68 + = | x:time 0.75:time 68:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 51 | 68.75 | (0.75+68)=x | 0.75 68 + x = | 0.75:time 68:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 51 | 68.75 | 0.75=(x-68) | 0.75 x 68 - = | 0.75:time x:time 68:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 51 | 67.25 | 0.75=(68-x) | 0.75 68 x - = | 0.75:ticket 68:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 51 | 67.25 | x=(68-0.75) | x 68 0.75 - = | x:ticket 68:ticket 0.75:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 51 | 67.25 | (x+0.75)=68 | x 0.75 + 68 = | x:ticket 0.75:ticket +:ticket 68:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 51 | 68.75 | (x-0.75)=68 | x 0.75 - 68 = | x:ticket 0.75:ticket -:ticket 68:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 51 | 67.25 | (0.75+x)=68 | 0.75 x + 68 = | 0.75:time x:time +:time 68:time =:time
+EXPR: 0 | POS | FRA | 22 | 51 | 67.25 | (68-0.75)=x | 68 0.75 - x = | 68:discount 0.75:discount -:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 24 | 51 | 67.25 | 68=(x+0.75) | 68 x 0.75 + = | 68:time x:time 0.75:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 51 | 67.25 | (68-x)=0.75 | 68 x - 0.75 = | 68:time x:time -:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 24 | 51 | 68.75 | (x-68)=0.75 | x 68 - 0.75 = | x:time 68:time -:time 0.75:time =:time
+EXPR: 0 | POS | FRA | 24 | 51 | 68.75 | 68=(x-0.75) | 68 x 0.75 - = | 68:time x:time 0.75:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 51 | 67.25 | 68=(0.75+x) | 68 0.75 x + = | 68:discount 0.75:discount x:discount +:discount =:discount
+NET 36 unique, non-negative solutions found out of 324 total solutions

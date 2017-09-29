@@ -1,5 +1,5 @@
-quantities : 32 0.25 x
-types : "problem" "Christina" "problem"
+quantities : 0.75 68 x
+types : "time" "ticket" "discount"
 operators : + - * / =
 n : 5
-answer : 8.0
+answer : 51.0

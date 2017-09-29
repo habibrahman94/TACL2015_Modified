@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 1 | POS | INT | 10 | 17 | 17 | (0.25*68)=x | 0.25 68 * x = | 0.25:time 68:discount *:discount x:discount =:discount
-EXPR: 0 | POS | FRA | 10 | 17 | 0.00367647058823529 | (0.25/68)=x | 0.25 68 / x = | 0.25:discount 68:ticket /:discount x:discount =:discount
-EXPR: 1 | POS | INT | 10 | 17 | 17 | x=(0.25*68) | x 0.25 68 * = | x:time 0.25:time 68:ticket *:time =:time
-EXPR: 0 | POS | FRA | 10 | 17 | 0.00367647058823529 | x=(0.25/68) | x 0.25 68 / = | x:discount 0.25:discount 68:ticket /:discount =:discount
-EXPR: 0 | POS | INT | 12 | 17 | 272 | (0.25*x)=68 | 0.25 x * 68 = | 0.25:time x:ticket *:ticket 68:ticket =:ticket
-EXPR: 0 | POS | INT | 12 | 17 | 272 | x=(68/0.25) | x 68 0.25 / = | x:ticket 68:ticket 0.25:time /:ticket =:ticket
-EXPR: 0 | POS | INT | 12 | 17 | 272 | 0.25=(68/x) | 0.25 68 x / = | 0.25:ticket 68:ticket x:discount /:ticket =:ticket
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00367647058823529 | 0.25=(68*x) | 0.25 68 x * = | 0.25:discount 68:ticket x:discount *:discount =:discount
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00367647058823529 | (0.25/x)=68 | 0.25 x / 68 = | 0.25:ticket x:discount /:ticket 68:ticket =:ticket
-EXPR: 0 | POS | FRA | 12 | 17 | 0.00367647058823529 | 0.25=(x*68) | 0.25 x 68 * = | 0.25:discount x:discount 68:ticket *:discount =:discount
-EXPR: 1 | POS | INT | 12 | 17 | 17 | 0.25=(x/68) | 0.25 x 68 / = | 0.25:discount x:discount 68:ticket /:discount =:discount
-EXPR: 0 | POS | INT | 12 | 17 | 272 | (x*0.25)=68 | x 0.25 * 68 = | x:discount 0.25:ticket *:ticket 68:ticket =:ticket
-EXPR: 1 | POS | INT | 12 | 17 | 17 | (x/0.25)=68 | x 0.25 / 68 = | x:discount 0.25:time /:discount 68:discount =:discount
-EXPR: 0 | POS | INT | 12 | 17 | 272 | (68/0.25)=x | 68 0.25 / x = | 68:discount 0.25:time /:discount x:discount =:discount
-EXPR: 0 | POS | INT | 14 | 17 | 272 | (68/x)=0.25 | 68 x / 0.25 = | 68:time x:discount /:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 14 | 17 | 0.00367647058823529 | (68*x)=0.25 | 68 x * 0.25 = | 68:time x:discount *:time 0.25:time =:time
-EXPR: 1 | POS | INT | 14 | 17 | 17 | (x/68)=0.25 | x 68 / 0.25 = | x:time 68:ticket /:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 14 | 17 | 0.00367647058823529 | (x*68)=0.25 | x 68 * 0.25 = | x:time 68:ticket *:time 0.25:time =:time
-EXPR: 0 | POS | INT | 14 | 17 | 272 | 68=(0.25*x) | 68 0.25 x * = | 68:ticket 0.25:time x:ticket *:ticket =:ticket
-EXPR: 0 | POS | INT | 14 | 17 | 272 | 68=(x*0.25) | 68 x 0.25 * = | 68:ticket x:discount 0.25:ticket *:ticket =:ticket
-EXPR: 1 | POS | INT | 14 | 17 | 17 | 68=(x/0.25) | 68 x 0.25 / = | 68:discount x:discount 0.25:time /:discount =:discount
-EXPR: 0 | POS | FRA | 14 | 17 | 0.00367647058823529 | 68=(0.25/x) | 68 0.25 x / = | 68:time 0.25:time x:discount /:time =:time
-EXPR: 0 | POS | FRA | 20 | 17 | 68.25 | x=(0.25+68) | x 0.25 68 + = | x:time 0.25:time 68:time +:time =:time
-EXPR: 0 | POS | FRA | 20 | 17 | 68.25 | (0.25+68)=x | 0.25 68 + x = | 0.25:time 68:time +:time x:time =:time
-EXPR: 0 | POS | FRA | 22 | 17 | 68.25 | 0.25=(x-68) | 0.25 x 68 - = | 0.25:time x:time 68:time -:time =:time
-EXPR: 0 | POS | FRA | 22 | 17 | 67.75 | 0.25=(68-x) | 0.25 68 x - = | 0.25:ticket 68:ticket x:ticket -:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 17 | 67.75 | x=(68-0.25) | x 68 0.25 - = | x:ticket 68:ticket 0.25:ticket -:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 17 | 67.75 | (x+0.25)=68 | x 0.25 + 68 = | x:ticket 0.25:ticket +:ticket 68:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 17 | 68.25 | (x-0.25)=68 | x 0.25 - 68 = | x:ticket 0.25:ticket -:ticket 68:ticket =:ticket
-EXPR: 0 | POS | FRA | 22 | 17 | 67.75 | (0.25+x)=68 | 0.25 x + 68 = | 0.25:time x:time +:time 68:time =:time
-EXPR: 0 | POS | FRA | 22 | 17 | 67.75 | (68-0.25)=x | 68 0.25 - x = | 68:discount 0.25:discount -:discount x:discount =:discount
-EXPR: 0 | POS | FRA | 24 | 17 | 67.75 | 68=(x+0.25) | 68 x 0.25 + = | 68:time x:time 0.25:time +:time =:time
-EXPR: 0 | POS | FRA | 24 | 17 | 67.75 | (68-x)=0.25 | 68 x - 0.25 = | 68:time x:time -:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 24 | 17 | 68.25 | (x-68)=0.25 | x 68 - 0.25 = | x:time 68:time -:time 0.25:time =:time
-EXPR: 0 | POS | FRA | 24 | 17 | 68.25 | 68=(x-0.25) | 68 x 0.25 - = | 68:time x:time 0.25:time -:time =:time
-EXPR: 0 | POS | FRA | 24 | 17 | 67.75 | 68=(0.25+x) | 68 0.25 x + = | 68:discount 0.25:discount x:discount +:discount =:discount
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 22 | 352 | x=(88/0.25) | x 88 0.25 / = | x:milkshake 88:milkshake 0.25:Diner /:milkshake =:milkshake
+EXPR: 1 | POS | INT | 0 | 22 | 22 | (88*0.25)=x | 88 0.25 * x = | 88:milkshake 0.25:Diner *:milkshake x:milkshake =:milkshake
+EXPR: 1 | POS | INT | 0 | 22 | 22 | x=(88*0.25) | x 88 0.25 * = | x:milkshake 88:milkshake 0.25:Diner *:milkshake =:milkshake
+EXPR: 0 | POS | INT | 0 | 22 | 352 | (88/0.25)=x | 88 0.25 / x = | 88:milkshake 0.25:Diner /:milkshake x:milkshake =:milkshake
+EXPR: 1 | POS | INT | 2 | 22 | 22 | 88=(x/0.25) | 88 x 0.25 / = | 88:milkshake x:milkshake 0.25:Diner /:milkshake =:milkshake
+EXPR: 0 | POS | INT | 2 | 22 | 352 | 88=(x*0.25) | 88 x 0.25 * = | 88:milkshake x:milkshake 0.25:Diner *:milkshake =:milkshake
+EXPR: 0 | POS | INT | 2 | 22 | 352 | 88=(0.25*x) | 88 0.25 x * = | 88:milkshake 0.25:Diner x:milkshake *:milkshake =:milkshake
+EXPR: 0 | POS | INT | 4 | 22 | 352 | (0.25*x)=88 | 0.25 x * 88 = | 0.25:Diner x:milkshake *:milkshake 88:milkshake =:milkshake
+EXPR: 0 | POS | INT | 4 | 22 | 352 | (x*0.25)=88 | x 0.25 * 88 = | x:milkshake 0.25:Diner *:milkshake 88:milkshake =:milkshake
+EXPR: 1 | POS | INT | 4 | 22 | 22 | (x/0.25)=88 | x 0.25 / 88 = | x:milkshake 0.25:Diner /:milkshake 88:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 10 | 22 | 88.25 | (88+0.25)=x | 88 0.25 + x = | 88:milkshake 0.25:milkshake +:milkshake x:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 10 | 22 | 88.25 | x=(88+0.25) | x 88 0.25 + = | x:milkshake 88:milkshake 0.25:milkshake +:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 10 | 22 | 87.75 | (88-0.25)=x | 88 0.25 - x = | 88:milkshake 0.25:milkshake -:milkshake x:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 10 | 22 | 87.75 | x=(88-0.25) | x 88 0.25 - = | x:milkshake 88:milkshake 0.25:milkshake -:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 12 | 22 | 87.75 | 88=(x+0.25) | 88 x 0.25 + = | 88:milkshake x:milkshake 0.25:milkshake +:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 12 | 22 | 0.00284090909090909 | 88=(0.25/x) | 88 0.25 x / = | 88:Diner 0.25:Diner x:milkshake /:Diner =:Diner
+EXPR: 0 | POS | FRA | 12 | 22 | 0.00284090909090909 | (x*88)=0.25 | x 88 * 0.25 = | x:milkshake 88:Diner *:Diner 0.25:Diner =:Diner
+EXPR: 0 | POS | INT | 12 | 22 | 352 | (88/x)=0.25 | 88 x / 0.25 = | 88:Diner x:milkshake /:Diner 0.25:Diner =:Diner
+EXPR: 0 | POS | FRA | 12 | 22 | 0.00284090909090909 | x=(0.25/88) | x 0.25 88 / = | x:Diner 0.25:Diner 88:milkshake /:Diner =:Diner
+EXPR: 0 | POS | FRA | 12 | 22 | 88.25 | 88=(x-0.25) | 88 x 0.25 - = | 88:milkshake x:milkshake 0.25:milkshake -:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 12 | 22 | 0.00284090909090909 | (0.25/88)=x | 0.25 88 / x = | 0.25:Diner 88:milkshake /:Diner x:Diner =:Diner
+EXPR: 0 | POS | FRA | 12 | 22 | 0.00284090909090909 | (88*x)=0.25 | 88 x * 0.25 = | 88:Diner x:milkshake *:Diner 0.25:Diner =:Diner
+EXPR: 0 | POS | FRA | 12 | 22 | 88.25 | (x-88)=0.25 | x 88 - 0.25 = | x:milkshake 88:milkshake -:milkshake 0.25:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 12 | 22 | 87.75 | (88-x)=0.25 | 88 x - 0.25 = | 88:milkshake x:milkshake -:milkshake 0.25:milkshake =:milkshake
+EXPR: 1 | POS | INT | 12 | 22 | 22 | (x/88)=0.25 | x 88 / 0.25 = | x:Diner 88:milkshake /:Diner 0.25:Diner =:Diner
+EXPR: 0 | POS | FRA | 12 | 22 | 87.75 | 88=(0.25+x) | 88 0.25 x + = | 88:milkshake 0.25:milkshake x:milkshake +:milkshake =:milkshake
+EXPR: 1 | POS | INT | 14 | 22 | 22 | 0.25=(x/88) | 0.25 x 88 / = | 0.25:Diner x:Diner 88:milkshake /:Diner =:Diner
+EXPR: 0 | POS | INT | 14 | 22 | 352 | 0.25=(88/x) | 0.25 88 x / = | 0.25:Diner 88:Diner x:milkshake /:Diner =:Diner
+EXPR: 0 | POS | FRA | 14 | 22 | 87.75 | (0.25+x)=88 | 0.25 x + 88 = | 0.25:milkshake x:milkshake +:milkshake 88:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 14 | 22 | 87.75 | (x+0.25)=88 | x 0.25 + 88 = | x:milkshake 0.25:milkshake +:milkshake 88:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 14 | 22 | 0.00284090909090909 | 0.25=(88*x) | 0.25 88 x * = | 0.25:Diner 88:milkshake x:Diner *:Diner =:Diner
+EXPR: 0 | POS | FRA | 14 | 22 | 0.00284090909090909 | (0.25/x)=88 | 0.25 x / 88 = | 0.25:Diner x:milkshake /:Diner 88:Diner =:Diner
+EXPR: 0 | POS | FRA | 14 | 22 | 87.75 | 0.25=(88-x) | 0.25 88 x - = | 0.25:milkshake 88:milkshake x:milkshake -:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 14 | 22 | 88.25 | 0.25=(x-88) | 0.25 x 88 - = | 0.25:milkshake x:milkshake 88:milkshake -:milkshake =:milkshake
+EXPR: 0 | POS | FRA | 14 | 22 | 0.00284090909090909 | 0.25=(x*88) | 0.25 x 88 * = | 0.25:Diner x:milkshake 88:Diner *:Diner =:Diner
+EXPR: 0 | POS | FRA | 14 | 22 | 88.25 | (x-0.25)=88 | x 0.25 - 88 = | x:milkshake 0.25:milkshake -:milkshake 88:milkshake =:milkshake
+NET 36 unique, non-negative solutions found out of 136 total solutions

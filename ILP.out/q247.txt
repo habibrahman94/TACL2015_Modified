@@ -1,5 +1,0 @@
-quantities : 11,890 21,402 x
-types : "dollar" "dollar" "students"
-operators : + - * / =
-n : 5
-answer : 80.0

@@ -1,5 +1,5 @@
-quantities : 8 80 x
-types : "park" "ticket" "UNKNOWN"
+quantities : 18 0.4 x
+types : "bird" "time" "exhibit"
 operators : + - * / =
 n : 5
-answer : 10.0
+answer : 45.0

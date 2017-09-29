@@ -1,5 +1,5 @@
-quantities : 14 6 x
-types : "brownie" "brownie" "UNKNOWN"
+quantities : 12 3 x
+types : "guest" "guest" "table"
 operators : + - * / =
 n : 5
-answer : 70.0
+answer : 4.0

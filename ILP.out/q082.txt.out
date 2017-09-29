@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 4 | 64 | x=(16/0.25) | x 16 0.25 / = | x:question 16:question 0.25:Mary /:question =:question
-EXPR: 1 | POS | INT | 0 | 4 | 4 | (16*0.25)=x | 16 0.25 * x = | 16:question 0.25:Mary *:question x:question =:question
-EXPR: 1 | POS | INT | 0 | 4 | 4 | x=(16*0.25) | x 16 0.25 * = | x:question 16:question 0.25:Mary *:question =:question
-EXPR: 0 | POS | INT | 0 | 4 | 64 | (16/0.25)=x | 16 0.25 / x = | 16:question 0.25:Mary /:question x:question =:question
-EXPR: 1 | POS | INT | 2 | 4 | 4 | 16=(x/0.25) | 16 x 0.25 / = | 16:question x:question 0.25:Mary /:question =:question
-EXPR: 0 | POS | INT | 2 | 4 | 64 | 16=(x*0.25) | 16 x 0.25 * = | 16:question x:question 0.25:Mary *:question =:question
-EXPR: 0 | POS | INT | 2 | 4 | 64 | 16=(0.25*x) | 16 0.25 x * = | 16:question 0.25:Mary x:question *:question =:question
-EXPR: 0 | POS | INT | 4 | 4 | 64 | (0.25*x)=16 | 0.25 x * 16 = | 0.25:Mary x:question *:question 16:question =:question
-EXPR: 0 | POS | INT | 4 | 4 | 64 | (x*0.25)=16 | x 0.25 * 16 = | x:question 0.25:Mary *:question 16:question =:question
-EXPR: 1 | POS | INT | 4 | 4 | 4 | (x/0.25)=16 | x 0.25 / 16 = | x:question 0.25:Mary /:question 16:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 16.25 | (16+0.25)=x | 16 0.25 + x = | 16:question 0.25:question +:question x:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 16.25 | x=(16+0.25) | x 16 0.25 + = | x:question 16:question 0.25:question +:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 15.75 | (16-0.25)=x | 16 0.25 - x = | 16:question 0.25:question -:question x:question =:question
-EXPR: 0 | POS | FRA | 10 | 4 | 15.75 | x=(16-0.25) | x 16 0.25 - = | x:question 16:question 0.25:question -:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 15.75 | 16=(x+0.25) | 16 x 0.25 + = | 16:question x:question 0.25:question +:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 0.015625 | 16=(0.25/x) | 16 0.25 x / = | 16:Mary 0.25:Mary x:question /:Mary =:Mary
-EXPR: 0 | POS | FRA | 12 | 4 | 0.015625 | (x*16)=0.25 | x 16 * 0.25 = | x:question 16:Mary *:Mary 0.25:Mary =:Mary
-EXPR: 0 | POS | INT | 12 | 4 | 64 | (16/x)=0.25 | 16 x / 0.25 = | 16:Mary x:question /:Mary 0.25:Mary =:Mary
-EXPR: 0 | POS | FRA | 12 | 4 | 0.015625 | x=(0.25/16) | x 0.25 16 / = | x:Mary 0.25:Mary 16:question /:Mary =:Mary
-EXPR: 0 | POS | FRA | 12 | 4 | 16.25 | 16=(x-0.25) | 16 x 0.25 - = | 16:question x:question 0.25:question -:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 0.015625 | (0.25/16)=x | 0.25 16 / x = | 0.25:Mary 16:question /:Mary x:Mary =:Mary
-EXPR: 0 | POS | FRA | 12 | 4 | 0.015625 | (16*x)=0.25 | 16 x * 0.25 = | 16:Mary x:question *:Mary 0.25:Mary =:Mary
-EXPR: 0 | POS | FRA | 12 | 4 | 16.25 | (x-16)=0.25 | x 16 - 0.25 = | x:question 16:question -:question 0.25:question =:question
-EXPR: 0 | POS | FRA | 12 | 4 | 15.75 | (16-x)=0.25 | 16 x - 0.25 = | 16:question x:question -:question 0.25:question =:question
-EXPR: 1 | POS | INT | 12 | 4 | 4 | (x/16)=0.25 | x 16 / 0.25 = | x:Mary 16:question /:Mary 0.25:Mary =:Mary
-EXPR: 0 | POS | FRA | 12 | 4 | 15.75 | 16=(0.25+x) | 16 0.25 x + = | 16:question 0.25:question x:question +:question =:question
-EXPR: 1 | POS | INT | 14 | 4 | 4 | 0.25=(x/16) | 0.25 x 16 / = | 0.25:Mary x:Mary 16:question /:Mary =:Mary
-EXPR: 0 | POS | INT | 14 | 4 | 64 | 0.25=(16/x) | 0.25 16 x / = | 0.25:Mary 16:Mary x:question /:Mary =:Mary
-EXPR: 0 | POS | FRA | 14 | 4 | 15.75 | (0.25+x)=16 | 0.25 x + 16 = | 0.25:question x:question +:question 16:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 15.75 | (x+0.25)=16 | x 0.25 + 16 = | x:question 0.25:question +:question 16:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 0.015625 | 0.25=(16*x) | 0.25 16 x * = | 0.25:Mary 16:question x:Mary *:Mary =:Mary
-EXPR: 0 | POS | FRA | 14 | 4 | 0.015625 | (0.25/x)=16 | 0.25 x / 16 = | 0.25:Mary x:question /:Mary 16:Mary =:Mary
-EXPR: 0 | POS | FRA | 14 | 4 | 15.75 | 0.25=(16-x) | 0.25 16 x - = | 0.25:question 16:question x:question -:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 16.25 | 0.25=(x-16) | 0.25 x 16 - = | 0.25:question x:question 16:question -:question =:question
-EXPR: 0 | POS | FRA | 14 | 4 | 0.015625 | 0.25=(x*16) | 0.25 x 16 * = | 0.25:Mary x:question 16:Mary *:Mary =:Mary
-EXPR: 0 | POS | FRA | 14 | 4 | 16.25 | (x-0.25)=16 | x 0.25 - 16 = | x:question 0.25:question -:question 16:question =:question
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 9 | 9 | (0.25*36)=x | 0.25 36 * x = | 0.25:time 36:discount *:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 10 | 9 | 0.00694444444444444 | (0.25/36)=x | 0.25 36 / x = | 0.25:discount 36:ticket /:discount x:discount =:discount
+EXPR: 1 | POS | INT | 10 | 9 | 9 | x=(0.25*36) | x 0.25 36 * = | x:time 0.25:time 36:ticket *:time =:time
+EXPR: 0 | POS | FRA | 10 | 9 | 0.00694444444444444 | x=(0.25/36) | x 0.25 36 / = | x:discount 0.25:discount 36:ticket /:discount =:discount
+EXPR: 0 | POS | INT | 12 | 9 | 144 | (0.25*x)=36 | 0.25 x * 36 = | 0.25:time x:ticket *:ticket 36:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 9 | 144 | x=(36/0.25) | x 36 0.25 / = | x:ticket 36:ticket 0.25:time /:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 9 | 144 | 0.25=(36/x) | 0.25 36 x / = | 0.25:ticket 36:ticket x:discount /:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00694444444444444 | 0.25=(36*x) | 0.25 36 x * = | 0.25:discount 36:ticket x:discount *:discount =:discount
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00694444444444444 | (0.25/x)=36 | 0.25 x / 36 = | 0.25:ticket x:discount /:ticket 36:ticket =:ticket
+EXPR: 0 | POS | FRA | 12 | 9 | 0.00694444444444444 | 0.25=(x*36) | 0.25 x 36 * = | 0.25:discount x:discount 36:ticket *:discount =:discount
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 0.25=(x/36) | 0.25 x 36 / = | 0.25:discount x:discount 36:ticket /:discount =:discount
+EXPR: 0 | POS | INT | 12 | 9 | 144 | (x*0.25)=36 | x 0.25 * 36 = | x:discount 0.25:ticket *:ticket 36:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x/0.25)=36 | x 0.25 / 36 = | x:discount 0.25:time /:discount 36:discount =:discount
+EXPR: 0 | POS | INT | 12 | 9 | 144 | (36/0.25)=x | 36 0.25 / x = | 36:discount 0.25:time /:discount x:discount =:discount
+EXPR: 0 | POS | INT | 14 | 9 | 144 | (36/x)=0.25 | 36 x / 0.25 = | 36:time x:discount /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00694444444444444 | (36*x)=0.25 | 36 x * 0.25 = | 36:time x:discount *:time 0.25:time =:time
+EXPR: 1 | POS | INT | 14 | 9 | 9 | (x/36)=0.25 | x 36 / 0.25 = | x:time 36:ticket /:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00694444444444444 | (x*36)=0.25 | x 36 * 0.25 = | x:time 36:ticket *:time 0.25:time =:time
+EXPR: 0 | POS | INT | 14 | 9 | 144 | 36=(0.25*x) | 36 0.25 x * = | 36:ticket 0.25:time x:ticket *:ticket =:ticket
+EXPR: 0 | POS | INT | 14 | 9 | 144 | 36=(x*0.25) | 36 x 0.25 * = | 36:ticket x:discount 0.25:ticket *:ticket =:ticket
+EXPR: 1 | POS | INT | 14 | 9 | 9 | 36=(x/0.25) | 36 x 0.25 / = | 36:discount x:discount 0.25:time /:discount =:discount
+EXPR: 0 | POS | FRA | 14 | 9 | 0.00694444444444444 | 36=(0.25/x) | 36 0.25 x / = | 36:time 0.25:time x:discount /:time =:time
+EXPR: 0 | POS | FRA | 20 | 9 | 36.25 | x=(0.25+36) | x 0.25 36 + = | x:time 0.25:time 36:time +:time =:time
+EXPR: 0 | POS | FRA | 20 | 9 | 36.25 | (0.25+36)=x | 0.25 36 + x = | 0.25:time 36:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 22 | 9 | 36.25 | 0.25=(x-36) | 0.25 x 36 - = | 0.25:time x:time 36:time -:time =:time
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | 0.25=(36-x) | 0.25 36 x - = | 0.25:ticket 36:ticket x:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | x=(36-0.25) | x 36 0.25 - = | x:ticket 36:ticket 0.25:ticket -:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | (x+0.25)=36 | x 0.25 + 36 = | x:ticket 0.25:ticket +:ticket 36:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 36.25 | (x-0.25)=36 | x 0.25 - 36 = | x:ticket 0.25:ticket -:ticket 36:ticket =:ticket
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | (0.25+x)=36 | 0.25 x + 36 = | 0.25:time x:time +:time 36:time =:time
+EXPR: 0 | POS | FRA | 22 | 9 | 35.75 | (36-0.25)=x | 36 0.25 - x = | 36:discount 0.25:discount -:discount x:discount =:discount
+EXPR: 0 | POS | FRA | 24 | 9 | 35.75 | 36=(x+0.25) | 36 x 0.25 + = | 36:time x:time 0.25:time +:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 35.75 | (36-x)=0.25 | 36 x - 0.25 = | 36:time x:time -:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 36.25 | (x-36)=0.25 | x 36 - 0.25 = | x:time 36:time -:time 0.25:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 36.25 | 36=(x-0.25) | 36 x 0.25 - = | 36:time x:time 0.25:time -:time =:time
+EXPR: 0 | POS | FRA | 24 | 9 | 35.75 | 36=(0.25+x) | 36 0.25 x + = | 36:discount 0.25:discount x:discount +:discount =:discount
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -1,5 +1,0 @@
-quantities : 8,990 7,192 x
-types : "athlete" "athlete" "athletes"
-operators : + - * / =
-n : 5
-answer : 20.0

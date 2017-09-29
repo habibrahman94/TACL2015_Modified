@@ -1,5 +1,5 @@
-quantities : 230 x 276
-types : "minute" "he" "minute"
+quantities : 0.3 0.2 x
+types : "foot" "foot" "foot"
 operators : + - * / =
 n : 5
-answer : 16.666667
+answer : 0.1

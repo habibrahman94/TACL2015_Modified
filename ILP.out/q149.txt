@@ -1,5 +1,5 @@
-quantities : 24 6 x
-types : "teacher" "teacher" "UNKNOWN"
+quantities : 123,260 0.35 x
+types : "dollar" "event" "event"
 operators : + - * / =
 n : 5
-answer : 80.0
+answer : 166401.0

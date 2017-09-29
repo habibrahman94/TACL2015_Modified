@@ -1,40 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 46 | 6 | (40*0.15)=x | 40 0.15 * x = | 40:farenhite 0.15:low *:low x:low =:low
-EXPR: 0 | POS | FRA | 10 | 46 | 266.666666666667 | (40/0.15)=x | 40 0.15 / x = | 40:low 0.15:time /:low x:low =:low
-EXPR: 0 | POS | INT | 10 | 46 | 6 | x=(40*0.15) | x 40 0.15 * = | x:farenhite 40:farenhite 0.15:time *:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 10 | 46 | 266.666666666667 | x=(40/0.15) | x 40 0.15 / = | x:low 40:low 0.15:time /:low =:low
-EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | (40*x)=0.15 | 40 x * 0.15 = | 40:farenhite x:time *:time 0.15:time =:time
-EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | x=(0.15/40) | x 0.15 40 / = | x:time 0.15:time 40:farenhite /:time =:time
-EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | 40=(0.15/x) | 40 0.15 x / = | 40:time 0.15:time x:low /:time =:time
-EXPR: 0 | POS | FRA | 12 | 46 | 266.666666666667 | 40=(0.15*x) | 40 0.15 x * = | 40:low 0.15:time x:low *:low =:low
-EXPR: 0 | POS | FRA | 12 | 46 | 266.666666666667 | (40/x)=0.15 | 40 x / 0.15 = | 40:time x:low /:time 0.15:time =:time
-EXPR: 0 | POS | FRA | 12 | 46 | 266.666666666667 | 40=(x*0.15) | 40 x 0.15 * = | 40:low x:low 0.15:time *:low =:low
-EXPR: 0 | POS | INT | 12 | 46 | 6 | 40=(x/0.15) | 40 x 0.15 / = | 40:low x:low 0.15:time /:low =:low
-EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | (x*40)=0.15 | x 40 * 0.15 = | x:low 40:time *:time 0.15:time =:time
-EXPR: 0 | POS | INT | 12 | 46 | 6 | (x/40)=0.15 | x 40 / 0.15 = | x:low 40:farenhite /:low 0.15:low =:low
-EXPR: 0 | POS | FRA | 12 | 46 | 0.00375 | (0.15/40)=x | 0.15 40 / x = | 0.15:low 40:farenhite /:low x:low =:low
-EXPR: 0 | POS | FRA | 14 | 46 | 0.00375 | (0.15/x)=40 | 0.15 x / 40 = | 0.15:farenhite x:low /:farenhite 40:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 14 | 46 | 266.666666666667 | (0.15*x)=40 | 0.15 x * 40 = | 0.15:farenhite x:low *:farenhite 40:farenhite =:farenhite
-EXPR: 0 | POS | INT | 14 | 46 | 6 | (x/0.15)=40 | x 0.15 / 40 = | x:farenhite 0.15:time /:farenhite 40:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 14 | 46 | 266.666666666667 | (x*0.15)=40 | x 0.15 * 40 = | x:farenhite 0.15:time *:farenhite 40:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 14 | 46 | 0.00375 | 0.15=(40*x) | 0.15 40 x * = | 0.15:time 40:farenhite x:time *:time =:time
-EXPR: 0 | POS | FRA | 14 | 46 | 0.00375 | 0.15=(x*40) | 0.15 x 40 * = | 0.15:time x:low 40:time *:time =:time
-EXPR: 0 | POS | INT | 14 | 46 | 6 | 0.15=(x/40) | 0.15 x 40 / = | 0.15:low x:low 40:farenhite /:low =:low
-EXPR: 0 | POS | FRA | 14 | 46 | 266.666666666667 | 0.15=(40/x) | 0.15 40 x / = | 0.15:farenhite 40:farenhite x:low /:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 20 | 46 | 40.15 | x=(40+0.15) | x 40 0.15 + = | x:farenhite 40:farenhite 0.15:farenhite +:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 20 | 46 | 39.85 | x=(40-0.15) | x 40 0.15 - = | x:low 40:low 0.15:low -:low =:low
-EXPR: 0 | POS | FRA | 20 | 46 | 40.15 | (40+0.15)=x | 40 0.15 + x = | 40:farenhite 0.15:farenhite +:farenhite x:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 20 | 46 | 39.85 | (40-0.15)=x | 40 0.15 - x = | 40:low 0.15:low -:low x:low =:low
-EXPR: 0 | POS | FRA | 22 | 46 | 40.15 | 40=(x-0.15) | 40 x 0.15 - = | 40:farenhite x:farenhite 0.15:farenhite -:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 22 | 46 | 39.85 | 40=(x+0.15) | 40 x 0.15 + = | 40:farenhite x:farenhite 0.15:farenhite +:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 22 | 46 | 40.15 | (x-40)=0.15 | x 40 - 0.15 = | x:time 40:time -:time 0.15:time =:time
-EXPR: 0 | POS | FRA | 22 | 46 | 39.85 | (40-x)=0.15 | 40 x - 0.15 = | 40:farenhite x:farenhite -:farenhite 0.15:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 22 | 46 | 39.85 | 40=(0.15+x) | 40 0.15 x + = | 40:low 0.15:low x:low +:low =:low
-EXPR: 0 | POS | FRA | 24 | 46 | 39.85 | (0.15+x)=40 | 0.15 x + 40 = | 0.15:low x:low +:low 40:low =:low
-EXPR: 0 | POS | FRA | 24 | 46 | 40.15 | (x-0.15)=40 | x 0.15 - 40 = | x:farenhite 0.15:farenhite -:farenhite 40:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 24 | 46 | 39.85 | (x+0.15)=40 | x 0.15 + 40 = | x:low 0.15:low +:low 40:low =:low
-EXPR: 0 | POS | FRA | 24 | 46 | 39.85 | 0.15=(40-x) | 0.15 40 x - = | 0.15:farenhite 40:farenhite x:farenhite -:farenhite =:farenhite
-EXPR: 0 | POS | FRA | 24 | 46 | 40.15 | 0.15=(x-40) | 0.15 x 40 - = | 0.15:farenhite x:farenhite 40:farenhite -:farenhite =:farenhite
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.1 | 0.1 | (0.7-0.6)=x | 0.7 0.6 - x = | 0.7:mile 0.6:mile -:mile x:mile =:mile
+EXPR: 1 | POS | FRA | 0 | 0.1 | 0.1 | x=(0.7-0.6) | x 0.7 0.6 - = | x:mile 0.7:mile 0.6:mile -:mile =:mile
+EXPR: 0 | POS | FRA | 0 | 0.1 | 1.3 | (0.7+0.6)=x | 0.7 0.6 + x = | 0.7:mile 0.6:mile +:mile x:mile =:mile
+EXPR: 0 | POS | FRA | 0 | 0.1 | 1.3 | x=(0.7+0.6) | x 0.7 0.6 + = | x:mile 0.7:mile 0.6:mile +:mile =:mile
+EXPR: 0 | POS | FRA | 2 | 0.1 | 1.3 | (x-0.7)=0.6 | x 0.7 - 0.6 = | x:mile 0.7:mile -:mile 0.6:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | (0.7-x)=0.6 | 0.7 x - 0.6 = | 0.7:mile x:mile -:mile 0.6:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | 0.7=(x+0.6) | 0.7 x 0.6 + = | 0.7:mile x:mile 0.6:mile +:mile =:mile
+EXPR: 0 | POS | FRA | 2 | 0.1 | 1.3 | 0.7=(x-0.6) | 0.7 x 0.6 - = | 0.7:mile x:mile 0.6:mile -:mile =:mile
+EXPR: 1 | POS | FRA | 2 | 0.1 | 0.1 | 0.7=(0.6+x) | 0.7 0.6 x + = | 0.7:mile 0.6:mile x:mile +:mile =:mile
+EXPR: 0 | POS | FRA | 4 | 0.1 | 1.3 | 0.6=(x-0.7) | 0.6 x 0.7 - = | 0.6:mile x:mile 0.7:mile -:mile =:mile
+EXPR: 0 | POS | FRA | 4 | 0.1 | 1.3 | (x-0.6)=0.7 | x 0.6 - 0.7 = | x:mile 0.6:mile -:mile 0.7:mile =:mile
+EXPR: 1 | POS | FRA | 4 | 0.1 | 0.1 | (0.6+x)=0.7 | 0.6 x + 0.7 = | 0.6:mile x:mile +:mile 0.7:mile =:mile
+EXPR: 1 | POS | FRA | 4 | 0.1 | 0.1 | (x+0.6)=0.7 | x 0.6 + 0.7 = | x:mile 0.6:mile +:mile 0.7:mile =:mile
+EXPR: 1 | POS | FRA | 4 | 0.1 | 0.1 | 0.6=(0.7-x) | 0.6 0.7 x - = | 0.6:mile 0.7:mile x:mile -:mile =:mile
+NET 14 unique, non-negative solutions found out of 28 total solutions

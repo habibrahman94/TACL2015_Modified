@@ -1,0 +1,2738 @@
+[
+  {
+    "iIndex": 0,
+    "lSolutions": [
+      25.0
+    ],
+    "lEquations": [
+      "x=50.0-(50.0*(50.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Alice has 50 books. She gives her 50 percent books to Bob. How many books Alice have? "
+  },
+  {
+    "iIndex": 1,
+    "lSolutions": [
+      8.45
+    ],
+    "lEquations": [
+      "x=84.5*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " What is 10 percent of 84.3 ? "
+  },
+  {
+    "iIndex": 2,
+    "lSolutions": [
+      29.7
+    ],
+    "lEquations": [
+      "x=27.0+(27.00*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Tiffany has breakfast at a restaurant and the cost of her meal is $27.00. Because of the service, she wants to leave a 10 percent tip. What is her total bill including tip? "
+  },
+  {
+    "iIndex": 3,
+    "lSolutions": [
+      31.45
+    ],
+    "lEquations": [
+      "x=37.0-(37.0*(15.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Jessica bought a new shirt at the store when they were having a 15 percent off sale. If the regular price of the shirt was $37, how much did Jessica pay with the discount? "
+  },
+  {
+    "iIndex": 4,
+    "lSolutions": [
+      513.0
+    ],
+    "lEquations": [
+      "x=51.3*(1000.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " What is 1000 percent of 51.3 ? "
+  },
+  {
+    "iIndex": 5,
+    "lSolutions": [
+      6.3
+    ],
+    "lEquations": [
+      "x=7.0-(7.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The cake store is having a 10 percent off sale on all of its cakes. If the cake you want regularly costs $7, how much would you save with the discount? "
+  },
+  {
+    "iIndex": 6,
+    "lSolutions": [
+      32.55
+    ],
+    "lEquations": [
+      "x=31.0+(31.0*(5.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Jessica eats at a cafe and the cost of her meal is $31.00. Because of the service, she wants to leave a 5 percent tip. What is her total bill including tip? "
+  },
+  {
+    "iIndex": 7,
+    "lSolutions": [
+      0.0386
+    ],
+    "lEquations": [
+      "x=38.6*(0.1/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " What is 0.1 percent of 38.6 ? "
+  },
+  {
+    "iIndex": 8,
+    "lSolutions": [
+      28.8
+    ],
+    "lEquations": [
+      "x=24.0+(24.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " William eats at a restaurant and the cost of his meal is $24.00. Because of the service, he wants to leave a 20 percent tip. What is his total bill including tip? "
+  },
+  {
+    "iIndex": 9,
+    "lSolutions": [
+      38.4
+    ],
+    "lEquations": [
+      "x=48.0-(48.0*(20/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Christopher bought a new watch at the store when they were having a 20 percent off sale. If the regular price of the watch was $48, how much did Christopher pay with the discount? "
+  },
+  {
+    "iIndex": 10,
+    "lSolutions": [
+      57.8
+    ],
+    "lEquations": [
+      "x=57.8*(100.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " What is 100 percent of 57.8 ? "
+  },
+  {
+    "iIndex": 11,
+    "lSolutions": [
+      43.95
+    ],
+    "lEquations": [
+      "x=293.0*(15.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Daniel works at a nearby electronics store. He makes a commission of 15 percent on everything he sells. If he sells a laptop for $293.00, how much money does Daniel make in commission? "
+  },
+  {
+    "iIndex": 12,
+    "lSolutions": [
+      0.652
+    ],
+    "lEquations": [
+      "x=65.2*(1.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " What is 1 percent of 65.2 ? "
+  },
+  {
+    "iIndex": 13,
+    "lSolutions": [
+      135.8
+    ],
+    "lEquations": [
+      "x=97.0+(97.0*(40.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The manager at Brandon's Furniture Store is trying to figure out how much to charge for a sofa that just arrived. If the sofa was bought at a wholesale price of $97.00 and Brandon's Furniture Store marks up all furniture by 40 percent, at what price should the manager sell the sofa? "
+  },
+  {
+    "iIndex": 14,
+    "lSolutions": [
+      45.84
+    ],
+    "lEquations": [
+      "x=764.0*(6.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " William works at a nearby electronics store. He makes a commission of 6 percent on everything he sells. If he sells a computer for $764.00, how much money does William make in commission? "
+  },
+  {
+    "iIndex": 15,
+    "lSolutions": [
+      190.8
+    ],
+    "lEquations": [
+      "x=106.0+(106.0*(80.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The manager at William's Furniture Store is trying to figure out how much to charge for a sofa that just arrived. If the sofa was bought at a wholesale price of $106.00 and William's Furniture Store marks up all furniture by 80 percent, at what price should the manager sell the sofa? "
+  },
+  {
+    "iIndex": 16,
+    "lSolutions": [
+      28.0
+    ],
+    "lEquations": [
+      "x=35.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A baseball pitcher won 80% of the games he pitched. If he pitched 35 ballgames, how many games did he win? "
+  },
+  {
+    "iIndex": 20,
+    "lSolutions": [
+      16.0
+    ],
+    "lEquations": [
+      "x=20.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A student earned a grade of 80% on a math test that had 20 problems. How many problems on this test did the student answer correctly? "
+  },
+  {
+    "iIndex": 22,
+    "lSolutions": [
+      7.5795
+    ],
+    "lEquations": [
+      "x=8.15*(93.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A metal bar weighs 8.15 ounces. 93% of the bar is silver. How many ounces of silver are in the bar? "
+  },
+  {
+    "iIndex": 23,
+    "lSolutions": [
+      37.7
+    ],
+    "lEquations": [
+      "x=580.0*(6.50/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A woman put $580 into a savings account for one year. The rate of interest on the account was 6.50%. How much was the interest for the year? "
+  },
+  {
+    "iIndex": 24,
+    "lSolutions": [
+      87.755102041
+    ],
+    "lEquations": [
+      "x*(98.0/100.0)=86.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A student answered 86 problems on a test correctly and received a grade 98%. How many problems were on the test, if all the problems were worth the same number of points? "
+  },
+  {
+    "iIndex": 25,
+    "lSolutions": [
+      4680.0
+    ],
+    "lEquations": [
+      "x=7200.0*(65.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Manuel found a wrecked Trans-Am that he could fix. He bought the car for 65% of the original price of $7200. What did he pay for the car? "
+  },
+  {
+    "iIndex": 26,
+    "lSolutions": [
+      38.694117647
+    ],
+    "lEquations": [
+      "x*(85.0/100.0)=32.89"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Pamela bought an electric drill at 85% of the regular price. She paid $32.89 for the drill. What was the regular price? "
+  },
+  {
+    "iIndex": 27,
+    "lSolutions": [
+      160.0
+    ],
+    "lEquations": [
+      "x*(5.0/100.0)=8"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A crew is made up of 8 men; the rest are women. 5% of the crew are men. How many people are in the crew? "
+  },
+  {
+    "iIndex": 28,
+    "lSolutions": [
+      1920.0
+    ],
+    "lEquations": [
+      "x=12800*(15.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Ben earns $12800 a year. About 15% is taken out for taxes. How much is taken out for taxes? "
+  },
+  {
+    "iIndex": 29,
+    "lSolutions": [
+      18.75
+    ],
+    "lEquations": [
+      "x*(80.0/100.0)=15.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At a sale, shirts were sold for $15 each. This price was 80% of their original price. What was the original price? "
+  },
+  {
+    "iIndex": 43,
+    "lSolutions": [
+      18.0
+    ],
+    "lEquations": [
+      "x=90.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The local water slides have 90 employees, of which 20% are temporary. How many temporary employees are there? "
+  },
+  {
+    "iIndex": 44,
+    "lSolutions": [
+      4.0
+    ],
+    "lEquations": [
+      "x=10.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Lauren had both chocolate cake and coconut cake at her birthday party. There were 10 people at the party, and 40% of them picked chocolate cake. How many people picked chocolate cake? "
+  },
+  {
+    "iIndex": 45,
+    "lSolutions": [
+      18.0
+    ],
+    "lEquations": [
+      "x=36.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Desmond's Tea Shop has caffeinated tea and decaffeinated tea. During the lunchtime rush, the tea shop served 36 teas in all, 50% of which were caffeinated. How many caffeinated teas did the tea shop serve? "
+  },
+  {
+    "iIndex": 46,
+    "lSolutions": [
+      21.0
+    ],
+    "lEquations": [
+      "x=28.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Tommy's Burgers cooks its burgers either well done or medium. The restaurant served 28 burgers last night, 75% of which were well done. How many well-done burgers did the restaurant serve? "
+  },
+  {
+    "iIndex": 47,
+    "lSolutions": [
+      8.0
+    ],
+    "lEquations": [
+      "x=80.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The sixth-graders at Robert's school got to choose between a field trip to a museum and a field trip to a factory. 10% of the sixth-graders picked the museum. If there are 80 sixth-graders in all at Robert's school, how many sixth-graders went on the trip to the museum? "
+  },
+  {
+    "iIndex": 48,
+    "lSolutions": [
+      70.0
+    ],
+    "lEquations": [
+      "x=100.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last Tuesday was silly hat day at Ken's school. Of the 100 students at the school, 70% wore a silly hat. How many students wore a silly hat? "
+  },
+  {
+    "iIndex": 49,
+    "lSolutions": [
+      16.0
+    ],
+    "lEquations": [
+      "x=20.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Vera's Beading Boutique, 80% of the 20 beads on clearance are plastic. How many plastic beads are there on clearance? "
+  },
+  {
+    "iIndex": 50,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x=25.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Carter's Diner offers its clients a choice of regular and diet soda. Last night, the diner served 25 sodas in all, 60% of which were regular. How many regular sodas did the diner serve? "
+  },
+  {
+    "iIndex": 51,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x=50.0*(30.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " For a company picnic, Riley ordered a box of fresh-baked gingerbread cookies and sugar cookies. The box included a total of 50 cookies, and 30% of them were gingerbread. How many gingerbread cookies did Riley get? "
+  },
+  {
+    "iIndex": 52,
+    "lSolutions": [
+      54.000000
+    ],
+    "lEquations": [
+      "x=60.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Jenna bought cupcakes for her sister's birthday party. 90% of the 60 cupcakes had sprinkles on top. How many cupcakes had sprinkles? "
+  },
+  {
+    "iIndex": 53,
+    "lSolutions": [
+      13.000000
+    ],
+    "lEquations": [
+      "x=65.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Tara has a new beaded necklace. 20% of the 65 beads on Tara's necklace are blue. How many blue beads are there on Tara's necklace? "
+  },
+  {
+    "iIndex": 54,
+    "lSolutions": [
+      28.000000
+    ],
+    "lEquations": [
+      "x=40.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The city council voted on a new tax. The council has 40 members and 70% of the council members voted in favor of the new tax. How many members voted in favor of the tax? "
+  },
+  {
+    "iIndex": 55,
+    "lSolutions": [
+      48.000000
+    ],
+    "lEquations": [
+      "x=64.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The lunch choices last Friday were mushroom or pepperoni pizza. The cafeteria made 64 pizzas in all, 75% of which were mushroom pizzas. How many mushroom pizzas did the cafeteria make? "
+  },
+  {
+    "iIndex": 56,
+    "lSolutions": [
+      21.000000
+    ],
+    "lEquations": [
+      "x=84.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last night, the two dinner specials at Owen's favorite restaurant were salmon filet and steak. The restaurant served 84 specials in all, 25% of which were salmon filets. How many salmon filets did the restaurant serve? "
+  },
+  {
+    "iIndex": 57,
+    "lSolutions": [
+      38.000000
+    ],
+    "lEquations": [
+      "x=95.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 40% of the tickets sold at a water park were child tickets. If the park sold 95 tickets in all, how many child tickets did it sell? "
+  },
+  {
+    "iIndex": 58,
+    "lSolutions": [
+      28.0000000
+    ],
+    "lEquations": [
+      "x=56.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A school staff meeting had 56 teachers in attendance, 50% of whom were first-year teachers. How many first-year teachers were in the meeting? "
+  },
+  {
+    "iIndex": 59,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=15.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Britney's class just held a class election. 60% of the 15 students in the class voted. How many students voted? "
+  },
+  {
+    "iIndex": 60,
+    "lSolutions": [
+      63.000000
+    ],
+    "lEquations": [
+      "x=70.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At the sewing store, Jane bought a bag of mixed buttons. The bag included 70 buttons, of which 90% were large. How many large buttons did Jane get? "
+  },
+  {
+    "iIndex": 61,
+    "lSolutions": [
+      54.000000
+    ],
+    "lEquations": [
+      "x=72.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Mimi took a math quiz last week. There were 72 problems on the quiz and Mimi answered 75% of them correctly. How many problems did Mimi get correct? "
+  },
+  {
+    "iIndex": 62,
+    "lSolutions": [
+      27.000000
+    ],
+    "lEquations": [
+      "x=30.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In order to select new board members, the French club held an election. 90% of the 30 members of the club voted. How many members voted? "
+  },
+  {
+    "iIndex": 63,
+    "lSolutions": [
+      11.000000
+    ],
+    "lEquations": [
+      "x=44.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A bookstore carries 44 magazines. 25% of the magazines are women's magazines. How many women's magazines does the bookstore carry? "
+  },
+  {
+    "iIndex": 64,
+    "lSolutions": [
+      17.000000
+    ],
+    "lEquations": [
+      "x=85.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " To celebrate the first day of school, Brett brought in a tray of caramel brownies and walnut brownies. The tray had a total of 85 brownies, of which 20% were caramel. How many caramel brownies did Brett bring? "
+  },
+  {
+    "iIndex": 65,
+    "lSolutions": [
+      6.000000
+    ],
+    "lEquations": [
+      "x=8.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At a company meeting, there were 8 people in attendance. 75% of them were managers. How many managers were in the meeting? "
+  },
+  {
+    "iIndex": 66,
+    "lSolutions": [
+      1.000000
+    ],
+    "lEquations": [
+      "x=5.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Brody's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 5 coffees in all, 20% of which were regular. How many regular coffees did the cafe serve? "
+  },
+  {
+    "iIndex": 67,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=90.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Gabe's Cafe offers two kinds of espresso: single-shot and double-shot. Yesterday afternoon, the cafe sold 90 espressos in all, 10% of which were single-shot. How many single-shot espressos did the cafe sell? "
+  },
+  {
+    "iIndex": 68,
+    "lSolutions": [
+      36.000000
+    ],
+    "lEquations": [
+      "x=45.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The art club had an election to select a president. 80% of the 45 members of the club voted in the election. How many members voted? "
+  },
+  {
+    "iIndex": 69,
+    "lSolutions": [
+      42.000000
+    ],
+    "lEquations": [
+      "x=60.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "In Steve's grade, there are 60 students. Currently, 70% of them are enrolled in health. How many students are enrolled in health? "
+  },
+  {
+    "iIndex": 70,
+    "lSolutions": [
+      49.000000
+    ],
+    "lEquations": [
+      "x=98.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Shawna's Hats, 50% of the 98 hats are baseball caps. How many baseball caps are there? "
+  },
+  {
+    "iIndex": 71,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=25.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " During second period, Russell completed a grammar worksheet. Of the 25 questions, Russell got 40% right. How many questions did Russell get right? "
+  },
+  {
+    "iIndex": 72,
+    "lSolutions": [
+      23.000000
+    ],
+    "lEquations": [
+      "x=92.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Austin brought chocolate and vanilla cupcakes to school for his birthday. 92 students decided to take a cupcake, and 25% of them picked vanilla. How many people picked a vanilla cupcake? "
+  },
+  {
+    "iIndex": 73,
+    "lSolutions": [
+      57.000000
+    ],
+    "lEquations": [
+      "x=76.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A school assembly had 76 students in attendance, and 75% of them were first-graders. How many first-graders were at the assembly? "
+  },
+  {
+    "iIndex": 74,
+    "lSolutions": [
+      25.000000
+    ],
+    "lEquations": [
+      "x=100.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In hopes of encouraging healthier snacks at school, Jeanette brought in a tray of carrot sticks and apple slices to share. The tray had a total of 100 snacks, of which 25% were carrot sticks. How many carrot sticks did Jeanette bring? "
+  },
+  {
+    "iIndex": 75,
+    "lSolutions": [
+      64.000000
+    ],
+    "lEquations": [
+      "x=80.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Martha ordered a set of blue and green pins. She received 80 pins, and 80% of them were blue. How many blue pins did Martha receive? "
+  },
+  {
+    "iIndex": 76,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=75.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " This morning, Alec took a history test. There were 75 multiple-choice problems on the test and Alec answered 40% of them correctly. How many problems did Alec get right? "
+  },
+  {
+    "iIndex": 77,
+    "lSolutions": [
+      7.000000
+    ],
+    "lEquations": [
+      "x=70.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " An arborist examined trees in an orchard to see if they were infected with a virus. Out of 70 trees, 10% had the virus. How many trees were infected with the virus? "
+  },
+  {
+    "iIndex": 78,
+    "lSolutions": [
+      21.000000
+    ],
+    "lEquations": [
+      "x=35.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At the sewing store, Gwen bought a bag of mixed buttons. The bag included 35 buttons, of which 60% were large. How many large buttons did Gwen get? "
+  },
+  {
+    "iIndex": 79,
+    "lSolutions": [
+      6.000000
+    ],
+    "lEquations": [
+      "x=24.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The supermarket has 24 aisles. 25% are empty, without any shoppers. How many empty aisles are there in the supermarket? "
+  },
+  {
+    "iIndex": 80,
+    "lSolutions": [
+      18.000000
+    ],
+    "lEquations": [
+      "x=60.0*(30.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "30% of the 60 coffee mugs at Jennifer's Pancake House are dirty. How many dirty coffee mugs are there at the pancake house? "
+  },
+  {
+    "iIndex": 81,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=10.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Yesterday, there were 10 problems assigned for math homework. Ben did 90% of them correctly. How many problems did Ben get right? "
+  },
+  {
+    "iIndex": 82,
+    "lSolutions": [
+      4.000000
+    ],
+    "lEquations": [
+      "x=16.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " During second period, Mary completed a grammar worksheet. Of the 16 questions, Mary got 25% right. How many questions did Mary get right? "
+  },
+  {
+    "iIndex": 83,
+    "lSolutions": [
+      16.000000
+    ],
+    "lEquations": [
+      "x=20.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Philip's Swimwear, 80% of the 20 swimsuit styles are bikinis. How many bikini styles are there? "
+  },
+  {
+    "iIndex": 84,
+    "lSolutions": [
+      17.000000
+    ],
+    "lEquations": [
+      "x=68.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 25% of the tickets sold at an amusement park were discount tickets. If the park sold 68 tickets in all, how many discount tickets did it sell? "
+  },
+  {
+    "iIndex": 85,
+    "lSolutions": [
+      42.000000
+    ],
+    "lEquations": [
+      "x=56.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A school staff meeting had 56 teachers in attendance, 75% of whom were first-year teachers. How many first-year teachers were in the meeting? "
+  },
+  {
+    "iIndex": 86,
+    "lSolutions": [
+      41.000000
+    ],
+    "lEquations": [
+      "x=82.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Nila bought cupcakes for her sister's birthday party. 50% of the 82 cupcakes had sprinkles on top. How many cupcakes had sprinkles? "
+  },
+  {
+    "iIndex": 87,
+    "lSolutions": [
+      8.000000
+    ],
+    "lEquations": [
+      "x=32.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " This morning, Christina took a history test. There were 32 multiple-choice problems on the test and Christina answered 25% of them correctly. How many problems did Christina get right? "
+  },
+  {
+    "iIndex": 88,
+    "lSolutions": [
+      7.000000
+    ],
+    "lEquations": [
+      "x=35.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Rita has a new beaded necklace. 20% of the 35 beads on Rita's necklace are blue. How many blue beads are there on Rita's necklace? "
+  },
+  {
+    "iIndex": 89,
+    "lSolutions": [
+      56.000000
+    ],
+    "lEquations": [
+      "x=70.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " There are 70 seats on a train. 80% of the seats are empty. How many empty seats are there on the train? "
+  },
+  {
+    "iIndex": 90,
+    "lSolutions": [
+      24.000000
+    ],
+    "lEquations": [
+      "x=96.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Alexa's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 96 coffees in all, 25% of which were regular. How many regular coffees did the cafe serve? "
+  },
+  {
+    "iIndex": 91,
+    "lSolutions": [
+      36.000000
+    ],
+    "lEquations": [
+      "x=40.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Matt's class voted on whether or not to do science fair projects in groups. 90% of the 40 votes were in favor of working in groups. How many votes were in favor? "
+  },
+  {
+    "iIndex": 92,
+    "lSolutions": [
+      70.0
+    ],
+    "lEquations": [
+      "x=100.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A company took a survey about its new product. Of the 100 people surveyed, 70% liked the new product. How many people liked the new product? "
+  },
+  {
+    "iIndex": 93,
+    "lSolutions": [
+      18.000000
+    ],
+    "lEquations": [
+      "x=90.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Trisha ordered a set of beads. She received 90 beads, and 20% of them were purple. How many purple beads did Trisha receive? "
+  },
+  {
+    "iIndex": 94,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x=25.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The students in Kendrick's grade voted to select a guest speaker. 60% of the students voted for a famous athlete. If there are 25 students in Kendrick's grade, how many students voted for the athlete? "
+  },
+  {
+    "iIndex": 95,
+    "lSolutions": [
+      6.000000
+    ],
+    "lEquations": [
+      "x=15.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last night, the two dinner specials at Anne's favorite restaurant were salmon filet and steak. The restaurant served 15 specials in all, 40% of which were salmon filets. How many salmon filets did the restaurant serve? "
+  },
+  {
+    "iIndex": 96,
+    "lSolutions": [
+      39.000000
+    ],
+    "lEquations": [
+      "x=52.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Pam's Hats, 75% of the 52 hats are baseball caps. How many baseball caps are there? "
+  },
+  {
+    "iIndex": 97,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=50.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Austin's Diner offers its clients a choice of regular and diet soda. Last night, the diner served 50 sodas in all, 20% of which were regular. How many regular sodas did the diner serve? "
+  },
+  {
+    "iIndex": 98,
+    "lSolutions": [
+      72.000000
+    ],
+    "lEquations": [
+      "x=80.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last Wednesday, students could choose ham or turkey sandwiches for lunch. The cafeteria made 80 sandwiches in all, 90% of which were turkey. How many turkey sandwiches did the cafeteria make? "
+  },
+  {
+    "iIndex": 99,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=36.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 25% of the tickets sold at an amusement park were discount tickets. If the park sold 36 tickets in all, how many discount tickets did it sell? "
+  },
+  {
+    "iIndex": 100,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=100.0*(30.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The state transportation commission counted cars traveling east and west across a toll bridge. 30% of the 100 cars counted were traveling east. How many eastbound cars did the commission count? "
+  },
+  {
+    "iIndex": 101,
+    "lSolutions": [
+      22.000000
+    ],
+    "lEquations": [
+      "x=88.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Vincent's Diner sold 88 milkshakes last week. 25% of the milkshakes had whipped cream on top. How many milkshakes with whipped cream were sold? "
+  },
+  {
+    "iIndex": 102,
+    "lSolutions": [
+      23.00
+    ],
+    "lEquations": [
+      "x=46.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Vince's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 46 coffees in all, 50% of which were regular. How many regular coffees did the cafe serve? "
+  },
+  {
+    "iIndex": 103,
+    "lSolutions": [
+      36.000000
+    ],
+    "lEquations": [
+      "x=60.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The city council voted on a new tax. The council has 60 members and 60% of the council members voted in favor of the new tax. How many members voted in favor of the tax? "
+  },
+  {
+    "iIndex": 104,
+    "lSolutions": [
+      51.000000
+    ],
+    "lEquations": [
+      "x=68.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 75% of the tickets sold at an amusement park were discount tickets. If the park sold 68 tickets in all, how many discount tickets did it sell? "
+  },
+  {
+    "iIndex": 105,
+    "lSolutions": [
+      17.000000
+    ],
+    "lEquations": [
+      "x=85.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " To celebrate the first day of school, Karlene brought in a tray of caramel brownies and walnut brownies. The tray had a total of 85 brownies, of which 20% were caramel. How many caramel brownies did Karlene bring? "
+  },
+  {
+    "iIndex": 106,
+    "lSolutions": [
+      39.000000
+    ],
+    "lEquations": [
+      "x=78.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " There are 78 seats on a train. 50% of the seats are empty. How many empty seats are there on the train? "
+  },
+  {
+    "iIndex": 107,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=12.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The students in Todd's class got to choose between pizza and burgers for the celebration on the last day of school. 75% of the students picked the pizza. If there are 12 students in all at Todd's class, how many students preferred the pizza? "
+  },
+  {
+    "iIndex": 108,
+    "lSolutions": [
+      30.0
+    ],
+    "lEquations": [
+      "x=100.0*(30.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last Thursday was costume day at Matt's school. 30% of the 100 students wore a costume. How many students wore a costume? "
+  },
+  {
+    "iIndex": 109,
+    "lSolutions": [
+      16.000000
+    ],
+    "lEquations": [
+      "x=64.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "In Jeffrey's grade, there are 64 students. Currently, 25% of them are enrolled in health. How many students are enrolled in health? "
+  },
+  {
+    "iIndex": 110,
+    "lSolutions": [
+      3.000000
+    ],
+    "lEquations": [
+      "x=30.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " After a month of successful fundraising, Sarah and her classmates voted on whether to donate the money they had raised to hunger relief or to environmental causes. 10% of the 30 votes were in favor of hunger relief. How many votes were for hunger relief? "
+  },
+  {
+    "iIndex": 111,
+    "lSolutions": [
+      3.000000
+    ],
+    "lEquations": [
+      "x=15.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In order to select new board members, the French club held an election. 20% of the 15 members of the club voted. How many members voted? "
+  },
+  {
+    "iIndex": 112,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=25.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At the sewing store, Paula bought a bag of mixed buttons. The bag included 25 buttons, of which 40% were large. How many large buttons did Paula get? "
+  },
+  {
+    "iIndex": 113,
+    "lSolutions": [
+      21.000000
+    ],
+    "lEquations": [
+      "x=28.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " During second period, Bryan completed a grammar worksheet. Of the 28 questions, Bryan got 75% right. How many questions did Bryan get right? "
+  },
+  {
+    "iIndex": 114,
+    "lSolutions": [
+      12.000000
+    ],
+    "lEquations": [
+      "x=20.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Shane's Cafe offers two kinds of espresso: single-shot and double-shot. Yesterday afternoon, the cafe sold 20 espressos in all, 60% of which were single-shot. How many single-shot espressos did the cafe sell? "
+  },
+  {
+    "iIndex": 115,
+    "lSolutions": [
+      30.0
+    ],
+    "lEquations": [
+      "x=100.0*(30.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The students at Tracy's school voted between a bear and a lion as the new school mascot. Of the 100 students at Tracy's school, 30% voted for the bear. How many students voted for the bear? "
+  },
+  {
+    "iIndex": 116,
+    "lSolutions": [
+      8.000000
+    ],
+    "lEquations": [
+      "x=80.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Vera's Beading Boutique, 10% of the 80 beads on clearance are plastic. How many plastic beads are there on clearance? "
+  },
+  {
+    "iIndex": 117,
+    "lSolutions": [
+      8.000000
+    ],
+    "lEquations": [
+      "x=32.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Garrett's Diner sold 32 milkshakes last week. 25% of the milkshakes had whipped cream on top. How many milkshakes with whipped cream were sold? "
+  },
+  {
+    "iIndex": 118,
+    "lSolutions": [
+      36.000000
+    ],
+    "lEquations": [
+      "x=45.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Yesterday, there were 45 problems assigned for math homework. Kristen did 80% of them correctly. How many problems did Kristen get right? "
+  },
+  {
+    "iIndex": 119,
+    "lSolutions": [
+      54.000000
+    ],
+    "lEquations": [
+      "x=60.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " There are 60 seats on a train. 90% of the seats are empty. How many empty seats are there on the train? "
+  },
+  {
+    "iIndex": 120,
+    "lSolutions": [
+      60.0
+    ],
+    "lEquations": [
+      "x=100.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A team of students lined up dominoes on the gym floor. Of the 100 dominoes they used, 60% fell over. How many dominoes fell over? "
+  },
+  {
+    "iIndex": 121,
+    "lSolutions": [
+      28.0
+    ],
+    "lEquations": [
+      "x=56.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Beth took a math quiz last week. There were 56 problems on the quiz and Beth answered 50% of them correctly. How many problems did Beth get correct? "
+  },
+  {
+    "iIndex": 122,
+    "lSolutions": [
+      28.000000
+    ],
+    "lEquations": [
+      "x=40.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Kayla's class voted on whether or not to do science fair projects in groups. 70% of the 40 votes were in favor of working in groups. How many votes were in favor? "
+  },
+  {
+    "iIndex": 123,
+    "lSolutions": [
+      37.0
+    ],
+    "lEquations": [
+      "x=74.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Anthony bought cupcakes for his sister's birthday party. 50% of the 74 cupcakes had sprinkles on top. How many cupcakes had sprinkles? "
+  },
+  {
+    "iIndex": 124,
+    "lSolutions": [
+      2.0
+    ],
+    "lEquations": [
+      "x=8.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Carson's Swimwear, 25% of the 8 swimsuit styles are bikinis. How many bikini styles are there? "
+  },
+  {
+    "iIndex": 125,
+    "lSolutions": [
+      1.0
+    ],
+    "lEquations": [
+      "x=10.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The local water slides have 10 employees, of which 10% are temporary. How many temporary employees are there? "
+  },
+  {
+    "iIndex": 126,
+    "lSolutions": [
+      2.000000
+    ],
+    "lEquations": [
+      "x=5.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A school staff meeting had 5 teachers in attendance, 40% of whom were first-year teachers. How many first-year teachers were in the meeting? "
+  },
+  {
+    "iIndex": 127,
+    "lSolutions": [
+      11.0
+    ],
+    "lEquations": [
+      "x=55.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " During second period, Brenda completed a grammar worksheet. Of the 55 questions, Brenda got 20% right. How many questions did Brenda get right? "
+  },
+  {
+    "iIndex": 128,
+    "lSolutions": [
+      6.000000
+    ],
+    "lEquations": [
+      "x=20.0*(30.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Zoe's Cafe offers two kinds of espresso: single-shot and double-shot. Yesterday afternoon, the cafe sold 20 espressos in all, 30% of which were single-shot. How many single-shot espressos did the cafe sell? "
+  },
+  {
+    "iIndex": 129,
+    "lSolutions": [
+      19.000000
+    ],
+    "lEquations": [
+      "x=76.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Brennan ordered a set of beads. He received 76 beads, and 25% of them were purple. How many purple beads did Brennan receive? "
+  },
+  {
+    "iIndex": 130,
+    "lSolutions": [
+      47.000000
+    ],
+    "lEquations": [
+      "x=94.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At the craft store, Ming bought a bag of purple and red marbles. The bag contained 94 marbles, and 50% of them were purple. How many purple marbles did Ming receive? "
+  },
+  {
+    "iIndex": 131,
+    "lSolutions": [
+      63.000000
+    ],
+    "lEquations": [
+      "x=84.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Denelle's Diner offers its clients a choice of regular and diet soda. Last night, the diner served 84 sodas in all, 75% of which were regular. How many regular sodas did the diner serve? "
+  },
+  {
+    "iIndex": 132,
+    "lSolutions": [
+      20.0
+    ],
+    "lEquations": [
+      "x=100.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A scientist evaluated the local deer population. The scientist found that there were 100 deer in all, 20% of which were juveniles. How many juveniles were there in the local deer population? "
+  },
+  {
+    "iIndex": 133,
+    "lSolutions": [
+      7.0
+    ],
+    "lEquations": [
+      "x=14.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Eva's Cafe has regular coffee and decaffeinated coffee. This morning, the cafe served 14 coffees in all, 50% of which were regular. How many regular coffees did the cafe serve? "
+  },
+  {
+    "iIndex": 134,
+    "lSolutions": [
+      42.000000
+    ],
+    "lEquations": [
+      "x=60.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " An arborist examined trees in an orchard to see if they were infected with a virus. Out of 60 trees, 70% had the virus. How many trees were infected with the virus? "
+  },
+  {
+    "iIndex": 135,
+    "lSolutions": [
+      23.000000
+    ],
+    "lEquations": [
+      "x=92.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Johnny's Hats, 25% of the 92 hats are baseball caps. How many baseball caps are there? "
+  },
+  {
+    "iIndex": 136,
+    "lSolutions": [
+      5.000000
+    ],
+    "lEquations": [
+      "x=25.0*(20.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The students in Cooper's grade voted to select a guest speaker. 20% of the students voted for a famous athlete. If there are 25 students in Cooper's grade, how many students voted for the athlete? "
+  },
+  {
+    "iIndex": 137,
+    "lSolutions": [
+      39.000000
+    ],
+    "lEquations": [
+      "x=52.0*(75.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Andy took a math quiz last week. There were 52 problems on the quiz and Andy answered 75% of them correctly. How many problems did Andy get correct? "
+  },
+  {
+    "iIndex": 138,
+    "lSolutions": [
+      52.000000
+    ],
+    "lEquations": [
+      "x=65.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Sidney's Tea Shop has caffeinated tea and decaffeinated tea. During the lunchtime rush, the tea shop served 65 teas in all, 80% of which were caffeinated. How many caffeinated teas did the tea shop serve? "
+  },
+  {
+    "iIndex": 139,
+    "lSolutions": [
+      3.0
+    ],
+    "lEquations": [
+      "x=6.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In order to select new board members, the French club held an election. 50% of the 6 members of the club voted. How many members voted? "
+  },
+  {
+    "iIndex": 140,
+    "lSolutions": [
+      4.000000
+    ],
+    "lEquations": [
+      "x=40.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " During second period, Lia completed a grammar worksheet. Of the 40 questions, Lia got 10% right. How many questions did Lia get right? "
+  },
+  {
+    "iIndex": 141,
+    "lSolutions": [
+      29.000000
+    ],
+    "lEquations": [
+      "x=58.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last night, the two dinner specials at Molly's favorite restaurant were salmon filet and steak. The restaurant served 58 specials in all, 50% of which were salmon filets. How many salmon filets did the restaurant serve? "
+  },
+  {
+    "iIndex": 142,
+    "lSolutions": [
+      48.000000
+    ],
+    "lEquations": [
+      "x=80.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 60% of the tickets sold at a water park were child tickets. If the park sold 80 tickets in all, how many child tickets did it sell? "
+  },
+  {
+    "iIndex": 143,
+    "lSolutions": [
+      40.0
+    ],
+    "lEquations": [
+      "x=100.0*(40.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Everyone at Diane's school wore either purple or orange for school spirit day. Of the 100 students at the school, 40% wore purple. How many students wore purple? "
+  },
+  {
+    "iIndex": 144,
+    "lSolutions": [
+      9.0
+    ],
+    "lEquations": [
+      "x=18.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Vince's class just held a class election. 50% of the 18 students in the class voted. How many students voted? "
+  },
+  {
+    "iIndex": 145,
+    "lSolutions": [
+      14.000000
+    ],
+    "lEquations": [
+      "x=20.0*(70.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Gavin brought chocolate and vanilla cupcakes to school for his birthday. 20 students decided to take a cupcake, and 70% of them picked vanilla. How many people picked a vanilla cupcake? "
+  },
+  {
+    "iIndex": 146,
+    "lSolutions": [
+      24.000000
+    ],
+    "lEquations": [
+      "x=30.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A bookstore carries 30 magazines. 80% of the magazines are women's magazines. How many women's magazines does the bookstore carry? "
+  },
+  {
+    "iIndex": 147,
+    "lSolutions": [
+      24.000000
+    ],
+    "lEquations": [
+      "x=96.0*(25.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The art club had an election to select a president. 25% of the 96 members of the club voted in the election. How many members voted? "
+  },
+  {
+    "iIndex": 148,
+    "lSolutions": [
+      34.0
+    ],
+    "lEquations": [
+      "x=68.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At a company meeting, there were 68 people in attendance. 50% of them were managers. How many managers were in the meeting? "
+  },
+  {
+    "iIndex": 193,
+    "lSolutions": [
+      27.000000
+    ],
+    "lEquations": [
+      "x=30.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " After a month of successful fundraising, Ruben and his classmates voted on whether to donate the money they had raised to hunger relief or to environmental causes. 90% of the 30 votes were in favor of hunger relief. How many votes were for hunger relief? "
+  },
+  {
+    "iIndex": 194,
+    "lSolutions": [
+      4.000000
+    ],
+    "lEquations": [
+      "x=5.0*(80.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Fredda has a new beaded necklace. 80% of the 5 beads on Fredda's necklace are blue. How many blue beads are there on Fredda's necklace? "
+  },
+  {
+    "iIndex": 195,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=100.0*(10.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last Tuesday was silly hat day at Vicky's school. Of the 100 students at the school, 10% wore a silly hat. How many students wore a silly hat? "
+  },
+  {
+    "iIndex": 196,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=20.0*(50.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " 50% of the tickets sold at a school carnival were early-admission tickets. If the school sold 20 tickets in all, how many early-admission tickets did it sell? "
+  },
+  {
+    "iIndex": 197,
+    "lSolutions": [
+      13.0
+    ],
+    "lEquations": [
+      "x=10.0+(10.0*(30.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "During elementary school, Cody received a weekly allowance of $10 for completing all of his chores. These days he receives 30% more. What is Cody's weekly allowance now? "
+  },
+  {
+    "iIndex": 200,
+    "lSolutions": [
+      56.000000
+    ],
+    "lEquations": [
+      "x=70.0-(70.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Hanson is trying to drink more water, so he has been keeping a log of how much water he drinks. Hanson drank 70 ounces of water two days ago. Yesterday, he drank 20% less. How much water did he drink yesterday? "
+  },
+  {
+    "iIndex": 203,
+    "lSolutions": [
+      6792.000
+    ],
+    "lEquations": [
+      "x=8490.0-(8490.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Frames-for-All sells framed pictures to hotels and other corporations across the country. Last year, Frames-for-All sold a total of 8490 pictures. This year, they sold 20% fewer pictures. How many pictures did they sell this year? "
+  },
+  {
+    "iIndex": 205,
+    "lSolutions": [
+      84.000000
+    ],
+    "lEquations": [
+      "x=70.0+(70.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Before the advance-purchase deadline, the cost of attending a particular event is $70. After that, the price increases 20%. What is the cost then? "
+  },
+  {
+    "iIndex": 206,
+    "lSolutions": [
+      3.000000
+    ],
+    "lEquations": [
+      "x=5.0-(5.0*(40.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The FAA tracks average flight delays. It found that, last year, a particular airline had an average flight delay of 5 minutes. So far this year, the airline has an average that is 40% shorter. What is the current year's average? "
+  },
+  {
+    "iIndex": 207,
+    "lSolutions": [
+      8463.000000
+    ],
+    "lEquations": [
+      "x=6510.0+(6510.0*(30.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The Lexington Times had 6,510 subscribers last year. This year, after the paper was bought out, it had 30% more. How many subscribers were there this year? "
+  },
+  {
+    "iIndex": 209,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x=((20.0-17.0)/20.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Kemal swims several times per week in a lake near his home. Last summer, the average water temperature was 20 Celcious. This summer, the average water temperature was 17 Celcious. What was the percent of decrease in the temperature? "
+  },
+  {
+    "iIndex": 210,
+    "lSolutions": [
+      2359.000000
+    ],
+    "lEquations": [
+      "x=3370.0-(3370.0*(30.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Blake's mortgage payment was originally $3,370 per month. Now, after refinancing his home loan, Blake's mortgage payment is 30% less than it used to be. How much is Blake's monthly payment now? "
+  },
+  {
+    "iIndex": 211,
+    "lSolutions": [
+      1702.000000
+    ],
+    "lEquations": [
+      "x=4600.0-(4600.0*(63.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A beauty magazine had 4,600 subscribers last year. This year, after its parent company made some changes, the magazine had 63% fewer subscribers. How many subscribers were there this year? "
+  },
+  {
+    "iIndex": 212,
+    "lSolutions": [
+      57249.000000
+    ],
+    "lEquations": [
+      "x=190830.0-(190830.0*(70.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A French restaurant used 190,830 ounces of cream last year. This year, due to a menu update, it used 70% less. How much cream did the restaurant use this year? "
+  },
+  {
+    "iIndex": 218,
+    "lSolutions": [
+      9894.000000
+    ],
+    "lEquations": [
+      "x=5820.0+(5820.0*(70.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last year, a lighting supplier called Bright Idea shipped a total of 5,820 lamps to its distributors. This year, the supplier shipped 70% more than that. How many lamps did Bright Idea ship this year? "
+  },
+  {
+    "iIndex": 221,
+    "lSolutions": [
+      372.000000
+    ],
+    "lEquations": [
+      "x=240.0+(240.0*(55.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Each morning, Sleepwell Hotel offers its guests a free continental breakfast with pastries and orange juice. The hotel served 240 gallons of orange juice last year. This year, the hotel served 55% more orange juice than it did the previous year. How much was served this year? "
+  },
+  {
+    "iIndex": 223,
+    "lSolutions": [
+      25308.000000
+    ],
+    "lEquations": [
+      "x=421800.0-(421800.0*(94.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A container ship left port last week carrying some goods weighing a total of 421,800 tons. Today, it stopped in another port to unload. As a result, the weight of the goods on the ship decreased by 94%. What is the weight of the goods on the ship now? "
+  },
+  {
+    "iIndex": 224,
+    "lSolutions": [
+      166401.000000
+    ],
+    "lEquations": [
+      "x=123260.0+(123260.0*(35.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The PTA at Stamford High School is having its annual dinner and auction to raise money for music and art programs. Last year, the event raised $123,260. This year, it raised 35% more than that. How much was raised this year? "
+  },
+  {
+    "iIndex": 226,
+    "lSolutions": [
+      46.000000
+    ],
+    "lEquations": [
+      "x=40.0+(40.0*(15.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In Stamford, the average low temperature for January was 40 Farenhite. The average low in February was 15% higher. What was the average low in February? "
+  },
+  {
+    "iIndex": 227,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x=((340.0-289.0)/340.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Carrie enjoys taking part in races and keeps track of all of her finishing times. At a race last month, she finished in 340 minutes. Yesterday, she completed another race and finished in 289 minutes. What is the decrease in Carrie's finishing time? "
+  },
+  {
+    "iIndex": 229,
+    "lSolutions": [
+      8151.000000
+    ],
+    "lEquations": [
+      "x=4940.0+(4940.0*(65.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The library in Westminster collected $4,940 in overdue fees last year. This year, the amount collected was 65% greater. How much did the library collect this year? "
+  },
+  {
+    "iIndex": 230,
+    "lSolutions": [
+      198.000000
+    ],
+    "lEquations": [
+      "x=110.0+(110.0*(80.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last summer, a sports club had 110 members. This summer, due to some renovations, it has 80% more members. How many members are there now? "
+  },
+  {
+    "iIndex": 231,
+    "lSolutions": [
+      85.000000
+    ],
+    "lEquations": [
+      "x=68.0+(68.0*(25.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The depth of a lake in Winchester changes over time due to rainfall and evaporation. A few months ago, the depth was 68 feet. Currently, the lake is 25% deeper. What is this year's depth? "
+  },
+  {
+    "iIndex": 232,
+    "lSolutions": [
+      78.000000
+    ],
+    "lEquations": [
+      "x=65.0+(65.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " An accountant used to charge $65 per hour, but recently decided to charge 20% more. Now how much does she charge per hour? "
+  },
+  {
+    "iIndex": 233,
+    "lSolutions": [
+      64.000000
+    ],
+    "lEquations": [
+      "x=80.0-(80.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Jason, a professional golfer, had an average score of 80 points last season. This season, however, his average score has been 20% lower. What is Jason's current average score? "
+  },
+  {
+    "iIndex": 234,
+    "lSolutions": [
+      620456.000000
+    ],
+    "lEquations": [
+      "x=775570.0-(775570.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Winchester had 775,570 residents at the time of its founding. Currently it is 20% smaller. What is the current population? "
+  },
+  {
+    "iIndex": 236,
+    "lSolutions": [
+      6019.000000
+    ],
+    "lEquations": [
+      "x=(9260.0-(9260.0*(35.0/100.0)))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Newberry Theater issued 9,260 tickets last weekend. This weekend, the theater issued 35% fewer tickets. How many tickets to comedies did the theater issue this weekend? "
+  },
+  {
+    "iIndex": 238,
+    "lSolutions": [
+      2112.000000
+    ],
+    "lEquations": [
+      "x=1320.0+(1320.0*(60.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Several years ago, Maggie bought some gold at a price of $1,320 per ounce. When she went to sell it, the gold was worth 60% more than it was when she purchased it. What was the new value of the gold? "
+  },
+  {
+    "iIndex": 239,
+    "lSolutions": [
+      14.000000
+    ],
+    "lEquations": [
+      "x=100.0*(14.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The Trans-Global Shipping Company has been forced to lay off some workers due to a decrease in revenue. Last year, the company had to lay off 100 people. So far this year, they have had to lay off 14% more employees than last year. How many have been laid off this year? "
+  },
+  {
+    "iIndex": 240,
+    "lSolutions": [
+      439518.000000
+    ],
+    "lEquations": [
+      "x=283560.0+(283560.0*(55.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The customers of Rhythm Time, an online music service, downloaded 283,560 songs last year. This year, the number was 55% higher. How many songs did they download this year? "
+  },
+  {
+    "iIndex": 242,
+    "lSolutions": [
+      10.000000
+    ],
+    "lEquations": [
+      "x=((108570.0-98700.0)/98700.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A family originally bought a home for $98,700. Now, a few years later, the home is worth $108,570. What was the percent of increase in its value? "
+  },
+  {
+    "iIndex": 243,
+    "lSolutions": [
+      8469.000000
+    ],
+    "lEquations": [
+      "x=9410.0-(9410.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Tammy is a sophomore at Seaside College. Last year, tuition was $9,410 per semester. This year, she paid 10% less. How much was tuition this year? "
+  },
+  {
+    "iIndex": 244,
+    "lSolutions": [
+      533.000000
+    ],
+    "lEquations": [
+      "x=410.0+(410.0*(30.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Last year, the student population at Russell Elementary School was 410 students. This year, after rezoning, it is 30% larger. How many students attend Russell Elementary this year? "
+  },
+  {
+    "iIndex": 248,
+    "lSolutions": [
+      4125.000000
+    ],
+    "lEquations": [
+      "x=3750.0+(3750.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The height of a mountain on a tropical island changes due to volcanic activity. When the mountain was last measured, its height was 3,750 meters. Now it is 10% taller. How tall is the mountain currently? "
+  },
+  {
+    "iIndex": 251,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=((280.0-196.0)/280.0)*100.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A software company in Silvergrove used to bill clients $280 per hour for work done by its consultants. The company recently adjusted its rates and now charges $196 per hour. What was the percent of decrease in the billing rate? "
+  },
+  {
+    "iIndex": 252,
+    "lSolutions": [
+      231.000000
+    ],
+    "lEquations": [
+      "x=150.0+(150.0*(54.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A generation ago, the graduating class at Kensington High School was 150 students. This year, it is 54% larger. What is the current size of the graduating class? "
+  },
+  {
+    "iIndex": 253,
+    "lSolutions": [
+      1023.000000
+    ],
+    "lEquations": [
+      "x=930.0+(930.0*(10.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Hoffman's Books sold 930 bookmarks last year. This year, the store sold 10% more bookmarks. How many bookmarks did the store sell this year? "
+  },
+  {
+    "iIndex": 254,
+    "lSolutions": [
+      15696.000000
+    ],
+    "lEquations": [
+      "x=9810.0+(9810.0*(60.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Clean Machine is Ashland's premier house cleaning service. The company used 9,810 gallons of soap last year, and 60% more than that this year. How many gallons of soap did the company use this year? "
+  },
+  {
+    "iIndex": 257,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=18.0-(18.0*(50.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Nicole's family watched 18 hours of TV last week. This week, they watched 50% fewer hours. How many hours of TV did they watch this week? "
+  },
+  {
+    "iIndex": 258,
+    "lSolutions": [
+      9.000000
+    ],
+    "lEquations": [
+      "x=6.0+(6.0*(50.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " As part of an ongoing service project, the students at Georgetown High School recently spent an afternoon planting trees. They planted an average of 6 trees per participant. This month, they plan to do more planting, averaging 50% more trees per participant this time. What will be the average this month? "
+  },
+  {
+    "iIndex": 261,
+    "lSolutions": [
+      20.000000
+    ],
+    "lEquations": [
+      "x=16.0+(16.0*(25.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Beth's Boutique historically paid the members of its staff $16. The boutique recently merged with another store, and the staff members now make 25% more. Now how much do the staff members make per hour? "
+  },
+  {
+    "iIndex": 262,
+    "lSolutions": [
+      48.000000
+    ],
+    "lEquations": [
+      "x=40.0+(40.0*(20.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Newberg Auto Repair originally paid its mechanics $40 per hour. Now that there is a new owner, the mechanics make 20% more. How much do the mechanics make per hour now? "
+  },
+  {
+    "iIndex": 263,
+    "lSolutions": [
+      1711.000000
+    ],
+    "lEquations": [
+      "x=5900.0-(5900.0*(71.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In 2009, Gordon paid $5,900 in federal income tax. In 2010, he paid 71% less. How much did Gordon pay in 2010? "
+  },
+  {
+    "iIndex": 264,
+    "lSolutions": [
+      14.000000
+    ],
+    "lEquations": [
+      "x=8.0+(8.0*(75.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " The last time that Dr. Copeland, a farm veterinarian, checked, a particular pig weighed 8 kilograms. Dr. Copeland just weighed the pig again and found out that it weighs 75% more now. How much does the pig weigh now? "
+  },
+  {
+    "iIndex": 265,
+    "lSolutions": [
+      84.000000
+    ],
+    "lEquations": [
+      "x=80+(80.0*(5.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Last semester, Arjun earned an average score of 80 points on math tests. So far this semester, his average score is 5% higher. What is the average of Arjun's scores this semester? "
+  },
+  {
+    "iIndex": 266,
+    "lSolutions": [
+      4.000000
+    ],
+    "lEquations": [
+      "x=20.0-(20.0*(80.0/100.0))"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " A test has 20 questions. If peter gets 80% correct, how many questions did peter missed? "
+  },
+  {
+    "iIndex": 267,
+    "lSolutions": [
+      200.000000
+    ],
+    "lEquations": [
+      "x*(25.0/100.0)=50.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " In a school, 25% of the teachers teach basic math. If there are 50 basic math teachers, how many teachers are there in the school? "
+  },
+  {
+    "iIndex": 269,
+    "lSolutions": [
+      30.000000
+    ],
+    "lEquations": [
+      "x=50.0*(60.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " For one Geometry test, Jess had to answer 50 questions. Of these questions, Jess answered 60% of them correctly. How many questions did Jess correctly answer on her test? "
+  },
+  {
+    "iIndex": 272,
+    "lSolutions": [
+      15.000000
+    ],
+    "lEquations": [
+      "x*(60.0/100.0)=9.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " While mining, Sandy found a large metal bar that contained 9 ounces of zinc. Sandy also determined that the bar was 60% zinc. What was the total weight of the metal bar in ounces? "
+  },
+  {
+    "iIndex": 273,
+    "lSolutions": [
+      45.000000
+    ],
+    "lEquations": [
+      "x*(40.0/100.0)=18.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Nancy went to her local zoo that featured 18 bird exhibits. If these bird exhibits make up 40% of the zoo's exhibits, then how many exhibits does the zoo have in total? "
+  },
+  {
+    "iIndex": 275,
+    "lSolutions": [
+      20.0
+    ],
+    "lEquations": [
+      "x*(50.0/100.0)=10.0"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " One baseball team won 10 games throughout their entire season. Of all their games, this team won 50% of them. Given this, how many games in total did this baseball team play? "
+  },
+  {
+    "iIndex": 276,
+    "lSolutions": [
+      36000.000000
+    ],
+    "lEquations": [
+      "x=40000.0*(90.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " Fred receives a $40000 salary for working as an administrator. If Fred spends 90% of his salary on expenses each year, then how much money does Fred have to spend on expenses? "
+  },
+  {
+    "iIndex": 278,
+    "lSolutions": [
+      11.000000
+    ],
+    "lEquations": [
+      "x=20.0*(55.0/100.0)"
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": " At a construction job for a gallery there are 20 painters. Of these painters, 55% of them paint the interior of the gallery. How many painters are painting the interior? "
+  },
+  {
+    "lEquations": [
+      "53=7+14+x"
+    ],
+    "lSolutions": [
+      32.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Randy needs 53 cupcakes for a birthday party. He already has 7 chocolate cupcakes and 19 vanilla cupcakes. How many more cupcakes should Randy buy?",
+    "iIndex": 279
+  },
+  {
+    "lEquations": [
+      "(4+8+4)*10=x"
+    ],
+    "lSolutions": [
+      160.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Maggie bought 4 packs of red bouncy balls, 8 packs of yellow bouncy balls, and 4 packs of green bouncy balls. There were 10 bouncy balls in each package. How many bouncy balls did Maggie buy in all?",
+    "iIndex": 280
+  },
+  {
+    "lEquations": [
+      "5*4=x"
+    ],
+    "lSolutions": [
+      20.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Your class is having a pizza party. You buy 5 pizzas. Each pizza has 4 slices. How many slices is that altogether?",
+    "iIndex": 281
+  },
+  {
+    "lEquations": [
+      "20*5=x"
+    ],
+    "lSolutions": [
+      100.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "My car gets 20 miles per gallon of gas. How many miles can I drive on 5 gallons of gas?",
+    "iIndex": 282
+  },
+  {
+    "lEquations": [
+      "58/2=x"
+    ],
+    "lSolutions": [
+      29.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "58 children are taking a bus to the zoo. They sit 2 children in every seat. How many seats will the children need in all?",
+    "iIndex": 283
+  },
+  {
+    "lEquations": [
+      "12/3=x"
+    ],
+    "lSolutions": [
+      4.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Marlee has 12 guests coming to her Halloween party. Each table will hold 3 guests. How many tables will Marlee need?",
+    "iIndex": 284
+  },
+  {
+    "lEquations": [
+      "15*12=x"
+    ],
+    "lSolutions": [
+      180.0
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Ellen went to a garage sale to buy chairs. Each chair is 15 dollars. How much did Ellen spend for the 12 chairs she bought?",
+    "iIndex": 285
+  },
+  {
+    "lEquations": [
+      "0.75 - 0.25 = x"
+    ],
+    "lSolutions": [
+      0.5
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Oscar's bus ride to school is 0.75 of a mile and Charlie's bus ride is 0.25 of a mile. How much longer is Oscar's bus ride than Charlie's?",
+    "iIndex": 286
+  },
+  {
+    "lEquations": [
+      "0.25 + 0.25 = x"
+    ],
+    "lSolutions": [
+      0.5
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Karen added 0.25 of a cup of walnuts to a batch of trail mix. Later, she added 0.25 of a cup of almonds. How many cups of nuts did Karen put in the trail mix in all?",
+    "iIndex": 287
+  },
+  {
+    "lEquations": [
+      "0.16666666666666666 + 0.5 = x"
+    ],
+    "lSolutions": [
+      0.6666666666666666
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Kendall is learning to drive, so this weekend she practiced driving 0.16666666666666666 of a mile with her mother and another 0.5 of a mile with her father. How far did Kendall drive in all?",
+    "iIndex": 288
+  },
+  {
+    "lEquations": [
+      "0.6666666666666666 - 0.3333333333333333 = x"
+    ],
+    "lSolutions": [
+      0.3333333333333333
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At a pie-eating contest, Erik got through 0.6666666666666666 of a pie before time was called; Frank finished just 0.3333333333333333 of a pie. How much more pie did Erik eat than Frank?",
+    "iIndex": 289
+  },
+  {
+    "lEquations": [
+      "0.75 - 0.5 = x"
+    ],
+    "lSolutions": [
+      0.25
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A tailor cut 0.75 of an inch off a skirt and 0.5 of an inch off a pair of pants. How much more did the tailor cut off the skirt than the pants?",
+    "iIndex": 290
+  },
+  {
+    "lEquations": [
+      "0.375 + 0.25 = x"
+    ],
+    "lSolutions": [
+      0.625
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At Lindsey's Vacation Wear, 0.375 of the garments are bikinis and 0.25 are trunks. What fraction of the garments are either bikinis or trunks?",
+    "iIndex": 291
+  },
+  {
+    "lEquations": [
+      "0.875 - 0.75 = x"
+    ],
+    "lSolutions": [
+      0.125
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Darnel sprinted 0.875 of a lap and then took a break by jogging 0.75 of a lap. How much farther did Darnel sprint than jog?",
+    "iIndex": 292
+  },
+  {
+    "lEquations": [
+      "0.3 - 0.2 = x"
+    ],
+    "lSolutions": [
+      0.1
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "A marine biologist measured one fish that was 0.3 of a foot long and a second fish that was 0.2 of a foot long. How much longer was the first fish?",
+    "iIndex": 293
+  },
+  {
+    "lEquations": [
+      "0.3333333333333333 + 0.3333333333333333 = x"
+    ],
+    "lSolutions": [
+      0.6666666666666666
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Hannah's Vegetarian Restaurant bought 0.3333333333333333 of a pound of green peppers and 0.3333333333333333 of a pound of red peppers. How many pounds of peppers did Hannah's Vegetarian Restaurant buy in all?",
+    "iIndex": 294
+  },
+  {
+    "lEquations": [
+      "0.125 + 0.125 = x"
+    ],
+    "lSolutions": [
+      0.25
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Ella owns two dogs. Each day, one dog eats 0.125 of a scoop of dog food and the other dog eats 0.125 of a scoop. Together, how much dog food do the two dogs eat each day?",
+    "iIndex": 295
+  },
+  {
+    "lEquations": [
+      "0.8 - 0.2 = x"
+    ],
+    "lSolutions": [
+      0.6
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Blake filled a bucket with 0.8 of a gallon of water. Later, he poured out 0.2 of a gallon of the water. How much water is left in the bucket?",
+    "iIndex": 296
+  },
+  {
+    "lEquations": [
+      "0.6666666666666666 - 0.5 = x"
+    ],
+    "lSolutions": [
+      0.16666666666666666
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Mandy made an apple pie. She used 0.6666666666666666 of a tablespoon of cinnamon and 0.5 of a tablespoon of nutmeg. How much more cinnamon than nutmeg did Mandy use?",
+    "iIndex": 297
+  },
+  {
+    "lEquations": [
+      "0.6 + 0.2 = x"
+    ],
+    "lSolutions": [
+      0.8
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "The Montoya family spends 0.6 of their budget on groceries and another 0.2 going out to eat. Altogether, what fraction of their budget does the Montoya family spend on food?",
+    "iIndex": 298
+  },
+  {
+    "lEquations": [
+      "0.7 + 0.2 = x"
+    ],
+    "lSolutions": [
+      0.9
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "In Mr. Olsen's mathematics class, 0.7 of the students received A's and 0.2 received B's. What fraction of the students received either A's or B's?",
+    "iIndex": 299
+  },
+  {
+    "lEquations": [
+      "0.16666666666666666 + 0.6666666666666666 = x"
+    ],
+    "lSolutions": [
+      0.8333333333333334
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "There is 0.16666666666666666 of a cup of oil in Scarlett's measuring cup. If Scarlett adds 0.6666666666666666 of a cup more, how much oil will be in the measuring cup?",
+    "iIndex": 300
+  },
+  {
+    "lEquations": [
+      "0.2 + 0.4 = x"
+    ],
+    "lSolutions": [
+      0.6
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "One evening, a restaurant served a total of 0.2 of a loaf of wheat bread and 0.4 of a loaf of white bread. How many loaves were served in all?",
+    "iIndex": 301
+  },
+  {
+    "lEquations": [
+      "0.4 - 0.2 = x"
+    ],
+    "lSolutions": [
+      0.2
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Stanley ran 0.4 of a mile and walked 0.2 of a mile. How much farther did Stanley run than walk?",
+    "iIndex": 302
+  },
+  {
+    "lEquations": [
+      "0.625 - 0.25 = x"
+    ],
+    "lSolutions": [
+      0.375
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Dina made cookies. She used 0.625 of a cup of flour and 0.25 of a cup of sugar. How much more flour than sugar did Dina use?",
+    "iIndex": 303
+  },
+  {
+    "lEquations": [
+      "0.2 + 0.4 = x"
+    ],
+    "lSolutions": [
+      0.6
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Each day, the polar bear at Richmond's zoo eats 0.2 of a bucket of trout and 0.4 of a bucket of salmon. How many buckets of fish does the polar bear eat daily?",
+    "iIndex": 304
+  },
+  {
+    "lEquations": [
+      "0.6 - 0.4 = x"
+    ],
+    "lSolutions": [
+      0.2
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Jenny ran 0.6 of a mile and walked 0.4 of a mile. How much farther did Jenny run than walk?",
+    "iIndex": 305
+  },
+  {
+    "lEquations": [
+      "0.5 + 0.125 = x"
+    ],
+    "lSolutions": [
+      0.625
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "0.5 of the students in the band are in the trumpet section. 0.125 of the students in the band are in the trombone section. What fraction of the students in the band are in either the trumpet section or the trombone section?",
+    "iIndex": 306
+  },
+  {
+    "lEquations": [
+      "0.8 - 0.1 = x"
+    ],
+    "lSolutions": [
+      0.7
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Suzie found two worms in the yard and measured them with a ruler. One worm was 0.8 of an inch long. The other worm was 0.1 of an inch long. How much longer was the longer worm?",
+    "iIndex": 307
+  },
+  {
+    "lEquations": [
+      "0.25 + 0.375 = x"
+    ],
+    "lSolutions": [
+      0.625
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Scarlett made a fruit salad with 0.25 of a pound of melon and 0.375 of a pound of berries. How many pounds of fruit did Scarlett use in all?",
+    "iIndex": 308
+  },
+  {
+    "lEquations": [
+      "0.625 - 0.5 = x"
+    ],
+    "lSolutions": [
+      0.125
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Vince's bus ride to school is 0.625 of a mile and Zachary's bus ride is 0.5 of a mile. How much longer is Vince's bus ride than Zachary's?",
+    "iIndex": 309
+  },
+  {
+    "lEquations": [
+      "0.5 + 0.1 = x"
+    ],
+    "lSolutions": [
+      0.6
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "In one week, Mitch's family drank 0.5 of a carton of regular milk and 0.1 of a carton of soy milk. How much milk did they drink in all?",
+    "iIndex": 310
+  },
+  {
+    "lEquations": [
+      "0.375 + 0.5 = x"
+    ],
+    "lSolutions": [
+      0.875
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Elizabeth went to the salon and had 0.375 of an inch of hair cut off. The next day she went back and asked for another 0.5 of an inch to be cut off. How much hair did she have cut off in all?",
+    "iIndex": 311
+  },
+  {
+    "lEquations": [
+      "0.16666666666666666 + 0.3333333333333333 = x"
+    ],
+    "lSolutions": [
+      0.5
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "In Shannon's apartment complex, 0.16666666666666666 of the apartments are one-bedroom apartments and 0.3333333333333333 are two-bedroom apartments. What fraction of the apartments are either one- or two-bedroom apartments?",
+    "iIndex": 312
+  },
+  {
+    "lEquations": [
+      "0.8333333333333334 - 0.5 = x"
+    ],
+    "lSolutions": [
+      0.3333333333333333
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At the beach, Miki and her sister both built sandcastles and then measured their heights. Miki's sandcastle was 0.8333333333333334 of a foot tall and her sister's was 0.5 of a foot tall. How much taller was Miki's sandcastle than her sister's?",
+    "iIndex": 313
+  },
+  {
+    "lEquations": [
+      "0.5 - 0.16666666666666666 = x"
+    ],
+    "lSolutions": [
+      0.3333333333333333
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Michelle began her pizza delivery route with 0.5 of a tank of gas in her car. When she made it back to the pizzeria, 0.16666666666666666 of a tank of gas was left. How much gas did Michelle use?",
+    "iIndex": 314
+  },
+  {
+    "lEquations": [
+      "0.4 - 0.3 = x"
+    ],
+    "lSolutions": [
+      0.1
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "While taking inventory at her pastry shop, Kelly realizes that she had 0.4 of a box of baking powder yesterday, but the supply is now down to 0.3 of a box. How much more baking powder did Kelly have yesterday?",
+    "iIndex": 315
+  },
+  {
+    "lEquations": [
+      "0.2 + 0.7 = x"
+    ],
+    "lSolutions": [
+      0.9
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Craig walked 0.2 of a mile from school to David's house and 0.7 of a mile from David's house to his own house. How many miles did Craig walk in all?",
+    "iIndex": 316
+  },
+  {
+    "lEquations": [
+      "0.4 + 0.1 = x"
+    ],
+    "lSolutions": [
+      0.3
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Greg and Sharon own neighboring cornfields. Greg harvested 0.4 of an acre of corn on Monday and Sharon harvested 0.1 of an acre. How many more acres did Greg harvest than Sharon?",
+    "iIndex": 317
+  },
+  {
+    "lEquations": [
+      "0.25 + 0.5 = x"
+    ],
+    "lSolutions": [
+      0.75
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "At the hardware store, 0.25 of the nails are size 2d and 0.5 of the nails are size 4d. What fraction of the nails are either size 2d or 4d?",
+    "iIndex": 318
+  },
+  {
+    "lEquations": [
+      "0.625 - 0.25 = x"
+    ],
+    "lSolutions": [
+      0.375
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "While making desserts for a bake sale, Victor used 0.625 of a scoop of brown sugar as well as 0.25 of a scoop of white sugar. How much more brown sugar did Victor use?",
+    "iIndex": 319
+  },
+  {
+    "lEquations": [
+      "0.7 + 0.6 = x"
+    ],
+    "lSolutions": [
+      0.1
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Eve ran 0.7 of a mile and walked 0.6 of a mile. How much farther did Eve run than walk?",
+    "iIndex": 320
+  },
+  {
+    "lEquations": [
+      "0.3 + 0.4 = x"
+    ],
+    "lSolutions": [
+      0.7
+    ],
+    "grammarCheck": 0,
+    "templateNumber": 0,
+    "sQuestion": "Jonah added 0.3 of a cup of yellow raisins and 0.4 of a cup of black raisins to a batch of trail mix. How many cups of raisins did Jonah add in all?",
+    "iIndex": 321
+  }
+]

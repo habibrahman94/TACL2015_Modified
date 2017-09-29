@@ -1,5 +1,5 @@
-quantities : 52 0.75 x
-types : "problem" "Andy" "problem"
+quantities : 70 0.2 x
+types : "ounce" "Hanson" "he"
 operators : + - * / =
 n : 5
-answer : 39.0
+answer : 56.0

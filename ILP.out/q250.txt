@@ -1,5 +1,0 @@
-quantities : 732,160 622,336 x
-types : "dollar" "dollar" "city"
-operators : + - * / =
-n : 5
-answer : 15.0

@@ -1,5 +1,0 @@
-quantities : 9,740 13,149 x
-types : "people" "people" "time"
-operators : + - * / =
-n : 5
-answer : 35.0

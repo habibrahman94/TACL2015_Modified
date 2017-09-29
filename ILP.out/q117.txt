@@ -1,5 +1,5 @@
-quantities : 32 0.25 x
-types : "milkshake" "Diner" "milkshake"
+quantities : 60 0.7 x
+types : "tree" "time" "tree"
 operators : + - * / =
 n : 5
-answer : 8.0
+answer : 42.0

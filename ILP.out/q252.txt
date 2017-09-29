@@ -1,5 +1,0 @@
-quantities : 150 0.54 x
-types : "student" "time" "size"
-operators : + - * / =
-n : 5
-answer : 231.0

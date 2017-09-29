@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | FRA | 0 | 30 | 333.333333333333 | x=(100/0.3) | x 100 0.3 / = | x:student 100:student 0.3:time /:student =:student
-EXPR: 1 | POS | INT | 0 | 30 | 30 | (100*0.3)=x | 100 0.3 * x = | 100:student 0.3:time *:student x:student =:student
-EXPR: 1 | POS | INT | 0 | 30 | 30 | x=(100*0.3) | x 100 0.3 * = | x:student 100:student 0.3:time *:student =:student
-EXPR: 0 | POS | FRA | 0 | 30 | 333.333333333333 | (100/0.3)=x | 100 0.3 / x = | 100:student 0.3:time /:student x:student =:student
-EXPR: 1 | POS | INT | 2 | 30 | 30 | 100=(x/0.3) | 100 x 0.3 / = | 100:student x:student 0.3:time /:student =:student
-EXPR: 0 | POS | FRA | 2 | 30 | 333.333333333333 | 100=(x*0.3) | 100 x 0.3 * = | 100:student x:student 0.3:time *:student =:student
-EXPR: 0 | POS | FRA | 2 | 30 | 333.333333333333 | 100=(0.3*x) | 100 0.3 x * = | 100:student 0.3:time x:student *:student =:student
-EXPR: 0 | POS | FRA | 4 | 30 | 333.333333333333 | (0.3*x)=100 | 0.3 x * 100 = | 0.3:time x:student *:student 100:student =:student
-EXPR: 0 | POS | FRA | 4 | 30 | 333.333333333333 | (x*0.3)=100 | x 0.3 * 100 = | x:student 0.3:time *:student 100:student =:student
-EXPR: 1 | POS | INT | 4 | 30 | 30 | (x/0.3)=100 | x 0.3 / 100 = | x:student 0.3:time /:student 100:student =:student
-EXPR: 0 | POS | FRA | 10 | 30 | 100.3 | (100+0.3)=x | 100 0.3 + x = | 100:student 0.3:student +:student x:student =:student
-EXPR: 0 | POS | FRA | 10 | 30 | 100.3 | x=(100+0.3) | x 100 0.3 + = | x:student 100:student 0.3:student +:student =:student
-EXPR: 0 | POS | FRA | 10 | 30 | 99.7 | (100-0.3)=x | 100 0.3 - x = | 100:student 0.3:student -:student x:student =:student
-EXPR: 0 | POS | FRA | 10 | 30 | 99.7 | x=(100-0.3) | x 100 0.3 - = | x:student 100:student 0.3:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 30 | 99.7 | 100=(x+0.3) | 100 x 0.3 + = | 100:student x:student 0.3:student +:student =:student
-EXPR: 0 | POS | FRA | 12 | 30 | 0.003 | 100=(0.3/x) | 100 0.3 x / = | 100:time 0.3:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 0.003 | (x*100)=0.3 | x 100 * 0.3 = | x:student 100:time *:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 333.333333333333 | (100/x)=0.3 | 100 x / 0.3 = | 100:time x:student /:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 0.003 | x=(0.3/100) | x 0.3 100 / = | x:time 0.3:time 100:student /:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 100.3 | 100=(x-0.3) | 100 x 0.3 - = | 100:student x:student 0.3:student -:student =:student
-EXPR: 0 | POS | FRA | 12 | 30 | 0.003 | (0.3/100)=x | 0.3 100 / x = | 0.3:time 100:student /:time x:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 0.003 | (100*x)=0.3 | 100 x * 0.3 = | 100:time x:student *:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 100.3 | (x-100)=0.3 | x 100 - 0.3 = | x:student 100:student -:student 0.3:student =:student
-EXPR: 0 | POS | FRA | 12 | 30 | 99.7 | (100-x)=0.3 | 100 x - 0.3 = | 100:student x:student -:student 0.3:student =:student
-EXPR: 1 | POS | INT | 12 | 30 | 30 | (x/100)=0.3 | x 100 / 0.3 = | x:time 100:student /:time 0.3:time =:time
-EXPR: 0 | POS | FRA | 12 | 30 | 99.7 | 100=(0.3+x) | 100 0.3 x + = | 100:student 0.3:student x:student +:student =:student
-EXPR: 1 | POS | INT | 14 | 30 | 30 | 0.3=(x/100) | 0.3 x 100 / = | 0.3:time x:time 100:student /:time =:time
-EXPR: 0 | POS | FRA | 14 | 30 | 333.333333333333 | 0.3=(100/x) | 0.3 100 x / = | 0.3:time 100:time x:student /:time =:time
-EXPR: 0 | POS | FRA | 14 | 30 | 99.7 | (0.3+x)=100 | 0.3 x + 100 = | 0.3:student x:student +:student 100:student =:student
-EXPR: 0 | POS | FRA | 14 | 30 | 99.7 | (x+0.3)=100 | x 0.3 + 100 = | x:student 0.3:student +:student 100:student =:student
-EXPR: 0 | POS | FRA | 14 | 30 | 0.003 | 0.3=(100*x) | 0.3 100 x * = | 0.3:time 100:student x:time *:time =:time
-EXPR: 0 | POS | FRA | 14 | 30 | 0.003 | (0.3/x)=100 | 0.3 x / 100 = | 0.3:time x:student /:time 100:time =:time
-EXPR: 0 | POS | FRA | 14 | 30 | 99.7 | 0.3=(100-x) | 0.3 100 x - = | 0.3:student 100:student x:student -:student =:student
-EXPR: 0 | POS | FRA | 14 | 30 | 100.3 | 0.3=(x-100) | 0.3 x 100 - = | 0.3:student x:student 100:student -:student =:student
-EXPR: 0 | POS | FRA | 14 | 30 | 0.003 | 0.3=(x*100) | 0.3 x 100 * = | 0.3:time x:student 100:time *:time =:time
-EXPR: 0 | POS | FRA | 14 | 30 | 100.3 | (x-0.3)=100 | x 0.3 - 100 = | x:student 0.3:student -:student 100:student =:student
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | INT | 10 | 20 | 20 | (100*0.2)=x | 100 0.2 * x = | 100:deer 0.2:juvenile *:juvenile x:juvenile =:juvenile
+EXPR: 0 | POS | INT | 10 | 20 | 500 | (100/0.2)=x | 100 0.2 / x = | 100:juvenile 0.2:scientist /:juvenile x:juvenile =:juvenile
+EXPR: 1 | POS | INT | 10 | 20 | 20 | x=(100*0.2) | x 100 0.2 * = | x:deer 100:deer 0.2:scientist *:deer =:deer
+EXPR: 0 | POS | INT | 10 | 20 | 500 | x=(100/0.2) | x 100 0.2 / = | x:juvenile 100:juvenile 0.2:scientist /:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | (100*x)=0.2 | 100 x * 0.2 = | 100:deer x:scientist *:scientist 0.2:scientist =:scientist
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | x=(0.2/100) | x 0.2 100 / = | x:scientist 0.2:scientist 100:deer /:scientist =:scientist
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | 100=(0.2/x) | 100 0.2 x / = | 100:scientist 0.2:scientist x:juvenile /:scientist =:scientist
+EXPR: 0 | POS | INT | 12 | 20 | 500 | 100=(0.2*x) | 100 0.2 x * = | 100:juvenile 0.2:scientist x:juvenile *:juvenile =:juvenile
+EXPR: 0 | POS | INT | 12 | 20 | 500 | (100/x)=0.2 | 100 x / 0.2 = | 100:scientist x:juvenile /:scientist 0.2:scientist =:scientist
+EXPR: 0 | POS | INT | 12 | 20 | 500 | 100=(x*0.2) | 100 x 0.2 * = | 100:juvenile x:juvenile 0.2:scientist *:juvenile =:juvenile
+EXPR: 1 | POS | INT | 12 | 20 | 20 | 100=(x/0.2) | 100 x 0.2 / = | 100:juvenile x:juvenile 0.2:scientist /:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | (x*100)=0.2 | x 100 * 0.2 = | x:juvenile 100:scientist *:scientist 0.2:scientist =:scientist
+EXPR: 1 | POS | INT | 12 | 20 | 20 | (x/100)=0.2 | x 100 / 0.2 = | x:juvenile 100:deer /:juvenile 0.2:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 12 | 20 | 0.002 | (0.2/100)=x | 0.2 100 / x = | 0.2:juvenile 100:deer /:juvenile x:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 14 | 20 | 0.002 | (0.2/x)=100 | 0.2 x / 100 = | 0.2:deer x:juvenile /:deer 100:deer =:deer
+EXPR: 0 | POS | INT | 14 | 20 | 500 | (0.2*x)=100 | 0.2 x * 100 = | 0.2:deer x:juvenile *:deer 100:deer =:deer
+EXPR: 1 | POS | INT | 14 | 20 | 20 | (x/0.2)=100 | x 0.2 / 100 = | x:deer 0.2:scientist /:deer 100:deer =:deer
+EXPR: 0 | POS | INT | 14 | 20 | 500 | (x*0.2)=100 | x 0.2 * 100 = | x:deer 0.2:scientist *:deer 100:deer =:deer
+EXPR: 0 | POS | FRA | 14 | 20 | 0.002 | 0.2=(100*x) | 0.2 100 x * = | 0.2:scientist 100:deer x:scientist *:scientist =:scientist
+EXPR: 0 | POS | FRA | 14 | 20 | 0.002 | 0.2=(x*100) | 0.2 x 100 * = | 0.2:scientist x:juvenile 100:scientist *:scientist =:scientist
+EXPR: 1 | POS | INT | 14 | 20 | 20 | 0.2=(x/100) | 0.2 x 100 / = | 0.2:juvenile x:juvenile 100:deer /:juvenile =:juvenile
+EXPR: 0 | POS | INT | 14 | 20 | 500 | 0.2=(100/x) | 0.2 100 x / = | 0.2:deer 100:deer x:juvenile /:deer =:deer
+EXPR: 0 | POS | FRA | 20 | 20 | 100.2 | x=(100+0.2) | x 100 0.2 + = | x:deer 100:deer 0.2:deer +:deer =:deer
+EXPR: 0 | POS | FRA | 20 | 20 | 99.8 | x=(100-0.2) | x 100 0.2 - = | x:juvenile 100:juvenile 0.2:juvenile -:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 20 | 20 | 100.2 | (100+0.2)=x | 100 0.2 + x = | 100:deer 0.2:deer +:deer x:deer =:deer
+EXPR: 0 | POS | FRA | 20 | 20 | 99.8 | (100-0.2)=x | 100 0.2 - x = | 100:juvenile 0.2:juvenile -:juvenile x:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 22 | 20 | 100.2 | 100=(x-0.2) | 100 x 0.2 - = | 100:deer x:deer 0.2:deer -:deer =:deer
+EXPR: 0 | POS | FRA | 22 | 20 | 99.8 | 100=(x+0.2) | 100 x 0.2 + = | 100:deer x:deer 0.2:deer +:deer =:deer
+EXPR: 0 | POS | FRA | 22 | 20 | 100.2 | (x-100)=0.2 | x 100 - 0.2 = | x:scientist 100:scientist -:scientist 0.2:scientist =:scientist
+EXPR: 0 | POS | FRA | 22 | 20 | 99.8 | (100-x)=0.2 | 100 x - 0.2 = | 100:deer x:deer -:deer 0.2:deer =:deer
+EXPR: 0 | POS | FRA | 22 | 20 | 99.8 | 100=(0.2+x) | 100 0.2 x + = | 100:juvenile 0.2:juvenile x:juvenile +:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 24 | 20 | 99.8 | (0.2+x)=100 | 0.2 x + 100 = | 0.2:juvenile x:juvenile +:juvenile 100:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 24 | 20 | 100.2 | (x-0.2)=100 | x 0.2 - 100 = | x:deer 0.2:deer -:deer 100:deer =:deer
+EXPR: 0 | POS | FRA | 24 | 20 | 99.8 | (x+0.2)=100 | x 0.2 + 100 = | x:juvenile 0.2:juvenile +:juvenile 100:juvenile =:juvenile
+EXPR: 0 | POS | FRA | 24 | 20 | 99.8 | 0.2=(100-x) | 0.2 100 x - = | 0.2:deer 100:deer x:deer -:deer =:deer
+EXPR: 0 | POS | FRA | 24 | 20 | 100.2 | 0.2=(x-100) | 0.2 x 100 - = | 0.2:deer x:deer 100:deer -:deer =:deer
+NET 36 unique, non-negative solutions found out of 324 total solutions

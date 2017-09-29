@@ -1,5 +1,5 @@
-quantities : 20 0.7 x
-types : "student" "time" "people"
+quantities : 190,830 0.7 x
+types : "ounce" "restaurant" "cream"
 operators : + - * / =
 n : 5
-answer : 14.0
+answer : 57249.0

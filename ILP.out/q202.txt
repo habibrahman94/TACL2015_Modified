@@ -1,5 +1,5 @@
-quantities : 30 36 x
-types : "inch" "inch" "UNKNOWN"
+quantities : 0.8 0.2 x
+types : "gallon" "gallon" "gallon"
 operators : + - * / =
 n : 5
-answer : 20.0
+answer : 0.6

@@ -1,24 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 77.7778 | 45 | x=(35+10) | x 35 10 + = | x:answer 35:answer 10:answer +:answer =:answer
-EXPR: 0 | POS | INT | 10 | 77.7778 | 350 | x=(35*10) | x 35 10 * = | x:Donovan 35:answer 10:Donovan *:Donovan =:Donovan
-EXPR: 0 | POS | INT | 10 | 77.7778 | 25 | (35-10)=x | 35 10 - x = | 35:answer 10:answer -:answer x:answer =:answer
-EXPR: 0 | POS | INT | 10 | 77.7778 | 350 | (35*10)=x | 35 10 * x = | 35:answer 10:Donovan *:Donovan x:Donovan =:Donovan
-EXPR: 0 | POS | INT | 10 | 77.7778 | 25 | x=(35-10) | x 35 10 - = | x:answer 35:answer 10:answer -:answer =:answer
-EXPR: 0 | POS | INT | 10 | 77.7778 | 45 | (35+10)=x | 35 10 + x = | 35:answer 10:answer +:answer x:answer =:answer
-EXPR: 0 | POS | INT | 12 | 77.7778 | 25 | (35-x)=10 | 35 x - 10 = | 35:answer x:answer -:answer 10:answer =:answer
-EXPR: 0 | POS | INT | 12 | 77.7778 | 25 | 35=(10+x) | 35 10 x + = | 35:answer 10:answer x:answer +:answer =:answer
-EXPR: 0 | POS | INT | 12 | 77.7778 | 350 | (x/35)=10 | x 35 / 10 = | x:Donovan 35:answer /:Donovan 10:Donovan =:Donovan
-EXPR: 0 | POS | INT | 12 | 77.7778 | 45 | (x-35)=10 | x 35 - 10 = | x:answer 35:answer -:answer 10:answer =:answer
-EXPR: 0 | POS | INT | 12 | 77.7778 | 45 | 35=(x-10) | 35 x 10 - = | 35:answer x:answer 10:answer -:answer =:answer
-EXPR: 0 | POS | INT | 12 | 77.7778 | 25 | 35=(x+10) | 35 x 10 + = | 35:answer x:answer 10:answer +:answer =:answer
-EXPR: 0 | POS | INT | 12 | 77.7778 | 350 | 35=(x/10) | 35 x 10 / = | 35:Donovan x:Donovan 10:answer /:Donovan =:Donovan
-EXPR: 0 | POS | INT | 14 | 77.7778 | 45 | (x-10)=35 | x 10 - 35 = | x:answer 10:answer -:answer 35:answer =:answer
-EXPR: 0 | POS | INT | 14 | 77.7778 | 350 | 10=(x/35) | 10 x 35 / = | 10:Donovan x:Donovan 35:answer /:Donovan =:Donovan
-EXPR: 0 | POS | INT | 14 | 77.7778 | 25 | (x+10)=35 | x 10 + 35 = | x:answer 10:answer +:answer 35:answer =:answer
-EXPR: 0 | POS | INT | 14 | 77.7778 | 350 | (x/10)=35 | x 10 / 35 = | x:Donovan 10:answer /:Donovan 35:Donovan =:Donovan
-EXPR: 0 | POS | INT | 14 | 77.7778 | 25 | 10=(35-x) | 10 35 x - = | 10:answer 35:answer x:answer -:answer =:answer
-EXPR: 0 | POS | INT | 14 | 77.7778 | 25 | (10+x)=35 | 10 x + 35 = | 10:answer x:answer +:answer 35:answer =:answer
-EXPR: 0 | POS | INT | 14 | 77.7778 | 45 | 10=(x-35) | 10 x 35 - = | 10:answer x:answer 35:answer -:answer =:answer
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | FRA | 0 | 37.7 | 579.935 | (580-0.065)=x | 580 0.065 - x = | 580:dollar 0.065:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 37.7 | 579.935 | x=(580-0.065) | x 580 0.065 - = | x:dollar 580:dollar 0.065:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 37.7 | 580.065 | (580+0.065)=x | 580 0.065 + x = | 580:dollar 0.065:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 37.7 | 580.065 | x=(580+0.065) | x 580 0.065 + = | x:dollar 580:dollar 0.065:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 37.7 | 580.065 | (x-580)=0.065 | x 580 - 0.065 = | x:dollar 580:dollar -:dollar 0.065:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 37.7 | 579.935 | (580-x)=0.065 | 580 x - 0.065 = | 580:dollar x:dollar -:dollar 0.065:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 37.7 | 579.935 | 580=(x+0.065) | 580 x 0.065 + = | 580:dollar x:dollar 0.065:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 37.7 | 580.065 | 580=(x-0.065) | 580 x 0.065 - = | 580:dollar x:dollar 0.065:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 37.7 | 579.935 | 580=(0.065+x) | 580 0.065 x + = | 580:dollar 0.065:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 37.7 | 580.065 | 0.065=(x-580) | 0.065 x 580 - = | 0.065:dollar x:dollar 580:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 37.7 | 580.065 | (x-0.065)=580 | x 0.065 - 580 = | x:dollar 0.065:dollar -:dollar 580:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 37.7 | 579.935 | (0.065+x)=580 | 0.065 x + 580 = | 0.065:dollar x:dollar +:dollar 580:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 37.7 | 579.935 | (x+0.065)=580 | x 0.065 + 580 = | x:dollar 0.065:dollar +:dollar 580:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 37.7 | 579.935 | 0.065=(580-x) | 0.065 580 x - = | 0.065:dollar 580:dollar x:dollar -:dollar =:dollar
+NET 14 unique, non-negative solutions found out of 28 total solutions

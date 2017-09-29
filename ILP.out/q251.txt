@@ -1,5 +1,0 @@
-quantities : 280 196 x
-types : "dollar" "dollar" "company"
-operators : + - * / =
-n : 5
-answer : 30.0

@@ -1,32 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 90 | 9 | 36=(x*4) | 36 x 4 * = | 36:cookie x:UNKNOWN 4:cookie *:cookie =:cookie
-EXPR: 0 | POS | INT | 2 | 90 | 9 | 36=(4*x) | 36 4 x * = | 36:cookie 4:cookie x:UNKNOWN *:cookie =:cookie
-EXPR: 0 | POS | INT | 2 | 90 | 9 | (36/x)=4 | 36 x / 4 = | 36:cookie x:UNKNOWN /:cookie 4:cookie =:cookie
-EXPR: 0 | POS | INT | 4 | 90 | 9 | (x*4)=36 | x 4 * 36 = | x:UNKNOWN 4:cookie *:cookie 36:cookie =:cookie
-EXPR: 0 | POS | INT | 4 | 90 | 9 | (4*x)=36 | 4 x * 36 = | 4:cookie x:UNKNOWN *:cookie 36:cookie =:cookie
-EXPR: 0 | POS | INT | 4 | 90 | 9 | 4=(36/x) | 4 36 x / = | 4:cookie 36:cookie x:UNKNOWN /:cookie =:cookie
-EXPR: 0 | POS | INT | 10 | 90 | 40 | x=(36+4) | x 36 4 + = | x:cookie 36:cookie 4:cookie +:cookie =:cookie
-EXPR: 0 | POS | INT | 10 | 90 | 144 | x=(36*4) | x 36 4 * = | x:UNKNOWN 36:cookie 4:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 90 | 32 | (36-4)=x | 36 4 - x = | 36:cookie 4:cookie -:cookie x:cookie =:cookie
-EXPR: 0 | POS | INT | 10 | 90 | 144 | (36*4)=x | 36 4 * x = | 36:cookie 4:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 90 | 32 | x=(36-4) | x 36 4 - = | x:cookie 36:cookie 4:cookie -:cookie =:cookie
-EXPR: 0 | POS | INT | 10 | 90 | 9 | x=(36/4) | x 36 4 / = | x:UNKNOWN 36:UNKNOWN 4:cookie /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 90 | 40 | (36+4)=x | 36 4 + x = | 36:cookie 4:cookie +:cookie x:cookie =:cookie
-EXPR: 0 | POS | INT | 10 | 90 | 9 | (36/4)=x | 36 4 / x = | 36:UNKNOWN 4:cookie /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 90 | 32 | (36-x)=4 | 36 x - 4 = | 36:cookie x:cookie -:cookie 4:cookie =:cookie
-EXPR: 0 | POS | INT | 12 | 90 | 32 | 36=(4+x) | 36 4 x + = | 36:cookie 4:cookie x:cookie +:cookie =:cookie
-EXPR: 0 | POS | INT | 12 | 90 | 144 | (x/36)=4 | x 36 / 4 = | x:UNKNOWN 36:cookie /:UNKNOWN 4:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 90 | 40 | (x-36)=4 | x 36 - 4 = | x:cookie 36:cookie -:cookie 4:cookie =:cookie
-EXPR: 0 | POS | INT | 12 | 90 | 40 | 36=(x-4) | 36 x 4 - = | 36:cookie x:cookie 4:cookie -:cookie =:cookie
-EXPR: 0 | POS | INT | 12 | 90 | 32 | 36=(x+4) | 36 x 4 + = | 36:cookie x:cookie 4:cookie +:cookie =:cookie
-EXPR: 0 | POS | INT | 12 | 90 | 144 | 36=(x/4) | 36 x 4 / = | 36:UNKNOWN x:UNKNOWN 4:cookie /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 90 | 40 | (x-4)=36 | x 4 - 36 = | x:cookie 4:cookie -:cookie 36:cookie =:cookie
-EXPR: 0 | POS | INT | 14 | 90 | 144 | 4=(x/36) | 4 x 36 / = | 4:UNKNOWN x:UNKNOWN 36:cookie /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 90 | 32 | (x+4)=36 | x 4 + 36 = | x:cookie 4:cookie +:cookie 36:cookie =:cookie
-EXPR: 0 | POS | INT | 14 | 90 | 144 | (x/4)=36 | x 4 / 36 = | x:UNKNOWN 4:cookie /:UNKNOWN 36:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 90 | 32 | 4=(36-x) | 4 36 x - = | 4:cookie 36:cookie x:cookie -:cookie =:cookie
-EXPR: 0 | POS | INT | 14 | 90 | 32 | (4+x)=36 | 4 x + 36 = | 4:cookie x:cookie +:cookie 36:cookie =:cookie
-EXPR: 0 | POS | INT | 14 | 90 | 40 | 4=(x-36) | 4 x 36 - = | 4:cookie x:cookie 36:cookie -:cookie =:cookie
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | FRA | 10 | 15 | 5.4 | (9*0.6)=x | 9 0.6 * x = | 9:ounce 0.6:weight *:weight x:weight =:weight
+EXPR: 1 | POS | INT | 10 | 15 | 15 | (9/0.6)=x | 9 0.6 / x = | 9:weight 0.6:that /:weight x:weight =:weight
+EXPR: 0 | POS | FRA | 10 | 15 | 5.4 | x=(9*0.6) | x 9 0.6 * = | x:ounce 9:ounce 0.6:that *:ounce =:ounce
+EXPR: 1 | POS | INT | 10 | 15 | 15 | x=(9/0.6) | x 9 0.6 / = | x:weight 9:weight 0.6:that /:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 15 | 0.0666666666666667 | (9*x)=0.6 | 9 x * 0.6 = | 9:ounce x:that *:that 0.6:that =:that
+EXPR: 0 | POS | FRA | 12 | 15 | 0.0666666666666667 | x=(0.6/9) | x 0.6 9 / = | x:that 0.6:that 9:ounce /:that =:that
+EXPR: 0 | POS | FRA | 12 | 15 | 0.0666666666666667 | 9=(0.6/x) | 9 0.6 x / = | 9:that 0.6:that x:weight /:that =:that
+EXPR: 1 | POS | INT | 12 | 15 | 15 | 9=(0.6*x) | 9 0.6 x * = | 9:weight 0.6:that x:weight *:weight =:weight
+EXPR: 1 | POS | INT | 12 | 15 | 15 | (9/x)=0.6 | 9 x / 0.6 = | 9:that x:weight /:that 0.6:that =:that
+EXPR: 1 | POS | INT | 12 | 15 | 15 | 9=(x*0.6) | 9 x 0.6 * = | 9:weight x:weight 0.6:that *:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 15 | 5.4 | 9=(x/0.6) | 9 x 0.6 / = | 9:weight x:weight 0.6:that /:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 15 | 0.0666666666666667 | (x*9)=0.6 | x 9 * 0.6 = | x:weight 9:that *:that 0.6:that =:that
+EXPR: 0 | POS | FRA | 12 | 15 | 5.4 | (x/9)=0.6 | x 9 / 0.6 = | x:weight 9:ounce /:weight 0.6:weight =:weight
+EXPR: 0 | POS | FRA | 12 | 15 | 0.0666666666666667 | (0.6/9)=x | 0.6 9 / x = | 0.6:weight 9:ounce /:weight x:weight =:weight
+EXPR: 0 | POS | FRA | 14 | 15 | 0.0666666666666667 | (0.6/x)=9 | 0.6 x / 9 = | 0.6:ounce x:weight /:ounce 9:ounce =:ounce
+EXPR: 1 | POS | INT | 14 | 15 | 15 | (0.6*x)=9 | 0.6 x * 9 = | 0.6:ounce x:weight *:ounce 9:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 15 | 5.4 | (x/0.6)=9 | x 0.6 / 9 = | x:ounce 0.6:that /:ounce 9:ounce =:ounce
+EXPR: 1 | POS | INT | 14 | 15 | 15 | (x*0.6)=9 | x 0.6 * 9 = | x:ounce 0.6:that *:ounce 9:ounce =:ounce
+EXPR: 0 | POS | FRA | 14 | 15 | 0.0666666666666667 | 0.6=(9*x) | 0.6 9 x * = | 0.6:that 9:ounce x:that *:that =:that
+EXPR: 0 | POS | FRA | 14 | 15 | 0.0666666666666667 | 0.6=(x*9) | 0.6 x 9 * = | 0.6:that x:weight 9:that *:that =:that
+EXPR: 0 | POS | FRA | 14 | 15 | 5.4 | 0.6=(x/9) | 0.6 x 9 / = | 0.6:weight x:weight 9:ounce /:weight =:weight
+EXPR: 1 | POS | INT | 14 | 15 | 15 | 0.6=(9/x) | 0.6 9 x / = | 0.6:ounce 9:ounce x:weight /:ounce =:ounce
+EXPR: 0 | POS | FRA | 20 | 15 | 9.6 | x=(9+0.6) | x 9 0.6 + = | x:ounce 9:ounce 0.6:ounce +:ounce =:ounce
+EXPR: 0 | POS | FRA | 20 | 15 | 8.4 | x=(9-0.6) | x 9 0.6 - = | x:weight 9:weight 0.6:weight -:weight =:weight
+EXPR: 0 | POS | FRA | 20 | 15 | 9.6 | (9+0.6)=x | 9 0.6 + x = | 9:ounce 0.6:ounce +:ounce x:ounce =:ounce
+EXPR: 0 | POS | FRA | 20 | 15 | 8.4 | (9-0.6)=x | 9 0.6 - x = | 9:weight 0.6:weight -:weight x:weight =:weight
+EXPR: 0 | POS | FRA | 22 | 15 | 9.6 | 9=(x-0.6) | 9 x 0.6 - = | 9:ounce x:ounce 0.6:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 22 | 15 | 8.4 | 9=(x+0.6) | 9 x 0.6 + = | 9:ounce x:ounce 0.6:ounce +:ounce =:ounce
+EXPR: 0 | POS | FRA | 22 | 15 | 9.6 | (x-9)=0.6 | x 9 - 0.6 = | x:that 9:that -:that 0.6:that =:that
+EXPR: 0 | POS | FRA | 22 | 15 | 8.4 | (9-x)=0.6 | 9 x - 0.6 = | 9:ounce x:ounce -:ounce 0.6:ounce =:ounce
+EXPR: 0 | POS | FRA | 22 | 15 | 8.4 | 9=(0.6+x) | 9 0.6 x + = | 9:weight 0.6:weight x:weight +:weight =:weight
+EXPR: 0 | POS | FRA | 24 | 15 | 8.4 | (0.6+x)=9 | 0.6 x + 9 = | 0.6:weight x:weight +:weight 9:weight =:weight
+EXPR: 0 | POS | FRA | 24 | 15 | 9.6 | (x-0.6)=9 | x 0.6 - 9 = | x:ounce 0.6:ounce -:ounce 9:ounce =:ounce
+EXPR: 0 | POS | FRA | 24 | 15 | 8.4 | (x+0.6)=9 | x 0.6 + 9 = | x:weight 0.6:weight +:weight 9:weight =:weight
+EXPR: 0 | POS | FRA | 24 | 15 | 8.4 | 0.6=(9-x) | 0.6 9 x - = | 0.6:ounce 9:ounce x:ounce -:ounce =:ounce
+EXPR: 0 | POS | FRA | 24 | 15 | 9.6 | 0.6=(x-9) | 0.6 x 9 - = | 0.6:ounce x:ounce 9:ounce -:ounce =:ounce
+NET 36 unique, non-negative solutions found out of 324 total solutions

@@ -28,7 +28,7 @@ def cleannum(n):
     return n
 multi = None
 glob = None
-
+Lb = None
 def make_eq(q,a,equations):
     wps = q #open(q).readlines()
     answs = a #open(a).readlines()
@@ -59,9 +59,16 @@ def make_eq(q,a,equations):
                 problem[i] = x[:-1]+" "+x[-1]
         problem = ' '.join(problem)
         problem = " " + problem + " "
+        
+        Cmp = int(equations[k])
+        
         #print(equations[k])
         #print(problem)
-        if len(answers)==0:print("0 Answers \n"+str(equations[k])+" INCORRECT"); wrong += 1; continue
+        if len(answers)==0:
+            print("0 Answers \n"+str(equations[k])+" INCORRECT")
+            if Cmp<=278:
+                wrong += 1
+            continue
 
 
         #make story
@@ -75,7 +82,10 @@ def make_eq(q,a,equations):
 
         xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
         if not xidx:
-            print(str(equations[k])+" INCORRECT NO X WHY");wrong += 1; continue
+            print(str(equations[k])+" INCORRECT NO X WHY")
+            if Cmp<=278:
+                wrong += 1
+            continue
 
         xidx = xidx[0]
         
@@ -87,8 +97,17 @@ def make_eq(q,a,equations):
         #print(objs.items())
         consts = [x for x in answers[0][1].split(" ") if x not in ['(',')','+','-','/','*','=',]]
         present = [x for x in consts if x in objs]
-        if consts!=present: print(present,consts);print(str(equations[k])+" INCORRECT missing thing");wrong += 1; continue
-        if len([x for x in objs if x not in consts])>0: print(str(equations[k])+" INCORRECT missing thing");wrong +=1;continue
+        if consts!=present:
+            print(present,consts)
+            print(str(equations[k])+" INCORRECT missing thing")
+            if Cmp<=278:
+                wrong += 1
+            continue
+        if len([x for x in objs if x not in consts])>0:
+            print(str(equations[k])+" INCORRECT missing thing")
+            if Cmp<=278:
+                wrong += 1
+            continue
         scores = []
 
 
@@ -141,13 +160,19 @@ def make_eq(q,a,equations):
             for s in thisscore: score *= s
             gscore = compute(p,'=',e,target,problem,story,order,score,cons)[0]
             #print("gscore ",gscore)
-            score *= gscore
-            scores.append((score,j,eq,guess))
+            
+            #score has the Local Model Score
+            #gscore is the Global Model Score
+            Gb = 1.0 - Lb
+            proposed_score = (Lb* score+Gb* gscore)
+            #score *= gscore
+            scores.append((proposed_score,j,eq,guess))
         scores = sorted(scores,reverse=True)
         righties = [x for x in scores if x[1]==1]
         #print(scores[:3])
         if not righties:
-            wrong+=1
+            if Cmp<=278:
+                wrong += 1
             print("TOP SCORING NO CORRECT SOLUTION ,"+str(equations[k])+" INCORRECT")
             continue
         else:
@@ -156,15 +181,18 @@ def make_eq(q,a,equations):
 
         if len(scores)>0:
             if scores[0][1]==1:
-                right += 1
+                if Cmp<=278:
+                    right += 1
                 #print k
                 #print equations[k]
                 print(str(equations[k])+" CORRECT")
             else:
-                wrong += 1
+                if Cmp<=278:
+                    wrong += 1
                 print(str(equations[k])+" INCORRECT")
         else:
-            wrong += 1
+            if Cmp<=278:
+                wrong += 1
             print(str(equations[k])+" INCORRECT")
 
     return (right,wrong)
@@ -198,6 +226,9 @@ def compute(p,op,e,target,problem,story,order,score=None,cons=None):
 
 if __name__=="__main__":
     inp, mfile, gfile = sys.argv[1:4]
+    
+    Lb = 0.1 * float(sys.argv[4])
+    
     multi = svm_load_model(mfile)
     glob = svm_load_model(gfile)
     #q, a = sys.argv[1:3]

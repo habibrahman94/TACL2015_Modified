@@ -1,40 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=3 m=8
-TOTAL 324 solutions found
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | FRA | 10 | 38.6941 | 27.9565 | (0.85*32.89)=x | 0.85 32.89 * x = | 0.85:Pamela 32.89:price *:price x:price =:price
-EXPR: 0 | POS | FRA | 10 | 38.6941 | 0.0258437214958954 | (0.85/32.89)=x | 0.85 32.89 / x = | 0.85:price 32.89:dollar /:price x:price =:price
-EXPR: 0 | POS | FRA | 10 | 38.6941 | 27.9565 | x=(0.85*32.89) | x 0.85 32.89 * = | x:Pamela 0.85:Pamela 32.89:dollar *:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 10 | 38.6941 | 0.0258437214958954 | x=(0.85/32.89) | x 0.85 32.89 / = | x:price 0.85:price 32.89:dollar /:price =:price
-EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | (0.85*x)=32.89 | 0.85 x * 32.89 = | 0.85:Pamela x:dollar *:dollar 32.89:dollar =:dollar
-EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | x=(32.89/0.85) | x 32.89 0.85 / = | x:dollar 32.89:dollar 0.85:Pamela /:dollar =:dollar
-EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | 0.85=(32.89/x) | 0.85 32.89 x / = | 0.85:dollar 32.89:dollar x:price /:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 38.6941 | 0.0258437214958954 | 0.85=(32.89*x) | 0.85 32.89 x * = | 0.85:price 32.89:dollar x:price *:price =:price
-EXPR: 0 | POS | FRA | 12 | 38.6941 | 0.0258437214958954 | (0.85/x)=32.89 | 0.85 x / 32.89 = | 0.85:dollar x:price /:dollar 32.89:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 38.6941 | 0.0258437214958954 | 0.85=(x*32.89) | 0.85 x 32.89 * = | 0.85:price x:price 32.89:dollar *:price =:price
-EXPR: 0 | POS | FRA | 12 | 38.6941 | 27.9565 | 0.85=(x/32.89) | 0.85 x 32.89 / = | 0.85:price x:price 32.89:dollar /:price =:price
-EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | (x*0.85)=32.89 | x 0.85 * 32.89 = | x:price 0.85:dollar *:dollar 32.89:dollar =:dollar
-EXPR: 0 | POS | FRA | 12 | 38.6941 | 27.9565 | (x/0.85)=32.89 | x 0.85 / 32.89 = | x:price 0.85:Pamela /:price 32.89:price =:price
-EXPR: 1 | POS | FRA | 12 | 38.6941 | 38.6941176470588 | (32.89/0.85)=x | 32.89 0.85 / x = | 32.89:price 0.85:Pamela /:price x:price =:price
-EXPR: 1 | POS | FRA | 14 | 38.6941 | 38.6941176470588 | (32.89/x)=0.85 | 32.89 x / 0.85 = | 32.89:Pamela x:price /:Pamela 0.85:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 14 | 38.6941 | 0.0258437214958954 | (32.89*x)=0.85 | 32.89 x * 0.85 = | 32.89:Pamela x:price *:Pamela 0.85:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 14 | 38.6941 | 27.9565 | (x/32.89)=0.85 | x 32.89 / 0.85 = | x:Pamela 32.89:dollar /:Pamela 0.85:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 14 | 38.6941 | 0.0258437214958954 | (x*32.89)=0.85 | x 32.89 * 0.85 = | x:Pamela 32.89:dollar *:Pamela 0.85:Pamela =:Pamela
-EXPR: 1 | POS | FRA | 14 | 38.6941 | 38.6941176470588 | 32.89=(0.85*x) | 32.89 0.85 x * = | 32.89:dollar 0.85:Pamela x:dollar *:dollar =:dollar
-EXPR: 1 | POS | FRA | 14 | 38.6941 | 38.6941176470588 | 32.89=(x*0.85) | 32.89 x 0.85 * = | 32.89:dollar x:price 0.85:dollar *:dollar =:dollar
-EXPR: 0 | POS | FRA | 14 | 38.6941 | 27.9565 | 32.89=(x/0.85) | 32.89 x 0.85 / = | 32.89:price x:price 0.85:Pamela /:price =:price
-EXPR: 0 | POS | FRA | 14 | 38.6941 | 0.0258437214958954 | 32.89=(0.85/x) | 32.89 0.85 x / = | 32.89:Pamela 0.85:Pamela x:price /:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 20 | 38.6941 | 33.74 | x=(0.85+32.89) | x 0.85 32.89 + = | x:Pamela 0.85:Pamela 32.89:Pamela +:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 20 | 38.6941 | 33.74 | (0.85+32.89)=x | 0.85 32.89 + x = | 0.85:Pamela 32.89:Pamela +:Pamela x:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 33.74 | 0.85=(x-32.89) | 0.85 x 32.89 - = | 0.85:Pamela x:Pamela 32.89:Pamela -:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | 0.85=(32.89-x) | 0.85 32.89 x - = | 0.85:dollar 32.89:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | x=(32.89-0.85) | x 32.89 0.85 - = | x:dollar 32.89:dollar 0.85:dollar -:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | (x+0.85)=32.89 | x 0.85 + 32.89 = | x:dollar 0.85:dollar +:dollar 32.89:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 33.74 | (x-0.85)=32.89 | x 0.85 - 32.89 = | x:dollar 0.85:dollar -:dollar 32.89:dollar =:dollar
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | (0.85+x)=32.89 | 0.85 x + 32.89 = | 0.85:Pamela x:Pamela +:Pamela 32.89:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 22 | 38.6941 | 32.04 | (32.89-0.85)=x | 32.89 0.85 - x = | 32.89:price 0.85:price -:price x:price =:price
-EXPR: 0 | POS | FRA | 24 | 38.6941 | 32.04 | 32.89=(x+0.85) | 32.89 x 0.85 + = | 32.89:Pamela x:Pamela 0.85:Pamela +:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 24 | 38.6941 | 32.04 | (32.89-x)=0.85 | 32.89 x - 0.85 = | 32.89:Pamela x:Pamela -:Pamela 0.85:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 24 | 38.6941 | 33.74 | (x-32.89)=0.85 | x 32.89 - 0.85 = | x:Pamela 32.89:Pamela -:Pamela 0.85:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 24 | 38.6941 | 33.74 | 32.89=(x-0.85) | 32.89 x 0.85 - = | 32.89:Pamela x:Pamela 0.85:Pamela -:Pamela =:Pamela
-EXPR: 0 | POS | FRA | 24 | 38.6941 | 32.04 | 32.89=(0.85+x) | 32.89 0.85 x + = | 32.89:price 0.85:price x:price +:price =:price
-NET 36 unique, non-negative solutions found out of 324 total solutions
+EXPR: 0 | POS | INT | 0 | 18 | 450 | x=(90/0.2) | x 90 0.2 / = | x:employee 90:employee 0.2:slides /:employee =:employee
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (90*0.2)=x | 90 0.2 * x = | 90:employee 0.2:slides *:employee x:employee =:employee
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(90*0.2) | x 90 0.2 * = | x:employee 90:employee 0.2:slides *:employee =:employee
+EXPR: 0 | POS | INT | 0 | 18 | 450 | (90/0.2)=x | 90 0.2 / x = | 90:employee 0.2:slides /:employee x:employee =:employee
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 90=(x/0.2) | 90 x 0.2 / = | 90:employee x:employee 0.2:slides /:employee =:employee
+EXPR: 0 | POS | INT | 2 | 18 | 450 | 90=(x*0.2) | 90 x 0.2 * = | 90:employee x:employee 0.2:slides *:employee =:employee
+EXPR: 0 | POS | INT | 2 | 18 | 450 | 90=(0.2*x) | 90 0.2 x * = | 90:employee 0.2:slides x:employee *:employee =:employee
+EXPR: 0 | POS | INT | 4 | 18 | 450 | (0.2*x)=90 | 0.2 x * 90 = | 0.2:slides x:employee *:employee 90:employee =:employee
+EXPR: 0 | POS | INT | 4 | 18 | 450 | (x*0.2)=90 | x 0.2 * 90 = | x:employee 0.2:slides *:employee 90:employee =:employee
+EXPR: 1 | POS | INT | 4 | 18 | 18 | (x/0.2)=90 | x 0.2 / 90 = | x:employee 0.2:slides /:employee 90:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 90.2 | (90+0.2)=x | 90 0.2 + x = | 90:employee 0.2:employee +:employee x:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 90.2 | x=(90+0.2) | x 90 0.2 + = | x:employee 90:employee 0.2:employee +:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 89.8 | (90-0.2)=x | 90 0.2 - x = | 90:employee 0.2:employee -:employee x:employee =:employee
+EXPR: 0 | POS | FRA | 10 | 18 | 89.8 | x=(90-0.2) | x 90 0.2 - = | x:employee 90:employee 0.2:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | 90=(x+0.2) | 90 x 0.2 + = | 90:employee x:employee 0.2:employee +:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | 90=(0.2/x) | 90 0.2 x / = | 90:slides 0.2:slides x:employee /:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (x*90)=0.2 | x 90 * 0.2 = | x:employee 90:slides *:slides 0.2:slides =:slides
+EXPR: 0 | POS | INT | 12 | 18 | 450 | (90/x)=0.2 | 90 x / 0.2 = | 90:slides x:employee /:slides 0.2:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | x=(0.2/90) | x 0.2 90 / = | x:slides 0.2:slides 90:employee /:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 90.2 | 90=(x-0.2) | 90 x 0.2 - = | 90:employee x:employee 0.2:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (0.2/90)=x | 0.2 90 / x = | 0.2:slides 90:employee /:slides x:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 0.00222222222222222 | (90*x)=0.2 | 90 x * 0.2 = | 90:slides x:employee *:slides 0.2:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 90.2 | (x-90)=0.2 | x 90 - 0.2 = | x:employee 90:employee -:employee 0.2:employee =:employee
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | (90-x)=0.2 | 90 x - 0.2 = | 90:employee x:employee -:employee 0.2:employee =:employee
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x/90)=0.2 | x 90 / 0.2 = | x:slides 90:employee /:slides 0.2:slides =:slides
+EXPR: 0 | POS | FRA | 12 | 18 | 89.8 | 90=(0.2+x) | 90 0.2 x + = | 90:employee 0.2:employee x:employee +:employee =:employee
+EXPR: 1 | POS | INT | 14 | 18 | 18 | 0.2=(x/90) | 0.2 x 90 / = | 0.2:slides x:slides 90:employee /:slides =:slides
+EXPR: 0 | POS | INT | 14 | 18 | 450 | 0.2=(90/x) | 0.2 90 x / = | 0.2:slides 90:slides x:employee /:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | (0.2+x)=90 | 0.2 x + 90 = | 0.2:employee x:employee +:employee 90:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | (x+0.2)=90 | x 0.2 + 90 = | x:employee 0.2:employee +:employee 90:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | 0.2=(90*x) | 0.2 90 x * = | 0.2:slides 90:employee x:slides *:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | (0.2/x)=90 | 0.2 x / 90 = | 0.2:slides x:employee /:slides 90:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 89.8 | 0.2=(90-x) | 0.2 90 x - = | 0.2:employee 90:employee x:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 90.2 | 0.2=(x-90) | 0.2 x 90 - = | 0.2:employee x:employee 90:employee -:employee =:employee
+EXPR: 0 | POS | FRA | 14 | 18 | 0.00222222222222222 | 0.2=(x*90) | 0.2 x 90 * = | 0.2:slides x:employee 90:slides *:slides =:slides
+EXPR: 0 | POS | FRA | 14 | 18 | 90.2 | (x-0.2)=90 | x 0.2 - 90 = | x:employee 0.2:employee -:employee 90:employee =:employee
+NET 36 unique, non-negative solutions found out of 136 total solutions

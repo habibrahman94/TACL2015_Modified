@@ -1,5 +1,5 @@
-quantities : 55 33 x
-types : "bead" "bead" "UNKNOWN"
+quantities : 98,700 108,570 x
+types : "dollar" "dollar" "family"
 operators : + - * / =
 n : 5
-answer : 60.0
+answer : 10.0

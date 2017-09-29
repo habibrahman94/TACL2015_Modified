@@ -1,24 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 18 | 8281 | x=(4550+3731) | x 4550 3731 + = | x:dollar 4550:dollar 3731:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 18 | 16976050 | x=(4550*3731) | x 4550 3731 * = | x:she 4550:dollar 3731:she *:she =:she
-EXPR: 0 | POS | INT | 10 | 18 | 819 | (4550-3731)=x | 4550 3731 - x = | 4550:dollar 3731:dollar -:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 18 | 16976050 | (4550*3731)=x | 4550 3731 * x = | 4550:dollar 3731:she *:she x:she =:she
-EXPR: 0 | POS | INT | 10 | 18 | 819 | x=(4550-3731) | x 4550 3731 - = | x:dollar 4550:dollar 3731:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 10 | 18 | 8281 | (4550+3731)=x | 4550 3731 + x = | 4550:dollar 3731:dollar +:dollar x:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 18 | 819 | (4550-x)=3731 | 4550 x - 3731 = | 4550:dollar x:dollar -:dollar 3731:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 18 | 819 | 4550=(3731+x) | 4550 3731 x + = | 4550:dollar 3731:dollar x:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 18 | 16976050 | (x/4550)=3731 | x 4550 / 3731 = | x:she 4550:dollar /:she 3731:she =:she
-EXPR: 0 | POS | INT | 12 | 18 | 8281 | (x-4550)=3731 | x 4550 - 3731 = | x:dollar 4550:dollar -:dollar 3731:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 18 | 8281 | 4550=(x-3731) | 4550 x 3731 - = | 4550:dollar x:dollar 3731:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 18 | 819 | 4550=(x+3731) | 4550 x 3731 + = | 4550:dollar x:dollar 3731:dollar +:dollar =:dollar
-EXPR: 0 | POS | INT | 12 | 18 | 16976050 | 4550=(x/3731) | 4550 x 3731 / = | 4550:she x:she 3731:dollar /:she =:she
-EXPR: 0 | POS | INT | 14 | 18 | 8281 | (x-3731)=4550 | x 3731 - 4550 = | x:dollar 3731:dollar -:dollar 4550:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 18 | 16976050 | 3731=(x/4550) | 3731 x 4550 / = | 3731:she x:she 4550:dollar /:she =:she
-EXPR: 0 | POS | INT | 14 | 18 | 819 | (x+3731)=4550 | x 3731 + 4550 = | x:dollar 3731:dollar +:dollar 4550:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 18 | 16976050 | (x/3731)=4550 | x 3731 / 4550 = | x:she 3731:dollar /:she 4550:she =:she
-EXPR: 0 | POS | INT | 14 | 18 | 819 | 3731=(4550-x) | 3731 4550 x - = | 3731:dollar 4550:dollar x:dollar -:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 18 | 819 | (3731+x)=4550 | 3731 x + 4550 = | 3731:dollar x:dollar +:dollar 4550:dollar =:dollar
-EXPR: 0 | POS | INT | 14 | 18 | 8281 | 3731=(x-4550) | 3731 x 4550 - = | 3731:dollar x:dollar 4550:dollar -:dollar =:dollar
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.625 | 0.625 | (0.25+0.375)=x | 0.25 0.375 + x = | 0.25:pound 0.375:pound +:pound x:pound =:pound
+EXPR: 1 | POS | FRA | 0 | 0.625 | 0.625 | x=(0.25+0.375) | x 0.25 0.375 + = | x:pound 0.25:pound 0.375:pound +:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 0.625 | 0.625 | (x-0.25)=0.375 | x 0.25 - 0.375 = | x:pound 0.25:pound -:pound 0.375:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.125 | 0.25=(0.375-x) | 0.25 0.375 x - = | 0.25:pound 0.375:pound x:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.125 | x=(0.375-0.25) | x 0.375 0.25 - = | x:pound 0.375:pound 0.25:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.125 | (0.25+x)=0.375 | 0.25 x + 0.375 = | 0.25:pound x:pound +:pound 0.375:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.125 | (x+0.25)=0.375 | x 0.25 + 0.375 = | x:pound 0.25:pound +:pound 0.375:pound =:pound
+EXPR: 1 | POS | FRA | 2 | 0.625 | 0.625 | 0.25=(x-0.375) | 0.25 x 0.375 - = | 0.25:pound x:pound 0.375:pound -:pound =:pound
+EXPR: 0 | POS | FRA | 2 | 0.625 | 0.125 | (0.375-0.25)=x | 0.375 0.25 - x = | 0.375:pound 0.25:pound -:pound x:pound =:pound
+EXPR: 0 | POS | FRA | 4 | 0.625 | 0.125 | (0.375-x)=0.25 | 0.375 x - 0.25 = | 0.375:pound x:pound -:pound 0.25:pound =:pound
+EXPR: 1 | POS | FRA | 4 | 0.625 | 0.625 | 0.375=(x-0.25) | 0.375 x 0.25 - = | 0.375:pound x:pound 0.25:pound -:pound =:pound
+EXPR: 1 | POS | FRA | 4 | 0.625 | 0.625 | (x-0.375)=0.25 | x 0.375 - 0.25 = | x:pound 0.375:pound -:pound 0.25:pound =:pound
+EXPR: 0 | POS | FRA | 4 | 0.625 | 0.125 | 0.375=(x+0.25) | 0.375 x 0.25 + = | 0.375:pound x:pound 0.25:pound +:pound =:pound
+EXPR: 0 | POS | FRA | 4 | 0.625 | 0.125 | 0.375=(0.25+x) | 0.375 0.25 x + = | 0.375:pound 0.25:pound x:pound +:pound =:pound
+NET 14 unique, non-negative solutions found out of 28 total solutions

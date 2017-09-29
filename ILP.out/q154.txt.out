@@ -1,32 +1,40 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 2 | 20 | 5 | 95=(x*19) | 95 x 19 * = | 95:seat x:UNKNOWN 19:seat *:seat =:seat
-EXPR: 0 | POS | INT | 2 | 20 | 5 | 95=(19*x) | 95 19 x * = | 95:seat 19:seat x:UNKNOWN *:seat =:seat
-EXPR: 0 | POS | INT | 2 | 20 | 5 | (95/x)=19 | 95 x / 19 = | 95:seat x:UNKNOWN /:seat 19:seat =:seat
-EXPR: 0 | POS | INT | 4 | 20 | 5 | (x*19)=95 | x 19 * 95 = | x:UNKNOWN 19:seat *:seat 95:seat =:seat
-EXPR: 0 | POS | INT | 4 | 20 | 5 | (19*x)=95 | 19 x * 95 = | 19:seat x:UNKNOWN *:seat 95:seat =:seat
-EXPR: 0 | POS | INT | 4 | 20 | 5 | 19=(95/x) | 19 95 x / = | 19:seat 95:seat x:UNKNOWN /:seat =:seat
-EXPR: 0 | POS | INT | 10 | 20 | 114 | x=(95+19) | x 95 19 + = | x:seat 95:seat 19:seat +:seat =:seat
-EXPR: 0 | POS | INT | 10 | 20 | 1805 | x=(95*19) | x 95 19 * = | x:UNKNOWN 95:seat 19:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 76 | (95-19)=x | 95 19 - x = | 95:seat 19:seat -:seat x:seat =:seat
-EXPR: 0 | POS | INT | 10 | 20 | 1805 | (95*19)=x | 95 19 * x = | 95:seat 19:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 76 | x=(95-19) | x 95 19 - = | x:seat 95:seat 19:seat -:seat =:seat
-EXPR: 0 | POS | INT | 10 | 20 | 5 | x=(95/19) | x 95 19 / = | x:UNKNOWN 95:UNKNOWN 19:seat /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 20 | 114 | (95+19)=x | 95 19 + x = | 95:seat 19:seat +:seat x:seat =:seat
-EXPR: 0 | POS | INT | 10 | 20 | 5 | (95/19)=x | 95 19 / x = | 95:UNKNOWN 19:seat /:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 76 | (95-x)=19 | 95 x - 19 = | 95:seat x:seat -:seat 19:seat =:seat
-EXPR: 0 | POS | INT | 12 | 20 | 76 | 95=(19+x) | 95 19 x + = | 95:seat 19:seat x:seat +:seat =:seat
-EXPR: 0 | POS | INT | 12 | 20 | 1805 | (x/95)=19 | x 95 / 19 = | x:UNKNOWN 95:seat /:UNKNOWN 19:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 20 | 114 | (x-95)=19 | x 95 - 19 = | x:seat 95:seat -:seat 19:seat =:seat
-EXPR: 0 | POS | INT | 12 | 20 | 114 | 95=(x-19) | 95 x 19 - = | 95:seat x:seat 19:seat -:seat =:seat
-EXPR: 0 | POS | INT | 12 | 20 | 76 | 95=(x+19) | 95 x 19 + = | 95:seat x:seat 19:seat +:seat =:seat
-EXPR: 0 | POS | INT | 12 | 20 | 1805 | 95=(x/19) | 95 x 19 / = | 95:UNKNOWN x:UNKNOWN 19:seat /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 114 | (x-19)=95 | x 19 - 95 = | x:seat 19:seat -:seat 95:seat =:seat
-EXPR: 0 | POS | INT | 14 | 20 | 1805 | 19=(x/95) | 19 x 95 / = | 19:UNKNOWN x:UNKNOWN 95:seat /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 76 | (x+19)=95 | x 19 + 95 = | x:seat 19:seat +:seat 95:seat =:seat
-EXPR: 0 | POS | INT | 14 | 20 | 1805 | (x/19)=95 | x 19 / 95 = | x:UNKNOWN 19:seat /:UNKNOWN 95:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 20 | 76 | 19=(95-x) | 19 95 x - = | 19:seat 95:seat x:seat -:seat =:seat
-EXPR: 0 | POS | INT | 14 | 20 | 76 | (19+x)=95 | 19 x + 95 = | 19:seat x:seat +:seat 95:seat =:seat
-EXPR: 0 | POS | INT | 14 | 20 | 114 | 19=(x-95) | 19 x 95 - = | 19:seat x:seat 95:seat -:seat =:seat
-NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 10 | 85 | 17 | (68*0.25)=x | 68 0.25 * x = | 68:foot 0.25:depth *:depth x:depth =:depth
+EXPR: 0 | POS | INT | 10 | 85 | 272 | (68/0.25)=x | 68 0.25 / x = | 68:depth 0.25:lake /:depth x:depth =:depth
+EXPR: 0 | POS | INT | 10 | 85 | 17 | x=(68*0.25) | x 68 0.25 * = | x:foot 68:foot 0.25:lake *:foot =:foot
+EXPR: 0 | POS | INT | 10 | 85 | 272 | x=(68/0.25) | x 68 0.25 / = | x:depth 68:depth 0.25:lake /:depth =:depth
+EXPR: 0 | POS | FRA | 12 | 85 | 0.00367647058823529 | (68*x)=0.25 | 68 x * 0.25 = | 68:foot x:lake *:lake 0.25:lake =:lake
+EXPR: 0 | POS | FRA | 12 | 85 | 0.00367647058823529 | x=(0.25/68) | x 0.25 68 / = | x:lake 0.25:lake 68:foot /:lake =:lake
+EXPR: 0 | POS | FRA | 12 | 85 | 0.00367647058823529 | 68=(0.25/x) | 68 0.25 x / = | 68:lake 0.25:lake x:depth /:lake =:lake
+EXPR: 0 | POS | INT | 12 | 85 | 272 | 68=(0.25*x) | 68 0.25 x * = | 68:depth 0.25:lake x:depth *:depth =:depth
+EXPR: 0 | POS | INT | 12 | 85 | 272 | (68/x)=0.25 | 68 x / 0.25 = | 68:lake x:depth /:lake 0.25:lake =:lake
+EXPR: 0 | POS | INT | 12 | 85 | 272 | 68=(x*0.25) | 68 x 0.25 * = | 68:depth x:depth 0.25:lake *:depth =:depth
+EXPR: 0 | POS | INT | 12 | 85 | 17 | 68=(x/0.25) | 68 x 0.25 / = | 68:depth x:depth 0.25:lake /:depth =:depth
+EXPR: 0 | POS | FRA | 12 | 85 | 0.00367647058823529 | (x*68)=0.25 | x 68 * 0.25 = | x:depth 68:lake *:lake 0.25:lake =:lake
+EXPR: 0 | POS | INT | 12 | 85 | 17 | (x/68)=0.25 | x 68 / 0.25 = | x:depth 68:foot /:depth 0.25:depth =:depth
+EXPR: 0 | POS | FRA | 12 | 85 | 0.00367647058823529 | (0.25/68)=x | 0.25 68 / x = | 0.25:depth 68:foot /:depth x:depth =:depth
+EXPR: 0 | POS | FRA | 14 | 85 | 0.00367647058823529 | (0.25/x)=68 | 0.25 x / 68 = | 0.25:foot x:depth /:foot 68:foot =:foot
+EXPR: 0 | POS | INT | 14 | 85 | 272 | (0.25*x)=68 | 0.25 x * 68 = | 0.25:foot x:depth *:foot 68:foot =:foot
+EXPR: 0 | POS | INT | 14 | 85 | 17 | (x/0.25)=68 | x 0.25 / 68 = | x:foot 0.25:lake /:foot 68:foot =:foot
+EXPR: 0 | POS | INT | 14 | 85 | 272 | (x*0.25)=68 | x 0.25 * 68 = | x:foot 0.25:lake *:foot 68:foot =:foot
+EXPR: 0 | POS | FRA | 14 | 85 | 0.00367647058823529 | 0.25=(68*x) | 0.25 68 x * = | 0.25:lake 68:foot x:lake *:lake =:lake
+EXPR: 0 | POS | FRA | 14 | 85 | 0.00367647058823529 | 0.25=(x*68) | 0.25 x 68 * = | 0.25:lake x:depth 68:lake *:lake =:lake
+EXPR: 0 | POS | INT | 14 | 85 | 17 | 0.25=(x/68) | 0.25 x 68 / = | 0.25:depth x:depth 68:foot /:depth =:depth
+EXPR: 0 | POS | INT | 14 | 85 | 272 | 0.25=(68/x) | 0.25 68 x / = | 0.25:foot 68:foot x:depth /:foot =:foot
+EXPR: 0 | POS | FRA | 20 | 85 | 68.25 | x=(68+0.25) | x 68 0.25 + = | x:foot 68:foot 0.25:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 20 | 85 | 67.75 | x=(68-0.25) | x 68 0.25 - = | x:depth 68:depth 0.25:depth -:depth =:depth
+EXPR: 0 | POS | FRA | 20 | 85 | 68.25 | (68+0.25)=x | 68 0.25 + x = | 68:foot 0.25:foot +:foot x:foot =:foot
+EXPR: 0 | POS | FRA | 20 | 85 | 67.75 | (68-0.25)=x | 68 0.25 - x = | 68:depth 0.25:depth -:depth x:depth =:depth
+EXPR: 0 | POS | FRA | 22 | 85 | 68.25 | 68=(x-0.25) | 68 x 0.25 - = | 68:foot x:foot 0.25:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 22 | 85 | 67.75 | 68=(x+0.25) | 68 x 0.25 + = | 68:foot x:foot 0.25:foot +:foot =:foot
+EXPR: 0 | POS | FRA | 22 | 85 | 68.25 | (x-68)=0.25 | x 68 - 0.25 = | x:lake 68:lake -:lake 0.25:lake =:lake
+EXPR: 0 | POS | FRA | 22 | 85 | 67.75 | (68-x)=0.25 | 68 x - 0.25 = | 68:foot x:foot -:foot 0.25:foot =:foot
+EXPR: 0 | POS | FRA | 22 | 85 | 67.75 | 68=(0.25+x) | 68 0.25 x + = | 68:depth 0.25:depth x:depth +:depth =:depth
+EXPR: 0 | POS | FRA | 24 | 85 | 67.75 | (0.25+x)=68 | 0.25 x + 68 = | 0.25:depth x:depth +:depth 68:depth =:depth
+EXPR: 0 | POS | FRA | 24 | 85 | 68.25 | (x-0.25)=68 | x 0.25 - 68 = | x:foot 0.25:foot -:foot 68:foot =:foot
+EXPR: 0 | POS | FRA | 24 | 85 | 67.75 | (x+0.25)=68 | x 0.25 + 68 = | x:depth 0.25:depth +:depth 68:depth =:depth
+EXPR: 0 | POS | FRA | 24 | 85 | 67.75 | 0.25=(68-x) | 0.25 68 x - = | 0.25:foot 68:foot x:foot -:foot =:foot
+EXPR: 0 | POS | FRA | 24 | 85 | 68.25 | 0.25=(x-68) | 0.25 x 68 - = | 0.25:foot x:foot 68:foot -:foot =:foot
+NET 36 unique, non-negative solutions found out of 324 total solutions

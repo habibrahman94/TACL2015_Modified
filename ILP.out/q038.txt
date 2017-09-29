@@ -1,5 +1,5 @@
-quantities : 42 70 x
-types : "worksheet" "question" "UNKNOWN"
+quantities : 64 0.75 x
+types : "pizza" "cafeteria" "mushroom"
 operators : + - * / =
 n : 5
-answer : 60.0
+answer : 48.0

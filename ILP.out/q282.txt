@@ -1,5 +1,0 @@
-quantities : 20 x 5
-types : "mile" "mile" "gallon"
-operators : + - * / =
-n : 5
-answer : 100.0

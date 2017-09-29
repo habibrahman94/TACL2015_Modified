@@ -1,5 +1,5 @@
-quantities : 10 0.9 x
-types : "problem" "time" "problem"
+quantities : 80 0.9 x
+types : "sandwich" "cafeteria" "sandwich"
 operators : + - * / =
 n : 5
-answer : 9.0
+answer : 72.0

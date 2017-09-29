@@ -1,5 +1,0 @@
-quantities : 20 0.55 x
-types : "painter" "time" "painter"
-operators : + - * / =
-n : 5
-answer : 11.0

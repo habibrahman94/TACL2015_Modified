@@ -82,3 +82,10 @@ for i in {0..4}; do ./runone_LR.sh $i ; done
 ##rm -rf /path/to/directory/*
 ##to remove all the "files" from inside a folder(not removing interior folders):
 ##rm -f /path/to/directory/*
+
+
+
+##########################################
+##Running runone_LR.sh with Multiple Lb, Gb Values as my Equation
+#for j in {0..11}; do for i in {0..4}; do ./runone_LR.sh $i $j; done && cd results && python FileReader.py && cd ..; done
+

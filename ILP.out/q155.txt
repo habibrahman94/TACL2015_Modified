@@ -1,5 +1,5 @@
-quantities : 80 56 x
-types : "special" "special" "UNKNOWN"
+quantities : 65 0.2 x
+types : "dollar" "time" "time"
 operators : + - * / =
 n : 5
-answer : 70.0
+answer : 78.0

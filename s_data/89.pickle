@@ -12,7 +12,7 @@ aI4
 aI3
 aI5
 aa(lp7
-V70 seats on a train
+V78 seats on a train
 p8
 aI0
 aI3
@@ -40,11 +40,11 @@ p15
 (dp17
 Vparsetree
 p18
-V(ROOT (S (NP (EX There)) (VP (VBP are) (NP (NP (CD 70) (NNS seats)) (PP (IN on) (NP (DT a) (NN train))))) (. .)))
+V(ROOT (S (NP (EX There)) (VP (VBP are) (NP (NP (CD 78) (NNS seats)) (PP (IN on) (NP (DT a) (NN train))))) (. .)))
 p19
 sVtext
 p20
-VThere are 70 seats on a train .
+VThere are 78 seats on a train .
 p21
 sVdependencies
 p22
@@ -68,7 +68,7 @@ Vnum
 p33
 aVseats
 p34
-aV70
+aV78
 p35
 aa(lp36
 Vnsubj
@@ -142,16 +142,16 @@ p73
 Vbe
 p74
 saa(lp75
-V70
+V78
 p76
 a(dp77
 VNormalizedNamedEntityTag
 p78
-V70.0
+V78.0
 p79
 sVLemma
 p80
-V70
+V78
 p81
 sVCharacterOffsetEnd
 p82
@@ -302,7 +302,7 @@ Vnum
 p157
 aVseats-4
 p158
-aV70-3
+aV78-3
 p159
 aa(lp160
 Vnsubj
@@ -328,11 +328,11 @@ p171
 aasa(dp172
 Vparsetree
 p173
-V(ROOT (S (NP (NP (CD 0.8) (NNS times)) (PP (IN of) (NP (DT the) (NNS seats)))) (VP (VBP are) (ADJP (JJ empty))) (. .)))
+V(ROOT (S (NP (NP (CD 0.5) (NNS times)) (PP (IN of) (NP (DT the) (NNS seats)))) (VP (VBP are) (ADJP (JJ empty))) (. .)))
 p174
 sVtext
 p175
-V0.8 times of the seats are empty .
+V0.5 times of the seats are empty .
 p176
 sVdependencies
 p177
@@ -349,7 +349,7 @@ Vnum
 p184
 aVtimes
 p185
-aV0.8
+aV0.5
 p186
 aa(lp187
 Vnsubj
@@ -383,16 +383,16 @@ aasVwords
 p203
 (lp204
 (lp205
-V0.8
+V0.5
 p206
 a(dp207
 VNormalizedNamedEntityTag
 p208
-V0.8
+V0.5
 p209
 sVLemma
 p210
-V0.8
+V0.5
 p211
 sVCharacterOffsetEnd
 p212
@@ -583,7 +583,7 @@ Vnum
 p308
 aVtimes-2
 p309
-aV0.8-1
+aV0.5-1
 p310
 aa(lp311
 Vnsubj

@@ -1,24 +1,40 @@
 parameters: n=5 l=2 k=1 p=5 q=2 m=8
 TOTAL 136 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 10 | 70 | 136 | x=(80+56) | x 80 56 + = | x:special 80:special 56:special +:special =:special
-EXPR: 0 | POS | INT | 10 | 70 | 4480 | x=(80*56) | x 80 56 * = | x:UNKNOWN 80:special 56:UNKNOWN *:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 70 | 24 | (80-56)=x | 80 56 - x = | 80:special 56:special -:special x:special =:special
-EXPR: 0 | POS | INT | 10 | 70 | 4480 | (80*56)=x | 80 56 * x = | 80:special 56:UNKNOWN *:UNKNOWN x:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 10 | 70 | 24 | x=(80-56) | x 80 56 - = | x:special 80:special 56:special -:special =:special
-EXPR: 0 | POS | INT | 10 | 70 | 136 | (80+56)=x | 80 56 + x = | 80:special 56:special +:special x:special =:special
-EXPR: 0 | POS | INT | 12 | 70 | 24 | (80-x)=56 | 80 x - 56 = | 80:special x:special -:special 56:special =:special
-EXPR: 0 | POS | INT | 12 | 70 | 24 | 80=(56+x) | 80 56 x + = | 80:special 56:special x:special +:special =:special
-EXPR: 0 | POS | INT | 12 | 70 | 4480 | (x/80)=56 | x 80 / 56 = | x:UNKNOWN 80:special /:UNKNOWN 56:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 12 | 70 | 136 | (x-80)=56 | x 80 - 56 = | x:special 80:special -:special 56:special =:special
-EXPR: 0 | POS | INT | 12 | 70 | 136 | 80=(x-56) | 80 x 56 - = | 80:special x:special 56:special -:special =:special
-EXPR: 0 | POS | INT | 12 | 70 | 24 | 80=(x+56) | 80 x 56 + = | 80:special x:special 56:special +:special =:special
-EXPR: 0 | POS | INT | 12 | 70 | 4480 | 80=(x/56) | 80 x 56 / = | 80:UNKNOWN x:UNKNOWN 56:special /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 70 | 136 | (x-56)=80 | x 56 - 80 = | x:special 56:special -:special 80:special =:special
-EXPR: 0 | POS | INT | 14 | 70 | 4480 | 56=(x/80) | 56 x 80 / = | 56:UNKNOWN x:UNKNOWN 80:special /:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 70 | 24 | (x+56)=80 | x 56 + 80 = | x:special 56:special +:special 80:special =:special
-EXPR: 0 | POS | INT | 14 | 70 | 4480 | (x/56)=80 | x 56 / 80 = | x:UNKNOWN 56:special /:UNKNOWN 80:UNKNOWN =:UNKNOWN
-EXPR: 0 | POS | INT | 14 | 70 | 24 | 56=(80-x) | 56 80 x - = | 56:special 80:special x:special -:special =:special
-EXPR: 0 | POS | INT | 14 | 70 | 24 | (56+x)=80 | 56 x + 80 = | 56:special x:special +:special 80:special =:special
-EXPR: 0 | POS | INT | 14 | 70 | 136 | 56=(x-80) | 56 x 80 - = | 56:special x:special 80:special -:special =:special
-NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions
+EXPR: 0 | POS | INT | 0 | 78 | 13 | x=(65*0.2) | x 65 0.2 * = | x:time 65:dollar 0.2:time *:time =:time
+EXPR: 0 | POS | INT | 0 | 78 | 13 | (65*0.2)=x | 65 0.2 * x = | 65:dollar 0.2:time *:time x:time =:time
+EXPR: 0 | POS | FRA | 2 | 78 | 0.00307692307692308 | (0.2/65)=x | 0.2 65 / x = | 0.2:time 65:dollar /:time x:time =:time
+EXPR: 0 | POS | FRA | 2 | 78 | 0.00307692307692308 | (65*x)=0.2 | 65 x * 0.2 = | 65:dollar x:time *:time 0.2:time =:time
+EXPR: 0 | POS | INT | 2 | 78 | 13 | (x/65)=0.2 | x 65 / 0.2 = | x:time 65:dollar /:time 0.2:time =:time
+EXPR: 0 | POS | FRA | 2 | 78 | 0.00307692307692308 | (x*65)=0.2 | x 65 * 0.2 = | x:time 65:dollar *:time 0.2:time =:time
+EXPR: 0 | POS | FRA | 2 | 78 | 0.00307692307692308 | x=(0.2/65) | x 0.2 65 / = | x:time 0.2:time 65:dollar /:time =:time
+EXPR: 0 | POS | FRA | 4 | 78 | 0.00307692307692308 | 0.2=(x*65) | 0.2 x 65 * = | 0.2:time x:time 65:dollar *:time =:time
+EXPR: 0 | POS | FRA | 4 | 78 | 0.00307692307692308 | 0.2=(65*x) | 0.2 65 x * = | 0.2:time 65:dollar x:time *:time =:time
+EXPR: 0 | POS | INT | 4 | 78 | 13 | 0.2=(x/65) | 0.2 x 65 / = | 0.2:time x:time 65:dollar /:time =:time
+EXPR: 0 | POS | INT | 10 | 78 | 325 | (65/0.2)=x | 65 0.2 / x = | 65:dollar 0.2:time /:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 78 | 64.8 | (65-0.2)=x | 65 0.2 - x = | 65:time 0.2:time -:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 78 | 65.2 | (65+0.2)=x | 65 0.2 + x = | 65:time 0.2:time +:time x:time =:time
+EXPR: 0 | POS | FRA | 10 | 78 | 65.2 | x=(65+0.2) | x 65 0.2 + = | x:time 65:time 0.2:time +:time =:time
+EXPR: 0 | POS | INT | 10 | 78 | 325 | x=(65/0.2) | x 65 0.2 / = | x:dollar 65:dollar 0.2:time /:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 78 | 64.8 | x=(65-0.2) | x 65 0.2 - = | x:time 65:time 0.2:time -:time =:time
+EXPR: 0 | POS | INT | 12 | 78 | 325 | 65=(x*0.2) | 65 x 0.2 * = | 65:dollar x:dollar 0.2:time *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 78 | 0.00307692307692308 | 65=(0.2/x) | 65 0.2 x / = | 65:dollar 0.2:dollar x:time /:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 78 | 65.2 | (x-65)=0.2 | x 65 - 0.2 = | x:time 65:time -:time 0.2:time =:time
+EXPR: 0 | POS | INT | 12 | 78 | 325 | (65/x)=0.2 | 65 x / 0.2 = | 65:dollar x:time /:dollar 0.2:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 78 | 325 | 65=(0.2*x) | 65 0.2 x * = | 65:dollar 0.2:dollar x:time *:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 78 | 64.8 | 65=(x+0.2) | 65 x 0.2 + = | 65:time x:time 0.2:time +:time =:time
+EXPR: 0 | POS | FRA | 12 | 78 | 64.8 | (65-x)=0.2 | 65 x - 0.2 = | 65:time x:time -:time 0.2:time =:time
+EXPR: 0 | POS | FRA | 12 | 78 | 64.8 | 65=(0.2+x) | 65 0.2 x + = | 65:time 0.2:time x:time +:time =:time
+EXPR: 0 | POS | FRA | 12 | 78 | 65.2 | 65=(x-0.2) | 65 x 0.2 - = | 65:time x:time 0.2:time -:time =:time
+EXPR: 0 | POS | INT | 12 | 78 | 13 | 65=(x/0.2) | 65 x 0.2 / = | 65:dollar x:dollar 0.2:time /:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 78 | 0.00307692307692308 | (0.2/x)=65 | 0.2 x / 65 = | 0.2:dollar x:time /:dollar 65:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 78 | 13 | (x/0.2)=65 | x 0.2 / 65 = | x:dollar 0.2:time /:dollar 65:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 78 | 325 | 0.2=(65/x) | 0.2 65 x / = | 0.2:dollar 65:dollar x:time /:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 78 | 64.8 | (0.2+x)=65 | 0.2 x + 65 = | 0.2:time x:time +:time 65:time =:time
+EXPR: 0 | POS | INT | 14 | 78 | 325 | (0.2*x)=65 | 0.2 x * 65 = | 0.2:dollar x:time *:dollar 65:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 78 | 64.8 | 0.2=(65-x) | 0.2 65 x - = | 0.2:time 65:time x:time -:time =:time
+EXPR: 0 | POS | INT | 14 | 78 | 325 | (x*0.2)=65 | x 0.2 * 65 = | x:time 0.2:dollar *:dollar 65:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 78 | 65.2 | (x-0.2)=65 | x 0.2 - 65 = | x:time 0.2:time -:time 65:time =:time
+EXPR: 0 | POS | FRA | 14 | 78 | 64.8 | (x+0.2)=65 | x 0.2 + 65 = | x:time 0.2:time +:time 65:time =:time
+EXPR: 0 | POS | FRA | 14 | 78 | 65.2 | 0.2=(x-65) | 0.2 x 65 - = | 0.2:time x:time 65:time -:time =:time
+NET 36 unique, non-negative solutions found out of 136 total solutions

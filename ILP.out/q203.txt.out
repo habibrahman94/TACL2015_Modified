@@ -1,40 +1,18 @@
-parameters: n=5 l=2 k=1 p=5 q=2 m=8
-TOTAL 136 solutions found
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
 SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
-EXPR: 0 | POS | INT | 0 | 6792 | 42450 | x=(8490/0.2) | x 8490 0.2 / = | x:picture 8490:picture 0.2:Frames /:picture =:picture
-EXPR: 0 | POS | INT | 0 | 6792 | 1698 | (8490*0.2)=x | 8490 0.2 * x = | 8490:picture 0.2:Frames *:picture x:picture =:picture
-EXPR: 0 | POS | INT | 0 | 6792 | 1698 | x=(8490*0.2) | x 8490 0.2 * = | x:picture 8490:picture 0.2:Frames *:picture =:picture
-EXPR: 0 | POS | INT | 0 | 6792 | 42450 | (8490/0.2)=x | 8490 0.2 / x = | 8490:picture 0.2:Frames /:picture x:picture =:picture
-EXPR: 0 | POS | INT | 2 | 6792 | 1698 | 8490=(x/0.2) | 8490 x 0.2 / = | 8490:picture x:picture 0.2:Frames /:picture =:picture
-EXPR: 0 | POS | INT | 2 | 6792 | 42450 | 8490=(x*0.2) | 8490 x 0.2 * = | 8490:picture x:picture 0.2:Frames *:picture =:picture
-EXPR: 0 | POS | INT | 2 | 6792 | 42450 | 8490=(0.2*x) | 8490 0.2 x * = | 8490:picture 0.2:Frames x:picture *:picture =:picture
-EXPR: 0 | POS | INT | 4 | 6792 | 42450 | (0.2*x)=8490 | 0.2 x * 8490 = | 0.2:Frames x:picture *:picture 8490:picture =:picture
-EXPR: 0 | POS | INT | 4 | 6792 | 42450 | (x*0.2)=8490 | x 0.2 * 8490 = | x:picture 0.2:Frames *:picture 8490:picture =:picture
-EXPR: 0 | POS | INT | 4 | 6792 | 1698 | (x/0.2)=8490 | x 0.2 / 8490 = | x:picture 0.2:Frames /:picture 8490:picture =:picture
-EXPR: 0 | POS | FRA | 10 | 6792 | 8490.2 | (8490+0.2)=x | 8490 0.2 + x = | 8490:picture 0.2:picture +:picture x:picture =:picture
-EXPR: 0 | POS | FRA | 10 | 6792 | 8490.2 | x=(8490+0.2) | x 8490 0.2 + = | x:picture 8490:picture 0.2:picture +:picture =:picture
-EXPR: 0 | POS | FRA | 10 | 6792 | 8489.8 | (8490-0.2)=x | 8490 0.2 - x = | 8490:picture 0.2:picture -:picture x:picture =:picture
-EXPR: 0 | POS | FRA | 10 | 6792 | 8489.8 | x=(8490-0.2) | x 8490 0.2 - = | x:picture 8490:picture 0.2:picture -:picture =:picture
-EXPR: 0 | POS | FRA | 12 | 6792 | 8489.8 | 8490=(x+0.2) | 8490 x 0.2 + = | 8490:picture x:picture 0.2:picture +:picture =:picture
-EXPR: 0 | POS | FRA | 12 | 6792 | 2.35571260306243e-5 | 8490=(0.2/x) | 8490 0.2 x / = | 8490:Frames 0.2:Frames x:picture /:Frames =:Frames
-EXPR: 0 | POS | FRA | 12 | 6792 | 2.35571260306243e-5 | (x*8490)=0.2 | x 8490 * 0.2 = | x:picture 8490:Frames *:Frames 0.2:Frames =:Frames
-EXPR: 0 | POS | INT | 12 | 6792 | 42450 | (8490/x)=0.2 | 8490 x / 0.2 = | 8490:Frames x:picture /:Frames 0.2:Frames =:Frames
-EXPR: 0 | POS | FRA | 12 | 6792 | 2.35571260306243e-5 | x=(0.2/8490) | x 0.2 8490 / = | x:Frames 0.2:Frames 8490:picture /:Frames =:Frames
-EXPR: 0 | POS | FRA | 12 | 6792 | 8490.2 | 8490=(x-0.2) | 8490 x 0.2 - = | 8490:picture x:picture 0.2:picture -:picture =:picture
-EXPR: 0 | POS | FRA | 12 | 6792 | 2.35571260306243e-5 | (0.2/8490)=x | 0.2 8490 / x = | 0.2:Frames 8490:picture /:Frames x:Frames =:Frames
-EXPR: 0 | POS | FRA | 12 | 6792 | 2.35571260306243e-5 | (8490*x)=0.2 | 8490 x * 0.2 = | 8490:Frames x:picture *:Frames 0.2:Frames =:Frames
-EXPR: 0 | POS | FRA | 12 | 6792 | 8490.2 | (x-8490)=0.2 | x 8490 - 0.2 = | x:picture 8490:picture -:picture 0.2:picture =:picture
-EXPR: 0 | POS | FRA | 12 | 6792 | 8489.8 | (8490-x)=0.2 | 8490 x - 0.2 = | 8490:picture x:picture -:picture 0.2:picture =:picture
-EXPR: 0 | POS | INT | 12 | 6792 | 1698 | (x/8490)=0.2 | x 8490 / 0.2 = | x:Frames 8490:picture /:Frames 0.2:Frames =:Frames
-EXPR: 0 | POS | FRA | 12 | 6792 | 8489.8 | 8490=(0.2+x) | 8490 0.2 x + = | 8490:picture 0.2:picture x:picture +:picture =:picture
-EXPR: 0 | POS | INT | 14 | 6792 | 1698 | 0.2=(x/8490) | 0.2 x 8490 / = | 0.2:Frames x:Frames 8490:picture /:Frames =:Frames
-EXPR: 0 | POS | INT | 14 | 6792 | 42450 | 0.2=(8490/x) | 0.2 8490 x / = | 0.2:Frames 8490:Frames x:picture /:Frames =:Frames
-EXPR: 0 | POS | FRA | 14 | 6792 | 8489.8 | (0.2+x)=8490 | 0.2 x + 8490 = | 0.2:picture x:picture +:picture 8490:picture =:picture
-EXPR: 0 | POS | FRA | 14 | 6792 | 8489.8 | (x+0.2)=8490 | x 0.2 + 8490 = | x:picture 0.2:picture +:picture 8490:picture =:picture
-EXPR: 0 | POS | FRA | 14 | 6792 | 2.35571260306243e-5 | 0.2=(8490*x) | 0.2 8490 x * = | 0.2:Frames 8490:picture x:Frames *:Frames =:Frames
-EXPR: 0 | POS | FRA | 14 | 6792 | 2.35571260306243e-5 | (0.2/x)=8490 | 0.2 x / 8490 = | 0.2:Frames x:picture /:Frames 8490:Frames =:Frames
-EXPR: 0 | POS | FRA | 14 | 6792 | 8489.8 | 0.2=(8490-x) | 0.2 8490 x - = | 0.2:picture 8490:picture x:picture -:picture =:picture
-EXPR: 0 | POS | FRA | 14 | 6792 | 8490.2 | 0.2=(x-8490) | 0.2 x 8490 - = | 0.2:picture x:picture 8490:picture -:picture =:picture
-EXPR: 0 | POS | FRA | 14 | 6792 | 2.35571260306243e-5 | 0.2=(x*8490) | 0.2 x 8490 * = | 0.2:Frames x:picture 8490:Frames *:Frames =:Frames
-EXPR: 0 | POS | FRA | 14 | 6792 | 8490.2 | (x-0.2)=8490 | x 0.2 - 8490 = | x:picture 0.2:picture -:picture 8490:picture =:picture
-NET 36 unique, non-negative solutions found out of 136 total solutions
+EXPR: 1 | POS | FRA | 0 | 0.166667 | 0.166666666666667 | (0.6666666666666666-0.5)=x | 0.6666666666666666 0.5 - x = | 0.6666666666666666:tablespoon 0.5:tablespoon -:tablespoon x:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 0 | 0.166667 | 0.166666666666667 | x=(0.6666666666666666-0.5) | x 0.6666666666666666 0.5 - = | x:tablespoon 0.6666666666666666:tablespoon 0.5:tablespoon -:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 0 | 0.166667 | 1.16666666666667 | (0.6666666666666666+0.5)=x | 0.6666666666666666 0.5 + x = | 0.6666666666666666:tablespoon 0.5:tablespoon +:tablespoon x:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 0 | 0.166667 | 1.16666666666667 | x=(0.6666666666666666+0.5) | x 0.6666666666666666 0.5 + = | x:tablespoon 0.6666666666666666:tablespoon 0.5:tablespoon +:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 2 | 0.166667 | 1.16666666666667 | (x-0.6666666666666666)=0.5 | x 0.6666666666666666 - 0.5 = | x:tablespoon 0.6666666666666666:tablespoon -:tablespoon 0.5:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 2 | 0.166667 | 0.166666666666667 | (0.6666666666666666-x)=0.5 | 0.6666666666666666 x - 0.5 = | 0.6666666666666666:tablespoon x:tablespoon -:tablespoon 0.5:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 2 | 0.166667 | 0.166666666666667 | 0.6666666666666666=(x+0.5) | 0.6666666666666666 x 0.5 + = | 0.6666666666666666:tablespoon x:tablespoon 0.5:tablespoon +:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 2 | 0.166667 | 1.16666666666667 | 0.6666666666666666=(x-0.5) | 0.6666666666666666 x 0.5 - = | 0.6666666666666666:tablespoon x:tablespoon 0.5:tablespoon -:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 2 | 0.166667 | 0.166666666666667 | 0.6666666666666666=(0.5+x) | 0.6666666666666666 0.5 x + = | 0.6666666666666666:tablespoon 0.5:tablespoon x:tablespoon +:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 4 | 0.166667 | 1.16666666666667 | 0.5=(x-0.6666666666666666) | 0.5 x 0.6666666666666666 - = | 0.5:tablespoon x:tablespoon 0.6666666666666666:tablespoon -:tablespoon =:tablespoon
+EXPR: 0 | POS | FRA | 4 | 0.166667 | 1.16666666666667 | (x-0.5)=0.6666666666666666 | x 0.5 - 0.6666666666666666 = | x:tablespoon 0.5:tablespoon -:tablespoon 0.6666666666666666:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 4 | 0.166667 | 0.166666666666667 | (0.5+x)=0.6666666666666666 | 0.5 x + 0.6666666666666666 = | 0.5:tablespoon x:tablespoon +:tablespoon 0.6666666666666666:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 4 | 0.166667 | 0.166666666666667 | (x+0.5)=0.6666666666666666 | x 0.5 + 0.6666666666666666 = | x:tablespoon 0.5:tablespoon +:tablespoon 0.6666666666666666:tablespoon =:tablespoon
+EXPR: 1 | POS | FRA | 4 | 0.166667 | 0.166666666666667 | 0.5=(0.6666666666666666-x) | 0.5 0.6666666666666666 x - = | 0.5:tablespoon 0.6666666666666666:tablespoon x:tablespoon -:tablespoon =:tablespoon
+NET 14 unique, non-negative solutions found out of 28 total solutions
